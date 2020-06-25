@@ -1007,25 +1007,25 @@ static void SleepProcess( void )
             {
               //FLib_MemCpy( SendDataBuffer, mTermParam.SendData, strlen((char*)mTermParam.SendData) );
               
-              uint32_t val=0;
-              uint8_t send_data[3];
+              uint32_t val;
+              uint8_t send_data[4];
               
               ADC16_ReInit();
               TriggerADC(2);
               val = ReadADCPoll();
               
-              send_data[0] = val & 0x000000ff;
-              send_data[1] =(val & 0x0000ff00)>>4;
-              send_data[2] =(val & 0x00ff0000)>>6;
-              
-              Terminal_PrintHex(send_data,3,0);
-              Terminal_Print( "\r\n" );
+              send_data[0] = val & 0x0000000000FF;
+              send_data[1] =(val & 0x00000000FF00)>>8;
+              send_data[2] = 0;
+              send_data[3] = 0;
               
               FLib_MemCpy( SendDataBuffer, send_data , strlen((char*)send_data) );
-              SendPacketProcess( strlen((char*)send_data) );
-              //SendPacketProcess( strlen((char*)mTermParam.SendData) );
+              SendPacketProcess( strlen((char*)mTermParam.SendData) );
                 
-               
+              //Terminal_PrintDec(val);
+              //Terminal_Print( "\r\n" );
+                
+              SendPacketProcess( strlen((char*)mTermParam.SendData) );
             }
         }
         else if( INT_WAKEUP == mTermParam.Sleep )
