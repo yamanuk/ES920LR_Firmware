@@ -224,6 +224,7 @@ typedef struct adc_cal
 
 // function prototypes:
 void ADC16_Init( void );
+void ADC16_ReInit( void );
 uint8_t ADC_Cal( ADC_MemMapPtr );
 void ADC_Config_Alt( ADC_MemMapPtr, tADC_ConfigPtr );
 void ADC_Read_Cal( ADC_MemMapPtr, tADC_Cal_Blk* );

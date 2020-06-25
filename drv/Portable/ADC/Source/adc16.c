@@ -28,7 +28,6 @@
 tADC_Config Master_Adc_Config;
 
 
-#if 0
 /************************************************************************************
 *
 * ADC16_Init
@@ -50,7 +49,7 @@ void ADC16_Init( void )
     Master_Adc_Config.CONFIG1  = ADLPC_LOW
                                | ADC_CFG1_ADIV(ADIV_1)
                                | ADLSMP_LONG
-                               | ADC_CFG1_MODE(MODE_16)
+                               | ADC_CFG1_MODE(MODE_12)
                                | ADC_CFG1_ADICLK(ADICLK_BUS);
 
     Master_Adc_Config.CONFIG2  = MUXSEL_ADCA
@@ -81,11 +80,35 @@ void ADC16_Init( void )
     // There really is no channel 31.
     Master_Adc_Config.STATUS1A = AIEN_OFF
                                | DIFF_SINGLE
-                               | ADC_SC1_ADCH(23);
+                               | ADC_SC1_ADCH(2);
 
     // config ADC
     ADC_Config_Alt( ADC0_BASE_PTR, &Master_Adc_Config );
 
+    // Calibrate the ADC in the configuration in which it will be used.
+    ADC_Cal( ADC0_BASE_PTR );                    // do the calibration
+
+    // The structure still has the desired configuration.  So restore it.
+    // Why restore it?  The calibration makes some adjustments to the
+    // configuration of the ADC.  The are now undone:
+
+    // config the ADC again to desired conditions
+    ADC_Config_Alt( ADC0_BASE_PTR, &Master_Adc_Config );
+}
+
+/************************************************************************************
+*
+* ADC16_ReInit
+*
+* Interface assumptions:
+*     None
+*
+* Return value:
+*     None
+*
+************************************************************************************/
+void ADC16_ReInit( void )
+{
     // Calibrate the ADC in the configuration in which it will be used.
     ADC_Cal( ADC0_BASE_PTR );                    // do the calibration
 
@@ -275,4 +298,3 @@ uint32_t ReadADCPoll( void )
 
     return( ADC0_RA );
 }
-#endif
