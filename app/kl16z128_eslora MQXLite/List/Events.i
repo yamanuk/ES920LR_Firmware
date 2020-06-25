@@ -1234,7 +1234,7 @@ __intrinsic __nounwind unsigned int __iar_builtin_TTT(unsigned int);
 __intrinsic __nounwind unsigned int __iar_builtin_TTA(unsigned int);
 __intrinsic __nounwind unsigned int __iar_builtin_TTAT(unsigned int);
 
-__intrinsic __nounwind unsigned int __get_LR(void);
+__intrinsic __nounwind unsigned int __get_LRl(void);
 __intrinsic __nounwind void __set_LR(unsigned int);
 
 __intrinsic __nounwind unsigned int __get_SP(void);
