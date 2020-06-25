@@ -1,0 +1,1047 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:58
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\Cpu.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW50BE.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\Cpu.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\Cpu.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\Cpu.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\Cpu.c
+      1          /* ###################################################################
+      2          **     THIS COMPONENT MODULE IS GENERATED BY THE TOOL. DO NOT MODIFY IT.
+      3          **     Filename    : Cpu.c
+      4          **     Project     : ProcessorExpert
+      5          **     Processor   : MKL26Z128VLL4
+      6          **     Component   : MKL26Z256LL4
+      7          **     Version     : Component 01.006, Driver 01.04, CPU db: 3.00.000
+      8          **     Datasheet   : KL26P121M48SF4RM, Rev.2, Dec 2012
+      9          **     Compiler    : IAR ARM C Compiler
+     10          **     Date/Time   : 2014-10-10, 12:09, # CodeGen: 152
+     11          **     Abstract    :
+     12          **
+     13          **     Settings    :
+     14          **
+     15          **     Contents    :
+     16          **         SetClockConfiguration - LDD_TError Cpu_SetClockConfiguration(LDD_TClockConfiguration ModeID);
+     17          **         GetClockConfiguration - LDD_TClockConfiguration Cpu_GetClockConfiguration(void);
+     18          **
+     19          **     Copyright : 1997 - 2013 Freescale Semiconductor, Inc. All Rights Reserved.
+     20          **     SOURCE DISTRIBUTION PERMISSIBLE as directed in End User License Agreement.
+     21          **
+     22          **     http      : www.freescale.com
+     23          **     mail      : support@freescale.com
+     24          ** ###################################################################*/
+     25          /*!
+     26          ** @file Cpu.c
+     27          ** @version 01.04
+     28          ** @brief
+     29          **
+     30          */
+     31          /*!
+     32          **  @addtogroup Cpu_module Cpu module documentation
+     33          **  @{
+     34          */
+     35          
+     36          /* MODULE Cpu. */
+     37          
+     38          /* MQX Lite include files */
+     39          #include "mqxlite.h"
+     40          #include "mqxlite_prv.h"
+     41          #include "MQXLite1.h"
+     42          #include "SystemTimer1.h"
+     43          #include "StackTimer.h"
+     44          #include "UARTA.h"
+     45          #include "UARTB.h"
+     46          #include "SPISlave.h"
+     47          #include "I2CDriver.h"
+     48          #include "DataAvailablePin.h"
+     49          #include "PitTimeStamp.h"
+     50          #include "RealTimeClock.h"
+     51          #include "LED1.h"
+     52          #include "LED2.h"
+     53          #include "PE_Types.h"
+     54          #include "PE_Error.h"
+     55          #include "PE_Const.h"
+     56          #include "IO_Map.h"
+     57          #include "Events.h"
+     58          #include "mqx_tasks.h"
+     59          #include "Cpu.h"
+     60          
+     61          #ifdef __cplusplus
+     62          extern "C" {
+     63          #endif
+     64          
+     65          /* Symbols representing MCG modes */
+     66          #define MCG_MODE_FEI                    0x00U
+     67          #define MCG_MODE_FBE                    0x01U
+     68          #define MCG_MODE_PBE                    0x02U
+     69          #define MCG_MODE_PEE                    0x03U
+     70          
+     71          static const uint8_t MCGTransitionMatrix[4][4] = {
+     72          /* This matrix defines which mode is next in the MCG Mode state diagram in transitioning from the
+     73             current mode to a target mode*/
+     74            {  MCG_MODE_FEI,  MCG_MODE_FBE,  MCG_MODE_FBE,  MCG_MODE_FBE}, /* FEI */
+     75            {  MCG_MODE_FEI,  MCG_MODE_FBE,  MCG_MODE_PBE,  MCG_MODE_PBE}, /* FBE */
+     76            {  MCG_MODE_FBE,  MCG_MODE_FBE,  MCG_MODE_PBE,  MCG_MODE_PEE}, /* PBE */
+     77            {  MCG_MODE_PBE,  MCG_MODE_PBE,  MCG_MODE_PBE,  MCG_MODE_PEE}  /* PEE */
+     78          };
+     79          
+     80          /* Global variables */
+     81          volatile uint8_t SR_reg;               /* Current value of the FAULTMASK register */
+     82          volatile uint8_t SR_lock = 0x00U;      /* Lock */
+     83          static uint8_t ClockConfigurationID = CPU_CLOCK_CONFIG_0; /* Active clock configuration */
+     84          
+     85          /*
+     86          ** ===================================================================
+     87          **     Method      :  Cpu_LDD_SetClockConfiguration (component MKL26Z256LL4)
+     88          */
+     89          /*!
+     90          **     @brief
+     91          **         Changes the clock configuration of all LDD components in a
+     92          **         project.
+     93          **     @param
+     94          **       ClockConfiguration - New CPU clock configuration changed by CPU SetClockConfiguration method.
+     95          */
+     96          /* ===================================================================*/
+     97          extern void LDD_SetClockConfiguration(LDD_TClockConfiguration ClockConfiguration);
+     98          
+     99          
+    100          static void Cpu_SetMCGModePEE(uint8_t CLKMode);
+    101          /*
+    102          ** ===================================================================
+    103          **     Method      :  Cpu_SetMCGModePEE (component MKL26Z256LL4)
+    104          **
+    105          **     Description :
+    106          **         This method sets the MCG to PEE mode.
+    107          **         This method is internal. It is used by Processor Expert only.
+    108          ** ===================================================================
+    109          */
+    110          
+    111          static void Cpu_SetMCGModePBE(uint8_t CLKMode);
+    112          /*
+    113          ** ===================================================================
+    114          **     Method      :  Cpu_SetMCGModePBE (component MKL26Z256LL4)
+    115          **
+    116          **     Description :
+    117          **         This method sets the MCG to PBE mode.
+    118          **         This method is internal. It is used by Processor Expert only.
+    119          ** ===================================================================
+    120          */
+    121          
+    122          static void Cpu_SetMCGModeFBE(uint8_t CLKMode);
+    123          /*
+    124          ** ===================================================================
+    125          **     Method      :  Cpu_SetMCGModeFBE (component MKL26Z256LL4)
+    126          **
+    127          **     Description :
+    128          **         This method sets the MCG to FBE mode.
+    129          **         This method is internal. It is used by Processor Expert only.
+    130          ** ===================================================================
+    131          */
+    132          
+    133          static void Cpu_SetMCGModeFEI(uint8_t CLKMode);
+    134          /*
+    135          ** ===================================================================
+    136          **     Method      :  Cpu_SetMCGModeFEI (component MKL26Z256LL4)
+    137          **
+    138          **     Description :
+    139          **         This method sets the MCG to FEI mode.
+    140          **         This method is internal. It is used by Processor Expert only.
+    141          ** ===================================================================
+    142          */
+    143          
+    144          static void Cpu_SetMCG(uint8_t CLKMode);
+    145          /*
+    146          ** ===================================================================
+    147          **     Method      :  Cpu_SetMCG (component MKL26Z256LL4)
+    148          **
+    149          **     Description :
+    150          **         This method updates the MCG according the requested clock
+    151          **         source setting.
+    152          **         This method is internal. It is used by Processor Expert only.
+    153          ** ===================================================================
+    154          */
+    155          
+    156          static uint8_t Cpu_GetCurrentMCGMode(void);
+    157          /*
+    158          ** ===================================================================
+    159          **     Method      :  Cpu_GetCurrentMCGMode (component MKL26Z256LL4)
+    160          **
+    161          **     Description :
+    162          **         This method returns the active MCG mode
+    163          **         This method is internal. It is used by Processor Expert only.
+    164          ** ===================================================================
+    165          */
+    166          
+    167          /*
+    168          ** ===================================================================
+    169          **     Method      :  Cpu_Cpu_Interrupt (component MKL26Z256LL4)
+    170          **
+    171          **     Description :
+    172          **         This ISR services an unused interrupt/exception vector.
+    173          **         This method is internal. It is used by Processor Expert only.
+    174          ** ===================================================================
+    175          */
+    176          PE_ISR(Cpu_Interrupt)
+    177          {
+    178              /* This code can be changed using the CPU bean property "Build Options / Unhandled int code" */
+    179              /* asm (HALT) */
+    180          }
+    181          
+    182          /*
+    183          ** ===================================================================
+    184          **     Method      :  Cpu_SetMCGModePEE (component MKL26Z256LL4)
+    185          **
+    186          **     Description :
+    187          **         This method sets the MCG to PEE mode.
+    188          **         This method is internal. It is used by Processor Expert only.
+    189          ** ===================================================================
+    190          */
+    191          static void Cpu_SetMCGModePEE(uint8_t CLKMode)
+    192          {
+    193              switch (CLKMode) {
+    194              case 1U:
+    195                  /* Switch to PEE Mode */
+    196                  /* OSC0_CR: ERCLKEN=1,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    197                  OSC0_CR = OSC_CR_ERCLKEN_MASK;
+    198          
+    199                  /* MCG_C1: CLKS=0,FRDIV=5,IREFS=0,IRCLKEN=1,IREFSTEN=0 */
+    200                  MCG_C1 = (MCG_C1_CLKS(0x00) | MCG_C1_FRDIV(0x05) | MCG_C1_IRCLKEN_MASK);
+    201          
+    202                  /* MCG_C2: LOCRE0=0,RANGE0=2,HGO0=0,EREFS0=0,LP=0,IRCS=0 */
+    203                  MCG_C2 = (uint8_t)((MCG_C2 & (uint8_t)~(uint8_t)(
+    204                           MCG_C2_LOCRE0_MASK |
+    205                           MCG_C2_RANGE0(0x01)|
+    206                           MCG_C2_HGO0_MASK   |
+    207                           MCG_C2_EREFS0_MASK |
+    208                           MCG_C2_LP_MASK     |
+    209                           MCG_C2_IRCS_MASK)) |
+    210                           (uint8_t)(MCG_C2_RANGE0(0x02)));
+    211          
+    212                  /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=0x0F */
+    213                  MCG_C5 = MCG_C5_PRDIV0(0x0F);
+    214          
+    215                  /* MCG_C6: LOLIE0=0,PLLS=1,CME0=0,VDIV0=0 */
+    216                  MCG_C6 = (MCG_C6_PLLS_MASK | MCG_C6_VDIV0(0x00));
+    217          
+    218                  /* Wait until output of the PLL is selected */
+    219                  while((MCG_S & 0x0CU) != 0x0CU);
+    220          
+    221                  break;
+    222          
+    223              default:
+    224                  break;
+    225              }
+    226          }
+    227          
+    228          /*
+    229          ** ===================================================================
+    230          **     Method      :  Cpu_SetMCGModePBE (component MKL26Z256LL4)
+    231          **
+    232          **     Description :
+    233          **         This method sets the MCG to PBE mode.
+    234          **         This method is internal. It is used by Processor Expert only.
+    235          ** ===================================================================
+    236          */
+    237          static void Cpu_SetMCGModePBE(uint8_t CLKMode)
+    238          {
+    239              switch (CLKMode) {
+    240              case 0U:
+    241                  /* Switch to PBE Mode */
+    242                  /* OSC0_CR: ERCLKEN=1,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    243                  OSC0_CR = OSC_CR_ERCLKEN_MASK;
+    244          
+    245                  /* MCG_C1: CLKS=2,FRDIV=5,IREFS=0,IRCLKEN=1,IREFSTEN=0 */
+    246                  MCG_C1 = (MCG_C1_CLKS(0x02) | MCG_C1_FRDIV(0x05) | MCG_C1_IRCLKEN_MASK);
+    247          
+    248                  /* MCG_C2: LOCRE0=0,RANGE0=2,HGO0=0,EREFS0=0,LP=0,IRCS=0 */
+    249                  MCG_C2 = (uint8_t)((MCG_C2 & (uint8_t)~(uint8_t)(
+    250                           MCG_C2_LOCRE0_MASK |
+    251                           MCG_C2_RANGE0(0x01)|
+    252                           MCG_C2_HGO0_MASK   |
+    253                           MCG_C2_EREFS0_MASK |
+    254                           MCG_C2_LP_MASK     |
+    255                           MCG_C2_IRCS_MASK)) |
+    256                           (uint8_t)(MCG_C2_RANGE0(0x02)));
+    257          
+    258                  /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=9 */
+    259                  MCG_C5 = MCG_C5_PRDIV0(0x09);
+    260          
+    261                  /* MCG_C6: LOLIE0=0,PLLS=1,CME0=0,VDIV0=0 */
+    262                  MCG_C6 = (MCG_C6_PLLS_MASK | MCG_C6_VDIV0(0x00));
+    263          
+    264                  /* Wait until external reference clock is selected as MCG output */
+    265                  while((MCG_S & 0x0CU) != 0x08U);
+    266          
+    267                  /* Wait until locked */
+    268                  while((MCG_S & MCG_S_LOCK0_MASK) == 0x00U);
+    269          
+    270                  break;
+    271          
+    272              case 1U:
+    273                  /* Switch to PBE Mode */
+    274                  /* OSC0_CR: ERCLKEN=1,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    275                  OSC0_CR = OSC_CR_ERCLKEN_MASK;
+    276          
+    277                  /* MCG_C1: CLKS=2,FRDIV=5,IREFS=0,IRCLKEN=1,IREFSTEN=0 */
+    278                  MCG_C1 = (MCG_C1_CLKS(0x02) | MCG_C1_FRDIV(0x05) | MCG_C1_IRCLKEN_MASK);
+    279          
+    280                  /* MCG_C2: LOCRE0=0,RANGE0=2,HGO0=0,EREFS0=0,LP=0,IRCS=0 */
+    281                  MCG_C2 = (uint8_t)((MCG_C2 & (uint8_t)~(uint8_t)(
+    282                           MCG_C2_LOCRE0_MASK |
+    283                           MCG_C2_RANGE0(0x01)|
+    284                           MCG_C2_HGO0_MASK   |
+    285                           MCG_C2_EREFS0_MASK |
+    286                           MCG_C2_LP_MASK     |
+    287                           MCG_C2_IRCS_MASK)) |
+    288                           (uint8_t)(MCG_C2_RANGE0(0x02)));
+    289          
+    290                  /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=0x0F */
+    291                  MCG_C5 = MCG_C5_PRDIV0(0x0F);
+    292          
+    293                  /* MCG_C6: LOLIE0=0,PLLS=1,CME0=0,VDIV0=0 */
+    294                  MCG_C6 = (MCG_C6_PLLS_MASK | MCG_C6_VDIV0(0x00));
+    295          
+    296                  /* Wait until external reference clock is selected as MCG output */
+    297                  while((MCG_S & 0x0CU) != 0x08U);
+    298          
+    299                  /* Wait until locked */
+    300                  while((MCG_S & MCG_S_LOCK0_MASK) == 0x00U);
+    301          
+    302                  break;
+    303          
+    304              default:
+    305                  break;
+    306              }
+    307          }
+    308          
+    309          /*
+    310          ** ===================================================================
+    311          **     Method      :  Cpu_SetMCGModeFBE (component MKL26Z256LL4)
+    312          **
+    313          **     Description :
+    314          **         This method sets the MCG to FBE mode.
+    315          **         This method is internal. It is used by Processor Expert only.
+    316          ** ===================================================================
+    317          */
+    318          static void Cpu_SetMCGModeFBE(uint8_t CLKMode)
+    319          {
+    320              switch (CLKMode) {
+    321              case 0U:
+    322                  /* Switch to FBE Mode */
+    323                  /* MCG_C2: LOCRE0=0,RANGE0=2,HGO0=0,EREFS0=0,LP=0,IRCS=0 */
+    324                  MCG_C2 = (uint8_t)((MCG_C2 & (uint8_t)~(uint8_t)(
+    325                           MCG_C2_LOCRE0_MASK |
+    326                           MCG_C2_RANGE0(0x01)|
+    327                           MCG_C2_HGO0_MASK   |
+    328                           MCG_C2_EREFS0_MASK |
+    329                           MCG_C2_LP_MASK     |
+    330                           MCG_C2_IRCS_MASK)) |
+    331                           (uint8_t)(MCG_C2_RANGE0(0x02)));
+    332          
+    333                  /* OSC0_CR: ERCLKEN=1,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    334                  OSC0_CR = OSC_CR_ERCLKEN_MASK;
+    335          
+    336                  /* MCG_C1: CLKS=2,FRDIV=5,IREFS=0,IRCLKEN=1,IREFSTEN=0 */
+    337                  MCG_C1 = (MCG_C1_CLKS(0x02) | MCG_C1_FRDIV(0x05) | MCG_C1_IRCLKEN_MASK);
+    338          
+    339                  /* MCG_C4: DMX32=0,DRST_DRS=0 */
+    340                  MCG_C4 &= (uint8_t)~(uint8_t)((MCG_C4_DMX32_MASK | MCG_C4_DRST_DRS(0x03)));
+    341          
+    342                  /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=0 */
+    343                  MCG_C5 = MCG_C5_PRDIV0(0x00);
+    344          
+    345                  /* MCG_C6: LOLIE0=0,PLLS=0,CME0=0,VDIV0=0 */
+    346                  MCG_C6 = MCG_C6_VDIV0(0x00);
+    347          
+    348                  /* Check that the source of the FLL reference clock is the external reference clock. */
+    349                  while((MCG_S & MCG_S_IREFST_MASK) != 0x00U);
+    350          
+    351                  /* Wait until external reference clock is selected as MCG output */
+    352                  while((MCG_S & 0x0CU) != 0x08U);
+    353          
+    354                  break;
+    355          
+    356              case 1U:
+    357                  /* Switch to FBE Mode */
+    358                  /* MCG_C2: LOCRE0=0,RANGE0=2,HGO0=0,EREFS0=0,LP=0,IRCS=0 */
+    359                  MCG_C2 = (uint8_t)((MCG_C2 & (uint8_t)~(uint8_t)(
+    360                           MCG_C2_LOCRE0_MASK |
+    361                           MCG_C2_RANGE0(0x01)|
+    362                           MCG_C2_HGO0_MASK   |
+    363                           MCG_C2_EREFS0_MASK |
+    364                           MCG_C2_LP_MASK     |
+    365                           MCG_C2_IRCS_MASK)) |
+    366                           (uint8_t)(MCG_C2_RANGE0(0x02)));
+    367          
+    368                  /* OSC0_CR: ERCLKEN=1,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    369                  OSC0_CR = OSC_CR_ERCLKEN_MASK;
+    370          
+    371                  /* MCG_C1: CLKS=2,FRDIV=5,IREFS=0,IRCLKEN=1,IREFSTEN=0 */
+    372                  MCG_C1 = (MCG_C1_CLKS(0x02) | MCG_C1_FRDIV(0x05) | MCG_C1_IRCLKEN_MASK);
+    373          
+    374                  /* MCG_C4: DMX32=0,DRST_DRS=0 */
+    375                  MCG_C4 &= (uint8_t)~(uint8_t)((MCG_C4_DMX32_MASK | MCG_C4_DRST_DRS(0x03)));
+    376          
+    377                  /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=0x0F */
+    378                  MCG_C5 = MCG_C5_PRDIV0(0x0F);
+    379          
+    380                  /* MCG_C6: LOLIE0=0,PLLS=0,CME0=0,VDIV0=0 */
+    381                  MCG_C6 = MCG_C6_VDIV0(0x00);
+    382          
+    383                  /* Check that the source of the FLL reference clock is the external reference clock. */
+    384                  while((MCG_S & MCG_S_IREFST_MASK) != 0x00U);
+    385          
+    386                  /* Wait until external reference clock is selected as MCG output */
+    387                  while((MCG_S & 0x0CU) != 0x08U);
+    388          
+    389                  break;
+    390              default:
+    391                  break;
+    392              }
+    393          }
+    394          
+    395          /*
+    396          ** ===================================================================
+    397          **     Method      :  Cpu_SetMCGModeFEI (component MKL26Z256LL4)
+    398          **
+    399          **     Description :
+    400          **         This method sets the MCG to FEI mode.
+    401          **         This method is internal. It is used by Processor Expert only.
+    402          ** ===================================================================
+    403          */
+    404          static void Cpu_SetMCGModeFEI(uint8_t CLKMode)
+    405          {
+    406              switch (CLKMode) {
+    407              case 0U:
+    408                  /* Switch to FEI Mode */
+    409                  /* MCG_C1: CLKS=0,FRDIV=0,IREFS=1,IRCLKEN=1,IREFSTEN=0 */
+    410                  MCG_C1 = MCG_C1_CLKS(0x00) |
+    411                           MCG_C1_FRDIV(0x00)|
+    412                           MCG_C1_IREFS_MASK |
+    413                           MCG_C1_IRCLKEN_MASK;
+    414          
+    415                  /* MCG_C2: LOCRE0=0,RANGE0=2,HGO0=0,EREFS0=0,LP=0,IRCS=0 */
+    416                  MCG_C2 = (uint8_t)((MCG_C2 & (uint8_t)~(uint8_t)(
+    417                           MCG_C2_LOCRE0_MASK |
+    418                           MCG_C2_RANGE0(0x01)|
+    419                           MCG_C2_HGO0_MASK   |
+    420                           MCG_C2_EREFS0_MASK |
+    421                           MCG_C2_LP_MASK     |
+    422                           MCG_C2_IRCS_MASK)) |
+    423                           (uint8_t)(MCG_C2_RANGE0(0x02)));
+    424          
+    425                  /* MCG_C4: DMX32=0,DRST_DRS=0 */
+    426                  MCG_C4 &= (uint8_t)~(uint8_t)((MCG_C4_DMX32_MASK | MCG_C4_DRST_DRS(0x03)));
+    427                  MCG_C4 |= MCG_C4_DMX32_MASK;
+    428          
+    429                  /* OSC0_CR: ERCLKEN=1,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    430                  OSC0_CR = OSC_CR_ERCLKEN_MASK;
+    431          
+    432                  /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=0 */
+    433                  MCG_C5 = MCG_C5_PRDIV0(0x00);
+    434          
+    435                  /* MCG_C6: LOLIE0=0,PLLS=0,CME0=0,VDIV0=0 */
+    436                  MCG_C6 = MCG_C6_VDIV0(0x00);
+    437          
+    438                  /* Check that the source of the FLL reference clock is the internal reference clock. */
+    439                  while((MCG_S & MCG_S_IREFST_MASK) == 0x00U);
+    440          
+    441                  /* Wait until output of the FLL is selected */
+    442                  while((MCG_S & 0x0CU) != 0x00U);
+    443          
+    444                  break;
+    445          
+    446              default:
+    447                  break;
+    448              }
+    449          }
+    450          
+    451          /*
+    452          ** ===================================================================
+    453          **     Method      :  Cpu_SetMCG (component MKL26Z256LL4)
+    454          **
+    455          **     Description :
+    456          **         This method updates the MCG according the requested clock
+    457          **         source setting.
+    458          **         This method is internal. It is used by Processor Expert only.
+    459          ** ===================================================================
+    460          */
+    461          static void Cpu_SetMCG(uint8_t CLKMode)
+    462          {
+    463              uint8_t TargetMCGMode = 0x00U;
+    464              uint8_t NextMCGMode;
+    465          
+    466              switch (CLKMode) {
+    467              case 0U:
+    468                  TargetMCGMode = MCG_MODE_FEI;
+    469                  break;
+    470              case 1U:
+    471                  TargetMCGMode = MCG_MODE_PEE;
+    472                  break;
+    473              default:
+    474                  break;
+    475              }
+    476          
+    477              NextMCGMode = Cpu_GetCurrentMCGMode(); /* Identify the currently active MCG mode */
+    478              do {
+    479                  NextMCGMode = MCGTransitionMatrix[NextMCGMode][TargetMCGMode]; /* Get the next MCG mode on the path to the target MCG mode */
+    480          
+    481                  /* Set the next MCG mode on the path to the target MCG mode */
+    482                  switch (NextMCGMode) {
+    483                  case MCG_MODE_FEI:
+    484                      Cpu_SetMCGModeFEI(CLKMode);
+    485                      break;
+    486                  case MCG_MODE_FBE:
+    487                      Cpu_SetMCGModeFBE(CLKMode);
+    488                      break;
+    489                  case MCG_MODE_PBE:
+    490                      Cpu_SetMCGModePBE(CLKMode);
+    491                      break;
+    492                  case MCG_MODE_PEE:
+    493                      Cpu_SetMCGModePEE(CLKMode);
+    494                      break;
+    495                  default:
+    496                      break;
+    497                  }
+    498              } while (TargetMCGMode != NextMCGMode); /* Loop until the target MCG mode is set */
+    499          }
+    500          
+    501          /*
+    502          ** ===================================================================
+    503          **     Method      :  Cpu_GetCurrentMCGMode (component MKL26Z256LL4)
+    504          **
+    505          **     Description :
+    506          **         This method returns the active MCG mode
+    507          **         This method is internal. It is used by Processor Expert only.
+    508          ** ===================================================================
+    509          */
+    510          uint8_t Cpu_GetCurrentMCGMode(void)
+    511          {
+    512              switch (MCG_C1  & MCG_C1_CLKS_MASK) {
+    513              case  0x00U:
+    514                  /* Output of FLL or PLL is selected (depends on PLLS control bit). */
+    515                  if ((MCG_C6 & MCG_C6_PLLS_MASK) == 0x00U) {
+    516                      /* FLL is selected */
+    517                      return MCG_MODE_FEI;
+    518                  } else {
+    519                      /* PLL is selected */
+    520                      return MCG_MODE_PEE;
+    521                  }
+    522              case 0x80U:
+    523                  if ((MCG_C6 & MCG_C6_PLLS_MASK) == 0x00U) {
+    524                      /* FLL is selected */
+    525                      return MCG_MODE_FBE;
+    526                  } else {
+    527                      /* PLL is selected */
+    528                      return MCG_MODE_PBE;
+    529                  }
+    530              default:
+    531                  return 0x00U;
+    532              }
+    533          }
+    534          
+    535          /*
+    536          ** ===================================================================
+    537          **     Method      :  Cpu_SetClockConfiguration (component MKL26Z256LL4)
+    538          */
+    539          /*!
+    540          **     @brief
+    541          **         Calling of this method will cause the clock configuration
+    542          **         change and reconfiguration of all components according to
+    543          **         the requested clock configuration setting.
+    544          **     @param
+    545          **         ModeID          - Clock configuration identifier
+    546          **     @return
+    547          **                         - ERR_OK - OK.
+    548          **                           ERR_RANGE - Mode parameter out of range
+    549          */
+    550          /* ===================================================================*/
+    551          LDD_TError Cpu_SetClockConfiguration(LDD_TClockConfiguration ModeID)
+    552          {
+    553              if (ModeID > 0x01U) {
+    554                  return ERR_RANGE;                  /* Undefined clock configuration requested requested */
+    555              }
+    556              switch (ModeID) {
+    557              case CPU_CLOCK_CONFIG_0:
+    558                  /* SIM_CLKDIV1: OUTDIV1=1,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=3,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+    559                  SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x01) | SIM_CLKDIV1_OUTDIV4(0x03)); /* Set the system prescalers to safe value */
+    560                  Cpu_SetMCG(0U);                  /* Update clock source setting */
+    561          
+    562                  /* SIM_CLKDIV1: OUTDIV1=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+    563                  SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x00) | SIM_CLKDIV1_OUTDIV4(0x00)); /* Update system prescalers */
+    564          
+    565                  /* SIM_SOPT2: PLLFLLSEL=0 */
+    566                  SIM_SOPT2 &= (uint32_t)~(uint32_t)(SIM_SOPT2_PLLFLLSEL_MASK); /* Select FLL as a clock source for various peripherals */
+    567          
+    568                  /* SIM_SOPT1: OSC32KSEL=2 */
+    569                  /* SIM_SOPT1 = (uint32_t)((SIM_SOPT1 & (uint32_t)~(uint32_t)(
+    570                                 SIM_SOPT1_OSC32KSEL(0x01))) |
+    571                                 (uint32_t)(
+    572                                 SIM_SOPT1_OSC32KSEL(0x02)
+    573                                 )); */                 /* System oscillator drives 32 kHz clock for various peripherals */
+    574          
+    575                  /* SIM_SOPT2: TPMSRC=1 */
+    576                  SIM_SOPT2 = (uint32_t)((SIM_SOPT2 & (uint32_t)~(uint32_t)(
+    577                              SIM_SOPT2_TPMSRC(0x02))) |
+    578                              (uint32_t)(
+    579                              SIM_SOPT2_TPMSRC(0x01)
+    580                              ));                  /* Set the TPM clock */
+    581                  break;
+    582          
+    583              case CPU_CLOCK_CONFIG_1:
+    584                  /* SIM_CLKDIV1: OUTDIV1=1,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=3,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+    585                  SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x01) | SIM_CLKDIV1_OUTDIV4(0x03)); /* Set the system prescalers to safe value */
+    586                  Cpu_SetMCG(1U);                  /* Update clock source setting */
+    587          
+    588                  /* SIM_CLKDIV1: OUTDIV1=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=1,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+    589                  SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x00) | SIM_CLKDIV1_OUTDIV4(0x01)); /* Update system prescalers */
+    590          
+    591                  /* SIM_SOPT2: PLLFLLSEL=1 */
+    592                  SIM_SOPT2 |= SIM_SOPT2_PLLFLLSEL_MASK; /* Select PLL as a clock source for various peripherals */
+    593          
+    594                  /* SIM_SOPT1: OSC32KSEL=2 */
+    595                  /* SIM_SOPT1 = (uint32_t)((SIM_SOPT1 & (uint32_t)~(uint32_t)(
+    596                                 SIM_SOPT1_OSC32KSEL(0x01))) |
+    597                                 (uint32_t)(
+    598                                 SIM_SOPT1_OSC32KSEL(0x02)
+    599                                 )); */                 /* System oscillator drives 32 kHz clock for various peripherals */
+    600          
+    601                  /* SIM_SOPT2: TPMSRC=1 */
+    602                  SIM_SOPT2 = (uint32_t)((SIM_SOPT2 & (uint32_t)~(uint32_t)(
+    603                              SIM_SOPT2_TPMSRC(0x02))) |
+    604                              (uint32_t)(
+    605                              SIM_SOPT2_TPMSRC(0x01)
+    606                              ));                  /* Set the TPM clock */
+    607                  break;
+    608          
+    609              default:
+    610                  break;
+    611              }
+    612              LDD_SetClockConfiguration(ModeID);   /* Call all LDD components to update the clock configuration */
+    613              ClockConfigurationID = ModeID;       /* Store clock configuration identifier */
+    614              return ERR_OK;
+    615          }
+    616          
+    617          /*
+    618          ** ===================================================================
+    619          **     Method      :  Cpu_GetClockConfiguration (component MKL26Z256LL4)
+    620          */
+    621          /*!
+    622          **     @brief
+    623          **         Returns the active clock configuration identifier. The
+    624          **         method is automatically enabled if more than one clock
+    625          **         configuration is enabled in the component.
+    626          **     @return
+    627          **                         - Active clock configuration identifier
+    628          */
+    629          /* ===================================================================*/
+    630          LDD_TClockConfiguration Cpu_GetClockConfiguration(void)
+    631          {
+    632              return ClockConfigurationID;         /* Return the actual clock configuration identifier */
+    633          }
+    634          
+    635          
+    636          /*** !!! Here you can place your own code using property "User data declarations" on the build options tab. !!! ***/
+    637          
+    638          /*lint -esym(765,__low_level_init) Disable MISRA rule (8.10) checking for symbols (__low_level_init). The function is linked to the EWL library */
+    639          /*lint -esym(765,Cpu_Interrupt) Disable MISRA rule (8.10) checking for symbols (Cpu_Interrupt). */
+    640          /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
+    641          int __low_level_init(void)
+    642          /*lint -restore Enable MISRA rule (6.3) checking. */
+    643          {
+    644              /*** PE initialization code after reset ***/
+    645              SCB_VTOR = (uint32_t)(&__vector_table); /* Set the interrupt vector table position */
+    646          
+    647              /* Disable the WDOG module */
+    648              SIM_COPC = SIM_COPC_COPT(0x03);
+    649          
+    650              /* System clock initialization */
+    651              SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x00) | SIM_CLKDIV1_OUTDIV4(0x03)); /* Set the system prescalers to safe value */
+    652          
+    653              /* SIM_SCGC5: PORTE=1,PORTD=1,PORTC=1,PORTB=1,PORTA=1 */
+    654              SIM_SCGC5 |= SIM_SCGC5_PORTE_MASK |
+    655                           SIM_SCGC5_PORTD_MASK |
+    656                           SIM_SCGC5_PORTC_MASK |
+    657                           SIM_SCGC5_PORTB_MASK |
+    658                           SIM_SCGC5_PORTA_MASK;   /* Enable clock gate for ports to enable pin routing */
+    659          
+    660              if ((PMC_REGSC & PMC_REGSC_ACKISO_MASK) != 0x0U) {
+    661                  /* PMC_REGSC: ACKISO=1 */
+    662                  PMC_REGSC |= PMC_REGSC_ACKISO_MASK; /* Release IO pads after wakeup from VLLS mode. */
+    663              }
+    664          
+    665              SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x00) | SIM_CLKDIV1_OUTDIV4(0x00)); /* Update system prescalers */
+    666          
+    667              /* SIM_SOPT2: PLLFLLSEL=0 */
+    668              SIM_SOPT2 &= (uint32_t)~(uint32_t)(SIM_SOPT2_PLLFLLSEL_MASK); /* Select FLL as a clock source for various peripherals */
+    669          
+    670              /* SIM_SOPT1: OSC32KSEL=2 */
+    671              /* SIM_SOPT1 = (uint32_t)((SIM_SOPT1 & (uint32_t)~(uint32_t)(SIM_SOPT1_OSC32KSEL(0x01))) |
+    672                             (uint32_t)(SIM_SOPT1_OSC32KSEL(0x02))); */     /* System oscillator drives 32 kHz clock for various peripherals */
+    673          
+    674              /* SIM_SOPT2: TPMSRC=1 */
+    675              SIM_SOPT2 = (uint32_t)((SIM_SOPT2 & (uint32_t)~(uint32_t)(SIM_SOPT2_TPMSRC(0x02))) |
+    676                                     (uint32_t)(SIM_SOPT2_TPMSRC(0x01)));   /* Set the TPM clock */
+    677          
+    678              /* Switch to FEI Mode */
+    679              /* MCG_C1: CLKS=0,FRDIV=0,IREFS=1,IRCLKEN=1,IREFSTEN=0 */
+    680              MCG_C1 = MCG_C1_CLKS(0x00) |
+    681                       MCG_C1_FRDIV(0x00)|
+    682                       MCG_C1_IREFS_MASK |
+    683                       MCG_C1_IRCLKEN_MASK;
+    684          
+    685              /* MCG_C2: LOCRE0=0,RANGE0=2,HGO0=0,EREFS0=0,LP=0,IRCS=0 */
+    686              MCG_C2 = (uint8_t)((MCG_C2 & (uint8_t)~(uint8_t)(
+    687                       MCG_C2_LOCRE0_MASK |
+    688                       MCG_C2_RANGE0(0x01)|
+    689                       MCG_C2_HGO0_MASK   |
+    690                       MCG_C2_EREFS0_MASK |
+    691                       MCG_C2_LP_MASK     |
+    692                       MCG_C2_IRCS_MASK)) |
+    693                       (uint8_t)(MCG_C2_RANGE0(0x02)));
+    694          
+    695              /* MCG_C4: DMX32=0,DRST_DRS=0 */
+    696              MCG_C4 &= (uint8_t)~(uint8_t)(MCG_C4_DMX32_MASK | MCG_C4_DRST_DRS(0x03));
+    697              MCG_C4 |= MCG_C4_DMX32_MASK;
+    698          
+    699              /* OSC0_CR: ERCLKEN=1,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    700              OSC0_CR = OSC_CR_ERCLKEN_MASK;
+    701          
+    702              /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=0 */
+    703              MCG_C5 = MCG_C5_PRDIV0(0x00);
+    704          
+    705              /* MCG_C6: LOLIE0=0,PLLS=0,CME0=0,VDIV0=0 */
+    706              MCG_C6 = MCG_C6_VDIV0(0x00);
+    707          
+    708              /* Check that the source of the FLL reference clock is the internal reference clock. */
+    709              while((MCG_S & MCG_S_IREFST_MASK) == 0x00U);
+    710          
+    711              /* Wait until output of the FLL is selected */
+    712              while((MCG_S & 0x0CU) != 0x00U);
+    713          
+    714              PORTC_PCR1 = PORT_PCR_MUX(1) | PORT_PCR_PE_MASK | PORT_PCR_PS_MASK;  // for SW1/INT
+    715          
+    716              return 1;
+    717          }
+    718          
+    719          /*
+    720          ** ===================================================================
+    721          **     Method      :  PE_low_level_init (component MKL26Z256LL4)
+    722          **
+    723          **     Description :
+    724          **         Initializes beans and provides common register initialization.
+    725          **         The method is called automatically as a part of the
+    726          **         application initialization code.
+    727          **         This method is internal. It is used by Processor Expert only.
+    728          ** ===================================================================
+    729          */
+    730          void PE_low_level_init(void)
+    731          {
+    732              uint16_t ResetSource;           /* Source of reset */
+    733          
+    734          #ifdef PEX_RTOS_INIT
+    735              PEX_RTOS_INIT();                /* Initialization of the selected RTOS. Macro is defined by the RTOS component. */
+    736          #endif
+    737          
+    738              /* Initialization of the SIM module */
+    739          
+    740              /* Initialization of the RCM module */
+    741              /* RCM_RPFW: RSTFLTSEL=0 */
+    742              RCM_RPFW &= (uint8_t)~(uint8_t)(RCM_RPFW_RSTFLTSEL(0x1F));
+    743          
+    744              /* RCM_RPFC: RSTFLTSS=0,RSTFLTSRW=0 */
+    745              RCM_RPFC &= (uint8_t)~(uint8_t)(RCM_RPFC_RSTFLTSS_MASK | RCM_RPFC_RSTFLTSRW(0x03));
+    746          
+    747              /* Initialization of the FTFL_FlashConfig module */
+    748          
+    749              /* Initialization of the PMC module */
+    750              /* PMC_LVDSC1: LVDACK=1,LVDIE=0,LVDRE=1,LVDV=0 */
+    751              PMC_LVDSC1 = (uint8_t)((PMC_LVDSC1 & (uint8_t)~(uint8_t)(PMC_LVDSC1_LVDIE_MASK |
+    752                           PMC_LVDSC1_LVDV(0x03))) | (uint8_t)(PMC_LVDSC1_LVDACK_MASK |
+    753                           PMC_LVDSC1_LVDRE_MASK));
+    754          
+    755              /* PMC_LVDSC2: LVWACK=1,LVWIE=0,LVWV=0 */
+    756              PMC_LVDSC2 = (uint8_t)((PMC_LVDSC2 & (uint8_t)~(uint8_t)(PMC_LVDSC2_LVWIE_MASK |
+    757                           PMC_LVDSC2_LVWV(0x03))) | (uint8_t)(PMC_LVDSC2_LVWACK_MASK));
+    758          
+    759              /* PMC_REGSC: BGEN=0,ACKISO=0,BGBE=0 */
+    760              PMC_REGSC &= (uint8_t)~(uint8_t)(PMC_REGSC_BGEN_MASK |
+    761                           PMC_REGSC_ACKISO_MASK | PMC_REGSC_BGBE_MASK);
+    762          
+    763              /* SMC_PMPROT: ??=0,??=0,AVLP=0,??=0,ALLS=0,??=0,AVLLS=0,??=0 */
+    764              /* Setup Power mode protection register */
+    765              SMC_PMPROT = SMC_PMPROT_AVLLS_MASK | SMC_PMPROT_ALLS_MASK | SMC_PMPROT_AVLP_MASK;
+    766          
+    767              /* Common initialization of the CPU registers */
+    768              /* PORTA_PCR20: ISF=0,MUX=7 */
+    769              PORTA_PCR20 = (uint32_t)((PORTA_PCR20 & (uint32_t)~(uint32_t)(PORT_PCR_ISF_MASK)) |
+    770                            (uint32_t)(PORT_PCR_MUX(0x07)));
+    771          
+    772              /* NVIC_IPR1: PRI_6=0 */
+    773              NVIC_IPR1 &= (uint32_t)~(uint32_t)(NVIC_IP_PRI_6(0xFF));
+    774              ResetSource = (uint16_t)(((uint16_t)RCM_SRS1) << 8U);
+    775              ResetSource |= RCM_SRS0;
+    776              Cpu_OnReset(ResetSource);            /* Invoke an user event */
+    777          
+    778              /* ### Serial_LDD "UARTA" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
+    779              (void)UARTA_Init(NULL);
+    780          }
+    781          
+    782          /* Flash configuration field */
+    783          /* Pragma to place the flash configuration field on correct location defined in linkler file. */
+    784          #if defined(__IAR_SYSTEMS_ICC__)
+    785          	#pragma language=extended
+    786              #pragma location = "FlashConfig"
+    787              __root const uint8_t Config[0x10] @ "FlashConfig" = {
+    788          #elif defined(__GNUC__)
+    789              __attribute__((section(".FlashConfig"))) const uint8_t Config[0x10] __attribute__((used)) = {
+    790          #endif
+    791              /* NV_BACKKEY3: KEY=0xFF */
+    792              0xFFU,
+    793              /* NV_BACKKEY2: KEY=0xFF */
+    794              0xFFU,
+    795              /* NV_BACKKEY1: KEY=0xFF */
+    796              0xFFU,
+    797              /* NV_BACKKEY0: KEY=0xFF */
+    798              0xFFU,
+    799              /* NV_BACKKEY7: KEY=0xFF */
+    800              0xFFU,
+    801              /* NV_BACKKEY6: KEY=0xFF */
+    802              0xFFU,
+    803              /* NV_BACKKEY5: KEY=0xFF */
+    804              0xFFU,
+    805              /* NV_BACKKEY4: KEY=0xFF */
+    806              0xFFU,
+    807              /* NV_FPROT3: PROT=0xFF */
+    808              0xFFU,
+    809              /* NV_FPROT2: PROT=0xFF */
+    810              0xFFU,
+    811              /* NV_FPROT1: PROT=0xFF */
+    812              0xFFU,
+    813              /* NV_FPROT0: PROT=0xFF */
+    814              0xFFU,
+    815              /* NV_FSEC: KEYEN=1,MEEN=3,FSLACC=3,SEC=2 */
+    816              0x7EU,
+    817              /* NV_FOPT: ??=1,??=1,FAST_INIT=1,LPBOOT1=1,RESET_PIN_CFG=1,NMI_DIS=0,??=1,LPBOOT0=1 */
+    818              0xFBU,
+    819              0xFFU,
+    820              0xFFU
+    821          };
+    822          /* END Cpu. */
+    823          
+    824          #ifdef __cplusplus
+    825          }  /* extern "C" */
+    826          #endif
+    827          
+    828          /*!
+    829          ** @}
+    830          */
+    831          /*
+    832          ** ###################################################################
+    833          **
+    834          **     This file was created by Processor Expert 10.3 [05.09]
+    835          **     for the Freescale Kinetis series of microcontrollers.
+    836          **
+    837          ** ###################################################################
+    838          */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   Cpu_GetClockConfiguration
+       4   Cpu_GetCurrentMCGMode
+       0   Cpu_Interrupt
+      16   Cpu_SetClockConfiguration
+        16   -> Cpu_SetMCG
+        16   -> LDD_SetClockConfiguration
+      16   Cpu_SetMCG
+        16   -> Cpu_GetCurrentMCGMode
+        16   -> Cpu_SetMCGModeFBE
+        16   -> Cpu_SetMCGModeFEI
+        16   -> Cpu_SetMCGModePBE
+        16   -> Cpu_SetMCGModePEE
+       4   Cpu_SetMCGModeFBE
+       4   Cpu_SetMCGModeFEI
+       8   Cpu_SetMCGModePBE
+       4   Cpu_SetMCGModePEE
+       8   PE_low_level_init
+         8   -> Cpu_OnReset
+         8   -> UARTA_Init
+         8   -> _mqxlite_init
+       8   __low_level_init
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable10
+       4  ??DataTable10_1
+       4  ??DataTable10_10
+       4  ??DataTable10_11
+       4  ??DataTable10_12
+       4  ??DataTable10_13
+       4  ??DataTable10_14
+       4  ??DataTable10_15
+       4  ??DataTable10_16
+       4  ??DataTable10_17
+       4  ??DataTable10_18
+       4  ??DataTable10_19
+       4  ??DataTable10_2
+       4  ??DataTable10_20
+       4  ??DataTable10_21
+       4  ??DataTable10_22
+       4  ??DataTable10_23
+       4  ??DataTable10_24
+       4  ??DataTable10_25
+       4  ??DataTable10_26
+       4  ??DataTable10_27
+       4  ??DataTable10_28
+       4  ??DataTable10_29
+       4  ??DataTable10_3
+       4  ??DataTable10_30
+       4  ??DataTable10_31
+       4  ??DataTable10_4
+       4  ??DataTable10_5
+       4  ??DataTable10_6
+       4  ??DataTable10_7
+       4  ??DataTable10_8
+       4  ??DataTable10_9
+       4  ??DataTable6
+       4  ??DataTable6_1
+       4  ??DataTable6_2
+       4  ??DataTable6_3
+       4  ??DataTable8
+       4  ??DataTable8_1
+       4  ??DataTable8_2
+       1  ClockConfigurationID
+      16  Config
+       6  Cpu_GetClockConfiguration
+      58  Cpu_GetCurrentMCGMode
+       2  Cpu_Interrupt
+     130  Cpu_SetClockConfiguration
+     128  Cpu_SetMCG
+     152  Cpu_SetMCGModeFBE
+      86  Cpu_SetMCGModeFEI
+     134  Cpu_SetMCGModePBE
+      66  Cpu_SetMCGModePEE
+      16  MCGTransitionMatrix
+     134  PE_low_level_init
+       1  SR_lock
+       1  SR_reg
+     158  __low_level_init
+
+ 
+     3 bytes in section .bss
+    16 bytes in section .rodata
+ 1'210 bytes in section .text
+    16 bytes in section FlashConfig
+ 
+ 1'210 bytes of CODE  memory
+    32 bytes of CONST memory
+     3 bytes of DATA  memory
+
+Errors: none
+Warnings: none

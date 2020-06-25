@@ -1,0 +1,1845 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:01
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\mutex.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5BE2.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\mutex.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\mutex.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\mutex.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\mutex.c
+      1          /*HEADER*********************************************************************
+      2           *
+      3           * Copyright (c) 2008 Freescale Semiconductor;
+      4           * All Rights Reserved
+      5           *
+      6           * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7           * All Rights Reserved
+      8           *
+      9           * Copyright (c) 1989-2008 ARC International;
+     10           * All Rights Reserved
+     11           *
+     12           ***************************************************************************
+     13           *
+     14           * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15           * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16           * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17           * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18           * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20           * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21           * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22           * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23           * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24           * THE POSSIBILITY OF SUCH DAMAGE.
+     25           *
+     26           **************************************************************************
+     27           *
+     28           * $FileName: mutex.c$
+     29           * $Version : 3.8.0.1$
+     30           * $Date    : Feb-20-2012$
+     31           *
+     32           * Comments:
+     33           *
+     34           *   This file contains functions of the Mutex component.
+     35           *
+     36           *END************************************************************************/
+     37          
+     38          #include "mqx_inc.h"
+     39          
+     40          #if MQX_USE_MUTEXES
+     41          #include "mutex.h"
+     42          #include "mutex_prv.h"
+     43          
+     44          #if MQX_LITE_VERSION_NUMBER
+     45          MUTEX_COMPONENT_STRUCT mutex_struct;
+     46          #endif /* MQX_LITE_VERSION_NUMBER */
+     47          
+     48          /*!
+     49           * \brief Initializes the mutex attributes structure to default values.
+     50           *
+     51           * The function initializes the mutex attributes structure to default values and
+     52           * validates the structure. It must be called before a task can modify the values
+     53           * of the mutex attributes structure. The function does not affect any mutexes
+     54           * already initialized with this structure.
+     55           *
+     56           * <table>
+     57           *  <tr>
+     58           *     <td><b> Mutex attribute </b></td>
+     59           *     <td><b> Field in MUTEX_ATTR_STRUCT </b></td>
+     60           *     <td><b> Default value </b></td>
+     61           *  </tr>
+     62           *  <tr>
+     63           *     <td> Scheduling protocol </td>
+     64           *     <td> POLICY </td>
+     65           *     <td> MUTEX_NO_PRIO_INHERIT </td>
+     66           *  </tr>
+     67           *  <tr>
+     68           *     <td> Valid </td>
+     69           *     <td> VALID </td>
+     70           *     <td> TRUE </td>
+     71           *  </tr>
+     72           *  <tr>
+     73           *     <td> Priority </td>
+     74           *     <td> PRIORITY </td>
+     75           *     <td> 0 </td>
+     76           *  </tr>
+     77           *  <tr>
+     78           *     <td> Spin limit </td>
+     79           *     <td> COUNT </td>
+     80           *     <td> 0 </td>
+     81           *  </tr>
+     82           *  <tr>
+     83           *     <td> Waiting protocol </td>
+     84           *     <td> WAITING POLICY </td>
+     85           *     <td> MUTEX_QUEUEING </td>
+     86           *  </tr>
+     87           * </table>
+     88           *
+     89           * \param[in] attr_ptr Pointer to the mutex attributes structure to initialize.
+     90           *
+     91           * \return MQX_EOK
+     92           * \return MQX_EINVAL (Attr_ptr is NULL or points to an invalid attributes structure
+     93           * or attributes structure is already initialized.)
+     94           *
+     95           * \see _mutex_init
+     96           * \see _mutatr_destroy
+     97           * \see MUTEX_ATTR_STRUCT
+     98           */
+     99          _mqx_uint _mutatr_init
+    100          (
+    101              register MUTEX_ATTR_STRUCT_PTR attr_ptr
+    102          )
+    103          { /* Body */
+    104              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+    105          
+    106              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+    107              _KLOGE2(KLOG_mutatr_init, attr_ptr);
+    108          
+    109          #if MQX_CHECK_ERRORS
+    110              if (attr_ptr == NULL)
+    111              {
+    112                  _KLOGX2(KLOG_mutatr_init, MQX_EINVAL);
+    113                  return (MQX_EINVAL);
+    114              } /* Endif */
+    115          #endif
+    116          
+    117              attr_ptr->SCHED_PROTOCOL   = MUTEX_NO_PRIO_INHERIT;
+    118              attr_ptr->PRIORITY_CEILING = 0;
+    119              attr_ptr->VALID            = MUTEX_VALID;
+    120              attr_ptr->COUNT            = 0;
+    121              attr_ptr->WAIT_PROTOCOL    = MUTEX_QUEUEING;
+    122          
+    123              _KLOGX2(KLOG_mutatr_init, MQX_EOK);
+    124              return (MQX_EOK);
+    125          
+    126          } /* Endbody */
+    127          
+    128          /*!
+    129           * \brief Installs the mutex component into the kernel.
+    130           *
+    131           * MQX calls the function if the mutex component is not created when a task calls
+    132           * _mutex_init().
+    133           *
+    134           * \return MQX_OK
+    135           * \return MQX_OUT_OF_MEMORY
+    136           *
+    137           * \see _mutex_init
+    138           * \see _mutatr_init
+    139           */
+    140          _mqx_uint _mutex_create_component(void)
+    141          { /* Body */
+    142              KERNEL_DATA_STRUCT_PTR kernel_data;
+    143              register MUTEX_COMPONENT_STRUCT_PTR mutex_component_ptr;
+    144          
+    145              _GET_KERNEL_DATA(kernel_data);
+    146          
+    147              _KLOGE1(KLOG_mutex_create_component);
+    148          
+    149              if (kernel_data->KERNEL_COMPONENTS[KERNEL_MUTEXES] != NULL)
+    150              {
+    151                  _KLOGX2(KLOG_mutex_create_component, MQX_OK);
+    152                  return (MQX_OK);
+    153              } /* Endif */
+    154          
+    155          #if MQX_LITE_VERSION_NUMBER
+    156              mutex_component_ptr = &mutex_struct;
+    157          #else
+    158              mutex_component_ptr = (MUTEX_COMPONENT_STRUCT_PTR) _mem_alloc_system_zero(
+    159                              (_mem_size) sizeof(MUTEX_COMPONENT_STRUCT));
+    160          #if MQX_CHECK_MEMORY_ALLOCATION_ERRORS
+    161              if (mutex_component_ptr == NULL)
+    162              {
+    163                  _KLOGX2(KLOG_mutex_create_component, MQX_OUT_OF_MEMORY);
+    164                  return (MQX_OUT_OF_MEMORY);
+    165              } /* Endif */
+    166          #endif
+    167              _mem_set_type(mutex_component_ptr, MEM_TYPE_MUTEX_COMPONENT);
+    168          #endif /* MQX_LITE_VERSION_NUMBER */
+    169          
+    170              _QUEUE_INIT(&mutex_component_ptr->MUTEXES, 0);
+    171              mutex_component_ptr->VALID = MUTEX_VALID;
+    172          
+    173              _int_disable();
+    174          
+    175          #if MQX_CHECK_ERRORS
+    176              if (kernel_data->KERNEL_COMPONENTS[KERNEL_MUTEXES] != NULL)
+    177              {
+    178                  _int_enable();
+    179          #if !MQX_LITE_VERSION_NUMBER
+    180                  _mem_free(mutex_component_ptr);
+    181          #endif /* MQX_LITE_VERSION_NUMBER */
+    182                  _KLOGX2(KLOG_mutex_create_component, MQX_OK);
+    183                  return (MQX_OK);
+    184              } /* Endif */
+    185          #endif
+    186          
+    187              kernel_data->KERNEL_COMPONENTS[KERNEL_MUTEXES] = mutex_component_ptr;
+    188          
+    189          #if MQX_COMPONENT_DESTRUCTION
+    190              kernel_data->COMPONENT_CLEANUP[KERNEL_MUTEXES] = _mutex_cleanup;
+    191          #endif
+    192          
+    193              _int_enable();
+    194          
+    195              _KLOGX2(KLOG_mutex_create_component, MQX_OK);
+    196              return (MQX_OK);
+    197          
+    198          } /* Endbody */
+    199          
+    200          /*!
+    201           * \brief Deinitializes the mutex attributes structure.
+    202           *
+    203           * To reuse the mutex attributes structure, a task must reinitialize the structure.
+    204           *
+    205           * \param[in] attr_ptr Pointer to the mutex attributes structure; initialized
+    206           * with _mutatr_init().
+    207           *
+    208           * \return MQX_EOK
+    209           * \return MQX_EINVAL (Attr_ptr is NULL or points to an invalid attributes structure.)
+    210           *
+    211           * \see _mutatr_init
+    212           * \see MUTEX_ATTR_STRUCT
+    213           */
+    214          _mqx_uint _mutatr_destroy
+    215          (
+    216              MUTEX_ATTR_STRUCT_PTR attr_ptr
+    217          )
+    218          { /* Body */
+    219              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+    220          
+    221              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+    222              _KLOGE2(KLOG_mutatr_destroy, attr_ptr);
+    223          
+    224          #if MQX_CHECK_ERRORS
+    225              if (attr_ptr == NULL)
+    226              {
+    227                  _KLOGX2(KLOG_mutatr_destroy, MQX_EINVAL);
+    228                  return (MQX_EINVAL);
+    229              } /* Endif */
+    230          #endif
+    231          #if MQX_CHECK_VALIDITY
+    232              if (attr_ptr->VALID != MUTEX_VALID)
+    233              {
+    234                  _KLOGX2(KLOG_mutatr_destroy, MQX_EINVAL);
+    235                  return (MQX_EINVAL);
+    236              } /* Endif */
+    237          #endif
+    238          
+    239              attr_ptr->VALID = 0;
+    240          
+    241              _KLOGX2(KLOG_mutatr_destroy, MQX_EOK);
+    242              return (MQX_EOK);
+    243          
+    244          } /* Endbody */
+    245          
+    246          /*!
+    247           * \brief Deinitializes the mutex.
+    248           *
+    249           * To reuse the mutex, a task must reinitialize it.
+    250           *
+    251           * \param[in] mutex_ptr Pointer to the mutex to be deinitialized.
+    252           *
+    253           * \return MQX_EOK
+    254           * \return MQX_COMPONENT_DOES_NOT_EXIST
+    255           * \return MQX_INVALID_COMPONENT_BASE (Mutex component data is not valid.)
+    256           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (From _mutex_lock: function cannot
+    257           * be called from an ISR.)
+    258           * \return MQX_EINVAL (From _mutex_lock: mutex_ptr was destroyed or is NULL.)
+    259           * \return MQX_EDEADLK (From _mutex_lock: task already has the mutex locked.)
+    260           * \return MQX_EBUSY (From _mutex_lock: mutex is already locked.)
+    261           *
+    262           * \warning Puts in their ready queues all tasks that are waiting for the mutex;
+    263           * their call to _mutex_lock() returns MQX_EINVAL.
+    264           *
+    265           * \see _mutex_init
+    266           * \see MUTEX_STRUCT
+    267           */
+    268          _mqx_uint _mutex_destroy
+    269          (
+    270              register MUTEX_STRUCT_PTR mutex_ptr
+    271          )
+    272          { /* Body */
+    273              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    274              MUTEX_COMPONENT_STRUCT_PTR mutex_component_ptr;
+    275              TD_STRUCT_PTR              td_ptr;
+    276              _mqx_uint                  result;
+    277          
+    278              _GET_KERNEL_DATA(kernel_data);
+    279          
+    280              _KLOGE2(KLOG_mutex_destroy, mutex_ptr);
+    281          
+    282          #if MQX_CHECK_ERRORS
+    283              if (kernel_data->KERNEL_COMPONENTS[KERNEL_MUTEXES] == NULL)
+    284              {
+    285                  _KLOGX2(KLOG_mutex_destroy, MQX_COMPONENT_DOES_NOT_EXIST);
+    286                  return (MQX_COMPONENT_DOES_NOT_EXIST);
+    287              } /* Endif */
+    288          #endif
+    289          
+    290              mutex_component_ptr = (MUTEX_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_MUTEXES];
+    291          
+    292          #if MQX_CHECK_VALIDITY
+    293              if (mutex_component_ptr->VALID != MUTEX_VALID)
+    294              {
+    295                  _KLOGX2(KLOG_mutex_destroy, MQX_INVALID_COMPONENT_BASE);
+    296                  return (MQX_INVALID_COMPONENT_BASE);
+    297              } /* Endif */
+    298          #endif
+    299          
+    300              td_ptr = kernel_data->ACTIVE_PTR;
+    301          
+    302              if (mutex_ptr->OWNER_TD != td_ptr)
+    303              {
+    304                  result = _mutex_lock(mutex_ptr); /* Get the mutex */
+    305                  if (result != MQX_EOK)
+    306                  {
+    307                      _KLOGX2(KLOG_mutex_destroy, result);
+    308                      return (result);
+    309                  } /* Endif */
+    310              } /* Endif */
+    311          
+    312              mutex_ptr->VALID = 0;
+    313          
+    314              if (mutex_ptr->LINK.NEXT != NULL)
+    315              {
+    316                  /* Remove mutex from the queue of mutexes in the kernel */
+    317                  _int_disable();
+    318                  _QUEUE_REMOVE(&mutex_component_ptr->MUTEXES, mutex_ptr);
+    319                  _int_enable();
+    320              } /* Endif */
+    321          
+    322              /* Get rid of all waiting tasks */
+    323              while (_QUEUE_GET_SIZE(&mutex_ptr->WAITING_TASKS))
+    324              {
+    325                  _QUEUE_DEQUEUE(&mutex_ptr->WAITING_TASKS, td_ptr);
+    326                  _task_set_error_td_internal(td_ptr, MQX_EINVAL);
+    327                  _int_disable();
+    328                  _TASK_READY(td_ptr,kernel_data);
+    329                  _int_enable();
+    330              } /* Endwhile */
+    331          
+    332              td_ptr = kernel_data->ACTIVE_PTR;
+    333          
+    334              _int_disable();
+    335              if (mutex_ptr->BOOSTED)
+    336              {
+    337                  _sched_unboost_priority_internal(td_ptr, mutex_ptr->BOOSTED);
+    338              } /* Endif */
+    339          
+    340              _int_enable();
+    341          
+    342              _CHECK_RUN_SCHEDULER(); /* Let higher priority task run */
+    343          
+    344              _KLOGX2(KLOG_mutex_destroy, MQX_EOK);
+    345              return (MQX_EOK);
+    346          
+    347          } /* Endbody */
+    348          
+    349          /*!
+    350           * \brief Gets the waiting policy of the mutex attributes structure.
+    351           *
+    352           * \param[in]  attr_ptr             Pointer to an initialized mutex attributes
+    353           * structure.
+    354           * \param[out] waiting_protocol_ptr Pointer to the current waiting protocol.
+    355           *
+    356           * \return MQX_EOK
+    357           * \return MQX_EINVAL (Attr_ptr is NULL or points to an invalid attribute structure.)
+    358           *
+    359           * \see _mutatr_set_wait_protocol
+    360           * \see _mutatr_init
+    361           * \see _mutatr_get_spin_limit
+    362           * \see _mutatr_set_spin_limit
+    363           * \see MUTEX_ATTR_STRUCT
+    364           */
+    365          _mqx_uint _mutatr_get_wait_protocol
+    366          (
+    367              MUTEX_ATTR_STRUCT_PTR attr_ptr,
+    368              _mqx_uint_ptr         waiting_protocol_ptr
+    369          )
+    370          { /* Body */
+    371          
+    372          #if MQX_CHECK_ERRORS
+    373              if ((attr_ptr == NULL) || (waiting_protocol_ptr == NULL))
+    374              {
+    375                  return (MQX_EINVAL);
+    376              } /* Endif */
+    377          #endif
+    378          #if MQX_CHECK_VALIDITY
+    379              if (attr_ptr->VALID != MUTEX_VALID)
+    380              {
+    381                  return (MQX_EINVAL);
+    382              } /* Endif */
+    383          #endif
+    384          
+    385              *waiting_protocol_ptr = attr_ptr->WAIT_PROTOCOL;
+    386              return (MQX_EOK);
+    387          
+    388          } /* Endbody */
+    389          
+    390          /*!
+    391           * \brief Gets the priority ceiling from a mutex attributes structure.
+    392           *
+    393           * Priority applies only to mutexes whose scheduling protocol is priority protect.
+    394           *
+    395           * \param[in]  attr_ptr    Pointer to an initialized mutex attributes structure.
+    396           * \param[out] ceiling_ptr Pointer to the current priority.
+    397           *
+    398           * \return MQX_EOK
+    399           * \return MQX_EINVAL (Attr_ptr is NULL or points to an invalid attributes structure.)
+    400           *
+    401           * \see _mutatr_set_priority_ceiling
+    402           * \see _mutatr_init
+    403           * \see MUTEX_ATTR_STRUCT
+    404           */
+    405          _mqx_uint _mutatr_get_priority_ceiling
+    406          (
+    407              MUTEX_ATTR_STRUCT_PTR attr_ptr,
+    408              _mqx_uint_ptr         ceiling_ptr
+    409          )
+    410          { /* Body */
+    411          
+    412          #if MQX_CHECK_ERRORS
+    413              if ((attr_ptr == NULL) || (ceiling_ptr == NULL))
+    414              {
+    415                  return (MQX_EINVAL);
+    416              } /* Endif */
+    417          #endif
+    418          #if MQX_CHECK_VALIDITY
+    419              if (attr_ptr->VALID != MUTEX_VALID)
+    420              {
+    421                  return (MQX_EINVAL);
+    422              } /* Endif */
+    423          #endif
+    424          
+    425              *ceiling_ptr = attr_ptr->PRIORITY_CEILING;
+    426              return (MQX_EOK);
+    427          
+    428          } /* Endbody */
+    429          
+    430          /*!
+    431           * \brief Gets the scheduling protocol of the mutex attributes structure.
+    432           *
+    433           * \param[in]  attr_ptr     Pointer to an initialized mutex attributes structure.
+    434           * \param[out] protocol_ptr Pointer to the current scheduling protocol.
+    435           *
+    436           * \return MQX_EOK
+    437           * \return MQX_EINVAL (Attr_ptr is NULL or points to an invalid attributes structure.)
+    438           *
+    439           * \see _mutatr_set_sched_protocol
+    440           * \see _mutatr_init
+    441           * \see _mutatr_get_priority_ceiling
+    442           * \see _mutatr_set_priority_ceiling
+    443           * \see MUTEX_ATTR_STRUCT
+    444           */
+    445          _mqx_uint _mutatr_get_sched_protocol
+    446          (
+    447              MUTEX_ATTR_STRUCT_PTR attr_ptr,
+    448              _mqx_uint_ptr         protocol_ptr
+    449          )
+    450          { /* Body */
+    451          
+    452          #if MQX_CHECK_ERRORS
+    453              if ((attr_ptr == NULL) || (protocol_ptr == NULL))
+    454              {
+    455                  return (MQX_EINVAL);
+    456              } /* Endif */
+    457          #endif
+    458          #if MQX_CHECK_VALIDITY
+    459              if (attr_ptr->VALID != MUTEX_VALID)
+    460              {
+    461                  return (MQX_EINVAL);
+    462              } /* Endif */
+    463          #endif
+    464          
+    465              *protocol_ptr = attr_ptr->SCHED_PROTOCOL;
+    466              return (MQX_EOK);
+    467          
+    468          } /* Endbody */
+    469          
+    470          /*!
+    471           * \brief Gets the spin limit of the mutex attributes structure.
+    472           *
+    473           * Spin limit applies only to mutexes whose waiting policy is limited spin. Spin
+    474           * limit is the number of times that a task spins (is rescheduled) while it waits
+    475           * for the mutex.
+    476           *
+    477           * \param[in]  attr_ptr       Pointer to an initialized mutex attributes structure.
+    478           * \param[out] spin_count_ptr Pointer to the current spin limit.
+    479           *
+    480           * \return MQX_OK
+    481           * \return MQX_EINVAL (Attr_ptr is NULL or points to an invalid attributes structure.)
+    482           *
+    483           * \see _mutatr_set_spin_limit
+    484           * \see _mutatr_init
+    485           * \see _mutatr_get_wait_protocol
+    486           * \see _mutatr_set_wait_protocol
+    487           * \see MUTEX_ATTR_STRUCT
+    488           */
+    489          _mqx_uint _mutatr_get_spin_limit
+    490          (
+    491              MUTEX_ATTR_STRUCT_PTR attr_ptr,
+    492              _mqx_uint_ptr         spin_count_ptr
+    493          )
+    494          { /* Body */
+    495          
+    496          #if MQX_CHECK_ERRORS
+    497              if ((attr_ptr == NULL) || (spin_count_ptr == NULL))
+    498              {
+    499                  return (MQX_EINVAL);
+    500              } /* Endif */
+    501          #endif
+    502          #if MQX_CHECK_VALIDITY
+    503              if (attr_ptr->VALID != MUTEX_VALID)
+    504              {
+    505                  return (MQX_EINVAL);
+    506              } /* Endif */
+    507          #endif
+    508          
+    509              *spin_count_ptr = attr_ptr->COUNT;
+    510              return (MQX_EOK);
+    511          
+    512          } /* Endbody */
+    513          
+    514          /*!
+    515           * \brief Initializes the mutex.
+    516           *
+    517           * \param[in] mutex_ptr Pointer to where the mutex is to be initialized.
+    518           * \param[in] attr_ptr  Pointer to an initialized mutex attributes structure or
+    519           * NULL (use default attributes as defined for _mutatr_init()).
+    520           *
+    521           * \return MQX_EOK
+    522           * \return MQX_EINVAL (Mutex_ptr is NULL, attr_ptr is not initialized or a value
+    523           * in attr_ptr is not correct.)
+    524           * \return MQX_INVALID_COMPONENT_BASE (Mutex component data is not valid.)
+    525           * \return MQX_OUT_OF_MEMORY
+    526           *
+    527           * \warning Creates the mutex component if it was not previously created.
+    528           *
+    529           * \see _mutex_destroy
+    530           * \see _mutatr_init
+    531           * \see MUTEX_STRUCT
+    532           * \see MUTEX_ATTR_STRUCT
+    533           */
+    534          _mqx_uint _mutex_init
+    535          (
+    536              register MUTEX_STRUCT_PTR      mutex_ptr,
+    537              register MUTEX_ATTR_STRUCT_PTR attr_ptr
+    538          )
+    539          { /* Body */
+    540              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    541              MUTEX_COMPONENT_STRUCT_PTR mutex_component_ptr;
+    542              MUTEX_ATTR_STRUCT          default_attr;
+    543          #if MQX_CHECK_ERRORS
+    544              MUTEX_STRUCT_PTR           mutex_chk_ptr;
+    545          #endif
+    546              _mqx_uint                  result;
+    547          
+    548              _GET_KERNEL_DATA(kernel_data);
+    549              if (attr_ptr == NULL)
+    550              {
+    551                  attr_ptr = &default_attr;
+    552                  _mutatr_init(attr_ptr);
+    553                  _KLOGE3(KLOG_mutex_init, mutex_ptr, NULL);
+    554              }
+    555              else
+    556              {
+    557                  _KLOGE3(KLOG_mutex_init, mutex_ptr, attr_ptr);
+    558              } /* Endif */
+    559          
+    560          #if MQX_CHECK_ERRORS
+    561              if (mutex_ptr == NULL)
+    562              {
+    563                  _KLOGX2(KLOG_mutex_init, MQX_EINVAL);
+    564                  return (MQX_EINVAL);
+    565              } /* Endif */
+    566          #endif
+    567          #if MQX_CHECK_VALIDITY
+    568              if (attr_ptr->VALID != MUTEX_VALID)
+    569              {
+    570                  _KLOGX2(KLOG_mutex_init, MQX_EINVAL);
+    571                  return (MQX_EINVAL);
+    572              } /* Endif */
+    573          #endif
+    574          
+    575              mutex_component_ptr = (MUTEX_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_MUTEXES];
+    576              if (mutex_component_ptr == NULL)
+    577              {
+    578                  result = _mutex_create_component();
+    579                  mutex_component_ptr = (MUTEX_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_MUTEXES];
+    580          #if MQX_CHECK_MEMORY_ALLOCATION_ERRORS
+    581                  if (mutex_component_ptr == NULL)
+    582                  {
+    583                      _KLOGX2(KLOG_mutex_init, result);
+    584                      return (result);
+    585                  } /* Endif */
+    586          #endif
+    587              } /* Endif */
+    588          
+    589          #if MQX_CHECK_VALIDITY
+    590              if (mutex_component_ptr->VALID != MUTEX_VALID)
+    591              {
+    592                  _KLOGX2(KLOG_mutex_init, MQX_INVALID_COMPONENT_BASE);
+    593                  return (MQX_INVALID_COMPONENT_BASE);
+    594              } /* Endif */
+    595          #endif
+    596          
+    597              _int_disable();
+    598          #if MQX_CHECK_ERRORS
+    599              /* Check if mutex is already initialized */
+    600              mutex_chk_ptr = (MUTEX_STRUCT_PTR) ((pointer) mutex_component_ptr->MUTEXES.NEXT);
+    601              while (mutex_chk_ptr != (MUTEX_STRUCT_PTR) ((pointer) &mutex_component_ptr->MUTEXES))
+    602              {
+    603                  if (mutex_chk_ptr == mutex_ptr)
+    604                  {
+    605                      _int_enable();
+    606                      _KLOGX2(KLOG_mutex_init, MQX_EINVAL);
+    607                      return (MQX_EINVAL);
+    608                  } /* Endif */
+    609                  mutex_chk_ptr = (MUTEX_STRUCT_PTR) ((pointer) mutex_chk_ptr->LINK.NEXT);
+    610              } /* Endif */
+    611          #endif
+    612          
+    613              mutex_ptr->PROTOCOLS = attr_ptr->SCHED_PROTOCOL | attr_ptr->WAIT_PROTOCOL;
+    614              mutex_ptr->VALID            = MUTEX_VALID;
+    615              mutex_ptr->COUNT            = attr_ptr->COUNT;
+    616              mutex_ptr->PRIORITY_CEILING = attr_ptr->PRIORITY_CEILING;
+    617              mutex_ptr->LOCK             = 0;
+    618              mutex_ptr->BOOSTED          = 0;
+    619              mutex_ptr->OWNER_TD         = NULL;
+    620              _QUEUE_INIT(&mutex_ptr->WAITING_TASKS, 0);
+    621          
+    622              _QUEUE_ENQUEUE(&mutex_component_ptr->MUTEXES, mutex_ptr);
+    623              _int_enable();
+    624          
+    625              _KLOGX2(KLOG_mutex_init, MQX_EOK);
+    626              return (MQX_EOK);
+    627          
+    628          } /* Endbody */
+    629          
+    630          /*!
+    631           * \brief Locks the mutex.
+    632           *
+    633           * If the mutex is already locked, the task waits according to the waiting protocol
+    634           * of the mutex.
+    635           *
+    636           * \param[in] mutex_ptr Pointer to the mutex to be locked.
+    637           *
+    638           * \return MQX_EOK
+    639           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+    640           * \return MQX_EINVAL (Mutex_ptr is NULL or mutex was destroyed.)
+    641           * \return MQX_EDEADLK (Task already has the mutex locked.)
+    642           * \return MQX_EBUSY (Mutex is already locked.)
+    643           *
+    644           * \warning Might block the calling task.
+    645           * \warning Cannot be called from an ISR.
+    646           *
+    647           * \see _mutex_init
+    648           * \see _mutex_try_lock
+    649           * \see _mutex_unlock
+    650           * \see _mutatr_init
+    651           * \see _mutatr_get_wait_protocol
+    652           * \see _mutatr_set_wait_protocol
+    653           * \see _mutex_destroy
+    654           * \see MUTEX_STRUCT
+    655           */
+    656          _mqx_uint _mutex_lock
+    657          (
+    658              register MUTEX_STRUCT_PTR mutex_ptr
+    659          )
+    660          { /* Body */
+    661              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    662              register TD_STRUCT_PTR          td_ptr;
+    663              volatile uchar _PTR_            lock_ptr;
+    664              _mqx_uint                       priority;
+    665              _mqx_uint                       count;
+    666          #if MQX_MUTEX_HAS_POLLING
+    667              _mqx_uint                       limited;
+    668          #endif
+    669          
+    670              _GET_KERNEL_DATA(kernel_data);
+    671          
+    672              _KLOGE2(KLOG_mutex_lock, mutex_ptr);
+    673          
+    674              td_ptr = kernel_data->ACTIVE_PTR;
+    675          
+    676          #if MQX_CHECK_ERRORS
+    677              if (kernel_data->IN_ISR)
+    678              {
+    679                  _KLOGX2(KLOG_mutex_lock, MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+    680                  return (MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+    681              } /* Endif */
+    682              if (mutex_ptr == NULL)
+    683              {
+    684                  _KLOGX2(KLOG_mutex_lock, MQX_EINVAL);
+    685                  return (MQX_EINVAL);
+    686              } /* Endif */
+    687          #endif
+    688          #if MQX_CHECK_VALIDITY
+    689              if (mutex_ptr->VALID != MUTEX_VALID)
+    690              {
+    691                  _KLOGX2(KLOG_mutex_lock, MQX_EINVAL);
+    692                  return (MQX_EINVAL);
+    693              } /* Endif */
+    694          #endif
+    695          
+    696              if (mutex_ptr->OWNER_TD == (pointer) td_ptr)
+    697              {
+    698                  _KLOGX2(KLOG_mutex_lock, MQX_EDEADLK);
+    699                  return (MQX_EDEADLK);
+    700              } /* Endif */
+    701          
+    702              priority = td_ptr->MY_QUEUE->PRIORITY;
+    703              lock_ptr = &mutex_ptr->LOCK;
+    704          
+    705          #if MQX_MUTEX_HAS_POLLING
+    706              if ((mutex_ptr->PROTOCOLS & MUTEX_SPIN_ONLY) ||
+    707                  (mutex_ptr->PROTOCOLS & MUTEX_LIMITED_SPIN))
+    708              {
+    709          
+    710                  if (mutex_ptr->PROTOCOLS & MUTEX_SPIN_ONLY)
+    711                  {
+    712                      count = 1;
+    713                      limited = 0;
+    714                  }
+    715                  else
+    716                  {
+    717                      count = mutex_ptr->COUNT;
+    718                      limited = 1;
+    719                  } /* Endif */
+    720                  if (mutex_ptr->PROTOCOLS & MUTEX_PRIO_INHERIT)
+    721                  {
+    722          
+    723                      _INT_DISABLE();
+    724                      while (count && *lock_ptr)
+    725                      {
+    726                          count -= limited;
+    727                          if (((TD_STRUCT_PTR)(mutex_ptr->OWNER_TD))->HOME_QUEUE->PRIORITY >
+    728                              priority)
+    729                          {
+    730                              if (((TD_STRUCT_PTR)(mutex_ptr->OWNER_TD))->MY_QUEUE->PRIORITY >
+    731                                  priority)
+    732                              {
+    733                                  _sched_boost_priority_internal(
+    734                                                  (TD_STRUCT_PTR)mutex_ptr->OWNER_TD, priority);
+    735                              } /* Endif */
+    736                              mutex_ptr->BOOSTED++;
+    737                          } /* Endif */
+    738                          _INT_ENABLE(); /* Allow interruption and tasks of same prio a kick*/
+    739                          _sched_yield();
+    740                          _INT_DISABLE();
+    741          #if MQX_COMPONENT_DESTRUCTION
+    742                          if (mutex_ptr->VALID != MUTEX_VALID)
+    743                          {
+    744                              _int_enable();
+    745                              _KLOGX2(KLOG_mutex_lock, MQX_EINVAL);
+    746                              return(MQX_EINVAL);
+    747                          } /* Endif */
+    748          #endif
+    749                      } /* Endwhile */
+    750                      if (count)
+    751                      {
+    752                          /* Test and set sets the high bit. */
+    753                          mutex_ptr->LOCK = MQX_TEST_AND_SET_VALUE;
+    754                      } /* Endif */
+    755                      _INT_ENABLE();
+    756          
+    757                  }
+    758                  else
+    759                  {
+    760          
+    761                      while (count && _mem_test_and_set((uchar_ptr)lock_ptr))
+    762                      {
+    763                          count -= limited;
+    764                          _sched_yield();
+    765          #if MQX_COMPONENT_DESTRUCTION
+    766                          if (mutex_ptr->VALID != MUTEX_VALID)
+    767                          {
+    768                              _KLOGX2(KLOG_mutex_lock, MQX_EINVAL);
+    769                              return(MQX_EINVAL);
+    770                          } /* Endif */
+    771          #endif
+    772                      } /* Endwhile */
+    773          
+    774                  } /* Endif */
+    775          
+    776                  if (count == 0)
+    777                  {
+    778                      _KLOGX2(KLOG_mutex_lock, MQX_EBUSY);
+    779                      return(MQX_EBUSY);
+    780                  } /* Endif */
+    781                  mutex_ptr->OWNER_TD = td_ptr;
+    782          
+    783              }
+    784              else
+    785              {
+    786          
+    787          #endif
+    788          
+    789              _INT_DISABLE();
+    790              if (*lock_ptr)
+    791              {
+    792                  /* Must wait for a mutex to become available */
+    793          
+    794                  /* Boost the priority of the owner task if necessary */
+    795                  if (mutex_ptr->PROTOCOLS & MUTEX_PRIO_INHERIT) {
+    796                      if (((TD_STRUCT_PTR) (mutex_ptr->OWNER_TD))->HOME_QUEUE->PRIORITY > priority)
+    797                      {
+    798                          if (((TD_STRUCT_PTR) (mutex_ptr->OWNER_TD))->MY_QUEUE->PRIORITY > priority)
+    799                          {
+    800                              _sched_boost_priority_internal((TD_STRUCT_PTR) mutex_ptr->OWNER_TD, priority);
+    801                          } /* Endif */
+    802                          mutex_ptr->BOOSTED++;
+    803                      } /* Endif */
+    804                  } /* Endif */
+    805          
+    806                  _QUEUE_UNLINK(td_ptr); /* Remove from ready to run queue */
+    807                  td_ptr->INFO = (_mqx_uint) &mutex_ptr->WAITING_TASKS;
+    808                  if (mutex_ptr->PROTOCOLS & MUTEX_PRIORITY_QUEUEING)
+    809                  {
+    810                      /*
+    811                       ** The waiting task must be inserted into the waiting list in order
+    812                       ** of the priority of the waiting task.
+    813                       */
+    814                      _sched_insert_priorityq_internal(&mutex_ptr->WAITING_TASKS, td_ptr);
+    815                  }
+    816                  else
+    817                  {
+    818                      /* Enqueue at end */
+    819                      _QUEUE_ENQUEUE(&mutex_ptr->WAITING_TASKS, td_ptr);
+    820                  } /* Endif */
+    821          
+    822                  /* Now put the task to sleep */
+    823                  td_ptr->STATE = MUTEX_BLOCKED;
+    824                  _sched_execute_scheduler_internal();
+    825          
+    826                  /* If mutex alive, then active task owns it now, (done by unlock) */
+    827          #if MQX_COMPONENT_DESTRUCTION
+    828                  if (mutex_ptr->VALID != MUTEX_VALID)
+    829                  {
+    830                      _int_enable();
+    831                      _KLOGX2(KLOG_mutex_lock, MQX_EINVAL);
+    832                      return (MQX_EINVAL);
+    833                  } /* Endif */
+    834          #endif
+    835          
+    836              }
+    837              else
+    838              {
+    839                  /* Test and set sets the high bit. */
+    840                  mutex_ptr->LOCK = MQX_TEST_AND_SET_VALUE;
+    841                  mutex_ptr->OWNER_TD = td_ptr;
+    842              } /* Endif */
+    843          
+    844              /*
+    845               * This task now owns the mutex, if priority inheritance is in effect
+    846               * the queue of waiting tasks must be checked for any task which may
+    847               * have a higher priority than mine ONLY if priority queueing is NOT
+    848               * in effect
+    849               */
+    850              if ((mutex_ptr->PROTOCOLS & MUTEX_PRIO_INHERIT) && !(mutex_ptr->PROTOCOLS & MUTEX_PRIORITY_QUEUEING))
+    851              {
+    852                  count = _sched_get_max_priority_on_q_internal(&mutex_ptr->WAITING_TASKS);
+    853                  if (count < td_ptr->HOME_QUEUE->PRIORITY)
+    854                  {
+    855                      if (count < td_ptr->MY_QUEUE->PRIORITY)
+    856                      {
+    857                          _sched_boost_priority_internal(td_ptr, count);
+    858                      } /* Endif */
+    859                      mutex_ptr->BOOSTED++;
+    860                  } /* Endif */
+    861              } /* Endif */
+    862              _INT_ENABLE();
+    863          
+    864          #if MQX_MUTEX_HAS_POLLING
+    865          } /* Endif */
+    866          #endif
+    867          
+    868              if (mutex_ptr->PROTOCOLS & MUTEX_PRIO_PROTECT)
+    869              {
+    870                  /* Switch my priority to the higher one if necessary */
+    871                  _INT_DISABLE();
+    872                  if (mutex_ptr->PRIORITY_CEILING < td_ptr->HOME_QUEUE->PRIORITY)
+    873                  {
+    874                      if (mutex_ptr->PRIORITY_CEILING < td_ptr->MY_QUEUE->PRIORITY)
+    875                      {
+    876                          _sched_boost_priority_internal(td_ptr, mutex_ptr->PRIORITY_CEILING);
+    877                      } /* Endif */
+    878                      mutex_ptr->BOOSTED++;
+    879                  } /* Endif */
+    880                  _INT_ENABLE();
+    881              } /* Endif */
+    882          
+    883              _KLOGX2(KLOG_mutex_lock, MQX_EOK);
+    884              return (MQX_EOK);
+    885          
+    886          } /* Endbody */
+    887          
+    888          /*!
+    889           * \brief Sets the waiting policy of the mutex attributes structure.
+    890           *
+    891           * \param[in] attr_ptr         Pointer to an initialized mutex attributes structure.
+    892           * \param[in] waiting_protocol New waiting protocol (see waiting protocols).
+    893           *
+    894           * \return MQX_EOK
+    895           * \return MQX_EINVAL (Attr_ptr is NULL or points to an invalid attribute structure.)
+    896           *
+    897           * \warning Improper use can crash your application.
+    898           *
+    899           * \see _mutatr_get_wait_protocol
+    900           * \see _mutatr_init
+    901           * \see _mutatr_get_spin_limit
+    902           * \see _mutatr_set_spin_limit
+    903           * \see MUTEX_ATTR_STRUCT
+    904           */
+    905          _mqx_uint _mutatr_set_wait_protocol
+    906          (
+    907              MUTEX_ATTR_STRUCT_PTR attr_ptr,
+    908              _mqx_uint             waiting_protocol
+    909          )
+    910          { /* Body */
+    911              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+    912          
+    913              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+    914          
+    915              _KLOGE3(KLOG_mutatr_set_wait_protocol, attr_ptr, waiting_protocol);
+    916          
+    917          #if MQX_CHECK_ERRORS
+    918              if (attr_ptr == NULL)
+    919              {
+    920                  _KLOGX2(KLOG_mutatr_set_wait_protocol, MQX_EINVAL);
+    921                  return (MQX_EINVAL);
+    922              } /* Endif */
+    923          #endif
+    924          #if MQX_CHECK_VALIDITY
+    925              if (attr_ptr->VALID != MUTEX_VALID)
+    926              {
+    927                  _KLOGX2(KLOG_mutatr_set_wait_protocol, MQX_EINVAL);
+    928                  return (MQX_EINVAL);
+    929              } /* Endif */
+    930          #endif
+    931          #if MQX_CHECK_ERRORS
+    932              /* Validate input value */
+    933              if (!(
+    934          #if MQX_MUTEX_HAS_POLLING
+    935              (waiting_protocol == MUTEX_SPIN_ONLY) ||
+    936              (waiting_protocol == MUTEX_LIMITED_SPIN) ||
+    937          #endif
+    938              (waiting_protocol == MUTEX_QUEUEING) || (waiting_protocol == MUTEX_PRIORITY_QUEUEING)))
+    939              {
+    940                  _KLOGX2(KLOG_mutatr_set_wait_protocol, MQX_EINVAL);
+    941                  return (MQX_EINVAL);
+    942              } /* Endif */
+    943          #endif
+    944          
+    945              attr_ptr->WAIT_PROTOCOL = waiting_protocol;
+    946          
+    947              _KLOGX2(KLOG_mutatr_set_wait_protocol, MQX_EOK);
+    948              return (MQX_EOK);
+    949          
+    950          } /* Endbody */
+    951          
+    952          /*!
+    953           * \brief Sets the priority ceiling of a mutex attributes structure.
+    954           *
+    955           * Priority applies only to mutexes whose scheduling protocol is priority protect.
+    956           *
+    957           * \param[in] attr_ptr Pointer to an initialized mutex attributes structure.
+    958           * \param[in] ceiling New priority ceiling to use.
+    959           *
+    960           * \return MQX_EOK
+    961           * \return MQX_EINVAL
+    962           *
+    963           * \see _mutatr_get_priority_ceiling
+    964           * \see _mutatr_init
+    965           * \see MUTEX_ATTR_STRUCT
+    966           */
+    967          _mqx_uint _mutatr_set_priority_ceiling
+    968          (
+    969              MUTEX_ATTR_STRUCT_PTR attr_ptr,
+    970              _mqx_uint             ceiling
+    971          )
+    972          { /* Body */
+    973              KERNEL_DATA_STRUCT_PTR kernel_data;
+    974          
+    975              _GET_KERNEL_DATA(kernel_data);
+    976          
+    977              _KLOGE3(KLOG_mutatr_set_priority_ceiling, attr_ptr, ceiling);
+    978          
+    979          #if MQX_CHECK_ERRORS
+    980              if (attr_ptr == NULL)
+    981              {
+    982                  _KLOGX2(KLOG_mutatr_set_priority_ceiling, MQX_EINVAL);
+    983                  return (MQX_EINVAL);
+    984              } /* Endif */
+    985          #endif
+    986          #if MQX_CHECK_VALIDITY
+    987              if (attr_ptr->VALID != MUTEX_VALID)
+    988              {
+    989                  _KLOGX2(KLOG_mutatr_set_priority_ceiling, MQX_EINVAL);
+    990                  return (MQX_EINVAL);
+    991              } /* Endif */
+    992          #endif
+    993          #if MQX_CHECK_ERRORS
+    994              if (ceiling > kernel_data->LOWEST_TASK_PRIORITY)
+    995              {
+    996                  _KLOGX2(KLOG_mutatr_set_priority_ceiling, MQX_EINVAL);
+    997                  return (MQX_EINVAL);
+    998              } /* Endif */
+    999          #endif
+   1000          
+   1001              attr_ptr->PRIORITY_CEILING = ceiling;
+   1002          
+   1003              _KLOGX2(KLOG_mutatr_set_priority_ceiling, MQX_EOK);
+   1004              return (MQX_EOK);
+   1005          
+   1006          } /* Endbody */
+   1007          
+   1008          /*!
+   1009           * \brief Sets the scheduling protocol of the mutex attributes structure.
+   1010           *
+   1011           * \param[in] attr_ptr Pointer to an initialized mutex attributes structure.
+   1012           * \param[in] protocol New scheduling protocol (see scheduling protocols).
+   1013           *
+   1014           * \return MQX_EOK
+   1015           * \return MQX_EINVAL (Attr_ptr is NULL or points to an invalid attributes structure.)
+   1016           *
+   1017           * \see _mutatr_get_sched_protocol
+   1018           * \see _mutatr_init
+   1019           * \see _mutatr_get_priority_ceiling
+   1020           * \see _mutatr_set_priority_ceiling
+   1021           * \see MUTEX_ATTR_STRUCT
+   1022           */
+   1023          _mqx_uint _mutatr_set_sched_protocol
+   1024          (
+   1025              MUTEX_ATTR_STRUCT_PTR attr_ptr,
+   1026              _mqx_uint             protocol
+   1027          )
+   1028          { /* Body */
+   1029              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+   1030          
+   1031              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+   1032              _KLOGE3(KLOG_mutatr_set_sched_protocol, attr_ptr, protocol);
+   1033          
+   1034          #if MQX_CHECK_ERRORS
+   1035              if (attr_ptr == NULL)
+   1036              {
+   1037                  _KLOGX2(KLOG_mutatr_set_sched_protocol, MQX_EINVAL);
+   1038                  return (MQX_EINVAL);
+   1039              } /* Endif */
+   1040          #endif
+   1041          #if MQX_CHECK_VALIDITY
+   1042              if (attr_ptr->VALID != MUTEX_VALID)
+   1043              {
+   1044                  _KLOGX2(KLOG_mutatr_set_sched_protocol, MQX_EINVAL);
+   1045                  return (MQX_EINVAL);
+   1046              } /* Endif */
+   1047          #endif
+   1048          #if MQX_CHECK_ERRORS
+   1049              /* Validate protocol value */
+   1050              if (!((protocol == MUTEX_PRIO_INHERIT) || (protocol == MUTEX_PRIO_PROTECT) || (protocol == MUTEX_NO_PRIO_INHERIT)))
+   1051              {
+   1052                  _KLOGX2(KLOG_mutatr_set_sched_protocol, MQX_EINVAL);
+   1053                  return (MQX_EINVAL);
+   1054              } /* Endif */
+   1055          #endif
+   1056          
+   1057              attr_ptr->SCHED_PROTOCOL = protocol;
+   1058          
+   1059              _KLOGX2(KLOG_mutatr_set_sched_protocol, MQX_EOK);
+   1060              return (MQX_EOK);
+   1061          
+   1062          } /* Endbody */
+   1063          
+   1064          /*!
+   1065           * \brief Sets the spin limit of the mutex attributes structure.
+   1066           *
+   1067           * Spin limit applies only to mutexes whose waiting policy is limited spin. Spin
+   1068           * limit is the number of times that a task spins (is rescheduled) while it waits
+   1069           * for the mutex.
+   1070           *
+   1071           * \param[in] attr_ptr Pointer to an initialized mutex attributes structure.
+   1072           * \param[in] spin_count New spin limit.
+   1073           *
+   1074           * \return MQX_EOK
+   1075           * \return MQX_EINVAL (Attr_ptr is NULL or points to an invalid attributes structure.)
+   1076           *
+   1077           * \see _mutatr_get_spin_limit
+   1078           * \see _mutatr_init
+   1079           * \see _mutatr_get_wait_protocol
+   1080           * \see _mutatr_set_wait_protocol
+   1081           * \see MUTEX_ATTR_STRUCT
+   1082           */
+   1083          _mqx_uint _mutatr_set_spin_limit
+   1084          (
+   1085              MUTEX_ATTR_STRUCT_PTR attr_ptr,
+   1086              _mqx_uint             spin_count
+   1087          )
+   1088          { /* Body */
+   1089              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+   1090          
+   1091              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+   1092              _KLOGE3(KLOG_mutatr_set_spin_limit, attr_ptr, spin_count);
+   1093          
+   1094          #if MQX_MUTEX_HAS_POLLING
+   1095          #if MQX_CHECK_ERRORS
+   1096              if (attr_ptr == NULL)
+   1097              {
+   1098                  _KLOGX2(KLOG_mutatr_set_spin_limit, MQX_EINVAL);
+   1099                  return(MQX_EINVAL);
+   1100              } /* Endif */
+   1101          #endif
+   1102          #if MQX_CHECK_VALIDITY
+   1103              if (attr_ptr->VALID != MUTEX_VALID)
+   1104              {
+   1105                  _KLOGX2(KLOG_mutatr_set_spin_limit, MQX_EINVAL);
+   1106                  return(MQX_EINVAL);
+   1107              } /* Endif */
+   1108          #endif
+   1109          
+   1110              attr_ptr->COUNT = spin_count;
+   1111          
+   1112              _KLOGX2(KLOG_mutatr_set_spin_limit, MQX_EOK);
+   1113              return(MQX_EOK);
+   1114          #else
+   1115              _KLOGX2(KLOG_mutatr_set_spin_limit, MQX_EINVAL);
+   1116              return (MQX_EINVAL);
+   1117          #endif
+   1118          
+   1119          } /* Endbody */
+   1120          
+   1121          /*!
+   1122           * \brief Used during task destruction to free up any mutex owned by this task.
+   1123           *
+   1124           * \param[in] td_ptr Pointer to the task descriptor of the task to be destroyed.
+   1125           *
+   1126           * \see mutex_destroy
+   1127           */
+   1128          void _mutex_cleanup
+   1129          (
+   1130              TD_STRUCT_PTR td_ptr
+   1131          )
+   1132          { /* Body */
+   1133              KERNEL_DATA_STRUCT_PTR     kernel_data;
+   1134              MUTEX_COMPONENT_STRUCT_PTR mutex_component_ptr;
+   1135              MUTEX_STRUCT_PTR           mutex_ptr;
+   1136          
+   1137              _GET_KERNEL_DATA(kernel_data);
+   1138          
+   1139              mutex_component_ptr = (MUTEX_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_MUTEXES];
+   1140              if (mutex_component_ptr == NULL)
+   1141              {
+   1142                  return; /* No work to do! */
+   1143              } /* Endif */
+   1144          
+   1145          #if MQX_CHECK_VALIDITY
+   1146              if (mutex_component_ptr->VALID != MUTEX_VALID)
+   1147              {
+   1148                  return;
+   1149              } /* Endif */
+   1150          #endif
+   1151          
+   1152              _int_disable();
+   1153              mutex_ptr = (MUTEX_STRUCT_PTR) ((pointer) mutex_component_ptr->MUTEXES.NEXT);
+   1154              while (mutex_ptr != (MUTEX_STRUCT_PTR) ((pointer) &mutex_component_ptr->MUTEXES))
+   1155              {
+   1156                  if ((mutex_ptr->LOCK) && (mutex_ptr->OWNER_TD == td_ptr))
+   1157                  {
+   1158                      mutex_ptr->OWNER_TD = kernel_data->ACTIVE_PTR;
+   1159                      _mutex_unlock(mutex_ptr);
+   1160                      mutex_ptr = (MUTEX_STRUCT_PTR) ((pointer) mutex_component_ptr->MUTEXES.NEXT);
+   1161                  }
+   1162                  else
+   1163                  {
+   1164                      mutex_ptr = (MUTEX_STRUCT_PTR) ((pointer) mutex_ptr->LINK.NEXT);
+   1165                  } /* Endif */
+   1166              } /* Endwhile */
+   1167              _int_enable();
+   1168          
+   1169          } /* Endbody */
+   1170          
+   1171          /*!
+   1172           * \brief Tests the mutex component.
+   1173           *
+   1174           * The function tests:
+   1175           * \n - mutex component data
+   1176           * \n - MQX queue of mutexes
+   1177           * \n - each mutex
+   1178           * \n - waiting queue of each mutex
+   1179           *
+   1180           * \param[out] mutex_error_ptr Pointer to the invalid queue or to the mutex with the
+   1181           * error (see return).
+   1182           *
+   1183           * \return MQX_OK No errors were found (mutex_error_ptr = NULL).
+   1184           * \return MQX_INVALID_COMPONENT_BASE Mutex component data is not valid (mutex_error_ptr
+   1185           * = NULL).
+   1186           * \return MQX_EINVAL A mutex is not valid or a mutex queue is not valid (mutex_error_ptr
+   1187           * = pointer to the mutex with the error).
+   1188           * \return MQX_CORRUPT_QUEUE Queue of mutexes is not valid (mutex_error_ptr = pointer
+   1189           * to the invalid queue).
+   1190           *
+   1191           * \warning Disables and enables interrupts.
+   1192           *
+   1193           * \see _mutex_create_component
+   1194           * \see _mutex_init
+   1195           */
+   1196          _mqx_uint _mutex_test
+   1197          (
+   1198              pointer _PTR_ mutex_error_ptr
+   1199          )
+   1200          { /* Body */
+   1201              KERNEL_DATA_STRUCT_PTR     kernel_data;
+   1202              MUTEX_COMPONENT_STRUCT_PTR mutex_component_ptr;
+   1203              MUTEX_STRUCT_PTR           mutex_ptr;
+   1204              _mqx_uint                  result;
+   1205          
+   1206              _GET_KERNEL_DATA(kernel_data);
+   1207          
+   1208              _KLOGE2(KLOG_mutex_test, mutex_error_ptr);
+   1209          
+   1210              *mutex_error_ptr = NULL;
+   1211          
+   1212              mutex_component_ptr = (MUTEX_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_MUTEXES];
+   1213              if (mutex_component_ptr == NULL)
+   1214              {
+   1215                  _KLOGX2(KLOG_mutex_test, MQX_OK);
+   1216                  return (MQX_OK);
+   1217              } /* Endif */
+   1218          
+   1219              if (mutex_component_ptr->VALID != MUTEX_VALID)
+   1220              {
+   1221                  _KLOGX2(KLOG_mutex_test, MQX_INVALID_COMPONENT_BASE);
+   1222                  return (MQX_INVALID_COMPONENT_BASE);
+   1223              } /* Endif */
+   1224          
+   1225              _int_disable();
+   1226          
+   1227              /* Make sure that the queue of mutexes is ok */
+   1228              result = _queue_test(&mutex_component_ptr->MUTEXES, mutex_error_ptr);
+   1229              if (result != MQX_OK)
+   1230              {
+   1231                  _int_enable();
+   1232                  _KLOGX3(KLOG_mutex_test, result, *mutex_error_ptr);
+   1233                  return (result);
+   1234              } /* Endif */
+   1235          
+   1236              mutex_ptr = (MUTEX_STRUCT_PTR) ((pointer) mutex_component_ptr->MUTEXES.NEXT);
+   1237              while (mutex_ptr != (MUTEX_STRUCT_PTR) ((pointer) &mutex_component_ptr->MUTEXES))
+   1238              {
+   1239                  if (mutex_ptr->VALID != MUTEX_VALID)
+   1240                  {
+   1241                      _int_enable();
+   1242                      *mutex_error_ptr = mutex_ptr;
+   1243                      _KLOGX3(KLOG_mutex_test, MQX_EINVAL, mutex_ptr);
+   1244                      return (MQX_EINVAL);
+   1245                  } /* Endif */
+   1246                  result = _queue_test(&mutex_ptr->WAITING_TASKS, mutex_error_ptr);
+   1247                  if (result != MQX_OK)
+   1248                  {
+   1249                      _int_enable();
+   1250                      *mutex_error_ptr = mutex_ptr;
+   1251                      _KLOGX3(KLOG_mutex_test, result, mutex_ptr);
+   1252                      return (result);
+   1253                  } /* Endif */
+   1254                  mutex_ptr = (MUTEX_STRUCT_PTR) ((pointer) mutex_ptr->LINK.NEXT);
+   1255              } /* Endif */
+   1256          
+   1257              _int_enable();
+   1258          
+   1259              _KLOGX2(KLOG_mutex_test, MQX_OK);
+   1260              return (MQX_OK);
+   1261          
+   1262          } /* Endbody */
+   1263          
+   1264          /*!
+   1265           * \brief Tries to lock the mutex.
+   1266           *
+   1267           * If the mutex is not currently locked, the task locks it. If the mutex is currently
+   1268           * locked, the task continues to run; it does not block.
+   1269           *
+   1270           * \param[in] mutex_ptr Pointer to the mutex.
+   1271           *
+   1272           * \return MQX_EOK
+   1273           * \return MQX_EBUSY (Mutex is currently locked.)
+   1274           * \return MQX_EDEADLK (Task already has the mutex locked.)
+   1275           * \return MQX_EINVAL (Mutex_ptr is NULL or mutex has been destroyed.)
+   1276           *
+   1277           * \see _mutex_create_component
+   1278           * \see _mutex_init
+   1279           * \see _mutex_lock
+   1280           * \see _mutex_unlock
+   1281           * \see _mutatr_init
+   1282           * \see MUTEX_STRUCT
+   1283           */
+   1284          _mqx_uint _mutex_try_lock
+   1285          (
+   1286              register MUTEX_STRUCT_PTR mutex_ptr
+   1287          )
+   1288          { /* Body */
+   1289              KERNEL_DATA_STRUCT_PTR kernel_data;
+   1290              TD_STRUCT_PTR          td_ptr;
+   1291          
+   1292              _GET_KERNEL_DATA(kernel_data);
+   1293          
+   1294              _KLOGE2(KLOG_mutex_try_lock, mutex_ptr);
+   1295          
+   1296          #if MQX_CHECK_ERRORS
+   1297              if (mutex_ptr == NULL)
+   1298              {
+   1299                  _KLOGX2(KLOG_mutex_try_lock, MQX_EINVAL);
+   1300                  return (MQX_EINVAL);
+   1301              } /* Endif */
+   1302          #endif
+   1303          #if MQX_CHECK_VALIDITY
+   1304              if (mutex_ptr->VALID != MUTEX_VALID)
+   1305              {
+   1306                  _KLOGX2(KLOG_mutex_try_lock, MQX_EINVAL);
+   1307                  return (MQX_EINVAL);
+   1308              } /* Endif */
+   1309          #endif
+   1310          
+   1311              _INT_DISABLE();
+   1312              if (_mem_test_and_set(&mutex_ptr->LOCK))
+   1313              {
+   1314                  _INT_ENABLE();
+   1315                  /* Lock value was set, can't have it */
+   1316                  if (mutex_ptr->OWNER_TD == (pointer) kernel_data->ACTIVE_PTR)
+   1317                  {
+   1318                      _KLOGX2(KLOG_mutex_try_lock, MQX_EDEADLK);
+   1319                      return (MQX_EDEADLK);
+   1320                  }
+   1321                  else
+   1322                  {
+   1323                      _KLOGX2(KLOG_mutex_try_lock, MQX_EBUSY);
+   1324                      return (MQX_EBUSY);
+   1325                  } /* Endif */
+   1326              }
+   1327              else
+   1328              {
+   1329                  /* Lock value was not set, now it is, I own it */
+   1330                  mutex_ptr->OWNER_TD = kernel_data->ACTIVE_PTR;
+   1331                  _INT_ENABLE();
+   1332          
+   1333                  if (mutex_ptr->PROTOCOLS & MUTEX_PRIO_PROTECT)
+   1334                  {
+   1335                      /* Switch my priority to the higher one if necessary */
+   1336                      td_ptr = kernel_data->ACTIVE_PTR;
+   1337                      _INT_DISABLE();
+   1338                      if (mutex_ptr->PRIORITY_CEILING < td_ptr->HOME_QUEUE->PRIORITY)
+   1339                      {
+   1340                          if (mutex_ptr->PRIORITY_CEILING < td_ptr->MY_QUEUE->PRIORITY)
+   1341                          {
+   1342                              _sched_boost_priority_internal(td_ptr, mutex_ptr->PRIORITY_CEILING);
+   1343                          } /* Endif */
+   1344                          mutex_ptr->BOOSTED++;
+   1345                      } /* Endif */
+   1346                      _INT_ENABLE();
+   1347                  } /* Endif */
+   1348          
+   1349                  _KLOGX2(KLOG_mutex_try_lock, MQX_EOK);
+   1350                  return (MQX_EOK);
+   1351              } /* Endif */
+   1352          
+   1353          } /* Endbody */
+   1354          
+   1355          /*!
+   1356           * \brief Unlocks the mutex.
+   1357           *
+   1358           * If tasks are waiting for the mutex, MQX removes the first one from the mutex
+   1359           * queue and puts the task in the task's ready queue.
+   1360           *
+   1361           * \param[in] mutex_ptr Pointer to the mutex.
+   1362           *
+   1363           * \return MQX_EOK
+   1364           * \return MQX_EINVAL
+   1365           *
+   1366           * \warning Might put a task in the task's ready queue.
+   1367           *
+   1368           * \see _mutex_create_component
+   1369           * \see _mutex_init
+   1370           * \see _mutex_lock
+   1371           * \see _mutex_try_lock
+   1372           * \see _mutatr_init
+   1373           * \see MUTEX_STRUCT
+   1374           */
+   1375          _mqx_uint _mutex_unlock
+   1376          (
+   1377              register MUTEX_STRUCT_PTR mutex_ptr
+   1378          )
+   1379          { /* Body */
+   1380              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   1381              register TD_STRUCT_PTR          td_ptr;
+   1382              _mqx_uint                       boosted;
+   1383          
+   1384              _GET_KERNEL_DATA(kernel_data);
+   1385          
+   1386              _KLOGE2(KLOG_mutex_unlock, mutex_ptr);
+   1387          
+   1388              td_ptr = kernel_data->ACTIVE_PTR;
+   1389          
+   1390          #if MQX_CHECK_ERRORS
+   1391              if (mutex_ptr == NULL)
+   1392              {
+   1393                  _KLOGX2(KLOG_mutex_unlock, MQX_EINVAL);
+   1394                  return (MQX_EINVAL);
+   1395              } /* Endif */
+   1396          #endif
+   1397          #if MQX_CHECK_VALIDITY
+   1398              if (mutex_ptr->VALID != MUTEX_VALID)
+   1399              {
+   1400                  _KLOGX2(KLOG_mutex_unlock, MQX_EINVAL);
+   1401                  return (MQX_EINVAL);
+   1402              } /* Endif */
+   1403          #endif
+   1404          
+   1405          #if MQX_CHECK_ERRORS
+   1406              if (mutex_ptr->LOCK != MQX_TEST_AND_SET_VALUE)
+   1407              {
+   1408                  _KLOGX2(KLOG_mutex_unlock, MQX_EINVAL);
+   1409                  return (MQX_EINVAL);
+   1410              } /* Endif */
+   1411              if (mutex_ptr->OWNER_TD != (pointer) td_ptr)
+   1412              {
+   1413                  _KLOGX2(KLOG_mutex_unlock, MQX_EINVAL);
+   1414                  return (MQX_EINVAL);
+   1415              } /* Endif */
+   1416          #endif
+   1417          
+   1418              _INT_DISABLE();
+   1419              boosted = mutex_ptr->BOOSTED;
+   1420              mutex_ptr->BOOSTED = 0;
+   1421          
+   1422              if (mutex_ptr->PROTOCOLS & (MUTEX_SPIN_ONLY | MUTEX_LIMITED_SPIN))
+   1423              {
+   1424                  mutex_ptr->OWNER_TD = NULL;
+   1425                  mutex_ptr->LOCK = 0;
+   1426              }
+   1427              else
+   1428              {
+   1429          
+   1430                  if (_QUEUE_GET_SIZE(&mutex_ptr->WAITING_TASKS))
+   1431                  {
+   1432          
+   1433                      /* Schedule a waiting task to run */
+   1434                      _QUEUE_DEQUEUE(&mutex_ptr->WAITING_TASKS, td_ptr);
+   1435                      mutex_ptr->OWNER_TD = td_ptr;
+   1436                      _TASK_READY(td_ptr, kernel_data);
+   1437                      if (mutex_ptr->PROTOCOLS & MUTEX_PRIO_PROTECT)
+   1438                      {
+   1439                          /* Switch priority to the higher one if necessary */
+   1440                          if (mutex_ptr->PRIORITY_CEILING < td_ptr->HOME_QUEUE->PRIORITY)
+   1441                          {
+   1442                              if (mutex_ptr->PRIORITY_CEILING < td_ptr->MY_QUEUE->PRIORITY)
+   1443                              {
+   1444                                  _sched_boost_priority_internal(td_ptr, mutex_ptr->PRIORITY_CEILING);
+   1445                              } /* Endif */
+   1446                              mutex_ptr->BOOSTED++;
+   1447                          } /* Endif */
+   1448                      } /* Endif */
+   1449          
+   1450                      _CHECK_RUN_SCHEDULER();/* Let higher priority task run */
+   1451          
+   1452                  }
+   1453                  else
+   1454                  {
+   1455                      mutex_ptr->LOCK = 0;
+   1456                      mutex_ptr->OWNER_TD = NULL;
+   1457                  } /* Endif */
+   1458          
+   1459              } /* Endif */
+   1460          
+   1461              if (boosted)
+   1462              {
+   1463                  _sched_unboost_priority_internal(kernel_data->ACTIVE_PTR, boosted);
+   1464              } /* Endif */
+   1465              _INT_ENABLE();
+   1466          
+   1467              _KLOGX2(KLOG_mutex_unlock, MQX_EOK);
+   1468              return (MQX_EOK);
+   1469          
+   1470          } /* Endbody */
+   1471          
+   1472          /*!
+   1473           * \brief Sets the priority of the mutex.
+   1474           *
+   1475           * The functions operate on an initialized mutex; whereas, _mutatr_get_priority_ceiling()
+   1476           * and _mutatr_set_priority_ceiling() operate on an initialized mutex attributes
+   1477           * structure.
+   1478           *
+   1479           * \param[in]  mutex_ptr       Pointer to the mutex.
+   1480           * \param[in]  ceiling         New priority ceiling.
+   1481           * \param[out] old_ceiling_ptr Pointer to the previous priority ceiling.
+   1482           *
+   1483           * \return MQX_EOK
+   1484           * \return MQX_EINVAL (Mutex_ptr does not point to a valid mutex structure or
+   1485           * priority_ptr is NULL)
+   1486           *
+   1487           * \see _mutex_get_priority_ceiling
+   1488           * \see _mutex_init
+   1489           * \see MUTEX_STRUCT
+   1490           */
+   1491          _mqx_uint _mutex_set_priority_ceiling
+   1492          (
+   1493              MUTEX_STRUCT_PTR mutex_ptr,
+   1494              _mqx_uint        ceiling,
+   1495              _mqx_uint_ptr    old_ceiling_ptr
+   1496          )
+   1497          { /* Body */
+   1498              KERNEL_DATA_STRUCT_PTR kernel_data;
+   1499          
+   1500              _GET_KERNEL_DATA(kernel_data);
+   1501              _KLOGE4(KLOG_mutex_set_priority_ceiling, mutex_ptr, ceiling, old_ceiling_ptr);
+   1502          
+   1503          #if MQX_CHECK_ERRORS
+   1504              if (ceiling > kernel_data->LOWEST_TASK_PRIORITY)
+   1505              {
+   1506                  _KLOGX2(KLOG_mutex_set_priority_ceiling, MQX_EINVAL);
+   1507                  return (MQX_EINVAL);
+   1508              } /* Endif */
+   1509          #endif
+   1510          
+   1511              _int_disable();
+   1512          
+   1513          #if MQX_CHECK_ERRORS
+   1514              if ((mutex_ptr == NULL) || (old_ceiling_ptr == NULL))
+   1515              {
+   1516                  _int_enable();
+   1517                  _KLOGX2(KLOG_mutex_set_priority_ceiling, MQX_EINVAL);
+   1518                  return (MQX_EINVAL);
+   1519              } /* Endif */
+   1520          #endif
+   1521          #if MQX_CHECK_VALIDITY
+   1522              if (mutex_ptr->VALID != MUTEX_VALID)
+   1523              {
+   1524                  _int_enable();
+   1525                  _KLOGX2(KLOG_mutex_set_priority_ceiling, MQX_EINVAL);
+   1526                  return (MQX_EINVAL);
+   1527              } /* Endif */
+   1528          #endif
+   1529          
+   1530              *old_ceiling_ptr = mutex_ptr->PRIORITY_CEILING;
+   1531              mutex_ptr->PRIORITY_CEILING = ceiling;
+   1532              _int_enable();
+   1533          
+   1534              _KLOGX2(KLOG_mutex_set_priority_ceiling, MQX_EOK);
+   1535              return (MQX_EOK);
+   1536          
+   1537          } /* Endbody */
+   1538          
+   1539          /*!
+   1540           * \brief Gets the priority of the mutex.
+   1541           *
+   1542           * The functions operate on an initialized mutex; whereas, _mutatr_get_priority_ceiling()
+   1543           * and _mutatr_set_priority_ceiling() operate on an initialized mutex attributes
+   1544           * structure.
+   1545           *
+   1546           * \param[in]  mutex_ptr   Pointer to the mutex.
+   1547           * \param[out] ceiling_ptr Pointer to the previous priority ceiling.
+   1548           *
+   1549           * \return MQX_EOK
+   1550           * \return MQX_EINVAL (Mutex_ptr does not point to a valid mutex structure or
+   1551           * priority_ptr is NULL)
+   1552           *
+   1553           * \see _mutex_set_priority_ceiling
+   1554           * \see _mutex_init
+   1555           * \see MUTEX_STRUCT
+   1556           */
+   1557          _mqx_uint _mutex_get_priority_ceiling
+   1558          (
+   1559              MUTEX_STRUCT_PTR mutex_ptr,
+   1560              _mqx_uint_ptr    ceiling_ptr
+   1561          )
+   1562          { /* Body */
+   1563          
+   1564          #if MQX_CHECK_ERRORS
+   1565              if ((mutex_ptr == NULL) || (ceiling_ptr == NULL))
+   1566              {
+   1567                  return (MQX_EINVAL);
+   1568              } /* Endif */
+   1569          #endif
+   1570          #if MQX_CHECK_VALIDITY
+   1571              if (mutex_ptr->VALID != MUTEX_VALID)
+   1572              {
+   1573                  return (MQX_EINVAL);
+   1574              } /* Endif */
+   1575          #endif
+   1576          
+   1577              *ceiling_ptr = mutex_ptr->PRIORITY_CEILING;
+   1578              return (MQX_EOK);
+   1579          
+   1580          } /* Endbody */
+   1581          
+   1582          /*!
+   1583           * \brief Gets the number of tasks waiting for the specified mutex.
+   1584           *
+   1585           * \param[in] mutex_ptr Pointer to the mutex.
+   1586           *
+   1587           * \return Number of tasks that are waiting for the mutex.
+   1588           * \return MAX_MQX_UINT (Failure.)
+   1589           *
+   1590           * \warning On failure, calls _task_set_error() to set the task error code to
+   1591           * MQX_EINVAL.
+   1592           *
+   1593           * \see _mutex_lock
+   1594           * \see _task_set_error
+   1595           * \see MUTEX_STRUCT
+   1596           */
+   1597          _mqx_uint _mutex_get_wait_count
+   1598          (
+   1599              register MUTEX_STRUCT_PTR mutex_ptr
+   1600          )
+   1601          { /* Body */
+   1602          
+   1603          #if MQX_CHECK_ERRORS
+   1604              if (mutex_ptr == NULL)
+   1605              {
+   1606                  _task_set_error(MQX_EINVAL);
+   1607                  return (MAX_MQX_UINT);
+   1608              } /* Endif */
+   1609          #endif
+   1610          #if MQX_CHECK_VALIDITY
+   1611              if (mutex_ptr->VALID != MUTEX_VALID)
+   1612              {
+   1613                  _task_set_error(MQX_EINVAL);
+   1614                  return (MAX_MQX_UINT);
+   1615              } /* Endif */
+   1616          #endif
+   1617          
+   1618              return (_QUEUE_GET_SIZE(&mutex_ptr->WAITING_TASKS));
+   1619          
+   1620          } /* Endbody */
+   1621          
+   1622          #endif /* MQX_USE_MUTEXES */
+   1623          
+   1624          /* EOF */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       4   _mutatr_destroy
+       4   _mutatr_get_priority_ceiling
+       4   _mutatr_get_sched_protocol
+       4   _mutatr_get_spin_limit
+       4   _mutatr_get_wait_protocol
+       4   _mutatr_init
+       8   _mutatr_set_priority_ceiling
+       4   _mutatr_set_sched_protocol
+       4   _mutatr_set_spin_limit
+       4   _mutatr_set_wait_protocol
+      24   _mutex_cleanup
+        24   -> _int_disable
+        24   -> _int_enable
+        24   -> _mutex_unlock
+      16   _mutex_create_component
+        16   -> _int_disable
+        16   -> _int_enable
+      32   _mutex_destroy
+        32   -> _int_disable
+        32   -> _int_enable
+        32   -> _mutex_lock
+        32   -> _sched_check_scheduler_internal
+        32   -> _sched_unboost_priority_internal
+        32   -> _task_set_error_td_internal
+       4   _mutex_get_priority_ceiling
+       8   _mutex_get_wait_count
+         8   -> _task_set_error
+      56   _mutex_init
+        56   -> _int_disable
+        56   -> _int_enable
+        56   -> _mutatr_init
+        56   -> _mutex_create_component
+      32   _mutex_lock
+        32   -> _int_enable
+        32   -> _mem_test_and_set
+        32   -> _sched_boost_priority_internal
+        32   -> _sched_execute_scheduler_internal
+        32   -> _sched_get_max_priority_on_q_internal
+        32   -> _sched_insert_priorityq_internal
+        32   -> _sched_yield
+      24   _mutex_set_priority_ceiling
+        24   -> _int_disable
+        24   -> _int_enable
+      32   _mutex_test
+        32   -> _int_disable
+        32   -> _int_enable
+        32   -> _queue_test
+      16   _mutex_try_lock
+        16   -> _mem_test_and_set
+        16   -> _sched_boost_priority_internal
+      24   _mutex_unlock
+        24   -> _sched_boost_priority_internal
+        24   -> _sched_check_scheduler_internal
+        24   -> _sched_unboost_priority_internal
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable10
+       4  ??DataTable10_1
+       4  ??DataTable14
+       4  ??DataTable15
+       4  ??DataTable16
+       4  ??DataTable16_1
+       4  ??DataTable20
+       4  ??DataTable20_1
+       4  ??DataTable20_2
+       4  ??DataTable20_3
+       4  ??DataTable8
+       4  ??DataTable8_1
+       4  ??DataTable8_2
+       4  ??DataTable8_3
+       4  ??DataTable9
+      36  _mutatr_destroy
+      40  _mutatr_get_priority_ceiling
+      40  _mutatr_get_sched_protocol
+      40  _mutatr_get_spin_limit
+      40  _mutatr_get_wait_protocol
+      34  _mutatr_init
+      52  _mutatr_set_priority_ceiling
+      60  _mutatr_set_sched_protocol
+      34  _mutatr_set_spin_limit
+      56  _mutatr_set_wait_protocol
+      74  _mutex_cleanup
+      82  _mutex_create_component
+     212  _mutex_destroy
+      40  _mutex_get_priority_ceiling
+      48  _mutex_get_wait_count
+     206  _mutex_init
+     712  _mutex_lock
+      80  _mutex_set_priority_ceiling
+     140  _mutex_test
+     266  _mutex_try_lock
+     268  _mutex_unlock
+      16  mutex_struct
+
+ 
+    16 bytes in section .bss
+ 2'620 bytes in section .text
+ 
+ 2'620 bytes of CODE memory
+    16 bytes of DATA memory
+
+Errors: none
+Warnings: 1

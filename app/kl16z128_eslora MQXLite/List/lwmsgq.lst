@@ -1,0 +1,785 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:59
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\lwmsgq.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW574F.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\lwmsgq.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\lwmsgq.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lwmsgq.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\lwmsgq.c
+      1          /*HEADER*********************************************************************
+      2           *
+      3           * Copyright (c) 2008 Freescale Semiconductor;
+      4           * All Rights Reserved
+      5           *
+      6           * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7           * All Rights Reserved
+      8           *
+      9           * Copyright (c) 1989-2008 ARC International;
+     10           * All Rights Reserved
+     11           *
+     12           ***************************************************************************
+     13           *
+     14           * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15           * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16           * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17           * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18           * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20           * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21           * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22           * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23           * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24           * THE POSSIBILITY OF SUCH DAMAGE.
+     25           *
+     26           **************************************************************************
+     27           *
+     28           * $FileName: lwmsgq.c$
+     29           * $Version : 3.8.5.1$
+     30           * $Date    : Feb-22-2012$
+     31           *
+     32           * Comments:
+     33           *
+     34           *   This file contains functions of the Lightweight message component.
+     35           *
+     36           *END************************************************************************/
+     37          
+     38          #include "mqx_inc.h"
+     39          
+     40          #if MQX_USE_LWMSGQ
+     41          #include "lwmsgq.h"
+     42          #include "lwmsgq_prv.h"
+     43          
+     44          /*!
+     45           * \private
+     46           *
+     47           * \brief Initializes the light weight message queue.
+     48           *
+     49           * \param[in] location     Pointer to memory to create a message queue.
+     50           * \param[in] num_messages Number of messages in the queue.
+     51           * \param[in] msg_size     Specifies message size as a multiplier factor of
+     52           * _mqx_max_type items.
+     53           * \param[in] user         User mode functionality.
+     54           *
+     55           * \return MQX_OK
+     56           * \return MQX_EINVAL (The location already points to a valid lightweight message
+     57           * queue.)
+     58           *
+     59           * \see _lwmsgq_init
+     60           */
+     61          _mqx_uint _lwmsgq_init_internal
+     62          (
+     63              pointer location,
+     64              _mqx_uint num_messages,
+     65              _mqx_uint msg_size,
+     66              boolean user
+     67          )
+     68          {
+     69              KERNEL_DATA_STRUCT_PTR kernel_data;
+     70              LWMSGQ_STRUCT_PTR      q_ptr = (LWMSGQ_STRUCT_PTR) location;
+     71              LWMSGQ_STRUCT_PTR      lwmsg_chk_ptr;
+     72          
+     73          #if MQX_ENABLE_USER_MODE
+     74              if (user && !_psp_mem_check_access_mask((uint_32)q_ptr, sizeof(LWMSGQ_STRUCT), MPU_UM_R, MPU_UM_RW))
+     75              {
+     76                  return MQX_EINVAL;
+     77              }
+     78          #endif
+     79          
+     80              _GET_KERNEL_DATA(kernel_data);
+     81              _KLOGE4(KLOG_lwmsgq_init, location, num_messages, msg_size);
+     82          
+     83              _QUEUE_INIT(&q_ptr->WAITING_WRITERS,0);
+     84              _QUEUE_INIT(&q_ptr->WAITING_READERS,0);
+     85              q_ptr->MSG_SIZE = msg_size;
+     86              q_ptr->MAX_SIZE = num_messages;
+     87              q_ptr->CURRENT_SIZE  = 0;
+     88              q_ptr->MSG_START_LOC = (_mqx_max_type_ptr) ((uchar_ptr) q_ptr + sizeof(LWMSGQ_STRUCT));
+     89              q_ptr->MSG_END_LOC   = q_ptr->MSG_START_LOC + msg_size * num_messages;
+     90              q_ptr->MSG_WRITE_LOC = q_ptr->MSG_START_LOC;
+     91              q_ptr->MSG_READ_LOC  = q_ptr->MSG_START_LOC;
+     92          
+     93          #if MQX_ENABLE_USER_MODE
+     94              if (user)
+     95              {
+     96                  if (kernel_data->USR_LWMSGQS.NEXT == NULL)
+     97                  {
+     98                      /* Initialize the light weight message queue */
+     99                      _QUEUE_INIT(&kernel_data->USR_LWMSGQS, 0);
+    100                  }
+    101              }
+    102              else
+    103          #endif
+    104              {
+    105                  if (kernel_data->LWMSGQS.NEXT == NULL)
+    106                  {
+    107                      /* Initialize the light weight message queue */
+    108                      _QUEUE_INIT(&kernel_data->LWMSGQS, 0);
+    109                  }
+    110              }
+    111          
+    112              q_ptr->VALID = LWMSGQ_VALID;
+    113          
+    114          #if MQX_CHECK_ERRORS
+    115              /* Check if lwmsgq is already initialized */
+    116          #if MQX_ENABLE_USER_MODE
+    117              if (user)
+    118              {
+    119                  lwmsg_chk_ptr = (LWMSGQ_STRUCT_PTR)((pointer)kernel_data->USR_LWMSGQS.NEXT);
+    120                  while (lwmsg_chk_ptr != (LWMSGQ_STRUCT_PTR)((pointer)&kernel_data->USR_LWMSGQS))
+    121                  {
+    122                      if (lwmsg_chk_ptr == q_ptr)
+    123                      {
+    124                          _KLOGX2(KLOG_lwmsgq_init, MQX_EINVAL);
+    125                          return(MQX_EINVAL);
+    126                      }
+    127                      lwmsg_chk_ptr = (LWMSGQ_STRUCT_PTR)((pointer)lwmsg_chk_ptr->LINK.NEXT);
+    128                  }
+    129              }
+    130              else
+    131          #endif /* MQX_ENABLE_USER_MODE */
+    132              {
+    133                  lwmsg_chk_ptr = (LWMSGQ_STRUCT_PTR) ((pointer) kernel_data->LWMSGQS.NEXT);
+    134                  while (lwmsg_chk_ptr != (LWMSGQ_STRUCT_PTR) ((pointer) &kernel_data->LWMSGQS))
+    135                  {
+    136                      if (lwmsg_chk_ptr == q_ptr)
+    137                      {
+    138                          _KLOGX2(KLOG_lwmsgq_init, MQX_EINVAL);
+    139                          return (MQX_EINVAL);
+    140                      }
+    141                      lwmsg_chk_ptr = (LWMSGQ_STRUCT_PTR) ((pointer) lwmsg_chk_ptr->LINK.NEXT);
+    142                  }
+    143              }
+    144          #endif
+    145          
+    146          #if MQX_ENABLE_USER_MODE
+    147              if (user)
+    148              {
+    149                  _QUEUE_ENQUEUE(&kernel_data->USR_LWMSGQS, &q_ptr->LINK);
+    150              }
+    151              else
+    152          #endif /* MQX_ENABLE_USER_MODE */
+    153              {
+    154                  _QUEUE_ENQUEUE(&kernel_data->LWMSGQS, &q_ptr->LINK);
+    155              }
+    156          
+    157              _KLOGX2(KLOG_lwmsgq_init, MQX_OK);
+    158          
+    159              return MQX_OK;
+    160          }
+    161          /*!
+    162           * \brief Creates a lightweight message queue.
+    163           *
+    164           * The function creates a message queue at location. There must be sufficient memory
+    165           * allocated to hold num_messages of msg_size * sizeof(_mqx_max_type) plus the size
+    166           * of LWMSGQ_STRUCT.
+    167           *
+    168           * \param[in] location     Pointer to memory to create a message queue.
+    169           * \param[in] num_messages Number of messages in the queue.
+    170           * \param[in] msg_size     Specifies message size as a multiplier factor of
+    171           * _mqx_max_type items.
+    172           *
+    173           * \return MQX_OK
+    174           * \return MQX_EINVAL (The location already points to a valid lightweight message
+    175           * queue.)
+    176           *
+    177           * \warning Disables and enables interrupts.
+    178           *
+    179           * \see _lwmsgq_usr_check
+    180           * \see _lwmsgq_receive
+    181           * \see _lwmsgq_send
+    182           */
+    183          _mqx_uint _lwmsgq_init
+    184          (
+    185              pointer location,
+    186              _mqx_uint num_messages,
+    187              _mqx_uint msg_size
+    188          )
+    189          {
+    190          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    191              if (MQX_RUN_IN_USER_MODE)
+    192              {
+    193                  return _usr_lwmsgq_init(location, num_messages, msg_size);
+    194              }
+    195          #endif
+    196          
+    197              return _lwmsgq_init_internal(location, num_messages, msg_size, FALSE);
+    198          }
+    199          
+    200          #if MQX_ENABLE_USER_MODE
+    201          
+    202          /*!
+    203           * \brief Creates a lightweight message queue.
+    204           *
+    205           * This function is an equivalent to the _lwmsgq_init() API call but it can be
+    206           * executed from within the User task or other code running in the CPU User mode.
+    207           * Parameters passed to this function by pointer are required to meet the memory
+    208           * protection requirements as described in the parameter list below.
+    209           *
+    210           * \param[in] location     Read only. Pointer to memory to create a message queue.
+    211           * \param[in] num_messages Number of messages in the queue.
+    212           * \param[in] msg_size     Specifies message size as a multiplier factor of
+    213           * _mqx_max_type items.
+    214           *
+    215           * \return MQX_OK
+    216           * \return MQX_EINVAL (The location already points to a valid lightweight message
+    217           * queue.)
+    218           *
+    219           * \warning Disables and enables interrupts.
+    220           *
+    221           * \see _lwmsgq_init
+    222           * \see _usr_lwmsgq_receive
+    223           * \see _usr_lwmsgq_send
+    224           */
+    225          _mqx_uint _usr_lwmsgq_init
+    226          (
+    227              pointer location,
+    228              _mqx_uint num_messages,
+    229              _mqx_uint msg_size
+    230          )
+    231          {
+    232              MQX_API_CALL_PARAMS params =
+    233              {   (uint_32)location, (uint_32)num_messages, (uint_32)msg_size, 0, 0};
+    234              return _mqx_api_call(MQX_API_LWMSGQ_INIT, &params);
+    235          }
+    236          
+    237          /*!
+    238           * \brief Checks whether the specified pointer corresponds with a valid lightweight
+    239           * message.
+    240           *
+    241           * \param[in] tst_lwmsgq_ptr Pointer to lightweight message.
+    242           *
+    243           * \return MQX_OK (Valid lightweight message.)
+    244           * \return MQX_EINVAL (Specified lightweight message is not valid.)
+    245           */
+    246          _mqx_uint _lwmsgq_usr_check
+    247          (
+    248              pointer tst_lwmsgq_ptr
+    249          )
+    250          {
+    251          
+    252              KERNEL_DATA_STRUCT_PTR kernel_data;
+    253              LWMSGQ_STRUCT_PTR      lwmsgq_ptr;
+    254              _mqx_uint              result = MQX_EINVAL;
+    255              _mqx_uint              queue_size;
+    256          
+    257              _GET_KERNEL_DATA(kernel_data);
+    258          
+    259              lwmsgq_ptr = (LWMSGQ_STRUCT_PTR)((pointer)kernel_data->USR_LWMSGQS.NEXT);
+    260              queue_size = _QUEUE_GET_SIZE(&kernel_data->USR_LWMSGQS);
+    261          
+    262              while (queue_size--)
+    263              {
+    264                  if (lwmsgq_ptr->VALID != LWMSGQ_VALID)
+    265                  {
+    266                      break;
+    267                  }
+    268          
+    269                  if (tst_lwmsgq_ptr == lwmsgq_ptr)
+    270                  {
+    271                      result = MQX_OK;
+    272                      break;
+    273                  }
+    274          
+    275                  lwmsgq_ptr = (LWMSGQ_STRUCT_PTR)(pointer)lwmsgq_ptr->LINK.NEXT;
+    276              }
+    277          
+    278              return result;
+    279          }
+    280          
+    281          #endif /* MQX_ENABLE_USER_MODE */
+    282          
+    283          /*!
+    284           * \brief Gets a message from a lightweight message queue.
+    285           *
+    286           * The function removes the first message from the queue and returns a pointer to
+    287           * the message.
+    288           * \n The message becomes a resource of the task.
+    289           *
+    290           * \param[in]  handle   Pointer to the message queue created by _lwmsgq_init.
+    291           * \param[out] message  Received message.
+    292           * \param[in]  flags    LWMSGQ_RECEIVE_BLOCK_ON_EMPTY Block the reading task if msgq is empty.
+    293           * LWMSGQ_TIMEOUT_UNTIL Perform a timeout using the tick structure as the absolute time.
+    294           * LWMSGQ_TIMEOUT_FOR Perform a timeout using the tick structure as the relative time.
+    295           * \param[in]  ticks    The maximum number of ticks to wait or NULL (unlimited wait).
+    296           * \param[in]  tick_ptr Pointer to the tick structure to use.
+    297           *
+    298           * \return MQX_OK
+    299           * \return LWMSGQ_INVALID (The handle was not valid.)
+    300           * \return LWMSGQ_TIMEOUT (The LWMSGQ_RECEIVE_BLOCK_ON_EMPTY flag was used and no
+    301           * messages were in the message queue.)
+    302           * \return LWMSGQ_EMPTY (No messages were in the message queue before the timeout
+    303           * expired.)
+    304           *
+    305           * \warning Disables and enables interrupts.
+    306           *
+    307           * \see _lwmsgq_init
+    308           * \see _lwmsgq_usr_check
+    309           * \see _lwmsgq_send
+    310           * \see MQX_TICK_STRUCT
+    311           */
+    312          _mqx_uint _lwmsgq_receive
+    313          (
+    314              pointer handle,
+    315              _mqx_max_type_ptr message,
+    316              _mqx_uint flags,
+    317              _mqx_uint ticks,
+    318              MQX_TICK_STRUCT_PTR tick_ptr
+    319          )
+    320          {/* Body */
+    321              KERNEL_DATA_STRUCT_PTR kernel_data;
+    322              TD_STRUCT_PTR          td_ptr;
+    323              LWMSGQ_STRUCT_PTR      q_ptr = (LWMSGQ_STRUCT_PTR) handle;
+    324              _mqx_uint              i;
+    325              _mqx_max_type_ptr      from_ptr;
+    326              _mqx_max_type_ptr      to_ptr;
+    327          
+    328          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    329              if (MQX_RUN_IN_USER_MODE)
+    330              {
+    331                  return _usr_lwmsgq_receive(handle, message, flags, ticks, tick_ptr);
+    332              }
+    333          #endif
+    334          
+    335              _GET_KERNEL_DATA(kernel_data);
+    336              _KLOGE6(KLOG_lwmsgq_receive, handle, message, flags, ticks, tick_ptr);
+    337          
+    338              _int_disable();
+    339          #if MQX_CHECK_VALIDITY
+    340              if (q_ptr->VALID != LWMSGQ_VALID)
+    341              {
+    342                  _int_enable();
+    343                  _KLOGX2(KLOG_lwmsgq_send, LWMSGQ_INVALID);
+    344                  return LWMSGQ_INVALID;
+    345              } /* Endif */
+    346          #endif
+    347              if (LWMSGQ_IS_EMPTY(q_ptr))
+    348              {
+    349                  if (flags & LWMSGQ_RECEIVE_BLOCK_ON_EMPTY)
+    350                  {
+    351                      td_ptr = kernel_data->ACTIVE_PTR;
+    352                      while (LWMSGQ_IS_EMPTY(q_ptr))
+    353                      {
+    354                          td_ptr->STATE = LWMSGQ_READ_BLOCKED;
+    355                          td_ptr->INFO = (_mqx_uint) &q_ptr->WAITING_READERS;
+    356                          _QUEUE_UNLINK(td_ptr);
+    357                          _QUEUE_ENQUEUE(&q_ptr->WAITING_READERS, &td_ptr->AUX_QUEUE);
+    358                          if (ticks || (flags & (LWMSGQ_TIMEOUT_UNTIL | LWMSGQ_TIMEOUT_FOR)))
+    359                          {
+    360                              if (ticks)
+    361                              {
+    362                                  PSP_ADD_TICKS_TO_TICK_STRUCT(&kernel_data->TIME, ticks,
+    363                                                  &td_ptr->TIMEOUT);
+    364                              }
+    365                              else if (flags & LWMSGQ_TIMEOUT_UNTIL)
+    366                              {
+    367                                  td_ptr->TIMEOUT = *tick_ptr;
+    368                              }
+    369                              else
+    370                              {
+    371                                  PSP_ADD_TICKS(tick_ptr, &kernel_data->TIME, &td_ptr->TIMEOUT);
+    372                              } /* Endif */
+    373                              _time_delay_internal(td_ptr);
+    374                              if (td_ptr->INFO != 0)
+    375                              {
+    376                                  _int_enable();
+    377                                  _KLOGX2(KLOG_lwmsgq_receive, LWMSGQ_TIMEOUT);
+    378                                  return LWMSGQ_TIMEOUT;
+    379                              } /* Endif */
+    380                          }
+    381                          else
+    382                          {
+    383                              _sched_execute_scheduler_internal(); /* Let other tasks run */
+    384                          } /* Endif */
+    385                      } /* Endwhile */
+    386                  }
+    387                  else
+    388                  {
+    389                      _int_enable();
+    390                      _KLOGX2(KLOG_lwmsgq_receive, LWMSGQ_EMPTY);
+    391                      return LWMSGQ_EMPTY;
+    392                  } /* Endif */
+    393              }/* Endif */
+    394              from_ptr = q_ptr->MSG_READ_LOC;
+    395              to_ptr = message;
+    396              i = q_ptr->MSG_SIZE + 1;
+    397              while (--i)
+    398              {
+    399                  *to_ptr++ = *from_ptr++;
+    400              } /* Endwhile */
+    401              q_ptr->MSG_READ_LOC += q_ptr->MSG_SIZE;
+    402              if (q_ptr->MSG_READ_LOC >= q_ptr->MSG_END_LOC)
+    403              {
+    404                  q_ptr->MSG_READ_LOC = q_ptr->MSG_START_LOC;
+    405              } /* Endif */
+    406              q_ptr->CURRENT_SIZE--;
+    407              if (!_QUEUE_IS_EMPTY(&q_ptr->WAITING_WRITERS))
+    408              {
+    409                  _QUEUE_DEQUEUE(&q_ptr->WAITING_WRITERS, td_ptr);
+    410                  _BACKUP_POINTER(td_ptr, TD_STRUCT, AUX_QUEUE);
+    411                  td_ptr->INFO = 0; /* Signal that post is activating the task */
+    412                  _TASK_READY(td_ptr, kernel_data);
+    413                  _CHECK_RUN_SCHEDULER(); /* Let higher priority task run */
+    414              } /* Endif */
+    415              _int_enable();
+    416              _KLOGX2(KLOG_lwmsgq_receive, MQX_OK);
+    417              return MQX_OK;
+    418          
+    419          }/* Endbody */
+    420          
+    421          #if MQX_ENABLE_USER_MODE
+    422          /*!
+    423           * \brief Gets a message from a lightweight message queue.
+    424           *
+    425           * This function is an equivalent to the _lwmsgq_receive() API call but it can be
+    426           * executed from within the User task or other code running in the CPU User mode.
+    427           * Parameters passed to this function by pointer are required to meet the memory
+    428           * protection requirements as described in the parameter list below.
+    429           *
+    430           * \param[in]  handle   Read only. Pointer to the message queue created by _lwmsgq_init.
+    431           * \param[out] message  Received message.
+    432           * \param[in]  flags    LWMSGQ_RECEIVE_BLOCK_ON_EMPTY Block the reading task if msgq is empty.
+    433           * LWMSGQ_TIMEOUT_UNTIL Perform a timeout using the tick structure as the absolute time.
+    434           * LWMSGQ_TIMEOUT_FOR Perform a timeout using the tick structure as the relative time.
+    435           * \param[in]  ticks    The maximum number of ticks to wait or NULL (unlimited wait).
+    436           * \param[in]  tick_ptr Pointer to the tick structure to use.
+    437           *
+    438           * \return MQX_OK
+    439           * \return LWMSGQ_INVALID (The handle was not valid.)
+    440           * \return LWMSGQ_TIMEOUT (The LWMSGQ_RECEIVE_BLOCK_ON_EMPTY flag was used and no
+    441           * messages were in the message queue.)
+    442           * \return LWMSGQ_EMPTY (No messages were in the message queue before the timeout
+    443           * expired.)
+    444           *
+    445           * \warning Disables and enables interrupts.
+    446           *
+    447           * \see _lwmsgq_receive
+    448           * \see _usr_lwmsgq_init
+    449           * \see _usr_lwmsgq_send
+    450           * \see MQX_TICK_STRUCT
+    451           */
+    452          _mqx_uint _usr_lwmsgq_receive
+    453          (
+    454              pointer handle,
+    455              _mqx_max_type_ptr message,
+    456              _mqx_uint flags,
+    457              _mqx_uint ticks,
+    458              MQX_TICK_STRUCT_PTR tick_ptr
+    459          )
+    460          {
+    461              MQX_API_CALL_PARAMS params =
+    462              {   (uint_32)handle, (uint_32)message, (uint_32)flags, (uint_32)ticks, (uint_32)tick_ptr};
+    463              return _mqx_api_call(MQX_API_LWMSGQ_RECEIVE, &params);
+    464          }
+    465          
+    466          #endif /* MQX_ENABLE_USER_MODE */
+    467          
+    468          /*!
+    469           * \brief Puts a message on a lightweight message queue.
+    470           *
+    471           * The function posts a message on the queue. If the queue is full, the task can
+    472           * block and wait or the function returns with LWMSGQ_FULL.
+    473           *
+    474           * \param[in] handle Pointer to the message queue created by _lwmsgq_init.
+    475           * \param[in] message Pointer to the message to send.
+    476           * \param[in] flags LWMSGQ_SEND_BLOCK_ON_FULL (Block the task if queue is full.)
+    477           * or LWMSGQ_SEND_BLOCK_ON_SEND (Block the task after the message is sent.)
+    478           *
+    479           * \return MQX_OK
+    480           * \return LWMSGQ_INVALID (The handle was not valid.)
+    481           * \return LWMSGQ_FULL (The LWMSGQ_SEND_BLOCK_ON_FULL flag was not used and message
+    482           * queue was full.)
+    483           *
+    484           * \warning Disables and enables interrupts.
+    485           *
+    486           * \see _lwmsgq_init
+    487           * \see _lwmsgq_usr_check
+    488           * \see _lwmsgq_receive
+    489           */
+    490          _mqx_uint _lwmsgq_send
+    491          (
+    492              pointer handle,
+    493              _mqx_max_type_ptr message,
+    494              _mqx_uint flags
+    495          )
+    496          {/* Body */
+    497              KERNEL_DATA_STRUCT_PTR kernel_data;
+    498              TD_STRUCT_PTR          td_ptr;
+    499              LWMSGQ_STRUCT_PTR      q_ptr = (LWMSGQ_STRUCT_PTR) handle;
+    500              _mqx_uint              i;
+    501              _mqx_max_type_ptr      from_ptr;
+    502              _mqx_max_type_ptr      to_ptr;
+    503          
+    504          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    505              if (MQX_RUN_IN_USER_MODE)
+    506              {
+    507                  return _usr_lwmsgq_send(handle, message, flags);
+    508              }
+    509          #endif
+    510          
+    511              _GET_KERNEL_DATA(kernel_data);
+    512              _KLOGE4(KLOG_lwmsgq_send, handle, message, flags);
+    513          
+    514              _int_disable();
+    515          #if MQX_CHECK_VALIDITY
+    516              if (q_ptr->VALID != LWMSGQ_VALID)
+    517              {
+    518                  _int_enable();
+    519                  _KLOGX2(KLOG_lwmsgq_send, LWMSGQ_INVALID);
+    520                  return LWMSGQ_INVALID;
+    521              } /* Endif */
+    522          #endif
+    523              if (LWMSGQ_IS_FULL(q_ptr))
+    524              {
+    525                  if (flags & LWMSGQ_SEND_BLOCK_ON_FULL)
+    526                  {
+    527                      td_ptr = kernel_data->ACTIVE_PTR;
+    528                      while (LWMSGQ_IS_FULL(q_ptr))
+    529                      {
+    530                          td_ptr->STATE = LWMSGQ_WRITE_BLOCKED;
+    531                          td_ptr->INFO = (_mqx_uint) &q_ptr->WAITING_WRITERS;
+    532                          _QUEUE_UNLINK(td_ptr);
+    533                          _QUEUE_ENQUEUE(&q_ptr->WAITING_WRITERS, &td_ptr->AUX_QUEUE);
+    534                          _sched_execute_scheduler_internal(); /* Let other tasks run */
+    535                      } /* Endwhile */
+    536                  }
+    537                  else
+    538                  {
+    539                      _int_enable();
+    540                      _KLOGX2(KLOG_lwmsgq_send, LWMSGQ_FULL);
+    541                      return LWMSGQ_FULL;
+    542                  } /* Endif */
+    543              }/* Endif */
+    544              to_ptr = q_ptr->MSG_WRITE_LOC;
+    545              from_ptr = message;
+    546              i = q_ptr->MSG_SIZE + 1;
+    547              while (--i)
+    548              {
+    549                  *to_ptr++ = *from_ptr++;
+    550              } /* Endwhile */
+    551              q_ptr->MSG_WRITE_LOC += q_ptr->MSG_SIZE;
+    552              if (q_ptr->MSG_WRITE_LOC >= q_ptr->MSG_END_LOC)
+    553              {
+    554                  q_ptr->MSG_WRITE_LOC = q_ptr->MSG_START_LOC;
+    555              } /* Endif */
+    556              q_ptr->CURRENT_SIZE++;
+    557              if (!_QUEUE_IS_EMPTY(&q_ptr->WAITING_READERS))
+    558              {
+    559                  _QUEUE_DEQUEUE(&q_ptr->WAITING_READERS, td_ptr);
+    560                  _BACKUP_POINTER(td_ptr, TD_STRUCT, AUX_QUEUE);
+    561                  _TIME_DEQUEUE(td_ptr, kernel_data);
+    562                  td_ptr->INFO = 0; /* Signal that post is activating the task */
+    563                  _TASK_READY(td_ptr, kernel_data);
+    564                  if (flags & LWMSGQ_SEND_BLOCK_ON_SEND)
+    565                  {
+    566                      _task_block();
+    567                  }
+    568                  else
+    569                  {
+    570                      _CHECK_RUN_SCHEDULER(); /* Let higher priority task run */
+    571                  }/* Endif */
+    572              }
+    573              else
+    574              {
+    575                  if (flags & LWMSGQ_SEND_BLOCK_ON_SEND)
+    576                  {
+    577                      _task_block();
+    578                  }/* Endif */
+    579              } /* Endif */
+    580              _int_enable();
+    581              _KLOGX2(KLOG_lwmsgq_send, MQX_OK);
+    582              return MQX_OK;
+    583          
+    584          }/* Endbody */
+    585          
+    586          #if MQX_ENABLE_USER_MODE
+    587          /*!
+    588           * \brief Puts a message on a lightweight message queue.
+    589           *
+    590           * This function is an equivalent to the _lwmsgq_send() API call but it can be
+    591           * executed from within the User task or other code running in the CPU User mode.
+    592           * Parameters passed to this function by pointer are required to meet the memory
+    593           * protection requirements as described in the parameter list below.
+    594           *
+    595           * \param[in] handle Read only. Pointer to the message queue created by _lwmsgq_init.
+    596           * \param[in] message Pointer to the message to send.
+    597           * \param[in] flags LWMSGQ_SEND_BLOCK_ON_FULL (Block the task if queue is full.)
+    598           * or LWMSGQ_SEND_BLOCK_ON_SEND (Block the task after the message is sent.)
+    599           *
+    600           * \return MQX_OK
+    601           * \return LWMSGQ_INVALID (The handle was not valid.)
+    602           * \return LWMSGQ_FULL (The LWMSGQ_SEND_BLOCK_ON_FULL flag was not used and message
+    603           * queue was full.)
+    604           *
+    605           * \warning Disables and enables interrupts.
+    606           *
+    607           * \see _lwmsgq_send
+    608           * \see _usr_lwmsgq_init
+    609           * \see _usr_lwmsgq_receive
+    610           */
+    611          _mqx_uint _usr_lwmsgq_send
+    612          (
+    613              pointer handle,
+    614              _mqx_max_type_ptr message,
+    615              _mqx_uint flags
+    616          )
+    617          {
+    618              MQX_API_CALL_PARAMS params =
+    619              {   (uint_32)handle, (uint_32)message, (uint_32)flags, 0, 0};
+    620              return _mqx_api_call(MQX_API_LWMSGQ_SEND, &params);
+    621          }
+    622          
+    623          #endif /* MQX_ENABLE_USER_MODE */
+    624          
+    625          #endif /* MQX_USE_LWMSGQ */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   _lwmsgq_init
+        16   -> _lwmsgq_init_internal
+      24   _lwmsgq_init_internal
+      48   _lwmsgq_receive
+        48   -> _int_disable
+        48   -> _int_enable
+        48   -> _psp_add_ticks
+        48   -> _sched_check_scheduler_internal
+        48   -> _sched_execute_scheduler_internal
+        48   -> _time_delay_internal
+      40   _lwmsgq_send
+        40   -> _int_disable
+        40   -> _int_enable
+        40   -> _sched_check_scheduler_internal
+        40   -> _sched_execute_scheduler_internal
+        40   -> _task_block
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+       4  ??DataTable1_2
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+       4  ??DataTable2_5
+       4  ??DataTable2_6
+       4  ??DataTable2_7
+       4  ??DataTable2_8
+      22  _lwmsgq_init
+     216  _lwmsgq_init_internal
+     378  _lwmsgq_receive
+     346  _lwmsgq_send
+
+ 
+ 1'010 bytes in section .text
+ 
+ 1'010 bytes of CODE memory
+
+Errors: none
+Warnings: none

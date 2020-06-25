@@ -1,0 +1,748 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:58
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\Utils\Lists\GenericList.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW527A.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\Utils\Lists\GenericList.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\GenericList.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\GenericList.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\Utils\Lists\GenericList.c
+      1          /*!
+      2          *
+      3          * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      4          * All rights reserved.
+      5          *
+      6          * \file GenericList.c
+      7          * This is the source file for the linked lists part of the Utils package.
+      8          *
+      9          * Redistribution and use in source and binary forms, with or without modification,
+     10          * are permitted provided that the following conditions are met:
+     11          *
+     12          * o Redistributions of source code must retain the above copyright notice, this list
+     13          *   of conditions and the following disclaimer.
+     14          *
+     15          * o Redistributions in binary form must reproduce the above copyright notice, this
+     16          *   list of conditions and the following disclaimer in the documentation and/or
+     17          *   other materials provided with the distribution.
+     18          *
+     19          * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     20          *   contributors may be used to endorse or promote products derived from this
+     21          *   software without specific prior written permission.
+     22          *
+     23          * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     24          * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     25          * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     26          * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     27          * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     28          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     29          * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     30          * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     31          * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     32          * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     33          */
+     34          
+     35          /*! *********************************************************************************
+     36          *************************************************************************************
+     37          * Include
+     38          *************************************************************************************
+     39          ********************************************************************************** */
+     40          
+     41          #include "GenericList.h"
+     42          #include "cmsis_os.h"
+     43          
+     44          
+     45          /*! *********************************************************************************
+     46          *************************************************************************************
+     47          * Public functions
+     48          *************************************************************************************
+     49          ********************************************************************************** */
+     50          /*! *********************************************************************************
+     51          * \brief     Initialises the list descriptor.
+     52          *
+     53          * \param[in] list - List handle to init.
+     54          *            max - Maximum number of elements in list. 0 for unlimited.
+     55          *
+     56          * \return void.
+     57          *
+     58          * \pre
+     59          *
+     60          * \post
+     61          *
+     62          * \remarks
+     63          *
+     64          ********************************************************************************** */
+     65          void ListInit(listHandle_t list, uint32_t max)
+     66          {
+     67            list->head = NULL;
+     68            list->tail = NULL;
+     69            list->max = max;
+     70            list->size = 0;
+     71          }
+     72          
+     73          /*! *********************************************************************************
+     74          * \brief     Gets the list that contains the given element.
+     75          *
+     76          * \param[in] element - Handle of the element.
+     77          *
+     78          * \return NULL if element is orphan.
+     79          *         Handle of the list the element is inserted into.
+     80          *
+     81          * \pre
+     82          *
+     83          * \post
+     84          *
+     85          * \remarks
+     86          *
+     87          ********************************************************************************** */
+     88          listHandle_t ListGetList(listElementHandle_t elementHandle)
+     89          {
+     90            return elementHandle->list;
+     91          }
+     92          
+     93          /*! *********************************************************************************
+     94          * \brief     Links element to the tail of the list.
+     95          *
+     96          * \param[in] list - ID of list to insert into.
+     97          *            element - element to add
+     98          *
+     99          * \return gListFull_c if list is full.
+    100          *         gListOk_c if insertion was successful.
+    101          *
+    102          * \pre
+    103          *
+    104          * \post
+    105          *
+    106          * \remarks
+    107          *
+    108          ********************************************************************************** */
+    109          listStatus_t ListAddTail(listHandle_t list, listElementHandle_t element)
+    110          {
+    111            osInterruptDisable();
+    112          
+    113            if( (list->max != 0) && (list->max == list->size) )
+    114            {
+    115              osInterruptEnable();
+    116              return gListFull_c;
+    117            }
+    118          
+    119            if(list->size == 0)
+    120            {
+    121              list->head = element;
+    122            }
+    123            else
+    124            {
+    125              list->tail->next = element;
+    126            }
+    127            element->prev = list->tail;
+    128            element->next = NULL;
+    129            element->list = list;
+    130            list->tail = element;
+    131            list->size++;
+    132          
+    133            osInterruptEnable();
+    134            return gListOk_c;
+    135          }
+    136          
+    137          /*! *********************************************************************************
+    138          * \brief     Links element to the head of the list.
+    139          *
+    140          * \param[in] list - ID of list to insert into.
+    141          *            element - element to add
+    142          *
+    143          * \return gListFull_c if list is full.
+    144          *         gListOk_c if insertion was successful.
+    145          *
+    146          * \pre
+    147          *
+    148          * \post
+    149          *
+    150          * \remarks
+    151          *
+    152          ********************************************************************************** */
+    153          listStatus_t ListAddHead(listHandle_t list, listElementHandle_t element)
+    154          {
+    155            osInterruptDisable();
+    156          
+    157            if( (list->max != 0) && (list->max == list->size) )
+    158            {
+    159              osInterruptEnable();
+    160              return gListFull_c;
+    161            }
+    162          
+    163            if(list->size == 0)
+    164            {
+    165              list->tail = element;
+    166            }
+    167            else
+    168            {
+    169              list->head->prev = element;
+    170            }
+    171            element->next = list->head;
+    172            element->prev = NULL;
+    173            element->list = list;
+    174            list->head = element;
+    175            list->size++;
+    176          
+    177            osInterruptEnable();
+    178            return gListOk_c;
+    179          }
+    180          
+    181          /*! *********************************************************************************
+    182          * \brief     Unlinks element from the head of the list.
+    183          *
+    184          * \param[in] list - ID of list to remove from.
+    185          *
+    186          * \return NULL if list is empty.
+    187          *         ID of removed element(pointer) if removal was successful.
+    188          *
+    189          * \pre
+    190          *
+    191          * \post
+    192          *
+    193          * \remarks
+    194          *
+    195          ********************************************************************************** */
+    196          listElementHandle_t ListRemoveHead(listHandle_t list)
+    197          {
+    198            listElementHandle_t element;
+    199          
+    200            osInterruptDisable();
+    201          
+    202            if(NULL == list || list->size == 0)
+    203            {
+    204              osInterruptEnable();
+    205              return NULL; /*List is empty*/
+    206            }
+    207          
+    208            element = list->head;
+    209            list->size--;
+    210            if(list->size == 0)
+    211            {
+    212              list->tail = NULL;
+    213            }
+    214            else
+    215            {
+    216              element->next->prev = NULL;
+    217            }
+    218            list->head = element->next; /*Is NULL if element is head*/
+    219            element->list = NULL;
+    220          
+    221            osInterruptEnable();
+    222            return element;
+    223          }
+    224          
+    225          /*! *********************************************************************************
+    226          * \brief     Gets head element ID.
+    227          *
+    228          * \param[in] list - ID of list.
+    229          *
+    230          * \return NULL if list is empty.
+    231          *         ID of head element if list is not empty.
+    232          *
+    233          * \pre
+    234          *
+    235          * \post
+    236          *
+    237          * \remarks
+    238          *
+    239          ********************************************************************************** */
+    240          listElementHandle_t ListGetHead(listHandle_t list)
+    241          {
+    242            return list->head;
+    243          }
+    244          
+    245          /*! *********************************************************************************
+    246          * \brief     Gets next element ID.
+    247          *
+    248          * \param[in] element - ID of the element.
+    249          *
+    250          * \return NULL if element is tail.
+    251          *         ID of next element if exists.
+    252          *
+    253          * \pre
+    254          *
+    255          * \post
+    256          *
+    257          * \remarks
+    258          *
+    259          ********************************************************************************** */
+    260          listElementHandle_t ListGetNext(listElementHandle_t element)
+    261          {
+    262            return element->next;
+    263          }
+    264          
+    265          /*! *********************************************************************************
+    266          * \brief     Gets previous element ID.
+    267          *
+    268          * \param[in] element - ID of the element.
+    269          *
+    270          * \return NULL if element is head.
+    271          *         ID of previous element if exists.
+    272          *
+    273          * \pre
+    274          *
+    275          * \post
+    276          *
+    277          * \remarks
+    278          *
+    279          ********************************************************************************** */
+    280          listElementHandle_t ListGetPrev(listElementHandle_t element)
+    281          {
+    282            return element->prev;
+    283          }
+    284          
+    285          /*! *********************************************************************************
+    286          * \brief     Unlinks an element from its list.
+    287          *
+    288          * \param[in] element - ID of the element to remove.
+    289          *
+    290          * \return gOrphanElement_c if element is not part of any list.
+    291          *         gListOk_c if removal was successful.
+    292          *
+    293          * \pre
+    294          *
+    295          * \post
+    296          *
+    297          * \remarks
+    298          *
+    299          ********************************************************************************** */
+    300          listStatus_t ListRemoveElement(listElementHandle_t element)
+    301          {
+    302            if(element->list == NULL)
+    303            {
+    304              return gOrphanElement_c; /*Element was previusly removed or never added*/
+    305            }
+    306          
+    307            osInterruptDisable();
+    308          
+    309            if(element->prev == NULL) /*Element is head or solo*/
+    310            {
+    311              element->list->head = element->next; /*is null if solo*/
+    312            }
+    313            if(element->next == NULL) /*Element is tail or solo*/
+    314            {
+    315              element->list->tail = element->prev; /*is null if solo*/
+    316            }
+    317            if(element->prev != NULL) /*Element is not head*/
+    318            {
+    319              element->prev->next = element->next;
+    320            }
+    321            if(element->next != NULL) /*Element is not tail*/
+    322            {
+    323              element->next->prev = element->prev;
+    324            }
+    325            element->list->size--;
+    326            element->list = NULL;
+    327          
+    328            osInterruptEnable();
+    329            return gListOk_c;
+    330          }
+    331          
+    332          /*! *********************************************************************************
+    333          * \brief     Links an element in the previous position relative to a given member
+    334          *            of a list.
+    335          *
+    336          * \param[in] element - ID of a member of a list.
+    337          *            newElement - new element to insert before the given member.
+    338          *
+    339          * \return gOrphanElement_c if element is not part of any list.
+    340          *         gListFull_c if list is full.
+    341          *         gListOk_c if insertion was successful.
+    342          *
+    343          * \pre
+    344          *
+    345          * \post
+    346          *
+    347          * \remarks
+    348          *
+    349          ********************************************************************************** */
+    350          listStatus_t ListAddPrevElement(listElementHandle_t element, listElementHandle_t newElement)
+    351          {
+    352            if(element->list == NULL)
+    353            {
+    354              return gOrphanElement_c; /*Element was previusly removed or never added*/
+    355            }
+    356            osInterruptDisable();
+    357          
+    358            if( (element->list->max != 0) && (element->list->max == element->list->size) )
+    359            {
+    360              osInterruptEnable();
+    361              return gListFull_c;
+    362            }
+    363          
+    364            if(element->prev == NULL) /*Element is list head*/
+    365            {
+    366              element->list->head = newElement;
+    367            }
+    368            else
+    369            {
+    370              element->prev->next = newElement;
+    371            }
+    372            newElement->list = element->list;
+    373            element->list->size++;
+    374            newElement->next = element;
+    375            newElement->prev = element->prev;
+    376            element->prev = newElement;
+    377          
+    378            osInterruptEnable();
+    379            return gListOk_c;
+    380          }
+    381          
+    382          /*! *********************************************************************************
+    383          * \brief     Gets the current size of a list.
+    384          *
+    385          * \param[in] list - ID of the list.
+    386          *
+    387          * \return Current size of the list.
+    388          *
+    389          * \pre
+    390          *
+    391          * \post
+    392          *
+    393          * \remarks
+    394          *
+    395          ********************************************************************************** */
+    396          uint32_t ListGetSize(listHandle_t list)
+    397          {
+    398            return list->size;
+    399          }
+    400          
+    401          /*! *********************************************************************************
+    402          * \brief     Gets the number of free places in the list.
+    403          *
+    404          * \param[in] list - ID of the list.
+    405          *
+    406          * \return Available size of the list.
+    407          *
+    408          * \pre
+    409          *
+    410          * \post
+    411          *
+    412          * \remarks
+    413          *
+    414          ********************************************************************************** */
+    415          uint32_t ListGetAvailable(listHandle_t list)
+    416          {
+    417            return (list->max - list->size);
+    418          }
+    419          
+    420          /*! *********************************************************************************
+    421          * \brief     Creates, tests and deletes a list. Any error that occurs will trap the
+    422          *            CPU in a while(1) loop.
+    423          *
+    424          * \param[in] void.
+    425          *
+    426          * \return gListOk_c.
+    427          *
+    428          * \pre
+    429          *
+    430          * \post
+    431          *
+    432          * \remarks
+    433          *
+    434          ********************************************************************************** */
+    435          // To be removed or rewritten to remove MemManager dependency.
+    436          #ifdef _MEM_MANAGER_H_
+    437          listStatus_t ListTest()
+    438          {
+    439            listHandle_t list;
+    440            listElementHandle_t element, newElement;
+    441            uint32_t i,freeBlocks;
+    442            const uint32_t max = 10;
+    443          
+    444            freeBlocks = MEM_GetAvailableFwkBlocks(0);
+    445            /*create list*/
+    446            list = ListCreate(max);
+    447            LIST_ASSERT(list != NULL);
+    448          
+    449            /*add elements*/
+    450            for(i=0; i<max; i++)
+    451            {
+    452              element = (listElementHandle_t)MEM_BufferFwkAlloc(sizeof(listElement_t));
+    453              LIST_ASSERT(element != NULL);
+    454              LIST_ASSERT(ListAddHead(list, element) == gListOk_c);
+    455              LIST_ASSERT(list->head == element)
+    456              ListRemoveHead(list);
+    457              LIST_ASSERT(ListAddTail(list, element) == gListOk_c);
+    458              LIST_ASSERT(list->tail == element);
+    459              if(ListGetSize(list) == 1)
+    460              {
+    461                LIST_ASSERT(list->head == element);
+    462              }
+    463              else
+    464              {
+    465                LIST_ASSERT(list->head != element);
+    466              }
+    467            }
+    468            LIST_ASSERT(ListGetSize(list) == max);
+    469          
+    470            /*add one more element*/
+    471            element = (listElementHandle_t)MEM_BufferFwkAlloc(sizeof(listElement_t));
+    472            LIST_ASSERT(element != NULL);
+    473            LIST_ASSERT(ListAddTail(list, element) == gListFull_c);
+    474            list->max = 0;
+    475            LIST_ASSERT(ListAddTail(list, element) == gListOk_c);
+    476            LIST_ASSERT(ListGetSize(list) == max+1);
+    477            /*remove the extra element*/
+    478            element = ListRemoveHead(list);
+    479            LIST_ASSERT(element != NULL);
+    480            LIST_ASSERT(ListGetSize(list) == max);
+    481            LIST_ASSERT(MEM_BufferFree(element) == MEM_SUCCESS_c);
+    482            list->max = max;
+    483          
+    484            /*parse elements*/
+    485            element = ListGetHead(list);
+    486            LIST_ASSERT(element != NULL);
+    487            for(i=0; i<(max-1); i++)
+    488            {
+    489              element = ListGetNext(element);
+    490              LIST_ASSERT(element != NULL);
+    491            }
+    492            LIST_ASSERT(element == list->tail);
+    493            LIST_ASSERT(ListGetNext(element) == NULL);
+    494          
+    495            /*Reverse parse elements*/
+    496            for(i=0; i<(max-1); i++)
+    497            {
+    498              element = ListGetPrev(element);
+    499              LIST_ASSERT(element != NULL);
+    500            }
+    501            LIST_ASSERT(element == list->head);
+    502            LIST_ASSERT(ListGetPrev(element) == NULL);
+    503          
+    504            /*Add prev*/
+    505            element = ListGetHead(list);
+    506            LIST_ASSERT(element != NULL);
+    507            newElement = (listElementHandle_t)MEM_BufferFwkAlloc(sizeof(listElement_t));
+    508            LIST_ASSERT(newElement != NULL);
+    509            LIST_ASSERT(ListAddPrevElement(element, newElement) == gListFull_c);
+    510            LIST_ASSERT(ListGetHead(list) == element);
+    511            list->max = 0;
+    512            LIST_ASSERT(ListAddPrevElement(element, newElement) == gListOk_c);
+    513            LIST_ASSERT(ListGetHead(list) == newElement);
+    514            newElement = (listElementHandle_t)MEM_BufferFwkAlloc(sizeof(listElement_t));
+    515            LIST_ASSERT(newElement != NULL);
+    516            element = list->head->next->next;
+    517            LIST_ASSERT(ListAddPrevElement(element, newElement) == gListOk_c);
+    518            LIST_ASSERT(list->head->next->next == newElement);
+    519            newElement = (listElementHandle_t)MEM_BufferFwkAlloc(sizeof(listElement_t));
+    520            LIST_ASSERT(newElement != NULL);
+    521            element = list->tail;
+    522            LIST_ASSERT(ListAddPrevElement(element, newElement) == gListOk_c);
+    523            LIST_ASSERT(list->tail->prev == newElement);
+    524            newElement = (listElementHandle_t)MEM_BufferFwkAlloc(sizeof(listElement_t));
+    525            LIST_ASSERT(newElement != NULL);
+    526            element = (listElementHandle_t)MEM_BufferFwkAlloc(sizeof(listElement_t));
+    527            LIST_ASSERT(element != NULL);
+    528            element->list = NULL;
+    529            LIST_ASSERT(ListAddPrevElement(element, newElement) == gOrphanElement_c);
+    530            MEM_BufferFree(newElement);
+    531            MEM_BufferFree(element);
+    532            LIST_ASSERT(ListGetSize(list) == max+3);
+    533          
+    534            /*Remove element*/
+    535            element = ListGetHead(list);
+    536            LIST_ASSERT(element == list->head);
+    537            LIST_ASSERT(ListRemoveElement(element) == gListOk_c);
+    538            LIST_ASSERT(list->head != element);
+    539            LIST_ASSERT(ListRemoveElement(element) == gOrphanElement_c);
+    540            MEM_BufferFree(element);
+    541            element = ListGetHead(list)->next->next;
+    542            LIST_ASSERT(ListRemoveElement(element) == gListOk_c);
+    543            MEM_BufferFree(element);
+    544            element = list->tail;
+    545            LIST_ASSERT(ListRemoveElement(element) == gListOk_c);
+    546            LIST_ASSERT(list->tail != element);
+    547            MEM_BufferFree(element);
+    548            LIST_ASSERT(ListGetSize(list) == max);
+    549            list->max = max;
+    550          
+    551            for(i=0; i<(max-1); i++)
+    552            {
+    553              element = ListRemoveHead(list);
+    554              LIST_ASSERT(element != NULL);
+    555              MEM_BufferFree(element);
+    556            }
+    557            element = ListGetHead(list);
+    558            LIST_ASSERT(element != NULL);
+    559            LIST_ASSERT(ListRemoveElement(element) == gListOk_c);
+    560            LIST_ASSERT(list->head == NULL);
+    561            LIST_ASSERT(list->tail == NULL);
+    562            LIST_ASSERT(element->list == NULL);
+    563            MEM_BufferFree(element);
+    564          
+    565            /*List is empty here.*/
+    566            LIST_ASSERT(ListGetSize(list) == 0);
+    567            element = ListRemoveHead(list);
+    568            LIST_ASSERT(element == NULL);
+    569            element = ListGetHead(list);
+    570            LIST_ASSERT(element == NULL);
+    571          
+    572            MEM_BufferFree(list);
+    573            /*Did we produce a memory leak?*/
+    574            LIST_ASSERT(freeBlocks == MEM_GetAvailableFwkBlocks(0));
+    575          
+    576            return gListOk_c;
+    577          }
+    578          #else
+    579          listStatus_t ListTest()
+    580          {
+    581            return gListOk_c;
+    582          }
+    583          #endif
+    584          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   ListAddHead
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+      16   ListAddPrevElement
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+      16   ListAddTail
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+       0   ListGetAvailable
+       0   ListGetHead
+       0   ListGetList
+       0   ListGetNext
+       0   ListGetPrev
+       0   ListGetSize
+       0   ListInit
+       8   ListRemoveElement
+         8   -> osInterruptDisable
+         8   -> osInterruptEnable
+      16   ListRemoveHead
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+       0   ListTest
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      72  ListAddHead
+      94  ListAddPrevElement
+      72  ListAddTail
+       8  ListGetAvailable
+       4  ListGetHead
+       4  ListGetList
+       4  ListGetNext
+       4  ListGetPrev
+       4  ListGetSize
+      14  ListInit
+      88  ListRemoveElement
+      68  ListRemoveHead
+       4  ListTest
+
+ 
+ 440 bytes in section .text
+ 
+ 440 bytes of CODE memory
+
+Errors: none
+Warnings: none

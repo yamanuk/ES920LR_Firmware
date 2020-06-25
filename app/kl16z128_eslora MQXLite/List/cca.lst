@@ -1,0 +1,640 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:58
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\SMAC\Source\cca.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW50BD.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\SMAC\Source\cca.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\cca.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\cca.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\SMAC\Source\cca.c
+      1          /*****************************************************************************
+      2          * cca file.
+      3          *
+      4          * (c) Copyright 2016, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          #include "radio.h"
+     13          #include "sx1276.h"
+     14          #include "sx1276-Hal.h"
+     15          #include "sx1276-LoRa.h"
+     16          #include "sx1276-LoRaMisc.h"
+     17          
+     18          #include "smac.h"
+     19          #include "cca.h"
+     20          #include "IO_Map.h"
+     21          
+     22          
+     23          #define     CCA_RSSI   -90  // dB
+     24          #define     CCA_TIME   1500 // 1ms
+     25          
+     26          static void Timer_Init( void );
+     27          static uint32_t Tick_Diff( uint32_t BeforeTick, uint32_t NowTick );
+     28          static void CcaFreqConfig(uint8_t Ch, uint8_t OrgBw, uint8_t CcaBw, int32_t PlusMinusFreq);
+     29          
+     30          
+     31          /*****************************************************************************
+     32          * Timer_Init
+     33          *
+     34          * Interface assumptions:
+     35          *     None
+     36          *
+     37          * Return value:
+     38          *     None
+     39          *
+     40          ******************************************************************************/
+     41          static void Timer_Init( void )
+     42          {
+     43          	SIM_SCGC6   |= SIM_SCGC6_TPM0_MASK;
+     44          
+     45              TPM0_SC     = 0x00;
+     46              TPM0_CNT    = 0x00;
+     47              TPM0_MOD    = 0xFFFF;
+     48          
+     49              TPM0_SC     |= 0x0C;
+     50          }
+     51          
+     52          /*****************************************************************************
+     53          * Tick_Diff
+     54          *
+     55          * Interface assumptions:
+     56          *     BeforeTick    before tick
+     57          *     NowTick       now tick
+     58          *
+     59          * Return value:
+     60          *     uint32_t      differ value
+     61          *
+     62          ******************************************************************************/
+     63          static uint32_t Tick_Diff( uint32_t BeforeTick, uint32_t NowTick )
+     64          {
+     65          	uint32_t rtnTick = 0;
+     66          
+     67          	if( BeforeTick <= NowTick )
+     68          	{
+     69          		rtnTick = (NowTick - BeforeTick) & 0xFFFFFFFF;
+     70          	}
+     71          	else if( BeforeTick > NowTick )
+     72          	{
+     73          		rtnTick = (NowTick + (0xFFFFFFFF - BeforeTick)) & 0xFFFFFFFF;
+     74          	}
+     75          
+     76          	return rtnTick;
+     77          }
+     78          
+     79          /*****************************************************************************
+     80          * CcaFreqConfig
+     81          *
+     82          * Interface assumptions:
+     83          *     Ch            channel
+     84          *     OrgBw         band width
+     85          *     CcaBw         band width
+     86          *     PlusMinusFreq shift frequency
+     87          *
+     88          * Return value:
+     89          *     void
+     90          *
+     91          ******************************************************************************/
+     92          static void CcaFreqConfig( uint8_t Ch, uint8_t OrgBw, uint8_t CcaBw, int32_t PlusMinusFreq )
+     93          {
+     94              uint32_t    RFFrequency;
+     95              uint32_t    prvTick = 0;
+     96          	uint32_t    nowTick = 0;
+     97          
+     98          
+     99              // 周波数は、元々設定されている周波帯の中心周波数から計算
+    100              switch( OrgBw )
+    101              {
+    102                  case 8:		// 250kHz幅
+    103                      RFFrequency = 920700000 + (400000 * Ch) + PlusMinusFreq;
+    104                      break;
+    105          
+    106                  case 9:		// 500kHz幅
+    107                      RFFrequency = 920800000 + (600000 * Ch) + PlusMinusFreq;
+    108                      break;
+    109          
+    110                  default:		// 125kHz幅以下
+    111                      RFFrequency = 920600000 + (200000 * Ch) + PlusMinusFreq;
+    112                      break;
+    113              }
+    114          
+    115              SX1276LoRaSetRFFrequency( RFFrequency );
+    116              SX1276LoRaSetSignalBandwidth( CcaBw ); // キャリアセンス向けに250kHzに変更
+    117              prvTick = TPM0_CNT;
+    118              do {
+    119                  nowTick = TPM0_CNT;
+    120              } while( Tick_Diff(prvTick, nowTick) < CCA_TIME );
+    121          }
+    122          
+    123          /*****************************************************************************
+    124          * IsCcaOk
+    125          *
+    126          * this function execute carrier sense
+    127          *
+    128          * Interface assumptions:
+    129          *     None
+    130          *
+    131          * Return value:
+    132          *     uint8_t       0 : OK    1 : NG
+    133          *
+    134          ******************************************************************************/
+    135          uint8_t IsCcaOk( uint8_t setCh, uint8_t setBw, uint8_t retry )
+    136          {
+    137          	double      rssi[4]         = { 0, 0, 0, 0 };
+    138          	uint8_t     status          = 0;
+    139          	uint32_t    rssiTestTimer   = 0;
+    140          	uint8_t     ccaState        = 0;
+    141          	uint8_t     retry_counter   = 1;
+    142          	uint32_t    nowTick         = 0;
+    143          
+    144          
+    145          	/* TPM0 counter init */
+    146          	Timer_Init( );
+    147          
+    148              if( setBw <= 7 )
+    149              {
+    150                  while( !status )
+    151                  {
+    152                      switch( ccaState )
+    153                      {
+    154                      // Init - First time the function is called or from successful previous transmission
+    155                      case 0:
+    156          
+    157                          SX1276SetOpMode( RFLR_OPMODE_RECEIVER );
+    158          
+    159                          // First RSSI reading
+    160                          CcaFreqConfig( setCh, setBw, 8, 50000 );
+    161                          rssi[0] = SX1276ReadRssi( );
+    162                          CcaFreqConfig( setCh, setBw, 8, -50000 );
+    163                          rssi[1] = SX1276ReadRssi( );
+    164          
+    165                          rssiTestTimer = TPM0_CNT;
+    166          
+    167                          ccaState = 3;
+    168          
+    169                          break;
+    170          
+    171                      // First RSSI reading - Used only if channel is occupied
+    172                      case 1:
+    173          
+    174                          nowTick = TPM0_CNT;
+    175          
+    176                          // Total 5ms 24MHz
+    177                          if( Tick_Diff(rssiTestTimer, nowTick) > CCA_TIME )
+    178                          {
+    179                              CcaFreqConfig( setCh, setBw, 8, 50000 );
+    180                              rssi[0] = SX1276ReadRssi( );
+    181                              CcaFreqConfig( setCh, setBw, 8, -50000 );
+    182                              rssi[1] = SX1276ReadRssi( );
+    183          
+    184                              rssiTestTimer = TPM0_CNT;
+    185          
+    186                              ccaState = 3;
+    187                          }
+    188                          break;
+    189          
+    190                      // Second RSSI reading
+    191                      case 2:
+    192          
+    193                          nowTick = TPM0_CNT;
+    194          
+    195                          // Total 5ms 24MHz
+    196                          if( Tick_Diff(rssiTestTimer, nowTick) > CCA_TIME )
+    197                          {
+    198                              CcaFreqConfig( setCh, setBw, 8, 50000 );
+    199                              rssi[0] = SX1276ReadRssi( );
+    200                              CcaFreqConfig( setCh, setBw, 8, -50000 );
+    201                              rssi[1] = SX1276ReadRssi( );
+    202          
+    203                              rssiTestTimer = TPM0_CNT;
+    204          
+    205                              ccaState = 4;
+    206                          }
+    207                          break;
+    208          
+    209                      // Checks previous RSSI readings and if they are below -80 dBm indicates that
+    210                      // the channel is free and sets sate to 0.
+    211                      // if channel isn't free set ccaState to 1 in order to make again 2 measurements.
+    212                      case 3:
+    213          
+    214                          if( (rssi[0] < CCA_RSSI) && (rssi[1] < CCA_RSSI) )
+    215                          {
+    216                              ccaState = 2;
+    217                          }
+    218                          else
+    219                          {
+    220                              rssiTestTimer = TPM0_CNT;
+    221                              retry_counter++;
+    222                              ccaState = 1;
+    223                              if( retry_counter > retry )
+    224                              {
+    225                                  status = 2;		// Error
+    226                              }
+    227                          }
+    228                          break;
+    229          
+    230                      case 4:
+    231          
+    232                          if( (rssi[0] < CCA_RSSI) && (rssi[1] < CCA_RSSI) )
+    233                          {
+    234                              status = 1;		    // OK
+    235                          }
+    236                          else
+    237                          {
+    238                              rssiTestTimer = TPM0_CNT;
+    239                              retry_counter++;
+    240                              ccaState = 1;
+    241                              if( retry_counter > retry )
+    242                              {
+    243                                  status = 2;		// Error
+    244                              }
+    245                          }
+    246                          break;
+    247          
+    248                      default:
+    249                          break;
+    250                      }
+    251                  }
+    252              }
+    253              else if( 8 == setBw )
+    254              {
+    255                  while( !status )
+    256                  {
+    257                      switch( ccaState )
+    258                      {
+    259                      // Init - First time the function is called or from successful previous transmission
+    260                      case 0:
+    261          
+    262                          SX1276SetOpMode( RFLR_OPMODE_RECEIVER );
+    263          
+    264                          // First RSSI reading
+    265                          CcaFreqConfig( setCh, setBw, 8,       0 );
+    266                          rssi[0] = SX1276ReadRssi( );
+    267                          CcaFreqConfig( setCh, setBw, 8,  150000 );
+    268                          rssi[1] = SX1276ReadRssi( );
+    269                          CcaFreqConfig( setCh, setBw, 8, -150000 );
+    270                          rssi[2] = SX1276ReadRssi( );
+    271          
+    272                          rssiTestTimer = TPM0_CNT;
+    273          
+    274                          ccaState = 3;
+    275          
+    276                          break;
+    277          
+    278                      // First RSSI reading - Used only if channel is occupied
+    279                      case 1:
+    280          
+    281                          nowTick = TPM0_CNT;
+    282          
+    283                          CcaFreqConfig( setCh, setBw, 8,       0 );
+    284                          rssi[0] = SX1276ReadRssi( );
+    285                          CcaFreqConfig( setCh, setBw, 8,  150000 );
+    286                          rssi[1] = SX1276ReadRssi( );
+    287                          CcaFreqConfig( setCh, setBw, 8, -150000 );
+    288                          rssi[2] = SX1276ReadRssi( );
+    289          
+    290                          rssiTestTimer = TPM0_CNT;
+    291          
+    292                          ccaState = 3;
+    293          
+    294                          break;
+    295          
+    296                      // Second RSSI reading
+    297                      case 2:
+    298          
+    299                          nowTick = TPM0_CNT;
+    300          
+    301                          CcaFreqConfig( setCh, setBw, 8,       0 );
+    302                          rssi[0] = SX1276ReadRssi( );
+    303                          CcaFreqConfig( setCh, setBw, 8,  150000 );
+    304                          rssi[1] = SX1276ReadRssi( );
+    305                          CcaFreqConfig( setCh, setBw, 8, -150000 );
+    306                          rssi[2] = SX1276ReadRssi( );
+    307          
+    308                          rssiTestTimer = TPM0_CNT;
+    309          
+    310                          ccaState = 4;
+    311          
+    312                          break;
+    313          
+    314                      // Checks previous RSSI readings and if they are below -80 dBm indicates that
+    315                      // the channel is free and sets sate to 0.
+    316                      // if channel isn't free set ccaState to 1 in order to make again 2 measurements.
+    317                      case 3:
+    318          
+    319                          if( (rssi[0] < CCA_RSSI) && (rssi[1] < CCA_RSSI) && (rssi[2] < CCA_RSSI) )
+    320                          {
+    321                              ccaState = 2;
+    322                          }
+    323                          else
+    324                          {
+    325                              rssiTestTimer = TPM0_CNT;
+    326                              retry_counter++;
+    327                              ccaState = 1;
+    328                              if( retry_counter > retry )
+    329                              {
+    330                                  status = 2;		// Error
+    331                              }
+    332                          }
+    333                          break;
+    334          
+    335                      case 4:
+    336          
+    337                          if( (rssi[0] < CCA_RSSI) && (rssi[1] < CCA_RSSI) && (rssi[2] < CCA_RSSI) )
+    338                          {
+    339                              status = 1;		    // OK
+    340                          }
+    341                          else
+    342                          {
+    343                              rssiTestTimer = TPM0_CNT;
+    344                              retry_counter++;
+    345                              ccaState = 1;
+    346                              if( retry_counter > retry )
+    347                              {
+    348                                  status = 2;		// Error
+    349                              }
+    350                          }
+    351                          break;
+    352          
+    353                      default:
+    354                          break;
+    355                      }
+    356                  }
+    357              }
+    358              else if( 9 == setBw )
+    359              {
+    360                  while( !status )
+    361                  {
+    362                      switch( ccaState )
+    363                      {
+    364                      // Init - First time the function is called or from successful previous transmission
+    365                      case 0:
+    366          
+    367                          SX1276SetOpMode( RFLR_OPMODE_RECEIVER );
+    368          
+    369                          // First RSSI reading
+    370                          CcaFreqConfig( setCh, setBw, 8,   75000 );
+    371                          rssi[0] = SX1276ReadRssi( );
+    372                          CcaFreqConfig( setCh, setBw, 8,  -75000 );
+    373                          rssi[1] = SX1276ReadRssi( );
+    374                          CcaFreqConfig( setCh, setBw, 8,  225000 );
+    375                          rssi[2] = SX1276ReadRssi( );
+    376                          CcaFreqConfig( setCh, setBw, 8, -225000 );
+    377                          rssi[3] = SX1276ReadRssi( );
+    378          
+    379                          rssiTestTimer = TPM0_CNT;
+    380          
+    381                          ccaState = 3;
+    382          
+    383                          break;
+    384          
+    385                      // First RSSI reading - Used only if channel is occupied
+    386                      case 1:
+    387          
+    388                          nowTick = TPM0_CNT;
+    389          
+    390                          CcaFreqConfig( setCh, setBw, 8,   75000 );
+    391                          rssi[0] = SX1276ReadRssi( );
+    392                          CcaFreqConfig( setCh, setBw, 8,  -75000 );
+    393                          rssi[1] = SX1276ReadRssi( );
+    394                          CcaFreqConfig( setCh, setBw, 8,  225000 );
+    395                          rssi[2] = SX1276ReadRssi( );
+    396                          CcaFreqConfig( setCh, setBw, 8, -225000 );
+    397                          rssi[3] = SX1276ReadRssi( );
+    398          
+    399                          rssiTestTimer = TPM0_CNT;
+    400          
+    401                          ccaState = 3;
+    402          
+    403                          break;
+    404          
+    405                      // Second RSSI reading
+    406                      case 2:
+    407          
+    408                          nowTick = TPM0_CNT;
+    409          
+    410                          CcaFreqConfig( setCh, setBw, 8,   75000 );
+    411                          rssi[0] = SX1276ReadRssi( );
+    412                          CcaFreqConfig( setCh, setBw, 8,  -75000 );
+    413                          rssi[1] = SX1276ReadRssi( );
+    414                          CcaFreqConfig( setCh, setBw, 8,  225000 );
+    415                          rssi[2] = SX1276ReadRssi( );
+    416                          CcaFreqConfig( setCh, setBw, 8, -225000 );
+    417                          rssi[3] = SX1276ReadRssi( );
+    418          
+    419                          rssiTestTimer = TPM0_CNT;
+    420          
+    421                          ccaState = 4;
+    422          
+    423                          break;
+    424          
+    425                      // Checks previous RSSI readings and if they are below -80 dBm indicates that
+    426                      // the channel is free and sets sate to 0.
+    427                      // if channel isn't free set ccaState to 1 in order to make again 2 measurements.
+    428                      case 3:
+    429          
+    430                          if( (rssi[0] < CCA_RSSI) && (rssi[1] < CCA_RSSI) && (rssi[2] < CCA_RSSI) && (rssi[3] < CCA_RSSI) )
+    431                          {
+    432                              ccaState = 2;
+    433                          }
+    434                          else
+    435                          {
+    436                              rssiTestTimer = TPM0_CNT;
+    437                              retry_counter++;
+    438                              ccaState = 1;
+    439                              if( retry_counter > retry )
+    440                              {
+    441                                  status = 2;		// Error
+    442                              }
+    443                          }
+    444                          break;
+    445          
+    446                      case 4:
+    447          
+    448                          if( (rssi[0] < CCA_RSSI) && (rssi[1] < CCA_RSSI) && (rssi[2] < CCA_RSSI) && (rssi[3] < CCA_RSSI) )
+    449                          {
+    450                              status = 1;		    // OK
+    451                          }
+    452                          else
+    453                          {
+    454                              rssiTestTimer = TPM0_CNT;
+    455                              retry_counter++;
+    456                              ccaState = 1;
+    457                              if( retry_counter > retry )
+    458                              {
+    459                                  status = 2;		// Error
+    460                              }
+    461                          }
+    462                          break;
+    463          
+    464                      default:
+    465                          break;
+    466                      }
+    467                  }
+    468              }
+    469          
+    470          	SMAC_SetChannel( setCh, setBw );
+    471          
+    472          	return ( status - 1 );
+    473          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      40   CcaFreqConfig
+        40   -> SX1276LoRaSetRFFrequency
+        40   -> SX1276LoRaSetSignalBandwidth
+        40   -> Tick_Diff
+      72   IsCcaOk
+        72   -> CcaFreqConfig
+        72   -> SMAC_SetChannel
+        72   -> SX1276ReadRssi
+        72   -> SX1276SetOpMode
+        72   -> Tick_Diff
+        72   -> Timer_Init
+        72   -> __aeabi_memclr4
+        72 __aeabi_cdcmple
+       4   Tick_Diff
+       0   Timer_Init
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+       4  ??DataTable1_10
+       4  ??DataTable1_2
+       4  ??DataTable1_3
+       4  ??DataTable1_4
+       4  ??DataTable1_5
+       4  ??DataTable1_6
+       4  ??DataTable1_7
+       4  ??DataTable1_8
+       4  ??DataTable1_9
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+       4  ??DataTable2_5
+      32  ?_0
+     122  CcaFreqConfig
+   1'710  IsCcaOk
+      28  Tick_Diff
+      38  Timer_Init
+
+ 
+    32 bytes in section .rodata
+ 1'966 bytes in section .text
+ 
+ 1'966 bytes of CODE  memory
+    32 bytes of CONST memory
+
+Errors: none
+Warnings: none

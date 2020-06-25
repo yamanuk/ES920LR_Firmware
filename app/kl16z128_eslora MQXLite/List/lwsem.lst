@@ -1,0 +1,1517 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:59
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\lwsem.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5760.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\lwsem.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\lwsem.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lwsem.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\lwsem.c
+      1          /*HEADER*********************************************************************
+      2           *
+      3           * Copyright (c) 2008 Freescale Semiconductor;
+      4           * All Rights Reserved
+      5           *
+      6           * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7           * All Rights Reserved
+      8           *
+      9           * Copyright (c) 1989-2008 ARC International;
+     10           * All Rights Reserved
+     11           *
+     12           ***************************************************************************
+     13           *
+     14           * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15           * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16           * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17           * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18           * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20           * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21           * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22           * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23           * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24           * THE POSSIBILITY OF SUCH DAMAGE.
+     25           *
+     26           **************************************************************************
+     27           *
+     28           * $FileName: lwsem.c$
+     29           * $Version : 3.8.0.1$
+     30           * $Date    : Feb-20-2012$
+     31           *
+     32           * Comments:
+     33           *
+     34           *   This file contains functions of the lightweight semaphore component.
+     35           *
+     36           *END************************************************************************/
+     37          
+     38          #include "mqx_inc.h"
+     39          
+     40          /*!
+     41           * \private
+     42           *
+     43           * \brief Creates the lightweight semaphore.
+     44           *
+     45           * \param[in] sem_ptr        Pointer to the lightweight semaphore to create.
+     46           * \param[in] initial_number Inital number of semaphores available.
+     47           * \param[in] hidden         TRUE if semaphore will ne hidden from kernel, FALSE if not.
+     48           * \param[in] user           User mode functionality.
+     49           *
+     50           * \return MQX_OK
+     51           * \return MQX_EINVAL
+     52           * \return MQX_INVALID_LWSEM
+     53           *
+     54           * \see _lwsem_create
+     55           * \see _lwsem_create_hidden
+     56           * \see _usr_lwsem_create
+     57           * \see LWSEM_STRUCT
+     58           */
+     59          _mqx_uint _lwsem_create_internal
+     60          (
+     61              LWSEM_STRUCT_PTR sem_ptr,
+     62              _mqx_int         initial_number,
+     63              boolean          hidden,
+     64              boolean          user
+     65          )
+     66          {
+     67              KERNEL_DATA_STRUCT_PTR kernel_data;
+     68              LWSEM_STRUCT_PTR       sem_chk_ptr;
+     69          
+     70          #if MQX_ENABLE_USER_MODE
+     71              if (user && !_psp_mem_check_access_mask((uint_32)sem_ptr, sizeof(LWSEM_STRUCT), MPU_UM_R, MPU_UM_RW))
+     72              {
+     73                  return MQX_INVALID_LWSEM;
+     74              }
+     75          #endif /* MQX_ENABLE_USER_MODE */
+     76          
+     77              _GET_KERNEL_DATA(kernel_data);
+     78          
+     79              _KLOGE2(KLOG_lwsem_create, initial_number);
+     80          
+     81              sem_ptr->VALUE = initial_number;
+     82              _QUEUE_INIT(&sem_ptr->TD_QUEUE, 0);
+     83              _int_disable();
+     84          
+     85              if (!hidden)
+     86              {
+     87          #if MQX_CHECK_ERRORS
+     88                  /* Check if lwsem is already initialized */
+     89          #if MQX_ENABLE_USER_MODE
+     90                  if (user)
+     91                  {
+     92                      sem_chk_ptr = (LWSEM_STRUCT_PTR)((pointer)kernel_data->USR_LWSEM.NEXT);
+     93                      while (sem_chk_ptr != (LWSEM_STRUCT_PTR)((pointer)&kernel_data->USR_LWSEM))
+     94                      {
+     95                          if (sem_chk_ptr == sem_ptr)
+     96                          {
+     97                              _int_enable();
+     98                              _KLOGX2(KLOG_lwsem_create, MQX_EINVAL);
+     99                              return(MQX_EINVAL);
+    100                          }
+    101          
+    102                          sem_chk_ptr = (LWSEM_STRUCT_PTR)((pointer)sem_chk_ptr->NEXT);
+    103                      }
+    104                  }
+    105                  else
+    106          #endif /* MQX_ENABLE_USER_MODE */
+    107                  {
+    108                      sem_chk_ptr = (LWSEM_STRUCT_PTR) ((pointer) kernel_data->LWSEM.NEXT);
+    109                      while (sem_chk_ptr != (LWSEM_STRUCT_PTR) ((pointer) &kernel_data->LWSEM))
+    110                      {
+    111                          if (sem_chk_ptr == sem_ptr)
+    112                          {
+    113                              _int_enable();
+    114                              _KLOGX2(KLOG_lwsem_create, MQX_EINVAL);
+    115                              return (MQX_EINVAL);
+    116                          }
+    117          
+    118                          sem_chk_ptr = (LWSEM_STRUCT_PTR) ((pointer) sem_chk_ptr->NEXT);
+    119                      }
+    120                  }
+    121          #endif /* MQX_CHECK_ERRORS */
+    122          
+    123          #if MQX_ENABLE_USER_MODE
+    124                  if (user)
+    125                  {
+    126                      _QUEUE_ENQUEUE(&kernel_data->USR_LWSEM, sem_ptr);
+    127                  }
+    128                  else
+    129          #endif /* MQX_ENABLE_USER_MODE */
+    130                  {
+    131                      _QUEUE_ENQUEUE(&kernel_data->LWSEM, sem_ptr);
+    132                  }
+    133              }
+    134          
+    135              sem_ptr->VALID = LWSEM_VALID;
+    136              _int_enable();
+    137          
+    138              _KLOGX2(KLOG_lwsem_create, MQX_OK);
+    139          
+    140              return (MQX_OK);
+    141          }
+    142          
+    143          /*!
+    144           * \brief Creates the lightweight semaphore.
+    145           *
+    146           * Because lightweight semaphores are a core component, an application need not to
+    147           * create the component before it creates lightweight semaphores.
+    148           *
+    149           * \param[in] sem_ptr        Pointer to the lightweight semaphore to create.
+    150           * \param[in] initial_number Inital number of semaphores available.
+    151           *
+    152           * \return MQX_OK
+    153           * \return MQX_EINVAL
+    154           * \return MQX_INVALID_LWSEM
+    155           *
+    156           * \see _lwsem_create_hidden
+    157           * \see _lwsem_destroy
+    158           * \see _lwsem_post
+    159           * \see _lwsem_test
+    160           * \see _lwsem_wait
+    161           * \see _lwsem_wait_for
+    162           * \see _lwsem_wait_ticks
+    163           * \see _lwsem_wait_until
+    164           * \see LWSEM_STRUCT
+    165           */
+    166          _mqx_uint _lwsem_create
+    167          (
+    168              LWSEM_STRUCT_PTR sem_ptr,
+    169              _mqx_int         initial_number
+    170          )
+    171          {
+    172          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    173              if (MQX_RUN_IN_USER_MODE)
+    174              {
+    175                  return _usr_lwsem_create(sem_ptr, initial_number);
+    176              }
+    177          #endif
+    178          
+    179              return _lwsem_create_internal(sem_ptr, initial_number, FALSE, FALSE);
+    180          }
+    181          
+    182          /*!
+    183           * \brief Creates the lightweight semaphore hidden from kernel.
+    184           *
+    185           * \param[in] sem_ptr        Pointer to the lightweight semaphore to create.
+    186           * \param[in] initial_number Inital number of semaphores available.
+    187           *
+    188           * \return MQX_OK
+    189           * \return MQX_EINVAL
+    190           * \return MQX_INVALID_LWSEM
+    191           *
+    192           * \see _lwsem_create
+    193           * \see _lwsem_destroy
+    194           * \see _lwsem_post
+    195           * \see _lwsem_test
+    196           * \see _lwsem_wait
+    197           * \see _lwsem_wait_for
+    198           * \see _lwsem_wait_ticks
+    199           * \see _lwsem_wait_until
+    200           * \see LWSEM_STRUCT
+    201           */
+    202          _mqx_uint _lwsem_create_hidden
+    203          (
+    204              LWSEM_STRUCT_PTR sem_ptr,
+    205              _mqx_int         initial_number
+    206          )
+    207          {
+    208              return _lwsem_create_internal(sem_ptr, initial_number, TRUE, FALSE);
+    209          }
+    210          
+    211          #if MQX_ENABLE_USER_MODE
+    212          /*!
+    213           * \brief Creates the lightweight semaphore hidden form kernel.
+    214           *
+    215           * This function is an equivalent to the _lwsem_create() API call but it can be
+    216           * executed from within the User task or other code running in the CPU User mode.
+    217           * Parameters passed to this function by pointer are required to meet the memory
+    218           * protection requirements as described in the parameter list below.
+    219           *
+    220           * \param[in] sem_ptr        Read only. Pointer to the lightweight semaphore to create.
+    221           * \param[in] initial_number Inital number of semaphores available.
+    222           *
+    223           * \return MQX_OK
+    224           * \return MQX_EINVAL
+    225           * \return MQX_INVALID_LWSEM
+    226           *
+    227           * \see _lwsem_create
+    228           * \see _usr_lwsem_destroy
+    229           * \see _usr_lwsem_post
+    230           * \see _usr_lwsem_wait
+    231           * \see _usr_lwsem_wait_for
+    232           * \see _usr_lwsem_wait_ticks
+    233           * \see _usr_lwsem_wait_until
+    234           * \see LWSEM_STRUCT
+    235           */
+    236          _mqx_uint _usr_lwsem_create
+    237          (
+    238              LWSEM_STRUCT_PTR sem_ptr,
+    239              _mqx_int         initial_number
+    240          )
+    241          {
+    242              MQX_API_CALL_PARAMS params =
+    243              {   (uint_32)sem_ptr, (uint_32)initial_number, (uint_32)FALSE, 0, 0};
+    244              return _mqx_api_call(MQX_API_LWSEM_CREATE, &params);
+    245          }
+    246          
+    247          #endif /* MQX_ENABLE_USER_MODE */
+    248          
+    249          /*!
+    250           * \private
+    251           *
+    252           * \brief Destroys the lightweight semaphore.
+    253           *
+    254           * \param[in] sem_ptr Pointer to the created lightweight semaphore.
+    255           * \param[in] user    User mode functionality.
+    256           *
+    257           * \return MQX_OK
+    258           * \return MQX_INVALID_LWSEM (Lwsem_ptr does not point to a valid lightweight semaphore.)
+    259           *
+    260           * \see _lwsem_destroy
+    261           * \see LWSEM_STRUCT
+    262           */
+    263          _mqx_uint _lwsem_destroy_internal
+    264          (
+    265              LWSEM_STRUCT_PTR sem_ptr,
+    266              boolean          user
+    267          )
+    268          { /* Body */
+    269              KERNEL_DATA_STRUCT_PTR kernel_data;
+    270              TD_STRUCT_PTR          td_ptr;
+    271              LWSEM_STRUCT_PTR       sem_chk_ptr;
+    272          
+    273              _GET_KERNEL_DATA(kernel_data);
+    274          
+    275              _KLOGE2(KLOG_lwsem_destroy, sem_ptr);
+    276          
+    277              _int_disable();
+    278          #if MQX_CHECK_VALIDITY
+    279              if (sem_ptr->VALID != LWSEM_VALID)
+    280              {
+    281                  _int_enable();
+    282                  _KLOGX2(KLOG_lwsem_destroy, MQX_INVALID_LWSEM);
+    283                  return (MQX_INVALID_LWSEM);
+    284              } /* Endif */
+    285          #endif
+    286          
+    287              sem_ptr->VALID = 0; /* Invalidate the semaphore */
+    288              while (_QUEUE_GET_SIZE(&sem_ptr->TD_QUEUE))
+    289              {
+    290                  _QUEUE_DEQUEUE(&sem_ptr->TD_QUEUE, td_ptr);
+    291                  _BACKUP_POINTER(td_ptr, TD_STRUCT, AUX_QUEUE);
+    292                  _TIME_DEQUEUE(td_ptr, kernel_data);
+    293                  _TASK_READY(td_ptr, kernel_data);
+    294              } /* Endwhile */
+    295          
+    296              /* Check if lwsem is in kernel's semaphore list */
+    297          #if MQX_ENABLE_USER_MODE
+    298              if (user)
+    299              {
+    300                  sem_chk_ptr = (LWSEM_STRUCT_PTR)((pointer)kernel_data->USR_LWSEM.NEXT);
+    301                  while (sem_chk_ptr != (LWSEM_STRUCT_PTR)((pointer)&kernel_data->USR_LWSEM))
+    302                  {
+    303                      if (sem_chk_ptr == sem_ptr)
+    304                      {
+    305                          /* remove semaphore from kernel LWSEM queue */
+    306                          _QUEUE_REMOVE(&kernel_data->USR_LWSEM, sem_ptr);
+    307                          break;
+    308                      }
+    309                      sem_chk_ptr = (LWSEM_STRUCT_PTR)((pointer)sem_chk_ptr->NEXT);
+    310                  }
+    311              }
+    312              else
+    313          #endif /* MQX_ENABLE_USER_MODE */
+    314              {
+    315                  sem_chk_ptr = (LWSEM_STRUCT_PTR) ((pointer) kernel_data->LWSEM.NEXT);
+    316                  while (sem_chk_ptr != (LWSEM_STRUCT_PTR) ((pointer) &kernel_data->LWSEM))
+    317                  {
+    318                      if (sem_chk_ptr == sem_ptr)
+    319                      {
+    320                          /* remove semaphore from kernel LWSEM queue */
+    321                          _QUEUE_REMOVE(&kernel_data->LWSEM, sem_ptr);
+    322                          break;
+    323                      } /* Endif */
+    324                      sem_chk_ptr = (LWSEM_STRUCT_PTR) ((pointer) sem_chk_ptr->NEXT);
+    325                  } /* Endwhile */
+    326              }
+    327          
+    328              _int_enable();
+    329          
+    330              _CHECK_RUN_SCHEDULER(); /* Allow higher priority tasks to run */
+    331          
+    332          
+    333              _KLOGX2(KLOG_lwsem_destroy, MQX_OK);
+    334              return (MQX_OK);
+    335          
+    336          } /* Endbody */
+    337          
+    338          
+    339          /*!
+    340           * \brief Destroys the lightweight semaphore.
+    341           *
+    342           * \param[in] sem_ptr Pointer to the created lightweight semaphore.
+    343           *
+    344           * \return MQX_OK
+    345           * \return MQX_INVALID_LWSEM (Lwsem_ptr does not point to a valid lightweight semaphore.)
+    346           *
+    347           * \warning Puts all waiting tasks in their ready queues.
+    348           * \warning Cannot be called from an ISR.
+    349           *
+    350           * \see _lwsem_create
+    351           * \see _lwsem_create_hidden
+    352           * \see LWSEM_STRUCT
+    353           */
+    354          _mqx_uint _lwsem_destroy
+    355          (
+    356              LWSEM_STRUCT_PTR sem_ptr
+    357          )
+    358          {
+    359          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    360              if (MQX_RUN_IN_USER_MODE)
+    361              {
+    362                  return _usr_lwsem_destroy(sem_ptr);
+    363              }
+    364          #endif
+    365          
+    366              return _lwsem_destroy_internal(sem_ptr, FALSE);
+    367          }
+    368          
+    369          #if MQX_ENABLE_USER_MODE
+    370          /*!
+    371           * \brief Destroys the lightweight semaphore.
+    372           *
+    373           * This function is an equivalent to the _lwsem_destroy() API call but it can be
+    374           * executed from within the User task or other code running in the CPU User mode.
+    375           * Parameters passed to this function by pointer are required to meet the memory
+    376           * protection requirements as described in the parameter list below.
+    377           *
+    378           * \param[in] sem_ptr Read only. Pointer to the created lightweight semaphore.
+    379           *
+    380           * \return MQX_OK
+    381           * \return MQX_INVALID_LWSEM (Lwsem_ptr does not point to a valid lightweight semaphore.)
+    382           *
+    383           * \warning Puts all waiting tasks in their ready queues.
+    384           * \warning Cannot be called from an ISR.
+    385           *
+    386           * \see _lwsem_destroy
+    387           * \see _usr_lwsem_create
+    388           * \see LWSEM_STRUCT
+    389           */
+    390          _mqx_uint _usr_lwsem_destroy
+    391          (
+    392              LWSEM_STRUCT_PTR sem_ptr
+    393          )
+    394          {
+    395              MQX_API_CALL_PARAMS params = {(uint_32)sem_ptr, 0, 0, 0, 0};
+    396              return _mqx_api_call(MQX_API_LWSEM_DESTROY, &params);
+    397          }
+    398          
+    399          #endif /* MQX_ENABLE_USER_MODE */
+    400          
+    401          /*!
+    402           * \brief Poll for the lightweight semaphore.
+    403           *
+    404           * The function is the nonblocking alternative to the _lwsem_wait family of functions.
+    405           *
+    406           * \param[in] sem_ptr Pointer to the created lightweight semaphore.
+    407           *
+    408           * \return TRUE (Task got the lightweight semaphore.)
+    409           * \return FALSE (Lightweight semaphore was not available.)
+    410           *
+    411           * \see _lwsem_create
+    412           * \see _lwsem_create_hidden
+    413           * \see _lwsem_wait
+    414           * \see _lwsem_wait_for
+    415           * \see _lwsem_wait_ticks
+    416           * \see _lwsem_wait_until
+    417           * \see LWSEM_STRUCT
+    418           */
+    419          boolean _lwsem_poll
+    420          (
+    421              LWSEM_STRUCT_PTR sem_ptr
+    422          )
+    423          { /* Body */
+    424              KERNEL_DATA_STRUCT_PTR kernel_data;
+    425              boolean                result;
+    426          
+    427          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    428              if (MQX_RUN_IN_USER_MODE)
+    429              {
+    430                  return _usr_lwsem_poll(sem_ptr);
+    431              }
+    432          #endif
+    433          
+    434              _GET_KERNEL_DATA(kernel_data);
+    435              _KLOGE2(KLOG_lwsem_poll, sem_ptr);
+    436          
+    437          #if MQX_CHECK_VALIDITY
+    438              if (sem_ptr->VALID != LWSEM_VALID)
+    439              {
+    440                  _KLOGX2(KLOG_lwsem_poll, FALSE);
+    441                  return (FALSE);
+    442              } /* Endif */
+    443          #endif /* MQX_CHECK_VALIDITY */
+    444          
+    445              _INT_DISABLE();
+    446              if (sem_ptr->VALUE <= 0)
+    447              {
+    448                  result = FALSE;
+    449              }
+    450              else
+    451              {
+    452                  --sem_ptr->VALUE;
+    453                  result = TRUE;
+    454              } /* Endif */
+    455              _INT_ENABLE();
+    456          
+    457              _KLOGX2(KLOG_lwsem_poll, result);
+    458          
+    459              return (result);
+    460          
+    461          }
+    462          
+    463          #if MQX_ENABLE_USER_MODE
+    464          /*!
+    465           * \brief Poll for the lightweight semaphore.
+    466           *
+    467           * This function is an equivalent to the _lwsem_poll() API call but it can be
+    468           * executed from within the User task or other code running in the CPU User mode.
+    469           * Parameters passed to this function by pointer are required to meet the memory
+    470           * protection requirements as described in the parameter list below.
+    471           *
+    472           * \param[in] sem_ptr Read only. Pointer to the created lightweight semaphore.
+    473           *
+    474           * \return TRUE (Task got the lightweight semaphore.)
+    475           * \return FALSE (Lightweight semaphore was not available.)
+    476           *
+    477           * \see _lwsem_poll
+    478           * \see _usr_lwsem_create
+    479           * \see _usr_lwsem_wait
+    480           * \see _usr_lwsem_wait_for
+    481           * \see _usr_lwsem_wait_ticks
+    482           * \see _usr_lwsem_wait_until
+    483           * \see LWSEM_STRUCT
+    484           */
+    485          boolean _usr_lwsem_poll
+    486          (
+    487              LWSEM_STRUCT_PTR sem_ptr
+    488          )
+    489          {
+    490              MQX_API_CALL_PARAMS params =
+    491              {   (uint_32)sem_ptr, 0, 0, 0, 0};
+    492              return _mqx_api_call(MQX_API_LWSEM_POLL, &params);
+    493          }
+    494          #endif /* MQX_ENABLE_USER_MODE */
+    495          
+    496          /*!
+    497           * \brief Posts the lightweight semaphore.
+    498           *
+    499           * If tasks are waiting for the lightweight semaphore, MQX removes the first one
+    500           * from the queue and puts it in the task's ready queue.
+    501           *
+    502           * \param[in] sem_ptr Pointer to the created lightweight semaphore.
+    503           *
+    504           * \return MQX_OK
+    505           * \return MQX_INVALID_LWSEM (Lwsem_ptr does not point to a valid lightweight semaphore.)
+    506           *
+    507           * \warning Might put a waiting task in the task's ready queue.
+    508           *
+    509           * \see _lwsem_create
+    510           * \see _lwsem_wait
+    511           * \see _lwsem_wait_for
+    512           * \see _lwsem_wait_ticks
+    513           * \see _lwsem_wait_until
+    514           * \see LWSEM_STRUCT
+    515           */
+    516          _mqx_uint _lwsem_post
+    517          (
+    518              LWSEM_STRUCT_PTR sem_ptr
+    519          )
+    520          { /* Body */
+    521              KERNEL_DATA_STRUCT_PTR kernel_data;
+    522              TD_STRUCT_PTR          td_ptr;
+    523          
+    524          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    525              if (MQX_RUN_IN_USER_MODE)
+    526              {
+    527                  return _usr_lwsem_post(sem_ptr);
+    528              }
+    529          #endif
+    530          
+    531              _GET_KERNEL_DATA(kernel_data);
+    532          
+    533              _KLOGE2(KLOG_lwsem_post, sem_ptr);
+    534          
+    535          #if MQX_CHECK_VALIDITY
+    536              if (sem_ptr->VALID != LWSEM_VALID)
+    537              {
+    538                  _KLOGX2(KLOG_lwsem_post, MQX_INVALID_LWSEM);
+    539                  return (MQX_INVALID_LWSEM);
+    540              } /* Endif */
+    541          #endif /* MQX_CHECK_VALIDITY */
+    542          
+    543              _INT_DISABLE();
+    544              if ((sem_ptr->VALUE >= 0) && (_QUEUE_GET_SIZE(&sem_ptr->TD_QUEUE)))
+    545              {
+    546                  _QUEUE_DEQUEUE(&sem_ptr->TD_QUEUE, td_ptr);
+    547                  _BACKUP_POINTER(td_ptr, TD_STRUCT, AUX_QUEUE);
+    548                  _TIME_DEQUEUE(td_ptr, kernel_data);
+    549                  td_ptr->INFO = 0; /* Signal that post is activating the task */
+    550                  _TASK_READY(td_ptr, kernel_data);
+    551                  _CHECK_RUN_SCHEDULER(); /* Let higher priority task run */
+    552              }
+    553              else
+    554              {
+    555                  ++sem_ptr->VALUE;
+    556              } /* Endif */
+    557              _INT_ENABLE();
+    558          
+    559              _KLOGX2(KLOG_lwsem_post, MQX_OK);
+    560          
+    561              return (MQX_OK);
+    562          
+    563          }
+    564          
+    565          #if MQX_ENABLE_USER_MODE
+    566          /*!
+    567           * \brief Posts the lightweight semaphore.
+    568           *
+    569           * This function is an equivalent to the _lwsem_post() API call but it can be
+    570           * executed from within the User task or other code running in the CPU User mode.
+    571           * Parameters passed to this function by pointer are required to meet the memory
+    572           * protection requirements as described in the parameter list below.
+    573           *
+    574           * \param[in] sem_ptr Read only. Pointer to the created lightweight semaphore.
+    575           *
+    576           * \return MQX_OK
+    577           * \return MQX_INVALID_LWSEM (Lwsem_ptr does not point to a valid lightweight semaphore.)
+    578           *
+    579           * \warning Might put a waiting task in the task's ready queue.
+    580           *
+    581           * \see _lwsem_post
+    582           * \see _usr_lwsem_create
+    583           * \see _usr_lwsem_wait
+    584           * \see _usr_lwsem_wait_for
+    585           * \see _usr_lwsem_wait_ticks
+    586           * \see _usr_lwsem_wait_until
+    587           * \see LWSEM_STRUCT
+    588           */
+    589          _mqx_uint _usr_lwsem_post
+    590          (
+    591              LWSEM_STRUCT_PTR sem_ptr
+    592          )
+    593          {
+    594              MQX_API_CALL_PARAMS params =
+    595              {   (uint_32)sem_ptr, 0, 0, 0, 0};
+    596              return _mqx_api_call(MQX_API_LWSEM_POST, &params);
+    597          }
+    598          #endif /* MQX_ENABLE_USER_MODE */
+    599          
+    600          /*!
+    601           * \brief Tests the data structures (including queues) of the lightweight semaphores
+    602           * component for consistency and validity.
+    603           *
+    604           * \param[out] lwsem_error_ptr Pointer to the lightweight semaphore in error (NULL
+    605           * if no error is found)
+    606           * \param[out] td_error_ptr    Pointer to the task descriptor of waiting task that
+    607           * has an error (NULL if no error is found).
+    608           *
+    609           * \return MQX_OK
+    610           * \return MQX_INVALID_LWSEM (Results of _queue_test().)
+    611           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+    612           * \return MQX_CORRUPT_QUEUE (An error was found.)
+    613           *
+    614           * \warning Cannot be called from an ISR.
+    615           * Disables and enables interrupts.
+    616           *
+    617           * \see _lwsem_create
+    618           * \see _lwsem_destroy
+    619           * \see _queue_test
+    620           */
+    621          _mqx_uint _lwsem_test
+    622          (
+    623              pointer _PTR_ lwsem_error_ptr,
+    624              pointer _PTR_ td_error_ptr
+    625          )
+    626          { /* Body */
+    627              KERNEL_DATA_STRUCT_PTR kernel_data;
+    628              LWSEM_STRUCT_PTR       sem_ptr;
+    629              _mqx_uint              queue_size;
+    630              _mqx_uint              result;
+    631          
+    632              _GET_KERNEL_DATA(kernel_data);
+    633          
+    634              _KLOGE3(KLOG_lwsem_test, lwsem_error_ptr, td_error_ptr);
+    635          
+    636              *td_error_ptr = NULL;
+    637              *lwsem_error_ptr = NULL;
+    638          
+    639          #if MQX_CHECK_ERRORS
+    640              if (kernel_data->IN_ISR)
+    641              {
+    642                  _KLOGX2(KLOG_lwsem_test, MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+    643                  return (MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+    644              }/* Endif */
+    645          #endif
+    646          
+    647              _int_disable();
+    648          
+    649              result = _queue_test((QUEUE_STRUCT_PTR) &kernel_data->LWSEM, lwsem_error_ptr);
+    650              if (result != MQX_OK)
+    651              {
+    652                  _KLOGX3(KLOG_lwsem_test, result, *lwsem_error_ptr);
+    653                  return (result);
+    654              } /* Endif */
+    655          
+    656              sem_ptr = (LWSEM_STRUCT_PTR) ((pointer) kernel_data->LWSEM.NEXT);
+    657              queue_size = _QUEUE_GET_SIZE(&kernel_data->LWSEM);
+    658              while (queue_size--)
+    659              {
+    660                  if (sem_ptr->VALID != LWSEM_VALID)
+    661                  {
+    662                      result = MQX_INVALID_LWSEM;
+    663                      break;
+    664                  } /* Endif */
+    665          
+    666                  result = _queue_test(&sem_ptr->TD_QUEUE, td_error_ptr);
+    667                  if (result != MQX_OK)
+    668                  {
+    669                      break;
+    670                  } /* Endif */
+    671          
+    672                  sem_ptr = sem_ptr->NEXT;
+    673              } /* Endwhile */
+    674          
+    675              _int_enable();
+    676          
+    677              if (result != MQX_OK)
+    678              {
+    679                  *lwsem_error_ptr = (pointer) sem_ptr;
+    680              } /* Endif */
+    681              _KLOGX4(KLOG_lwsem_test, result, *lwsem_error_ptr, *td_error_ptr);
+    682          
+    683              return (result);
+    684          
+    685          }
+    686          
+    687          #if MQX_ENABLE_USER_MODE
+    688          /*!
+    689           * \brief Checks whether the specified pointer corresponds with a valid lightweight
+    690           * semaphore.
+    691           *
+    692           * \param[in] tst_sem_ptr Pointer to the lightweight semaphore.
+    693           *
+    694           * \return MQX_OK (Valid lightweight semaphore.)
+    695           * \return MQX_INVALID_LWSEM (Specified lightweight semaphore is not valid.)
+    696           *
+    697           * \see LWSEM_STRUCT
+    698           */
+    699          _mqx_uint _lwsem_usr_check
+    700          (
+    701              LWSEM_STRUCT_PTR tst_sem_ptr
+    702          )
+    703          {
+    704              KERNEL_DATA_STRUCT_PTR kernel_data;
+    705              LWSEM_STRUCT_PTR       sem_ptr;
+    706              _mqx_uint              result = MQX_INVALID_LWSEM;
+    707              _mqx_uint              queue_size;
+    708          
+    709              _GET_KERNEL_DATA(kernel_data);
+    710          
+    711              sem_ptr = (LWSEM_STRUCT_PTR)((pointer)kernel_data->USR_LWSEM.NEXT);
+    712              queue_size = _QUEUE_GET_SIZE(&kernel_data->USR_LWSEM);
+    713          
+    714              while (queue_size--)
+    715              {
+    716                  if (sem_ptr->VALID != LWSEM_VALID)
+    717                  {
+    718                      break;
+    719                  }
+    720          
+    721                  if (tst_sem_ptr == sem_ptr)
+    722                  {
+    723                      result = MQX_OK;
+    724                      break;
+    725                  }
+    726          
+    727                  sem_ptr = (LWSEM_STRUCT_PTR)(pointer)sem_ptr->NEXT;
+    728              }
+    729          
+    730              return result;
+    731          }
+    732          
+    733          #endif /* MQX_ENABLE_USER_MODE */
+    734          
+    735          /*!
+    736           * \brief Waits (in FIFO order) for the lightweight semaphore until it is available.
+    737           *
+    738           * \note Because priority inversion might occur if tasks with different priorities
+    739           * access the same lightweight semaphore, we recommend under these circumstances
+    740           * that you use the semaphore component.
+    741           *
+    742           * \param[in] sem_ptr Pointer to the lightweight semaphore.
+    743           *
+    744           * \return MQX_OK
+    745           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+    746           * \return MQX_INVALID_LWSEM (Sem_ptr is for a lightweight semaphore that is not
+    747           * longer valid.)
+    748           * \return MQX_LWSEM_WAIT_TIMEOUT (Timeout expired before the task could get the
+    749           * lightweight semaphore.)
+    750           *
+    751           * \warning Might block the calling task.
+    752           * Cannot be called from an ISR.
+    753           *
+    754           * \see _lwsem_create
+    755           * \see _lwsem_post
+    756           * \see LWSEM_STRUCT
+    757           */
+    758          _mqx_uint _lwsem_wait
+    759          (
+    760              LWSEM_STRUCT_PTR sem_ptr
+    761          )
+    762          { /* Body */
+    763              KERNEL_DATA_STRUCT_PTR kernel_data;
+    764              TD_STRUCT_PTR td_ptr;
+    765          
+    766          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    767              if (MQX_RUN_IN_USER_MODE)
+    768              {
+    769                  return _usr_lwsem_wait(sem_ptr);
+    770              }
+    771          #endif
+    772          
+    773              _GET_KERNEL_DATA(kernel_data);
+    774          
+    775              _KLOGE2(KLOG_lwsem_wait, sem_ptr);
+    776          
+    777          #if MQX_CHECK_ERRORS
+    778              if (kernel_data->IN_ISR)
+    779              {
+    780                  _KLOGX2(KLOG_lwsem_wait, MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+    781                  return (MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+    782              }
+    783          #endif
+    784          
+    785          #if MQX_CHECK_VALIDITY
+    786              if (sem_ptr->VALID != LWSEM_VALID)
+    787              {
+    788                  _KLOGX2(KLOG_lwsem_wait, MQX_INVALID_LWSEM);
+    789                  return (MQX_INVALID_LWSEM);
+    790              }
+    791          #endif
+    792          
+    793              _INT_DISABLE();
+    794              if (sem_ptr->VALUE <= 0)
+    795              {
+    796                  td_ptr = kernel_data->ACTIVE_PTR;
+    797                  td_ptr->STATE = LWSEM_BLOCKED;
+    798                  td_ptr->INFO = (_mqx_uint) &sem_ptr->TD_QUEUE;
+    799                  _QUEUE_UNLINK(td_ptr);
+    800                  _QUEUE_ENQUEUE(&sem_ptr->TD_QUEUE, &td_ptr->AUX_QUEUE);
+    801                  _sched_execute_scheduler_internal(); /* Let the other tasks run */
+    802                  /* Another task has posted a semaphore, and it has been tranfered to this
+    803                   ** task.
+    804                   */
+    805              }
+    806              else
+    807              {
+    808                  --sem_ptr->VALUE;
+    809              }
+    810          
+    811              /* We must check for component destruction */
+    812              if (sem_ptr->VALID != LWSEM_VALID)
+    813              {
+    814                  _int_enable();
+    815                  /* The semaphore has been deleted */
+    816                  _KLOGX2(KLOG_lwsem_wait, MQX_INVALID_LWSEM);
+    817                  return (MQX_INVALID_LWSEM);
+    818              } /* Endif */
+    819          
+    820              _INT_ENABLE();
+    821          
+    822              _KLOGX2(KLOG_lwsem_wait, MQX_OK);
+    823          
+    824              return (MQX_OK);
+    825          }
+    826          
+    827          #if MQX_ENABLE_USER_MODE
+    828          /*!
+    829           * \brief Waits (in FIFO order) for the lightweight semaphore until it is available.
+    830           *
+    831           * This function is an equivalent to the _lwsem_wait() API call but it can be
+    832           * executed from within the User task or other code running in the CPU User mode.
+    833           * Parameters passed to this function by pointer are required to meet the memory
+    834           * protection requirements as described in the parameter list below.
+    835           *
+    836           * \param[in] sem_ptr Read only. Pointer to the lightweight semaphore.
+    837           *
+    838           * \return MQX_OK
+    839           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+    840           * \return MQX_INVALID_LWSEM (Sem_ptr is for a lightweight semaphore that is not
+    841           * longer valid.)
+    842           * \return MQX_LWSEM_WAIT_TIMEOUT (Timeout expired before the task could get the
+    843           * lightweight semaphore.)
+    844           *
+    845           * \warning Might block the calling task.
+    846           * Cannot be called from an ISR.
+    847           *
+    848           * \see _lwsem_wait
+    849           * \see _usr_lwsem_create
+    850           * \see _usr_lwsem_post
+    851           * \see LWSEM_STRUCT
+    852           */
+    853          _mqx_uint _usr_lwsem_wait
+    854          (
+    855              LWSEM_STRUCT_PTR sem_ptr
+    856          )
+    857          {
+    858              MQX_API_CALL_PARAMS params =
+    859              {   (uint_32)sem_ptr, 0, 0, 0, 0};
+    860              return _mqx_api_call(MQX_API_LWSEM_WAIT, &params);
+    861          }
+    862          
+    863          #endif /* MQX_ENABLE_USER_MODE */
+    864          
+    865          /*!
+    866           * \private
+    867           *
+    868           * \brief This function is an internal funciton, it waits for a light weight
+    869           * semaphore with a pre-calcualted timeout.
+    870           *
+    871           * \param[in] sem_ptr Pointer to the lightweight semaphore.
+    872           * \param[in] td_ptr  Pointer to the task descriptor waiting.
+    873           *
+    874           * \return MQX_OK
+    875           * \return MQX_LWSEM_WAIT_TIMEOUT
+    876           *
+    877           * \see _lwsem_wait
+    878           * \see _lwsem_wait_for
+    879           * \see _lwsem_wait_ticks
+    880           * \see _lwsem_wait_until
+    881           * \see _usr_lwsem_wait
+    882           * \see _usr_lwsem_wait_for
+    883           * \see _usr_lwsem_wait_ticks
+    884           * \see _usr_lwsem_wait_until
+    885           * \see LWSEM_STRUCT
+    886           * \see TD_STRUCT
+    887           */
+    888          _mqx_uint _lwsem_wait_timed_internal
+    889          (
+    890              LWSEM_STRUCT_PTR sem_ptr,
+    891              TD_STRUCT_PTR    td_ptr
+    892          )
+    893          { /* Body */
+    894          
+    895              td_ptr->STATE = LWSEM_BLOCKED;
+    896              td_ptr->INFO  = (_mqx_uint) &sem_ptr->TD_QUEUE;
+    897              _QUEUE_UNLINK(td_ptr);
+    898              _QUEUE_ENQUEUE(&sem_ptr->TD_QUEUE, &td_ptr->AUX_QUEUE);
+    899              _time_delay_internal(td_ptr);
+    900              if (td_ptr->INFO != 0)
+    901              {
+    902                  /*_QUEUE_REMOVE(&sem_ptr->TD_QUEUE, &td_ptr->AUX_QUEUE);*/
+    903                  return (MQX_LWSEM_WAIT_TIMEOUT);
+    904              } /* Endif */
+    905          
+    906              return (MQX_OK);
+    907          
+    908          } /* Endbody */
+    909          
+    910          #if MQX_HAS_TICK
+    911          
+    912          /*!
+    913           * \brief Waits (in FIFO order) for the lightweight semaphore for the number of
+    914           * ticks (in tick time).
+    915           *
+    916           * \note Because priority inversion might occur if tasks with different priorities access
+    917           * the same lightweight semaphore, we recommend under these circumstances that you
+    918           * use the semaphore component.
+    919           *
+    920           * \param[in] sem_ptr Pointer to the lightweight semaphore.
+    921           * \param[in] ticks   Pointer to the maximum number of ticks to wait or NULL
+    922           * (unlimited wait).
+    923           *
+    924           * \return MQX_OK
+    925           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+    926           * \return MQX_INVALID_LWSEM (Sem_ptr is for a lightweight semaphore that is not
+    927           * longer valid.)
+    928           * \return MQX_LWSEM_WAIT_TIMEOUT (Timeout expired before the task could get the
+    929           * lightweight semaphore.)
+    930           *
+    931           * \warning Might block the calling task.
+    932           * Cannot be called from an ISR.
+    933           *
+    934           * \see _lwsem_create
+    935           * \see _lwsem_post
+    936           * \see LWSEM_STRUCT
+    937           * \see MQX_TICK_STRUCT
+    938           */
+    939          _mqx_uint _lwsem_wait_for
+    940          (
+    941              LWSEM_STRUCT_PTR    sem_ptr,
+    942              MQX_TICK_STRUCT_PTR ticks
+    943          )
+    944          { /* Body */
+    945              KERNEL_DATA_STRUCT_PTR kernel_data;
+    946              TD_STRUCT_PTR          td_ptr;
+    947              _mqx_uint              result;
+    948          
+    949          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    950              if (MQX_RUN_IN_USER_MODE)
+    951              {
+    952                  return _usr_lwsem_wait_for(sem_ptr, ticks);
+    953              }
+    954          #endif
+    955          
+    956              _GET_KERNEL_DATA(kernel_data);
+    957          
+    958              _KLOGE3(KLOG_lwsem_wait_for, sem_ptr, ticks);
+    959          
+    960          #if MQX_CHECK_ERRORS
+    961              if (kernel_data->IN_ISR)
+    962              {
+    963                  _KLOGX2(KLOG_lwsem_wait_for, MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+    964                  return (MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+    965              } /* Endif */
+    966          #endif
+    967          #if MQX_CHECK_VALIDITY
+    968              if (sem_ptr->VALID != LWSEM_VALID)
+    969              {
+    970                  _KLOGX2(KLOG_lwsem_wait_for, MQX_INVALID_LWSEM);
+    971                  return (MQX_INVALID_LWSEM);
+    972              } /* Endif */
+    973          #endif
+    974          
+    975              _INT_DISABLE();
+    976              if (sem_ptr->VALUE <= 0)
+    977              {
+    978                  td_ptr = kernel_data->ACTIVE_PTR;
+    979                  /* Calculate time to wake up the task */
+    980                  PSP_ADD_TICKS(ticks, &kernel_data->TIME, &td_ptr->TIMEOUT);
+    981                  result = _lwsem_wait_timed_internal(sem_ptr, td_ptr);
+    982              }
+    983              else
+    984              {
+    985                  --sem_ptr->VALUE;
+    986                  result = MQX_OK;
+    987              } /* Endif */
+    988          
+    989              /* We must check for component destruction */
+    990              if (sem_ptr->VALID != LWSEM_VALID)
+    991              {
+    992                  _int_enable();
+    993                  /* The semaphore has been deleted */
+    994                  _KLOGX2(KLOG_lwsem_wait_for, MQX_INVALID_LWSEM);
+    995                  return (MQX_INVALID_LWSEM);
+    996              } /* Endif */
+    997          
+    998              _INT_ENABLE();
+    999          
+   1000              _KLOGX2(KLOG_lwsem_wait_for, result);
+   1001          
+   1002              return (result);
+   1003          
+   1004          }
+   1005          
+   1006          #if MQX_ENABLE_USER_MODE
+   1007          /*!
+   1008           * \brief Waits (in FIFO order) for the lightweight semaphore for the number of
+   1009           * ticks (in tick time).
+   1010           *
+   1011           * This function is an equivalent to the _lwsem_wait_for() API call but it can be
+   1012           * executed from within the User task or other code running in the CPU User mode.
+   1013           * Parameters passed to this function by pointer are required to meet the memory
+   1014           * protection requirements as described in the parameter list below.
+   1015           *
+   1016           * \param[in] sem_ptr Read only. Pointer to the lightweight semaphore.
+   1017           * \param[in] ticks   Read/write. Pointer to the maximum number of ticks to wait
+   1018           * or NULL (unlimited wait).
+   1019           *
+   1020           * \return MQX_OK
+   1021           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+   1022           * \return MQX_INVALID_LWSEM (Sem_ptr is for a lightweight semaphore that is not
+   1023           * longer valid.)
+   1024           * \return MQX_LWSEM_WAIT_TIMEOUT (Timeout expired before the task could get the
+   1025           * lightweight semaphore.)
+   1026           *
+   1027           * \warning Might block the calling task.
+   1028           * Cannot be called from an ISR.
+   1029           *
+   1030           * \see _lwsem_wait_for
+   1031           * \see _usr_lwsem_create
+   1032           * \see _usr_lwsem_post
+   1033           * \see LWSEM_STRUCT
+   1034           * \see MQX_TICK_STRUCT
+   1035           */
+   1036          _mqx_uint _usr_lwsem_wait_for
+   1037          (
+   1038              LWSEM_STRUCT_PTR    sem_ptr,
+   1039              MQX_TICK_STRUCT_PTR ticks
+   1040          )
+   1041          {
+   1042              MQX_API_CALL_PARAMS params =
+   1043              {   (uint_32)sem_ptr, (uint_32)ticks, 0, 0, 0};
+   1044              return _mqx_api_call(MQX_API_LWSEM_WAIT_FOR, &params);
+   1045          }
+   1046          
+   1047          #endif /* MQX_ENABLE_USER_MODE */
+   1048          
+   1049          /*!
+   1050           * \brief Waits (in FIFO order) for the lightweight semaphore for the number of ticks.
+   1051           *
+   1052           * \note Because priority inversion might occur if tasks with different priorities
+   1053           * access the same lightweight semaphore, we recommend under these circumstances
+   1054           * that you use the semaphore component.
+   1055           *
+   1056           * \param[in] sem_ptr       Pointer to the lightweight semaphore.
+   1057           * \param[in] time_in_ticks Maximum number of ticks to wait or 0 (unlimited wait).
+   1058           *
+   1059           * \return MQX_OK
+   1060           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+   1061           * \return MQX_INVALID_LWSEM (Sem_ptr is for a lightweight semaphore that is not
+   1062           * longer valid.)
+   1063           * \return MQX_LWSEM_WAIT_TIMEOUT (Timeout expired before the task could get the
+   1064           * lightweight semaphore.)
+   1065           *
+   1066           * \warning Might block the calling task.
+   1067           * Cannot be called from an ISR.
+   1068           *
+   1069           * \see _lwsem_create
+   1070           * \see _lwsem_post
+   1071           * \see LWSEM_STRUCT
+   1072           */
+   1073          _mqx_uint _lwsem_wait_ticks
+   1074          (
+   1075              LWSEM_STRUCT_PTR sem_ptr,
+   1076              _mqx_uint        time_in_ticks
+   1077          )
+   1078          { /* Body */
+   1079              KERNEL_DATA_STRUCT_PTR kernel_data;
+   1080              TD_STRUCT_PTR          td_ptr;
+   1081              _mqx_uint              result;
+   1082          
+   1083          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+   1084              if (MQX_RUN_IN_USER_MODE)
+   1085              {
+   1086                  return _usr_lwsem_wait_ticks(sem_ptr, time_in_ticks);
+   1087              }
+   1088          #endif
+   1089          
+   1090              _GET_KERNEL_DATA(kernel_data);
+   1091          
+   1092              _KLOGE3(KLOG_lwsem_wait_ticks, sem_ptr, time_in_ticks);
+   1093          
+   1094          #if MQX_CHECK_ERRORS
+   1095              if (kernel_data->IN_ISR)
+   1096              {
+   1097                  _KLOGX2(KLOG_lwsem_wait_ticks, MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+   1098                  return (MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+   1099              } /* Endif */
+   1100          #endif
+   1101          #if MQX_CHECK_VALIDITY
+   1102              if (sem_ptr->VALID != LWSEM_VALID)
+   1103              {
+   1104                  _KLOGX2(KLOG_lwsem_wait_ticks, MQX_INVALID_LWSEM);
+   1105                  return (MQX_INVALID_LWSEM);
+   1106              } /* Endif */
+   1107          #endif
+   1108          
+   1109              _INT_DISABLE();
+   1110              if (sem_ptr->VALUE <= 0)
+   1111              {
+   1112                  td_ptr = kernel_data->ACTIVE_PTR;
+   1113                  if (time_in_ticks == 0)
+   1114                  {
+   1115                      td_ptr->STATE = LWSEM_BLOCKED;
+   1116                      td_ptr->INFO = (_mqx_uint) &sem_ptr->TD_QUEUE;
+   1117                      _QUEUE_UNLINK(td_ptr);
+   1118                      _QUEUE_ENQUEUE(&sem_ptr->TD_QUEUE, &td_ptr->AUX_QUEUE);
+   1119                      _sched_execute_scheduler_internal(); /* Let the other tasks run */
+   1120                      /* Another task has posted a semaphore, and it has been tranfered to this
+   1121                       ** task.
+   1122                       */
+   1123                      result = MQX_OK;
+   1124                  }
+   1125                  else
+   1126                  {
+   1127                      PSP_ADD_TICKS_TO_TICK_STRUCT(&kernel_data->TIME, time_in_ticks,
+   1128                                      &td_ptr->TIMEOUT);
+   1129                      result = _lwsem_wait_timed_internal(sem_ptr, td_ptr);
+   1130                  } /* Endif */
+   1131              }
+   1132              else
+   1133              {
+   1134                  --sem_ptr->VALUE;
+   1135                  result = MQX_OK;
+   1136              } /* Endif */
+   1137          
+   1138              /* We must check for component destruction */
+   1139              if (sem_ptr->VALID != LWSEM_VALID)
+   1140              {
+   1141                  _int_enable();
+   1142                  /* The semaphore has been deleted */
+   1143                  _KLOGX2(KLOG_lwsem_wait_ticks, MQX_INVALID_LWSEM);
+   1144                  return (MQX_INVALID_LWSEM);
+   1145              } /* Endif */
+   1146          
+   1147              _INT_ENABLE();
+   1148          
+   1149              _KLOGX2(KLOG_lwsem_wait_ticks, result);
+   1150          
+   1151              return (result);
+   1152          
+   1153          }
+   1154          
+   1155          #if MQX_ENABLE_USER_MODE
+   1156          /*!
+   1157           * \brief Waits (in FIFO order) for the lightweight semaphore for the number of ticks.
+   1158           *
+   1159           * This function is an equivalent to the _lwsem_wait_ticks() API call but it can
+   1160           * be executed from within the User task or other code running in the CPU User
+   1161           * mode. Parameters passed to this function by pointer are required to meet the
+   1162           * memory protection requirements as described in the parameter list below.
+   1163           *
+   1164           * \param[in] sem_ptr       Rread only. Pointer to the lightweight semaphore.
+   1165           * \param[in] time_in_ticks Maximum number of ticks to wait or 0 (unlimited wait).
+   1166           *
+   1167           * \return MQX_OK
+   1168           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+   1169           * \return MQX_INVALID_LWSEM (Sem_ptr is for a lightweight semaphore that is not
+   1170           * longer valid.)
+   1171           * \return MQX_LWSEM_WAIT_TIMEOUT (Timeout expired before the task could get the
+   1172           * lightweight semaphore.)
+   1173           *
+   1174           * \warning Might block the calling task.
+   1175           * Cannot be called from an ISR.
+   1176           *
+   1177           * \see _lwsem_wait_ticks
+   1178           * \see _usr_lwsem_create
+   1179           * \see _usr_lwsem_post
+   1180           * \see LWSEM_STRUCT
+   1181           */
+   1182          _mqx_uint _usr_lwsem_wait_ticks
+   1183          (
+   1184              LWSEM_STRUCT_PTR sem_ptr,
+   1185              _mqx_uint        time_in_ticks
+   1186          )
+   1187          {
+   1188              MQX_API_CALL_PARAMS params =
+   1189              {   (uint_32)sem_ptr, (uint_32)time_in_ticks, 0, 0, 0};
+   1190              return _mqx_api_call(MQX_API_LWSEM_WAIT_TICKS, &params);
+   1191          }
+   1192          
+   1193          #endif /* MQX_ENABLE_USER_MODE */
+   1194          
+   1195          /*!
+   1196           * \brief Waits (in FIFO order) for the lightweight semaphore until the specified
+   1197           * time (in tick time).
+   1198           *
+   1199           * \note Because priority inversion might occur if tasks with different priorities
+   1200           * access the same lightweight semaphore, we recommend under these circumstances
+   1201           * that you use the semaphore component.
+   1202           *
+   1203           * \param[in] sem_ptr Pointer to the lightweight semaphore.
+   1204           * \param[in] ticks   Pointer to the time (in tick time) until which to wait or
+   1205           * NULL (unlimited wait).
+   1206           *
+   1207           * \return MQX_OK
+   1208           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+   1209           * \return MQX_INVALID_LWSEM (Sem_ptr is for a lightweight semaphore that is not
+   1210           * longer valid.)
+   1211           * \return MQX_LWSEM_WAIT_TIMEOUT (Timeout expired before the task could get the
+   1212           * lightweight semaphore.)
+   1213           *
+   1214           * \warning Might block the calling task.
+   1215           * Cannot be called from an ISR.
+   1216           *
+   1217           * \see _lwsem_create
+   1218           * \see _lwsem_post
+   1219           * \see LWSEM_STRUCT
+   1220           * \see MQX_TICK_STRUCT
+   1221           */
+   1222          _mqx_uint _lwsem_wait_until
+   1223          (
+   1224              LWSEM_STRUCT_PTR    sem_ptr,
+   1225              MQX_TICK_STRUCT_PTR ticks
+   1226          )
+   1227          { /* Body */
+   1228              KERNEL_DATA_STRUCT_PTR kernel_data;
+   1229              TD_STRUCT_PTR          td_ptr;
+   1230              _mqx_uint              result;
+   1231          
+   1232          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+   1233              if (MQX_RUN_IN_USER_MODE)
+   1234              {
+   1235                  return _usr_lwsem_wait_until(sem_ptr, ticks);
+   1236              }
+   1237          #endif
+   1238          
+   1239              _GET_KERNEL_DATA(kernel_data);
+   1240          
+   1241              _KLOGE3(KLOG_lwsem_wait_until, sem_ptr, ticks);
+   1242          
+   1243          #if MQX_CHECK_ERRORS
+   1244              if (kernel_data->IN_ISR)
+   1245              {
+   1246                  _KLOGX2(KLOG_lwsem_wait_until, MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+   1247                  return (MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+   1248              } /* Endif */
+   1249          #endif
+   1250          #if MQX_CHECK_VALIDITY
+   1251              if (sem_ptr->VALID != LWSEM_VALID)
+   1252              {
+   1253                  _KLOGX2(KLOG_lwsem_wait_until, MQX_INVALID_LWSEM);
+   1254                  return (MQX_INVALID_LWSEM);
+   1255              } /* Endif */
+   1256          #endif
+   1257          
+   1258              _INT_DISABLE();
+   1259              if (sem_ptr->VALUE <= 0)
+   1260              {
+   1261                  td_ptr = kernel_data->ACTIVE_PTR;
+   1262                  td_ptr->TIMEOUT = *ticks;
+   1263                  result = _lwsem_wait_timed_internal(sem_ptr, td_ptr);
+   1264              }
+   1265              else
+   1266              {
+   1267                  --sem_ptr->VALUE;
+   1268                  result = MQX_OK;
+   1269              } /* Endif */
+   1270          
+   1271              /* We must check for component destruction */
+   1272              if (sem_ptr->VALID != LWSEM_VALID)
+   1273              {
+   1274                  _int_enable();
+   1275                  /* The semaphore has been deleted */
+   1276                  _KLOGX2(KLOG_lwsem_wait_until, MQX_INVALID_LWSEM);
+   1277                  return (MQX_INVALID_LWSEM);
+   1278              } /* Endif */
+   1279          
+   1280              _INT_ENABLE();
+   1281          
+   1282              _KLOGX2(KLOG_lwsem_wait_until, result);
+   1283          
+   1284              return (result);
+   1285          
+   1286          }
+   1287          
+   1288          #if MQX_ENABLE_USER_MODE
+   1289          /*!
+   1290           * \brief Waits (in FIFO order) for the lightweight semaphore until the specified
+   1291           * time (in tick time).
+   1292           *
+   1293           * This function is an equivalent to the _lwsem_wait_until() API call but it can
+   1294           * be executed from within the User task or other code running in the CPU User
+   1295           * mode. Parameters passed to this function by pointer are required to meet the
+   1296           * memory protection requirements as described in the parameter list below.
+   1297           *
+   1298           * \param[in] sem_ptr Read only. Pointer to the lightweight semaphore.
+   1299           * \param[in] ticks   Read/write. Pointer to the time (in tick time) until which
+   1300           * to wait or NULL (unlimited wait).
+   1301           *
+   1302           * \return MQX_OK
+   1303           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+   1304           * \return MQX_INVALID_LWSEM (Sem_ptr is for a lightweight semaphore that is not
+   1305           * longer valid.)
+   1306           * \return MQX_LWSEM_WAIT_TIMEOUT (Timeout expired before the task could get the
+   1307           * lightweight semaphore.)
+   1308           *
+   1309           * \warning Might block the calling task.
+   1310           * Cannot be called from an ISR.
+   1311           *
+   1312           * \see _lwsem_wait_until
+   1313           * \see _usr_lwsem_create
+   1314           * \see _usr_lwsem_post
+   1315           * \see LWSEM_STRUCT
+   1316           * \see MQX_TICK_STRUCT
+   1317           */
+   1318          _mqx_uint _usr_lwsem_wait_until
+   1319          (
+   1320              LWSEM_STRUCT_PTR    sem_ptr,
+   1321              MQX_TICK_STRUCT_PTR ticks
+   1322          )
+   1323          {
+   1324              MQX_API_CALL_PARAMS params =
+   1325              {   (uint_32)sem_ptr, (uint_32)ticks, 0, 0, 0};
+   1326              return _mqx_api_call(MQX_API_LWSEM_WAIT_UNTIL, &params);
+   1327          }
+   1328          
+   1329          #endif /* MQX_ENABLE_USER_MODE */
+   1330          
+   1331          #endif /* MQX_HAS_TICK */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   _lwsem_create
+        16   -> _lwsem_create_internal
+      16   _lwsem_create_hidden
+        16   -> _lwsem_create_internal
+      32   _lwsem_create_internal
+        32   -> _int_disable
+        32   -> _int_enable
+       8   _lwsem_destroy
+         8   -> _lwsem_destroy_internal
+      24   _lwsem_destroy_internal
+        24   -> _int_disable
+        24   -> _int_enable
+        24   -> _sched_check_scheduler_internal
+       8   _lwsem_poll
+      16   _lwsem_post
+        16   -> _sched_check_scheduler_internal
+      32   _lwsem_test
+        32   -> _int_disable
+        32   -> _int_enable
+        32   -> _queue_test
+      24   _lwsem_wait
+        24   -> _int_enable
+        24   -> _sched_execute_scheduler_internal
+      32   _lwsem_wait_for
+        32   -> _int_enable
+        32   -> _lwsem_wait_timed_internal
+        32   -> _psp_add_ticks
+      24   _lwsem_wait_ticks
+        24   -> _int_enable
+        24   -> _lwsem_wait_timed_internal
+        24   -> _sched_execute_scheduler_internal
+      16   _lwsem_wait_timed_internal
+        16   -> _time_delay_internal
+      32   _lwsem_wait_until
+        32   -> _int_enable
+        32   -> _lwsem_wait_timed_internal
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       4  ??DataTable4
+       4  ??DataTable4_1
+       4  ??DataTable5
+       4  ??DataTable7
+       4  ??DataTable8
+       4  ??DataTable9
+       4  ??DataTable9_1
+       4  ??DataTable9_2
+      20  _lwsem_create
+      20  _lwsem_create_hidden
+     118  _lwsem_create_internal
+      14  _lwsem_destroy
+     194  _lwsem_destroy_internal
+      98  _lwsem_poll
+     212  _lwsem_post
+     118  _lwsem_test
+     176  _lwsem_wait
+     156  _lwsem_wait_for
+     226  _lwsem_wait_ticks
+      74  _lwsem_wait_timed_internal
+     152  _lwsem_wait_until
+
+ 
+ 1'614 bytes in section .text
+ 
+ 1'614 bytes of CODE memory
+
+Errors: none
+Warnings: none

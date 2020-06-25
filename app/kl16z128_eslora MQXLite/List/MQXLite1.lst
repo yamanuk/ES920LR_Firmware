@@ -1,0 +1,316 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:01
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\MQXLite1.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5BA1.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\MQXLite1.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\MQXLite1.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\MQXLite1.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\MQXLite1.c
+      1          /** ###################################################################
+      2          **     THIS COMPONENT MODULE IS GENERATED BY THE TOOL. DO NOT MODIFY IT.
+      3          **     Filename    : MQXLite1.c
+      4          **     Project     : ProcessorExpert
+      5          **     Processor   : MKL26Z128VLL4
+      6          **     Version     : Component 01.106, Driver 01.00, CPU db: 3.00.000
+      7          **     Compiler    : IAR ARM C Compiler
+      8          **     Date/Time   : 2014-10-10, 12:09, # CodeGen: 152
+      9          **     Abstract    :
+     10          **         MQX Lite RTOS Adapter component.
+     11          **     Settings    :
+     12          **
+     13          **     Copyright : 1997 - 2013 Freescale Semiconductor, Inc. All Rights Reserved.
+     14          **     SOURCE DISTRIBUTION PERMISSIBLE as directed in End User License Agreement.
+     15          **
+     16          **     http      : www.freescale.com
+     17          **     mail      : support@freescale.com
+     18          ** ###################################################################*/
+     19          /*!
+     20          ** @file MQXLite1.c
+     21          ** @version 01.00
+     22          ** @brief
+     23          **         MQX Lite RTOS Adapter component.
+     24          */
+     25          /*!
+     26          **  @addtogroup MQXLite1_module MQXLite1 module documentation
+     27          **  @{
+     28          */
+     29          
+     30          /* MODULE MQXLite1. */
+     31          
+     32          #include "MQXLite1.h"
+     33          #include "mqx_tasks.h"
+     34          
+     35          
+     36          
+     37          /* Task stacks definition */
+     38          uint8_t main_task_stack[MAIN_TASK_STACK_SIZE];
+     39          
+     40          /* Task stacks array of pointers */
+     41          const uint8_t * mqx_task_stack_pointers[] = {
+     42          /* "main" task                         */  main_task_stack,
+     43          /* Stack array end                     */  NULL
+     44          };
+     45          
+     46          /* Kernel Data Structure */
+     47          volatile KERNEL_DATA_STRUCT            _mqx_kernel_data_struct;
+     48          #define __KERNEL_DATA_START            (pointer)(&_mqx_kernel_data_struct)
+     49          #define __KERNEL_DATA_END              (pointer)((uchar_ptr)&_mqx_kernel_data_struct + sizeof(_mqx_kernel_data_struct))
+     50          
+     51          /* Task ready queue */
+     52          READY_Q_STRUCT                         mqx_static_ready_queue[MQX_READY_QUEUE_ITEMS];
+     53          
+     54          /* Table of 'C' handlers for interrupts. */
+     55          INTERRUPT_TABLE_STRUCT                 mqx_static_isr_table[MQX_INTERRUPT_TABLE_ITEMS];
+     56          
+     57          
+     58          /* Interrupt stack */
+     59          uint8_t mqx_interrupt_stack[MQX_INTERRUPT_STACK_SIZE + PSP_STACK_ALIGNMENT + 1];
+     60          /* Idle task stack */
+     61          uint8_t mqx_idle_task_stack[sizeof(TD_STRUCT) + PSP_IDLE_STACK_SIZE + PSP_STACK_ALIGNMENT + 1];
+     62          /* System stack */
+     63          uint8_t mqx_system_stack[PSP_MINSTACKSIZE + PSP_STACK_ALIGNMENT + 1];
+     64          
+     65          /* MQX Lite initialization structure */
+     66          const MQXLITE_INITIALIZATION_STRUCT  MQX_init_struct =
+     67          {
+     68          /* PROCESSOR NUMBER                 */  1,
+     69          /* START OF KERNEL MEMORY           */  __KERNEL_DATA_START,
+     70          /* END OF KERNEL MEMORY             */  __KERNEL_DATA_END,
+     71          /* MQX_HARDWARE_INTERRUPT_LEVEL_MAX */  1,
+     72          /* INTERRUPT STACK SIZE             */  sizeof(mqx_interrupt_stack),
+     73          /* INTERRUPT STACK LOCATION         */  mqx_interrupt_stack,
+     74          /* IDLE_TASK STACK SIZE             */  sizeof(mqx_idle_task_stack),
+     75          /* IDLE_TASK STACK_LOCATION         */  mqx_idle_task_stack,
+     76          /* TASK TEMPLATE LIST               */  (TASK_TEMPLATE_STRUCT_PTR)&MQX_template_list[0]
+     77          };
+     78          
+     79          /*
+     80          ** ===================================================================
+     81          **     Method      :  MQXLite1_OnCounterRestart (component MQXLite)
+     82          **
+     83          **     Description :
+     84          **         This method is internal. It is used by Processor Expert only.
+     85          ** ===================================================================
+     86          */
+     87          void SystemTimer1_OnCounterRestart(LDD_TUserData *UserDataPtr)
+     88          {
+     89              _time_notify_kernel();
+     90          }
+     91          
+     92          
+     93          /* Function returns number of ticks per second for system timer */
+     94          uint32_t  SystemTimer1_GetTicsPerSecond(LDD_TDeviceData *DeviceDataPtr)
+     95          {
+     96              uint32_t period_ticks;
+     97          
+     98              SystemTimer1_GetPeriodTicks(DeviceDataPtr, &period_ticks);
+     99              return SystemTimer1_GetInputFrequency(DeviceDataPtr) / period_ticks;
+    100          }
+    101          
+    102          
+    103          static LDD_TDeviceDataPtr SystemTimerDeviceDataPtr;
+    104          
+    105          
+    106          /*
+    107          ** ===================================================================
+    108          **     Method      :  MQXLite1_PEX_RTOS_InstallInterrupt (component MQXLite)
+    109          **
+    110          **     Description :
+    111          **         Installs the interrupt service routine through the RTOS.
+    112          **         This method is internal. It is used by Processor Expert only.
+    113          ** ===================================================================
+    114          */
+    115          void PEX_RTOS_InstallInterrupt(IRQInterruptIndex IntVector, void (*IsrFunction)(void *), void *IsrParam)
+    116          {
+    117            if (IntVector >= 15) {
+    118              /* Interrupts are install through the MQX standard ISR installation mechanism */
+    119              (void)_int_install_isr(IntVector, (INT_ISR_FPTR)IsrFunction, IsrParam);
+    120            } else {
+    121              /* Interrupts are install through the MQX kernel ISR installation mechanism */
+    122              (void)_int_install_kernel_isr(IntVector, (INT_KERNEL_ISR_FPTR)IsrFunction);
+    123            }
+    124          }
+    125          
+    126          /*
+    127          ** ===================================================================
+    128          **     Method      :  MQXLite1_SetClockConfiguration (component MQXLite)
+    129          **
+    130          **     Description :
+    131          **         This method is internal. It is used by Processor Expert only.
+    132          ** ===================================================================
+    133          */
+    134          void MQXLite1_SetClockConfiguration(LDD_TClockConfiguration ClockConfiguration)
+    135          {
+    136              uint32_t hw_ticks_per_tick;
+    137          
+    138              /* Set number of hardware ticks per system tick */
+    139              SystemTimer1_GetPeriodTicks(SystemTimerDeviceDataPtr, &hw_ticks_per_tick);
+    140              _time_set_hwticks_per_tick(hw_ticks_per_tick);
+    141          }
+    142          
+    143          
+    144          /* END MQXLite1. */
+    145          
+    146          /*!
+    147          ** @}
+    148          */
+    149          /*
+    150          ** ###################################################################
+    151          **
+    152          **     This file was created by Processor Expert 10.3 [05.09]
+    153          **     for the Freescale Kinetis series of microcontrollers.
+    154          **
+    155          ** ###################################################################
+    156          */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   MQXLite1_SetClockConfiguration
+        16   -> SystemTimer1_GetPeriodTicks
+        16   -> _time_set_hwticks_per_tick
+      16   PEX_RTOS_InstallInterrupt
+        16   -> _int_install_isr
+        16   -> _int_install_kernel_isr
+      16   SystemTimer1_GetTicsPerSecond
+        16   -> SystemTimer1_GetInputFrequency
+        16   -> SystemTimer1_GetPeriodTicks
+        16 __aeabi_uidiv
+       8   SystemTimer1_OnCounterRestart
+         8   -> _time_notify_kernel
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+      22  MQXLite1_SetClockConfiguration
+      36  MQX_init_struct
+      42  PEX_RTOS_InstallInterrupt
+      26  SystemTimer1_GetTicsPerSecond
+      10  SystemTimer1_OnCounterRestart
+       4  SystemTimerDeviceDataPtr
+     620  _mqx_kernel_data_struct
+     900  main_task_stack
+     296  mqx_idle_task_stack
+     528  mqx_interrupt_stack
+     396  mqx_static_isr_table
+     352  mqx_static_ready_queue
+     172  mqx_system_stack
+       8  mqx_task_stack_pointers
+
+ 
+ 3'268 bytes in section .bss
+     8 bytes in section .data
+    36 bytes in section .rodata
+   104 bytes in section .text
+ 
+   104 bytes of CODE  memory
+    36 bytes of CONST memory
+ 3'276 bytes of DATA  memory
+
+Errors: none
+Warnings: none

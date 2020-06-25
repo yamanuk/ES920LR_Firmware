@@ -1,0 +1,449 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:03
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276-Spi.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW643A.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276-Spi.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\sx1276-Spi.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sx1276-Spi.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276-Spi.c
+      1          /*!
+      2          * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      3          * All rights reserved.
+      4          *
+      5          * \file sx1276-Spi.c
+      6          *
+      7          * Redistribution and use in source and binary forms, with or without modification,
+      8          * are permitted provided that the following conditions are met:
+      9          *
+     10          * o Redistributions of source code must retain the above copyright notice, this list
+     11          *   of conditions and the following disclaimer.
+     12          *
+     13          * o Redistributions in binary form must reproduce the above copyright notice, this
+     14          *   list of conditions and the following disclaimer in the documentation and/or
+     15          *   other materials provided with the distribution.
+     16          *
+     17          * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     18          *   contributors may be used to endorse or promote products derived from this
+     19          *   software without specific prior written permission.
+     20          *
+     21          * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     22          * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     23          * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     24          * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     25          * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     26          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     27          * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     28          * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     29          * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     30          * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     31          */
+     32          
+     33          /*****************************************************************************
+     34           *                               INCLUDED HEADERS                            *
+     35           *---------------------------------------------------------------------------*
+     36           * Add to this section all the headers that this module needs to include.    *
+     37           *---------------------------------------------------------------------------*
+     38           *****************************************************************************/
+     39          #include "EmbeddedTypes.h"
+     40          #include "sx1276-Spi.h"
+     41          
+     42          SPI_MemMapPtr  SpiRegs;
+     43          
+     44          /*****************************************************************************
+     45           *                             PUBLIC FUNCTIONS                              *
+     46           *---------------------------------------------------------------------------*
+     47           * Add to this section all the functions that have global (project) scope.   *
+     48           * These functions can be accessed outside this module.                      *
+     49           * These functions shall have their declarations (prototypes) within the     *
+     50           * interface header file and shall be preceded by the 'extern' keyword.      *
+     51           *---------------------------------------------------------------------------*
+     52           *****************************************************************************/
+     53          
+     54          /*---------------------------------------------------------------------------
+     55           * Name         : SpiInit
+     56           * Description  : SPI initialization for Radio driver interface
+     57           * Parameters   : -
+     58           * Return       : -
+     59           *---------------------------------------------------------------------------*/
+     60          void SpiInit(void)
+     61          {
+     62              /* Enable SPI PORT clock */
+     63              XCVRx_SPI_PORT_SIM_SCG |= cSPI_PORT_SIM_SCG_Config_c;
+     64          
+     65              /* Enable SPI clock */
+     66              XCVRx_SPI_SIM_SCG |= cSPI_SIM_SCG_Config_c;
+     67          
+     68              /* Initialize SPI Pin Control registers */
+     69              SPI_PCS_PCR  &= ~PORT_PCR_MUX_MASK;
+     70              SPI_PCS_PCR  |= PORT_PCR_MUX(1);
+     71              gSPI_DataAvailablePortDDirReg_c |= gSPI_DataAvailablePinMask_c;
+     72              SPI_SCK_PCR  &= ~PORT_PCR_MUX_MASK;
+     73              SPI_SCK_PCR  |= PORT_PCR_MUX(SPI_SCK_ALT_FUNC);
+     74              SPI_MOSI_PCR &= ~PORT_PCR_MUX_MASK;
+     75              SPI_MOSI_PCR |= PORT_PCR_MUX(SPI_MOSI_ALT_FUNC);
+     76              SPI_MISO_PCR &= ~PORT_PCR_MUX_MASK;
+     77              SPI_MISO_PCR |= PORT_PCR_MUX(SPI_MOSI_ALT_FUNC);
+     78          
+     79              /* Initialize the SPI peripheral base address */
+     80              SpiRegs     = SPI1_BASE_PTR;
+     81              SpiRegs->C1 = cSPIC1_Init;
+     82              SpiRegs->C2 = cSPIC2_Init;
+     83              SPI1_BR     = cSPIBR_Init;
+     84              SpiRegs->C1 |= (uint8_t)(SPI_C1_SPE_MASK);
+     85              SPIS_DummyRead;
+     86              DeAssertSS;
+     87          }
+     88          
+     89          /*****************************************************************************
+     90           *                          SPI Read function                                *
+     91           *****************************************************************************/
+     92          
+     93          /*---------------------------------------------------------------------------
+     94           * Name         : SpiReadByteFast
+     95           * Description  : Read one 8bit data-location from Radio register "addr"
+     96           *                Unprotected - only to be called with disabled interrupts
+     97           * Parameters   : register address
+     98           * Return       : register value
+     99           *---------------------------------------------------------------------------*/
+    100          uint8_t SpiReadByteFast(uint8_t addr)
+    101          {
+    102              uint8_t     val;
+    103              uint32_t    irqMaskRegister;
+    104          
+    105              irqMaskRegister = IntDisableAll();
+    106              SPIS_DummyRead;
+    107              AssertSS;
+    108              XCVRDrv_RegSPID = (unsigned char)(addr);  // Write Addr byte
+    109              WaitSPITxBufferEmpty;
+    110              WaitSPIRxBufferFull;
+    111              SPID_DummyRead;
+    112              XCVRDrv_RegSPID = 0x00;                     // Write data byte
+    113              WaitSPITxBufferEmpty;                       // Wait for room in holding register
+    114              WaitSPIRxBufferFull;                        // Wait until the shift buffer has received the data from the Slave, this ensures that the Tx Data has been sent and the Slave has received it
+    115              val = XCVRDrv_RegSPID;                      // Read data byte
+    116              DeAssertSS;
+    117              IntRestoreAll(irqMaskRegister);
+    118          
+    119              return val;
+    120          }
+    121          
+    122          /*---------------------------------------------------------------------------
+    123           * Name         : SpiReadByte
+    124           * Description  : Read one 8bit data-location from Radio register "addr"
+    125           *                May be called from any context.
+    126           *                Protected from mcu/app irq. Includes irq status backup
+    127           * Parameters   : register address
+    128           * Return       : register value
+    129           *---------------------------------------------------------------------------*/
+    130          uint8_t SpiReadByte(uint8_t addr)
+    131          {
+    132              uint8_t     val;
+    133              uint32_t    irqMaskRegister;
+    134          
+    135              irqMaskRegister = IntDisableAll();
+    136              SPIS_DummyRead;
+    137              AssertSS;
+    138              XCVRDrv_RegSPID = (unsigned char)(addr);  // Write Addr byte
+    139              WaitSPITxBufferEmpty;
+    140              WaitSPIRxBufferFull;
+    141              SPID_DummyRead;
+    142              XCVRDrv_RegSPID = 0x00;                     // Write data byte
+    143              WaitSPITxBufferEmpty;                       // Wait for room in holding register
+    144              WaitSPIRxBufferFull;                        // Wait until the shift buffer has received the data from the Slave, this ensures that the Tx Data has been sent and the Slave has received it
+    145              val = XCVRDrv_RegSPID;                      // Read data byte
+    146              DeAssertSS;
+    147              IntRestoreAll(irqMaskRegister);
+    148          
+    149              return val;
+    150          }
+    151          
+    152          /*---------------------------------------------------------------------------
+    153           * Name         : SpiReadBytes
+    154           * Description  : Read any bytes data-location from Radio register "addr"
+    155           *                May be called from any context.
+    156           *                Protected from mcu/app irq. Includes irq status backup
+    157           * Parameters   : register address, register value
+    158           * Return       : -
+    159           *---------------------------------------------------------------------------*/
+    160          void SpiReadBytes(uint8_t addr, uint8_t* buffer, uint8_t size)
+    161          {
+    162              uint32_t irqMaskRegister;
+    163          
+    164              irqMaskRegister = IntDisableAll();
+    165              SPIS_DummyRead;
+    166              AssertSS;
+    167              XCVRDrv_RegSPID = (unsigned char)(addr);
+    168              WaitSPITxBufferEmpty;
+    169              WaitSPIRxBufferFull;
+    170              SPID_DummyRead;
+    171          
+    172              while(size--)
+    173              {
+    174                  XCVRDrv_RegSPID = 0x00;
+    175                  WaitSPITxBufferEmpty;
+    176                  WaitSPIRxBufferFull;
+    177                  *buffer = XCVRDrv_RegSPID;
+    178                  buffer++;
+    179              }
+    180          
+    181              DeAssertSS;
+    182              IntRestoreAll(irqMaskRegister);
+    183          }
+    184          
+    185          
+    186          /*****************************************************************************
+    187           *                         SPI Write functions                               *
+    188           *****************************************************************************/
+    189          
+    190          /*---------------------------------------------------------------------------
+    191           * Name         : SpiWriteByteFast
+    192           * Description  : Write one 8bit data into Radio at address "addr"
+    193           *                Unprotected - only to be called with disabled interrupts
+    194           * Parameters   : register address, register value
+    195           * Return       : -
+    196           *---------------------------------------------------------------------------*/
+    197          void SpiWriteByteFast(uint8_t addr, uint8_t val)
+    198          {
+    199              uint32_t irqMaskRegister;
+    200          
+    201              irqMaskRegister = IntDisableAll();
+    202              SPIS_DummyRead;
+    203              AssertSS;
+    204              XCVRDrv_RegSPID = (unsigned char)(addr | 0x80);   // Write Addr byte
+    205              WaitSPITxBufferEmpty;                               // Wait for room in holding register
+    206              WaitSPIRxBufferFull;
+    207              SPID_DummyRead;
+    208              XCVRDrv_RegSPID = (unsigned char)(val);           // Write data byte
+    209              WaitSPITxBufferEmpty;
+    210              WaitSPIRxBufferFull;                                // Wait for Reg buffer full, this ensures Tx was finished and the Slave received the package, before bringing up the Chip Select line
+    211              SPID_DummyRead;
+    212              DeAssertSS;
+    213              IntRestoreAll(irqMaskRegister);
+    214          }
+    215          
+    216          /*---------------------------------------------------------------------------
+    217           * Name         : SpiWriteByte
+    218           * Description  : Write one 8bit data into Radio at address "addr"
+    219           *                May be called from any context.
+    220           *                Protected from mcu/app irq. Includes irq status backup
+    221           * Parameters   : register address, register value
+    222           * Return       : -
+    223           *---------------------------------------------------------------------------*/
+    224          void SpiWriteByte(uint8_t addr, uint8_t val)
+    225          {
+    226              uint32_t irqMaskRegister;
+    227          
+    228              irqMaskRegister = IntDisableAll();
+    229              SPIS_DummyRead;
+    230              AssertSS;
+    231              XCVRDrv_RegSPID = (unsigned char)(addr | 0x80);   // Write Addr byte
+    232              WaitSPITxBufferEmpty;                               // Wait for room in holding register
+    233              WaitSPIRxBufferFull;
+    234              SPID_DummyRead;
+    235              XCVRDrv_RegSPID = (unsigned char)(val);           // Write data byte
+    236              WaitSPITxBufferEmpty;
+    237              WaitSPIRxBufferFull;                                // Wait for Reg buffer full, this ensures Tx was finished and the Slave received the package, before bringing up the Chip Select line
+    238              SPID_DummyRead;
+    239              DeAssertSS;
+    240              IntRestoreAll(irqMaskRegister);
+    241          }
+    242          
+    243          /*---------------------------------------------------------------------------
+    244           * Name         : SpiWriteBytes
+    245           * Description  : Write any bytes data into Radio at address "addr"
+    246           *                May be called from any context.
+    247           *                Protected from mcu/app irq. Includes irq status backup
+    248           * Parameters   : register address, register value
+    249           * Return       : -
+    250           *---------------------------------------------------------------------------*/
+    251          void SpiWriteBytes(uint8_t addr, const uint8_t* buffer, uint8_t size)
+    252          {
+    253              uint32_t irqMaskRegister;
+    254          
+    255              irqMaskRegister = IntDisableAll();
+    256              SPIS_DummyRead;
+    257              AssertSS;
+    258              XCVRDrv_RegSPID = (unsigned char)(addr | 0x80);
+    259              WaitSPITxBufferEmpty;
+    260              WaitSPIRxBufferFull;
+    261              SPID_DummyRead;
+    262          
+    263              while(size--)
+    264              {
+    265                  XCVRDrv_RegSPID = *buffer;
+    266                  WaitSPITxBufferEmpty;
+    267                  WaitSPIRxBufferFull;
+    268                  SPID_DummyRead;
+    269                  buffer++;
+    270              }
+    271          
+    272              DeAssertSS;
+    273              IntRestoreAll(irqMaskRegister);
+    274          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   IntDisableAll
+       0   IntRestoreAll
+       4   SpiInit
+      24   SpiReadByte
+        24   -> IntDisableAll
+        24   -> IntRestoreAll
+      24   SpiReadByteFast
+        24   -> IntDisableAll
+        24   -> IntRestoreAll
+      32   SpiReadBytes
+        32   -> IntDisableAll
+        32   -> IntRestoreAll
+      24   SpiWriteByte
+        24   -> IntDisableAll
+        24   -> IntRestoreAll
+      24   SpiWriteByteFast
+        24   -> IntDisableAll
+        24   -> IntRestoreAll
+      32   SpiWriteBytes
+        32   -> IntDisableAll
+        32   -> IntRestoreAll
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable6
+       4  ??DataTable6_1
+       4  ??DataTable6_2
+       4  ??DataTable6_3
+       4  ??DataTable6_4
+       4  ??DataTable6_5
+       4  ??DataTable6_6
+       4  ??DataTable6_7
+       4  ??DataTable6_8
+       4  ??DataTable7
+       4  ??DataTable7_1
+       4  ??DataTable7_2
+       4  ??DataTable7_3
+       4  ??DataTable7_4
+       8  IntDisableAll
+       8  IntRestoreAll
+     152  SpiInit
+      96  SpiReadByte
+      96  SpiReadByteFast
+     116  SpiReadBytes
+       4  SpiRegs
+      96  SpiWriteByte
+      96  SpiWriteByteFast
+     116  SpiWriteBytes
+
+ 
+   4 bytes in section .bss
+ 840 bytes in section .text
+ 
+ 840 bytes of CODE memory
+   4 bytes of DATA memory
+
+Errors: none
+Warnings: none

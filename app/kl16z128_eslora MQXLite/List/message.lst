@@ -1,0 +1,1561 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:00
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\message.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5A06.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\message.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\message.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\message.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\message.c
+      1          /*****************************************************************************
+      2          * message file.
+      3          *
+      4          * (c) Copyright 2016, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          #include <string.h>
+     13          #include <math.h>
+     14          #include "Application_Interface.h"
+     15          #include "flash.h"
+     16          #include "llwu.h"
+     17          #include "lptmr.h"
+     18          #include "smc.h"
+     19          #include "LED.h"
+     20          #include "mcg.h"
+     21          #include "usr_tasks.h"
+     22          #include "message.h"
+     23          #include "mqxlite.h"
+     24          #include "mqxlite_prv.h"
+     25          
+     26          
+     27          /************************************************************************************
+     28          *************************************************************************************
+     29          * Private macros
+     30          *************************************************************************************
+     31          ************************************************************************************/
+     32          
+     33          #define INTERVAL_TIMEOUT            ( 100 )
+     34          #define IS_ROUTING                  ( 0x80 )
+     35          #define MAX_DATA_LENGTH             ( 50 )
+     36          
+     37          
+     38          /************************************************************************************
+     39          *************************************************************************************
+     40          * Private prototypes
+     41          *************************************************************************************
+     42          ************************************************************************************/
+     43          
+     44          static void ProcessEvent( void );
+     45          static smacErrors_t SendPacketProcess( uint8_t data_length );
+     46          static void ReceivePacketProcess( void );
+     47          static uint16_t CheckRouteInfo( rxPacket_t*, uint16_t* );
+     48          static void ReceiveData( rxPacket_t*, int16_t );
+     49          #ifdef _STATIC_ROUTING_
+     50          static void RoutingPacket( rxPacket_t*, uint16_t, uint16_t );
+     51          #endif
+     52          static void SendDoneProcess( void );
+     53          static void SleepProcess( void );
+     54          static void IntervalTimerCallBack ( void* );
+     55          static void SendTimeTimerCallBack ( void* );
+     56          
+     57          smacErrors_t smacToAppHandler( uint8_t type, uint8_t status );
+     58          
+     59          
+     60          /************************************************************************************
+     61          *************************************************************************************
+     62          * Private memory declarations
+     63          *************************************************************************************
+     64          ************************************************************************************/
+     65          
+     66          static uint8_t           gau8RxDataBuffer[gSmacBuffersSize_c];
+     67          static uint8_t           gau8TxDataBuffer[gSmacBuffersSize_c];
+     68          static bool_t            bCCAFailed;
+     69          static bool_t            bAckFailed;
+     70          static txContextConfig_t txConfig;
+     71          
+     72          
+     73          /************************************************************************************
+     74          *************************************************************************************
+     75          * Public memory declarations
+     76          *************************************************************************************
+     77          ************************************************************************************/
+     78          
+     79          txPacket_t*       gAppTxPacket;
+     80          rxPacket_t*       gAppRxPacket;
+     81          uint8_t           gSendingType;
+     82          
+     83          
+     84          /************************************************************************************
+     85          *************************************************************************************
+     86          * Public functions
+     87          *************************************************************************************
+     88          ************************************************************************************/
+     89          
+     90          /************************************************************************************
+     91          *
+     92          * DoOperation
+     93          *
+     94          * Interface assumptions:
+     95          *     None
+     96          *
+     97          * Return value:
+     98          *     None
+     99          *
+    100          ************************************************************************************/
+    101          void DoOperation( void )
+    102          {
+    103              smacErrors_t err = gErrorNoError_c;
+    104          
+    105          
+    106              /* LLMU module initialization */
+    107              if( END_DEVICE == mTermParam.Node )
+    108              {
+    109                  if( TIMER_WAKEUP == mTermParam.Sleep )
+    110                  {
+    111                      /* LPTMR */
+    112                      llwu_configure( 0x0000, LLWU_PIN_FALLING, LLWU_LPTMR_ME );
+    113                  }
+    114                  else if( INT_WAKEUP == mTermParam.Sleep )
+    115                  {
+    116                      /* PTC1 */
+    117                      llwu_configure( 0x0040, LLWU_PIN_FALLING, 0x00 );
+    118                  }
+    119              }
+    120          
+    121              gAppTxPacket    = (txPacket_t*)gau8TxDataBuffer;
+    122              gAppRxPacket    = (rxPacket_t*)gau8RxDataBuffer;
+    123          
+    124              /* SMAC Initialization */
+    125              SMAC_Init();
+    126          
+    127              /* Tell SMAC who to call when it needs to pass a message to the application thread. */
+    128              SMAC_RegisterHandler( (SMAC_APP_Handler_t)smacToAppHandler );
+    129          
+    130              SMAC_SetPanID( mTermParam.PanId );
+    131              SMAC_SetSrcAddress( mTermParam.SrcId );
+    132              SMAC_FillHeader( &(gAppTxPacket->smacHeader), mTermParam.DstId );
+    133              SMAC_SetChannel( (mTermParam.Channel - 1), mTermParam.Bw );
+    134              SMAC_SetSpreadingFactor( mTermParam.Sf );
+    135              SMAC_SetRFPower( mTermParam.Power );
+    136          
+    137              if( MODE_ON == mTermParam.Ack )
+    138              {
+    139                  txConfig.autoAck = TRUE;
+    140                  txConfig.retryCountAckFail = mTermParam.Retry;
+    141              }
+    142              else
+    143              {
+    144                  txConfig.autoAck = FALSE;
+    145                  txConfig.retryCountAckFail = 0;
+    146              }
+    147              txConfig.ccaBeforeTx       = TRUE;
+    148              txConfig.retryCountCCAFail = 3;
+    149              SMAC_ConfigureTxContext( &txConfig );
+    150          
+    151              IntervalTmr  = TMR_AllocateTimer();
+    152              WaitSendTmr  = TMR_AllocateTimer();
+    153              UartCheckTmr = TMR_AllocateTimer();
+    154              SendTimeTmr  = TMR_AllocateTimer();
+    155          
+    156              /* start interval timer for WDT */
+    157              TMR_StartIntervalTimer( IntervalTmr, INTERVAL_TIMEOUT, IntervalTimerCallBack, NULL );
+    158          
+    159              Terminal_Print( "\r\n ----- operation mode is ready ----- \r\n" );
+    160              Processor_Print( "\r\n" );
+    161          
+    162              /* ready to receive */
+    163              SetRadioRxOnNoTimeOut();
+    164          
+    165              if( 0 != mTermParam.SendTime )
+    166              {
+    167                  FLib_MemCpy( SendDataBuffer, mTermParam.SendData, strlen((char*)mTermParam.SendData) );
+    168                  err = SendPacketProcess( strlen((char*)mTermParam.SendData) );
+    169                  if( gErrorNoError_c != err )
+    170                  {
+    171                      TMR_StartSingleShotTimer( SendTimeTmr, mTermParam.SendTime * 1000, SendTimeTimerCallBack, NULL );
+    172                  }
+    173              }
+    174          
+    175              while( 1 )
+    176              {
+    177                  ProcessEvent();
+    178              }
+    179          }
+    180          
+    181          
+    182          /************************************************************************************
+    183          *************************************************************************************
+    184          * Private functions
+    185          *************************************************************************************
+    186          ************************************************************************************/
+    187          
+    188          /************************************************************************************
+    189          *
+    190          * ProcessEvent
+    191          *
+    192          * Interface assumptions:
+    193          *     None
+    194          *
+    195          * Return value:
+    196          *     None
+    197          *
+    198          ************************************************************************************/
+    199          static void ProcessEvent( void )
+    200          {
+    201              osEvent      ev;
+    202              smacErrors_t err = gErrorNoError_c;
+    203          
+    204          
+    205              ev = osSignalWait( 0, osWaitForever );
+    206          
+    207              /* receive UART Data */
+    208              if( EVENT_UART_RX & ev.value.signals )
+    209              {
+    210                  Debug_Print( "receive UART data\r\n" );
+    211          
+    212                  /* send RF data */
+    213                  SendPacketProcess( SendDataLen );
+    214              }
+    215          
+    216              /* receive RF Data */
+    217              if( EVENT_MCPS_IND & ev.value.signals )
+    218              {
+    219                  Debug_Print( "receive RF data\r\n" );
+    220          
+    221                  /* process receive data */
+    222                  ReceivePacketProcess();
+    223              }
+    224          
+    225              /* send done RF Data */
+    226              if( EVENT_MCPS_CNF & ev.value.signals )
+    227              {
+    228                  Debug_Print( "send done data\r\n" );
+    229          
+    230                  /* send done RF data */
+    231                  SendDoneProcess();
+    232          
+    233                  if( (0 != mTermParam.SendTime) && (NO_SLEEP == mTermParam.Sleep) )
+    234                  {
+    235                      TMR_StartSingleShotTimer( SendTimeTmr, mTermParam.SendTime * 1000, SendTimeTimerCallBack, NULL );
+    236                  }
+    237              }
+    238          
+    239              /* send time */
+    240              if( EVENT_SEND_TIME & ev.value.signals )
+    241              {
+    242                  FLib_MemCpy( SendDataBuffer, mTermParam.SendData, strlen((char*)mTermParam.SendData) );
+    243                  err = SendPacketProcess( strlen((char*)mTermParam.SendData) );
+    244                  if( gErrorNoError_c != err )
+    245                  {
+    246                      TMR_StartSingleShotTimer( SendTimeTmr, mTermParam.SendTime * 1000, SendTimeTimerCallBack, NULL );
+    247                  }
+    248              }
+    249          
+    250              /* WDT Reset */
+    251              if( EVENT_WDT_RESET & ev.value.signals )
+    252              {
+    253                  /* process reset WDT */
+    254                  WDG_Refresh();
+    255              }
+    256          
+    257              /* enter sleep mode if node is EndDevice */
+    258              SleepProcess();
+    259          }
+    260          
+    261          /************************************************************************************
+    262          *
+    263          * SendPacketProcess
+    264          *
+    265          * Interface assumptions:
+    266          *     data_length   send data length
+    267          *
+    268          * Return value:
+    269          *     smacErrors_t  send result
+    270          *
+    271          ************************************************************************************/
+    272          static smacErrors_t SendPacketProcess( uint8_t data_length )
+    273          {
+    274          #ifdef _STATIC_ROUTING_
+    275              USER_HEADER*    header      = NULL;
+    276          #endif
+    277          	smacErrors_t    err         = gErrorNoError_c;
+    278              uint8_t         len         = 6;
+    279          
+    280          
+    281              /* too long */
+    282              if( ((MAX_DATA_LENGTH < data_length) && (TRANS_PAYLOAD == mTermParam.TransMode)) ||
+    283                  (((MAX_DATA_LENGTH + FRAME_HEAD) < data_length) && (TRANS_FRAME == mTermParam.TransMode)) )
+    284              {
+    285                  Terminal_Print( "send data length too long\r\n" );
+    286                  if( FMT_ASCII == mTermParam.Format )
+    287                  {
+    288                      Processor_Print( "NG 100\r\n" );
+    289                  }
+    290                  else
+    291                  {
+    292                      Processor_PrintBin( &len, 1 );
+    293                      Processor_Print( "NG 100" );
+    294                  }
+    295                  return( gErrorOutOfRange_c );
+    296              }
+    297          
+    298              /* too short */
+    299              if( (data_length <= FRAME_HEAD) && (TRANS_FRAME == mTermParam.TransMode) )
+    300              {
+    301                  Terminal_Print( "send data length too short\r\n" );
+    302                  if( FMT_ASCII == mTermParam.Format )
+    303                  {
+    304                      Processor_Print( "NG 100\r\n" );
+    305                  }
+    306                  else
+    307                  {
+    308                      Processor_PrintBin( &len, 1 );
+    309                      Processor_Print( "NG 100" );
+    310                  }
+    311                  return( gErrorOutOfRange_c );
+    312              }
+    313          
+    314          #ifdef _STATIC_ROUTING_
+    315              header = (USER_HEADER*)&gAppTxPacket->smacPdu.smacPdu[0];
+    316          #endif
+    317          
+    318              /* PAYLOAD */
+    319              if( TRANS_PAYLOAD == mTermParam.TransMode )
+    320              {
+    321          #ifdef _STATIC_ROUTING_
+    322          		gAppTxPacket->smacHeader.totalLength = data_length + sizeof(USER_HEADER);
+    323          #else
+    324                  gAppTxPacket->smacHeader.totalLength = data_length;
+    325          #endif
+    326                  gAppTxPacket->smacHeader.data_type   = MSG_DATA;
+    327          
+    328                  /* make header from pre-set parameter */
+    329                  SMAC_SetPanID( mTermParam.PanId );
+    330                  SMAC_SetSrcAddress( mTermParam.SrcId );
+    331                  SMAC_FillHeader( &(gAppTxPacket->smacHeader), mTermParam.DstId );
+    332          #ifdef _STATIC_ROUTING_
+    333                  header->hop_cnt         = mTermParam.HopCnt;
+    334                  header->reserved        = 0;
+    335                  header->route1          = mTermParam.Route[0];
+    336                  header->route2          = mTermParam.Route[1];
+    337                  header->end_addr        = mTermParam.EndId;
+    338                  header->ori_addr        = mTermParam.SrcId;
+    339          #endif
+    340          
+    341                  err = SendPacket( SendDataBuffer, data_length );
+    342              }
+    343              /* FRAME MODE */
+    344              else
+    345              {
+    346          #ifdef _STATIC_ROUTING_
+    347                  gAppTxPacket->smacHeader.totalLength = data_length - FRAME_HEAD + sizeof(USER_HEADER);
+    348          #else
+    349                  gAppTxPacket->smacHeader.totalLength = data_length - FRAME_HEAD;
+    350          #endif
+    351                  gAppTxPacket->smacHeader.data_type   = MSG_DATA;
+    352          
+    353                  /* make header from UART input parameter */
+    354                  SMAC_SetPanID( (AsciiToHex(SendDataBuffer[0]) << 12) | (AsciiToHex(SendDataBuffer[1]) << 8) |
+    355                                 (AsciiToHex(SendDataBuffer[2]) << 4)  |  AsciiToHex(SendDataBuffer[3]) );
+    356                  SMAC_SetSrcAddress( mTermParam.SrcId );
+    357                  SMAC_FillHeader( &(gAppTxPacket->smacHeader),
+    358                                   (AsciiToHex(SendDataBuffer[4]) << 12) | (AsciiToHex(SendDataBuffer[5]) << 8) |
+    359                                   (AsciiToHex(SendDataBuffer[6]) << 4)  |  AsciiToHex(SendDataBuffer[7]) );
+    360          #ifdef _STATIC_ROUTING_
+    361                  header->hop_cnt         = (AsciiToHex(SendDataBuffer[8]) << 4) | AsciiToHex(SendDataBuffer[9]);
+    362                  header->reserved        = 0;
+    363                  header->route1          = (AsciiToHex(SendDataBuffer[10]) << 12) | (AsciiToHex(SendDataBuffer[11]) << 8) |
+    364                                            (AsciiToHex(SendDataBuffer[12]) << 4)  |  AsciiToHex(SendDataBuffer[13]);
+    365                  header->route2          = (AsciiToHex(SendDataBuffer[14]) << 12) | (AsciiToHex(SendDataBuffer[15]) << 8) |
+    366                                            (AsciiToHex(SendDataBuffer[16]) << 4)  |  AsciiToHex(SendDataBuffer[17]);
+    367                  header->end_addr        = (AsciiToHex(SendDataBuffer[18]) << 12) | (AsciiToHex(SendDataBuffer[19]) << 8) |
+    368                                            (AsciiToHex(SendDataBuffer[20]) << 4)  |  AsciiToHex(SendDataBuffer[21]);
+    369                  header->ori_addr        = mTermParam.SrcId;
+    370          #endif
+    371          
+    372                  err = SendPacket( (SendDataBuffer + FRAME_HEAD), (data_length - FRAME_HEAD) );
+    373              }
+    374          
+    375              /* send success */
+    376              if( err == gErrorNoError_c )
+    377              {
+    378                  /* set sending packet type */
+    379                  gSendingType = MSG_DATA;
+    380              }
+    381              else if( err == gErrorBusy_c )
+    382              {
+    383                  Terminal_Print( "carrier sense failed\r\n" );
+    384                  if( FMT_ASCII == mTermParam.Format )
+    385                  {
+    386                      Processor_Print( "NG 102\r\n" );
+    387                  }
+    388                  else
+    389                  {
+    390                      Processor_PrintBin( &len, 1 );
+    391                      Processor_Print( "NG 102" );
+    392                  }
+    393          
+    394                  if( TIMER_WAKEUP == mTermParam.Sleep )
+    395                  {
+    396                      gEnterIdle = TRUE;
+    397                  }
+    398              }
+    399              else
+    400              {
+    401                  Terminal_Print( "send data failed\r\n" );
+    402                  if( FMT_ASCII == mTermParam.Format )
+    403                  {
+    404                      Processor_Print( "NG 101\r\n" );
+    405                  }
+    406                  else
+    407                  {
+    408                      Processor_PrintBin( &len, 1 );
+    409                      Processor_Print( "NG 101" );
+    410                  }
+    411          
+    412                  if( TIMER_WAKEUP == mTermParam.Sleep )
+    413                  {
+    414                      gEnterIdle = TRUE;
+    415                  }
+    416              }
+    417          
+    418              return( err );
+    419          }
+    420          
+    421          /************************************************************************************
+    422          *
+    423          * SendPacket
+    424          *
+    425          * Interface assumptions:
+    426          *     pData         send data
+    427          *     DataLen       send data length
+    428          *
+    429          * Return value:
+    430          *     smacErrors_t  send result
+    431          *
+    432          ************************************************************************************/
+    433          #define MARGIN 100
+    434          
+    435          smacErrors_t SendPacket( uint8_t* pData, uint8_t DataLen )
+    436          {
+    437              smacErrors_t    err         = gErrorNoError_c;
+    438              uint32_t        sendTmo     = 0;
+    439              float           symbolTime  = 0;
+    440              uint32_t        ackTime     = 0;
+    441              uint32_t        dataTime    = 0;
+    442              uint8_t         txLen       = gAppTxPacket->smacHeader.totalLength;
+    443          
+    444          
+    445              /* now sending packet */
+    446              if( gSendingType )
+    447              {
+    448                  Terminal_Print( "send failed bacause now sending packet\r\n" );
+    449          
+    450                  return( gErrorNoValidCondition_c );
+    451              }
+    452          
+    453              /* copy to pdu */
+    454              if( (NULL != pData) && (0 != DataLen) )
+    455              {
+    456          #ifdef _STATIC_ROUTING_
+    457                  FLib_MemCpy( gAppTxPacket->smacPdu.smacPdu + sizeof(USER_HEADER), (void *)pData, DataLen );
+    458          #else
+    459                  FLib_MemCpy( gAppTxPacket->smacPdu.smacPdu, (void *)pData, DataLen );
+    460          #endif
+    461              }
+    462          
+    463              Terminal_Print( "<-- send data info[" );
+    464              Terminal_Print( "panid = " );    Terminal_PrintHex( (uint8_t*)&gAppTxPacket->smacHeader.panId_l, 2, 0 );
+    465              Terminal_Print( ", srcid = " );  Terminal_PrintHex( (uint8_t*)&gAppTxPacket->smacHeader.srcAddr_l, 2, 0 );
+    466              Terminal_Print( ", dstid = " );  Terminal_PrintHex( (uint8_t*)&gAppTxPacket->smacHeader.destAddr_l, 2, 0 );
+    467              Terminal_Print( ", length = " ); Terminal_PrintHex( (uint8_t*)&DataLen, 1, 0 );
+    468              Terminal_Print( "]\r\n" );
+    469          
+    470              /* Get symbol time */
+    471              symbolTime = SMAC_GetSymbolTime( mTermParam.Bw, mTermParam.Sf );
+    472          
+    473              /* start send done wait timer */
+    474              if( TRUE == txConfig.autoAck )
+    475              {
+    476                  ackTime = 50 + (uint32_t)ceil((symbolTime * 2.0) + (symbolTime * 12.25) +    // (Preamble = 12.25 symbol)
+    477                            (symbolTime * (8+ceil((80-4.0*mTermParam.Sf+44)/(4.0*(mTermParam.Sf-2)))*5)));
+    478          
+    479                  dataTime = (uint32_t)ceil((symbolTime * 12.25) +                            // (Preamble = 12.25 symbol)
+    480                             (symbolTime * (8+ceil((8*(12+txLen)-4.0*mTermParam.Sf+44)/(4.0*(mTermParam.Sf-2)))*5)));
+    481          
+    482                  sendTmo = MARGIN + (dataTime + ackTime) * (txConfig.retryCountAckFail + 1);
+    483              }
+    484              else
+    485              {
+    486                  dataTime = (uint32_t)ceil((symbolTime * 12.25) +                            // (Preamble = 12.25 symbol)
+    487                             (symbolTime * (8+ceil((8*(12+txLen)-4.0*mTermParam.Sf+44)/(4.0*(mTermParam.Sf-2)))*5)));
+    488          
+    489                  sendTmo = MARGIN + dataTime;
+    490              }
+    491          
+    492              /* Send operation */
+    493              err = SMAC_TxPacket( gAppTxPacket, gAppTxPacket->smacHeader.totalLength );
+    494              if( err != gErrorNoError_c )
+    495              {
+    496                  return( err );
+    497              }
+    498          
+    499              TMR_StartSingleShotTimer( WaitSendTmr, sendTmo, WaitSendTimerCallBack, NULL );
+    500          
+    501              LED_ToggleLed( LED2 );
+    502          
+    503              return( err );
+    504          }
+    505          
+    506          /************************************************************************************
+    507          *
+    508          * ReceivePacketProcess
+    509          *
+    510          * Interface assumptions:
+    511          *     None
+    512          *
+    513          * Return value:
+    514          *     None
+    515          *
+    516          ************************************************************************************/
+    517          static void ReceivePacketProcess( void )
+    518          {
+    519              uint16_t    nextId  = 0;
+    520              uint16_t    result  = 0;
+    521              int16_t     rssi    = 0;
+    522          #ifdef _STATIC_ROUTING_
+    523              uint8_t     length  = 0;
+    524          #endif
+    525          
+    526          
+    527              /* waiting for ack */
+    528              if( gSendingType )
+    529              {
+    530                  return;
+    531              }
+    532          
+    533              LED_ToggleLed( LED1 );
+    534          
+    535              /* check packet destination */
+    536              result = CheckRouteInfo( gAppRxPacket, &nextId );
+    537              if( 0 == result )
+    538              {
+    539                  /* to own node */
+    540                  if( 0xffff == nextId )
+    541                  {
+    542                      Terminal_Print( "--> receive data info[" );
+    543                      Terminal_Print( "panid = " );  Terminal_PrintHex( (uint8_t*)&gAppRxPacket->smacHeader.panId_l, 2, 0 );
+    544                      Terminal_Print( ", srcid = " );  Terminal_PrintHex( (uint8_t*)&gAppRxPacket->smacHeader.srcAddr_l, 2, 0 );
+    545                      Terminal_Print( ", dstid = " );  Terminal_PrintHex( (uint8_t*)&gAppRxPacket->smacHeader.destAddr_l, 2, 0 );
+    546          #ifdef _STATIC_ROUTING_
+    547                      length = gAppRxPacket->smacHeader.totalLength - sizeof(USER_HEADER);
+    548                      Terminal_Print( ", length = " ); Terminal_PrintHex( (uint8_t*)&length, 1, 0 );
+    549          #else
+    550                      Terminal_Print( ", length = " ); Terminal_PrintHex( (uint8_t*)&gAppRxPacket->smacHeader.totalLength, 1, 0 );
+    551          #endif
+    552                      Terminal_Print( "]\r\n" );
+    553          
+    554                      switch( gAppRxPacket->smacHeader.data_type )
+    555                      {
+    556                      case MSG_DATA:
+    557                          Debug_Print( "receive data packet\r\n" );
+    558          
+    559                          SMAC_GetLastPktRssi( &rssi );
+    560                          ReceiveData( gAppRxPacket, rssi );
+    561          
+    562                          /* ready to receive */
+    563                          SetRadioRxOnNoTimeOut();
+    564                          break;
+    565          
+    566                      default:
+    567                          /* ready to receive */
+    568                          SetRadioRxOnNoTimeOut();
+    569                          break;
+    570                      }
+    571                  }
+    572                  /* to other node */
+    573                  else
+    574                  {
+    575          #ifdef _STATIC_ROUTING_
+    576                      /* routing packet */
+    577                      if( ROUTER == mTermParam.Node )
+    578                      {
+    579                          RoutingPacket( gAppRxPacket, nextId, ((gAppRxPacket->smacHeader.panId_h << 8) | gAppRxPacket->smacHeader.panId_l) );
+    580                      }
+    581                      /* packet drop because of coordinator or enddevice */
+    582                      else
+    583                      {
+    584          #endif
+    585                          /* ready to receive */
+    586                          SetRadioRxOnNoTimeOut();
+    587          #ifdef _STATIC_ROUTING_
+    588                      }
+    589          #endif
+    590                  }
+    591              }
+    592              /* packet drop because of unknown destination */
+    593              else
+    594              {
+    595                  Debug_Print( "packet drop because of unknown destination\r\n" );
+    596          
+    597                  /* ready to receive */
+    598                  SetRadioRxOnNoTimeOut();
+    599              }
+    600          }
+    601          
+    602          /******************************************************************************
+    603          * CheckRouteInfo
+    604          *
+    605          * Interface assumptions:
+    606          *     pMsgIn          receive message
+    607          *     nextId          next node ID
+    608          *
+    609          * Return value:
+    610          *     0:success 1:failure
+    611          *
+    612          ******************************************************************************/
+    613          static uint16_t CheckRouteInfo( rxPacket_t* pMsgIn, uint16_t* nextId )
+    614          {
+    615          #ifdef _STATIC_ROUTING_
+    616              USER_HEADER*    header  = NULL;
+    617          #endif
+    618              uint16_t        result  = 0;
+    619              uint16_t        panId   = 0;
+    620              uint16_t        dstAddr = 0;
+    621          
+    622          #ifdef _STATIC_ROUTING_
+    623              header = (USER_HEADER*)&gAppRxPacket->smacPdu.smacPdu[0];
+    624          #endif
+    625          
+    626              /* dstination node is own node */
+    627              panId   = (uint16_t)((gAppRxPacket->smacHeader.panId_h << 8) | gAppRxPacket->smacHeader.panId_l);
+    628              dstAddr = (uint16_t)((gAppRxPacket->smacHeader.destAddr_h << 8) | gAppRxPacket->smacHeader.destAddr_l);
+    629              if( (panId == mTermParam.PanId) && (dstAddr == mTermParam.SrcId) )
+    630              {
+    631          #ifdef _STATIC_ROUTING_
+    632                  switch( header->hop_cnt )
+    633                  {
+    634                  case 1:
+    635                      *nextId         = 0xffff;
+    636                      break;
+    637          
+    638                  case 2:
+    639                      header->hop_cnt--;
+    640                      header->route1  = 0x0000;
+    641                      header->route2  = 0x0000;
+    642                      *nextId         = header->end_addr;
+    643                      break;
+    644          
+    645                  case 3:
+    646                      header->hop_cnt--;
+    647                      header->route1  = header->route2;
+    648                      header->route2  = 0x0000;
+    649                      *nextId         = header->route1;
+    650                      break;
+    651          
+    652                  default:
+    653                      result = 1;
+    654                      break;
+    655                  }
+    656          #else
+    657                  *nextId = 0xffff;
+    658          #endif
+    659              }
+    660              /* broadcast */
+    661              else if( BROADCAST == dstAddr )
+    662              {
+    663                  *nextId = 0xffff;
+    664              }
+    665              else
+    666              {
+    667                  result  = 1;
+    668              }
+    669          
+    670              return( result );
+    671          }
+    672          
+    673          /************************************************************************************
+    674          *
+    675          * ReceiveData
+    676          *
+    677          * Interface assumptions:
+    678          *     pMsgIn          receive message
+    679          *     rssi            receive rssi
+    680          *
+    681          * Return value:
+    682          *     None
+    683          *
+    684          ************************************************************************************/
+    685          static void ReceiveData( rxPacket_t* pMsgIn, int16_t rssi )
+    686          {
+    687          #ifdef _STATIC_ROUTING_
+    688              USER_HEADER*    header  = NULL;
+    689          
+    690          
+    691              header = (USER_HEADER*)&pMsgIn->smacPdu.smacPdu[0];
+    692          #endif
+    693              uint8_t len;
+    694          
+    695              if( (MODE_ON == mTermParam.Rssi) && (MODE_ON == mTermParam.RcvId) )
+    696              {
+    697                  len = pMsgIn->smacHeader.totalLength + 12;
+    698              }
+    699              else if( (MODE_ON == mTermParam.Rssi) && (MODE_OFF == mTermParam.RcvId) )
+    700              {
+    701                  len = pMsgIn->smacHeader.totalLength + 4;
+    702              }
+    703              else if( (MODE_OFF == mTermParam.Rssi) && (MODE_ON == mTermParam.RcvId) )
+    704              {
+    705                  len = pMsgIn->smacHeader.totalLength + 8;
+    706              }
+    707              else
+    708              {
+    709                  len = pMsgIn->smacHeader.totalLength;
+    710              }
+    711          
+    712              if( FMT_BINARY == mTermParam.Format )
+    713              {
+    714                  Processor_PrintBin( &len, 1 );
+    715              }
+    716          
+    717              if( MODE_ON == mTermParam.Rssi )
+    718              {
+    719                  if( rssi < 0 )
+    720                  {
+    721                      Terminal_Print( "RSSI(-" );
+    722                      Terminal_PrintDec( -rssi );
+    723                  }
+    724                  else
+    725                  {
+    726                      Terminal_Print( "RSSI(" );
+    727                      Terminal_PrintDec( rssi );
+    728                  }
+    729          
+    730                  Terminal_Print( "dBm):" );
+    731          
+    732                  Processor_PrintHex( (uint8_t*)&rssi, 2, 0 );
+    733              }
+    734          
+    735              if( MODE_ON == mTermParam.RcvId )
+    736              {
+    737                  Terminal_Print( "PAN ID(" );
+    738                  Terminal_PrintHex( (uint8_t*)&pMsgIn->smacHeader.panId_l, 2, 0 );
+    739                  Terminal_Print( "):" );
+    740          
+    741                  Terminal_Print( "Src ID(" );
+    742                  Terminal_PrintHex( (uint8_t*)&pMsgIn->smacHeader.srcAddr_l, 2, 0 );
+    743                  Terminal_Print( "):" );
+    744          
+    745          #ifdef _STATIC_ROUTING_
+    746                  Terminal_Print( "End ID(" );
+    747                  Terminal_PrintHex( (uint8_t*)&header->ori_addr, 2, 0 );
+    748                  Terminal_Print( "):" );
+    749          #endif
+    750          
+    751                  Processor_PrintHex( (uint8_t*)&pMsgIn->smacHeader.panId_l, 2, 0 );
+    752                  Processor_PrintHex( (uint8_t*)&pMsgIn->smacHeader.srcAddr_l, 2, 0 );
+    753          #ifdef _STATIC_ROUTING_
+    754                  Processor_PrintHex( (uint8_t*)&header->ori_addr, 2, 0 );
+    755          #endif
+    756              }
+    757          
+    758              Terminal_Print( "Receive Data(" );
+    759          #ifdef _STATIC_ROUTING_
+    760              Terminal_PrintBin( gAppRxPacket->smacPdu.smacPdu + sizeof(USER_HEADER), pMsgIn->smacHeader.totalLength - sizeof(USER_HEADER) );
+    761              Terminal_Print( ")\r\n" );
+    762              Processor_PrintBin( gAppRxPacket->smacPdu.smacPdu + sizeof(USER_HEADER), pMsgIn->smacHeader.totalLength - sizeof(USER_HEADER) );
+    763              if( FMT_ASCII == mTermParam.Format )
+    764              {
+    765                  Processor_Print( "\r\n" );
+    766              }
+    767          #else
+    768              Terminal_PrintBin( gAppRxPacket->smacPdu.smacPdu, pMsgIn->smacHeader.totalLength );
+    769              Terminal_Print( ")\r\n" );
+    770              Processor_PrintBin( gAppRxPacket->smacPdu.smacPdu, pMsgIn->smacHeader.totalLength );
+    771              if( FMT_ASCII == mTermParam.Format )
+    772              {
+    773                  Processor_Print( "\r\n" );
+    774              }
+    775          #endif
+    776          }
+    777          
+    778          #ifdef _STATIC_ROUTING_
+    779          /************************************************************************************
+    780          *
+    781          * RoutingPacket
+    782          *
+    783          * Interface assumptions:
+    784          *     pMsgIn          receive message
+    785          *     nextId          next node ID
+    786          *     nextPanId       next PAN ID
+    787          *
+    788          * Return value:
+    789          *     None
+    790          *
+    791          ************************************************************************************/
+    792          static void RoutingPacket( rxPacket_t* pMsgIn, uint16_t nextId, uint16_t nextPanId )
+    793          {
+    794              smacErrors_t    err = gErrorNoError_c;
+    795          
+    796          
+    797              /* Copy data to be sent to packet */
+    798              FLib_MemCpy( &gAppTxPacket->smacPdu.smacPdu[0], &pMsgIn->smacPdu.smacPdu[0], pMsgIn->smacHeader.totalLength );
+    799          
+    800              gAppTxPacket->smacHeader.totalLength = pMsgIn->smacHeader.totalLength;
+    801              gAppTxPacket->smacHeader.data_type   = pMsgIn->smacHeader.data_type;
+    802          
+    803              /* replace header information */
+    804              SMAC_SetPanID( mTermParam.PanId );
+    805              SMAC_SetSrcAddress( mTermParam.SrcId );
+    806              SMAC_FillHeader( &(gAppTxPacket->smacHeader), nextId );
+    807          
+    808              err = SendPacket( pMsgIn->smacPdu.smacPdu, 0 );
+    809              if( err == gErrorNoError_c )
+    810              {
+    811                  /* set sending packet type */
+    812                  gSendingType = (gAppTxPacket->smacHeader.data_type | IS_ROUTING);
+    813              }
+    814              else
+    815              {
+    816                  Terminal_Print( "routing failed\r\n" );
+    817          
+    818                  /* ready to receive */
+    819                  SetRadioRxOnNoTimeOut();
+    820              }
+    821          }
+    822          #endif
+    823          
+    824          /************************************************************************************
+    825          *
+    826          * SendDoneProcess
+    827          *
+    828          * Interface assumptions:
+    829          *     None
+    830          *
+    831          * Return value:
+    832          *     None
+    833          *
+    834          ************************************************************************************/
+    835          static void SendDoneProcess( void )
+    836          {
+    837              uint8_t len = 6;
+    838          
+    839              TMR_StopTimer( WaitSendTmr );
+    840          
+    841              /* send failed */
+    842              if( TRUE == bCCAFailed )
+    843              {
+    844                  Terminal_Print( "Send Failed\r\n" );
+    845                  bCCAFailed = FALSE;
+    846          
+    847                  if( !(gSendingType & IS_ROUTING) )
+    848                  {
+    849                  	if( FMT_ASCII == mTermParam.Format )
+    850                  	{
+    851                          Processor_Print( "NG 104\r\n" );
+    852                      }
+    853                      else
+    854                      {
+    855                          Processor_PrintBin( &len, 1 );
+    856                          Processor_Print( "NG 104" );
+    857                      }
+    858                  }
+    859              }
+    860              else if( TRUE == bAckFailed )
+    861              {
+    862                  Terminal_Print( "Ack Timeout\r\n" );
+    863                  bAckFailed = FALSE;
+    864          
+    865                  if( !(gSendingType & IS_ROUTING) )
+    866                  {
+    867                  	if( FMT_ASCII == mTermParam.Format )
+    868                  	{
+    869                          Processor_Print( "NG 103\r\n" );
+    870                      }
+    871                      else
+    872                      {
+    873                          Processor_PrintBin( &len, 1 );
+    874                          Processor_Print( "NG 103" );
+    875                      }
+    876                  }
+    877              }
+    878              else
+    879              {
+    880                  len = 2;
+    881          
+    882                  if( !(gSendingType & IS_ROUTING) )
+    883                  {
+    884                  	if( FMT_ASCII == mTermParam.Format )
+    885                  	{
+    886                          Processor_Print( "OK\r\n" );
+    887                      }
+    888                      else
+    889                      {
+    890                          Processor_PrintBin( &len, 1 );
+    891                          Processor_Print( "OK" );
+    892                      }
+    893                  }
+    894              }
+    895          
+    896              if( TIMER_WAKEUP == mTermParam.Sleep )
+    897              {
+    898                  gEnterIdle  = TRUE;
+    899              }
+    900          
+    901              gSendingType    = 0;
+    902          
+    903              /* ready to data receive */
+    904              SetRadioRxOnNoTimeOut();
+    905          }
+    906          
+    907          /************************************************************************************
+    908          *
+    909          * SleepProcess
+    910          *
+    911          * Interface assumptions:
+    912          *     None
+    913          *
+    914          * Return value:
+    915          *     None
+    916          *
+    917          ************************************************************************************/
+    918          static void SleepProcess( void )
+    919          {
+    920              int mode = 0;
+    921          
+    922          
+    923              /* Check and if possible allow device to enter sleep mode */
+    924              if( (END_DEVICE == mTermParam.Node) && (TRUE == gEnterIdle) )
+    925              {
+    926                  if( TIMER_WAKEUP == mTermParam.Sleep )
+    927                  {
+    928                      Terminal_Print( "enter timer sleep mode\r\n" );
+    929                  }
+    930                  else if( INT_WAKEUP == mTermParam.Sleep )
+    931                  {
+    932                      Terminal_Print( "enter interrupt sleep mode\r\n" );
+    933                  }
+    934          
+    935                  if( (TIMER_WAKEUP == mTermParam.Sleep) || (INT_WAKEUP == mTermParam.Sleep) )
+    936                  {
+    937                      LED_TurnOffLed( LED_ALL );
+    938          
+    939                      /* RF sleep */
+    940                      fei_fbi( 4194304, 1 );
+    941                      fbi_blpi( 4194304, 1 );
+    942          
+    943                      SMAC_SetOpMode( 0 );    // sleep
+    944                  }
+    945          
+    946                  if( TIMER_WAKEUP == mTermParam.Sleep )
+    947                  {
+    948                      if( 2048 < mTermParam.SleepTime )
+    949                      {
+    950                          mode = DIV_2048;
+    951                      }
+    952                      else if( 512 < mTermParam.SleepTime )
+    953                      {
+    954                          mode = DIV_512;
+    955                      }
+    956                      else
+    957                      {
+    958                          mode = DIV_0;
+    959                      }
+    960          
+    961                      LPTMR_init( mTermParam.SleepTime, mode, 1 );
+    962          
+    963                      /* SPI NSS LO */
+    964                      GPIOD_PCOR |= (uint32_t)(1<<4);
+    965          
+    966                      enter_lls();
+    967                  }
+    968                  else if( INT_WAKEUP == mTermParam.Sleep )
+    969                  {
+    970                      /* SPI NSS LO */
+    971                      GPIOD_PCOR |= (uint32_t)(1<<4);
+    972          
+    973                      enter_lls();
+    974                  }
+    975          
+    976                  if( (TIMER_WAKEUP == mTermParam.Sleep) || (INT_WAKEUP == mTermParam.Sleep) )
+    977                  {
+    978                      /* SPI NSS HI */
+    979                      GPIOD_PSOR |= (uint32_t)(1<<4);
+    980          
+    981                      SMAC_SetOpMode( 1 );    // standby
+    982          
+    983                      blpi_fbi( 32768, 0 );
+    984                      fbi_fei( 32768 );
+    985          
+    986                      /* ready to receive */
+    987                      SetRadioRxOnNoTimeOut();
+    988                  }
+    989          
+    990                  gEnterIdle = FALSE;
+    991          
+    992                  TMR_StopTimer( WaitSendTmr );
+    993          
+    994                  gSendingType = 0;
+    995          
+    996                  if( TIMER_WAKEUP == mTermParam.Sleep )
+    997                  {
+    998                      Terminal_Print( "exit timer sleep mode\r\n" );
+    999          
+   1000                      if( 0 != mTermParam.SendTime )
+   1001                      {
+   1002                          FLib_MemCpy( SendDataBuffer, mTermParam.SendData, strlen((char*)mTermParam.SendData) );
+   1003                          SendPacketProcess( strlen((char*)mTermParam.SendData) );
+   1004                      }
+   1005                  }
+   1006                  else if( INT_WAKEUP == mTermParam.Sleep )
+   1007                  {
+   1008                      Terminal_Print( "exit interrupt sleep mode\r\n" );
+   1009                  }
+   1010              }
+   1011          }
+   1012          
+   1013          /************************************************************************************
+   1014          *
+   1015          * SetRadioRxOnNoTimeOut
+   1016          *
+   1017          * Interface assumptions:
+   1018          *     None
+   1019          *
+   1020          * Return value:
+   1021          *     None
+   1022          *
+   1023          ************************************************************************************/
+   1024          void SetRadioRxOnNoTimeOut( void )
+   1025          {
+   1026          	gAppRxPacket->smacHeader.totalLength = 0xFF;
+   1027          
+   1028              SMAC_RxStart( gAppRxPacket );
+   1029          }
+   1030          
+   1031          
+   1032          /************************************************************************************
+   1033          * User's Callbacks
+   1034          ************************************************************************************/
+   1035          
+   1036          /************************************************************************************
+   1037          *
+   1038          * IntervalTimerCallBack
+   1039          *
+   1040          * Interface assumptions:
+   1041          *     param       timer ID
+   1042          *
+   1043          * Return value:
+   1044          *     None
+   1045          *
+   1046          ************************************************************************************/
+   1047          static void IntervalTimerCallBack( void* param )
+   1048          {
+   1049              osSignalSet( myAppId, EVENT_WDT_RESET );
+   1050          }
+   1051          
+   1052          /************************************************************************************
+   1053          *
+   1054          * WaitSendTimerCallBack
+   1055          *
+   1056          * Interface assumptions:
+   1057          *     param       timer ID
+   1058          *
+   1059          * Return value:
+   1060          *     None
+   1061          *
+   1062          ************************************************************************************/
+   1063          void WaitSendTimerCallBack( void* param )
+   1064          {
+   1065              bCCAFailed = TRUE;
+   1066              osSignalSet( myAppId, EVENT_MCPS_CNF );
+   1067          }
+   1068          
+   1069          /************************************************************************************
+   1070          *
+   1071          * SendTimeTimerCallBack
+   1072          *
+   1073          * Interface assumptions:
+   1074          *     param       timer ID
+   1075          *
+   1076          * Return value:
+   1077          *     None
+   1078          *
+   1079          ************************************************************************************/
+   1080          void SendTimeTimerCallBack( void* param )
+   1081          {
+   1082              osSignalSet( myAppId, EVENT_SEND_TIME );
+   1083          }
+   1084          
+   1085          /************************************************************************************
+   1086          *
+   1087          * Switch_Interrupt
+   1088          *
+   1089          * Interface assumptions:
+   1090          *     None
+   1091          *
+   1092          * Return value:
+   1093          *     None
+   1094          *
+   1095          ************************************************************************************/
+   1096          void Switch_Interrupt( void* param )
+   1097          {
+   1098              if( PORTC_PCR1 & PORT_PCR_ISF_MASK )
+   1099              {
+   1100                  PORTC_PCR1 |= PORT_PCR_ISF_MASK ;
+   1101          
+   1102                  if( INT_WAKEUP == mTermParam.Sleep )
+   1103                  {
+   1104                      gEnterIdle  = TRUE;
+   1105          
+   1106                      osSignalSet( myAppId, EVENT_WUSELF );
+   1107                  }
+   1108              }
+   1109          }
+   1110          
+   1111          /************************************************************************************
+   1112          *
+   1113          * smacToAppHandler
+   1114          *     Sap handler for managing data confirm and data indication
+   1115          *
+   1116          * Interface assumptions:
+   1117          *     type      indication or confirm
+   1118          *     status
+   1119          *
+   1120          * Return value:
+   1121          *     smacErrors_t
+   1122          *
+   1123          ************************************************************************************/
+   1124          smacErrors_t smacToAppHandler( uint8_t type, uint8_t status )
+   1125          {
+   1126              switch( type )
+   1127              {
+   1128             	/* indication */
+   1129              case 0:
+   1130                  if( 0 == status )
+   1131                  {
+   1132                      osSignalSet( myAppId, EVENT_MCPS_IND );
+   1133                  }
+   1134                  break;
+   1135          
+   1136          	/* confirm */
+   1137              case 1:
+   1138                  /* no ack */
+   1139                  if( 1 == status )
+   1140                  {
+   1141                      bAckFailed = TRUE;
+   1142                  }
+   1143                  osSignalSet( myAppId, EVENT_MCPS_CNF );
+   1144                  break;
+   1145          
+   1146              default:
+   1147                  break;
+   1148              }
+   1149          
+   1150              return( gErrorNoError_c );
+   1151          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      28   CheckRouteInfo
+      24   DoOperation
+        24   -> FLib_MemCpy
+        24   -> ProcessEvent
+        24   -> Processor_Print
+        24   -> SMAC_ConfigureTxContext
+        24   -> SMAC_FillHeader
+        24   -> SMAC_Init
+        24   -> SMAC_RegisterHandler
+        24   -> SMAC_SetChannel
+        24   -> SMAC_SetPanID
+        24   -> SMAC_SetRFPower
+        24   -> SMAC_SetSpreadingFactor
+        24   -> SMAC_SetSrcAddress
+        24   -> SendPacketProcess
+        24   -> SetRadioRxOnNoTimeOut
+        24   -> TMR_AllocateTimer
+        24   -> TMR_StartIntervalTimer
+        24   -> TMR_StartSingleShotTimer
+        24   -> Terminal_Print
+        24   -> llwu_configure
+        24   -> strlen
+       8   IntervalTimerCallBack
+         8   -> osSignalSet
+      32   ProcessEvent
+        32   -> Debug_Print
+        32   -> FLib_MemCpy
+        32   -> ReceivePacketProcess
+        32   -> SendDoneProcess
+        32   -> SendPacketProcess
+        32   -> SleepProcess
+        32   -> TMR_StartSingleShotTimer
+        32   -> osSignalWait
+        32   -> strlen
+      32   ReceiveData
+        32   -> Processor_Print
+        32   -> Processor_PrintBin
+        32   -> Processor_PrintHex
+        32   -> Terminal_Print
+        32   -> Terminal_PrintBin
+        32   -> Terminal_PrintDec
+        32   -> Terminal_PrintHex
+      24   ReceivePacketProcess
+        24   -> CheckRouteInfo
+        24   -> Debug_Print
+        24   -> LED_ToggleLed
+        24   -> ReceiveData
+        24   -> SMAC_GetLastPktRssi
+        24   -> SetRadioRxOnNoTimeOut
+        24   -> Terminal_Print
+        24   -> Terminal_PrintHex
+      16   SendDoneProcess
+        16   -> Processor_Print
+        16   -> Processor_PrintBin
+        16   -> SetRadioRxOnNoTimeOut
+        16   -> TMR_StopTimer
+        16   -> Terminal_Print
+      72   SendPacket
+        72   -> FLib_MemCpy
+        72   -> LED_ToggleLed
+        72   -> SMAC_GetSymbolTime
+        72   -> SMAC_TxPacket
+        72   -> TMR_StartSingleShotTimer
+        72   -> Terminal_Print
+        72   -> Terminal_PrintHex
+        72   -> __aeabi_d2uiz
+        72   -> __aeabi_dadd
+        72   -> __aeabi_ddiv
+        72   -> __aeabi_dmul
+        72   -> __aeabi_dsub
+        72   -> __aeabi_f2d
+        72   -> __aeabi_i2d
+        72   -> __aeabi_ui2d
+        72   -> ceil
+      24   SendPacketProcess
+        24   -> Processor_Print
+        24   -> Processor_PrintBin
+        24   -> SMAC_FillHeader
+        24   -> SMAC_SetPanID
+        24   -> SMAC_SetSrcAddress
+        24   -> SendPacket
+        24   -> Terminal_Print
+       8   SendTimeTimerCallBack
+         8   -> osSignalSet
+       8   SetRadioRxOnNoTimeOut
+         8   -> SMAC_RxStart
+      24   SleepProcess
+        24   -> FLib_MemCpy
+        24   -> LED_TurnOffLed
+        24   -> LPTMR_init
+        24   -> SMAC_SetOpMode
+        24   -> SendPacketProcess
+        24   -> SetRadioRxOnNoTimeOut
+        24   -> TMR_StopTimer
+        24   -> Terminal_Print
+        24   -> blpi_fbi
+        24   -> enter_lls
+        24   -> fbi_blpi
+        24   -> fbi_fei
+        24   -> fei_fbi
+        24   -> strlen
+       8   Switch_Interrupt
+         8   -> osSignalSet
+       8   WaitSendTimerCallBack
+         8   -> osSignalSet
+      16   smacToAppHandler
+        16   -> osSignalSet
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable11
+       4  ??DataTable12
+       4  ??DataTable12_1
+       4  ??DataTable12_2
+       4  ??DataTable12_3
+       4  ??DataTable12_4
+       4  ??DataTable13
+       4  ??DataTable13_1
+       4  ??DataTable13_2
+       4  ??DataTable13_3
+       4  ??DataTable13_4
+       4  ??DataTable14
+       4  ??DataTable14_1
+       4  ??DataTable14_10
+       4  ??DataTable14_11
+       4  ??DataTable14_12
+       4  ??DataTable14_13
+       4  ??DataTable14_14
+       4  ??DataTable14_15
+       4  ??DataTable14_16
+       4  ??DataTable14_17
+       4  ??DataTable14_18
+       4  ??DataTable14_2
+       4  ??DataTable14_3
+       4  ??DataTable14_4
+       4  ??DataTable14_5
+       4  ??DataTable14_6
+       4  ??DataTable14_7
+       4  ??DataTable14_8
+       4  ??DataTable14_9
+       4  ??DataTable1_1
+       4  ??DataTable1_10
+       4  ??DataTable1_11
+       4  ??DataTable1_12
+       4  ??DataTable1_13
+       4  ??DataTable1_14
+       4  ??DataTable1_15
+       4  ??DataTable1_16
+       4  ??DataTable1_17
+       4  ??DataTable1_18
+       4  ??DataTable1_19
+       4  ??DataTable1_2
+       4  ??DataTable1_3
+       4  ??DataTable1_4
+       4  ??DataTable1_5
+       4  ??DataTable1_6
+       4  ??DataTable1_7
+       4  ??DataTable1_8
+       4  ??DataTable1_9
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_10
+       4  ??DataTable2_11
+       4  ??DataTable2_12
+       4  ??DataTable2_13
+       4  ??DataTable2_14
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+       4  ??DataTable2_5
+       4  ??DataTable2_6
+       4  ??DataTable2_7
+       4  ??DataTable2_8
+       4  ??DataTable2_9
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_10
+       4  ??DataTable3_11
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+       4  ??DataTable3_4
+       4  ??DataTable3_5
+       4  ??DataTable3_6
+       4  ??DataTable3_7
+       4  ??DataTable3_8
+       4  ??DataTable3_9
+       4  ??DataTable4
+       4  ??DataTable4_1
+       4  ??DataTable5
+       4  ??DataTable5_1
+       4  ??DataTable5_2
+       4  ??DataTable6
+       4  ??DataTable6_1
+       4  ??DataTable6_10
+       4  ??DataTable6_2
+       4  ??DataTable6_3
+       4  ??DataTable6_4
+       4  ??DataTable6_5
+       4  ??DataTable6_6
+       4  ??DataTable6_7
+       4  ??DataTable6_8
+       4  ??DataTable6_9
+       4  ??DataTable7
+       4  ??DataTable7_1
+       4  ??DataTable7_2
+       4  ??DataTable7_3
+       4  ??DataTable7_4
+       4  ??DataTable7_5
+       4  ??DataTable7_6
+       4  ??DataTable7_7
+       4  ??DataTable7_8
+       4  ??DataTable8
+      44  ?_0
+       4  ?_1
+      12  ?_10
+       8  ?_11
+      20  ?_12
+      12  ?_13
+       8  ?_14
+      44  ?_15
+      20  ?_16
+      12  ?_17
+      12  ?_18
+      12  ?_19
+      20  ?_2
+      12  ?_20
+       4  ?_21
+      24  ?_22
+      24  ?_23
+      48  ?_24
+       8  ?_25
+       8  ?_26
+       8  ?_27
+       8  ?_28
+       4  ?_29
+      20  ?_3
+       8  ?_30
+      16  ?_31
+       4  ?_32
+      16  ?_33
+      12  ?_34
+       8  ?_35
+      16  ?_36
+      12  ?_37
+       8  ?_38
+       8  ?_39
+      20  ?_4
+       4  ?_40
+      28  ?_41
+      32  ?_42
+      24  ?_43
+      28  ?_44
+      28  ?_5
+      12  ?_6
+       8  ?_7
+      32  ?_8
+      24  ?_9
+      98  CheckRouteInfo
+     314  DoOperation
+      16  IntervalTimerCallBack
+     204  ProcessEvent
+     296  ReceiveData
+     204  ReceivePacketProcess
+     208  SendDoneProcess
+     792  SendPacket
+     652  SendPacketProcess
+      18  SendTimeTimerCallBack
+      18  SetRadioRxOnNoTimeOut
+     320  SleepProcess
+      50  Switch_Interrupt
+      22  WaitSendTimerCallBack
+       1  bAckFailed
+       1  bCCAFailed
+       4  gAppRxPacket
+       4  gAppTxPacket
+       1  gSendingType
+     128  gau8RxDataBuffer
+     128  gau8TxDataBuffer
+      70  smacToAppHandler
+       4  txConfig
+
+ 
+   271 bytes in section .bss
+   744 bytes in section .rodata
+ 3'694 bytes in section .text
+ 
+ 3'694 bytes of CODE  memory
+   744 bytes of CONST memory
+   271 bytes of DATA  memory
+
+Errors: none
+Warnings: none

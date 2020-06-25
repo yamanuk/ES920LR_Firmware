@@ -1,0 +1,1581 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:02
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\SMAC\Source\smac.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW6181.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\SMAC\Source\smac.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\smac.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\smac.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\SMAC\Source\smac.c
+      1          /*****************************************************************************
+      2          * smac file.
+      3          *
+      4          * (c) Copyright 2016, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          #include <string.h>
+     13          #include <math.h>
+     14          #include "radio.h"
+     15          #include "sx1276.h"
+     16          #include "sx1276-Hal.h"
+     17          #include "sx1276-LoRa.h"
+     18          #include "sx1276-LoRaMisc.h"
+     19          #include "RNG_Interface.h"
+     20          #include "TimersManager.h"
+     21          #include "smac.h"
+     22          #include "cca.h"
+     23          
+     24          
+     25          #define  gSmacInstancesCnt_c     1
+     26          #define  gSmacTaskStackSize_c    700
+     27          #define  gSmacTaskPriority_c     osPriorityAboveNormal
+     28          
+     29          const uint32_t gDataRate[10][6] = {
+     30              {   342,   195,   110,     61,     34,     19 },   //   7.8  kHz
+     31              {   455,   260,   147,     82,     45,     25 },   //  10.4  kHz
+     32              {   683,   390,   220,    122,     68,     37 },   //  15.6  kHz
+     33              {   910,   520,   293,    163,     90,     49 },   //  20.8  kHz
+     34              {  1368,   782,   440,    245,    135,     74 },   //  31.25 kHz
+     35              {  1825,  1043,   587,    326,    180,     98 },   //  41.7  kHz
+     36              {  2735,  1563,   879,    489,    269,    147 },   //  62.5  kHz
+     37              {  5469,  3125,  1758,    977,    538,    293 },   // 125    kHz
+     38              { 10938,  6250,  3516,   1954,   1075,    586 },   // 250    kHz
+     39              { 21875, 12500,  7032,   3907,   2149,   1172 }    // 500    kHz
+     40          };
+     41          
+     42          const float gSymbolTime[10][6] = {
+     43              { 16.41, 32.82, 65.64, 131.28, 262.56, 525.13 },   //   7.8  kHz
+     44              { 12.31, 24.62, 49.23,  98.46, 196.92, 393.85 },   //  10.4  kHz
+     45              {  8.21, 16.41, 32.82,  65.64, 131.28, 262.56 },   //  15.6  kHz
+     46              {  6.15, 12.31, 24.62,  49.23,  98.46, 196.92 },   //  20.8  kHz
+     47              {  4.10,  8.19, 16.38,  32.77,  65.54, 131.07 },   //  31.25 kHz
+     48              {  3.07,  6.14, 12.28,  24.56,  49.11,  98.23 },   //  41.7  kHz
+     49              {  2.05,  4.10,  8.19,  16.38,  32.77,  65.54 },   //  62.5  kHz
+     50              {  1.02,  2.05,  4.10,   8.19,  16.38,  32.77 },   // 125    kHz
+     51              {  0.51,  1.02,  2.05,   4.10,   8.19,  16.38 },   // 250    kHz
+     52              {  0.26,  0.51,  1.02,   2.05,   4.10,   8.19 }    // 500    kHz
+     53          };
+     54          
+     55          /*****************************************************************************
+     56          ******************************************************************************
+     57          * Private function declarations
+     58          ******************************************************************************
+     59          ******************************************************************************/
+     60          static smacErrors_t Transmit( txPacket_t* data, uint8_t length );
+     61          static smacErrors_t RetryTransmit( txPacket_t* data, uint8_t length );
+     62          static smacErrors_t AckTransmit( uint8_t seqNo, uint16_t dstAddr );
+     63          static void Receive( void );
+     64          static void SmacTimerCallBack( void* );
+     65          static void DutyTimerCallBack( void* );
+     66          static void SmacRetryProcess( void );
+     67          static void SmacTask( void const * taskParam );
+     68          
+     69           #if defined(__GNUC__)
+     70          osThreadLink_t osThreadLink_SmacTask[gSmacInstancesCnt_c] = {0};
+     71          uint8_t osThread_SmacTask_stack[(gSmacTaskStackSize_c)*(gSmacInstancesCnt_c)];
+     72          uint8_t osThread_SmacTask_signal[36*(gSmacInstancesCnt_c)];
+     73          osThreadDef_t os_thread_def_SmacTask = { SmacTask,
+     74                                                   gSmacTaskPriority_c,
+     75                                                   gSmacInstancesCnt_c,
+     76                                                   gSmacTaskStackSize_c,
+     77                                                   osThread_SmacTask_stack,
+     78                                                   osThread_SmacTask_signal,
+     79                                                   osThreadLink_SmacTask,
+     80                                                   "SmacTask"};
+     81          #else
+     82          osThreadDef(SmacTask, gSmacTaskPriority_c, gSmacInstancesCnt_c, gSmacTaskStackSize_c);
+     83          #endif
+     84          
+     85          /*****************************************************************************
+     86          ******************************************************************************
+     87          * Private memory declarations
+     88          ******************************************************************************
+     89          ******************************************************************************/
+     90          static  txContextConfig_t   txConfigurator;
+     91          static  tRadioDriver*       Radio;
+     92          static  rxPacket_t*         rxBuffer;
+     93          static  bool_t              smacInitialized;
+     94          static  uint8_t             RetryCount;
+     95          static  uint8_t             TxSeqNum;
+     96          static  uint16_t            u16PanID;
+     97          static  uint16_t            u16SrcAddress;
+     98          static  uint8_t             lastSendSeqNo;
+     99          static  bool_t              isAck;
+    100          static  bool_t              isRetry;
+    101          static  bool_t              isAckFin;
+    102          static  bool_t              isDutyFin;
+    103          static  tmrTimerID_t        SmacTmr;
+    104          static  tmrTimerID_t        DutyTmr;
+    105          static  uint8_t             TxBuffer[RF_BUFFER_SIZE_MAX];
+    106          static  SMAC_APP_Handler_t  pHandler;
+    107          static  osThreadId          ThreadId;
+    108          static  uint8_t             setCh;
+    109          static  uint8_t             setBw;
+    110          static  uint8_t             setSf;
+    111          static  uint32_t            iAckTmo;
+    112          
+    113          
+    114          /*****************************************************************************
+    115          * SMAC_Init
+    116          *
+    117          * This function initialise SMAC.
+    118          *
+    119          * Interface assumptions:
+    120          *     None
+    121          *
+    122          * Return value:
+    123          *     None
+    124          *
+    125          ******************************************************************************/
+    126          void SMAC_Init( void )
+    127          {
+    128              uint32_t    u32RandomNo;
+    129          
+    130              smacInitialized = TRUE;
+    131              RetryCount      = 0;
+    132              u16PanID        = 0;
+    133              u16SrcAddress   = 0;
+    134              lastSendSeqNo   = 0;
+    135              isAck           = FALSE;
+    136              isRetry         = FALSE;
+    137              isAckFin        = FALSE;
+    138              isDutyFin       = FALSE;
+    139              setCh           = 0;
+    140              setBw           = 0;
+    141              setSf           = 7;
+    142              iAckTmo         = 0;
+    143          
+    144              Radio = RadioDriverInit();
+    145              Radio->Init();
+    146          
+    147              RNG_Init();
+    148              RNG_GetRandomNo( &u32RandomNo );
+    149              TxSeqNum = (uint8_t)u32RandomNo;
+    150          
+    151              /* allocate SMAC timer */
+    152              SmacTmr = TMR_AllocateTimer();
+    153              DutyTmr = TMR_AllocateTimer();
+    154          
+    155              /* create thread */
+    156              ThreadId = osThreadCreate( osThread(SmacTask), 0 );
+    157          }
+    158          
+    159          /*****************************************************************************
+    160          * SMAC_RxStart
+    161          *
+    162          * This function transit the SX1276 to RFLR_STATE_RX_INIT state.
+    163          *
+    164          * Interface assumptions:
+    165          *     data          rx buffer pointer
+    166          *
+    167          * Return value:
+    168          *     smacErrors_t  gErrorNoError_c or other
+    169          *
+    170          ******************************************************************************/
+    171          smacErrors_t SMAC_RxStart( rxPacket_t* data )
+    172          {
+    173              if( FALSE == smacInitialized )
+    174              {
+    175                  return gErrorNoValidCondition_c;
+    176              }
+    177          
+    178              if( NULL == data )
+    179              {
+    180                  return gErrorOutOfRange_c;
+    181              }
+    182          
+    183              rxBuffer = data;
+    184          
+    185          	Radio->StartRx( );
+    186          
+    187              osSignalSet( ThreadId, 1 );
+    188          
+    189              return gErrorNoError_c;
+    190          }
+    191          
+    192          /*****************************************************************************
+    193          * SMAC_TxPacket
+    194          *
+    195          * This function send packet.
+    196          *
+    197          * Interface assumptions:
+    198          *     data          tx buffer pointer
+    199          *     length        tx length (not include smac header)
+    200          *
+    201          * Return value:
+    202          *     smacErrors_t  gErrorNoError_c or other
+    203          *
+    204          ******************************************************************************/
+    205          smacErrors_t SMAC_TxPacket( txPacket_t *data, uint8_t length )
+    206          {
+    207          	return Transmit( data, length );
+    208          }
+    209          
+    210          /*****************************************************************************
+    211          * SMAC_ConfigureTxContext
+    212          *
+    213          * This function is used to configure the conditions under which
+    214          * SMAC will perform a transmission.
+    215          *
+    216          * Interface assumptions:
+    217          *     pTxConfig     transmission parameter
+    218          *
+    219          * Return value:
+    220          *     smacErrors_t  gErrorNoError_c or other
+    221          *
+    222          ******************************************************************************/
+    223          smacErrors_t SMAC_ConfigureTxContext( txContextConfig_t* pTxConfig )
+    224          {
+    225              if( ((pTxConfig->autoAck == FALSE) && (pTxConfig->retryCountAckFail != 0)) ||
+    226                  ((pTxConfig->ccaBeforeTx == FALSE) && (pTxConfig->retryCountCCAFail != 0)) )
+    227              {
+    228                  return gErrorOutOfRange_c;
+    229              }
+    230          
+    231              if( (pTxConfig->retryCountAckFail > gMaxRetriesAllowed_c) ||
+    232                  (pTxConfig->retryCountCCAFail > gMaxRetriesAllowed_c) )
+    233              {
+    234                  return gErrorOutOfRange_c;
+    235              }
+    236          
+    237              txConfigurator.autoAck           = pTxConfig->autoAck;
+    238              txConfigurator.ccaBeforeTx       = pTxConfig->ccaBeforeTx;
+    239              txConfigurator.retryCountAckFail = pTxConfig->retryCountAckFail;
+    240              txConfigurator.retryCountCCAFail = pTxConfig->retryCountCCAFail;
+    241          
+    242              return gErrorNoError_c;
+    243          }
+    244          
+    245          /*****************************************************************************
+    246          * SMAC_RegisterHandler
+    247          *
+    248          * This function is used to configure the conditions under which
+    249          * SMAC will perform a transmission.
+    250          *
+    251          * Interface assumptions:
+    252          *     smacToAppHandler  callback function address
+    253          *
+    254          * Return value:
+    255          *     smacErrors_t      gErrorNoError_c or other
+    256          *
+    257          ******************************************************************************/
+    258          smacErrors_t SMAC_RegisterHandler( SMAC_APP_Handler_t smacToAppHandler )
+    259          {
+    260              pHandler = smacToAppHandler;
+    261          
+    262              return gErrorNoError_c;
+    263          }
+    264          
+    265          /*****************************************************************************
+    266          * SMAC_FillHeader
+    267          *
+    268          * This function helps the user fill the SMAC header with
+    269          * the desired short destination address.
+    270          *
+    271          * Interface assumptions:
+    272          *     pHeader       tx buffer pointer
+    273          *     destAddr      short destination address
+    274          *
+    275          * Return value:
+    276          *     smacErrors_t  gErrorNoError_c or other
+    277          *
+    278          ******************************************************************************/
+    279          smacErrors_t SMAC_FillHeader( smacHeader_t* pHeader, uint16_t destAddr )
+    280          {
+    281              pHeader->frameControl   = 0x00;
+    282              pHeader->seqNo          = 0;
+    283              pHeader->panId_l        = (uint8_t)(u16PanID & 0xFF);
+    284              pHeader->panId_h        = (uint8_t)((u16PanID >> 8) & 0xFF);
+    285              pHeader->destAddr_l     = (uint8_t)(destAddr & 0xFF);
+    286              pHeader->destAddr_h     = (uint8_t)((destAddr >> 8) & 0xFF);
+    287              pHeader->srcAddr_l      = (uint8_t)(u16SrcAddress & 0xFF);
+    288              pHeader->srcAddr_h      = (uint8_t)((u16SrcAddress >> 8) & 0xFF);
+    289          
+    290              return gErrorNoError_c;
+    291          }
+    292          
+    293          /*****************************************************************************
+    294          * SMAC_SetSrcAddress
+    295          *
+    296          * This function sets the short source address so that PHY can perform filtering
+    297          *
+    298          * Interface assumptions:
+    299          *     srcAddr       short source address
+    300          *
+    301          * Return value:
+    302          *     smacErrors_t  gErrorNoError_c or other
+    303          *
+    304          ******************************************************************************/
+    305          smacErrors_t SMAC_SetSrcAddress( uint16_t srcAddr )
+    306          {
+    307              u16SrcAddress = srcAddr;
+    308          
+    309              return gErrorNoError_c;
+    310          }
+    311          
+    312          /*****************************************************************************
+    313          * SMAC_SetPanID
+    314          *
+    315          * This function sets the pan ID so that PHY can perform filtering
+    316          *
+    317          * Interface assumptions:
+    318          *     panID         pan ID
+    319          *
+    320          * Return value:
+    321          *     smacErrors_t  gErrorNoError_c or other
+    322          *
+    323          ******************************************************************************/
+    324          smacErrors_t SMAC_SetPanID( uint16_t panID )
+    325          {
+    326              u16PanID = panID;
+    327          
+    328              return gErrorNoError_c;
+    329          }
+    330          
+    331          /*****************************************************************************
+    332          * SMAC_SetOpMode
+    333          *
+    334          * This function transit the SX1276 to any state.
+    335          *
+    336          * Interface assumptions:
+    337          *     opMode        new state
+    338          *
+    339          * Return value:
+    340          *     smacErrors_t  gErrorNoError_c or other
+    341          *
+    342          ******************************************************************************/
+    343          smacErrors_t SMAC_SetOpMode( uint8_t opMode )
+    344          {
+    345              /* sleep or standby */
+    346              if( 1 < opMode )
+    347              {
+    348                  return gErrorOutOfRange_c;
+    349              }
+    350          
+    351              SX1276SetOpMode( opMode );
+    352          
+    353              return gErrorNoError_c;
+    354          }
+    355          
+    356          /*****************************************************************************
+    357          * SMAC_SetChannel
+    358          *
+    359          * This function sets to SX1276 register.
+    360          * Call SX1276LoRaSetRFFrequency and SX1276LoRaSetSignalBandwidth function.
+    361          *
+    362          * Interface assumptions:
+    363          *     ch            channel number ( ch0 = 920600000Hz )
+    364          *     bw            band width
+    365          *
+    366          * Return value:
+    367          *     smacErrors_t  gErrorNoError_c or other
+    368          *
+    369          ******************************************************************************/
+    370          smacErrors_t SMAC_SetChannel( uint8_t ch, uint8_t bw )
+    371          {
+    372              uint32_t    RFFrequency;
+    373          
+    374              switch( bw )
+    375              {
+    376              case BANDWIDTH7_8:
+    377              case BANDWIDTH10_4:
+    378              case BANDWIDTH15_6:
+    379              case BANDWIDTH20_8:
+    380              case BANDWIDTH31_25:
+    381              case BANDWIDTH41_7:
+    382              case BANDWIDTH62_5:
+    383              case BANDWIDTH125:
+    384                  if( 37 <= ch )
+    385                  {
+    386                      return gErrorOutOfRange_c;
+    387                  }
+    388                  RFFrequency = 920600000 + (200000 * ch);
+    389                  break;
+    390          
+    391              case BANDWIDTH250:
+    392                  if( 18 <= ch )
+    393                  {
+    394                      return gErrorOutOfRange_c;
+    395                  }
+    396                  RFFrequency = 920700000 + (400000 * ch);
+    397                  break;
+    398          
+    399              case BANDWIDTH500:
+    400                  if( 12 <= ch )
+    401                  {
+    402                      return gErrorOutOfRange_c;
+    403                  }
+    404                  RFFrequency = 920800000 + (600000 * ch);
+    405                  break;
+    406          
+    407              default:
+    408                  return gErrorOutOfRange_c;
+    409              }
+    410          
+    411              SX1276LoRaSetRFFrequency( RFFrequency );
+    412              SX1276LoRaSetSignalBandwidth( bw );
+    413          
+    414              setCh = ch;
+    415              setBw = bw;
+    416          
+    417              return gErrorNoError_c;
+    418          }
+    419          
+    420          /*****************************************************************************
+    421          * SMAC_GetChannel
+    422          *
+    423          * This function gets from SX1276 register.
+    424          * Call SX1276LoRaGetRFFrequency and SX1276LoRaGetSignalBandwidth function.
+    425          *
+    426          * Interface assumptions:
+    427          *     ch            channel number ( ch0 = 920600000Hz )
+    428          *     bw            band width
+    429          *
+    430          * Return value:
+    431          *     smacErrors_t  gErrorNoError_c or other
+    432          *
+    433          ******************************************************************************/
+    434          smacErrors_t SMAC_GetChannel( uint8_t* ch, uint8_t* bw )
+    435          {
+    436              uint32_t    RFFrequency;
+    437          
+    438          
+    439              RFFrequency = SX1276LoRaGetRFFrequency( );
+    440              *bw         = SX1276LoRaGetSignalBandwidth( );
+    441          
+    442              switch( *bw )
+    443              {
+    444              case BANDWIDTH7_8:
+    445              case BANDWIDTH10_4:
+    446              case BANDWIDTH15_6:
+    447              case BANDWIDTH20_8:
+    448              case BANDWIDTH31_25:
+    449              case BANDWIDTH41_7:
+    450              case BANDWIDTH62_5:
+    451              case BANDWIDTH125:
+    452                  if( (RFFrequency - 920600000) % 200000 )
+    453                  {
+    454                      *ch = (200000 + RFFrequency - 920600000) / 200000;
+    455                  }
+    456                  else
+    457                  {
+    458                      *ch = (RFFrequency - 920600000) / 200000;
+    459                  }
+    460                  break;
+    461          
+    462              case BANDWIDTH250:
+    463                  if( (RFFrequency - 920700000) % 400000 )
+    464                  {
+    465                      *ch = (400000 + RFFrequency - 920700000) / 400000;
+    466                  }
+    467                  else
+    468                  {
+    469                      *ch = (RFFrequency - 920700000) / 400000;
+    470                  }
+    471                  break;
+    472          
+    473              case BANDWIDTH500:
+    474                  if( (RFFrequency - 920800000) % 600000 )
+    475                  {
+    476                      *ch = (600000 + RFFrequency - 920800000) / 600000;
+    477                  }
+    478                  else
+    479                  {
+    480                      *ch = (RFFrequency - 920800000) / 600000;
+    481                  }
+    482                  break;
+    483          
+    484              default:
+    485                  return gErrorOutOfRange_c;
+    486              }
+    487          
+    488              return gErrorNoError_c;
+    489          }
+    490          
+    491          /*****************************************************************************
+    492          * SMAC_SetRFPower
+    493          *
+    494          * This function sets to SX1276 register.
+    495          * Call SX1276LoRaSetRFPower function.
+    496          *
+    497          * Interface assumptions:
+    498          *     power         output power value(dB)
+    499          *
+    500          * Return value:
+    501          *     smacErrors_t  gErrorNoError_c or other
+    502          *
+    503          ******************************************************************************/
+    504          smacErrors_t SMAC_SetRFPower( int8_t power )
+    505          {
+    506              if( (power < -4) || (13 < power) )
+    507              {
+    508                  return gErrorOutOfRange_c;
+    509              }
+    510          
+    511              SX1276LoRaSetRFPower( power );
+    512          
+    513              return gErrorNoError_c;
+    514          }
+    515          
+    516          /*****************************************************************************
+    517          * SMAC_GetRFPower
+    518          *
+    519          * This function gets from SX1276 register.
+    520          * Call SX1276LoRaGetRFPower function.
+    521          *
+    522          * Interface assumptions:
+    523          *     power         output power value(dB)
+    524          *
+    525          * Return value:
+    526          *     smacErrors_t  gErrorNoError_c or other
+    527          *
+    528          ******************************************************************************/
+    529          smacErrors_t SMAC_GetRFPower( int8_t* power )
+    530          {
+    531              *power = SX1276LoRaGetRFPower( );
+    532          
+    533              return gErrorNoError_c;
+    534          }
+    535          
+    536          /*****************************************************************************
+    537          * SMAC_GetLastPktRssi
+    538          *
+    539          * This function gets from SX1276 register.
+    540          * Call SX1276GetPacketRssi function.
+    541          *
+    542          * Interface assumptions:
+    543          *     rssi          rssi value(dB)
+    544          *
+    545          * Return value:
+    546          *     smacErrors_t  gErrorNoError_c or other
+    547          *
+    548          ******************************************************************************/
+    549          smacErrors_t SMAC_GetLastPktRssi( int16_t* rssi )
+    550          {
+    551              *rssi = (int16_t)SX1276GetPacketRssi( );
+    552          
+    553              return gErrorNoError_c;
+    554          }
+    555          
+    556          /*****************************************************************************
+    557          * SMAC_GetRssi
+    558          *
+    559          * This function gets from SX1276 register.
+    560          * Call SX1276ReadRssi function.
+    561          *
+    562          * Interface assumptions:
+    563          *     rssi          rssi value(dB)
+    564          *
+    565          * Return value:
+    566          *     smacErrors_t  gErrorNoError_c or other
+    567          *
+    568          ******************************************************************************/
+    569          smacErrors_t SMAC_GetRssi( int16_t* rssi )
+    570          {
+    571              *rssi = (int16_t)SX1276ReadRssi( );
+    572          
+    573              return gErrorNoError_c;
+    574          }
+    575          
+    576          /*****************************************************************************
+    577          * SMAC_SetCodingRate
+    578          *
+    579          * This function sets to SX1276 register.
+    580          * Call SX1276LoRaSetErrorCoding function.
+    581          *
+    582          * Interface assumptions:
+    583          *     cr            coding rate
+    584          *
+    585          * Return value:
+    586          *     smacErrors_t  gErrorNoError_c or other
+    587          *
+    588          ******************************************************************************/
+    589          smacErrors_t SMAC_SetCodingRate( uint8_t cr )
+    590          {
+    591              if( 4 < cr )
+    592              {
+    593                  return gErrorOutOfRange_c;
+    594              }
+    595          
+    596              SX1276LoRaSetErrorCoding( cr );
+    597          
+    598              return gErrorNoError_c;
+    599          }
+    600          
+    601          /*****************************************************************************
+    602          * SMAC_GetCodingRate
+    603          *
+    604          * This function gets from SX1276 register.
+    605          * Call SX1276LoRaGetErrorCoding function.
+    606          *
+    607          * Interface assumptions:
+    608          *     cr            coding rate
+    609          *
+    610          * Return value:
+    611          *     smacErrors_t  gErrorNoError_c or other
+    612          *
+    613          ******************************************************************************/
+    614          smacErrors_t SMAC_GetCodingRate( uint8_t* cr )
+    615          {
+    616              *cr = SX1276LoRaGetErrorCoding( );
+    617          
+    618              return gErrorNoError_c;
+    619          }
+    620          
+    621          /*****************************************************************************
+    622          * SMAC_SetSpreadingFactor
+    623          *
+    624          * This function sets to SX1276 register.
+    625          * Call SX1276LoRaSetSpreadingFactor function.
+    626          *
+    627          * Interface assumptions:
+    628          *     sf            spreading factor
+    629          *
+    630          * Return value:
+    631          *     smacErrors_t  gErrorNoError_c or other
+    632          *
+    633          ******************************************************************************/
+    634          smacErrors_t SMAC_SetSpreadingFactor( uint8_t sf )
+    635          {
+    636              if( 12 < sf )
+    637              {
+    638                  return gErrorOutOfRange_c;
+    639              }
+    640          
+    641              SX1276LoRaSetSpreadingFactor( sf );
+    642          
+    643              setSf = sf;
+    644          
+    645              return gErrorNoError_c;
+    646          }
+    647          
+    648          /*****************************************************************************
+    649          * SMAC_GetSpreadingFactor
+    650          *
+    651          * This function gets from SX1276 register.
+    652          * Call SX1276LoRaGetSpreadingFactor function.
+    653          *
+    654          * Interface assumptions:
+    655          *     sf            spreading factor
+    656          *
+    657          * Return value:
+    658          *     smacErrors_t  gErrorNoError_c or other
+    659          *
+    660          ******************************************************************************/
+    661          smacErrors_t SMAC_GetSpreadingFactor( uint8_t* sf )
+    662          {
+    663              *sf = SX1276LoRaGetSpreadingFactor( );
+    664          
+    665              return gErrorNoError_c;
+    666          }
+    667          
+    668          /*****************************************************************************
+    669          * SMAC_SetContinuous
+    670          *
+    671          * This function sets to SX1276 register.
+    672          * Call SX1276LoRaSetContinuous function.
+    673          *
+    674          * Interface assumptions:
+    675          *     cr            coding rate
+    676          *
+    677          * Return value:
+    678          *     smacErrors_t  gErrorNoError_c or other
+    679          *
+    680          ******************************************************************************/
+    681          smacErrors_t SMAC_SetContinuous( uint8_t enable )
+    682          {
+    683              SX1276LoRaSetContinuous( enable );
+    684          
+    685              return gErrorNoError_c;
+    686          }
+    687          
+    688          /*****************************************************************************
+    689          * SMAC_GetSymbolTime
+    690          *
+    691          * This function get SymbolTime.
+    692          *
+    693          * Interface assumptions:
+    694          *     bw            band width
+    695          *     sf            spreading factor
+    696          *
+    697          * Return value:
+    698          *     uint32_t      symbol time
+    699          *
+    700          ******************************************************************************/
+    701          float SMAC_GetSymbolTime( uint8_t bw, uint8_t sf )
+    702          {
+    703              return gSymbolTime[bw][sf-7];
+    704          }
+    705          
+    706          /*****************************************************************************
+    707          * Transmit
+    708          *
+    709          * This function send packet.
+    710          *
+    711          * Interface assumptions:
+    712          *     data          tx buffer pointer
+    713          *     length        tx length (not include smac header)
+    714          *
+    715          * Return value:
+    716          *     smacErrors_t  gErrorNoError_c or other
+    717          *
+    718          ******************************************************************************/
+    719          static smacErrors_t Transmit( txPacket_t* data, uint8_t length )
+    720          {
+    721          	uint8_t       idx         = 0;
+    722          	uint8_t       status      = 0;
+    723          	uint16_t      checkSum    = 0;
+    724              smacHeader_t* header      = NULL;
+    725          #if 0   // hardware cca
+    726              uint32_t      cca_ret     = 0;
+    727              uint32_t      cca_cnt     = 0;
+    728          #endif
+    729          
+    730              if( FALSE == smacInitialized )
+    731              {
+    732                  return gErrorNoValidCondition_c;
+    733              }
+    734          
+    735              if( NULL == data )
+    736              {
+    737                  return gErrorOutOfRange_c;
+    738              }
+    739          
+    740              RetryCount = 0;
+    741          
+    742              /* add SMAC header and checksum length */
+    743              data->smacHeader.totalLength += (sizeof(smacHeader_t) + 2);
+    744          
+    745          	/* copy data */
+    746              memcpy( TxBuffer, data, data->smacHeader.totalLength );
+    747          
+    748              header = (smacHeader_t*)TxBuffer;
+    749          
+    750          	if( TRUE == txConfigurator.autoAck )
+    751              {
+    752                  if( (0xFF != header->destAddr_h) || (0xFF != header->destAddr_l) )
+    753                  {
+    754                      /* add ACK request flag */
+    755                      header->frameControl |= 0x80;
+    756                  }
+    757              }
+    758          
+    759              /* set sequence number */
+    760              header->seqNo = TxSeqNum;
+    761          
+    762              /* add checksum */
+    763          	checkSum = 0;
+    764          	for( idx = 0; idx < length; idx++ )
+    765          	{
+    766          		checkSum += TxBuffer[sizeof(smacHeader_t) + idx];
+    767          	}
+    768          	TxBuffer[sizeof(smacHeader_t) + length    ] = (checkSum >> 0) & 0xFF;
+    769          	TxBuffer[sizeof(smacHeader_t) + length + 1] = (checkSum >> 8) & 0xFF;
+    770          
+    771          	/* execute carrier sense */
+    772              status = 0;
+    773              if( TRUE == txConfigurator.ccaBeforeTx )
+    774              {
+    775          #if 0   // hardware cca
+    776                  for( cca_cnt = 0; cca_cnt < txConfigurator.retryCountCCAFail; cca_cnt++ )
+    777                  {
+    778                      cca_ret = SX1276LoRaCcaProcess();
+    779                      if( RF_CHANNEL_EMPTY == cca_ret )
+    780                      {
+    781                          status = 0;
+    782                          break;
+    783                      }
+    784                      else if( RF_CHANNEL_ACTIVITY_DETECTED == cca_ret )
+    785                      {
+    786                          status = 1;
+    787                      }
+    788                  }
+    789          #endif
+    790                  /* software cca */
+    791                  status = IsCcaOk( setCh, setBw, txConfigurator.retryCountCCAFail );
+    792              }
+    793          	/* OK */
+    794          	if( 0 == status )
+    795          	{
+    796          		/* send data */
+    797          		Radio->SetTxPacket( TxBuffer, header->totalLength );
+    798          
+    799                  osSignalSet( ThreadId, 1 );
+    800          
+    801                  lastSendSeqNo = TxSeqNum++;
+    802                  isAck         = FALSE;
+    803                  iAckTmo       = 50 + (uint32_t)ceil(
+    804                                  (gSymbolTime[setBw][setSf-7] * 2.0) + (gSymbolTime[setBw][setSf-7] * 12.25) +    // (Preamble = 12.25 symbol)
+    805                                  (gSymbolTime[setBw][setSf-7] * (8+ceil((80-4.0*setSf+44)/(4.0*(setSf-2)))*5)));
+    806          
+    807          		return gErrorNoError_c;
+    808          	}
+    809          	/* NG */
+    810          	else
+    811          	{
+    812          		return gErrorBusy_c;
+    813          	}
+    814          }
+    815          
+    816          /*****************************************************************************
+    817          * RetryTransmit
+    818          *
+    819          * This function re-transmition packet.
+    820          *
+    821          * Interface assumptions:
+    822          *     data          tx buffer pointer
+    823          *     length        tx length (include smac header)
+    824          *
+    825          * Return value:
+    826          *     smacErrors_t  gErrorNoError_c or other
+    827          *
+    828          ******************************************************************************/
+    829          static smacErrors_t RetryTransmit( txPacket_t* data, uint8_t length )
+    830          {
+    831          	uint8_t       status      = 0;
+    832          #if 0   // hardware cca
+    833              uint32_t      cca_ret     = 0;
+    834              uint32_t      cca_cnt     = 0;
+    835          #endif
+    836          
+    837          	/* execute carrier sense */
+    838              status = 0;
+    839              if( TRUE == txConfigurator.ccaBeforeTx )
+    840              {
+    841          #if 0   // hardware cca
+    842                  for( cca_cnt = 0; cca_cnt < txConfigurator.retryCountCCAFail; cca_cnt++ )
+    843                  {
+    844                      cca_ret = SX1276LoRaCcaProcess();
+    845                      if( RF_CHANNEL_EMPTY == cca_ret )
+    846                      {
+    847                          status = 0;
+    848                          break;
+    849                      }
+    850                      else if( RF_CHANNEL_ACTIVITY_DETECTED == cca_ret )
+    851                      {
+    852                          status = 1;
+    853                      }
+    854                  }
+    855          #endif
+    856                  /* software cca */
+    857                  status = IsCcaOk( setCh, setBw, txConfigurator.retryCountCCAFail );
+    858              }
+    859          	/* OK */
+    860          	if( 0 == status )
+    861          	{
+    862          		/* send data */
+    863          		Radio->SetTxPacket( data, data->smacHeader.totalLength );
+    864          
+    865                  osSignalSet( ThreadId, 1 );
+    866          
+    867                  isAck         = FALSE;
+    868                  iAckTmo       = 50 + (uint32_t)ceil(
+    869                                  (gSymbolTime[setBw][setSf-7] * 2.0) + (gSymbolTime[setBw][setSf-7] * 12.25) +    // (Preamble = 12.25 symbol)
+    870                                  (gSymbolTime[setBw][setSf-7] * (8+ceil((80-4.0*setSf+44)/(4.0*(setSf-2)))*5)));
+    871          
+    872          		return gErrorNoError_c;
+    873          	}
+    874          	/* NG */
+    875          	else
+    876          	{
+    877          		return gErrorBusy_c;
+    878          	}
+    879          }
+    880          
+    881          /*****************************************************************************
+    882          * AckTransmit
+    883          *
+    884          * This function transmit ack packet.
+    885          *
+    886          * Interface assumptions:
+    887          *     seqNo         recieve sequence number
+    888          *     dstAddr       recieve source address
+    889          *
+    890          * Return value:
+    891          *     smacErrors_t  gErrorNoError_c or other
+    892          *
+    893          ******************************************************************************/
+    894          static smacErrors_t AckTransmit( uint8_t seqNo, uint16_t dstAddr )
+    895          {
+    896              smacHeader_t* header      = NULL;
+    897          	uint8_t       status      = 0;
+    898          #if 0   // hardware cca
+    899              uint32_t      cca_ret     = 0;
+    900              uint32_t      cca_cnt     = 0;
+    901          #endif
+    902          
+    903          
+    904              header = (smacHeader_t*)TxBuffer;
+    905          
+    906              /* make Ack packet */
+    907              header->totalLength     = sizeof(smacHeader_t);
+    908              header->frameControl    = 0;
+    909              header->data_type       = 0;
+    910              header->seqNo           = seqNo;
+    911              header->panId_l         = (uint8_t)((u16PanID >> 0) & 0xFF);
+    912              header->panId_h         = (uint8_t)((u16PanID >> 8) & 0xFF);
+    913              header->destAddr_l      = (uint8_t)((dstAddr >> 0) & 0xFF);
+    914              header->destAddr_h      = (uint8_t)((dstAddr >> 8) & 0xFF);
+    915              header->srcAddr_l       = (uint8_t)((u16SrcAddress >> 0) & 0xFF);
+    916              header->srcAddr_h       = (uint8_t)((u16SrcAddress >> 8) & 0xFF);
+    917          
+    918              status = 0;
+    919              if( TRUE == txConfigurator.ccaBeforeTx )
+    920              {
+    921          #if 0   // hardware cca
+    922                  for( cca_cnt = 0; cca_cnt < txConfigurator.retryCountCCAFail; cca_cnt++ )
+    923                  {
+    924                      cca_ret = SX1276LoRaCcaProcess();
+    925                      if( RF_CHANNEL_EMPTY == cca_ret )
+    926                      {
+    927                          status = 0;
+    928                          break;
+    929                      }
+    930                      else if( RF_CHANNEL_ACTIVITY_DETECTED == cca_ret )
+    931                      {
+    932                          status = 1;
+    933                      }
+    934                  }
+    935          #endif
+    936                  /* software cca */
+    937                  status = IsCcaOk( setCh, setBw, txConfigurator.retryCountCCAFail );
+    938              }
+    939          	/* OK */
+    940          	if( 0 == status )
+    941          	{
+    942                  /* send data */
+    943                  Radio->SetTxPacket( TxBuffer, header->totalLength );
+    944          
+    945                  osSignalSet( ThreadId, 1 );
+    946          
+    947                  isAck = TRUE;
+    948          
+    949                  return gErrorNoError_c;
+    950              }
+    951              /* NG */
+    952          	else
+    953          	{
+    954          		return gErrorBusy_c;
+    955          	}
+    956          }
+    957          
+    958          /*****************************************************************************
+    959          * Receive
+    960          *
+    961          * Interface assumptions:
+    962          *     None
+    963          *
+    964          * Return value:
+    965          *     None
+    966          *
+    967          ******************************************************************************/
+    968          static void Receive( void )
+    969          {
+    970          	uint16_t      idx;
+    971          	uint16_t      CalcCheckSum  = 0;
+    972          	uint16_t      RecvCheckSum  = 0;
+    973              uint16_t      rxLength      = 0;
+    974          	uint8_t       getSize       = 0;
+    975              smacHeader_t* header        = NULL;
+    976              char*        pRcvBuf        = (char*)rxBuffer;
+    977          
+    978          
+    979              if( FALSE == smacInitialized )
+    980              {
+    981                  return;
+    982              }
+    983          
+    984              /* get rx data */
+    985              Radio->GetRxPacket( rxBuffer, &rxLength );
+    986          
+    987              header = (smacHeader_t*)rxBuffer;
+    988          
+    989              /* check header size */
+    990              if( sizeof(smacHeader_t) <= rxLength )
+    991              {
+    992                  if( header->totalLength < sizeof(smacHeader_t) )
+    993                  {
+    994                      return;
+    995                  }
+    996          
+    997                  /* check PAN ID */
+    998                  if( ((header->panId_h << 8) | header->panId_l) != u16PanID )
+    999                  {
+   1000                      return;
+   1001                  }
+   1002          
+   1003                  switch( header->data_type )
+   1004                  {
+   1005                  /* ACK */
+   1006                  case 0:
+   1007          
+   1008                      /* to Own Node */
+   1009                      if( (TRUE == txConfigurator.autoAck) &&
+   1010                          (((header->destAddr_h << 8) | header->destAddr_l) == u16SrcAddress) &&
+   1011                          (header->seqNo == lastSendSeqNo) )
+   1012                      {
+   1013                          TMR_StopTimer( SmacTmr );
+   1014          
+   1015                          isAckFin = TRUE;
+   1016                      }
+   1017                      break;
+   1018          
+   1019          		/* DATA */
+   1020                  default:
+   1021          
+   1022                      /* submit checksum length */
+   1023                      getSize = header->totalLength - 2;
+   1024          
+   1025                      /* check checksum */
+   1026                      RecvCheckSum = (uint16_t)(pRcvBuf[getSize] | (pRcvBuf[getSize+1] << 8));
+   1027                      CalcCheckSum = 0;
+   1028                      for( idx = sizeof(smacHeader_t); idx < getSize; idx++ )
+   1029                      {
+   1030                          CalcCheckSum += pRcvBuf[idx];
+   1031                      }
+   1032                      if( CalcCheckSum != RecvCheckSum )
+   1033                      {
+   1034                          /* Checksum Error */
+   1035                          break;
+   1036                      }
+   1037          
+   1038                      /* to Own Node */
+   1039                      if( ((header->destAddr_h << 8) | header->destAddr_l) == u16SrcAddress )
+   1040                      {
+   1041                          /* required acknowledge */
+   1042                          if( header->frameControl & 0x80 )
+   1043                          {
+   1044                              AckTransmit( header->seqNo, ((header->srcAddr_h << 8) | header->srcAddr_l) );
+   1045                          }
+   1046                          /* not required acknowledge */
+   1047                          else
+   1048                          {
+   1049                              header->totalLength -= (sizeof(smacHeader_t) + 2);
+   1050          
+   1051                              pHandler( 0, 0 );
+   1052                          }
+   1053                      }
+   1054                      /* Broadcast */
+   1055                      else if( ((header->destAddr_h << 8) | header->destAddr_l) == 0xFFFF )
+   1056                      {
+   1057                          header->totalLength -= (sizeof(smacHeader_t) + 2);
+   1058          
+   1059                          pHandler( 0, 0 );
+   1060                      }
+   1061                      break;
+   1062                  }
+   1063              }
+   1064          }
+   1065          
+   1066          /*****************************************************************************
+   1067          * SmacTimerCallBack
+   1068          *
+   1069          * Interface assumptions:
+   1070          *     param
+   1071          *
+   1072          * Return value:
+   1073          *     None
+   1074          *
+   1075          ******************************************************************************/
+   1076          static void SmacTimerCallBack( void* param )
+   1077          {
+   1078              isRetry = TRUE;
+   1079          }
+   1080          
+   1081          /*****************************************************************************
+   1082          * DutyTimerCallBack
+   1083          *
+   1084          * Interface assumptions:
+   1085          *     param
+   1086          *
+   1087          * Return value:
+   1088          *     None
+   1089          *
+   1090          ******************************************************************************/
+   1091          static void DutyTimerCallBack( void* param )
+   1092          {
+   1093              isDutyFin = TRUE;
+   1094          }
+   1095          
+   1096          /*****************************************************************************
+   1097          * SmacRetryProcess
+   1098          *
+   1099          * Interface assumptions:
+   1100          *     None
+   1101          *
+   1102          * Return value:
+   1103          *     None
+   1104          *
+   1105          ******************************************************************************/
+   1106          static void SmacRetryProcess( void )
+   1107          {
+   1108              smacErrors_t    err;
+   1109              smacHeader_t*   header = NULL;
+   1110          
+   1111          
+   1112              RetryCount++;
+   1113              if( RetryCount <= txConfigurator.retryCountAckFail )
+   1114              {
+   1115                  header = (smacHeader_t*)TxBuffer;
+   1116          
+   1117                  /* packet send retry */
+   1118                  err = RetryTransmit( (txPacket_t*)TxBuffer, header->totalLength );
+   1119                  if( gErrorNoError_c != err )
+   1120                  {
+   1121                      /* call back */
+   1122                      pHandler( 1, 1 );
+   1123                  }
+   1124              }
+   1125              else
+   1126              {
+   1127                  /* call back */
+   1128                  pHandler( 1, 1 );
+   1129              }
+   1130          }
+   1131          
+   1132          /*****************************************************************************
+   1133          * SmacTask
+   1134          *
+   1135          * Interface assumptions:
+   1136          *     None
+   1137          *
+   1138          * Return value:
+   1139          *     None
+   1140          *
+   1141          ******************************************************************************/
+   1142          static void SmacTask( void const * taskParam )
+   1143          {
+   1144              uint32_t        iRet;
+   1145              smacHeader_t*   header = NULL;
+   1146          
+   1147          
+   1148              while( 1 )
+   1149              {
+   1150                  osSignalWait( 0, 1 );
+   1151          
+   1152                  iRet = Radio->Process();
+   1153          
+   1154                  switch( iRet )
+   1155                  {
+   1156                  case RF_RX_DONE:
+   1157          
+   1158                      /* receive data process */
+   1159                      Receive();
+   1160                      break;
+   1161          
+   1162                  case RF_TX_DONE:
+   1163          
+   1164                      /* last send packet is ack */
+   1165                      if( TRUE == isAck )
+   1166                      {
+   1167                          header = (smacHeader_t*)rxBuffer;
+   1168          
+   1169                          header->totalLength -= (sizeof(smacHeader_t) + 2);
+   1170          
+   1171                          pHandler( 0, 0 );
+   1172                      }
+   1173                      /* last send packet is data */
+   1174                      else
+   1175                      {
+   1176                          header = (smacHeader_t*)TxBuffer;
+   1177                          if( header->frameControl & 0x80 )
+   1178                          {
+   1179                              Radio->StartRx( );
+   1180          
+   1181                              osSignalSet( ThreadId, 1 );
+   1182          
+   1183                              TMR_StartSingleShotTimer( SmacTmr, iAckTmo, SmacTimerCallBack, NULL );
+   1184                          }
+   1185                          else
+   1186                          {
+   1187                              isAckFin = TRUE;
+   1188                          }
+   1189          
+   1190                          TMR_StartSingleShotTimer( DutyTmr, 50, DutyTimerCallBack, NULL );
+   1191                      }
+   1192                      break;
+   1193          
+   1194                  default:
+   1195                      break;
+   1196                  }
+   1197          
+   1198                  /* send done */
+   1199                  if( (TRUE == isAckFin) && (TRUE == isDutyFin) )
+   1200                  {
+   1201                      isAckFin    = FALSE;
+   1202                      isDutyFin   = FALSE;
+   1203          
+   1204                      pHandler( 1, 0 );
+   1205                  }
+   1206          
+   1207                  /* retry send */
+   1208                  if( (TRUE == isRetry) && (TRUE == isDutyFin) )
+   1209                  {
+   1210                      isRetry     = FALSE;
+   1211                      isDutyFin   = FALSE;
+   1212          
+   1213                      SmacRetryProcess();
+   1214                  }
+   1215              }
+   1216          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   AckTransmit
+        24   -- Indirect call
+        24   -> IsCcaOk
+        24   -> osSignalSet
+       0   DutyTimerCallBack
+      40   Receive
+        40   -- Indirect call
+        40   -> AckTransmit
+        40   -> TMR_StopTimer
+      48   RetryTransmit
+        48   -- Indirect call
+        48   -> IsCcaOk
+        48   -> __aeabi_d2uiz
+        48   -> __aeabi_dadd
+        48   -> __aeabi_ddiv
+        48   -> __aeabi_dmul
+        48   -> __aeabi_dsub
+        48   -> __aeabi_f2d
+        48   -> __aeabi_i2d
+        48   -> __aeabi_ui2d
+        48   -> ceil
+        48   -> osSignalSet
+       4   SMAC_ConfigureTxContext
+       0   SMAC_FillHeader
+      24   SMAC_GetChannel
+        24   -> SX1276LoRaGetRFFrequency
+        24   -> SX1276LoRaGetSignalBandwidth
+        24 __aeabi_uidiv
+        24 __aeabi_uidivmod
+       8   SMAC_GetCodingRate
+         8   -> SX1276LoRaGetErrorCoding
+       8   SMAC_GetLastPktRssi
+         8   -> SX1276GetPacketRssi
+         8   -> __aeabi_d2iz
+       8   SMAC_GetRFPower
+         8   -> SX1276LoRaGetRFPower
+       8   SMAC_GetRssi
+         8   -> SX1276ReadRssi
+         8   -> __aeabi_d2iz
+       8   SMAC_GetSpreadingFactor
+         8   -> SX1276LoRaGetSpreadingFactor
+       0   SMAC_GetSymbolTime
+      16   SMAC_Init
+        16   -- Indirect call
+        16   -> RNG_GetRandomNo
+        16   -> RNG_Init
+        16   -> RadioDriverInit
+        16   -> TMR_AllocateTimer
+        16   -> osThreadCreate
+       0   SMAC_RegisterHandler
+       8   SMAC_RxStart
+         8   -- Indirect call
+         8   -> osSignalSet
+      16   SMAC_SetChannel
+        16   -> SX1276LoRaSetRFFrequency
+        16   -> SX1276LoRaSetSignalBandwidth
+       8   SMAC_SetCodingRate
+         8   -> SX1276LoRaSetErrorCoding
+       8   SMAC_SetContinuous
+         8   -> SX1276LoRaSetContinuous
+       8   SMAC_SetOpMode
+         8   -> SX1276SetOpMode
+       0   SMAC_SetPanID
+       8   SMAC_SetRFPower
+         8   -> SX1276LoRaSetRFPower
+       8   SMAC_SetSpreadingFactor
+         8   -> SX1276LoRaSetSpreadingFactor
+       0   SMAC_SetSrcAddress
+      16   SMAC_TxPacket
+        16   -> Transmit
+      16   SmacRetryProcess
+        16   -- Indirect call
+        16   -> RetryTransmit
+      40   SmacTask
+        40   -- Indirect call
+        40   -> Receive
+        40   -> SmacRetryProcess
+        40   -> TMR_StartSingleShotTimer
+        40   -> osSignalSet
+        40   -> osSignalWait
+       0   SmacTimerCallBack
+      64   Transmit
+        64   -- Indirect call
+        64   -> IsCcaOk
+        64   -> __aeabi_d2uiz
+        64   -> __aeabi_dadd
+        64   -> __aeabi_ddiv
+        64   -> __aeabi_dmul
+        64   -> __aeabi_dsub
+        64   -> __aeabi_f2d
+        64   -> __aeabi_i2d
+        64   -> __aeabi_memcpy
+        64   -> __aeabi_ui2d
+        64   -> ceil
+        64   -> osSignalSet
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable10
+       4  ??DataTable10_1
+       4  ??DataTable10_10
+       4  ??DataTable10_11
+       4  ??DataTable10_12
+       4  ??DataTable10_2
+       4  ??DataTable10_3
+       4  ??DataTable10_4
+       4  ??DataTable10_5
+       4  ??DataTable10_6
+       4  ??DataTable10_7
+       4  ??DataTable10_8
+       4  ??DataTable10_9
+       4  ??DataTable11
+       4  ??DataTable11_1
+       4  ??DataTable11_2
+       4  ??DataTable11_3
+       4  ??DataTable11_4
+       4  ??DataTable11_5
+       4  ??DataTable11_6
+       4  ??DataTable11_7
+       4  ??DataTable12
+       4  ??DataTable12_1
+       4  ??DataTable12_2
+       4  ??DataTable12_3
+       4  ??DataTable12_4
+       4  ??DataTable12_5
+       4  ??DataTable13
+       4  ??DataTable13_1
+       4  ??DataTable13_2
+       4  ??DataTable13_3
+       4  ??DataTable13_4
+       4  ??DataTable13_5
+       4  ??DataTable13_6
+       4  ??DataTable13_7
+       4  ??DataTable13_8
+       4  ??DataTable15
+       4  ??DataTable17
+       4  ??DataTable17_1
+       4  ??DataTable17_2
+       4  ??DataTable17_3
+       4  ??DataTable18
+       4  ??DataTable18_1
+       4  ??DataTable18_10
+       4  ??DataTable18_11
+       4  ??DataTable18_12
+       4  ??DataTable18_13
+       4  ??DataTable18_14
+       4  ??DataTable18_15
+       4  ??DataTable18_16
+       4  ??DataTable18_17
+       4  ??DataTable18_2
+       4  ??DataTable18_3
+       4  ??DataTable18_4
+       4  ??DataTable18_5
+       4  ??DataTable18_6
+       4  ??DataTable18_7
+       4  ??DataTable18_8
+       4  ??DataTable18_9
+       4  ??DataTable7
+       4  ??DataTable7_1
+       4  ??DataTable7_10
+       4  ??DataTable7_11
+       4  ??DataTable7_12
+       4  ??DataTable7_13
+       4  ??DataTable7_14
+       4  ??DataTable7_15
+       4  ??DataTable7_16
+       4  ??DataTable7_17
+       4  ??DataTable7_2
+       4  ??DataTable7_3
+       4  ??DataTable7_4
+       4  ??DataTable7_5
+       4  ??DataTable7_6
+       4  ??DataTable7_7
+       4  ??DataTable7_8
+       4  ??DataTable7_9
+       4  ??DataTable8
+       4  ??DataTable8_1
+      12  ?_0
+     142  AckTransmit
+       8  DutyTimerCallBack
+       1  DutyTmr
+       4  Radio
+     318  Receive
+       1  RetryCount
+     330  RetryTransmit
+      70  SMAC_ConfigureTxContext
+      52  SMAC_FillHeader
+     172  SMAC_GetChannel
+      14  SMAC_GetCodingRate
+      18  SMAC_GetLastPktRssi
+      14  SMAC_GetRFPower
+      18  SMAC_GetRssi
+      14  SMAC_GetSpreadingFactor
+      24  SMAC_GetSymbolTime
+     140  SMAC_Init
+      10  SMAC_RegisterHandler
+      50  SMAC_RxStart
+     134  SMAC_SetChannel
+      28  SMAC_SetCodingRate
+      16  SMAC_SetContinuous
+      28  SMAC_SetOpMode
+      10  SMAC_SetPanID
+      40  SMAC_SetRFPower
+      32  SMAC_SetSpreadingFactor
+      10  SMAC_SetSrcAddress
+      18  SMAC_TxPacket
+      66  SmacRetryProcess
+     216  SmacTask
+       8  SmacTimerCallBack
+       1  SmacTmr
+       4  ThreadId
+     530  Transmit
+     256  TxBuffer
+       1  TxSeqNum
+     240  gDataRate
+     240  gSymbolTime
+       4  iAckTmo
+       1  isAck
+       1  isAckFin
+       1  isDutyFin
+       1  isRetry
+       1  lastSendSeqNo
+      28  osThreadLink_SmacTask
+      36  osThread_SmacTask_signal
+     700  osThread_SmacTask_stack
+      32  os_thread_def_SmacTask
+       4  pHandler
+       4  rxBuffer
+       1  setBw
+       1  setCh
+       1  setSf
+       1  smacInitialized
+       4  txConfigurator
+       2  u16PanID
+       2  u16SrcAddress
+
+ 
+ 1'061 bytes in section .bss
+    32 bytes in section .data
+   492 bytes in section .rodata
+ 2'846 bytes in section .text
+ 
+ 2'846 bytes of CODE  memory
+   492 bytes of CONST memory
+ 1'093 bytes of DATA  memory
+
+Errors: none
+Warnings: 2

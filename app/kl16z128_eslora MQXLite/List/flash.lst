@@ -1,0 +1,270 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:58
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\Flash\Source\flash.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW518C.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\Flash\Source\flash.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\flash.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\flash.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\Flash\Source\flash.c
+      1          /*****************************************************************************
+      2          * flash file.
+      3          *
+      4          * (c) Copyright 2016, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          #include "flash.h"
+     13          
+     14          #if defined(__IAR_SYSTEMS_ICC__)
+     15          #pragma section = "codeRam"
+     16          #pragma location = "codeRam"
+     17          
+     18          uint8_t buffer[128];
+     19          
+     20          #pragma section = "default"
+     21          #pragma location = "default"
+     22          #elif defined(__GNUC__)
+     23          uint8_t buffer[256];
+     24          #endif
+     25          
+     26          FCC0B_STR   CommandObj;
+     27          
+     28          #define FLASH_FlashCommandSequence ((uint32_t (*)(uint8_t))&buffer[1])
+     29          
+     30          /* internal driver function */
+     31          extern uint32_t FLASH_FlashCommandSequenceStart(uint8_t index);
+     32          
+     33          /*****************************************************************************
+     34          * Init Function
+     35          *
+     36          *****************************************************************************/
+     37          void FLASH_Init( void )
+     38          {
+     39              uint32_t i;
+     40              volatile uint8_t* ptr_FlashCommandSequenceStart = ((uint8_t*)FLASH_FlashCommandSequenceStart - 1);
+     41          
+     42          #if defined(__GNUC__)
+     43          	ptr_FlashCommandSequenceStart++;
+     44          #endif
+     45          
+     46              /* initialize pointer to ram function */
+     47              /* copy function from ROM to RAM      */
+     48          #if defined(__IAR_SYSTEMS_ICC__)
+     49              for( i = 0; i < 128; i++ )
+     50          #elif defined(__GNUC__)
+     51          	for( i = 0; i < 256; i++ )
+     52          #endif
+     53              {
+     54                  buffer[i] =	*ptr_FlashCommandSequenceStart++;
+     55              }
+     56          }
+     57          
+     58          /*****************************************************************************
+     59          * Function for Programming of one Long Word
+     60          *
+     61          *****************************************************************************/
+     62          uint32_t FLASH_ProgramLongWord( uint32_t destination, uint32_t data32b )
+     63          {
+     64              /* preparing passing parameter to program the flash block */
+     65              CommandObj.regsLong.fccob3210 = destination;
+     66              CommandObj.regs.fccob0        = FLASH_PROGRAM_LONGWORD;
+     67              CommandObj.regsLong.fccob7654 = data32b;
+     68          
+     69              return( FLASH_FlashCommandSequence(PROGRAM_LONGWORD_INDEX) );
+     70          }
+     71          
+     72          /*****************************************************************************
+     73          * Function for Programming of section by simple longs
+     74          *
+     75          *****************************************************************************/
+     76          uint32_t FLASH_ProgramSectionByLongs( uint32_t destination, uint32_t* pSource, uint32_t size )
+     77          {
+     78              while( size-- )
+     79              {
+     80                  if( FLASH_ProgramLongWord(destination, *pSource++) != FLASH_OK )
+     81                  {
+     82                      return( FLASH_FAIL );
+     83                  }
+     84                  destination += 4;
+     85              }
+     86          
+     87              return( FLASH_OK );
+     88          }
+     89          
+     90          /*****************************************************************************
+     91          * Function for erasing of flash memory sector
+     92          *
+     93          *****************************************************************************/
+     94          uint32_t FLASH_EraseSector( uint32_t destination )
+     95          {
+     96              CommandObj.regsLong.fccob3210   = destination;
+     97              CommandObj.regs.fccob0          = FLASH_ERASE_SECTOR;
+     98          
+     99              return( FLASH_FlashCommandSequence(ERASE_BLOCK_INDEX) );
+    100          }
+    101          
+    102          /*****************************************************************************
+    103          * Function for Reading of one Short Word
+    104          *
+    105          *****************************************************************************/
+    106          uint16_t FLASH_ReadShortWord( uint32_t offset )
+    107          {
+    108              return( *((uint16_t*)(FLASH_PARAM_TOP + offset)) );
+    109          }
+    110          
+    111          /*****************************************************************************
+    112          * Function for Reading of one Long Word
+    113          *
+    114          *****************************************************************************/
+    115          uint32_t FLASH_ReadLongWord( uint32_t offset )
+    116          {
+    117              return( *((uint32_t*)(FLASH_PARAM_TOP + offset)) );
+    118          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   FLASH_EraseSector
+         8   -- Indirect call
+       4   FLASH_Init
+      16   FLASH_ProgramLongWord
+        16   -- Indirect call
+      16   FLASH_ProgramSectionByLongs
+        16   -> FLASH_ProgramLongWord
+       0   FLASH_ReadLongWord
+       0   FLASH_ReadShortWord
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+      12  CommandObj
+      20  FLASH_EraseSector
+      26  FLASH_Init
+      24  FLASH_ProgramLongWord
+      42  FLASH_ProgramSectionByLongs
+      10  FLASH_ReadLongWord
+      12  FLASH_ReadShortWord
+     128  buffer
+
+ 
+ 150 bytes in section .text
+ 128 bytes in section codeRam
+  12 bytes in section default
+ 
+ 150 bytes of CODE memory
+ 140 bytes of DATA memory
+
+Errors: none
+Warnings: 1

@@ -1,0 +1,402 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:58
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\ADC\Source\adc16.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW50AC.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\ADC\Source\adc16.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\adc16.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\adc16.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\ADC\Source\adc16.c
+      1          /*****************************************************************************
+      2          * adc16 file.
+      3          *
+      4          * (c) Copyright 2016, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          /*
+     13           * This file contains the following two functions:
+     14           *  1. ADC_Cal: calibrates the ADC
+     15           *  2. ADC_Config_Alt: Simply configures an ADC per a structure
+     16           *
+     17           * Typical usage: Fill the structure with the ADC and PGA register contents
+     18           * needed for the ADC usage.
+     19           * a) Call the ADC_Config_Alt function to configure an ADC, (ADC0 or ADC1)
+     20           * b) Call the ADC_Cal function to calibrate that ADC
+     21           * c) Call the ADC_Config_Alt function again to restore desired configuation
+     22           *    after a calibration
+     23           */
+     24          
+     25          #include "adc16.h"
+     26          
+     27          
+     28          tADC_Config Master_Adc_Config;
+     29          
+     30          
+     31          #if 0
+     32          /************************************************************************************
+     33          *
+     34          * ADC16_Init
+     35          *
+     36          * Interface assumptions:
+     37          *     None
+     38          *
+     39          * Return value:
+     40          *     None
+     41          *
+     42          ************************************************************************************/
+     43          void ADC16_Init( void )
+     44          {
+     45              // Turn on the ADC0 clock as well as the PDB clocks to test ADC triggered by PDB
+     46              SIM_SCGC6 |= (SIM_SCGC6_ADC0_MASK);
+     47              PMC_REGSC |= PMC_REGSC_BGBE_MASK;
+     48          
+     49              // setup the initial ADC default configuration
+     50              Master_Adc_Config.CONFIG1  = ADLPC_LOW
+     51                                         | ADC_CFG1_ADIV(ADIV_1)
+     52                                         | ADLSMP_LONG
+     53                                         | ADC_CFG1_MODE(MODE_16)
+     54                                         | ADC_CFG1_ADICLK(ADICLK_BUS);
+     55          
+     56              Master_Adc_Config.CONFIG2  = MUXSEL_ADCA
+     57                                         | ADACKEN_DISABLED
+     58                                         | ADHSC_HISPEED
+     59                                         | ADC_CFG2_ADLSTS(ADLSTS_20);
+     60          
+     61              Master_Adc_Config.COMPARE1 = 0x1234u;       // can be anything
+     62              Master_Adc_Config.COMPARE2 = 0x5678u;       // can be anything
+     63          
+     64              // since not using
+     65              // compare feature
+     66              Master_Adc_Config.STATUS2  = ADTRG_SW
+     67                                         | ACFE_DISABLED
+     68                                         | ACFGT_GREATER
+     69                                         | ACREN_DISABLED
+     70                                         | DMAEN_DISABLED
+     71                                         //| ADC_SC2_REFSEL(REFSEL_EXT);
+     72                                         | ADC_SC2_REFSEL(REFSEL_ALT);
+     73          
+     74              Master_Adc_Config.STATUS3  = CAL_OFF
+     75                                         | ADCO_SINGLE
+     76                                         | AVGE_DISABLED
+     77                                         | ADC_SC3_AVGS(AVGS_4);
+     78          
+     79              // Configure ADC as it will be used, but becuase ADC_SC1_ADCH is 31,
+     80              // the ADC will be inactive.  Channel 31 is just disable function.
+     81              // There really is no channel 31.
+     82              Master_Adc_Config.STATUS1A = AIEN_OFF
+     83                                         | DIFF_SINGLE
+     84                                         | ADC_SC1_ADCH(23);
+     85          
+     86              // config ADC
+     87              ADC_Config_Alt( ADC0_BASE_PTR, &Master_Adc_Config );
+     88          
+     89              // Calibrate the ADC in the configuration in which it will be used.
+     90              ADC_Cal( ADC0_BASE_PTR );                    // do the calibration
+     91          
+     92              // The structure still has the desired configuration.  So restore it.
+     93              // Why restore it?  The calibration makes some adjustments to the
+     94              // configuration of the ADC.  The are now undone:
+     95          
+     96              // config the ADC again to desired conditions
+     97              ADC_Config_Alt( ADC0_BASE_PTR, &Master_Adc_Config );
+     98          }
+     99          
+    100          /************************************************************************************
+    101          *
+    102          * ADC_Cal
+    103          *
+    104          * Interface assumptions:
+    105          *     ADC module pointer points to adc0 or adc1 register map base address.
+    106          *
+    107          * Return value:
+    108          *     Zero indicates success
+    109          *
+    110          * Note
+    111          *     Calibrates the ADC16.
+    112          *     Required to meet specifications after reset and before a conversion is initiated.
+    113          *
+    114          ************************************************************************************/
+    115          uint8_t ADC_Cal( ADC_MemMapPtr adcmap )
+    116          {
+    117              unsigned short cal_var;
+    118          
+    119              // Enable Software Conversion Trigger for Calibration Process
+    120              ADC_SC2_REG(adcmap) &=  ~ADC_SC2_ADTRG_MASK;
+    121          
+    122              // set single conversion, clear avgs bitfield for next writing
+    123              ADC_SC3_REG(adcmap) &= ( ~ADC_SC3_ADCO_MASK & ~ADC_SC3_AVGS_MASK );
+    124          
+    125              // Turn averaging ON and set at max value ( 32 )
+    126              ADC_SC3_REG(adcmap) |= ( ADC_SC3_AVGE_MASK | ADC_SC3_AVGS(AVGS_32) );
+    127          
+    128              // Start CAL
+    129              ADC_SC3_REG(adcmap) |= ADC_SC3_CAL_MASK ;
+    130          
+    131              // Wait calibration end
+    132              while( (ADC_SC1_REG(adcmap, A) & ADC_SC1_COCO_MASK) == COCO_NOT );
+    133          
+    134              if( (ADC_SC3_REG(adcmap) & ADC_SC3_CALF_MASK) == CALF_FAIL )
+    135              {
+    136                  return(1);    // Check for Calibration fail error and return
+    137              }
+    138          
+    139              // Calculate plus-side calibration
+    140              cal_var = 0x00;
+    141              cal_var =  ADC_CLP0_REG(adcmap);
+    142              cal_var += ADC_CLP1_REG(adcmap);
+    143              cal_var += ADC_CLP2_REG(adcmap);
+    144              cal_var += ADC_CLP3_REG(adcmap);
+    145              cal_var += ADC_CLP4_REG(adcmap);
+    146              cal_var += ADC_CLPS_REG(adcmap);
+    147          
+    148              cal_var = cal_var / 2;
+    149              cal_var |= 0x8000; // Set MSB
+    150          
+    151              ADC_PG_REG(adcmap) = ADC_PG_PG(cal_var);
+    152          
+    153              // Calculate minus-side calibration
+    154              cal_var = 0x00;
+    155              cal_var =  ADC_CLM0_REG(adcmap);
+    156              cal_var += ADC_CLM1_REG(adcmap);
+    157              cal_var += ADC_CLM2_REG(adcmap);
+    158              cal_var += ADC_CLM3_REG(adcmap);
+    159              cal_var += ADC_CLM4_REG(adcmap);
+    160              cal_var += ADC_CLMS_REG(adcmap);
+    161          
+    162              cal_var = cal_var / 2;
+    163              cal_var |= 0x8000; // Set MSB
+    164          
+    165              ADC_MG_REG(adcmap) = ADC_MG_MG(cal_var);
+    166          
+    167              ADC_SC3_REG(adcmap) &= ~ADC_SC3_CAL_MASK ; /* Clear CAL bit */
+    168          
+    169              return( 0 );
+    170          }
+    171          
+    172          /************************************************************************************
+    173          *
+    174          * ADC_Config_Alt
+    175          *
+    176          * Interface assumptions:
+    177          *     the register values to be set in the adc in a structure
+    178          *
+    179          * Return value:
+    180          *     None
+    181          *
+    182          * Note
+    183          *     Configures ADC0 or ADC1 depending on adcmap
+    184          *     Prior to calling this function populate the structure
+    185          *     elements with the desired ADC configuration.
+    186          *
+    187          ************************************************************************************/
+    188          void ADC_Config_Alt( ADC_MemMapPtr adcmap, tADC_ConfigPtr ADC_CfgPtr )
+    189          {
+    190              ADC_CFG1_REG(adcmap)    = ADC_CfgPtr->CONFIG1;
+    191              ADC_CFG2_REG(adcmap)    = ADC_CfgPtr->CONFIG2;
+    192              ADC_CV1_REG(adcmap)     = ADC_CfgPtr->COMPARE1;
+    193              ADC_CV2_REG(adcmap)     = ADC_CfgPtr->COMPARE2;
+    194              ADC_SC2_REG(adcmap)     = ADC_CfgPtr->STATUS2;
+    195              ADC_SC3_REG(adcmap)     = ADC_CfgPtr->STATUS3;
+    196              //ADC_PGA_REG(adcmap)     = ADC_CfgPtr->PGA;  pbd
+    197              ADC_SC1_REG(adcmap,A)   = ADC_CfgPtr->STATUS1A;
+    198              ADC_SC1_REG(adcmap,B)   = ADC_CfgPtr->STATUS1B;
+    199          }
+    200          
+    201          /************************************************************************************
+    202          *
+    203          * ADC_Read_Cal
+    204          *
+    205          * Interface assumptions:
+    206          *     ADC module pointer points to adc0 or adc1 register map base address.
+    207          *
+    208          * Return value:
+    209          *     None
+    210          *
+    211          ************************************************************************************/
+    212          void ADC_Read_Cal( ADC_MemMapPtr adcmap, tADC_Cal_Blk *blk )
+    213          {
+    214              blk->OFS  = ADC_OFS_REG(adcmap);
+    215              blk->PG   = ADC_PG_REG(adcmap);
+    216              blk->MG   = ADC_MG_REG(adcmap);
+    217              blk->CLPD = ADC_CLPD_REG(adcmap);
+    218              blk->CLPS = ADC_CLPS_REG(adcmap);
+    219              blk->CLP4 = ADC_CLP4_REG(adcmap);
+    220              blk->CLP3 = ADC_CLP3_REG(adcmap);
+    221              blk->CLP2 = ADC_CLP2_REG(adcmap);
+    222              blk->CLP1 = ADC_CLP1_REG(adcmap);
+    223              blk->CLP0 = ADC_CLP0_REG(adcmap);
+    224              blk->CLMD = ADC_CLMD_REG(adcmap);
+    225              blk->CLMS = ADC_CLMS_REG(adcmap);
+    226              blk->CLM4 = ADC_CLM4_REG(adcmap);
+    227              blk->CLM3 = ADC_CLM3_REG(adcmap);
+    228              blk->CLM2 = ADC_CLM2_REG(adcmap);
+    229              blk->CLM1 = ADC_CLM1_REG(adcmap);
+    230              blk->CLM0 = ADC_CLM0_REG(adcmap);
+    231          }
+    232          
+    233          /************************************************************************************
+    234          *
+    235          * TriggerADC
+    236          *
+    237          * Interface assumptions:
+    238          *     ADC module pointer points to adc0 or adc1 register map base address.
+    239          *
+    240          * Return value:
+    241          *     None
+    242          *
+    243          ************************************************************************************/
+    244          uint8_t TriggerADC( uint8_t Channel )
+    245          {
+    246              // Bandgap is selected as input
+    247              if( Channel == 0x1B )
+    248              {
+    249                  // Bandgap buffer enabled
+    250                  PMC_REGSC |= PMC_REGSC_BGBE_MASK;
+    251              }
+    252          
+    253              // update the channel value
+    254              ADC0_SC1A = Channel;
+    255          
+    256              return( 1 );
+    257          }
+    258          
+    259          /************************************************************************************
+    260          *
+    261          * ReadADCPoll
+    262          *
+    263          * Interface assumptions:
+    264          *     None
+    265          *
+    266          * Return value:
+    267          *     Read Value
+    268          *
+    269          ************************************************************************************/
+    270          uint32_t ReadADCPoll( void )
+    271          {
+    272              while( (ADC0_SC1A & ADC_SC1_COCO_MASK) == 0 );
+    273          
+    274              //ADC0_SC1A &= ~ ADC0_SC1A_COCO_MASK;
+    275          
+    276              return( ADC0_RA );
+    277          }
+    278          #endif
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      16  Master_Adc_Config
+
+ 
+ 16 bytes in section .bss
+ 
+ 16 bytes of DATA memory
+
+Errors: none
+Warnings: none

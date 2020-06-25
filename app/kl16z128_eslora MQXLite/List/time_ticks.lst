@@ -1,0 +1,1265 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:03
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\time_ticks.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW64EB.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\time_ticks.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\time_ticks.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\time_ticks.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\time_ticks.c
+      1          /*HEADER**********************************************************************
+      2           *
+      3           * Copyright (c) 2008 Freescale Semiconductor;
+      4           * All Rights Reserved
+      5           *
+      6           * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7           * All Rights Reserved
+      8           *
+      9           * Copyright (c) 1989-2008 ARC International;
+     10           * All Rights Reserved
+     11           *
+     12           *****************************************************************************
+     13           *
+     14           * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15           * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16           * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17           * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18           * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20           * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21           * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22           * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23           * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24           * THE POSSIBILITY OF SUCH DAMAGE.
+     25           *
+     26           *****************************************************************************
+     27           *
+     28           * $FileName: time.c$
+     29           * $Version : 3.8.0.3$
+     30           * $Date    : Mar-14-2012$
+     31           *
+     32           * Comments:
+     33           *
+     34           *END************************************************************************/
+     35          
+     36          #include "mqx_inc.h"
+     37          
+     38          //#include "timer.h"
+     39          //#include "timer_prv.h"
+     40          /*
+     41           *  CR171 & CR172
+     42           *
+     43           *  For a time delay queues we insert the task into the queue after
+     44           *  all tasks of the same delay period.  We do not need to do this, we
+     45           *  can just insert the task into the queue before the task waiting
+     46           *  for the same time, as all tasks will be activated anyways.
+     47           *  Running the queues takes a long time, and is done with interrupts
+     48           *  disabled.  There will be a slight behavioural difference in that
+     49           *  two tasks that delay for the same time at the same priority level,
+     50           *  will not run in the order that they called delay.
+     51           *
+     52           *  Set the following define to 1 if you want the original FIFO
+     53           *  behavior where tasks are activated from the time delay queue into
+     54           *  the ready queue in FIFO order (longer enqueue search with
+     55           *  interrupts disabled).
+     56           */
+     57          #ifndef MQX_DELAY_ENQUEUE_FIFO_ORDER
+     58          #define MQX_DELAY_ENQUEUE_FIFO_ORDER    0  /* 0=LIFO, 1=FIFO */
+     59          #endif
+     60          #if MQX_DELAY_ENQUEUE_FIFO_ORDER
+     61          #define MQX_DELAY_ENQUEUE_POLICY(result)  (result > 0)  /* FIFO original */
+     62          #else
+     63          #define MQX_DELAY_ENQUEUE_POLICY(result)  (result >= 0) /* LIFO faster */
+     64          #endif
+     65          
+     66          #if MQX_HAS_TICK
+     67          /*!
+     68           * \brief Suspends the active task for the number of ticks (in tick time).
+     69           *
+     70           * The functions put the active task in the timeout queue for the specified time.
+     71           * \n Before the time expires, any task can remove the task from the timeout queue
+     72           * by calling _time_dequeue().
+     73           *
+     74           * \param[in] ticks Pointer to the minimum number of ticks to suspend the task.
+     75           *
+     76           * \warning Blocks the calling task.
+     77           *
+     78           * \see _time_delay
+     79           * \see _time_delay_ticks
+     80           * \see _time_delay_until
+     81           * \see _time_dequeue
+     82           * \see MQX_TICK_STRUCT
+     83           */
+     84          void _time_delay_for
+     85          (
+     86              register MQX_TICK_STRUCT_PTR ticks
+     87          )
+     88          { /* Body */
+     89              register KERNEL_DATA_STRUCT_PTR kernel_data;
+     90              register TD_STRUCT_PTR td_ptr;
+     91          
+     92              _GET_KERNEL_DATA(kernel_data);
+     93          
+     94              _KLOGE2(KLOG_time_delay_for, ticks);
+     95          
+     96          #if MQX_CHECK_ERRORS
+     97              if (ticks == NULL) {
+     98                  _task_set_error(MQX_INVALID_PARAMETER);
+     99                  _KLOGX2(KLOG_time_delay_for, MQX_INVALID_PARAMETER);
+    100                  return;
+    101              } /* Endif */
+    102          #endif
+    103          
+    104              td_ptr = kernel_data->ACTIVE_PTR;
+    105          
+    106              _INT_DISABLE();
+    107          
+    108              /* Calculate time to wake up the task */
+    109              PSP_ADD_TICKS(ticks, &kernel_data->TIME, &td_ptr->TIMEOUT);
+    110          
+    111              _time_delay_internal(td_ptr);
+    112          
+    113              _INT_ENABLE();
+    114          
+    115              _KLOGX1( KLOG_time_delay_for);
+    116          
+    117          } /* Endbody */
+    118          
+    119          #endif /* MQX_HAS_TICK */
+    120          
+    121          #if MQX_HAS_TICK
+    122          /*!
+    123           * \private
+    124           *
+    125           * \brief Suspends the active task.
+    126           *
+    127           * This function puts a task on the timeout queue for the specified number of
+    128           * ticks, or until removed by another task. Must be called int disabled.
+    129           *
+    130           * \param[in] td_ptr Pointer to the task to delay.
+    131           *
+    132           * \see TD_STRUCT
+    133           */
+    134          void _time_delay_internal
+    135             (
+    136                register TD_STRUCT_PTR td_ptr
+    137             )
+    138          { /* Body */
+    139             register KERNEL_DATA_STRUCT_PTR  kernel_data;
+    140             register TD_STRUCT_PTR           td2_ptr;
+    141             register TD_STRUCT_PTR           tdprev_ptr;
+    142             register _mqx_uint               count;
+    143             register _mqx_int                result;
+    144          
+    145             _GET_KERNEL_DATA(kernel_data);
+    146          
+    147             /* Remove task from ready to run queue */
+    148             tdprev_ptr = (TD_STRUCT_PTR)((pointer)&kernel_data->TIMEOUT_QUEUE);
+    149             if ( _QUEUE_GET_SIZE(&kernel_data->TIMEOUT_QUEUE) ) {
+    150          
+    151                /* Perform insertion sort by time */
+    152                td2_ptr    = (TD_STRUCT_PTR)((pointer)kernel_data->TIMEOUT_QUEUE.NEXT);
+    153          
+    154                /* SPR P171-0023-01 use pre-decrement on while loop */
+    155                count      = _QUEUE_GET_SIZE(&kernel_data->TIMEOUT_QUEUE) + 1;
+    156                while ( --count ) {
+    157                /* END SPR */
+    158                   result = PSP_CMP_TICKS(&td2_ptr->TIMEOUT, &td_ptr->TIMEOUT);
+    159                   if (MQX_DELAY_ENQUEUE_POLICY(result)) {
+    160                      /* Enqueue before td2_ptr */
+    161                      break;
+    162                   } /* Endif */
+    163          
+    164                   tdprev_ptr = td2_ptr;
+    165                   td2_ptr    = td2_ptr->TD_NEXT;
+    166                } /* Endwhile */
+    167          
+    168             } /* Endif */
+    169          
+    170             /* Remove from ready queue */
+    171             _QUEUE_UNLINK(td_ptr);
+    172          
+    173             /* Insert into timeout queue */
+    174             _QUEUE_INSERT(&kernel_data->TIMEOUT_QUEUE,tdprev_ptr,td_ptr);
+    175          
+    176             td_ptr->STATE |= IS_ON_TIMEOUT_Q;
+    177          
+    178             _sched_execute_scheduler_internal();
+    179          
+    180          } /* Endbody */
+    181          #endif /* MQX_HAS_TICK */
+    182          
+    183          #if MQX_HAS_TICK
+    184          /*!
+    185           * \brief Suspends the active task for the number of ticks.
+    186           *
+    187           * The functions put the active task in the timeout queue for the specified time.
+    188           * \n Before the time expires, any task can remove the task from the timeout queue
+    189           * by calling _time_dequeue().
+    190           *
+    191           * \param[in] time_in_ticks Minimum number of ticks to suspend the task.
+    192           *
+    193           * \warning Blocks the calling task.
+    194           *
+    195           * \see _time_delay
+    196           * \see _time_delay_for
+    197           * \see _time_delay_until
+    198           * \see _time_dequeue
+    199           */
+    200          void _time_delay_ticks
+    201          (
+    202              register _mqx_uint time_in_ticks
+    203          )
+    204          { /* Body */
+    205              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    206              register TD_STRUCT_PTR td_ptr;
+    207          
+    208          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    209              if (MQX_RUN_IN_USER_MODE) {
+    210                  _usr_time_delay_ticks(time_in_ticks);
+    211                  return;
+    212              }
+    213          #endif
+    214          
+    215              _GET_KERNEL_DATA(kernel_data);
+    216          
+    217              _KLOGE2(KLOG_time_delay_ticks, time_in_ticks);
+    218          
+    219              if ( !time_in_ticks ) {
+    220                  _KLOGX1(KLOG_time_delay_ticks);
+    221                  return;
+    222              } /* Endif */
+    223          
+    224              td_ptr = kernel_data->ACTIVE_PTR;
+    225          
+    226              _INT_DISABLE();
+    227          
+    228              PSP_ADD_TICKS_TO_TICK_STRUCT(&kernel_data->TIME, time_in_ticks, &td_ptr->TIMEOUT);
+    229          
+    230              _time_delay_internal(td_ptr);
+    231          
+    232              _INT_ENABLE();
+    233              _KLOGX1(KLOG_time_delay_ticks);
+    234          
+    235          }
+    236          
+    237          #if MQX_ENABLE_USER_MODE
+    238          /*!
+    239           * \brief Suspends the active task for the number of ticks.
+    240           *
+    241           * This function is an equivalent to the _time_delay_ticks() API call but it can
+    242           * be executed from within the User task or other code running in the CPU User
+    243           * mode. Parameters passed to this function by pointer are required to meet the
+    244           * memory protection requirements as described in the parameter list below.
+    245           *
+    246           * \param[in] time_in_ticks Minimum number of ticks to suspend the task.
+    247           *
+    248           * \warning Blocks the calling task.
+    249           *
+    250           * \see _time_delay_ticks
+    251           * \see _usr_time_delay
+    252           * \see _usr_time_get_elapsed_ticks
+    253           */
+    254          void _usr_time_delay_ticks
+    255          (
+    256              register _mqx_uint time_in_ticks
+    257          )
+    258          {
+    259              MQX_API_CALL_PARAMS params = {(uint_32)time_in_ticks, 0, 0, 0, 0};
+    260              _mqx_api_call(MQX_API_TIME_DELAY_TICKS, &params);
+    261          }
+    262          
+    263          #endif /* MQX_ENABLE_USER_MODE */
+    264          #endif /* MQX_HAS_TICK */
+    265          
+    266          #if MQX_HAS_TICK
+    267          /*!
+    268           * \brief Suspends the active task until the specified time (in tick time).
+    269           *
+    270           * The functions put the active task in the timeout queue until the specified tick
+    271           * count is reached.
+    272           * \n Before the time expires, any task can remove the task from the timeout queue
+    273           * by calling _time_dequeue().
+    274           *
+    275           * \param[in] ticks Pointer to the time (in tick time) until which to suspend the task.
+    276           *
+    277           * \warning Blocks the calling task.
+    278           *
+    279           * \see _time_delay
+    280           * \see _time_delay_for
+    281           * \see _time_delay_ticks
+    282           * \see _time_dequeue
+    283           * \see MQX_TICK_STRUCT
+    284           */
+    285          void _time_delay_until
+    286          (
+    287              register MQX_TICK_STRUCT_PTR ticks
+    288          )
+    289          { /* Body */
+    290              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    291              register TD_STRUCT_PTR td_ptr;
+    292          
+    293              _GET_KERNEL_DATA(kernel_data);
+    294          
+    295              _KLOGE2(KLOG_time_delay_until, ticks);
+    296          
+    297          #if MQX_CHECK_ERRORS
+    298              if (ticks == NULL) {
+    299                  _task_set_error(MQX_INVALID_PARAMETER);
+    300                  _KLOGX2(KLOG_time_delay_until, MQX_INVALID_PARAMETER);
+    301                  return;
+    302              } /* Endif */
+    303          #endif
+    304          
+    305              td_ptr = kernel_data->ACTIVE_PTR;
+    306          
+    307              /* Calculate time to wake up the task */
+    308              td_ptr->TIMEOUT = *ticks;
+    309          
+    310              _INT_DISABLE();
+    311          
+    312              _time_delay_internal(td_ptr);
+    313          
+    314              _INT_ENABLE();
+    315          
+    316              _KLOGX1(KLOG_time_delay_until);
+    317          
+    318          } /* Endbody */
+    319          
+    320          #endif /* MQX_HAS_TICK */
+    321          
+    322          /*!
+    323           * \brief Get the difference between two tick times.
+    324           *
+    325           * \param[in]  end_tick_ptr   Pointer to the normalized end time, which must be
+    326           * greater than the start time.
+    327           * \param[in]  start_tick_ptr Pointer to the normalized start time in tick time.
+    328           * \param[out] diff_tick_ptr  Pointer to the time difference (the time is normalized).
+    329           *
+    330           * \return MQX_OK
+    331           * \return MQX_INVALID_PARAMETER (One or more pointers are NULL.)
+    332           *
+    333           * \see _time_diff
+    334           * \see _time_diff_days
+    335           * \see _time_diff_hours
+    336           * \see _time_diff_minutes
+    337           * \see _time_diff_seconds
+    338           * \see _time_diff_milliseconds
+    339           * \see _time_diff_microseconds
+    340           * \see _time_diff_nanoseconds
+    341           * \see _time_diff_picoseconds
+    342           * \see _time_get
+    343           * \see _time_get_ticks
+    344           * \see _time_set
+    345           * \see _time_set_ticks
+    346           * \see MQX_TICK_STRUCT
+    347           */
+    348          _mqx_uint _time_diff_ticks
+    349          (
+    350              MQX_TICK_STRUCT_PTR end_tick_ptr,
+    351              MQX_TICK_STRUCT_PTR start_tick_ptr,
+    352              MQX_TICK_STRUCT_PTR diff_tick_ptr
+    353          )
+    354          { /* Body */
+    355          
+    356          #if MQX_CHECK_ERRORS
+    357              if ((end_tick_ptr == NULL) || (start_tick_ptr == NULL) ||
+    358                              (diff_tick_ptr == NULL))
+    359              {
+    360                  return MQX_INVALID_PARAMETER;
+    361              } /* Endif */
+    362          #endif
+    363          
+    364              PSP_SUB_TICKS(end_tick_ptr, start_tick_ptr, diff_tick_ptr);
+    365          
+    366              return MQX_OK;
+    367          
+    368          } /* Endbody */
+    369          
+    370          /*!
+    371           * \brief Get the difference between two tick times and clamps result into int_32 interval.
+    372           *
+    373           * \param[in]  end_tick_ptr   Pointer to the normalized end time (in ticks), which must be
+    374           * greater than the start time.
+    375           * \param[in]  start_tick_ptr Pointer to the normalized start time (in ticks).
+    376           * \param[out] overflow_ptr   Set to TRUE if overflow occurs.
+    377           *
+    378           * \return Difference between the times as int_32 (<-(MAX_INT_32 + 1), MAX_INT_32>).
+    379           *
+    380           * \see _time_diff_ticks
+    381           * \see _time_diff
+    382           * \see _time_diff_days
+    383           * \see _time_diff_hours
+    384           * \see _time_diff_minutes
+    385           * \see _time_diff_seconds
+    386           * \see _time_diff_milliseconds
+    387           * \see _time_diff_microseconds
+    388           * \see _time_diff_nanoseconds
+    389           * \see _time_diff_picoseconds
+    390           * \see _time_get
+    391           * \see _time_get_ticks
+    392           * \see _time_set
+    393           * \see _time_set_ticks
+    394           * \see MQX_TICK_STRUCT
+    395           */
+    396          int_32 _time_diff_ticks_int32
+    397          (
+    398              MQX_TICK_STRUCT_PTR end_tick_ptr,
+    399              MQX_TICK_STRUCT_PTR start_tick_ptr,
+    400              boolean _PTR_ overflow_ptr
+    401          )
+    402          { /* Body */
+    403          
+    404          #if MQX_CHECK_ERRORS
+    405              if ((end_tick_ptr == NULL) || (start_tick_ptr == NULL))
+    406              {
+    407                  if (overflow_ptr != NULL) *overflow_ptr = TRUE;
+    408                  return MAX_INT_32;
+    409              } /* Endif */
+    410          #endif
+    411          
+    412              return (PSP_SUB_TICKS_INT32(end_tick_ptr, start_tick_ptr, overflow_ptr));
+    413          } /* Endbody */
+    414          
+    415          /*!
+    416           * \brief Removes the task (specified by task ID) from the timeout queue.
+    417           *
+    418           * The function removes from the timeout queue a task that has put itself there
+    419           * for a period of time (_time_delay()).
+    420           * \n If tid is invalid or represents a task that is on another processor, the
+    421           * function does nothing.
+    422           * \n A task that calls the function must subsequently put the task in the task's
+    423           * ready queue with _task_ready().
+    424           *
+    425           * \param[in] tid Task ID of the task to be removed from the timeout queue.
+    426           *
+    427           * \warning Removes the task from the timeout queue, but does not put it in the
+    428           * task's ready queue.
+    429           *
+    430           * \see _task_ready
+    431           * \see _time_delay
+    432           * \see _time_delay_for
+    433           * \see _time_delay_ticks
+    434           * \see _time_delay_until
+    435           * \see _time_dequeue_td
+    436           */
+    437          void _time_dequeue
+    438          (
+    439              _task_id tid
+    440          )
+    441          { /* Body */
+    442              KERNEL_DATA_STRUCT_PTR kernel_data;
+    443              TD_STRUCT_PTR td_ptr;
+    444          
+    445              _GET_KERNEL_DATA(kernel_data);
+    446          
+    447              _KLOGE2(KLOG_time_dequeue, tid);
+    448          
+    449              td_ptr = (TD_STRUCT_PTR) _task_get_td(tid);
+    450              if (td_ptr == NULL) {
+    451                  _KLOGX1( KLOG_time_dequeue);
+    452                  return;
+    453              }/* Endif */
+    454          
+    455              _int_disable();
+    456              _TIME_DEQUEUE(td_ptr, kernel_data);
+    457              _int_enable();
+    458          
+    459              _KLOGX1( KLOG_time_dequeue);
+    460          
+    461          } /* Endbody */
+    462          
+    463          /*!
+    464           * \brief Removes the task (specified by task descriptor) from the timeout queue.
+    465           *
+    466           * \param[in] td Pointer to the task descriptor of the task to be removed from
+    467           * the timeout queue.
+    468           *
+    469           * \warning Removes the task from the timeout queue; does not put it in the task's
+    470           * ready queue.
+    471           *
+    472           * \see _task_ready
+    473           * \see _time_delay
+    474           * \see _time_delay_for
+    475           * \see _time_delay_ticks
+    476           * \see _time_delay_until
+    477           * \see _time_dequeue
+    478           */
+    479          void _time_dequeue_td
+    480          (
+    481              pointer td
+    482          )
+    483          { /* Body */
+    484              KERNEL_DATA_STRUCT_PTR kernel_data;
+    485              TD_STRUCT_PTR td_ptr = (TD_STRUCT_PTR) td;
+    486          
+    487              _GET_KERNEL_DATA(kernel_data);
+    488          
+    489              _KLOGE2(KLOG_time_dequeue_td, td);
+    490          
+    491              _int_disable();
+    492              _TIME_DEQUEUE(td_ptr, kernel_data);
+    493              _int_enable();
+    494          
+    495              _KLOGX1( KLOG_time_dequeue_td);
+    496          
+    497          } /* Endbody */
+    498          
+    499          /*!
+    500           * \brief Get the time elapsed since MQX started in tick time.
+    501           *
+    502           * The function always returns elapsed time; it is not affected by _time_set() or
+    503           * _time_set_ticks().
+    504           *
+    505           * \param[in,out] tick_ptr Where to store the elapsed tick time.
+    506           *
+    507           * \see _time_get_elapsed
+    508           * \see _time_get
+    509           * \see _time_get_ticks
+    510           * \see _time_set
+    511           * \see _time_set_ticks
+    512           * \see _time_get_elapsed_ticks_fast
+    513           * \see MQX_TICK_STRUCT
+    514           */
+    515          void _time_get_elapsed_ticks
+    516          (
+    517              MQX_TICK_STRUCT_PTR tick_ptr
+    518          )
+    519          {
+    520              KERNEL_DATA_STRUCT_PTR kernel_data;
+    521          
+    522          #if MQX_CHECK_ERRORS
+    523              if ( tick_ptr == NULL ) {
+    524                  return;
+    525              }
+    526          #endif
+    527          
+    528          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    529              if (MQX_RUN_IN_USER_MODE) {
+    530                  _usr_time_get_elapsed_ticks(tick_ptr);
+    531                  return;
+    532              }
+    533          #endif
+    534          
+    535              _GET_KERNEL_DATA(kernel_data);
+    536          
+    537              _INT_DISABLE();
+    538          
+    539              *tick_ptr = kernel_data->TIME;
+    540          
+    541              if (kernel_data->GET_HWTICKS) {
+    542                  /* The hardware clock may have counted passed it's reference
+    543                   * and have an interrupt pending.  Thus, HW_TICKS may exceed
+    544                   * kernel_data->HW_TICKS_PER_TICK and this tick_ptr may need
+    545                   * normalizing.  This is done in a moment.
+    546                   */
+    547                  tick_ptr->HW_TICKS = (*kernel_data->GET_HWTICKS)(kernel_data->GET_HWTICKS_PARAM);
+    548              } /* Endif */
+    549          
+    550              /* The timer ISR may go off and increment kernel_data->TIME */
+    551              _INT_ENABLE();
+    552          
+    553              /* The tick_ptr->HW_TICKS value might exceed the
+    554               * kernel_data->HW_TICKS_PER_TICK and need to be
+    555               * normalized for the PSP.
+    556               */
+    557              PSP_NORMALIZE_TICKS(tick_ptr);
+    558          
+    559          }
+    560          
+    561          #if MQX_ENABLE_USER_MODE
+    562          /*!
+    563           * \brief Get the time elapsed since MQX started in tick time.
+    564           *
+    565           * This function is an equivalent to the _time_get_elapsed_ticks() API call but
+    566           * it can be executed from within the User task or other code running in the CPU
+    567           * User mode. Parameters passed to this function by pointer are required to meet
+    568           * the memory protection requirements as described in the parameter list below.
+    569           *
+    570           * \param[in,out] tick_ptr Read/write. Where to store the elapsed tick time.
+    571           *
+    572           * \see _time_get_elapsed_ticks
+    573           * \see _usr_time_delay
+    574           * \see _usr_time_delay_ticks
+    575           * \see MQX_TICK_STRUCT
+    576           */
+    577          void _usr_time_get_elapsed_ticks
+    578          (
+    579              MQX_TICK_STRUCT_PTR tick_ptr
+    580          )
+    581          {
+    582              MQX_API_CALL_PARAMS params = {(uint_32)tick_ptr, 0, 0, 0, 0};
+    583              _mqx_api_call(MQX_API_TIME_GET_ELAPSED_TICKS, &params);
+    584          }
+    585          
+    586          #endif /* MQX_ENABLE_USER_MODE */
+    587          
+    588          #if MQX_HAS_TICK
+    589          /*!
+    590           * \brief Get the time elapsed since MQX started in tick time.
+    591           *
+    592           * The function always returns elapsed time; it is not affected by _time_set() or
+    593           * _time_set_ticks().
+    594           * \n The only difference between _time_get_elapsed_ticks_fast and
+    595           * _time_get_elapsed_ticks is that this one is supposed to be called from code
+    596           * with interrupts DISABLED. Do not use this function with interrupts ENABLED.
+    597           *
+    598           * \param[in,out] tick_ptr Where to store the elapsed tick time.
+    599           *
+    600           * \see _time_get_elapsed_ticks
+    601           * \see _time_get
+    602           * \see _time_get_ticks
+    603           * \see _time_set
+    604           * \see _time_set_ticks
+    605           * \see MQX_TICK_STRUCT
+    606           */
+    607          void _time_get_elapsed_ticks_fast
+    608          (
+    609              MQX_TICK_STRUCT_PTR tick_ptr
+    610          )
+    611          { /* Body */
+    612              KERNEL_DATA_STRUCT_PTR kernel_data;
+    613          
+    614          #if MQX_CHECK_ERRORS
+    615              if ( tick_ptr == NULL ) {
+    616                  return;
+    617              } /* Endif */
+    618          #endif
+    619          
+    620              _GET_KERNEL_DATA(kernel_data);
+    621          
+    622              *tick_ptr = kernel_data->TIME;
+    623          
+    624              if (kernel_data->GET_HWTICKS) {
+    625                  /* The hardware clock may have counted passed it's reference
+    626                   * and have an interrupt pending.  Thus, HW_TICKS may exceed
+    627                   * kernel_data->HW_TICKS_PER_TICK and this tick_ptr may need
+    628                   * normalizing.  This is done in a moment.
+    629                   */
+    630                  tick_ptr->HW_TICKS = (*kernel_data->GET_HWTICKS)(kernel_data->GET_HWTICKS_PARAM);
+    631              } /* Endif */
+    632          
+    633              /* The tick_ptr->HW_TICKS value might exceed the
+    634               * kernel_data->HW_TICKS_PER_TICK and need to be
+    635               * normalized for the PSP.
+    636               */
+    637              PSP_NORMALIZE_TICKS(tick_ptr);
+    638          
+    639          } /* Endbody */
+    640          #endif /* MQX_HAS_TICK */
+    641          
+    642          #if MQX_HAS_HW_TICKS
+    643          /*!
+    644           * \brief Gets the number of hardware ticks since the last tick.
+    645           *
+    646           * \return Number of hardware ticks since the last tick.
+    647           *
+    648           * \see _time_get_hwticks_per_tick
+    649           * \see _time_set_hwticks_per_tick
+    650           */
+    651          uint_32 _time_get_hwticks
+    652          (
+    653              void
+    654          )
+    655          { /* Body */
+    656              KERNEL_DATA_STRUCT_PTR kernel_data;
+    657          
+    658              _GET_KERNEL_DATA(kernel_data);
+    659          
+    660              if (kernel_data->GET_HWTICKS) {
+    661                  return (*kernel_data->GET_HWTICKS)(kernel_data->GET_HWTICKS_PARAM);
+    662              } /* Endif */
+    663          
+    664              return 0;
+    665          
+    666          } /* Endbody */
+    667          #endif /* MQX_HAS_HW_TICKS */
+    668          
+    669          #if MQX_HAS_TICK
+    670          /*!
+    671           * \brief Get the absolute time in tick time.
+    672           *
+    673           * If the application changed the absolute time with _time_set_ticks(),
+    674           * _time_get_ticks() returns the time that was set plus the number of  ticks since
+    675           * the time was set.
+    676           * \n If the application has not changed the absolute time with _time_set_ticks(),
+    677           * _time_get_ticks() returns the same as _time_get_elapsed_ticks(), which is the
+    678           * number of ticks since MQX started.
+    679           *
+    680           * \param[in,out] tick_ptr Where to store the absolute time in tick time.
+    681           *
+    682           * \see _time_get
+    683           * \see _time_get_elapsed
+    684           * \see _time_get_elapsed_ticks
+    685           * \see _time_set
+    686           * \see _time_set_ticks
+    687           * \see MQX_TICK_STRUCT
+    688           */
+    689          void _time_get_ticks
+    690          (
+    691              register MQX_TICK_STRUCT_PTR tick_ptr
+    692          )
+    693          { /* Body */
+    694              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    695          
+    696          #if MQX_CHECK_ERRORS
+    697              if ( tick_ptr == NULL ) {
+    698                  return;
+    699              } /* Endif */
+    700          #endif
+    701          
+    702              _GET_KERNEL_DATA(kernel_data);
+    703          
+    704              _INT_DISABLE();
+    705          
+    706              *tick_ptr = kernel_data->TIME;
+    707          
+    708              /* The hardware clock keeps counting... */
+    709          
+    710              if (kernel_data->GET_HWTICKS) {
+    711                  /* The hardware clock may have counted passed it's reference
+    712                   * and have an interrupt pending.  Thus, HW_TICKS may exceed
+    713                   * kernel_data->HW_TICKS_PER_TICK and this tick_ptr may need
+    714                   * normalizing.  This is done in a moment.
+    715                   */
+    716                  tick_ptr->HW_TICKS = (*kernel_data->GET_HWTICKS)(kernel_data->GET_HWTICKS_PARAM);
+    717              } /* Endif */
+    718          
+    719              PSP_ADD_TICKS(tick_ptr, &kernel_data->TIME_OFFSET, tick_ptr);
+    720          
+    721              /* The timer ISR may go off and increment kernel_data->TIME */
+    722              _INT_ENABLE();
+    723          
+    724              /* The tick_ptr->HW_TICKS value might exceed the
+    725               * kernel_data->HW_TICKS_PER_TICK and need to be
+    726               * normalized for the PSP.
+    727               */
+    728              PSP_NORMALIZE_TICKS(tick_ptr);
+    729          
+    730          } /* Endbody */
+    731          #endif /* MQX_HAS_TICK */
+    732          
+    733          #if MQX_HAS_HW_TICKS
+    734          /*!
+    735           * \brief Gets the number of hardware ticks per tick.
+    736           *
+    737           * \return Number of hardware ticks per tick.
+    738           *
+    739           * \see _time_set_hwticks_per_tick
+    740           * \see _time_get_hwticks
+    741           */
+    742          uint_32 _time_get_hwticks_per_tick
+    743          (
+    744              void
+    745          )
+    746          { /* Body */
+    747              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    748          
+    749              _GET_KERNEL_DATA(kernel_data);
+    750          
+    751              return kernel_data->HW_TICKS_PER_TICK;
+    752          
+    753          } /* Endbody */
+    754          #endif /* MQX_HAS_HW_TICKS */
+    755          
+    756          /*!
+    757           * \brief Initializes a tick time structure with the number of ticks.
+    758           *
+    759           * \param[in,out] tick_ptr Pointer to the tick time structure to initialize.
+    760           * \param[in]     ticks    Number of ticks with which to initialize the structure.
+    761           *
+    762           * \return MQX_OK
+    763           * \return MQX_INVALID_PARAMETER (Tick_ptr is NULL.)
+    764           *
+    765           * \see _time_ticks_to_xdate
+    766           * \see _time_set
+    767           * \see _time_set_ticks
+    768           * \see MQX_TICK_STRUCT
+    769           */
+    770          _mqx_uint _time_init_ticks
+    771          (
+    772              MQX_TICK_STRUCT_PTR tick_ptr,
+    773              _mqx_uint           ticks
+    774          )
+    775          { /* Body */
+    776          
+    777          #if MQX_CHECK_ERRORS
+    778              if (tick_ptr == NULL) {
+    779                  return MQX_INVALID_PARAMETER;
+    780              } /* Endif */
+    781          #endif
+    782          
+    783              if (ticks) {
+    784                  tick_ptr->HW_TICKS = 0;
+    785                  PSP_ADD_TICKS_TO_TICK_STRUCT(&_mqx_zero_tick_struct, ticks, tick_ptr);
+    786              }
+    787              else {
+    788                  *tick_ptr = _mqx_zero_tick_struct;
+    789              } /* Endif */
+    790          
+    791              return MQX_OK;
+    792          
+    793          } /* Endbody */
+    794          
+    795          #if MQX_HAS_TICK
+    796          /*!
+    797           * \brief The BSP periodic timer ISR calls the function when a periodic timer
+    798           * interrupt occurs.
+    799           *
+    800           * The BSP installs an ISR for the periodic timer interrupt. The ISR calls
+    801           * _time_notify_kernel(), which does the following:
+    802           * \n - Increments kernel time.
+    803           * \n - If the active task is a time slice task whose time slice has expired,
+    804           * puts it at the end of the task's ready queue.
+    805           * \n - If the timeout has expired for tasks on the timeout queue, puts them in
+    806           * their ready queues.
+    807           * \n If the BSP does not have periodic timer interrupts, MQX components that use
+    808           * time will not operate.
+    809           *
+    810           * \warning See description.
+    811           *
+    812           * \see _time_get_elapsed
+    813           * \see _time_get_elapsed_ticks
+    814           * \see _time_get
+    815           * \see _time_get_ticks
+    816           * \see _time_set
+    817           * \see _time_set_ticks
+    818           */
+    819          void _time_notify_kernel
+    820          (
+    821              void
+    822          )
+    823          { /* Body */
+    824              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    825              register TD_STRUCT_PTR td_ptr;
+    826              register TD_STRUCT_PTR next_td_ptr;
+    827              register _mqx_uint count;
+    828              register _mqx_int result;
+    829          
+    830              _GET_KERNEL_DATA(kernel_data);
+    831          
+    832              /*
+    833               * Update the current time.
+    834               */
+    835              PSP_INC_TICKS(&kernel_data->TIME);
+    836          
+    837              _INT_DISABLE();
+    838          
+    839              if (kernel_data->GET_HWTICKS) {
+    840                  /* The hardware clock may have counted passed it's reference
+    841                   * and have an interrupt pending.  Thus, HW_TICKS may exceed
+    842                   * kernel_data->HW_TICKS_PER_TICK and this tick_ptr may need
+    843                   * normalizing.  This is done in a moment.
+    844                   */
+    845                  kernel_data->TIME.HW_TICKS = (*kernel_data->GET_HWTICKS)(kernel_data->GET_HWTICKS_PARAM);
+    846              } /* Endif */
+    847          
+    848              /* The tick_ptr->HW_TICKS value might exceed the
+    849               * kernel_data->HW_TICKS_PER_TICK and need to be
+    850               * normalized for the PSP.
+    851               */
+    852              PSP_NORMALIZE_TICKS(&kernel_data->TIME);
+    853          
+    854              /*
+    855               * Check for tasks on the timeout queue, and wake the appropriate
+    856               * ones up.  The timeout queue is a time-priority queue.
+    857               */
+    858              count = _QUEUE_GET_SIZE(&kernel_data->TIMEOUT_QUEUE);
+    859              if (count) {
+    860                  td_ptr = (TD_STRUCT_PTR)((pointer) kernel_data->TIMEOUT_QUEUE.NEXT);
+    861                  ++count;
+    862                  while (--count) {
+    863                      next_td_ptr = td_ptr->TD_NEXT;
+    864                      result = PSP_CMP_TICKS(&kernel_data->TIME, &td_ptr->TIMEOUT);
+    865                      if (result >= 0) {
+    866                          --kernel_data->TIMEOUT_QUEUE.SIZE;
+    867                          _QUEUE_UNLINK(td_ptr);
+    868                          td_ptr->STATE &= ~IS_ON_TIMEOUT_Q;
+    869                          if (td_ptr->STATE & TD_IS_ON_AUX_QUEUE) {
+    870                              td_ptr->STATE &= ~TD_IS_ON_AUX_QUEUE;
+    871                              _QUEUE_REMOVE(td_ptr->INFO, &td_ptr->AUX_QUEUE);
+    872                          } /* Endif */
+    873                          _TASK_READY(td_ptr, kernel_data);
+    874                      }
+    875                      else {
+    876                          break; /* No more to do */
+    877                      } /* Endif */
+    878                      td_ptr = next_td_ptr;
+    879                  } /* Endwhile */
+    880              } /* Endif */
+    881          
+    882          #if MQX_HAS_TIME_SLICE
+    883              /*
+    884               * Check if the currently running task is a time slice task
+    885               * and if its time has expired, put it at the end of its queue
+    886               */
+    887              td_ptr = kernel_data->ACTIVE_PTR;
+    888              if ( td_ptr->FLAGS & MQX_TIME_SLICE_TASK ) {
+    889                  PSP_INC_TICKS(&td_ptr->CURRENT_TIME_SLICE);
+    890                  if (! (td_ptr->FLAGS & TASK_PREEMPTION_DISABLED) ) {
+    891                      result = PSP_CMP_TICKS(&td_ptr->CURRENT_TIME_SLICE, &td_ptr->TIME_SLICE);
+    892                      if ( result >= 0 ) {
+    893                          _QUEUE_UNLINK(td_ptr);
+    894                          _TASK_READY(td_ptr,kernel_data);
+    895                      } /* Endif */
+    896                  } /* Endif */
+    897              } /* Endif */
+    898          #endif
+    899          
+    900              _INT_ENABLE();
+    901          #if MQX_USE_TIMER
+    902              /* If the timer component needs servicing, call its ISR function */
+    903              if (kernel_data->TIMER_COMPONENT_ISR != NULL) {
+    904                  (*kernel_data->TIMER_COMPONENT_ISR)();
+    905              }/* Endif */
+    906          #endif
+    907          
+    908          #if MQX_USE_LWTIMER
+    909              /* If the lwtimer needs servicing, call its ISR function */
+    910              if (kernel_data->LWTIMER_ISR != NULL) {
+    911                  (*kernel_data->LWTIMER_ISR)();
+    912              }/* Endif */
+    913          #endif
+    914          
+    915          } /* Endbody */
+    916          
+    917          #endif /* MQX_HAS_TICK */
+    918          
+    919          #if MQX_HAS_TICK
+    920          /*!
+    921           * \brief Set the absolute time in tick time.
+    922           *
+    923           * The function affects _time_get_ticks(), but does not affect _time_get_elapsed_ticks().
+    924           *
+    925           * \param[in] ticks Pointer to the structure that contains the new time in tick time.
+    926           *
+    927           * \see _time_set
+    928           * \see _time_get
+    929           * \see _time_get_ticks
+    930           * \see _time_get_elapsed
+    931           * \see _time_get_elapsed_ticks
+    932           * \see _time_to_date
+    933           * \see _time_init_ticks
+    934           * \see _time_to_ticks
+    935           * \see _time_from_date
+    936           * \see MQX_TICK_STRUCT
+    937           */
+    938          void _time_set_ticks
+    939          (
+    940              register MQX_TICK_STRUCT_PTR ticks
+    941          )
+    942          { /* Body */
+    943              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    944          
+    945              _GET_KERNEL_DATA(kernel_data);
+    946          
+    947              _KLOGE2(KLOG_time_set_ticks, ticks);
+    948          
+    949              _INT_DISABLE();
+    950          
+    951              PSP_SUB_TICKS(ticks, &kernel_data->TIME, &kernel_data->TIME_OFFSET);
+    952          
+    953              _INT_ENABLE();
+    954          
+    955              _KLOGX1(KLOG_time_set_ticks);
+    956          
+    957          } /* Endbody */
+    958          #endif /* MQX_HAS_TICK */
+    959          
+    960          #if MQX_HAS_TICK
+    961          /*!
+    962           * \brief Sets the periodic timer interrupt vector number that MQX uses.
+    963           *
+    964           * The BSP should call the function during initialization.
+    965           *
+    966           * \param[in] vector Periodic timer interrupt vector to use.
+    967           *
+    968           * \see _time_get
+    969           * \see _time_get_ticks
+    970           * \see _time_get_resolution
+    971           * \see _time_set_resolution
+    972           */
+    973          void _time_set_timer_vector
+    974          (
+    975              _mqx_uint vector
+    976          )
+    977          { /* Body */
+    978              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    979          
+    980              _GET_KERNEL_DATA(kernel_data);
+    981              kernel_data->SYSTEM_CLOCK_INT_NUMBER = vector;
+    982          
+    983          } /* Endbody */
+    984          #endif /* MQX_HAS_TICK */
+    985          
+    986          #if MQX_HAS_HW_TICKS
+    987          /*!
+    988           * \brief Set the fields in kernel data to get the hardware ticks.
+    989           *
+    990           * \param[in] hwtick_function_ptr Pointer to the function that returns hw tick,
+    991           * to be executed by the kernel.
+    992           * \param[in] parameter           Parameter of the function that returns hw tick.
+    993           *
+    994           * \see _time_set_hwticks_per_tick
+    995           * \see _time_get_hwticks
+    996           */
+    997          void _time_set_hwtick_function
+    998          (
+    999              MQX_GET_HWTICKS_FPTR hwtick_function_ptr,
+   1000              pointer              parameter
+   1001          )
+   1002          { /* Body */
+   1003              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   1004          
+   1005              _GET_KERNEL_DATA(kernel_data);
+   1006          
+   1007              kernel_data->GET_HWTICKS = hwtick_function_ptr;
+   1008              kernel_data->GET_HWTICKS_PARAM = parameter;
+   1009          
+   1010          } /* Endbody */
+   1011          #endif /* MQX_HAS_HW_TICKS */
+   1012          
+   1013          #if MQX_HAS_HW_TICKS
+   1014          /*!
+   1015           * \brief Sets the number of hardware ticks per tick.
+   1016           *
+   1017           * \param[in] new_val New number of hardware ticks per tick.
+   1018           *
+   1019           * \see _time_get_hwticks_per_tick
+   1020           * \see _time_get_hwticks
+   1021           */
+   1022          void _time_set_hwticks_per_tick
+   1023          (
+   1024              uint_32 new_val
+   1025          )
+   1026          { /* Body */
+   1027              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   1028          
+   1029              _GET_KERNEL_DATA(kernel_data);
+   1030          
+   1031              kernel_data->HW_TICKS_PER_TICK = new_val;
+   1032          
+   1033          } /* Endbody */
+   1034          
+   1035          #endif /* MQX_HAS_HW_TICKS */
+   1036          
+   1037          #if MQX_HAS_TICK
+   1038          /*!
+   1039           * \brief Gets the timer frequency (in ticks per second) that MQX uses.
+   1040           *
+   1041           * \warning If the timer frequency does not correspond with the interrupt period
+   1042           * that was programmed at the hardware level, some timing functions will give
+   1043           * incorrect results.
+   1044           *
+   1045           * \return Period of clock interrupt in ticks per second.
+   1046           *
+   1047           * \see _time_set_ticks_per_sec
+   1048           */
+   1049          _mqx_uint _time_get_ticks_per_sec
+   1050          (
+   1051              void
+   1052          )
+   1053          { /* Body */
+   1054              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   1055          
+   1056              _GET_KERNEL_DATA(kernel_data);
+   1057              return( kernel_data->TICKS_PER_SECOND );
+   1058          
+   1059          } /* Endbody */
+   1060          #endif /* MQX_HAS_TICK */
+   1061          
+   1062          
+   1063          /* EOF */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   _time_delay_for
+        16   -> _psp_add_ticks
+        16   -> _task_set_error
+        16   -> _time_delay_internal
+      32   _time_delay_internal
+        32   -> _sched_execute_scheduler_internal
+      16   _time_delay_ticks
+        16   -> _time_delay_internal
+      16   _time_delay_until
+        16   -> _task_set_error
+        16   -> _time_delay_internal
+      16   _time_dequeue
+        16   -> _int_disable
+        16   -> _int_enable
+        16   -> _task_get_td
+      16   _time_dequeue_td
+        16   -> _int_disable
+        16   -> _int_enable
+      16   _time_diff_ticks
+        16   -> _psp_subtract_ticks
+      16   _time_diff_ticks_int32
+        16   -> _psp_subtract_ticks_int32
+      16   _time_get_elapsed_ticks
+        16   -- Indirect call
+        16   -> _psp_normalize_ticks
+      16   _time_get_elapsed_ticks_fast
+        16   -- Indirect call
+        16   -> _psp_normalize_ticks
+       8   _time_get_hwticks
+         8   -- Indirect call
+       0   _time_get_hwticks_per_tick
+      16   _time_get_ticks
+        16   -- Indirect call
+        16   -> _psp_add_ticks
+        16   -> _psp_normalize_ticks
+       0   _time_get_ticks_per_sec
+      12   _time_init_ticks
+      24   _time_notify_kernel
+        24   -- Indirect call
+        24   -> _psp_normalize_ticks
+       0   _time_set_hwtick_function
+       0   _time_set_hwticks_per_tick
+      16   _time_set_ticks
+        16   -> _psp_subtract_ticks
+       0   _time_set_timer_vector
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable12
+       4  ??DataTable12_1
+       4  ??DataTable12_2
+       4  ??DataTable18
+       4  ??DataTable18_1
+       4  ??DataTable18_2
+       4  ??DataTable18_3
+       4  ??DataTable18_4
+       4  ??DataTable6
+     104  _time_delay_for
+     188  _time_delay_internal
+     106  _time_delay_ticks
+     100  _time_delay_until
+      74  _time_dequeue
+      64  _time_dequeue_td
+      38  _time_diff_ticks
+      40  _time_diff_ticks_int32
+     118  _time_get_elapsed_ticks
+      60  _time_get_elapsed_ticks_fast
+      36  _time_get_hwticks
+      12  _time_get_hwticks_per_tick
+     132  _time_get_ticks
+      12  _time_get_ticks_per_sec
+      56  _time_init_ticks
+     370  _time_notify_kernel
+      18  _time_set_hwtick_function
+      12  _time_set_hwticks_per_tick
+      86  _time_set_ticks
+      12  _time_set_timer_vector
+
+ 
+ 1'674 bytes in section .text
+ 
+ 1'674 bytes of CODE memory
+
+Errors: none
+Warnings: none

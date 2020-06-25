@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<emIDE_project_file>
+	<FileVersion major="1" minor="7" />
+	<Project>
+		<Option title="kl16z128_eslora" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/kl16z128_eslora" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-mthumb" />
+					<Add option="-g" />
+					<Add option="-mcpu=cortex-m0plus" />
+					<Add option="-DDEBUG=1" />
+					<Add directory="Inc" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,-Map" />
+					<Add option="-Wl,${TARGET_OUTPUT_FILE}.map" />
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-n" />
+					<Add option="-Wl,-cref" />
+					<Add option="-mcpu=cortex-m0plus" />
+					<Add option="-mthumb" />
+					<Add option="-TSetup/Flash.ld" />
+				</Linker>
+				<PostOutput>
+					<ConvertedOutput PostOutputCreate="0" />
+					<ConvertedOutput PostOutputType="HEX" />
+					<ConvertedOutput PostOutputFile="${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}" />
+				</PostOutput>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/kl16z128_eslora" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-mthumb" />
+					<Add option="-g" />
+					<Add option="-mcpu=cortex-m0plus" />
+					<Add directory="Inc" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-Wl,-Map" />
+					<Add option="-Wl,${TARGET_OUTPUT_FILE}.map" />
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-n" />
+					<Add option="-Wl,-cref" />
+					<Add option="-mcpu=cortex-m0plus" />
+					<Add option="-mthumb" />
+					<Add option="-TSetup/Flash.ld" />
+				</Linker>
+				<PostOutput>
+					<ConvertedOutput PostOutputCreate="0" />
+					<ConvertedOutput PostOutputType="HEX" />
+					<ConvertedOutput PostOutputFile="${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}" />
+				</PostOutput>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-W" />
+			<Add option="-ffunction-sections -fdata-sections" />
+			<Add directory="../Interface" />
+			<Add directory="../Sources" />
+			<Add directory="../../drv/Generated_Code" />
+			<Add directory="../../drv/PExSupport/Kinetis" />
+			<Add directory="../../drv/Portable/ADC/Interface" />
+			<Add directory="../../drv/Portable/BME/Interface" />
+			<Add directory="../../drv/Portable/Flash/Interface" />
+			<Add directory="../../drv/Portable/I2C/Interface" />
+			<Add directory="../../drv/Portable/LED/Interface" />
+			<Add directory="../../drv/Portable/LLWU/Interface" />
+			<Add directory="../../drv/Portable/LPTMR/Interface" />
+			<Add directory="../../drv/Portable/MCG/Interface" />
+			<Add directory="../../drv/Portable/Reset" />
+			<Add directory="../../drv/Portable/SMC/Interface" />
+			<Add directory="../../MQXLITE/include" />
+			<Add directory="../../MQXLITE/config" />
+			<Add directory="../../MQXLITE/psp/cortex_m" />
+			<Add directory="../../MQXLITE/psp/cortex_m/compiler/iar" />
+			<Add directory="../../framework/Common" />
+			<Add directory="../../framework/MemManager/Interface" />
+			<Add directory="../../framework/Messaging/Interface" />
+			<Add directory="../../framework/OSAbstraction/MQXLite/Interface" />
+			<Add directory="../../framework/Panic/Interface" />
+			<Add directory="../../framework/RNG/Interface" />
+			<Add directory="../../framework/SerialManager/Interface" />
+			<Add directory="../../framework/TimersManager/Interface" />
+			<Add directory="../../framework/Utils/Lists" />
+			<Add directory="../../framework/Utils/FunctionLib" />
+			<Add directory="../../framework/Utils/SecLib" />
+			<Add directory="../../ieee_802_15_4/Phy/Interface" />
+			<Add directory="../../ieee_802_15_4/SMAC/Interface" />
+		</Compiler>
+		<PostOutput>
+			<ConvertedOutput PostOutputCreate="1" />
+			<ConvertedOutput PostOutputType="HEX" />
+			<ConvertedOutput PostOutputFile="${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}" />
+		</PostOutput>
+		<Unit filename="../../MQXLITE/config/task_template_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/config/task_template_list.h" />
+		<Unit filename="../../MQXLITE/config/user_config.h" />
+		<Unit filename="../../MQXLITE/include/klog.h" />
+		<Unit filename="../../MQXLITE/include/log.h" />
+		<Unit filename="../../MQXLITE/include/lwevent.h" />
+		<Unit filename="../../MQXLITE/include/lwevent_prv.h" />
+		<Unit filename="../../MQXLITE/include/lwlog.h" />
+		<Unit filename="../../MQXLITE/include/lwlog_prv.h" />
+		<Unit filename="../../MQXLITE/include/lwmsgq.h" />
+		<Unit filename="../../MQXLITE/include/lwmsgq_prv.h" />
+		<Unit filename="../../MQXLITE/include/lwsem.h" />
+		<Unit filename="../../MQXLITE/include/lwsem_prv.h" />
+		<Unit filename="../../MQXLITE/include/lwtimer.h" />
+		<Unit filename="../../MQXLITE/include/lwtimer_prv.h" />
+		<Unit filename="../../MQXLITE/include/mqx_cnfg.h" />
+		<Unit filename="../../MQXLITE/include/mqx_cpudef.h" />
+		<Unit filename="../../MQXLITE/include/mqx_inc.h" />
+		<Unit filename="../../MQXLITE/include/mqx_macros.h" />
+		<Unit filename="../../MQXLITE/include/mqx_str.h" />
+		<Unit filename="../../MQXLITE/include/mqxlite.h" />
+		<Unit filename="../../MQXLITE/include/mqxlite_cnfg.h" />
+		<Unit filename="../../MQXLITE/include/mqxlite_prv.h" />
+		<Unit filename="../../MQXLITE/include/mutex.h" />
+		<Unit filename="../../MQXLITE/include/mutex_prv.h" />
+		<Unit filename="../../MQXLITE/include/queue.h" />
+		<Unit filename="../../MQXLITE/kernel/idletask.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/int.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/klog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/lwevent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/lwlog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/lwmsgq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/lwsem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/lwtimer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/mqx_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/mqxlite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/mutex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/qu_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/sched.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/kernel/time_ticks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/compiler/iar/asm_mac.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/compiler/iar/comp.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/core/M0/boot.S" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/core/M0/dispatch.S" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/core/M0/psp_prv.inc" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/cortex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/cortex.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/int_gkis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/int_inst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/int_kisr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/int_pvta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/int_unx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/int_vtab.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/int_xcpt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/kinetis.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/mem_zero.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_comp.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_cpu.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_cpudef.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_iinit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_prv.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_supp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_supp.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_tiad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_ticks.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_tinm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/psp_tisu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/psplite.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/psptypes.h" />
+		<Unit filename="../../MQXLITE/psp/cortex_m/sc_irdyq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/stack_bu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/stack_de.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../MQXLITE/psp/cortex_m/stack_st.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/Cpu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/Cpu.h" />
+		<Unit filename="../../drv/Generated_Code/IO_Map.h" />
+		<Unit filename="../../drv/Generated_Code/LED1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/LED1.h" />
+		<Unit filename="../../drv/Generated_Code/LED2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/LED2.h" />
+		<Unit filename="../../drv/Generated_Code/MQXLite1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/MQXLite1.h" />
+		<Unit filename="../../drv/Generated_Code/PE_Const.h" />
+		<Unit filename="../../drv/Generated_Code/PE_Error.h" />
+		<Unit filename="../../drv/Generated_Code/PE_LDD.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/PE_LDD.h" />
+		<Unit filename="../../drv/Generated_Code/PE_Types.h" />
+		<Unit filename="../../drv/Generated_Code/PitTimeStamp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/PitTimeStamp.h" />
+		<Unit filename="../../drv/Generated_Code/RealTimeClock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/RealTimeClock.h" />
+		<Unit filename="../../drv/Generated_Code/StackTimer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/StackTimer.h" />
+		<Unit filename="../../drv/Generated_Code/SystemTimer1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/SystemTimer1.h" />
+		<Unit filename="../../drv/Generated_Code/UARTA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Generated_Code/UARTA.h" />
+		<Unit filename="../../drv/Generated_Code/Vectors.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/PExSupport/Kinetis/GPIO_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/I2C_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/MKL26Z4.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/PDD_Types.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/PIT_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/PORT_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/RTC_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/SIM_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/SPI_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/SysTick_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/TPM_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/UART0_PDD.h" />
+		<Unit filename="../../drv/PExSupport/Kinetis/UART_PDD.h" />
+		<Unit filename="../../drv/Portable/ADC/Interface/adc16.h" />
+		<Unit filename="../../drv/Portable/ADC/Source/adc16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Portable/BME/Interface/BME.h" />
+		<Unit filename="../../drv/Portable/Flash/Interface/flash.h" />
+		<Unit filename="../../drv/Portable/Flash/Source/flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Portable/Flash/Source/flash_RamFunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Portable/I2C/Interface/i2c.h" />
+		<Unit filename="../../drv/Portable/I2C/Source/i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Portable/LED/Interface/LED.h" />
+		<Unit filename="../../drv/Portable/LED/Interface/LED_Config.h" />
+		<Unit filename="../../drv/Portable/LED/Source/LED.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Portable/LLWU/Interface/llwu.h" />
+		<Unit filename="../../drv/Portable/LLWU/Source/llwu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Portable/LPTMR/Interface/lptmr.h" />
+		<Unit filename="../../drv/Portable/LPTMR/Source/lptmr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Portable/MCG/Interface/mcg.h" />
+		<Unit filename="../../drv/Portable/MCG/Source/mcg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Portable/Reset/Reset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../drv/Portable/SMC/Interface/smc.h" />
+		<Unit filename="../../drv/Portable/SMC/Source/smc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/Common/EmbeddedTypes.h" />
+		<Unit filename="../../framework/MemManager/Interface/MemManager.h" />
+		<Unit filename="../../framework/MemManager/Interface/MemManagerConfig.h" />
+		<Unit filename="../../framework/MemManager/Source/MemManager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/Messaging/Interface/Messaging.h" />
+		<Unit filename="../../framework/Messaging/Source/Messaging.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/OSAbstraction/MQXLite/Interface/OSAbstractionConfig.h" />
+		<Unit filename="../../framework/OSAbstraction/MQXLite/Interface/cmsis_os.h" />
+		<Unit filename="../../framework/OSAbstraction/MQXLite/Source/MQXLite_Adapter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/Panic/Interface/Panic.h" />
+		<Unit filename="../../framework/Panic/Interface/PanicConfig.h" />
+		<Unit filename="../../framework/Panic/Source/Panic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/RNG/Interface/RNG_Interface.h" />
+		<Unit filename="../../framework/RNG/Source/RNG.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/SerialManager/Interface/SerialManager.h" />
+		<Unit filename="../../framework/SerialManager/Interface/SerialManagerConfig.h" />
+		<Unit filename="../../framework/SerialManager/Source/SerialManager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/TimersManager/Interface/TimersManager.h" />
+		<Unit filename="../../framework/TimersManager/Interface/TimersManagerConfig.h" />
+		<Unit filename="../../framework/TimersManager/Interface/TimersManagerInternal.h" />
+		<Unit filename="../../framework/TimersManager/Source/TimersManager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/Utils/FunctionLib/FunctionLib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/Utils/FunctionLib/FunctionLib.h" />
+		<Unit filename="../../framework/Utils/Lists/GenericList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/Utils/Lists/GenericList.h" />
+		<Unit filename="../../framework/Utils/SecLib/SecLibAes.h" />
+		<Unit filename="../../framework/Utils/SecLib/SecLibConfig.h" />
+		<Unit filename="../../framework/Utils/SecLib/mmcau_interface.h" />
+		<Unit filename="../../ieee_802_15_4/Phy/Interface/radio.h" />
+		<Unit filename="../../ieee_802_15_4/Phy/Interface/sx1276-Hal.h" />
+		<Unit filename="../../ieee_802_15_4/Phy/Interface/sx1276-LoRa.h" />
+		<Unit filename="../../ieee_802_15_4/Phy/Interface/sx1276-LoRaMisc.h" />
+		<Unit filename="../../ieee_802_15_4/Phy/Interface/sx1276-Spi.h" />
+		<Unit filename="../../ieee_802_15_4/Phy/Interface/sx1276.h" />
+		<Unit filename="../../ieee_802_15_4/Phy/Source/radio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ieee_802_15_4/Phy/Source/sx1276-Hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ieee_802_15_4/Phy/Source/sx1276-LoRa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ieee_802_15_4/Phy/Source/sx1276-LoRaMisc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ieee_802_15_4/Phy/Source/sx1276-Spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ieee_802_15_4/Phy/Source/sx1276.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ieee_802_15_4/SMAC/Interface/cca.h" />
+		<Unit filename="../../ieee_802_15_4/SMAC/Interface/smac.h" />
+		<Unit filename="../../ieee_802_15_4/SMAC/Source/cca.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ieee_802_15_4/SMAC/Source/smac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sources/Events.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sources/Events.h" />
+		<Unit filename="../Sources/ProcessorExpert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sources/menus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sources/menus.h" />
+		<Unit filename="../Sources/message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sources/message.h" />
+		<Unit filename="../Sources/mqx_tasks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sources/mqx_tasks.h" />
+		<Unit filename="../Sources/usr_tasks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sources/usr_tasks.h" />
+		<Unit filename="Setup/Flash.ld" />
+		<Unit filename="Setup/startup.S" />
+		<Extensions>
+			<projectwizard TargetDevice="MKW01Z128" />
+			<code_completion />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="1806320574" ip_address="localhost" ip_port="2331" remote_server="J-Link GDB Server" Break_at_Main="0" Break_at_Main_Symbol="main" />
+				</remote_debugging>
+				<remote_debugging target="Debug">
+					<options conn_type="0" serial_baud="115200" ip_address="localhost" ip_port="2331" target_device="Cortex-M0+" remote_server="J-Link GDB Server" Break_at_Main="1" Break_at_Main_Symbol="main" additional_cmds="monitor reset&#x0A;load" />
+				</remote_debugging>
+				<remote_debugging target="Release">
+					<options conn_type="0" serial_baud="115200" ip_address="localhost" ip_port="2331" target_device="Cortex-M0+" remote_server="J-Link GDB Server" Break_at_Main="1" Break_at_Main_Symbol="main" additional_cmds="monitor reset&#x0A;load" />
+				</remote_debugging>
+			</debugger>
+			<J-Link>
+				<GDBServer TargetName="Debug">
+					<CmdOption UseGDBServer="1" />
+					<CmdOption TargetDevice="Cortex-M0+" />
+					<CmdOption TargetInterface="1" />
+					<CmdOption InterfaceSpeed="4000" />
+					<CmdOption TargetEndian="0" />
+					<CmdOption OverrideExe="0" Filename="C:\Program Files\SEGGER\JLink_V496f\JLinkGDBServer.exe" />
+					<CmdOption StartServer="1" />
+					<CmdOption CloseServer="1" />
+					<CmdOption ServerIP="localhost" />
+					<CmdOption ServerPort="2331" />
+					<CmdOption UseAdvancedOptions="0" />
+					<CmdOption SelectJLink="" />
+					<CmdOption InitRegs="1" />
+					<CmdOption LocalhostOnly="1" />
+					<CmdOption Log="0" Filename="" />
+					<CmdOption Silent="0" />
+					<CmdOption StayOnTop="0" />
+					<CmdOption VerifyDownload="0" />
+					<CmdOption NoTargetTimeout="0" />
+					<CmdOption JTAGConf="0" IRPre="0" DRPre="0" />
+					<CmdOption JLinkScript="0" Filename="" />
+					<CmdOption JLinkSettings="0" Filename="" />
+					<CmdOption GDBInit="0" Filename="" />
+					<CmdOption AdditionalOptions="" />
+				</GDBServer>
+				<GDBServer TargetName="Release">
+					<CmdOption UseGDBServer="1" />
+					<CmdOption TargetDevice="Cortex-M0+" />
+					<CmdOption TargetInterface="1" />
+					<CmdOption InterfaceSpeed="4000" />
+					<CmdOption TargetEndian="0" />
+					<CmdOption OverrideExe="0" Filename="C:\Program Files\SEGGER\JLink_V496f\JLinkGDBServer.exe" />
+					<CmdOption StartServer="1" />
+					<CmdOption CloseServer="1" />
+					<CmdOption ServerIP="localhost" />
+					<CmdOption ServerPort="2331" />
+					<CmdOption UseAdvancedOptions="0" />
+					<CmdOption SelectJLink="" />
+					<CmdOption InitRegs="1" />
+					<CmdOption LocalhostOnly="1" />
+					<CmdOption Log="0" Filename="" />
+					<CmdOption Silent="0" />
+					<CmdOption StayOnTop="0" />
+					<CmdOption VerifyDownload="0" />
+					<CmdOption NoTargetTimeout="0" />
+					<CmdOption JTAGConf="0" IRPre="0" DRPre="0" />
+					<CmdOption JLinkScript="0" Filename="" />
+					<CmdOption JLinkSettings="0" Filename="" />
+					<CmdOption GDBInit="0" Filename="" />
+					<CmdOption AdditionalOptions="" />
+				</GDBServer>
+			</J-Link>
+		</Extensions>
+	</Project>
+</emIDE_project_file>

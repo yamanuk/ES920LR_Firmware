@@ -1,0 +1,1382 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:59
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\klog.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW55B1.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\klog.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\klog.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\klog.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\klog.c
+      1          /*HEADER*********************************************************************
+      2           *
+      3           * Copyright (c) 2008 Freescale Semiconductor;
+      4           * All Rights Reserved
+      5           *
+      6           * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7           * All Rights Reserved
+      8           *
+      9           * Copyright (c) 1989-2008 ARC International;
+     10           * All Rights Reserved
+     11           *
+     12           ***************************************************************************
+     13           *
+     14           * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15           * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16           * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17           * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18           * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20           * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21           * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22           * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23           * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24           * THE POSSIBILITY OF SUCH DAMAGE.
+     25           *
+     26           **************************************************************************
+     27           *
+     28           * $FileName: klog.c$
+     29           * $Version : 3.8.0.1$
+     30           * $Date    : Feb-22-2012$
+     31           *
+     32           * Comments:
+     33           *
+     34           *   This file contains functions of the Kernel LOG component.
+     35           *
+     36           *END************************************************************************/
+     37          
+     38          #include "mqx_inc.h"
+     39          
+     40          #if MQX_KERNEL_LOGGING
+     41          #include "lwlog.h"
+     42          #include "lwlog_prv.h"
+     43          #include "klog.h"
+     44          
+     45          extern char _PTR_ _klog_get_function_name_internal(uint_32);
+     46          extern char _PTR_ _klog_get_function_name2_internal(uint_32);
+     47          
+     48          /*! A macro to display the name for a KLOG function entry */
+     49          #define KLOG_NAME(x) case KLOG ## x : result = #x ; break
+     50          
+     51          /*!
+     52           * \brief Controls logging in kernel log.
+     53           *
+     54           * The application must first create kernel log with _klog_create().
+     55           * \n The function _klog_control() sets or clears bits in the kernel log control
+     56           * variable, which MQX uses to control logging. To select which functions to log,
+     57           * set combinations of bits in the KLOG_FUNCTIONS_ENABLED flag for the bit_mask
+     58           * parameter.
+     59           * \n MQX logs to kernel log only if KLOG_ENABLED is set in bit_mask.
+     60           *
+     61           * <table>
+     62           *  <tr>
+     63           *     <td><b> If this bit is set: </b></td>
+     64           *     <td><b> MQX: </b></td>
+     65           *  </tr>
+     66           *  <tr>
+     67           *     <td> KLOG_ENABLED (log MQX services) </td>
+     68           *     <td> Logs to kernel log. </td>
+     69           *  </tr>
+     70           * </table>
+     71           *
+     72           * <table>
+     73           *  <tr>
+     74           *     <td><b> Use combinations of these bits </b></td>
+     75           *     <td><b> Additional information </b></td>
+     76           *  </tr>
+     77           *  <tr>
+     78           *     <td><b> KLOG_FUNCTION_ENABLED </b></td>
+     79           *     <td> Log calls to specified MQX component APIs: KLOG_TASKING_FUNCTIONS
+     80           *     KLOG_ERROR_FUNCTIONS KLOG_MESSAGE_FUNCTIONS
+     81           *     KLOG_INTERRUPT_FUNCTIONS KLOG_MEMORY_FUNCTIONS KLOG_TIME_FUNCTIONS
+     82           *     KLOG_EVENT_FUNCTIONS KLOG_NAME_FUNCTIONS KLOG_MUTEX_FUNCTIONS
+     83           *     KLOG_SEMAPHORE_FUNCTIONS KLOG_WATCHDOG_FUNCTIONS
+     84           *     KLOG_PARTITION_FUNCTIONS KLOG_IO_FUNCTIONS</td>
+     85           *  </tr>
+     86           *  <tr>
+     87           *     <td><b> KLOG_TASK_QUALIFIED </b></td>
+     88           *     <td> Log specific tasks only. For each task to log, call one of: _klog_disable_logging_task() _klog_enable_logging_task()</td>
+     89           *  </tr>
+     90           *  <tr>
+     91           *     <td><b> KLOG_INTERRUPTS_ENABLED </b></td><td>Log interrupts</td>
+     92           *  </tr>
+     93           *  <tr>
+     94           *     <td><b> KLOG_SYSTEM_CLOCK_INT_ENABLED </b></td><td>Log periodic timer interrupts</td>
+     95           *  </tr>
+     96           *  <tr>
+     97           *     <td><b> KLOG_CONTEXT_ENABLED </b></td><td>Log context switches</td>
+     98           *  </tr>
+     99           * </table>
+    100           *
+    101           * \param[in] bit_mask Which bits of the kernel log control variable to modify.
+    102           * \param[in] set_bits TRUE (Bits set in bit_mask are set in the control
+    103           * variable.), FALSE (Bits set in bit_mask are cleared in the control variable.)
+    104           *
+    105           * \see _klog_create
+    106           * \see _klog_create_at
+    107           * \see _klog_disable_logging_task
+    108           * \see _klog_enable_logging_task
+    109           * \see _lwlog_create_component
+    110           */
+    111          void _klog_control
+    112          (
+    113              uint_32 bit_mask,
+    114              boolean set_bits
+    115          )
+    116          { /* Body */
+    117              KERNEL_DATA_STRUCT_PTR kernel_data;
+    118          
+    119              _GET_KERNEL_DATA(kernel_data);
+    120              _int_disable();
+    121              if (set_bits)
+    122              {
+    123                  kernel_data->LOG_CONTROL |= bit_mask;
+    124              }
+    125              else
+    126              {
+    127                  kernel_data->LOG_CONTROL &= ~bit_mask;
+    128              } /* Endif */
+    129              _int_enable();
+    130          
+    131          } /* Endbody */
+    132          
+    133          #if !MQX_LITE_VERSION_NUMBER
+    134          
+    135          /*!
+    136           * \brief Creates the kernel log.
+    137           *
+    138           * If the log component is not created, MQX creates it. MQX uses lightweight log
+    139           * number 0 as kernel log.
+    140           * \n Each entry in kernel log contains MQX-specific data, a timestamp (in absolute
+    141           * time), a sequence number, and information specified by _klog_control().
+    142           * \n The MQX Task_aware Debugger plug-in and Performance Tools use kernel log
+    143           * to analyze how the application operates and uses resources.
+    144           *
+    145           * \param[in] max_size Maximum size (in mqx_max_types) of the data to be stored.
+    146           * \param[in] flags    One of the following:
+    147           * \n - LOG_OVERWRITE (When the log is full, oldest entries are overwritten.)
+    148           * \n - 0 (When the log is full, no more entries are written; default.)
+    149           *
+    150           * \warning The max_size parameter specifies the size of kernel log in sizeof(mqx_max_types).
+    151           * To determine byt size of the momory used by the log, calculate as max_size * sizeof(mqx_max_types).
+    152           *
+    153           * \note To use kernel logging, MQX must be configured at compile time with
+    154           * MQX_KERNEL_LOGGING set to 1. For information on configuring MQX, see MQX User's Guide.
+    155           *
+    156           * \return MQX_OK
+    157           * \return LOG_EXISTS (Lightweight log with log number log_number exists.)
+    158           * \return LOG_INVALID (Log_number is out of range.)
+    159           * \return LOG_INVALID_SIZE (Max_size is 0.)
+    160           * \return MQX_INVALID_COMPONENT_BASE (Invalid data for the lightweight log component.)
+    161           *
+    162           * \see _klog_create_at
+    163           * \see _klog_control
+    164           * \see _klog_disable_logging_task
+    165           * \see _klog_enable_logging_task
+    166           * \see _lwlog_create_component
+    167           * \see _lwlog_create
+    168           * \see _lwlog_create_at
+    169           */
+    170          _mqx_uint _klog_create
+    171          (
+    172              _mqx_uint max_size,
+    173              _mqx_uint flags
+    174          )
+    175          { /* Body */
+    176          
+    177              /*
+    178                * Each element in the each log entry is of the type _mqx_max_type.
+    179                * The lightweight log takes the number of entries to create so
+    180                * adjust size accordingly.
+    181                */
+    182              max_size = max_size * sizeof(_mqx_max_type) / sizeof(LWLOG_ENTRY_STRUCT);
+    183          
+    184              return _lwlog_create(LOG_KERNEL_LOG_NUMBER, max_size, flags);
+    185          
+    186          } /* Endbody */
+    187          #endif /* MQX_LITE_VERSION_NUMBER */
+    188          
+    189          /*!
+    190           * \brief Creates the kernel log at specified location.
+    191           *
+    192           * If the log component is not created, MQX creates it. MQX uses lightweight log
+    193           * number 0 as kernel log.
+    194           * \n Each entry in kernel log contains MQX-specific data, a timestamp (in absolute
+    195           * time), a sequence number, and information specified by _klog_control().
+    196           * \n The MQX Embedded Performance Tool uses kernel log to analyze how the application
+    197           * operates and uses resources.
+    198           *
+    199           * \param[in] max_size Maximum size (in mqx_max_types) of the data to be stored.
+    200           * \param[in] flags    One of the following:
+    201           * \n - LOG_OVERWRITE (When the log is full, oldest entries are overwritten.)
+    202           * \n - 0 (When the log is full, no more entries are written; default.)
+    203           * \param[in] where    Where in memory is the log to start.
+    204           *
+    205           * \warning The max_size parameter specifies the size of kernel log in sizeof(mqx_max_types).
+    206           * To determine byt size of the momory used by the log, calculate as max_size * sizeof(mqx_max_types).
+    207           *
+    208           * \note To use kernel logging, MQX must be configured at compile time with
+    209           * MQX_KERNEL_LOGGING set to 1. For information on configuring MQX, see MQX User's Guide.
+    210           *
+    211           * \return MQX_OK
+    212           * \return LOG_EXISTS (Lightweight log with log number log_number exists.)
+    213           * \return LOG_INVALID (Log_number is out of range.)
+    214           * \return LOG_INVALID_SIZE (Max_size is 0.)
+    215           * \return MQX_INVALID_COMPONENT_BASE (Invalid data for the lightweight log component.)
+    216           * \return MQX_INVALID_POINTER (Pointer "where" is NULL.)
+    217           *
+    218           * \see _klog_create
+    219           * \see _klog_control
+    220           * \see _klog_disable_logging_task
+    221           * \see _klog_enable_logging_task
+    222           * \see _lwlog_create_component
+    223           * \see _lwlog_create
+    224           * \see _lwlog_create_at
+    225           */
+    226          _mqx_uint _klog_create_at
+    227          (
+    228              _mqx_uint max_size,
+    229              _mqx_uint flags,
+    230              pointer where
+    231          )
+    232          { /* Body */
+    233          
+    234              /*
+    235                * The size of the kernel log must be a multiple of the size of a
+    236                * lightweight log entry
+    237                */
+    238              max_size = max_size * sizeof(_mqx_max_type) / sizeof(LWLOG_ENTRY_STRUCT);
+    239          
+    240              return _lwlog_create_at(LOG_KERNEL_LOG_NUMBER, max_size, flags, where);
+    241          
+    242          } /* Endbody */
+    243          
+    244          /*!
+    245           * \brief Disables kernel logging for the task.
+    246           *
+    247           * The application disables logging by calling _klog_disable_logging_task() for
+    248           * each task which it wants to stop logging. If the application did not first
+    249           * enable logging for the task, MQX ignores the request.
+    250           *
+    251           * \param[in] tid Task ID of the task for which kernel logging is to be disabled.
+    252           *
+    253           * \see _klog_enable_logging_task
+    254           * \see _klog_control
+    255           */
+    256          void _klog_disable_logging_task
+    257          (
+    258              _task_id tid
+    259          )
+    260          { /* Body */
+    261              TD_STRUCT_PTR td_ptr;
+    262          
+    263              _int_disable();
+    264              td_ptr = (TD_STRUCT_PTR)_task_get_td(tid);
+    265              if (td_ptr != NULL)
+    266              {
+    267                  td_ptr->FLAGS &= ~TASK_LOGGING_ENABLED;
+    268              } /* Endif */
+    269              _int_enable();
+    270          
+    271          } /* Endbody */
+    272          
+    273          /*!
+    274           * \brief Enables kernel logging for the task.
+    275           *
+    276           * If the application calls _klog_control() with KLOG_TASK_QUALIFIED, it must also call
+    277           * _klog_enable_logging_task() for each task for which it wants to log information.
+    278           *
+    279           * \param[in] tid Task ID of the task for which kernel logging is to be enabled.
+    280           *
+    281           * \see _klog_disable_logging_task
+    282           * \see _klog_control
+    283           */
+    284          void _klog_enable_logging_task
+    285          (
+    286              _task_id tid
+    287          )
+    288          { /* Body */
+    289              TD_STRUCT_PTR td_ptr;
+    290          
+    291              _int_disable();
+    292              td_ptr = (TD_STRUCT_PTR)_task_get_td(tid);
+    293              if (td_ptr != NULL)
+    294              {
+    295                  td_ptr->FLAGS |= TASK_LOGGING_ENABLED;
+    296              } /* Endif */
+    297              _int_enable();
+    298          
+    299          } /* Endbody */
+    300          
+    301          /*!
+    302           * \brief Displays the oldest entry in kernel log and delete this entry.
+    303           *
+    304           * The function prints the oldest entry in kernel log to the default output stream
+    305           * of the current task and deletes this entry.
+    306           *
+    307           * \return TRUE (Entry is found and displayed.)
+    308           * \return FALSE (Entry is not found.)
+    309           *
+    310           * \warning Depending on the low-level I/O used, the calling task might be blocked
+    311           * and MQX might perform a dispatch operation.
+    312           *
+    313           * \see _klog_control
+    314           * \see _klog_create
+    315           * \see _klog_create_at
+    316           */
+    317          boolean _klog_display(void)
+    318          { /* Body */
+    319              LWLOG_ENTRY_STRUCT     log_entry;
+    320              LWLOG_ENTRY_STRUCT_PTR log_ptr;
+    321              _mqx_uint              result;
+    322              _mqx_int               i;
+    323          
+    324              log_ptr = &log_entry;
+    325              result = _lwlog_read(LOG_KERNEL_LOG_NUMBER, LOG_READ_OLDEST_AND_DELETE, log_ptr);
+    326              if (result != MQX_OK)
+    327              {
+    328                  return FALSE;
+    329              } /* Endif */
+    330          
+    331          #if MQX_LWLOG_TIME_STAMP_IN_TICKS == 0
+    332              /* Normalize the time in the record */
+    333              log_ptr->MILLISECONDS += log_ptr->MICROSECONDS / 1000;
+    334              log_ptr->MICROSECONDS = log_ptr->MICROSECONDS % 1000;
+    335              log_ptr->SECONDS += log_ptr->MILLISECONDS / 1000;
+    336              log_ptr->MILLISECONDS = log_ptr->MILLISECONDS % 1000;
+    337          
+    338              printf("%ld. %ld:%03ld%03ld -> ",
+    339                              (uint_32)log_ptr->SEQUENCE_NUMBER,
+    340                              log_ptr->SECONDS,
+    341                              log_ptr->MILLISECONDS,
+    342                              log_ptr->MICROSECONDS);
+    343          #else
+    344          
+    345              printf("%ld. ", (uint_32)log_ptr->SEQUENCE_NUMBER);
+    346          
+    347              PSP_PRINT_TICKS(&log_ptr->TIMESTAMP);
+    348          
+    349              printf(" -> ");
+    350          #endif
+    351          
+    352              switch (log_ptr->DATA[0])
+    353              {
+    354          
+    355                  case KLOG_FUNCTION_ENTRY:
+    356                  case KLOG_FUNCTION_EXIT:
+    357                  printf("%s %22.22s ",
+    358                                  (log_ptr->DATA[0] == KLOG_FUNCTION_ENTRY) ? "FUN " : "XFUN",
+    359                                  _klog_get_function_name_internal((uint_32)log_ptr->DATA[1]));
+    360                  /* for (i = 2; i < LWLOG_MAXIMUM_DATA_ENETRIES; ++i) { */
+    361                  for (i = 2; i < LWLOG_MAXIMUM_DATA_ENTRIES; ++i)
+    362                  {
+    363                      printf("0x%lX ", (uint_32)log_ptr->DATA[i]);
+    364                  } /* Endfor */
+    365                  printf("\n");
+    366                  break;
+    367          
+    368                  case KLOG_INTERRUPT:
+    369                  printf("INT   0x%lX\n", (uint_32)log_ptr->DATA[1]);
+    370                  break;
+    371          
+    372                  case KLOG_INTERRUPT_END:
+    373                  printf("INT   0x%lX END\n",(uint_32)log_ptr->DATA[1]);
+    374                  break;
+    375          
+    376                  case KLOG_CONTEXT_SWITCH:
+    377                  printf("NEW TASK TD 0x%lX ID 0x%lX STATE 0x%lX STACK 0x%lX\n",
+    378                                  (uint_32)log_ptr->DATA[1], (uint_32)log_ptr->DATA[2],
+    379                                  (uint_32)log_ptr->DATA[3], (uint_32)log_ptr->DATA[4]);
+    380                  break;
+    381          
+    382                  default:
+    383                  printf("USER ENTRY: 0x%lX:", (uint_32)log_ptr->DATA[0]);
+    384                  /* for (i = 1; i < LWLOG_MAXIMUM_DATA_ENETRIES; ++i) { */
+    385                  for (i = 1; i < LWLOG_MAXIMUM_DATA_ENTRIES; ++i)
+    386                  {
+    387                      printf("0x%lX ", (uint_32)log_ptr->DATA[i]);
+    388                  } /* Endfor */
+    389                  printf("\n");
+    390                  break;
+    391              } /* Endswitch */
+    392          
+    393              return TRUE;
+    394          
+    395          } /* Endbody */
+    396          
+    397          /*!
+    398           * \brief Gets the stack size for the task and the total amount of it that the
+    399           * task has used.
+    400           *
+    401           * The amount used is a highwater mark - the highest amount of stack that the task
+    402           * has used so far. It might not include the amount that the task is currently
+    403           * using. If the amount is 0, the stack is not large enough.
+    404           *
+    405           * \note To use kernel logging, MQX must be configured at compile time with
+    406           * MQX_MONITOR_STACK set to 1. For information on configuring MQX, see MQX User's Guide.
+    407           *
+    408           * \param[in]  task_id        Task ID of task to display.
+    409           * \param[out] stack_size_ptr Where to write the size (in single-addressable units)
+    410           * of the stack.
+    411           * \param[out] stack_used_ptr Where to write the amount (in single-addressable
+    412           * units) of stack used.
+    413           *
+    414           * \return MQX_OK
+    415           * \return MQX_INVALID_TASK_ID (Task_id is not valid.)
+    416           * \return MQX_INVALID_CONFIGURATION (Compile-time configuration option
+    417           * MQX_MONITOR_STACK is not set.)
+    418           *
+    419           * \see _klog_get_interrupt_stack_usage
+    420           * \see _klog_show_stack_usage
+    421           */
+    422          _mqx_uint _klog_get_task_stack_usage
+    423          (
+    424              _task_id task_id,
+    425              _mem_size_ptr stack_size_ptr,
+    426              _mem_size_ptr stack_used_ptr
+    427          )
+    428          { /* Body */
+    429          #if MQX_MONITOR_STACK
+    430              TD_STRUCT_PTR td_ptr;
+    431          
+    432              td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+    433          #if MQX_CHECK_ERRORS
+    434              if (td_ptr == NULL)
+    435              {
+    436                  return(MQX_INVALID_TASK_ID);
+    437              } /* Endif */
+    438          #endif
+    439          
+    440              return _klog_get_task_stack_usage_internal(td_ptr, stack_size_ptr, stack_used_ptr);
+    441          
+    442          #else
+    443              return MQX_INVALID_CONFIGURATION;
+    444          #endif
+    445          
+    446          } /* Endbody */
+    447          
+    448          /*!
+    449           * \private
+    450           *
+    451           * \brief Returns the stack size and the total amount of the stack
+    452           * used.
+    453           *
+    454           *  Used by MQX functions that already have TD pointer.
+    455           *
+    456           * \param[in]  td_ptr         Td of task to display.
+    457           * \param[out] stack_size_ptr Address where size of stack to be written to.
+    458           * \param[out] stack_used_ptr Amount of stack used.
+    459           *
+    460           * \return MQX_OK
+    461           * \return MQX_INVALID_TASK_ID (Task_id is not valid.)
+    462           * \return MQX_INVALID_CONFIGURATION (Compile-time configuration option
+    463           * MQX_MONITOR_STACK is not set.)
+    464           *
+    465           * \see _klog_get_task_stack_usage
+    466           * \see TD_STRUCT
+    467           */
+    468          _mqx_uint _klog_get_task_stack_usage_internal
+    469          (
+    470              TD_STRUCT_PTR td_ptr,
+    471              _mem_size_ptr stack_size_ptr,
+    472              _mem_size_ptr stack_used_ptr
+    473          )
+    474          { /* Body */
+    475          #if MQX_MONITOR_STACK && MQX_TD_HAS_STACK_LIMIT
+    476              _mqx_uint_ptr stack_ptr;
+    477              _mqx_uint_ptr stack_base;
+    478          
+    479          #if MQX_CHECK_ERRORS
+    480              if (td_ptr == NULL)
+    481              {
+    482                  return(MQX_INVALID_TASK_ID);
+    483              } /* Endif */
+    484          #endif
+    485          
+    486          #if PSP_STACK_GROWS_TO_LOWER_MEM
+    487              stack_base = (_mqx_uint_ptr)td_ptr->STACK_BASE;
+    488              stack_ptr = (_mqx_uint_ptr)td_ptr->STACK_LIMIT;
+    489              while (stack_ptr < stack_base)
+    490              {
+    491                  if (*stack_ptr != MQX_STACK_MONITOR_VALUE)
+    492                  {
+    493                      break;
+    494                  } /* Endif */
+    495                  ++stack_ptr;
+    496              } /* Endwhile */
+    497              *stack_used_ptr = (_mqx_uint)((uchar_ptr)td_ptr->STACK_BASE -
+    498                              (uchar_ptr)stack_ptr);
+    499              *stack_size_ptr = (_mqx_uint)((uchar_ptr)td_ptr->STACK_BASE -
+    500                              (uchar_ptr)td_ptr->STACK_LIMIT);
+    501          #else
+    502              stack_base = (pointer)td_ptr->STACK_BASE;
+    503              stack_ptr = (pointer)td_ptr->STACK_LIMIT;
+    504              stack_ptr--;
+    505              while (stack_ptr > stack_base)
+    506              {
+    507                  if (*stack_ptr != MQX_STACK_MONITOR_VALUE)
+    508                  {
+    509                      break;
+    510                  } /* Endif */
+    511                  --stack_ptr;
+    512              } /* Endwhile */
+    513              *stack_used_ptr = (_mem_size)((uchar_ptr)stack_ptr -
+    514                              (uchar_ptr)td_ptr->STACK_BASE);
+    515              *stack_size_ptr = (_mem_size)((uchar_ptr)td_ptr->STACK_LIMIT -
+    516                              (uchar_ptr)td_ptr->STACK_BASE);
+    517          #endif
+    518              return(MQX_OK);
+    519          #else
+    520              return MQX_INVALID_CONFIGURATION;
+    521          #endif
+    522          
+    523          } /* Endbody */
+    524          
+    525          /*!
+    526           * \brief Gets the size of the interrupt stack and the total amount of it used.
+    527           *
+    528           * The amount used is a highwater mark - the highest amount of interrupt stack that
+    529           * the application has used so far. It shows only how much of the stack has been
+    530           * written to at this point. If the amount is 0, the interrupt stack is not large
+    531           * enough.
+    532           * \note To use kernel logging, MQX must be configured at compile time with
+    533           * MQX_MONITOR_STACK set to 1. For information on configuring MQX, see MQX User's
+    534           * Guide.
+    535           *
+    536           * \param[out] stack_size_ptr Where to write the size (in single-addressable units)
+    537           * of the stack.
+    538           * \param[out] stack_used_ptr Where to write the amount (in single-addressable
+    539           * units) of stack used.
+    540           *
+    541           * \return MQX_OK
+    542           * \return MQX_INVALID_CONFIGURATION (Failure: compile-time configuration option
+    543           * MQX_MONITOR_STACK is not set.)
+    544           *
+    545           * \see _klog_get_task_stack_usage
+    546           * \see _klog_show_stack_usage
+    547           */
+    548          _mqx_uint _klog_get_interrupt_stack_usage
+    549          (
+    550              _mem_size_ptr stack_size_ptr,
+    551              _mem_size_ptr stack_used_ptr
+    552          )
+    553          { /* Body */
+    554          #if MQX_MONITOR_STACK
+    555              KERNEL_DATA_STRUCT_PTR kernel_data;
+    556              _mqx_uint_ptr          stack_ptr;
+    557              _mqx_uint_ptr          stack_base;
+    558          
+    559              _GET_KERNEL_DATA(kernel_data);
+    560          
+    561              *stack_size_ptr = kernel_data->INIT.INTERRUPT_STACK_SIZE;
+    562          
+    563          #if PSP_STACK_GROWS_TO_LOWER_MEM
+    564              stack_base = (_mqx_uint_ptr)kernel_data->INTERRUPT_STACK_PTR;
+    565              stack_ptr = (_mqx_uint_ptr)((uchar_ptr)stack_base -
+    566                              kernel_data->INIT.INTERRUPT_STACK_SIZE
+    567          #if PSP_MEMORY_ALIGNMENT
+    568                              + PSP_MEMORY_ALIGNMENT + 1
+    569          #endif
+    570              );
+    571              while (stack_ptr < stack_base)
+    572              {
+    573                  if (*stack_ptr != MQX_STACK_MONITOR_VALUE)
+    574                  {
+    575                      break;
+    576                  } /* Endif */
+    577                  ++stack_ptr;
+    578              } /* Endwhile */
+    579              *stack_used_ptr = (_mem_size)((uchar_ptr)stack_base - (uchar_ptr)stack_ptr);
+    580          #else
+    581              stack_base = (_mqx_uint_ptr)kernel_data->INTERRUPT_STACK_PTR;
+    582              stack_ptr = (_mqx_uint_ptr)((uchar_ptr)stack_base +
+    583                              kernel_data->INIT.INTERRUPT_STACK_SIZE - 1
+    584          #if PSP_MEMORY_ALIGNMENT
+    585                              - PSP_MEMORY_ALIGNMENT
+    586          #endif
+    587              );
+    588              stack_ptr--;
+    589              while (stack_ptr > stack_base)
+    590              {
+    591                  if (*stack_ptr != MQX_STACK_MONITOR_VALUE)
+    592                  {
+    593                      break;
+    594                  } /* Endif */
+    595                  --stack_ptr;
+    596              } /* Endwhile */
+    597              *stack_used_ptr = (_mem_size)((uchar_ptr)stack_ptr - (uchar_ptr)stack_base);
+    598          #endif
+    599          
+    600              return(MQX_OK);
+    601          #else
+    602              return MQX_INVALID_CONFIGURATION;
+    603          #endif
+    604          
+    605          } /* Endbody */
+    606          
+    607          /*!
+    608           * \brief This function prints out the stack usage for all tasks currently running
+    609           * in the MQX system. It assumes that MQX has been configured with MQX_MONITOR_STACK.
+    610           *
+    611           * The function displays the information on the standard output stream for the calling
+    612           * task.
+    613           *
+    614           * \note To use kernel logging, MQX must be configured at compile time with
+    615           * MQX_MONITOR_STACK set to 1. For information on configuring MQX, see MQX User's Guide.
+    616           *
+    617           * \warning Depending on the low-level I/O used, the calling task might be blocked
+    618           * and MQX might perform a dispatch operation.
+    619           *
+    620           * \see _klog_get_interrupt_stack_usage
+    621           * \see _klog_get_task_stack_usage
+    622           */
+    623          void _klog_show_stack_usage(void)
+    624          { /* Body */
+    625          #if MQX_MONITOR_STACK
+    626              KERNEL_DATA_STRUCT_PTR kernel_data;
+    627              TD_STRUCT_PTR          td_ptr;
+    628              _mem_size              stack_size;
+    629              _mem_size              stack_used;
+    630              _mqx_uint              size;
+    631          
+    632              _GET_KERNEL_DATA(kernel_data);
+    633          
+    634              /* Now display the gathered information */
+    635              _klog_get_interrupt_stack_usage(&stack_size, &stack_used);
+    636              printf("Stack usage: \n\n");
+    637              printf("Interrupt stack:    size %08ld    used %08ld\n\n",
+    638                              (uint_32)stack_size, (uint_32)stack_used);
+    639          
+    640              printf("SIZE                  USED                 TASK ID      NAME\n");
+    641          
+    642              _lwsem_wait((LWSEM_STRUCT_PTR)(&kernel_data->TASK_CREATE_LWSEM));
+    643              td_ptr = (TD_STRUCT_PTR)((uchar_ptr)kernel_data->TD_LIST.NEXT -
+    644                              FIELD_OFFSET(TD_STRUCT,TD_LIST_INFO));
+    645              size = _QUEUE_GET_SIZE(&kernel_data->TD_LIST);
+    646          
+    647              while (size && td_ptr)
+    648              {
+    649                  _klog_get_task_stack_usage_internal(td_ptr, &stack_size, &stack_used);
+    650                  printf("%08ld(%08lX)    %08ld(%08lX)   %08lX     %s\n",
+    651                                  (uint_32)stack_size, (uint_32)stack_size, (uint_32)stack_used,
+    652                                  (uint_32)stack_used, td_ptr->TASK_ID,
+    653                                  (td_ptr->TASK_TEMPLATE_PTR->TASK_NAME != NULL) ?
+    654                                  td_ptr->TASK_TEMPLATE_PTR->TASK_NAME : "");
+    655                  size--;
+    656                  td_ptr = (TD_STRUCT_PTR)((uchar_ptr)(td_ptr->TD_LIST_INFO.NEXT) -
+    657                                  FIELD_OFFSET(TD_STRUCT,TD_LIST_INFO));
+    658              } /* Endwhile */
+    659          
+    660              _lwsem_post((LWSEM_STRUCT_PTR)(&kernel_data->TASK_CREATE_LWSEM));
+    661          
+    662          #else
+    663              printf("Stack usage: ERROR MQX_MONITOR_STACK not set in mqx_cnfg.h\n\n");
+    664          #endif
+    665          
+    666          } /* Endbody */
+    667          
+    668          /*!
+    669           * \brief Logs information into the kernel log.
+    670           *
+    671           * \param[in] type Defines type of log, see klog.h for possible types.
+    672           * \param[in] p1   Parameter 1.
+    673           * \param[in] p2   Parameter 2.
+    674           * \param[in] p3   Parameter 3.
+    675           * \param[in] p4   Parameter 4.
+    676           * \param[in] p5   Parameter 5.
+    677           */
+    678          void _klog_log
+    679          (
+    680              _mqx_uint type,
+    681              _mqx_max_type p1,
+    682              _mqx_max_type p2,
+    683              _mqx_max_type p3,
+    684              _mqx_max_type p4,
+    685              _mqx_max_type p5
+    686          )
+    687          { /* Body */
+    688              KERNEL_DATA_STRUCT_PTR kernel_data;
+    689              _mqx_max_type          calling_pc;
+    690          
+    691              _GET_KERNEL_DATA(kernel_data);
+    692              if ( !(kernel_data->LOG_CONTROL & KLOG_ENABLED) )
+    693              {
+    694                  return;
+    695              } /* Endif */
+    696              if ( kernel_data->LOG_CONTROL & KLOG_TASK_QUALIFIED )
+    697              {
+    698                  if (! (kernel_data->ACTIVE_PTR->FLAGS & TASK_LOGGING_ENABLED) )
+    699                  {
+    700                      return;
+    701                  } /* Endif */
+    702              } /* Endif */
+    703          
+    704              if ((type == KLOG_FUNCTION_ENTRY) || (type == KLOG_FUNCTION_EXIT))
+    705              {
+    706                  if ( !(kernel_data->LOG_CONTROL & KLOG_FUNCTIONS_ENABLED) )
+    707                  {
+    708                      return;
+    709                  } /* Endif */
+    710                  /* Functions enabled, now lets check function group enabled */
+    711                  if (((p1 & KLOG_FUNCTION_MASK) & kernel_data->LOG_CONTROL) == 0)
+    712                  {
+    713                      return;
+    714                  } /* Endif */
+    715              } /* Endif */
+    716          
+    717              if (type == KLOG_FUNCTION_ENTRY)
+    718              {
+    719                  calling_pc = (_mqx_max_type)_PSP_GET_CALLING_PC();
+    720              }
+    721              else
+    722              {
+    723                  calling_pc = 0;
+    724              } /* Endif */
+    725          
+    726              _INT_DISABLE();
+    727              _lwlog_write(LOG_KERNEL_LOG_NUMBER, (_mqx_max_type)type, p1, p2, p3, p4, p5,
+    728                              calling_pc);
+    729              _INT_ENABLE();
+    730          
+    731          } /* Endbody */
+    732          
+    733          /*!
+    734           * \brief Logs a function address into the kernel log.
+    735           *
+    736           * This function is used internally by MQX to log the API calls.
+    737           *
+    738           * \param[in] fn Pointer to the function which si to be logged.
+    739           *
+    740           * \see _klog_log
+    741           */
+    742          void _klog_log_function(pointer fn)
+    743          {
+    744              _klog_log(KLOG_FUNCTION_ADDRESS, (uint_32)fn, 0,0,0,0);
+    745          }
+    746          
+    747          /*!
+    748           * \private
+    749           *
+    750           * \brief Is called from _task_block for logging purposes.
+    751           */
+    752          void _klog_block_internal(void)
+    753          { /* Body */
+    754              KERNEL_DATA_STRUCT_PTR kernel_data;
+    755              TD_STRUCT_PTR          td_ptr;
+    756          
+    757              _GET_KERNEL_DATA(kernel_data);
+    758              if ( kernel_data->LOG_CONTROL & KLOG_TASK_QUALIFIED )
+    759              {
+    760                  if (! (kernel_data->ACTIVE_PTR->FLAGS & TASK_LOGGING_ENABLED) )
+    761                  {
+    762                      return;
+    763                  } /* Endif */
+    764              } /* Endif */
+    765          
+    766              if (kernel_data->LOG_CONTROL & KLOG_FUNCTIONS_ENABLED)
+    767              {
+    768                  if ((KLOG_task_block & KLOG_FUNCTION_MASK) & kernel_data->LOG_CONTROL)
+    769                  {
+    770                      if (kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG])
+    771                      {
+    772                          td_ptr = kernel_data->ACTIVE_PTR;
+    773                          _lwlog_write_internal(LOG_KERNEL_LOG_NUMBER,
+    774                                          (_mqx_max_type)KLOG_FUNCTION_ENTRY,
+    775                                          (_mqx_max_type)KLOG_task_block, (_mqx_max_type)td_ptr,
+    776                                          (_mqx_max_type)td_ptr->TASK_ID, (_mqx_max_type)td_ptr->STATE,
+    777                                          (_mqx_max_type)td_ptr->STACK_PTR, (_mqx_max_type)0);
+    778                      } /* Endif */
+    779                  } /* Endif */
+    780              } /* Endif */
+    781          
+    782          } /* Endbody */
+    783          
+    784          /*!
+    785           * \private
+    786           *
+    787           * \brief Is called from _sched_execute_scheduler_internal for
+    788           * logging purposes.
+    789           */
+    790          void _klog_execute_scheduler_internal(void)
+    791          { /* Body */
+    792              KERNEL_DATA_STRUCT_PTR kernel_data;
+    793              TD_STRUCT_PTR          td_ptr;
+    794          
+    795              _GET_KERNEL_DATA(kernel_data);
+    796              if ( kernel_data->LOG_CONTROL & KLOG_TASK_QUALIFIED )
+    797              {
+    798                  if (! (kernel_data->ACTIVE_PTR->FLAGS & TASK_LOGGING_ENABLED) )
+    799                  {
+    800                      return;
+    801                  } /* Endif */
+    802              } /* Endif */
+    803          
+    804              if (kernel_data->LOG_CONTROL & KLOG_FUNCTIONS_ENABLED)
+    805              {
+    806                  if ((KLOG_task_execute_scheduler & KLOG_FUNCTION_MASK) & kernel_data->LOG_CONTROL)
+    807                  {
+    808                      if (kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG])
+    809                      {
+    810                          td_ptr = kernel_data->ACTIVE_PTR;
+    811                          _lwlog_write_internal(LOG_KERNEL_LOG_NUMBER,
+    812                                          (_mqx_max_type)KLOG_FUNCTION_ENTRY,
+    813                                          (_mqx_max_type)KLOG_task_execute_scheduler, (_mqx_max_type)td_ptr,
+    814                                          (_mqx_max_type)td_ptr->TASK_ID, (_mqx_max_type)td_ptr->STATE,
+    815                                          (_mqx_max_type)td_ptr->STACK_PTR, (_mqx_max_type)0);
+    816                      } /* Endif */
+    817                  } /* Endif */
+    818              } /* Endif */
+    819          
+    820          } /* Endbody */
+    821          
+    822          /*!
+    823           * \private
+    824           *
+    825           * \brief Is called from _sched_yield for logging purposes.
+    826           */
+    827          void _klog_yield_internal(void)
+    828          { /* Body */
+    829              KERNEL_DATA_STRUCT_PTR kernel_data;
+    830              TD_STRUCT_PTR          td_ptr;
+    831          
+    832              _GET_KERNEL_DATA(kernel_data);
+    833              if ( kernel_data->LOG_CONTROL & KLOG_TASK_QUALIFIED )
+    834              {
+    835                  if (! (kernel_data->ACTIVE_PTR->FLAGS & TASK_LOGGING_ENABLED) )
+    836                  {
+    837                      return;
+    838                  } /* Endif */
+    839              } /* Endif */
+    840          
+    841              if (kernel_data->LOG_CONTROL & KLOG_FUNCTIONS_ENABLED)
+    842              {
+    843                  if ((KLOG_sched_yield & KLOG_FUNCTION_MASK) & kernel_data->LOG_CONTROL)
+    844                  {
+    845                      if (kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG])
+    846                      {
+    847                          td_ptr = kernel_data->ACTIVE_PTR;
+    848                          _lwlog_write_internal(LOG_KERNEL_LOG_NUMBER,
+    849                                          (_mqx_max_type)KLOG_FUNCTION_ENTRY,
+    850                                          (_mqx_max_type)KLOG_sched_yield, (_mqx_max_type)td_ptr,
+    851                                          (_mqx_max_type)td_ptr->TASK_ID, (_mqx_max_type)td_ptr->STATE,
+    852                                          (_mqx_max_type)td_ptr->STACK_PTR, (_mqx_max_type)0);
+    853                      } /* Endif */
+    854                  } /* Endif */
+    855              } /* Endif */
+    856          
+    857          } /* Endbody */
+    858          
+    859          /*!
+    860           * \private
+    861           *
+    862           * \brief Is called from _sched_dispatch for logging purposes.
+    863           */
+    864          void _klog_context_switch_internal(void)
+    865          { /* Body */
+    866              KERNEL_DATA_STRUCT_PTR kernel_data;
+    867              TD_STRUCT_PTR          td_ptr;
+    868          
+    869              _GET_KERNEL_DATA(kernel_data);
+    870          #if 0
+    871              if ( kernel_data->LOG_CONTROL & KLOG_TASK_QUALIFIED )
+    872              {
+    873                  if (! (kernel_data->ACTIVE_PTR->FLAGS & TASK_LOGGING_ENABLED) )
+    874                  {
+    875                      return;
+    876                  } /* Endif */
+    877              } /* Endif */
+    878          #endif
+    879              if (kernel_data->LOG_CONTROL & KLOG_CONTEXT_ENABLED)
+    880              {
+    881                  if (kernel_data->ACTIVE_PTR != kernel_data->LOG_OLD_TD)
+    882                  {
+    883                      if (kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG])
+    884                      {
+    885                          kernel_data->LOG_OLD_TD = kernel_data->ACTIVE_PTR;
+    886                          if ( kernel_data->LOG_CONTROL & KLOG_TASK_QUALIFIED )
+    887                          {
+    888                              if (! (kernel_data->ACTIVE_PTR->FLAGS & TASK_LOGGING_ENABLED) )
+    889                              {
+    890                                  return;
+    891                              } /* Endif */
+    892                          } /* Endif */
+    893                          td_ptr = kernel_data->ACTIVE_PTR;
+    894                          _lwlog_write_internal(LOG_KERNEL_LOG_NUMBER,
+    895                                          (_mqx_max_type)KLOG_CONTEXT_SWITCH,
+    896                                          (_mqx_max_type)td_ptr, (_mqx_max_type)td_ptr->TASK_ID,
+    897                                          (_mqx_max_type)td_ptr->STATE, (_mqx_max_type)td_ptr->STACK_PTR,
+    898                                          (_mqx_max_type)0, (_mqx_max_type)0);
+    899                      } /* Endif */
+    900                  } /* Endif */
+    901              } /* Endif */
+    902          
+    903          } /* Endbody */
+    904          
+    905          /*!
+    906           * \private
+    907           *
+    908           * \brief Is called from _int_kernel_isr for logging purposes.
+    909           *
+    910           * \param[in] vector_number
+    911           */
+    912          void _klog_isr_start_internal
+    913          (
+    914              _mqx_uint vector_number
+    915          )
+    916          { /* Body */
+    917              KERNEL_DATA_STRUCT_PTR kernel_data;
+    918          
+    919              _GET_KERNEL_DATA(kernel_data);
+    920              if (kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG])
+    921              {
+    922                  if (kernel_data->LOG_CONTROL & KLOG_INTERRUPTS_ENABLED)
+    923                  {
+    924                      if (!(kernel_data->LOG_CONTROL & KLOG_SYSTEM_CLOCK_INT_ENABLED))
+    925                      {
+    926                          /* Check to see if the vector number is to be ignored */
+    927                          if (vector_number == kernel_data->SYSTEM_CLOCK_INT_NUMBER)
+    928                          {
+    929                              return;
+    930                          } /* Endif */
+    931                      } /* Endif */
+    932                      _lwlog_write_internal(LOG_KERNEL_LOG_NUMBER,
+    933                                      (_mqx_max_type)KLOG_INTERRUPT, (_mqx_max_type)vector_number,
+    934                                      (_mqx_max_type)_int_get_isr(vector_number),
+    935                                      (_mqx_max_type)_int_get_isr_data(vector_number), (_mqx_max_type)0,
+    936                                      (_mqx_max_type)0, (_mqx_max_type)0);
+    937                  } /* Endif */
+    938              } /* Endif */
+    939          
+    940          } /* Endbody */
+    941          
+    942          /*!
+    943           * \private
+    944           *
+    945           * \brief Is called from _int_kernel_isr for logging purposes.
+    946           *
+    947           * \param[in] vector_number
+    948           */
+    949          void _klog_isr_end_internal
+    950          (
+    951              _mqx_uint vector_number
+    952          )
+    953          { /* Body */
+    954              KERNEL_DATA_STRUCT_PTR kernel_data;
+    955          
+    956              _GET_KERNEL_DATA(kernel_data);
+    957              if (kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG])
+    958              {
+    959                  if (kernel_data->LOG_CONTROL & KLOG_INTERRUPTS_ENABLED)
+    960                  {
+    961                      if (!(kernel_data->LOG_CONTROL & KLOG_SYSTEM_CLOCK_INT_ENABLED))
+    962                      {
+    963                          /* Check to see if the vector number is to be ignored */
+    964                          if (vector_number == kernel_data->SYSTEM_CLOCK_INT_NUMBER)
+    965                          {
+    966                              return;
+    967                          } /* Endif */
+    968                      } /* Endif */
+    969                      _lwlog_write_internal(LOG_KERNEL_LOG_NUMBER,
+    970                                      (_mqx_max_type)KLOG_INTERRUPT_END, (_mqx_max_type)vector_number,
+    971                                      (_mqx_max_type)0, (_mqx_max_type)0, (_mqx_max_type)0,
+    972                                      (_mqx_max_type)0, (_mqx_max_type)0);
+    973                  } /* Endif */
+    974              } /* Endif */
+    975          
+    976          } /* Endbody */
+    977          
+    978          /*!
+    979           * \private
+    980           *
+    981           * \brief Returns the address of a function name string.
+    982           *
+    983           * \param[in] index The function index.
+    984           *
+    985           * \return Pointer to the function name string.
+    986           */
+    987          char _PTR_ _klog_get_function_name_internal
+    988          (
+    989              uint_32 index
+    990          )
+    991          { /* Body */
+    992              char _PTR_ result;
+    993          
+    994              switch (index)
+    995              {
+    996                  KLOG_NAME(_task_ready);
+    997                  KLOG_NAME(_task_block);
+    998                  KLOG_NAME(_task_execute_scheduler);
+    999                  KLOG_NAME(_task_create);
+   1000                  KLOG_NAME(_task_create_block);
+   1001                  KLOG_NAME(_task_destroy);
+   1002                  KLOG_NAME(_time_dequeue);
+   1003          
+   1004                  KLOG_NAME(_sched_setscheduler);
+   1005                  KLOG_NAME(_sched_yield);
+   1006                  KLOG_NAME(_sched_setparam);
+   1007                  KLOG_NAME(_sched_setparam_td);
+   1008                  KLOG_NAME(_sched_boost_priority);
+   1009                  KLOG_NAME(_sched_unboost_priority);
+   1010                  KLOG_NAME(_task_exit_function);
+   1011                  KLOG_NAME(_taskq_create);
+   1012                  KLOG_NAME(_taskq_destroy);
+   1013                  KLOG_NAME(_taskq_suspend);
+   1014                  KLOG_NAME(_taskq_resume);
+   1015                  KLOG_NAME(_sched_set_policy);
+   1016                  KLOG_NAME(_sched_set_rr_interval);
+   1017                  KLOG_NAME(_sched_set_rr_interval_ticks);
+   1018                  KLOG_NAME(_taskq_suspend_task);
+   1019                  KLOG_NAME(_task_set_priority);
+   1020                  KLOG_NAME(_time_dequeue_td);
+   1021                  KLOG_NAME(_task_abort);
+   1022                  KLOG_NAME(_task_set_environment);
+   1023                  KLOG_NAME(_task_enable_fp);
+   1024                  KLOG_NAME(_task_disable_fp);
+   1025                  KLOG_NAME(_task_set_parameter);
+   1026                  KLOG_NAME(_task_stop_preemption);
+   1027                  KLOG_NAME(_task_start_preemption);
+   1028                  KLOG_NAME(_task_set_exception_handler);
+   1029                  KLOG_NAME(_task_set_exit_handler);
+   1030                  KLOG_NAME(_taskq_test);
+   1031                  KLOG_NAME(_io_set_handle);
+   1032                  KLOG_NAME(_task_restart);
+   1033          
+   1034                  KLOG_NAME(_mqx_exit);
+   1035                  KLOG_NAME(_int_default_isr);
+   1036                  KLOG_NAME(_task_set_error);
+   1037                  KLOG_NAME(_log_test);
+   1038                  KLOG_NAME(_mqx_set_exit_handler);
+   1039                  KLOG_NAME(_mqx_fatal_error);
+   1040          
+   1041                  KLOG_NAME(_msgq_close);
+   1042                  KLOG_NAME(_msgpool_create_system);
+   1043                  KLOG_NAME(_msgpool_create);
+   1044                  KLOG_NAME(_msgpool_destroy);
+   1045                  KLOG_NAME(_msg_free);
+   1046                  KLOG_NAME(_msg_alloc_system);
+   1047                  KLOG_NAME(_msg_alloc);
+   1048                  KLOG_NAME(_msgq_open);
+   1049                  KLOG_NAME(_msgq_open_system);
+   1050                  KLOG_NAME(_msgq_receive);
+   1051                  KLOG_NAME(_msgq_receive_for);
+   1052                  KLOG_NAME(_msgq_receive_ticks);
+   1053                  KLOG_NAME(_msgq_receive_until);
+   1054                  KLOG_NAME(_msgq_poll);
+   1055                  KLOG_NAME(_msgq_get_count);
+   1056                  KLOG_NAME(_msgq_send);
+   1057                  KLOG_NAME(_msgq_send_blocked);
+   1058                  KLOG_NAME(_msgq_send_queue);
+   1059                  KLOG_NAME(_msgq_send_urgent);
+   1060                  KLOG_NAME(_msgq_send_broadcast);
+   1061                  KLOG_NAME(_msgq_set_notification_function);
+   1062                  KLOG_NAME(_msgq_peek);
+   1063                  KLOG_NAME(_msgq_send_priority);
+   1064                  KLOG_NAME(_msg_create_component);
+   1065                  KLOG_NAME(_msgpool_test);
+   1066                  KLOG_NAME(_msgq_test);
+   1067                  KLOG_NAME(_lwmsgq_init);
+   1068                  KLOG_NAME(_lwmsgq_send);
+   1069                  KLOG_NAME(_lwmsgq_receive);
+   1070          
+   1071                  KLOG_NAME(_int_install_kernel_isr);
+   1072                  KLOG_NAME(_int_install_isr);
+   1073                  KLOG_NAME(_int_install_default_isr);
+   1074                  KLOG_NAME(_int_set_isr_data);
+   1075                  KLOG_NAME(_int_set_exception_handler);
+   1076          
+   1077                  default: result = _klog_get_function_name2_internal(index); break;
+   1078              } /* Endswitch */
+   1079          
+   1080              return result;
+   1081          
+   1082          } /* Endbody */
+   1083          
+   1084          /*!
+   1085           * \private
+   1086           *
+   1087           * \brief Returns the address of a function name string.
+   1088           *
+   1089           * \param[in] index The function index.
+   1090           *
+   1091           * \return Pointer to the function name string.
+   1092           *
+   1093           * \see _klog_get_function_name_internal
+   1094           */
+   1095          char _PTR_ _klog_get_function_name2_internal
+   1096          (
+   1097              uint_32 index
+   1098          )
+   1099          { /* Body */
+   1100              char _PTR_ result;
+   1101          
+   1102              switch (index)
+   1103              {
+   1104                  KLOG_NAME(_mem_free);
+   1105                  KLOG_NAME(_mem_alloc);
+   1106                  KLOG_NAME(_mem_alloc_from);
+   1107                  KLOG_NAME(_mem_test);
+   1108                  KLOG_NAME(_mem_test_pool);
+   1109                  KLOG_NAME(_mem_alloc_zero);
+   1110                  KLOG_NAME(_mem_alloc_system);
+   1111                  KLOG_NAME(_mem_alloc_system_from);
+   1112                  KLOG_NAME(_mem_alloc_system_zero);
+   1113                  KLOG_NAME(_mem_alloc_system_zero_from);
+   1114                  KLOG_NAME(_mem_extend);
+   1115                  KLOG_NAME(_mem_extend_pool);
+   1116                  KLOG_NAME(_mem_transfer);
+   1117                  KLOG_NAME(_mem_free_part);
+   1118                  KLOG_NAME(_mem_create_pool);
+   1119          
+   1120                  KLOG_NAME(_lwmem_alloc);
+   1121                  KLOG_NAME(_lwmem_alloc_from);
+   1122                  KLOG_NAME(_lwmem_alloc_zero);
+   1123                  KLOG_NAME(_lwmem_alloc_zero_from);
+   1124                  KLOG_NAME(_lwmem_create_pool);
+   1125                  KLOG_NAME(_lwmem_free);
+   1126                  KLOG_NAME(_lwmem_alloc_system);
+   1127                  KLOG_NAME(_lwmem_alloc_system_from);
+   1128                  KLOG_NAME(_lwmem_transfer);
+   1129                  KLOG_NAME(_lwmem_alloc_system_zero);
+   1130                  KLOG_NAME(_lwmem_alloc_system_zero_from);
+   1131          
+   1132                  KLOG_NAME(_time_set);
+   1133                  KLOG_NAME(_time_set_ticks);
+   1134                  KLOG_NAME(_time_delay);
+   1135                  KLOG_NAME(_time_delay_for);
+   1136                  KLOG_NAME(_time_delay_ticks);
+   1137                  KLOG_NAME(_time_delay_until);
+   1138                  KLOG_NAME(_timer_create_component);
+   1139                  KLOG_NAME(_timer_cancel);
+   1140                  KLOG_NAME(_timer_start_oneshot_after);
+   1141                  KLOG_NAME(_timer_start_oneshot_at);
+   1142                  KLOG_NAME(_timer_start_periodic_every);
+   1143                  KLOG_NAME(_timer_start_periodic_at);
+   1144                  KLOG_NAME(_timer_test);
+   1145                  KLOG_NAME(_timer_start_oneshot_after_ticks);
+   1146                  KLOG_NAME(_timer_start_oneshot_at_ticks);
+   1147                  KLOG_NAME(_timer_start_periodic_every_ticks);
+   1148                  KLOG_NAME(_timer_start_periodic_at_ticks);
+   1149          
+   1150                  KLOG_NAME(_lwtimer_create_periodic_queue);
+   1151                  KLOG_NAME(_lwtimer_add_timer_to_queue);
+   1152                  KLOG_NAME(_lwtimer_cancel_period);
+   1153                  KLOG_NAME(_lwtimer_cancel_timer);
+   1154                  KLOG_NAME(_lwtimer_test);
+   1155          
+   1156                  KLOG_NAME(_event_create_component);
+   1157                  KLOG_NAME(_event_create);
+   1158                  KLOG_NAME(_event_destroy);
+   1159                  KLOG_NAME(_event_open);
+   1160                  KLOG_NAME(_event_close);
+   1161                  KLOG_NAME(_event_wait_all);
+   1162                  KLOG_NAME(_event_wait_all_ticks);
+   1163                  KLOG_NAME(_event_wait_all_for);
+   1164                  KLOG_NAME(_event_wait_all_until);
+   1165                  KLOG_NAME(_event_wait_any);
+   1166                  KLOG_NAME(_event_wait_any_ticks);
+   1167                  KLOG_NAME(_event_wait_any_for);
+   1168                  KLOG_NAME(_event_wait_any_until);
+   1169                  KLOG_NAME(_event_set);
+   1170                  KLOG_NAME(_event_clear);
+   1171                  KLOG_NAME(_event_create_fast);
+   1172                  KLOG_NAME(_event_open_fast);
+   1173                  KLOG_NAME(_event_destroy_fast);
+   1174                  KLOG_NAME(_event_test);
+   1175          
+   1176                  KLOG_NAME(_lwevent_clear);
+   1177                  KLOG_NAME(_lwevent_create);
+   1178                  KLOG_NAME(_lwevent_destroy);
+   1179                  KLOG_NAME(_lwevent_set);
+   1180                  KLOG_NAME(_lwevent_test);
+   1181                  KLOG_NAME(_lwevent_wait);
+   1182                  KLOG_NAME(_lwevent_wait_for);
+   1183                  KLOG_NAME(_lwevent_wait_until);
+   1184                  KLOG_NAME(_lwevent_wait_ticks);
+   1185          
+   1186                  KLOG_NAME(_name_create_component);
+   1187                  KLOG_NAME(_name_add);
+   1188                  KLOG_NAME(_name_delete);
+   1189                  KLOG_NAME(_name_find);
+   1190                  KLOG_NAME(_name_find_name);
+   1191                  KLOG_NAME(_name_test);
+   1192          
+   1193                  KLOG_NAME(_mutatr_init);
+   1194                  KLOG_NAME(_mutatr_destroy);
+   1195                  KLOG_NAME(_mutatr_set_sched_protocol);
+   1196                  KLOG_NAME(_mutatr_set_priority_ceiling);
+   1197          
+   1198                  KLOG_NAME(_mutex_create_component);
+   1199                  KLOG_NAME(_mutex_init);
+   1200                  KLOG_NAME(_mutex_set_priority_ceiling);
+   1201                  KLOG_NAME(_mutex_destroy);
+   1202                  KLOG_NAME(_mutex_lock);
+   1203                  KLOG_NAME(_mutex_try_lock);
+   1204                  KLOG_NAME(_mutex_unlock);
+   1205          
+   1206                  KLOG_NAME(_mutatr_set_wait_protocol);
+   1207                  KLOG_NAME(_mutatr_set_spin_limit);
+   1208                  KLOG_NAME(_mutex_test);
+   1209          
+   1210                  KLOG_NAME(_sem_create_component);
+   1211                  KLOG_NAME(_sem_create);
+   1212                  KLOG_NAME(_sem_destroy);
+   1213                  KLOG_NAME(_sem_open);
+   1214                  KLOG_NAME(_sem_close);
+   1215                  KLOG_NAME(_sem_post);
+   1216                  KLOG_NAME(_sem_create_fast);
+   1217                  KLOG_NAME(_sem_open_fast);
+   1218                  KLOG_NAME(_sem_destroy_fast);
+   1219                  KLOG_NAME(_sem_test);
+   1220                  KLOG_NAME(_sem_wait);
+   1221                  KLOG_NAME(_sem_wait_for);
+   1222                  KLOG_NAME(_sem_wait_ticks);
+   1223                  KLOG_NAME(_sem_wait_until);
+   1224                  KLOG_NAME(_lwsem_create);
+   1225                  KLOG_NAME(_lwsem_wait);
+   1226                  KLOG_NAME(_lwsem_post);
+   1227                  KLOG_NAME(_lwsem_destroy);
+   1228                  KLOG_NAME(_lwsem_test);
+   1229                  KLOG_NAME(_lwsem_poll);
+   1230                  KLOG_NAME(_lwsem_wait_ticks);
+   1231                  KLOG_NAME(_lwsem_wait_for);
+   1232                  KLOG_NAME(_lwsem_wait_until);
+   1233          
+   1234                  KLOG_NAME(_watchdog_create_component);
+   1235                  KLOG_NAME(_watchdog_stop);
+   1236                  KLOG_NAME(_watchdog_start);
+   1237                  KLOG_NAME(_watchdog_start_ticks);
+   1238                  KLOG_NAME(_watchdog_test);
+   1239          
+   1240                  KLOG_NAME(_partition_create);
+   1241                  KLOG_NAME(_partition_create_at);
+   1242                  KLOG_NAME(_partition_alloc);
+   1243                  KLOG_NAME(_partition_alloc_zero);
+   1244                  KLOG_NAME(_partition_alloc_system);
+   1245                  KLOG_NAME(_partition_alloc_system_zero);
+   1246                  KLOG_NAME(_partition_extend);
+   1247                  KLOG_NAME(_partition_free);
+   1248                  KLOG_NAME(_partition_test);
+   1249                  KLOG_NAME(_partition_transfer);
+   1250                  KLOG_NAME(_partition_destroy);
+   1251                  KLOG_NAME(_partition_create_component);
+   1252          
+   1253                  KLOG_NAME(_eds_create_component);
+   1254                  KLOG_NAME(_eds_remove);
+   1255          
+   1256                  default: result = "Unknown function"; break;
+   1257              } /* Endswitch */
+   1258          
+   1259              return result;
+   1260          
+   1261          } /* Endbody */
+   1262          
+   1263          #endif /* MQX_KERNEL_LOGGING */
+   1264          
+   1265          /* EOF */
+
+
+ 
+ 
+ 0 bytes of memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,113 @@
+#Generating source browse information for project kl16z128_eslora
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build adc16.pbi : index adc16.xcl
+build flash.pbi : index flash.xcl
+build flash_RamFunc.pbi : index flash_RamFunc.xcl
+build i2c.pbi : index i2c.xcl
+build LED.pbi : index LED.xcl
+build llwu.pbi : index llwu.xcl
+build lptmr.pbi : index lptmr.xcl
+build mcg.pbi : index mcg.xcl
+build Reset.pbi : index Reset.xcl
+build smc.pbi : index smc.xcl
+build MemManager.pbi : index MemManager.xcl
+build Messaging.pbi : index Messaging.xcl
+build MQXLite_Adapter.pbi : index MQXLite_Adapter.xcl
+build Panic.pbi : index Panic.xcl
+build RNG.pbi : index RNG.xcl
+build SerialManager.pbi : index SerialManager.xcl
+build TimersManager.pbi : index TimersManager.xcl
+build FunctionLib.pbi : index FunctionLib.xcl
+build GenericList.pbi : index GenericList.xcl
+build Cpu.pbi : index Cpu.xcl
+build LED1.pbi : index LED1.xcl
+build LED2.pbi : index LED2.xcl
+build MQXLite1.pbi : index MQXLite1.xcl
+build PE_LDD.pbi : index PE_LDD.xcl
+build PitTimeStamp.pbi : index PitTimeStamp.xcl
+build RealTimeClock.pbi : index RealTimeClock.xcl
+build StackTimer.pbi : index StackTimer.xcl
+build SystemTimer1.pbi : index SystemTimer1.xcl
+build UARTA.pbi : index UARTA.xcl
+build Vectors.pbi : index Vectors.xcl
+build task_template_list.pbi : index task_template_list.xcl
+build idletask.pbi : index idletask.xcl
+build int.pbi : index int.xcl
+build klog.pbi : index klog.xcl
+build lwevent.pbi : index lwevent.xcl
+build lwlog.pbi : index lwlog.xcl
+build lwmsgq.pbi : index lwmsgq.xcl
+build lwsem.pbi : index lwsem.xcl
+build lwtimer.pbi : index lwtimer.xcl
+build mqx_utils.pbi : index mqx_utils.xcl
+build mqxlite.pbi : index mqxlite.xcl
+build mutex.pbi : index mutex.xcl
+build qu_test.pbi : index qu_test.xcl
+build sched.pbi : index sched.xcl
+build task.pbi : index task.xcl
+build time_ticks.pbi : index time_ticks.xcl
+build cortex.pbi : index cortex.xcl
+build int_gkis.pbi : index int_gkis.xcl
+build int_inst.pbi : index int_inst.xcl
+build int_kisr.pbi : index int_kisr.xcl
+build int_pvta.pbi : index int_pvta.xcl
+build int_unx.pbi : index int_unx.xcl
+build int_vtab.pbi : index int_vtab.xcl
+build int_xcpt.pbi : index int_xcpt.xcl
+build mem_zero.pbi : index mem_zero.xcl
+build psp_iinit.pbi : index psp_iinit.xcl
+build psp_supp.pbi : index psp_supp.xcl
+build psp_tiad.pbi : index psp_tiad.xcl
+build psp_tinm.pbi : index psp_tinm.xcl
+build psp_tisu.pbi : index psp_tisu.xcl
+build sc_irdyq.pbi : index sc_irdyq.xcl
+build stack_bu.pbi : index stack_bu.xcl
+build stack_de.pbi : index stack_de.xcl
+build stack_st.pbi : index stack_st.xcl
+build radio.pbi : index radio.xcl
+build sx1276-Hal.pbi : index sx1276-Hal.xcl
+build sx1276-LoRa.pbi : index sx1276-LoRa.xcl
+build sx1276-LoRaMisc.pbi : index sx1276-LoRaMisc.xcl
+build sx1276-Spi.pbi : index sx1276-Spi.xcl
+build sx1276.pbi : index sx1276.xcl
+build cca.pbi : index cca.xcl
+build smac.pbi : index smac.xcl
+build Events.pbi : index Events.xcl
+build menus.pbi : index menus.xcl
+build message.pbi : index message.xcl
+build mqx_tasks.pbi : index mqx_tasks.xcl
+build ProcessorExpert.pbi : index ProcessorExpert.xcl
+build usr_tasks.pbi : index usr_tasks.xcl
+build kl16z128_eslora_part0.pbi : link adc16.pbi flash.pbi flash_RamFunc.pbi i2c.pbi LED.pbi llwu.pbi lptmr.pbi mcg.pbi Reset.pbi
+build kl16z128_eslora_part1.pbi : link smc.pbi MemManager.pbi Messaging.pbi MQXLite_Adapter.pbi Panic.pbi RNG.pbi SerialManager.pbi TimersManager.pbi FunctionLib.pbi
+build kl16z128_eslora_part2.pbi : link GenericList.pbi Cpu.pbi LED1.pbi LED2.pbi MQXLite1.pbi PE_LDD.pbi PitTimeStamp.pbi RealTimeClock.pbi StackTimer.pbi
+build kl16z128_eslora_part3.pbi : link SystemTimer1.pbi UARTA.pbi Vectors.pbi task_template_list.pbi idletask.pbi int.pbi klog.pbi lwevent.pbi lwlog.pbi
+build kl16z128_eslora_part4.pbi : link lwmsgq.pbi lwsem.pbi lwtimer.pbi mqx_utils.pbi mqxlite.pbi mutex.pbi qu_test.pbi sched.pbi task.pbi
+build kl16z128_eslora_part5.pbi : link time_ticks.pbi cortex.pbi int_gkis.pbi int_inst.pbi int_kisr.pbi int_pvta.pbi int_unx.pbi int_vtab.pbi int_xcpt.pbi
+build kl16z128_eslora_part6.pbi : link mem_zero.pbi psp_iinit.pbi psp_supp.pbi psp_tiad.pbi psp_tinm.pbi psp_tisu.pbi sc_irdyq.pbi stack_bu.pbi stack_de.pbi
+build kl16z128_eslora_part7.pbi : link stack_st.pbi radio.pbi sx1276-Hal.pbi sx1276-LoRa.pbi sx1276-LoRaMisc.pbi sx1276-Spi.pbi sx1276.pbi cca.pbi smac.pbi
+build kl16z128_eslora_part8.pbi : link Events.pbi menus.pbi message.pbi mqx_tasks.pbi ProcessorExpert.pbi usr_tasks.pbi
+build kl16z128_eslora.pbd : link kl16z128_eslora_part0.pbi kl16z128_eslora_part1.pbi kl16z128_eslora_part2.pbi kl16z128_eslora_part3.pbi kl16z128_eslora_part4.pbi kl16z128_eslora_part5.pbi kl16z128_eslora_part6.pbi kl16z128_eslora_part7.pbi kl16z128_eslora_part8.pbi
+build kl16z128_eslora.pbw : browsedata kl16z128_eslora.pbd
+
+

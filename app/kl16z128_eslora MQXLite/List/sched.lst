@@ -1,0 +1,1026 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:02
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\sched.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW60F3.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\sched.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\sched.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sched.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\sched.c
+      1          /*HEADER**********************************************************************
+      2           *
+      3           * Copyright (c) 2008 Freescale Semiconductor;
+      4           * All Rights Reserved
+      5           *
+      6           * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7           * All Rights Reserved
+      8           *
+      9           * Copyright (c) 1989-2008 ARC International;
+     10           * All Rights Reserved
+     11           *
+     12           *****************************************************************************
+     13           *
+     14           * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15           * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16           * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17           * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18           * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20           * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21           * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22           * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23           * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24           * THE POSSIBILITY OF SUCH DAMAGE.
+     25           *
+     26           *****************************************************************************
+     27           *
+     28           * $FileName: sched.c$
+     29           * $Version : 3.8.0.2$
+     30           * $Date    : Feb-21-2012$
+     31           *
+     32           * Comments:
+     33           *
+     34           *   This file contains functions of the Scheduler component.
+     35           *
+     36           *END************************************************************************/
+     37          
+     38          #include "mqx_inc.h"
+     39          
+     40          /*!
+     41           * \brief Gets the maximum priority that a task can have.
+     42           *
+     43           * This function always returns 0, the highest priority a task may have under MQX.
+     44           * \n POSIX compatibility requires the function and the parameter.
+     45           *
+     46           * \param[in] policy Not used, all task priorities are same for RR or FIFO.
+     47           *
+     48           * \return 0 (Always.)
+     49           *
+     50           * \see _sched_get_min_priority
+     51           */
+     52          _mqx_uint _sched_get_max_priority
+     53          (
+     54              _mqx_uint policy
+     55          )
+     56          { /* Body */
+     57          
+     58              return (0);
+     59          
+     60          } /* Endbody */
+     61          
+     62          /*!
+     63           * \brief Gets the minimum priority that an application task can have.
+     64           *
+     65           * POSIX compatibility requires the function and the parameter.
+     66           * \n The minimum priority that a task can be is set when MQX starts; it is the
+     67           * priority of the lowest-priority task in the task template list.
+     68           *
+     69           * \param[in] policy Not used.
+     70           *
+     71           * \return Minimum priority that an application task can be (the numerical value
+     72           * one less than the priority of Idle Task).
+     73           *
+     74           * \see _sched_get_max_priority
+     75           */
+     76          _mqx_uint _sched_get_min_priority
+     77          (
+     78              _mqx_uint policy
+     79          )
+     80          { /* Body */
+     81              KERNEL_DATA_STRUCT_PTR kernel_data;
+     82          
+     83              _GET_KERNEL_DATA(kernel_data);
+     84          
+     85              return (kernel_data->LOWEST_TASK_PRIORITY);
+     86          
+     87          } /* Endbody */
+     88          
+     89          #if !MQX_LITE_VERSION_NUMBER
+     90          /*!
+     91           * \brief Sets the scheduling policy for a task or the system.
+     92           *
+     93           * \param[in] task_id One of the following:
+     94           * \n - Task on this processor for which to get info.
+     95           * \n - MQX_DEFAULT_TASK_ID (Set the policy for the processor.)
+     96           * \n - MQX_NULL_TASK_ID (Set the policy for the calling task.)
+     97           * \param[in] policy  New scheduling policy; one of the following:
+     98           * \n - MQX_SCHED_FIFO
+     99           * \n - MQX_SCHED_RR
+    100           *
+    101           * \return Previous scheduling policy MQX_SCHED_FIFO or MQX_SCHED_RR (Success.)
+    102           * \return MAX_MQX_UINT (Failure.)
+    103           *
+    104           * \warning On failure, _task_set_error() is called to set the following task
+    105           * error codes:
+    106           * \n - MQX_SCHED_INVALID_POLICY (Policy is not one of the allowed policies.)
+    107           * \n - MQX_SCHED_INVALID_TASK_ID (Task_id is not a valid task on this processor.)
+    108           *
+    109           * \see _sched_get_policy
+    110           * \see _task_set_error
+    111           */
+    112          _mqx_uint _sched_set_policy
+    113          (
+    114              _task_id  task_id,
+    115              _mqx_uint policy
+    116          )
+    117          { /* Body */
+    118              KERNEL_DATA_STRUCT_PTR kernel_data;
+    119              TD_STRUCT_PTR          td_ptr;
+    120              _mqx_uint              old_policy = MQX_SCHED_FIFO;
+    121          
+    122              _GET_KERNEL_DATA(kernel_data);
+    123          
+    124              _KLOGE3(KLOG_sched_set_policy, (_mqx_uint)task_id, policy);
+    125          #if MQX_HAS_TIME_SLICE
+    126          
+    127          #if MQX_CHECK_ERRORS
+    128              if (! ((policy == MQX_SCHED_FIFO) || (policy == MQX_SCHED_RR)))
+    129              {
+    130                  _task_set_error(MQX_SCHED_INVALID_POLICY);
+    131                  _KLOGX3(KLOG_sched_set_policy, MAX_MQX_UINT, MQX_SCHED_INVALID_POLICY);
+    132                  return(MAX_MQX_UINT);
+    133              } /* Endif */
+    134          #endif
+    135          
+    136              /* Handle default case */
+    137              if (task_id == MQX_DEFAULT_TASK_ID)
+    138              {
+    139                  old_policy = kernel_data->SCHED_POLICY;
+    140                  kernel_data->SCHED_POLICY = policy;
+    141              }
+    142              else
+    143              {
+    144                  td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+    145                  if (td_ptr == NULL)
+    146                  {
+    147                      _task_set_error(MQX_SCHED_INVALID_TASK_ID);
+    148                      _KLOGX3(KLOG_sched_set_policy, MAX_MQX_UINT, MQX_SCHED_INVALID_TASK_ID);
+    149                      return(MAX_MQX_UINT);
+    150                  } /* Endif */
+    151                  if (td_ptr->FLAGS & MQX_TIME_SLICE_TASK)
+    152                  {
+    153                      old_policy = MQX_SCHED_RR;
+    154                  }
+    155                  else
+    156                  {
+    157                      old_policy = MQX_SCHED_FIFO;
+    158                  } /* Endif */
+    159                  _int_disable();
+    160                  if (policy == MQX_SCHED_RR)
+    161                  {
+    162                      td_ptr->FLAGS |= MQX_TIME_SLICE_TASK;
+    163                  }
+    164                  else
+    165                  {
+    166                      td_ptr->FLAGS &= ~MQX_TIME_SLICE_TASK;
+    167                  } /* Endif */
+    168                  _int_enable();
+    169              } /* Endif */
+    170          #else
+    171          
+    172          #if MQX_CHECK_ERRORS
+    173              if (policy != MQX_SCHED_FIFO)
+    174              {
+    175                  _task_set_error(MQX_SCHED_INVALID_POLICY);
+    176                  _KLOGX3(KLOG_sched_set_policy, MAX_MQX_UINT, MQX_SCHED_INVALID_POLICY);
+    177                  return (MAX_MQX_UINT);
+    178              } /* Endif */
+    179              old_policy = MQX_SCHED_FIFO;
+    180          #endif
+    181          
+    182          #endif
+    183          
+    184              _KLOGX3(KLOG_sched_set_policy, old_policy, 0L);
+    185              return (old_policy);
+    186          
+    187          } /* Endbody */
+    188          
+    189          /*!
+    190           * \brief Gets the scheduling policy for a task or the system.
+    191           *
+    192           * \param[in]  task_id    One of the following:
+    193           * \n - Task on this processor for which to get info.
+    194           * \n - MQX_DEFAULT_TASK_ID (Get the policy for the processor.)
+    195           * \n - MQX_NULL_TASK_ID (Get the policy for the calling task.)
+    196           * \param[out] policy_ptr Pointer to the scheduling policy:
+    197           * \n - MQX_SCHED_FIFO (FIFO)
+    198           * \n - MQX_SCHED_RR (Round robin)
+    199           *
+    200           * \return MQX_OK
+    201           * \return MQX_SCHED_INVALID_TASK_ID (Task_id is not a valid task on this processor.)
+    202           *
+    203           * \see _sched_set_policy
+    204           */
+    205          _mqx_uint _sched_get_policy
+    206          (
+    207              _task_id      task_id,
+    208              _mqx_uint_ptr policy_ptr
+    209          )
+    210          { /* Body */
+    211          #if MQX_HAS_TIME_SLICE
+    212              KERNEL_DATA_STRUCT_PTR kernel_data;
+    213              TD_STRUCT_PTR          td_ptr;
+    214              _mqx_uint              old_policy;
+    215          
+    216              _GET_KERNEL_DATA(kernel_data);
+    217          
+    218              /* Handle default case */
+    219              if (task_id == MQX_DEFAULT_TASK_ID)
+    220              {
+    221                  old_policy = kernel_data->SCHED_POLICY;
+    222              }
+    223              else
+    224              {
+    225                  td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+    226                  if (td_ptr == NULL)
+    227                  {
+    228                      return(MQX_SCHED_INVALID_TASK_ID);
+    229                  } /* Endif */
+    230                  if (td_ptr->FLAGS & MQX_TIME_SLICE_TASK)
+    231                  {
+    232                      old_policy = MQX_SCHED_RR;
+    233                  }
+    234                  else
+    235                  {
+    236                      old_policy = MQX_SCHED_FIFO;
+    237                  } /* Endif */
+    238              } /* Endif */
+    239          
+    240              *policy_ptr = old_policy;
+    241          #else
+    242              *policy_ptr = MQX_SCHED_FIFO;
+    243          #endif
+    244          
+    245              return (MQX_OK);
+    246          
+    247          } /* Endbody */
+    248          
+    249          #if MQX_HAS_TIME_SLICE
+    250          
+    251          /*!
+    252           * \brief Get the time slice in milliseconds for the specified task.
+    253           *
+    254           * \param[in]     task_id One of the following:
+    255           * \n - Task on this processor for which to get info.
+    256           * \n - MQX_DEFAULT_TASK_ID (Get the time slice for the processor.)
+    257           * \n - MQX_NULL_TASK_ID (Get the time slice for the calling task.)
+    258           * \param[in,out] ms_ptr  Pointer to the time slice (in milliseconds).
+    259           *
+    260           * \return MQX_OK
+    261           * \return MAX_UINT_32 (Failure.)
+    262           *
+    263           * \see _sched_get_rr_interval_ticks
+    264           * \see _sched_set_rr_interval
+    265           * \see _sched_set_rr_interval_ticks
+    266           * \see _task_set_error
+    267           */
+    268          uint_32 _sched_get_rr_interval
+    269          (
+    270              _task_id   task_id,
+    271              uint_32_ptr ms_ptr
+    272          )
+    273          { /* Body */
+    274              TIME_STRUCT     time;
+    275              MQX_TICK_STRUCT tick;
+    276              uint_32         slice;
+    277          
+    278              if (_sched_get_rr_interval_ticks(task_id, &tick) != MQX_OK)
+    279              {
+    280                  *ms_ptr = MAX_UINT_32;
+    281                  return MAX_UINT_32;
+    282              } /* Endif */
+    283          
+    284              PSP_TICKS_TO_TIME(&tick, &time);
+    285          
+    286              if (time.SECONDS >= (MAX_UINT_32/1000))
+    287              {
+    288                  *ms_ptr = MAX_UINT_32;
+    289                  return(MAX_UINT_32);
+    290              } /* Endif */
+    291          
+    292              slice = time.SECONDS * 1000;
+    293              if (slice >= (MAX_UINT_32 - time.MILLISECONDS))
+    294              {
+    295                  *ms_ptr = MAX_UINT_32;
+    296                  return(MAX_UINT_32);
+    297              } /* Endif */
+    298          
+    299              *ms_ptr = slice + time.MILLISECONDS;
+    300          
+    301              return(MQX_OK);
+    302          
+    303          } /* Endbody */
+    304          
+    305          /*!
+    306           * \brief Get the time slice in tick time for the specified task.
+    307           *
+    308           * \param[in]     task_id  One of the following:
+    309           * \n - Task on this processor for which to get info.
+    310           * \n - MQX_DEFAULT_TASK_ID (Get the time slice for the processor.)
+    311           * \n - MQX_NULL_TASK_ID (Get the time slice for the calling task.)
+    312           * \param[in,out] tick_ptr Pointer to the time slice (in tick time).
+    313           *
+    314           * \return MQX_OK
+    315           * \return MQX_SCHED_INVALID_PARAMETER_PTR (Time_ptr is NULL.)
+    316           * \return MQX_SCHED_INVALID_TASK_ID (Task_id is not a valid task on this processor.)
+    317           *
+    318           * \warning On failure, calls _task_set_error() to set the task error codes (see
+    319           * return Error Codes).
+    320           *
+    321           * \see _sched_get_rr_interval
+    322           * \see _sched_set_rr_interval
+    323           * \see _sched_set_rr_interval_ticks
+    324           * \see _task_set_error
+    325           * \see MQX_TICK_STRUCT
+    326           */
+    327          _mqx_uint _sched_get_rr_interval_ticks
+    328          (
+    329              _task_id            task_id,
+    330              MQX_TICK_STRUCT_PTR tick_ptr
+    331          )
+    332          { /* Body */
+    333              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    334              TD_STRUCT_PTR                   td_ptr;
+    335          
+    336              _GET_KERNEL_DATA(kernel_data);
+    337          
+    338          #if MQX_CHECK_ERRORS
+    339              /* Validate parameters */
+    340              if ( tick_ptr == NULL )
+    341              {
+    342                  _task_set_error( MQX_SCHED_INVALID_PARAMETER_PTR );
+    343                  return( MQX_SCHED_INVALID_PARAMETER_PTR );
+    344              } /* Endif */
+    345          #endif
+    346          
+    347              /* Handle default case */
+    348              if ( task_id == MQX_DEFAULT_TASK_ID )
+    349              {
+    350          
+    351                  *tick_ptr = kernel_data->SCHED_TIME_SLICE;
+    352          
+    353              }
+    354              else
+    355              {
+    356          
+    357                  td_ptr = (TD_STRUCT_PTR)_task_get_td( task_id );
+    358                  if ( td_ptr == NULL )
+    359                  {
+    360                      _task_set_error( MQX_SCHED_INVALID_TASK_ID );
+    361                      return( MQX_SCHED_INVALID_TASK_ID );
+    362                  } /* Endif */
+    363          
+    364                  *tick_ptr = td_ptr->TIME_SLICE;
+    365          
+    366              } /* Endif */
+    367          
+    368              return( MQX_OK );
+    369          
+    370          } /* Endbody */
+    371          
+    372          /*!
+    373           * \brief Set the time slice in milliseconds.
+    374           *
+    375           * \param[in] task_id     One of the following:
+    376           * \n - Task ID for a task on this processor for which to set info.
+    377           * \n - MQX_DEFAULT_TASK_ID (Set the time slice for the processor.)
+    378           * \n - MQX_NULL_TASK_ID (Set the time slice for the calling task.)
+    379           * \param[in] rr_interval New time slice (in milliseconds).
+    380           *
+    381           * \return old_rr_interval Previous time slice (Success.)
+    382           * \return MAX_UINT_32
+    383           *
+    384           * \warning On failure, calls _task_set_error() to set the task error code to
+    385           * MQX_SCHED_INVALID_TASK_ID.
+    386           *
+    387           * \see _sched_set_rr_interval_ticks
+    388           * \see _sched_get_rr_interval
+    389           * \see _sched_get_rr_interval_ticks
+    390           * \see _task_set_error
+    391           */
+    392          uint_32 _sched_set_rr_interval
+    393          (
+    394              _task_id task_id,
+    395              uint_32  rr_interval
+    396          )
+    397          { /* Body */
+    398              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+    399              uint_32         old_rr_interval;
+    400              MQX_TICK_STRUCT ticks;
+    401              MQX_TICK_STRUCT old_ticks;
+    402              _mqx_uint       result;
+    403          
+    404              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+    405          
+    406              _KLOGE3(KLOG_sched_set_rr_interval, (_mqx_uint)task_id, rr_interval);
+    407          
+    408              /* time.MILLISECONDS = rr_interval;  */
+    409              /* time.SECONDS      = 0;            */
+    410              /*                                   */
+    411              /* PSP_TIME_TO_TICKS(&time, &ticks); */
+    412              PSP_MILLISECONDS_TO_TICKS_QUICK(rr_interval, &ticks);
+    413          
+    414              result = _sched_set_rr_interval_internal(task_id, &ticks, &old_ticks);
+    415          
+    416              if (result != MQX_OK)
+    417              {
+    418                  _task_set_error(result);
+    419                  _KLOGX2(KLOG_sched_set_rr_interval, MAX_UINT_32);
+    420                  return(MAX_UINT_32);
+    421              } /* Endif */
+    422          
+    423              old_rr_interval = PSP_TICKS_TO_MILLISECONDS(&old_ticks, &result);
+    424          
+    425              _KLOGX2(KLOG_sched_set_rr_interval, old_rr_interval);
+    426          
+    427              return(old_rr_interval);
+    428          
+    429          } /* Endbody */
+    430          
+    431          /*!
+    432           * \brief Set the time slice in tick time.
+    433           *
+    434           * \param[in]  task_id             One of the following:
+    435           * \n - Task ID for a task on this processor for which to set info.
+    436           * \n - MQX_DEFAULT_TASK_ID (Set the time slice for the processor.)
+    437           * \n - MQX_NULL_TASK_ID (Set the time slice for the calling task.)
+    438           * \param[in]  new_rr_interval_ptr Pointer to the new time slice (in tick time).
+    439           * \param[out] old_rr_interval_ptr Pointer to the previous time slice (in tick time).
+    440           *
+    441           * \return Previous time slice (Success.)
+    442           * \return MAX_UINT_32
+    443           *
+    444           * \warning On failure, calls _task_set_error() to set the task error code to
+    445           * MQX_SCHED_INVALID_TASK_ID.
+    446           *
+    447           * \see _sched_set_rr_interval
+    448           * \see _sched_get_rr_interval
+    449           * \see _sched_get_rr_interval_ticks
+    450           * \see _task_set_error
+    451           * \see MQX_TICK_STRUCT
+    452           */
+    453          _mqx_uint _sched_set_rr_interval_ticks
+    454          (
+    455              _task_id            task_id,
+    456              MQX_TICK_STRUCT_PTR new_rr_interval_ptr,
+    457              MQX_TICK_STRUCT_PTR old_rr_interval_ptr
+    458          
+    459          )
+    460          { /* Body */
+    461              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+    462              _mqx_uint result;
+    463          
+    464              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+    465          
+    466              _KLOGE2(KLOG_sched_set_rr_interval_ticks, task_id);
+    467          
+    468              result = _sched_set_rr_interval_internal(task_id, new_rr_interval_ptr,
+    469                              old_rr_interval_ptr);
+    470          
+    471              if (result != MQX_OK)
+    472              {
+    473                  _task_set_error(result);
+    474              } /* Endif */
+    475          
+    476              _KLOGX2(KLOG_sched_set_rr_interval_ticks, result);
+    477          
+    478              return result;
+    479          
+    480          } /* Endbody */
+    481          
+    482          #endif /* MQX_HAS_TIME_SLICE */
+    483          #endif /* MQX_LITE_VERSION_NUMBER */
+    484          
+    485          /*!
+    486           * \brief Puts the active task at the end of its ready queue.
+    487           *
+    488           * The function effectively performs a timeslice. If there are no other tasks in
+    489           * this ready queue, the task continues to be the active task.
+    490           *
+    491           * \warning Might dispatch another task.
+    492           */
+    493          void _sched_yield(void)
+    494          { /* Body */
+    495              KERNEL_DATA_STRUCT_PTR kernel_data;
+    496              TD_STRUCT_PTR          td_ptr;
+    497          
+    498              _GET_KERNEL_DATA(kernel_data);
+    499          
+    500              _KLOG(_klog_yield_internal();)
+    501          
+    502              td_ptr = kernel_data->ACTIVE_PTR;
+    503          
+    504              _INT_DISABLE();
+    505              _QUEUE_UNLINK(td_ptr);
+    506              _TASK_READY(td_ptr, kernel_data);
+    507              _sched_execute_scheduler_internal();
+    508              _INT_ENABLE();
+    509          
+    510          } /* Endbody */
+    511          
+    512          #if MQX_HAS_DYNAMIC_PRIORITIES
+    513          
+    514          /*!
+    515           * \private
+    516           *
+    517           * \brief Boosts a task to a temporarily higher priority.
+    518           *
+    519           * This function MUST BE CALLED with DISABLED interrupts.
+    520           *
+    521           * \param[in] td_ptr   Pointer to the task descriptor whose priority is to change.
+    522           * \param[in] priority The new task priority, MUST be a valid priority.
+    523           *
+    524           * \see TD_STRUCT
+    525           */
+    526          void _sched_boost_priority_internal
+    527          (
+    528              register TD_STRUCT_PTR td_ptr,
+    529              register _mqx_uint     priority
+    530          )
+    531          { /* Body */
+    532              KERNEL_DATA_STRUCT_PTR kernel_data;
+    533          
+    534              _GET_KERNEL_DATA(kernel_data);
+    535          
+    536              _KLOGE4(KLOG_sched_boost_priority, td_ptr, priority, td_ptr->MY_QUEUE->PRIORITY);
+    537          
+    538              td_ptr->FLAGS |= TASK_PRIORITY_BOOSTED;
+    539              ++td_ptr->BOOSTED;
+    540          
+    541              _sched_set_priority_internal(td_ptr, priority);
+    542          
+    543              /* Allow higher priority tasks to run */
+    544              _CHECK_RUN_SCHEDULER();
+    545          
+    546              _KLOGX1(KLOG_sched_boost_priority);
+    547          
+    548          } /* Endbody */
+    549          
+    550          /*!
+    551           * \private
+    552           *
+    553           * \brief Boosts a task to a temporarily higher priority.
+    554           *
+    555           * This function MUST BE CALLED with DISABLED interrupts.
+    556           *
+    557           * \param[in] td_ptr           Pointer to the task descriptor whose priority is
+    558           * to change.
+    559           * \param[in] number_of_boosts The number of times to 'unboost' the task.
+    560           *
+    561           * \see TD_STRUCT
+    562           */
+    563          void _sched_unboost_priority_internal
+    564          (
+    565              register TD_STRUCT_PTR td_ptr,
+    566              register _mqx_uint     number_of_boosts
+    567          )
+    568          { /* Body */
+    569              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    570          
+    571              _GET_KERNEL_DATA(kernel_data);
+    572          
+    573              _KLOGE5(KLOG_sched_unboost_priority, td_ptr, number_of_boosts, td_ptr->BOOSTED, td_ptr->HOME_QUEUE->PRIORITY);
+    574          
+    575              if (td_ptr->FLAGS & TASK_PRIORITY_BOOSTED)
+    576              {
+    577                  if (td_ptr->BOOSTED > number_of_boosts)
+    578                  {
+    579                      td_ptr->BOOSTED = td_ptr->BOOSTED - number_of_boosts;
+    580                  }
+    581                  else
+    582                  {
+    583                      td_ptr->BOOSTED = 0;
+    584                      td_ptr->FLAGS &= ~TASK_PRIORITY_BOOSTED;
+    585                      _sched_set_priority_internal(td_ptr, (_mqx_uint) td_ptr->HOME_QUEUE->PRIORITY);
+    586                      /* Allow higher priority tasks to run */
+    587                      _CHECK_RUN_SCHEDULER();
+    588                  } /* Endif */
+    589              } /* Endif */
+    590          
+    591              _KLOGX1(KLOG_sched_unboost_priority);
+    592          
+    593          } /* Endbody */
+    594          
+    595          #endif /* MQX_HAS_DYNAMIC_PRIORITIES */
+    596          
+    597          /*!
+    598           * \private
+    599           *
+    600           * \brief Inserts a task descriptor into a task descriptor queue by order of task
+    601           * priority.
+    602           *
+    603           * \param[in] queue_ptr Pointer to the queue header.
+    604           * \param[in] td_ptr    Pointer to the task descriptor to insert.
+    605           *
+    606           * \see QUEUE_STRUCT
+    607           * \see TD_STRUCT
+    608           */
+    609          void _sched_insert_priorityq_internal
+    610          (
+    611              register QUEUE_STRUCT_PTR queue_ptr,
+    612              register TD_STRUCT_PTR    td_ptr
+    613          )
+    614          { /* Body */
+    615              register TD_STRUCT_PTR td2_ptr;
+    616              register TD_STRUCT_PTR td_prev_ptr;
+    617              register _mqx_uint     priority;
+    618              register _mqx_uint     count;
+    619          
+    620              td_prev_ptr = (TD_STRUCT_PTR) ((pointer) queue_ptr);
+    621              td2_ptr = (TD_STRUCT_PTR) ((pointer) queue_ptr->NEXT);
+    622              count = _QUEUE_GET_SIZE(queue_ptr) + 1;
+    623              priority = td_ptr->MY_QUEUE->PRIORITY;
+    624              while (--count)
+    625              {
+    626                  if (td2_ptr->MY_QUEUE->PRIORITY > priority)
+    627                  {
+    628                      break;
+    629                  } /* Endif */
+    630                  td_prev_ptr = td2_ptr;
+    631                  td2_ptr = td2_ptr->TD_NEXT;
+    632              } /* Endwhile */
+    633              _QUEUE_INSERT(queue_ptr,
+    634                              (QUEUE_ELEMENT_STRUCT_PTR)((pointer)td_prev_ptr),
+    635                              (QUEUE_ELEMENT_STRUCT_PTR)((pointer)td_ptr));
+    636          
+    637          } /* Endbody */
+    638          
+    639          /*!
+    640           * \private
+    641           *
+    642           * \brief Gets the maximum of the priorities of the tasks on the waiting queue.
+    643           *
+    644           * \param[in] queue_ptr Pointer to the queue header.
+    645           *
+    646           * \return The highest task priority from specified queue.
+    647           *
+    648           * \see QUEUE_STRUCT
+    649           */
+    650          _mqx_uint _sched_get_max_priority_on_q_internal
+    651          (
+    652              register QUEUE_STRUCT_PTR queue_ptr
+    653          )
+    654          { /* Body */
+    655              register TD_STRUCT_PTR td_ptr;
+    656              register _mqx_uint     priority;
+    657              register _mqx_uint     count;
+    658          
+    659              td_ptr = (TD_STRUCT_PTR) ((pointer) queue_ptr->NEXT);
+    660              count = _QUEUE_GET_SIZE(queue_ptr) + 1;
+    661              priority = MAX_MQX_UINT;
+    662              while (--count)
+    663              {
+    664                  if (td_ptr->MY_QUEUE->PRIORITY < priority)
+    665                  {
+    666                      priority = td_ptr->MY_QUEUE->PRIORITY;
+    667                  } /* Endif */
+    668                  td_ptr = td_ptr->TD_NEXT;
+    669              } /* Endwhile */
+    670              return priority;
+    671          
+    672          } /* Endbody */
+    673          
+    674          /*!
+    675           * \private
+    676           *
+    677           * \brief Puts the specified td onto the specified priority queue.
+    678           *
+    679           * This function MUST BE CALLED with DISABLED interrupts.
+    680           *
+    681           * \param[in] td_ptr Pointer to the task descriptor whose priority is to change.
+    682           * \param[in] new_priority The new task priority, MUST be a valid priority.
+    683           *
+    684           * \see TD_STRUCT
+    685           */
+    686          void _sched_set_priority_internal
+    687          (
+    688              register TD_STRUCT_PTR td_ptr,
+    689              register _mqx_uint     new_priority
+    690          )
+    691          { /* Body */
+    692              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    693              register READY_Q_STRUCT_PTR     ready_q_ptr;
+    694              register _mqx_uint              old_priority;
+    695          
+    696              _GET_KERNEL_DATA(kernel_data);
+    697          
+    698              /* Find the new queue */
+    699              ready_q_ptr = kernel_data->READY_Q_LIST;
+    700              old_priority = td_ptr->MY_QUEUE->PRIORITY;
+    701          
+    702              ready_q_ptr = ready_q_ptr - new_priority;
+    703          
+    704              /*
+    705                * Remove the current task from the head of the queue, and
+    706                * place the task at the back of the specified queue.
+    707                */
+    708              td_ptr->TASK_SR = ready_q_ptr->ENABLE_SR;
+    709              td_ptr->MY_QUEUE = ready_q_ptr;
+    710              if (td_ptr->STATE == READY)
+    711              {
+    712                  _QUEUE_UNLINK(td_ptr);
+    713                  _TASK_READY(td_ptr,kernel_data);
+    714                  if (kernel_data->ACTIVE_PTR == td_ptr)
+    715                  {
+    716                      /* Changing the current task's priority */
+    717                      kernel_data->ACTIVE_SR = td_ptr->TASK_SR;
+    718                      if (new_priority > old_priority)
+    719                      {
+    720                          /*
+    721                            * Save state, and re-run the scheduler
+    722                            * since the actice task's priority has been lowered,
+    723                            * and now a higher priority task may be ready to run
+    724                            */
+    725                          _sched_execute_scheduler_internal();
+    726                      } /* Endif */
+    727                  }
+    728                  else
+    729                  {
+    730                      /* May need to mod sr value of task on stack */
+    731                      if (td_ptr->DISABLED_LEVEL == 0)
+    732                      {
+    733                          _task_sync_priority_internal(td_ptr);
+    734                      } /* Endif */
+    735                  } /* Endif */
+    736              }
+    737              else
+    738              {
+    739                  /* May need to mod sr value of task on stack */
+    740                  if (td_ptr->DISABLED_LEVEL == 0)
+    741                  {
+    742                      _task_sync_priority_internal(td_ptr);
+    743                  } /* Endif */
+    744              } /* Endif */
+    745          
+    746          } /* Endbody */
+    747          
+    748          #if !MQX_LITE_VERSION_NUMBER
+    749          #if MQX_HAS_TIME_SLICE
+    750          
+    751          /*!
+    752           * \private
+    753           *
+    754           * \brief Gets the current time slice in tick time.
+    755           *
+    756           * \param[in]     task_id  One of the following:
+    757           * \n - Task on this processor for which to get info.
+    758           * \n - MQX_DEFAULT_TASK_ID (Get the time slice for the processor.)
+    759           * \n - MQX_NULL_TASK_ID (Get the time slice for the calling task.)
+    760           * \param[in,out] tick_ptr Pointer to the time slice (in tick time).
+    761           *
+    762           * \return MQX_OK
+    763           * \return MQX_SCHED_INVALID_TASK_ID
+    764           * \return MQX_SCHED_INVALID_PARAMETER_PTR
+    765           *
+    766           * \see _sched_get_rr_interval_ticks
+    767           * \see MQX_TICK_STRUCT
+    768           */
+    769          _mqx_uint _sched_get_rr_interval_internal
+    770          (
+    771              _task_id            task_id,
+    772              MQX_TICK_STRUCT_PTR tick_ptr
+    773          )
+    774          { /* Body */
+    775              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    776              TD_STRUCT_PTR                   td_ptr;
+    777          
+    778              _GET_KERNEL_DATA(kernel_data);
+    779          
+    780          #if MQX_CHECK_ERRORS
+    781              /* Validate parameters */
+    782              if ( tick_ptr == NULL )
+    783              {
+    784                  _task_set_error( MQX_SCHED_INVALID_PARAMETER_PTR );
+    785                  return( MQX_SCHED_INVALID_PARAMETER_PTR );
+    786              } /* Endif */
+    787          #endif
+    788          
+    789              /* Handle default case */
+    790              if ( task_id == MQX_DEFAULT_TASK_ID )
+    791              {
+    792          
+    793                  *tick_ptr = kernel_data->SCHED_TIME_SLICE;
+    794          
+    795              }
+    796              else
+    797              {
+    798          
+    799                  td_ptr = (TD_STRUCT_PTR)_task_get_td( task_id );
+    800                  if ( td_ptr == NULL )
+    801                  {
+    802                      _task_set_error( MQX_SCHED_INVALID_TASK_ID );
+    803                      return( MQX_SCHED_INVALID_TASK_ID );
+    804                  } /* Endif */
+    805          
+    806                  *tick_ptr = td_ptr->TIME_SLICE;
+    807          
+    808              } /* Endif */
+    809          
+    810              return( MQX_OK );
+    811          
+    812          } /* Endbody */
+    813          
+    814          /*!
+    815           * \private
+    816           *
+    817           * \brief Sets various the scheduling rr_interval for a task or the system.
+    818           *
+    819           * \param[in]  task_id             One of the following:
+    820           * \n - Task ID for a task on this processor for which to set info.
+    821           * \n - MQX_DEFAULT_TASK_ID (Set the time slice for the processor.)
+    822           * \n - MQX_NULL_TASK_ID (Set the time slice for the calling task.)
+    823           * \param[in]  new_rr_tick_ptr Pointer to the new time slice (in tick time).
+    824           * \param[out] old_rr_tick_ptr Pointer to the previous time slice (in tick time).
+    825           *
+    826           * \return MQX_OK
+    827           * \return MQX_SCHED_INVALID_TASK_ID
+    828           *
+    829           * \see _sched_set_rr_interval_ticks
+    830           * \see MQX_TICK_STRUCT
+    831           */
+    832          _mqx_uint _sched_set_rr_interval_internal
+    833          (
+    834              _task_id            task_id,
+    835              MQX_TICK_STRUCT_PTR new_rr_tick_ptr,
+    836              MQX_TICK_STRUCT_PTR old_rr_tick_ptr
+    837          
+    838          )
+    839          { /* Body */
+    840              KERNEL_DATA_STRUCT_PTR kernel_data;
+    841              TD_STRUCT_PTR          td_ptr;
+    842          
+    843              _GET_KERNEL_DATA(kernel_data);
+    844          
+    845              /* Handle default case */
+    846              if (task_id == MQX_DEFAULT_TASK_ID)
+    847              {
+    848                  *old_rr_tick_ptr = kernel_data->SCHED_TIME_SLICE;
+    849                  _int_disable();
+    850                  kernel_data->SCHED_TIME_SLICE = *new_rr_tick_ptr;
+    851                  _int_enable();
+    852              }
+    853              else
+    854              {
+    855                  td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+    856                  if (td_ptr == NULL)
+    857                  {
+    858                      return(MQX_SCHED_INVALID_TASK_ID);
+    859                  } /* Endif */
+    860                  *old_rr_tick_ptr = td_ptr->TIME_SLICE;
+    861                  _int_disable();
+    862                  td_ptr->TIME_SLICE = *new_rr_tick_ptr;
+    863                  _int_enable();
+    864              } /* Endif */
+    865          
+    866              return(MQX_OK);
+    867          
+    868          } /* Endbody */
+    869          
+    870          #endif /* MQX_HAS_TIME_SLICE */
+    871          #endif /* MQX_LITE_VERSION_NUMBER */
+    872          
+    873          /* EOF */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   _sched_boost_priority_internal
+        16   -> _sched_check_scheduler_internal
+        16   -> _sched_set_priority_internal
+       0   _sched_get_max_priority
+       8   _sched_get_max_priority_on_q_internal
+       0   _sched_get_min_priority
+      16   _sched_insert_priorityq_internal
+      24   _sched_set_priority_internal
+        24   -> _sched_execute_scheduler_internal
+        24   -> _task_sync_priority_internal
+      16   _sched_unboost_priority_internal
+        16   -> _sched_check_scheduler_internal
+        16   -> _sched_set_priority_internal
+      16   _sched_yield
+        16   -> _sched_execute_scheduler_internal
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable5
+       4  ??DataTable5_1
+      40  _sched_boost_priority_internal
+       6  _sched_get_max_priority
+      40  _sched_get_max_priority_on_q_internal
+      12  _sched_get_min_priority
+      52  _sched_insert_priorityq_internal
+     132  _sched_set_priority_internal
+      58  _sched_unboost_priority_internal
+     116  _sched_yield
+
+ 
+ 464 bytes in section .text
+ 
+ 464 bytes of CODE memory
+
+Errors: none
+Warnings: 2

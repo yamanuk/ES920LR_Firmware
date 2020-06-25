@@ -1,0 +1,438 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:02
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\RNG\Source\RNG.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW6074.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\RNG\Source\RNG.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\RNG.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\RNG.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\RNG\Source\RNG.c
+      1          /*!
+      2          * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      3          * All rights reserved.
+      4          * \file RNG.c
+      5          * RNG implementation file for the ARM CORTEX-M4 processor
+      6          *
+      7          * Redistribution and use in source and binary forms, with or without modification,
+      8          * are permitted provided that the following conditions are met:
+      9          *
+     10          * o Redistributions of source code must retain the above copyright notice, this list
+     11          *   of conditions and the following disclaimer.
+     12          *
+     13          * o Redistributions in binary form must reproduce the above copyright notice, this
+     14          *   list of conditions and the following disclaimer in the documentation and/or
+     15          *   other materials provided with the distribution.
+     16          *
+     17          * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     18          *   contributors may be used to endorse or promote products derived from this
+     19          *   software without specific prior written permission.
+     20          *
+     21          * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     22          * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     23          * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     24          * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     25          * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     26          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     27          * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     28          * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     29          * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     30          * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     31          */
+     32          
+     33          
+     34          #include "RNG_Interface.h"
+     35          #include "mmcau_interface.h"
+     36          #include "io_map.h"
+     37          
+     38          #ifndef gRNG_HwSupport_d
+     39          #define gRNG_HwSupport_d 0
+     40          #endif
+     41          
+     42          #ifndef gRNG_UsePhyRng_d
+     43          #define gRNG_UsePhyRng_d 0
+     44          #endif
+     45          
+     46          #if (gRNG_HwSupport_d == 0)
+     47            #if gRNG_UsePhyRng_d
+     48              extern void PhyGetRandomNo(uint32_t *pRandomNo);
+     49            #endif
+     50            static uint32_t mRandomNumber = 0xA0B1C2D3; //default seed
+     51          #endif
+     52          
+     53          
+     54          /************************************************************************************
+     55          *************************************************************************************
+     56          * Private macros
+     57          *************************************************************************************
+     58          ************************************************************************************/
+     59          #define mPRNG_NoOfBits_c      (160)
+     60          #define mPRNG_NoOfBytes_c     (mPRNG_NoOfBits_c/8)
+     61          #define mPRNG_NoOfLongWords_c (mPRNG_NoOfBits_c/32)
+     62          
+     63          /************************************************************************************
+     64          *************************************************************************************
+     65          * Private memory declarations
+     66          *************************************************************************************
+     67          ************************************************************************************/
+     68          static uint32_t XKEY[mPRNG_NoOfLongWords_c];
+     69          static uint32_t mPRNG_Requests = gRngMaxRequests_d;
+     70          
+     71          /************************************************************************************
+     72          *************************************************************************************
+     73          * Public functions
+     74          *************************************************************************************
+     75          ************************************************************************************/
+     76          
+     77          /******************************************************************************
+     78           * Name: RNG_Init()
+     79           * Description: Initialize the RNG HW module
+     80           * Parameter(s): -
+     81           * Return: Status of the RNG module
+     82           ******************************************************************************/
+     83          uint8_t RNG_Init(void)
+     84          {
+     85          #if (gRNG_HwSupport_d == 1)
+     86          
+     87            /* Start module clock */
+     88          #if (defined(MCU_MK21DN512) || defined(MCU_MK21DX256) || defined(MCU_MK21D5))
+     89            SIM_SCGC6 |= SIM_SCGC6_RNGA_MASK;
+     90          #elif defined(MCU_MK60D10)
+     91            SIM_SCGC3 |= SIM_SCGC3_RNGA_MASK;
+     92          #elif defined(MCU_MK60N512VMD100)
+     93            SIM_SCGC3 |= SIM_SCGC3_RNGB_MASK;
+     94          #endif
+     95          
+     96          #if (defined(MCU_MK60D10) || defined(MCU_MK21DN512) || defined(MCU_MK21DX256) || defined(MCU_MK21D5))
+     97            /* Mask Interrupts and start RNG */
+     98            RNG_CR = RNG_CR_INTM_MASK | RNG_CR_HA_MASK | RNG_CR_GO_MASK;
+     99          #elif defined(MCU_MK60N512VMD100)
+    100            /* Execute a SW Reset */
+    101            RNG_CMD |= RNG_CMD_SR_MASK;
+    102          
+    103            /* Mask Interrupts */
+    104            RNG_CR = RNG_CR_MASKDONE_MASK | RNG_CR_MASKERR_MASK;
+    105          
+    106            /* Start Self Test and Seed Generation */
+    107            RNG_CMD = RNG_CMD_ST_MASK | RNG_CMD_GS_MASK;
+    108          
+    109            /* Wait for Self Test and Seed Generation to be done*/
+    110            while (RNG_CMD & (RNG_CMD_ST_MASK | RNG_CMD_GS_MASK));
+    111          
+    112            /* Enable RNG Auto-Reseed */
+    113            RNG_CR |= RNG_CR_AR_MASK;
+    114          
+    115            /* Check for Errors */
+    116            if ( RNG_SR & RNG_SR_ERR_MASK )
+    117            {
+    118              return (uint8_t)(RNG_ESR);
+    119            }
+    120          #endif
+    121          
+    122          #else /* gRNG_HwSupport_d == 1 */
+    123              #if gRNG_UsePhyRng_d
+    124                  PhyGetRandomNo(&mRandomNumber);
+    125              #endif
+    126          #endif /* gRNG_HwSupport_d == 1 */
+    127          
+    128              /* Init Successfull */
+    129              return gRngSuccess_d;
+    130          }
+    131          
+    132          
+    133          /******************************************************************************
+    134           * Name: RNG_HwGetRandomNo()
+    135           * Description: Read a random number from the HW RNG module
+    136           * Parameter(s): [OUT] pRandomNo - pointer to location where the RN will be stored
+    137           * Return: status of the RNG module
+    138           ******************************************************************************/
+    139          #if gRNG_HwSupport_d
+    140          static uint8_t RNG_HwGetRandomNo(uint32_t* pRandomNo)
+    141          {
+    142              /* Check for NULL pointers */
+    143              if (NULL == pRandomNo)
+    144                  return gRngNullPointer_d;
+    145          
+    146          #if (defined(MCU_MK60D10) || defined(MCU_MK21DN512) || defined(MCU_MK21DX256) || defined(MCU_MK21D5))
+    147              /* If output register is empty, wait for a new random number */
+    148              while ( ((RNG_SR & RNG_SR_OREG_LVL_MASK) >> RNG_SR_OREG_LVL_SHIFT) == 0 );
+    149          
+    150              /* Copy the output of RNG module */
+    151              *pRandomNo = RNG_OR;
+    152          
+    153          #elif defined(MCU_MK60N512VMD100)
+    154              /* Check for Errors */
+    155              if ( RNG_SR & RNG_SR_ERR_MASK )
+    156                  return (uint8_t)(RNG_ESR);
+    157          
+    158              /* If output FIFO is empty, wait for a new random number */
+    159              while (((RNG_SR & RNG_SR_FIFO_LVL_MASK) >> RNG_SR_FIFO_LVL_SHIFT) == 0 );
+    160          
+    161              /* Copy the output of RNG module */
+    162              *pRandomNo = RNG_OUT;
+    163          #endif
+    164          
+    165              return gRngSuccess_d;
+    166          }
+    167          #endif /* gRNG_HwSupport_d */
+    168          
+    169          
+    170          /******************************************************************************
+    171           * Name: RNG_GetRandomNo()
+    172           * Description: Read a random number from RNG module or from 802.15.4 PHY
+    173           * Parameter(s): [OUT] pRandomNo - pointer to location where the RN will be stored
+    174           * Return: none
+    175           ******************************************************************************/
+    176          void RNG_GetRandomNo(uint32_t* pRandomNo)
+    177          {
+    178          #if (gRNG_HwSupport_d == 1)
+    179              (void)RNG_HwGetRandomNo(pRandomNo);
+    180          #else
+    181              mRandomNumber = (mRandomNumber * 6075) + 1283;
+    182              *pRandomNo = mRandomNumber;
+    183          #endif
+    184          }
+    185          
+    186          /******************************************************************************
+    187           * Name: RNG_SetPseudoRandomNoSeed()
+    188           * Description: Initialize seed for the PRNG algorithm.
+    189           * Parameter(s):
+    190           *      pSeed - pointer to a buffer containing 20 bytes (160 bits).
+    191           *             Can be set using the RNG_GetRandomNo() function.
+    192           * Return: None
+    193           ******************************************************************************/
+    194          void RNG_SetPseudoRandomNoSeed(uint8_t* pSeed)
+    195          {
+    196              uint8_t i;
+    197          
+    198              mPRNG_Requests = 1;
+    199              for (i=0; i<mPRNG_NoOfBytes_c; i++)
+    200                  ((uint8_t*)XKEY)[i] = pSeed[i];
+    201          }
+    202          
+    203          /******************************************************************************
+    204           * Name: RNG_GetRandomNo()
+    205           *
+    206           * Description: Pseudo Random Number Generator (PRNG) implementation
+    207           *              according to NIST FIPS Publication 186-2, APPENDIX 3
+    208           *
+    209           * Let x be the signer's private key.  The following may be used to generate m values of x:
+    210           *   Step 1. Choose a new, secret value for the seed-key, XKEY.
+    211           *   Step 2. In hexadecimal notation let
+    212           *     t = 67452301 EFCDAB89 98BADCFE 10325476 C3D2E1F0.
+    213           *     This is the initial value for H0 || H1 || H2 || H3 || H4 in the SHS.
+    214           *   Step 3. For j = 0 to m - 1 do
+    215           *     a. XSEEDj = optional user input.
+    216           *     b. XVAL = (XKEY + XSEEDj) mod 2^b
+    217           *     c. xj = G(t,XVAL) mod q
+    218           *     d. XKEY = (1 + XKEY + xj) mod 2^b
+    219           *
+    220           * Parameter(s):
+    221           *      pOut - pointer to the output buffer
+    222           *      outBytes - the number of bytes to be copyed (1-20)
+    223           *      pXSEED - optional user SEED. Should be NULL if not used.
+    224           *
+    225           * Return: The number of bytes copied or -1 if reseed is needed
+    226           ******************************************************************************/
+    227          #if defined(__IAR_SYSTEMS_ICC__)
+    228          int16_t RNG_GetPseudoRandomNo(uint8_t* pOut, uint8_t outBytes, uint8_t* pXSEED)
+    229          {
+    230              uint32_t i;
+    231              uint8_t M[64];
+    232              uint32_t out[mPRNG_NoOfLongWords_c];
+    233          
+    234              if (mPRNG_Requests == gRngMaxRequests_d)
+    235                  return -1;
+    236              else
+    237                  mPRNG_Requests++;
+    238          
+    239              /* a. XSEEDj = optional user input. */
+    240              if (pXSEED)
+    241                  /* b. XVAL = (XKEY + XSEEDj) mod 2^b */
+    242                  for (i=0; i<20; i++)
+    243                      M[i] = ((uint8_t*)XKEY)[i] + pXSEED[i];
+    244              else
+    245                  for (i=0; i<20; i++)
+    246                      M[i] = ((uint8_t*)XKEY)[i];
+    247          
+    248              /* c. xj = G(t,XVAL) mod q
+    249              ***************************/
+    250              /* The first b (160) bits of M contain c (XVAL),
+    251                 and the remaining bits (512-160) are cleared */
+    252              for (i=20; i<64; i++)
+    253                  M[i] = 0;
+    254          
+    255              /* Prepare block for SHA1 */
+    256              M[20] = 0x80; // append 1 bit to the end of the message
+    257              M[63] = 160;  // add the size of the message (in bits)
+    258          
+    259              /* Apply SHA1 */
+    260          #if gMMCAU_Support_d
+    261              mmcau_sha1_initialize_output(out);
+    262              mmcau_sha1_hash(M, out);
+    263              /* OR
+    264              mmcau_sha1_update ((uint8_t*)M, 1, (uint32_t*)res); */
+    265          #else
+    266              sw_sha1_initialize_output(out);
+    267              sw_sha1_hash(M, out);
+    268              /* OR
+    269              sw_sha1_update ((uint8_t*)M, 1, (uint32_t*)res); */
+    270          #endif
+    271          
+    272              /* d. XKEY = (1 + XKEY + xj) mod 2^b */
+    273              XKEY[0] += 1;
+    274              for (i=0; i<mPRNG_NoOfLongWords_c; i++)
+    275                  XKEY[i] += out[i];
+    276          
+    277              /* Check if the length provided exceeds the output data size */
+    278              if (outBytes > mPRNG_NoOfBytes_c)
+    279                  outBytes = mPRNG_NoOfBytes_c;
+    280          
+    281              /* Copy the generated number */
+    282              for (i=0; i < outBytes; i++)
+    283                  pOut[i] = ((uint8_t*)out)[i];
+    284          
+    285              return outBytes;
+    286          }
+    287          #endif
+    288          /********************************** EOF ***************************************/
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+     112   RNG_GetPseudoRandomNo
+       112   -> mmcau_sha1_hash
+       112   -> mmcau_sha1_initialize_output
+       0   RNG_GetRandomNo
+       0   RNG_Init
+       8   RNG_SetPseudoRandomNoSeed
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+       4  ??DataTable3_4
+       4  ??DataTable3_5
+     206  RNG_GetPseudoRandomNo
+      20  RNG_GetRandomNo
+       4  RNG_Init
+      38  RNG_SetPseudoRandomNoSeed
+      20  XKEY
+       4  mPRNG_Requests
+       4  mRandomNumber
+
+ 
+  20 bytes in section .bss
+   8 bytes in section .data
+ 292 bytes in section .text
+ 
+ 292 bytes of CODE memory
+  28 bytes of DATA memory
+
+Errors: none
+Warnings: none

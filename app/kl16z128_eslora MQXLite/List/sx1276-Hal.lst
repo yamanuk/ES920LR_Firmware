@@ -1,0 +1,343 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:02
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276-Hal.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW639B.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276-Hal.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\sx1276-Hal.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sx1276-Hal.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276-Hal.c
+      1          /*
+      2           * THE FOLLOWING FIRMWARE IS PROVIDED: (1) "AS IS" WITH NO WARRANTY; AND
+      3           * (2)TO ENABLE ACCESS TO CODING INFORMATION TO GUIDE AND FACILITATE CUSTOMER.
+      4           * CONSEQUENTLY, SEMTECH SHALL NOT BE HELD LIABLE FOR ANY DIRECT, INDIRECT OR
+      5           * CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE CONTENT
+      6           * OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING INFORMATION
+      7           * CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+      8           *
+      9           * Copyright (C) SEMTECH S.A.
+     10           */
+     11          /*!
+     12           * \file       sx1276-Hal.c
+     13           * \brief      SX1276 Hardware Abstraction Layer
+     14           *
+     15           * \version    2.0.B2
+     16           * \date       Nov 21 2012
+     17           * \author     Miguel Luis
+     18           *
+     19           * Last modified by Miguel Luis on Jun 19 2013
+     20           */
+     21          #include <stdint.h>
+     22          #include <stdbool.h>
+     23          
+     24          #include "sx1276.h"
+     25          #include "sx1276-LoRa.h"
+     26          #include "sx1276-Hal.h"
+     27          #include "sx1276-Spi.h"
+     28          
+     29          
+     30          volatile uint32_t TickCounter;
+     31          
+     32          void SX1276InitIo( void )
+     33          {
+     34              uint8_t reg;
+     35          
+     36          
+     37              // Configure radio DIO as inputs
+     38              // Configure DIO0
+     39              PORTC_PCR2 = PORT_PCR_MUX(1);
+     40              GPIOC_PDDR &= (uint32_t)~(uint32_t)(1<<2);
+     41          
+     42              // Configure DIO1
+     43              PORTC_PCR3 = PORT_PCR_MUX(1);
+     44              GPIOC_PDDR &= (uint32_t)~(uint32_t)(1<<3);
+     45          
+     46              // Configure DIO2
+     47              PORTC_PCR4 = PORT_PCR_MUX(1);
+     48              GPIOC_PDDR &= (uint32_t)~(uint32_t)(1<<4);
+     49          
+     50              // Configure DIO3
+     51              PORTC_PCR5 = PORT_PCR_MUX(1);
+     52              GPIOC_PDDR &= (uint32_t)~(uint32_t)(1<<5);
+     53          
+     54              // Configure DIO4
+     55              PORTC_PCR6 = PORT_PCR_MUX(1);
+     56              GPIOC_PDDR &= (uint32_t)~(uint32_t)(1<<6);
+     57          
+     58              // Configure DIO5
+     59              PORTC_PCR7 = PORT_PCR_MUX(1);
+     60              GPIOC_PDDR &= (uint32_t)~(uint32_t)(1<<7);
+     61          
+     62              SpiInit();
+     63          
+     64              // Configure radio reset as outputs
+     65              PORTA_PCR4 = PORT_PCR_MUX(1);
+     66              GPIOA_PDDR |= (uint32_t)(1<<4);
+     67          
+     68              SX1276Reset( );
+     69          
+     70              SX1276Read( REG_LR_HOPPERIOD, &reg );           // read RegOsc reg
+     71              SX1276Write( REG_LR_HOPPERIOD, (reg | 0x08) );  // start calibration
+     72          
+     73              do {
+     74                  SX1276Read( REG_LR_HOPPERIOD, &reg );
+     75              } while( (reg & 0x08) == 0x08 );
+     76          
+     77              SX1276Write( REG_LR_HOPPERIOD, 0x00 );          // set ClkOut = FXOSC
+     78          
+     79              SX1276Read( REG_LR_OPMODE, &reg );
+     80              SX1276Write( REG_LR_OPMODE, reg & 0xF8 );       // sleep mode
+     81              SX1276Read( REG_LR_OPMODE, &reg );
+     82              SX1276Write( REG_LR_OPMODE, reg | RFLR_OPMODE_LONGRANGEMODE_ON );
+     83              SX1276Read( REG_LR_OPMODE, &reg );
+     84              SX1276Write( REG_LR_OPMODE, reg | 0x01 );       // stdby mode
+     85              SX1276Read( REG_LR_OPMODE, &reg );
+     86          
+     87              SX1276Write( REG_LR_DIOMAPPING2, 0x10 );        // DIO5 ClkOut
+     88          }
+     89          
+     90          void SX1276SetReset( uint8_t state )
+     91          {
+     92              if( state == RADIO_RESET_ON )
+     93              {
+     94                  // Set RESET pin to 0
+     95                  GPIOA_PCOR |= (uint32_t)(1<<4);
+     96              }
+     97              else
+     98              {
+     99                  // Set RESET pin to 1
+    100                  GPIOA_PSOR |= (uint32_t)(1<<4);
+    101              }
+    102          }
+    103          
+    104          void SX1276Write( uint8_t addr, uint8_t data )
+    105          {
+    106              SX1276WriteBuffer( addr, &data, 1 );
+    107          }
+    108          
+    109          void SX1276Read( uint8_t addr, uint8_t *data )
+    110          {
+    111              SX1276ReadBuffer( addr, data, 1 );
+    112          }
+    113          
+    114          void SX1276WriteBuffer( uint8_t addr, uint8_t *buffer, uint8_t size )
+    115          {
+    116              SpiWriteBytes( addr, buffer, size );
+    117          }
+    118          
+    119          void SX1276ReadBuffer( uint8_t addr, uint8_t *buffer, uint8_t size )
+    120          {
+    121              SpiReadBytes( addr, buffer, size );
+    122          }
+    123          
+    124          void SX1276WriteFifo( uint8_t *buffer, uint8_t size )
+    125          {
+    126              SX1276WriteBuffer( 0, buffer, size );
+    127          }
+    128          
+    129          void SX1276ReadFifo( uint8_t *buffer, uint8_t size )
+    130          {
+    131              SX1276ReadBuffer( 0, buffer, size );
+    132          }
+    133          
+    134          uint8_t SX1276ReadDio0( void )
+    135          {
+    136              return (GPIOC_PDIR >> 2) & 0x01;
+    137          }
+    138          
+    139          uint8_t SX1276ReadDio1( void )
+    140          {
+    141              return (GPIOC_PDIR >> 3) & 0x01;
+    142          }
+    143          
+    144          uint8_t SX1276ReadDio2( void )
+    145          {
+    146              return (GPIOC_PDIR >> 4) & 0x01;
+    147          }
+    148          
+    149          uint8_t SX1276ReadDio3( void )
+    150          {
+    151              return (GPIOC_PDIR >> 5) & 0x01;
+    152          }
+    153          
+    154          uint8_t SX1276ReadDio4( void )
+    155          {
+    156              return (GPIOC_PDIR >> 6) & 0x01;
+    157          }
+    158          
+    159          uint8_t SX1276ReadDio5( void )
+    160          {
+    161              return (GPIOC_PDIR >> 7) & 0x01;
+    162          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   SX1276InitIo
+        16   -> SX1276Read
+        16   -> SX1276Reset
+        16   -> SX1276Write
+        16   -> SpiInit
+      16   SX1276Read
+        16   -> SX1276ReadBuffer
+      16   SX1276ReadBuffer
+        16   -> SpiReadBytes
+       0   SX1276ReadDio0
+       0   SX1276ReadDio1
+       0   SX1276ReadDio2
+       0   SX1276ReadDio3
+       0   SX1276ReadDio4
+       0   SX1276ReadDio5
+      16   SX1276ReadFifo
+        16   -> SX1276ReadBuffer
+       4   SX1276SetReset
+      16   SX1276Write
+        16   -> SX1276WriteBuffer
+      16   SX1276WriteBuffer
+        16   -> SpiWriteBytes
+      16   SX1276WriteFifo
+        16   -> SX1276WriteBuffer
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable7
+       4  ??DataTable7_1
+       4  ??DataTable7_10
+       4  ??DataTable7_11
+       4  ??DataTable7_2
+       4  ??DataTable7_3
+       4  ??DataTable7_4
+       4  ??DataTable7_5
+       4  ??DataTable7_6
+       4  ??DataTable7_7
+       4  ??DataTable7_8
+       4  ??DataTable7_9
+     242  SX1276InitIo
+      20  SX1276Read
+      24  SX1276ReadBuffer
+      14  SX1276ReadDio0
+      14  SX1276ReadDio1
+      14  SX1276ReadDio2
+      14  SX1276ReadDio3
+      14  SX1276ReadDio4
+      14  SX1276ReadDio5
+      20  SX1276ReadFifo
+      34  SX1276SetReset
+      18  SX1276Write
+      24  SX1276WriteBuffer
+      20  SX1276WriteFifo
+       4  TickCounter
+
+ 
+   4 bytes in section .bss
+ 534 bytes in section .text
+ 
+ 534 bytes of CODE memory
+   4 bytes of DATA memory
+
+Errors: none
+Warnings: none

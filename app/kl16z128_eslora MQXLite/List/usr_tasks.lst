@@ -1,0 +1,982 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:03
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\usr_tasks.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW6674.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\usr_tasks.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\usr_tasks.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\usr_tasks.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\usr_tasks.c
+      1          /*****************************************************************************
+      2          * usr_tasks file.
+      3          *
+      4          * (c) Copyright 2016, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          #include <string.h>
+     13          #include "Application_Interface.h"
+     14          #include "flash.h"
+     15          #include "LED.h"
+     16          #include "usr_tasks.h"
+     17          #include "message.h"
+     18          #include "mqxlite.h"
+     19          #include "mqxlite_prv.h"
+     20          
+     21          
+     22          /************************************************************************************
+     23          *************************************************************************************
+     24          * Private macros
+     25          *************************************************************************************
+     26          ************************************************************************************/
+     27          
+     28          #define ESLORA			"ESLORA"
+     29          #define UART_CHK_TIME	500
+     30          
+     31          
+     32          /************************************************************************************
+     33          *************************************************************************************
+     34          * Private prototypes
+     35          *************************************************************************************
+     36          ************************************************************************************/
+     37          
+     38          static void MessageTask( void const* );
+     39          static void InitProject( void );
+     40          static void PORT_Init( void );
+     41          static void ReadConfigParam( void );
+     42          static void UartRxCallback( void* );
+     43          static void Switch_Init( void );
+     44          static void UartCheckTimerCallBack ( void* );
+     45          
+     46          
+     47          /************************************************************************************
+     48          *************************************************************************************
+     49          * Private memory declarations
+     50          *************************************************************************************
+     51          ************************************************************************************/
+     52          
+     53          
+     54          /************************************************************************************
+     55          *************************************************************************************
+     56          * Public memory declarations
+     57          *************************************************************************************
+     58          ************************************************************************************/
+     59          
+     60          TERMINAL_PARAM  mTermParam;
+     61          uint8_t         CommDataBuffer[MAX_COMM_SIZE];
+     62          uint8_t         SendDataBuffer[MAX_COMM_SIZE];
+     63          uint16_t        CommDataIndex;
+     64          bool_t          evDataFromUART;
+     65          bool_t          gEnterIdle;
+     66          tmrTimerID_t    IntervalTmr;
+     67          tmrTimerID_t    WaitSendTmr;
+     68          tmrTimerID_t    SendTimeTmr;
+     69          uint8_t         mAppSer;
+     70          osThreadId      myAppId;
+     71          tmrTimerID_t    UartCheckTmr;
+     72          uint8_t         SendDataLen;
+     73          
+     74          
+     75          /************************************************************************************
+     76          *************************************************************************************
+     77          * Public functions
+     78          *************************************************************************************
+     79          ************************************************************************************/
+     80          
+     81          void MainThread( void const* );
+     82          
+     83          void Debug_Print( char* pString )
+     84          {
+     85          #if 0
+     86              Serial_Print( mAppSer, pString, gAllowToBlock_d );
+     87          #endif
+     88          }
+     89          
+     90          void Debug_PrintDec( uint32_t nr )
+     91          {
+     92          #if 0
+     93              Serial_PrintDec( mAppSer, nr );
+     94          #endif
+     95          }
+     96          
+     97          void Debug_PrintHex( uint8_t *hex, uint8_t len, uint8_t flags )
+     98          {
+     99          #if 0
+    100              Serial_PrintHex( mAppSer, hex, len, flags );
+    101          #endif
+    102          }
+    103          
+    104          void Terminal_Print( char* pString )
+    105          {
+    106              if( TERMINAL == mTermParam.Mode )
+    107              {
+    108                  Serial_Print( mAppSer, pString, gAllowToBlock_d );
+    109              }
+    110          }
+    111          
+    112          void Terminal_PrintDec( uint32_t nr )
+    113          {
+    114              if( TERMINAL == mTermParam.Mode )
+    115              {
+    116                  Serial_PrintDec( mAppSer, nr );
+    117              }
+    118          }
+    119          
+    120          void Terminal_PrintHex( uint8_t *hex, uint8_t len, uint8_t flags )
+    121          {
+    122              if( TERMINAL == mTermParam.Mode )
+    123              {
+    124                  Serial_PrintHex( mAppSer, hex, len, flags );
+    125              }
+    126          }
+    127          
+    128          void Terminal_PrintBin( uint8_t *data, uint8_t len )
+    129          {
+    130              if( TERMINAL == mTermParam.Mode )
+    131              {
+    132                  Serial_PrintBin( mAppSer, data, len, gAllowToBlock_d );
+    133              }
+    134          }
+    135          
+    136          void Processor_Print( char* pString )
+    137          {
+    138              if( PROCESSOR == mTermParam.Mode )
+    139              {
+    140                  Serial_Print( mAppSer, pString, gAllowToBlock_d );
+    141              }
+    142          }
+    143          
+    144          void Processor_PrintDec( uint32_t nr )
+    145          {
+    146              if( PROCESSOR == mTermParam.Mode )
+    147              {
+    148                  Serial_PrintDec( mAppSer, nr );
+    149              }
+    150          }
+    151          
+    152          void Processor_PrintHex( uint8_t *hex, uint8_t len, uint8_t flags )
+    153          {
+    154              if( PROCESSOR == mTermParam.Mode )
+    155              {
+    156                  Serial_PrintHex( mAppSer, hex, len, flags );
+    157              }
+    158          }
+    159          
+    160          void Processor_PrintBin( uint8_t *data, uint8_t len )
+    161          {
+    162              if( PROCESSOR == mTermParam.Mode )
+    163              {
+    164                  Serial_PrintBin( mAppSer, data, len, gAllowToBlock_d );
+    165              }
+    166          }
+    167          
+    168          /************************************************************************************
+    169          *
+    170          * MainThread
+    171          *
+    172          * Interface assumptions:
+    173          *     void const* taskParam
+    174          *
+    175          * Return value:
+    176          *     None
+    177          *
+    178          ************************************************************************************/
+    179          void MainThread( void const* taskParam )
+    180          {
+    181              MEM_Init();
+    182              FLASH_Init();
+    183          
+    184              PORT_Init();
+    185              TMR_Init();
+    186              LED_Init();
+    187          
+    188              SerialManager_Init();
+    189          
+    190              MessageTask( taskParam );
+    191          }
+    192          
+    193          
+    194          /************************************************************************************
+    195          *************************************************************************************
+    196          * Private functions
+    197          *************************************************************************************
+    198          ************************************************************************************/
+    199          
+    200          /************************************************************************************
+    201          *
+    202          * MessageTask
+    203          *
+    204          * Interface assumptions:
+    205          *     void const *argument
+    206          *
+    207          * Return value:
+    208          *     None
+    209          *
+    210          ************************************************************************************/
+    211          static void MessageTask( void const *argument )
+    212          {
+    213              /* Initialization of global variables */
+    214              InitProject();
+    215          
+    216              /* Read configuration parameter from internal FlashROM */
+    217              ReadConfigParam();
+    218          
+    219              /* Get handle of uart interface */
+    220              Serial_InitInterface( &mAppSer, gSerialMgrUart_c, 1 );
+    221          
+    222              /* Set default baud */
+    223              Serial_SetBaudRate( mAppSer, mTermParam.Baudrate );
+    224          
+    225              if( RCM_SRS0 != RCM_SRS0_WAKEUP_MASK )
+    226              {
+    227          	    /* Start Led Flashing */
+    228          	    LED_StartFlash( LED_ALL );
+    229          
+    230          	    /* show configuration menu */
+    231          	    if( (CONFIG == mTermParam.Operation) || !(GPIOC_PDIR & (1<<1)) )
+    232          	    {
+    233                      Serial_SetRxCallBack( mAppSer, CommRxCallBack, NULL );
+    234          
+    235          	        DoConfiguration();
+    236          	    }
+    237          
+    238          	    /* Stop Led Flashing */
+    239          	    LED_StopFlash( LED_ALL );
+    240              }
+    241              else
+    242              {
+    243                  gEnterIdle = FALSE;
+    244              }
+    245          
+    246          	/* Initialize Switch */
+    247              if( (TIMER_WAKEUP == mTermParam.Sleep) || (GPIOC_PDIR & (1<<1)) )
+    248              {
+    249                  gEnterIdle = TRUE;
+    250              }
+    251              else
+    252              {
+    253                  gEnterIdle = FALSE;
+    254              }
+    255          
+    256              Switch_Init();
+    257          
+    258              /* replace UART callback function */
+    259              Serial_SetRxCallBack( mAppSer, UartRxCallback, NULL );
+    260          
+    261              DoOperation();
+    262          }
+    263          
+    264          /************************************************************************************
+    265          *
+    266          * InitProject
+    267          *
+    268          * Interface assumptions:
+    269          *     None
+    270          *
+    271          * Return value:
+    272          *     None
+    273          *
+    274          ************************************************************************************/
+    275          static void InitProject( void )
+    276          {
+    277              /* Global Data init */
+    278              CommDataIndex       = 0;
+    279              evDataFromUART      = FALSE;
+    280              gEnterIdle          = TRUE;
+    281              myAppId             = osThreadGetId();          // Get application thread id
+    282              SendDataLen         = 0;
+    283          }
+    284          
+    285          /************************************************************************************
+    286          *
+    287          * PORT_Init
+    288          *
+    289          * Interface assumptions:
+    290          *     None
+    291          *
+    292          * Return value:
+    293          *     None
+    294          *
+    295          ************************************************************************************/
+    296          static void PORT_Init( void )
+    297          {
+    298              /* Port A */
+    299              PORTA_PCR18 = PORT_PCR_MUX(1);
+    300              GPIOA_PDDR |= (uint32_t)(1<<18);
+    301              PORTA_PCR19 = PORT_PCR_MUX(1);
+    302              GPIOA_PDDR |= (uint32_t)(1<<19);
+    303          
+    304              /* Port B */
+    305              PORTB_PCR0 = PORT_PCR_MUX(1);
+    306              GPIOB_PDDR |= (uint32_t)(1<<0);
+    307              PORTB_PCR1 = PORT_PCR_MUX(1);
+    308              GPIOB_PDDR |= (uint32_t)(1<<1);
+    309          
+    310              /* Port C */
+    311              PORTC_PCR1 = PORT_PCR_MUX(1);
+    312              GPIOC_PDDR &= (uint32_t)~(uint32_t)(1<<1);
+    313          
+    314              /* Port E */
+    315              PORTE_PCR0 = PORT_PCR_MUX(1);
+    316              GPIOE_PDDR |= (uint32_t)(1<<0);
+    317              PORTE_PCR18 = PORT_PCR_MUX(1);
+    318              GPIOE_PDDR |= (uint32_t)(1<<18);
+    319              PORTE_PCR19 = PORT_PCR_MUX(1);
+    320              GPIOE_PDDR |= (uint32_t)(1<<19);
+    321              PORTE_PCR30 = PORT_PCR_MUX(1);
+    322              GPIOE_PDDR |= (uint32_t)(1<<30);
+    323          }
+    324          
+    325          /************************************************************************************
+    326          *
+    327          * Switch_Init
+    328          *
+    329          * Interface assumptions:
+    330          *     None
+    331          *
+    332          * Return value:
+    333          *     None
+    334          *
+    335          ************************************************************************************/
+    336          static void Switch_Init( void )
+    337          {
+    338              PORTC_PCR1 = PORT_PCR_MUX(1)  | PORT_PCR_ISF_MASK |
+    339                           PORT_PCR_PE_MASK | PORT_PCR_PS_MASK  | PORT_PCR_IRQC(0x09);
+    340          
+    341              if( osInstallIsr(INT_PORTC_PORTD, Switch_Interrupt, NULL) != NULL )
+    342              {
+    343                  /* Set PORTC interrupt priority level 2 */
+    344                  NVIC_IPR7 &= 0x3FFFFFFF;
+    345                  NVIC_IPR7 |= 0x80000000;
+    346          
+    347                  /* Enable Interrupt */
+    348                  NVIC_ICPR |= (uint32_t)(1 << ((INT_PORTC_PORTD-16)%32));
+    349                  NVIC_ISER |= (uint32_t)(1 << ((INT_PORTC_PORTD-16)%32));
+    350              }
+    351          }
+    352          
+    353          /************************************************************************************
+    354          *
+    355          * ReadConfigParam
+    356          *
+    357          * Interface assumptions:
+    358          *     None
+    359          *
+    360          * Return value:
+    361          *     None
+    362          *
+    363          ************************************************************************************/
+    364          static void ReadConfigParam( void )
+    365          {
+    366              int ret = 0;
+    367          
+    368          
+    369              FLib_MemSet16( &mTermParam, 0x00, sizeof(mTermParam) );
+    370          
+    371              *((uint16_t*)&mTermParam.Once[0]) = FLASH_ReadShortWord( FLASH_OFS_ONCE     );
+    372              *((uint16_t*)&mTermParam.Once[2]) = FLASH_ReadShortWord( FLASH_OFS_ONCE + 2 );
+    373              *((uint16_t*)&mTermParam.Once[4]) = FLASH_ReadShortWord( FLASH_OFS_ONCE + 4 );
+    374          
+    375              ret = strncmp( (char*)mTermParam.Once, ESLORA, 6 );
+    376              if( 0 == ret )
+    377              {
+    378                  /* baudrate */
+    379                  mTermParam.Baudrate     = FLASH_ReadLongWord( FLASH_OFS_BAUDRATE );
+    380          
+    381                  /* sleeptime */
+    382                  mTermParam.SleepTime    = FLASH_ReadLongWord( FLASH_OFS_SLEEPTIME );
+    383          
+    384                  /* power */
+    385                  mTermParam.Power        = (int32_t)FLASH_ReadLongWord( FLASH_OFS_POWER );
+    386          
+    387                  /* ack */
+    388                  mTermParam.Ack          = FLASH_ReadShortWord( FLASH_OFS_ACK );
+    389          
+    390                  /* bw */
+    391                  mTermParam.Bw           = FLASH_ReadShortWord( FLASH_OFS_BW );
+    392          
+    393                  /* channel */
+    394                  mTermParam.Channel      = FLASH_ReadShortWord( FLASH_OFS_CHANNEL );
+    395          
+    396                  /* dstid */
+    397                  mTermParam.DstId        = FLASH_ReadShortWord( FLASH_OFS_DSTID );
+    398          
+    399                  /* endid */
+    400                  mTermParam.EndId        = FLASH_ReadShortWord( FLASH_OFS_ENDID );
+    401          
+    402                  /* hopcount */
+    403                  mTermParam.HopCnt       = FLASH_ReadShortWord( FLASH_OFS_HOPCNT );
+    404          
+    405                  /* mode */
+    406                  mTermParam.Mode         = FLASH_ReadShortWord( FLASH_OFS_MODE );
+    407          
+    408                  /* node */
+    409                  mTermParam.Node         = FLASH_ReadShortWord( FLASH_OFS_NODE );
+    410          
+    411                  /* operation */
+    412                  mTermParam.Operation    = FLASH_ReadShortWord( FLASH_OFS_OPERATION );
+    413          
+    414                  /* panid */
+    415                  mTermParam.PanId        = FLASH_ReadShortWord( FLASH_OFS_PANID );
+    416          
+    417                  /* rcvid */
+    418                  mTermParam.RcvId        = FLASH_ReadShortWord( FLASH_OFS_RCVID );
+    419          
+    420                  /* retry */
+    421                  mTermParam.Retry        = FLASH_ReadShortWord( FLASH_OFS_RETRY );
+    422          
+    423                  /* route1 */
+    424                  mTermParam.Route[0]     = FLASH_ReadShortWord( FLASH_OFS_ROUTE1 );
+    425          
+    426                  /* route2 */
+    427                  mTermParam.Route[1]     = FLASH_ReadShortWord( FLASH_OFS_ROUTE2 );
+    428          
+    429                  /* rssi */
+    430                  mTermParam.Rssi         = FLASH_ReadShortWord( FLASH_OFS_RSSI );
+    431          
+    432                  /* sf */
+    433                  mTermParam.Sf           = FLASH_ReadShortWord( FLASH_OFS_SF );
+    434          
+    435                  /* sleep */
+    436                  mTermParam.Sleep        = FLASH_ReadShortWord( FLASH_OFS_SLEEP );
+    437          
+    438                  /* srcid */
+    439                  mTermParam.SrcId        = FLASH_ReadShortWord( FLASH_OFS_SRCID );
+    440          
+    441                  /* transmode */
+    442                  mTermParam.TransMode    = FLASH_ReadShortWord( FLASH_OFS_TRANSMODE );
+    443          
+    444                  /* format */
+    445                  mTermParam.Format       = FLASH_ReadShortWord( FLASH_OFS_FORMAT );
+    446          
+    447                  /* sendtime */
+    448                  mTermParam.SendTime     = FLASH_ReadLongWord( FLASH_OFS_SENDTIME );
+    449          
+    450                  /* senddata */
+    451                  FLib_MemCpy( mTermParam.SendData, (uint8_t*)(FLASH_PARAM_TOP + FLASH_OFS_SENDDATA), 52 );
+    452              }
+    453              else
+    454              {
+    455                  mTermParam.Once[0] = 'E';
+    456                  mTermParam.Once[1] = 'S';
+    457                  mTermParam.Once[2] = 'L';
+    458                  mTermParam.Once[3] = 'O';
+    459                  mTermParam.Once[4] = 'R';
+    460                  mTermParam.Once[5] = 'A';
+    461          
+    462                  SettingDefaultValue();
+    463              }
+    464          
+    465              Serial_SetBaudRate( mAppSer, mTermParam.Baudrate );
+    466          }
+    467          
+    468          /************************************************************************************
+    469          *
+    470          * SettingDefaultValue
+    471          *
+    472          * Interface assumptions:
+    473          *     None
+    474          *
+    475          * Return value:
+    476          *     None
+    477          *
+    478          ************************************************************************************/
+    479          void SettingDefaultValue( void )
+    480          {
+    481              /* baudrate */
+    482              mTermParam.Baudrate     = gUARTBaudRate115200_c;
+    483          
+    484              /* sleeptime */
+    485              mTermParam.SleepTime    = 50;
+    486          
+    487              /* power */
+    488              mTermParam.Power        = 13;
+    489          
+    490              /* ack */
+    491              mTermParam.Ack          = MODE_ON;
+    492          
+    493              /* bw */
+    494              mTermParam.Bw           = BANDWIDTH125;
+    495          
+    496              /* channel */
+    497              mTermParam.Channel      = 1;
+    498          
+    499              /* dstid */
+    500              mTermParam.DstId        = 0x0000;
+    501          
+    502              /* endid */
+    503              mTermParam.EndId        = 0x0000;
+    504          
+    505              /* hopcount */
+    506              mTermParam.HopCnt       = 0x0001;
+    507          
+    508              /* node */
+    509              mTermParam.Node         = END_DEVICE;
+    510          
+    511              /* operation */
+    512              mTermParam.Operation    = CONFIG;
+    513          
+    514              /* panid */
+    515              mTermParam.PanId        = 0x0001;
+    516          
+    517              /* rcvid */
+    518              mTermParam.RcvId        = MODE_OFF;
+    519          
+    520              /* retry */
+    521              mTermParam.Retry        = 3;
+    522          
+    523              /* route1 */
+    524              mTermParam.Route[0]     = 0x0001;
+    525          
+    526              /* route2 */
+    527              mTermParam.Route[1]     = 0x0001;
+    528          
+    529              /* rssi */
+    530              mTermParam.Rssi         = MODE_OFF;
+    531          
+    532              /* sf */
+    533              mTermParam.Sf           = 7;
+    534          
+    535              /* sleep */
+    536              mTermParam.Sleep        = NO_SLEEP;
+    537          
+    538              /* srcid */
+    539              mTermParam.SrcId        = 0x0001;
+    540          
+    541              /* transmode */
+    542              mTermParam.TransMode    = TRANS_PAYLOAD;
+    543          
+    544              /* format */
+    545              mTermParam.Format       = FMT_ASCII;
+    546          
+    547              /* sendtime */
+    548              mTermParam.SendTime     = 0;
+    549          
+    550              /* senddata */
+    551              mTermParam.SendData[0]  = '\0';
+    552          }
+    553          
+    554          
+    555          /************************************************************************************
+    556          * User's Callbacks
+    557          ************************************************************************************/
+    558          
+    559          /************************************************************************************
+    560          *
+    561          * UartRxCallback
+    562          *
+    563          * Interface assumptions:
+    564          *     void* param
+    565          *
+    566          * Return value:
+    567          *     None
+    568          *
+    569          ************************************************************************************/
+    570          static void UartRxCallback( void* param )
+    571          {
+    572              static uint16_t rcvlen = 0;
+    573              uint32_t length;
+    574              uint16_t readBytes;
+    575              int      ret;
+    576          
+    577          
+    578              while( gSerial_Success_c == Serial_GetByteFromRxBuffer(mAppSer, &CommDataBuffer[CommDataIndex], &readBytes) )
+    579              {
+    580                  if( 0 == readBytes )
+    581                  {
+    582                      break;
+    583                  }
+    584          
+    585                  if( FMT_ASCII == mTermParam.Format )
+    586                  {
+    587                      if( (0 < CommDataIndex) && (('\r' == CommDataBuffer[CommDataIndex-1]) && ('\n' == CommDataBuffer[CommDataIndex])) )
+    588                      {
+    589                          CommDataBuffer[CommDataIndex-1] = '\0';
+    590                          CommDataBuffer[CommDataIndex]   = '\0';
+    591          
+    592                          CommDataIndex = 0;
+    593          
+    594                          ret = strcmp( (char*)CommDataBuffer, "config" );
+    595                          if( 0 == ret )
+    596                          {
+    597                              mTermParam.Operation = CONFIG;
+    598          
+    599                              _int_disable();
+    600          
+    601                              FLASH_EraseSector( FLASH_PARAM_TOP );
+    602          
+    603                              length = sizeof(mTermParam) + ((sizeof(mTermParam) % 4) ? (4 - sizeof(mTermParam) % 4) : 0);
+    604          
+    605                              FLASH_ProgramSectionByLongs( FLASH_PARAM_TOP, (uint32_t*)&mTermParam, (length / sizeof(uint32_t)) );
+    606          
+    607                              _int_enable();
+    608                          }
+    609                          else
+    610                          {
+    611                              /* ignore only enter key */
+    612                              if ( '\0' == CommDataBuffer[0] )
+    613                              {
+    614                                  return;
+    615                              }
+    616          
+    617                              SendDataLen = strlen( (char*)CommDataBuffer );
+    618          
+    619                              strcpy( (char*)SendDataBuffer, (char*)CommDataBuffer );
+    620          
+    621                              osSignalSet( myAppId, EVENT_UART_RX );
+    622                          }
+    623                      }
+    624                      else
+    625                      {
+    626                          CommDataIndex++;
+    627                          if( MAX_COMM_SIZE <= CommDataIndex )
+    628                          {
+    629                              CommDataIndex = 0;
+    630                          }
+    631                      }
+    632                  }
+    633                  else
+    634                  {
+    635                      /* receive length */
+    636                      if( 0 == CommDataIndex )
+    637                      {
+    638                          rcvlen = CommDataBuffer[0];
+    639          
+    640                          CommDataIndex++;
+    641          
+    642                          TMR_StartSingleShotTimer( UartCheckTmr, UART_CHK_TIME, UartCheckTimerCallBack, NULL );
+    643                      }
+    644                      else if( (5 == CommDataIndex) && (0 == strcmp( (char*)CommDataBuffer, "config" )) )
+    645                      {
+    646                          TMR_StopTimer( UartCheckTmr );
+    647          
+    648                          mTermParam.Operation = CONFIG;
+    649          
+    650                          _int_disable();
+    651          
+    652                          FLASH_EraseSector( FLASH_PARAM_TOP );
+    653          
+    654                          length = sizeof(mTermParam) + ((sizeof(mTermParam) % 4) ? (4 - sizeof(mTermParam) % 4) : 0);
+    655          
+    656                          FLASH_ProgramSectionByLongs( FLASH_PARAM_TOP, (uint32_t*)&mTermParam, (length / sizeof(uint32_t)) );
+    657          
+    658                          _int_enable();
+    659                      }
+    660                      /* receive end */
+    661                      else if( rcvlen == CommDataIndex )
+    662                      {
+    663                          TMR_StopTimer( UartCheckTmr );
+    664          
+    665                          SendDataLen = rcvlen;
+    666          
+    667                          FLib_MemCpy( SendDataBuffer, &CommDataBuffer[1], CommDataIndex );
+    668          
+    669                          osSignalSet( myAppId, EVENT_UART_RX );
+    670          
+    671                          CommDataIndex = 0;
+    672                      }
+    673                      /* other */
+    674                      else
+    675                      {
+    676                          TMR_StopTimer( UartCheckTmr );
+    677          
+    678                          CommDataIndex++;
+    679                          if( MAX_COMM_SIZE <= CommDataIndex )
+    680                          {
+    681                              CommDataIndex = 0;
+    682                          }
+    683          
+    684                          TMR_StartSingleShotTimer( UartCheckTmr, UART_CHK_TIME, UartCheckTimerCallBack, NULL );
+    685                      }
+    686                  }
+    687              }
+    688          }
+    689          
+    690          /************************************************************************************
+    691          *
+    692          * UartCheckTimerCallBack
+    693          *
+    694          * Interface assumptions:
+    695          *     param       timer ID
+    696          *
+    697          * Return value:
+    698          *     None
+    699          *
+    700          ************************************************************************************/
+    701          static void UartCheckTimerCallBack( void* param )
+    702          {
+    703              CommDataIndex = 0;
+    704          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   Debug_Print
+       0   Debug_PrintDec
+       0   Debug_PrintHex
+       8   InitProject
+         8   -> osThreadGetId
+       8   MainThread
+         8   -> FLASH_Init
+         8   -> LED_Init
+         8   -> MEM_Init
+         8   -> MessageTask
+         8   -> PORT_Init
+         8   -> SerialManager_Init
+         8   -> TMR_Init
+      16   MessageTask
+        16   -> DoConfiguration
+        16   -> DoOperation
+        16   -> InitProject
+        16   -> LED_StartFlash
+        16   -> LED_StopFlash
+        16   -> ReadConfigParam
+        16   -> Serial_InitInterface
+        16   -> Serial_SetBaudRate
+        16   -> Serial_SetRxCallBack
+        16   -> Switch_Init
+      12   PORT_Init
+       8   Processor_Print
+         8   -> Serial_Print
+      16   Processor_PrintBin
+        16   -> Serial_PrintBin
+       8   Processor_PrintDec
+         8   -> Serial_PrintDec
+      16   Processor_PrintHex
+        16   -> Serial_PrintHex
+      24   ReadConfigParam
+        24   -> FLASH_ReadLongWord
+        24   -> FLASH_ReadShortWord
+        24   -> FLib_MemCpy
+        24   -> FLib_MemSet
+        24   -> Serial_SetBaudRate
+        24   -> SettingDefaultValue
+        24   -> strncmp
+      12   SettingDefaultValue
+       8   Switch_Init
+         8   -> osInstallIsr
+       8   Terminal_Print
+         8   -> Serial_Print
+      16   Terminal_PrintBin
+        16   -> Serial_PrintBin
+       8   Terminal_PrintDec
+         8   -> Serial_PrintDec
+      16   Terminal_PrintHex
+        16   -> Serial_PrintHex
+       0   UartCheckTimerCallBack
+      32   UartRxCallback
+        32   -> FLASH_EraseSector
+        32   -> FLASH_ProgramSectionByLongs
+        32   -> FLib_MemCpy
+        32   -> Serial_Read
+        32   -> TMR_StartSingleShotTimer
+        32   -> TMR_StopTimer
+        32   -> _int_disable
+        32   -> _int_enable
+        32   -> osSignalSet
+        32   -> strcmp
+        32   -> strcpy
+        32   -> strlen
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable11
+       4  ??DataTable12
+       4  ??DataTable12_1
+       4  ??DataTable13
+       4  ??DataTable13_1
+       4  ??DataTable13_2
+       4  ??DataTable14
+       4  ??DataTable14_1
+       4  ??DataTable14_10
+       4  ??DataTable14_11
+       4  ??DataTable14_12
+       4  ??DataTable14_13
+       4  ??DataTable14_14
+       4  ??DataTable14_15
+       4  ??DataTable14_16
+       4  ??DataTable14_17
+       4  ??DataTable14_18
+       4  ??DataTable14_19
+       4  ??DataTable14_2
+       4  ??DataTable14_20
+       4  ??DataTable14_21
+       4  ??DataTable14_22
+       4  ??DataTable14_23
+       4  ??DataTable14_24
+       4  ??DataTable14_25
+       4  ??DataTable14_3
+       4  ??DataTable14_4
+       4  ??DataTable14_5
+       4  ??DataTable14_6
+       4  ??DataTable14_7
+       4  ??DataTable14_8
+       4  ??DataTable14_9
+       4  ??DataTable16
+       4  ??DataTable16_1
+       4  ??DataTable16_10
+       4  ??DataTable16_11
+       4  ??DataTable16_2
+       4  ??DataTable16_3
+       4  ??DataTable16_4
+       4  ??DataTable16_5
+       4  ??DataTable16_6
+       4  ??DataTable16_7
+       4  ??DataTable16_8
+       4  ??DataTable16_9
+       8  ?_0
+       8  ?_1
+     256  CommDataBuffer
+       2  CommDataIndex
+       2  Debug_Print
+       2  Debug_PrintDec
+       2  Debug_PrintHex
+      34  InitProject
+       1  IntervalTmr
+      36  MainThread
+     144  MessageTask
+     126  PORT_Init
+      26  Processor_Print
+      32  Processor_PrintBin
+      24  Processor_PrintDec
+      36  Processor_PrintHex
+     344  ReadConfigParam
+     256  SendDataBuffer
+       1  SendDataLen
+       1  SendTimeTmr
+     116  SettingDefaultValue
+      60  Switch_Init
+      26  Terminal_Print
+      32  Terminal_PrintBin
+      24  Terminal_PrintDec
+      36  Terminal_PrintHex
+       8  UartCheckTimerCallBack
+       1  UartCheckTmr
+     400  UartRxCallback
+       1  WaitSendTmr
+       1  evDataFromUART
+       1  gEnterIdle
+       1  mAppSer
+     168  mTermParam
+       4  myAppId
+       2  rcvlen
+
+ 
+   696 bytes in section .bss
+    16 bytes in section .rodata
+ 1'686 bytes in section .text
+ 
+ 1'686 bytes of CODE  memory
+    16 bytes of CONST memory
+   696 bytes of DATA  memory
+
+Errors: none
+Warnings: none

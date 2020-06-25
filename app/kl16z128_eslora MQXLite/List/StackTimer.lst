@@ -1,0 +1,785 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:02
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\StackTimer.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW62AF.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\StackTimer.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\StackTimer.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\StackTimer.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\StackTimer.c
+      1          /* ###################################################################
+      2          **     THIS COMPONENT MODULE IS GENERATED BY THE TOOL. DO NOT MODIFY IT.
+      3          **     Filename    : StackTimer.c
+      4          **     Project     : ProcessorExpert
+      5          **     Processor   : MKL26Z128VLL4
+      6          **     Component   : TimerUnit_LDD
+      7          **     Version     : Component 01.164, Driver 01.11, CPU db: 3.00.000
+      8          **     Compiler    : IAR ARM C Compiler
+      9          **     Date/Time   : 2014-10-10, 12:09, # CodeGen: 152
+     10          **     Abstract    :
+     11          **          This TimerUnit component provides a low level API for unified hardware access across
+     12          **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
+     13          **     Settings    :
+     14          **          Component name                                 : StackTimer
+     15          **          Module name                                    : TPM2
+     16          **          Counter                                        : TPM2_CNT
+     17          **          Counter direction                              : Up
+     18          **          Counter width                                  : 16 bits
+     19          **          Value type                                     : Optimal
+     20          **          Input clock source                             : Internal
+     21          **            Counter frequency                            : 187.5 kHz
+     22          **          Counter restart                                : On-overrun
+     23          **            Overrun period                               : Auto select
+     24          **            Interrupt                                    : Enabled
+     25          **              Interrupt                                  : INT_TPM2
+     26          **              Interrupt priority                         : medium priority
+     27          **          Channel list                                   : 1
+     28          **            Channel 0                                    :
+     29          **              Mode                                       : Compare
+     30          **                Compare                                  : TPM2_C0V
+     31          **                Offset                                   : 1 timer-ticks
+     32          **                Output on compare                        : Disconnect
+     33          **                Interrupt                                : Enabled
+     34          **                  Interrupt                              : INT_TPM2
+     35          **                  Interrupt priority                     : medium priority
+     36          **          Initialization                                 :
+     37          **            Enabled in init. code                        : no
+     38          **            Auto initialization                          : no
+     39          **            Event mask                                   :
+     40          **              OnCounterRestart                           : Enabled
+     41          **              OnChannel0                                 : Enabled
+     42          **              OnChannel1                                 : Disabled
+     43          **              OnChannel2                                 : Disabled
+     44          **              OnChannel3                                 : Disabled
+     45          **              OnChannel4                                 : Disabled
+     46          **              OnChannel5                                 : Disabled
+     47          **              OnChannel6                                 : Disabled
+     48          **              OnChannel7                                 : Disabled
+     49          **          CPU clock/configuration selection              :
+     50          **            Clock configuration 0                        : This component disabled
+     51          **            Clock configuration 1                        : This component enabled
+     52          **            Clock configuration 2                        : This component disabled
+     53          **            Clock configuration 3                        : This component disabled
+     54          **            Clock configuration 4                        : This component disabled
+     55          **            Clock configuration 5                        : This component disabled
+     56          **            Clock configuration 6                        : This component disabled
+     57          **            Clock configuration 7                        : This component disabled
+     58          **     Contents    :
+     59          **         Init                  - LDD_TDeviceData* StackTimer_Init(LDD_TUserData *UserDataPtr);
+     60          **         Enable                - LDD_TError StackTimer_Enable(LDD_TDeviceData *DeviceDataPtr);
+     61          **         Disable               - LDD_TError StackTimer_Disable(LDD_TDeviceData *DeviceDataPtr);
+     62          **         GetInputFrequencyReal - LDD_TimerUnit_Tfloat StackTimer_GetInputFrequencyReal(LDD_TDeviceData...
+     63          **         GetInputFrequency     - uint32_t StackTimer_GetInputFrequency(LDD_TDeviceData *DeviceDataPtr);
+     64          **         ResetCounter          - LDD_TError StackTimer_ResetCounter(LDD_TDeviceData *DeviceDataPtr);
+     65          **         GetCounterValue       - StackTimer_TValueType StackTimer_GetCounterValue(LDD_TDeviceData...
+     66          **         SetOffsetTicks        - LDD_TError StackTimer_SetOffsetTicks(LDD_TDeviceData *DeviceDataPtr, uint8_t...
+     67          **         GetOffsetTicks        - LDD_TError StackTimer_GetOffsetTicks(LDD_TDeviceData *DeviceDataPtr, uint8_t...
+     68          **
+     69          **     Copyright : 1997 - 2013 Freescale Semiconductor, Inc. All Rights Reserved.
+     70          **     SOURCE DISTRIBUTION PERMISSIBLE as directed in End User License Agreement.
+     71          **
+     72          **     http      : www.freescale.com
+     73          **     mail      : support@freescale.com
+     74          ** ###################################################################*/
+     75          /*!
+     76          ** @file StackTimer.c
+     77          ** @version 01.11
+     78          ** @brief
+     79          **          This TimerUnit component provides a low level API for unified hardware access across
+     80          **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
+     81          */
+     82          /*!
+     83          **  @addtogroup StackTimer_module StackTimer module documentation
+     84          **  @{
+     85          */
+     86          
+     87          /* MODULE StackTimer. */
+     88          
+     89          #include "Events.h"
+     90          #include "StackTimer.h"
+     91          /* MQX Lite include files */
+     92          #include "mqxlite.h"
+     93          #include "mqxlite_prv.h"
+     94          #include "IO_Map.h"
+     95          
+     96          #ifdef __cplusplus
+     97          extern "C" {
+     98          #endif
+     99          
+    100          /* List of channels used by component */
+    101          static const uint8_t ChannelDevice[StackTimer_NUMBER_OF_CHANNELS] = {0x00U};
+    102          
+    103          /* Table of channels mode / 0 - compare mode, 1 - capture mode */
+    104          static const uint8_t ChannelMode[StackTimer_NUMBER_OF_CHANNELS] = {0x00U};
+    105          
+    106          
+    107          typedef struct {
+    108            LDD_RTOS_TISRVectorSettings SavedISRSettings_TUInterrupt; /* {MQXLite RTOS Adapter} Saved settings of allocated interrupt vector */
+    109            bool EnUser;                         /* Enable/Disable device */
+    110            bool EnMode;                         /* Enable/Disable device in clock configuration */
+    111            LDD_TEventMask EnEvents;             /* Enable/Disable events mask */
+    112            uint32_t Source;                     /* Current source clock */
+    113            LDD_TUserData *UserDataPtr;          /* RTOS device data structure */
+    114          } StackTimer_TDeviceData;
+    115          
+    116          typedef StackTimer_TDeviceData *StackTimer_TDeviceDataPtr; /* Pointer to the device data structure. */
+    117          
+    118          /* {MQXLite RTOS Adapter} Static object used for simulation of dynamic driver memory allocation */
+    119          static StackTimer_TDeviceData DeviceDataPrv__DEFAULT_RTOS_ALLOC;
+    120          
+    121          #define AVAILABLE_EVENTS_MASK (LDD_TEventMask)(LDD_TIMERUNIT_ON_CHANNEL_0 | LDD_TIMERUNIT_ON_COUNTER_RESTART)
+    122          #define LAST_CHANNEL 0x00U
+    123          
+    124          /* Internal method prototypes */
+    125          static void HWEnDi(LDD_TDeviceData *DeviceDataPtr);
+    126          /*
+    127          ** ===================================================================
+    128          **     Method      :  StackTimer_Init (component TimerUnit_LDD)
+    129          */
+    130          /*!
+    131          **     @brief
+    132          **         Initializes the device. Allocates memory for the device data
+    133          **         structure, allocates interrupt vectors and sets interrupt
+    134          **         priority, sets pin routing, sets timing, etc. If the
+    135          **         property ["Enable in init. code"] is set to "yes" value then
+    136          **         the device is also enabled (see the description of the
+    137          **         [Enable] method). In this case the [Enable] method is not
+    138          **         necessary and needn't to be generated. This method can be
+    139          **         called only once. Before the second call of Init the [Deinit]
+    140          **         must be called first.
+    141          **     @param
+    142          **         UserDataPtr     - Pointer to the user or
+    143          **                           RTOS specific data. This pointer will be
+    144          **                           passed as an event or callback parameter.
+    145          **     @return
+    146          **                         - Pointer to the dynamically allocated private
+    147          **                           structure or NULL if there was an error.
+    148          */
+    149          /* ===================================================================*/
+    150          LDD_TDeviceData* StackTimer_Init(LDD_TUserData *UserDataPtr)
+    151          {
+    152            /* Allocate device structure */
+    153            StackTimer_TDeviceData *DeviceDataPrv;
+    154            /* {MQXLite RTOS Adapter} Driver memory allocation: Dynamic allocation is simulated by a pointer to the static object */
+    155            DeviceDataPrv = &DeviceDataPrv__DEFAULT_RTOS_ALLOC;
+    156            DeviceDataPrv->UserDataPtr = UserDataPtr; /* Store the RTOS device structure */
+    157            /* Interrupt vector(s) allocation */
+    158            /* {MQXLite RTOS Adapter} Save old and set new interrupt vector (function handler and ISR parameter) */
+    159            /* Note: Exception handler for interrupt is not saved, because it is not modified */
+    160            DeviceDataPrv->SavedISRSettings_TUInterrupt.isrData = _int_get_isr_data(LDD_ivIndex_INT_TPM2);
+    161            DeviceDataPrv->SavedISRSettings_TUInterrupt.isrFunction = _int_install_isr(LDD_ivIndex_INT_TPM2, StackTimer_Interrupt, DeviceDataPrv);
+    162            /* SIM_SCGC6: TPM2=1 */
+    163            SIM_SCGC6 |= SIM_SCGC6_TPM2_MASK;
+    164            /* TPM2_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,DMA=0,TOF=0,TOIE=0,CPWMS=0,CMOD=0,PS=0 */
+    165            TPM2_SC = (TPM_SC_CMOD(0x00) | TPM_SC_PS(0x00)); /* Clear status and control register */
+    166            /* TPM2_CNT: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,COUNT=0 */
+    167            TPM2_CNT = TPM_CNT_COUNT(0x00);      /* Reset counter register */
+    168            /* TPM2_C0SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
+    169            TPM2_C0SC = 0x00U;                   /* Clear channel status and control register */
+    170            /* TPM2_C1SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
+    171            TPM2_C1SC = 0x00U;                   /* Clear channel status and control register */
+    172            /* TPM2_MOD: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,MOD=0xFFFF */
+    173            TPM2_MOD = TPM_MOD_MOD(0xFFFF);      /* Set up modulo register */
+    174            /* TPM2_C0SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=1,MSB=0,MSA=1,ELSB=0,ELSA=0,??=0,DMA=0 */
+    175            TPM2_C0SC = (TPM_CnSC_CHIE_MASK | TPM_CnSC_MSA_MASK); /* Set up channel status and control register */
+    176            /* TPM2_C0V: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,VAL=1 */
+    177            TPM2_C0V = TPM_CnV_VAL(0x01);        /* Set up channel value register */
+    178            DeviceDataPrv->EnEvents = 0x0101U;   /* Enable selected events */
+    179            DeviceDataPrv->Source = TPM_PDD_SYSTEM; /* Store clock source */
+    180            /* NVIC_IPR4: PRI_19=0x80 */
+    181            NVIC_IPR4 = (uint32_t)((NVIC_IPR4 & (uint32_t)~(uint32_t)(
+    182                         NVIC_IP_PRI_19(0x7F)
+    183                        )) | (uint32_t)(
+    184                         NVIC_IP_PRI_19(0x80)
+    185                        ));
+    186            /* NVIC_ISER: SETENA|=0x00080000 */
+    187            NVIC_ISER |= NVIC_ISER_SETENA(0x00080000);
+    188            /* TPM2_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,DMA=0,TOF=0,TOIE=1,CPWMS=0,CMOD=0,PS=0 */
+    189            TPM2_SC = (TPM_SC_TOIE_MASK | TPM_SC_CMOD(0x00) | TPM_SC_PS(0x00)); /* Set up status and control register */
+    190            DeviceDataPrv->EnUser = FALSE;       /* Set the flag "device disabled" */
+    191            StackTimer_SetClockConfiguration(DeviceDataPrv, Cpu_GetClockConfiguration()); /* Set Initial according clock configuration */
+    192            /* Registration of the device structure */
+    193            PE_LDD_RegisterDeviceStructure(PE_LDD_COMPONENT_StackTimer_ID,DeviceDataPrv);
+    194            return ((LDD_TDeviceData *)DeviceDataPrv); /* Return pointer to the device data structure */
+    195          }
+    196          
+    197          /*
+    198          ** ===================================================================
+    199          **     Method      :  StackTimer_Enable (component TimerUnit_LDD)
+    200          */
+    201          /*!
+    202          **     @brief
+    203          **         Enables the component - it starts the signal generation.
+    204          **         Events may be generated (see SetEventMask). The method is
+    205          **         not available if the counter can't be disabled/enabled by HW.
+    206          **     @param
+    207          **         DeviceDataPtr   - Device data structure
+    208          **                           pointer returned by [Init] method.
+    209          **     @return
+    210          **                         - Error code, possible codes:
+    211          **                           ERR_OK - OK
+    212          **                           ERR_SPEED - The component does not work in
+    213          **                           the active clock configuration
+    214          */
+    215          /* ===================================================================*/
+    216          LDD_TError StackTimer_Enable(LDD_TDeviceData *DeviceDataPtr)
+    217          {
+    218            StackTimer_TDeviceData *DeviceDataPrv = (StackTimer_TDeviceData *)DeviceDataPtr;
+    219          
+    220            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    221               property to the "yes" value in the "Configuration inspector" */
+    222            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    223              return ERR_SPEED;                  /* If yes then error */
+    224            }
+    225            if (!DeviceDataPrv->EnUser) {        /* Is the device disabled by user? */
+    226              DeviceDataPrv->EnUser = TRUE;      /* If yes then set the flag "device enabled" */
+    227              HWEnDi(DeviceDataPtr);             /* Enable/disable device according to status flags */
+    228            }
+    229            return ERR_OK;
+    230          }
+    231          
+    232          /*
+    233          ** ===================================================================
+    234          **     Method      :  StackTimer_Disable (component TimerUnit_LDD)
+    235          */
+    236          /*!
+    237          **     @brief
+    238          **         Disables the component - it stops signal generation and
+    239          **         events calling. The method is not available if the counter
+    240          **         can't be disabled/enabled by HW.
+    241          **     @param
+    242          **         DeviceDataPtr   - Device data structure
+    243          **                           pointer returned by [Init] method.
+    244          **     @return
+    245          **                         - Error code, possible codes:
+    246          **                           ERR_OK - OK
+    247          **                           ERR_SPEED - The component does not work in
+    248          **                           the active clock configuration
+    249          */
+    250          /* ===================================================================*/
+    251          LDD_TError StackTimer_Disable(LDD_TDeviceData *DeviceDataPtr)
+    252          {
+    253            StackTimer_TDeviceData *DeviceDataPrv = (StackTimer_TDeviceData *)DeviceDataPtr;
+    254          
+    255            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    256               property to the "yes" value in the "Configuration inspector" */
+    257            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    258              return ERR_SPEED;                  /* If yes then error */
+    259            }
+    260            if (DeviceDataPrv->EnUser) {         /* Is the device enabled by user? */
+    261              DeviceDataPrv->EnUser = FALSE;     /* If yes then set the flag "device disabled" */
+    262              HWEnDi(DeviceDataPtr);             /* Enable/disable device according to status flags */
+    263            }
+    264            return ERR_OK;
+    265          }
+    266          
+    267          /*
+    268          ** ===================================================================
+    269          **     Method      :  StackTimer_GetInputFrequencyReal (component TimerUnit_LDD)
+    270          */
+    271          /*!
+    272          **     @brief
+    273          **         Returns current input frequency of the counter in Hz as
+    274          **         float number. This method can be used only if ["Input clock
+    275          **         source"] property is set to "internal".
+    276          **     @param
+    277          **         DeviceDataPtr   - Device data structure
+    278          **                           pointer returned by [Init] method.
+    279          **     @return
+    280          **                         - Input frequency
+    281          */
+    282          /* ===================================================================*/
+    283          LDD_TimerUnit_Tfloat StackTimer_GetInputFrequencyReal(LDD_TDeviceData *DeviceDataPtr)
+    284          {
+    285            (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
+    286            switch (Cpu_GetClockConfiguration()) {
+    287              case CPU_CLOCK_CONFIG_0:
+    288              case CPU_CLOCK_CONFIG_1:
+    289                return StackTimer_CNT_INP_FREQ_R_0_CFG_1;
+    290              default:
+    291                break;
+    292            }
+    293            return StackTimer_CNT_INP_FREQ_R_0;
+    294          }
+    295          
+    296          /*
+    297          ** ===================================================================
+    298          **     Method      :  StackTimer_GetInputFrequency (component TimerUnit_LDD)
+    299          */
+    300          /*!
+    301          **     @brief
+    302          **         Returns current input frequency of the counter in Hz as
+    303          **         32-bit unsigned integer number. This method can be used only
+    304          **         if ["Input clock source"] property is set to "internal".
+    305          **     @param
+    306          **         DeviceDataPtr   - Device data structure
+    307          **                           pointer returned by [Init] method.
+    308          **     @return
+    309          **                         - Input frequency
+    310          */
+    311          /* ===================================================================*/
+    312          uint32_t StackTimer_GetInputFrequency(LDD_TDeviceData *DeviceDataPtr)
+    313          {
+    314            (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
+    315            switch (Cpu_GetClockConfiguration()) {
+    316              case CPU_CLOCK_CONFIG_0:
+    317              case CPU_CLOCK_CONFIG_1:
+    318                return StackTimer_CNT_INP_FREQ_U_0_CFG_1;
+    319              default:
+    320                break;
+    321            }
+    322            return StackTimer_CNT_INP_FREQ_U_0;
+    323          }
+    324          
+    325          /*
+    326          ** ===================================================================
+    327          **     Method      :  StackTimer_ResetCounter (component TimerUnit_LDD)
+    328          */
+    329          /*!
+    330          **     @brief
+    331          **         Resets counter. If counter is counting up then it is set to
+    332          **         zero. If counter is counting down then counter is updated to
+    333          **         the reload value.
+    334          **         The method is not available if HW doesn't allow resetting of
+    335          **         the counter.
+    336          **     @param
+    337          **         DeviceDataPtr   - Device data structure
+    338          **                           pointer returned by [Init] method.
+    339          **     @return
+    340          **                         - Error code, possible codes:
+    341          **                           ERR_OK - OK
+    342          **                           ERR_SPEED - The component does not work in
+    343          **                           the active clock configuration
+    344          */
+    345          /* ===================================================================*/
+    346          LDD_TError StackTimer_ResetCounter(LDD_TDeviceData *DeviceDataPtr)
+    347          {
+    348            StackTimer_TDeviceData *DeviceDataPrv = (StackTimer_TDeviceData *)DeviceDataPtr;
+    349          
+    350            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    351               property to the "yes" value in the "Configuration inspector" */
+    352            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    353              return ERR_SPEED;                  /* If yes then error */
+    354            }
+    355            TPM_PDD_InitializeCounter(TPM2_BASE_PTR);
+    356            return ERR_OK;                       /* OK */
+    357          }
+    358          
+    359          /*
+    360          ** ===================================================================
+    361          **     Method      :  StackTimer_GetCounterValue (component TimerUnit_LDD)
+    362          */
+    363          /*!
+    364          **     @brief
+    365          **         Returns the content of counter register. This method can be
+    366          **         used both if counter is enabled and if counter is disabled.
+    367          **         The method is not available if HW doesn't allow reading of
+    368          **         the counter.
+    369          **     @param
+    370          **         DeviceDataPtr   - Device data structure
+    371          **                           pointer returned by [Init] method.
+    372          **     @return
+    373          **                         - Counter value (number of counted ticks).
+    374          */
+    375          /* ===================================================================*/
+    376          StackTimer_TValueType StackTimer_GetCounterValue(LDD_TDeviceData *DeviceDataPtr)
+    377          {
+    378            (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
+    379            return (StackTimer_TValueType)TPM_PDD_ReadCounterReg(TPM2_BASE_PTR);
+    380          }
+    381          
+    382          /*
+    383          ** ===================================================================
+    384          **     Method      :  StackTimer_SetOffsetTicks (component TimerUnit_LDD)
+    385          */
+    386          /*!
+    387          **     @brief
+    388          **         Sets the new offset value to channel specified by the
+    389          **         parameter ChannelIdx. It is user responsibility to use value
+    390          **         below selected period. This method is available when at
+    391          **         least one channel is configured.
+    392          **     @param
+    393          **         DeviceDataPtr   - Device data structure
+    394          **                           pointer returned by [Init] method.
+    395          **     @param
+    396          **         ChannelIdx      - Index of the component
+    397          **                           channel.
+    398          **     @param
+    399          **         Ticks           - Number of counter ticks to compare
+    400          **                           match.
+    401          **     @return
+    402          **                         - Error code, possible codes:
+    403          **                           ERR_OK - OK
+    404          **                           ERR_PARAM_INDEX - ChannelIdx parameter is
+    405          **                           out of possible range.
+    406          **                           ERR_NOTAVAIL -  The compare mode is not
+    407          **                           selected for selected channel
+    408          **                           ERR_PARAM_TICKS - Ticks parameter is out of
+    409          **                           possible range.
+    410          **                           ERR_SPEED - The component does not work in
+    411          **                           the active clock configuration
+    412          */
+    413          /* ===================================================================*/
+    414          LDD_TError StackTimer_SetOffsetTicks(LDD_TDeviceData *DeviceDataPtr, uint8_t ChannelIdx, StackTimer_TValueType Ticks)
+    415          {
+    416            StackTimer_TDeviceData *DeviceDataPrv = (StackTimer_TDeviceData *)DeviceDataPtr;
+    417          
+    418            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    419               property to the "yes" value in the "Configuration inspector" */
+    420            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    421              return ERR_SPEED;                  /* If yes then error */
+    422            }
+    423            /* Parameter test - this test can be disabled by setting the "Ignore range checking"
+    424               property to the "yes" value in the "Configuration inspector" */
+    425            if (ChannelIdx > LAST_CHANNEL) {     /* Is the channel index out of range? */
+    426              return ERR_PARAM_INDEX;            /* If yes then error */
+    427            }
+    428            if ((ChannelMode[ChannelIdx]) != 0U) { /* Is the channel in compare mode? */
+    429              return ERR_NOTAVAIL;               /* If not then error */
+    430            }
+    431            TPM_PDD_WriteChannelValueReg(TPM2_BASE_PTR, ChannelDevice[ChannelIdx], (uint16_t)Ticks);
+    432            if (Ticks > 65535U) {                /* Was the given value greater than counter width? */
+    433              return ERR_PARAM_TICKS;            /* If yes then truncation of user data to 16 bits is reported */
+    434            }
+    435            return ERR_OK;                       /* OK */
+    436          }
+    437          
+    438          /*
+    439          ** ===================================================================
+    440          **     Method      :  StackTimer_GetOffsetTicks (component TimerUnit_LDD)
+    441          */
+    442          /*!
+    443          **     @brief
+    444          **         Returns the number of counter ticks to compare match channel
+    445          **         specified by the parameter ChannelIdx. See also method
+    446          **         [SetOffsetTicks]. This method is available when at least one
+    447          **         channel is configured.
+    448          **     @param
+    449          **         DeviceDataPtr   - Device data structure
+    450          **                           pointer returned by [Init] method.
+    451          **     @param
+    452          **         ChannelIdx      - Index of the component
+    453          **                           channel.
+    454          **     @param
+    455          **         TicksPtr        - Pointer to return value of the
+    456          **                           number of counter ticks to compare match.
+    457          **     @return
+    458          **                         - Error code, possible codes:
+    459          **                           ERR_OK - OK
+    460          **                           ERR_PARAM_INDEX - ChannelIdx parameter is
+    461          **                           out of possible range.
+    462          **                           ERR_NOTAVAIL -  The compare mode is not
+    463          **                           selected for selected channel.
+    464          **                           ERR_SPEED - The component does not work in
+    465          **                           the active clock configuration
+    466          */
+    467          /* ===================================================================*/
+    468          LDD_TError StackTimer_GetOffsetTicks(LDD_TDeviceData *DeviceDataPtr, uint8_t ChannelIdx, StackTimer_TValueType *TicksPtr)
+    469          {
+    470            StackTimer_TDeviceData *DeviceDataPrv = (StackTimer_TDeviceData *)DeviceDataPtr;
+    471          
+    472            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    473               property to the "yes" value in the "Configuration inspector" */
+    474            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    475              return ERR_SPEED;                  /* If yes then error */
+    476            }
+    477            /* Parameter test - this test can be disabled by setting the "Ignore range checking"
+    478               property to the "yes" value in the "Configuration inspector" */
+    479            if (ChannelIdx > LAST_CHANNEL) {     /* Is the channel index out of range? */
+    480              return ERR_PARAM_INDEX;            /* If yes then error */
+    481            }
+    482            if ((ChannelMode[ChannelIdx]) != 0U) { /* Is the channel in compare mode? */
+    483              return ERR_NOTAVAIL;               /* If not then error */
+    484            }
+    485            *TicksPtr = (StackTimer_TValueType)(TPM_PDD_ReadChannelValueReg(TPM2_BASE_PTR, ChannelDevice[ChannelIdx]));
+    486            return ERR_OK;                       /* OK */
+    487          }
+    488          
+    489          /*
+    490          ** ===================================================================
+    491          **     Method      :  StackTimer_SetClockConfiguration (component TimerUnit_LDD)
+    492          **
+    493          **     Description :
+    494          **         This method changes the clock configuration. During a clock
+    495          **         configuration change the component changes it's setting
+    496          **         immediately upon a request.
+    497          **         This method is internal. It is used by Processor Expert only.
+    498          ** ===================================================================
+    499          */
+    500          void StackTimer_SetClockConfiguration(LDD_TDeviceData *DeviceDataPtr, LDD_TClockConfiguration ClockConfiguration)
+    501          {
+    502            StackTimer_TDeviceData *DeviceDataPrv = (StackTimer_TDeviceData *)DeviceDataPtr;
+    503          
+    504            TPM_PDD_SelectPrescalerSource(TPM2_BASE_PTR, TPM_PDD_DISABLED);
+    505            switch (ClockConfiguration) {
+    506              case CPU_CLOCK_CONFIG_0:
+    507              case CPU_CLOCK_CONFIG_1:
+    508                DeviceDataPrv->EnMode = TRUE;    /* Set the flag "device enabled" in the actual clock configuration */
+    509                DeviceDataPrv->Source = TPM_PDD_SYSTEM; /* Select clock source */
+    510                TPM_PDD_SetPrescaler(TPM2_BASE_PTR, TPM_PDD_DIVIDE_128); /* Set prescaler register */
+    511                break;
+    512              default:
+    513                DeviceDataPrv->EnMode = FALSE;   /* Set the flag "device disabled" in the actual clock configuration */
+    514                break;
+    515            }
+    516            HWEnDi(DeviceDataPtr);               /* Enable/disable device according to status flags */
+    517          }
+    518          
+    519          /*
+    520          ** ===================================================================
+    521          **     Method      :  StackTimer_Interrupt (component TimerUnit_LDD)
+    522          **
+    523          **     Description :
+    524          **         The method services the interrupt of the selected peripheral(s)
+    525          **         and eventually invokes event(s) of the component.
+    526          **         This method is internal. It is used by Processor Expert only.
+    527          ** ===================================================================
+    528          */
+    529          void StackTimer_Interrupt(LDD_RTOS_TISRParameter _isrParameter)
+    530          {
+    531            /* {MQXLite RTOS Adapter} ISR parameter is passed as parameter from RTOS interrupt dispatcher */
+    532            StackTimer_TDeviceDataPtr DeviceDataPrv = (StackTimer_TDeviceDataPtr)_isrParameter;
+    533          
+    534            LDD_TEventMask State = 0U;
+    535          
+    536            if ((TPM_PDD_GetOverflowInterruptFlag(TPM2_BASE_PTR)) != 0U) { /* Is the overflow interrupt flag pending? */
+    537              State |= LDD_TIMERUNIT_ON_COUNTER_RESTART; /* and set mask */
+    538            }
+    539            if ((TPM_PDD_GetChannelInterruptFlag(TPM2_BASE_PTR, ChannelDevice[0])) != 0U) { /* Is the channel interrupt flag pending? */
+    540              State |= LDD_TIMERUNIT_ON_CHANNEL_0; /* and set mask */
+    541            }
+    542            State &= DeviceDataPrv->EnEvents;    /* Handle only enabled interrupts */
+    543            if (State & LDD_TIMERUNIT_ON_COUNTER_RESTART) { /* Is the overflow interrupt flag pending? */
+    544              TPM_PDD_ClearOverflowInterruptFlag(TPM2_BASE_PTR); /* Clear flag */
+    545              StackTimer_OnCounterRestart(DeviceDataPrv->UserDataPtr); /* Invoke OnCounterRestart event */
+    546            }
+    547            if (State & LDD_TIMERUNIT_ON_CHANNEL_0) { /* Is the channel 0 interrupt flag pending? */
+    548              TPM_PDD_ClearChannelInterruptFlag(TPM2_BASE_PTR, ChannelDevice[0]); /* Clear flag */
+    549              StackTimer_OnChannel0(DeviceDataPrv->UserDataPtr); /* Invoke OnChannel0 event */
+    550            }
+    551          }
+    552          
+    553          /*
+    554          ** ===================================================================
+    555          **     Method      :  HWEnDi (component TimerUnit_LDD)
+    556          **
+    557          **     Description :
+    558          **         Enables or disables the peripheral(s) associated with the
+    559          **         component. The method is called automatically as a part of the
+    560          **         Enable and Disable methods and several internal methods.
+    561          **         This method is internal. It is used by Processor Expert only.
+    562          ** ===================================================================
+    563          */
+    564          static void HWEnDi(LDD_TDeviceData *DeviceDataPtr)
+    565          {
+    566            StackTimer_TDeviceDataPtr DeviceDataPrv = (StackTimer_TDeviceDataPtr)DeviceDataPtr;
+    567          
+    568            /* {MQXLite RTOS Adapter} Critical section begin (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    569            _int_disable();
+    570            if (DeviceDataPrv->EnMode && DeviceDataPrv->EnUser) { /* Enable device? */
+    571              TPM_PDD_SelectPrescalerSource(TPM2_BASE_PTR, DeviceDataPrv->Source);
+    572            }
+    573            else {
+    574              TPM_PDD_SelectPrescalerSource(TPM2_BASE_PTR, TPM_PDD_DISABLED);
+    575            }
+    576            /* {MQXLite RTOS Adapter} Critical section ends (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    577            _int_enable();
+    578          }
+    579          /* END StackTimer. */
+    580          
+    581          #ifdef __cplusplus
+    582          }  /* extern "C" */
+    583          #endif
+    584          
+    585          /*!
+    586          ** @}
+    587          */
+    588          /*
+    589          ** ###################################################################
+    590          **
+    591          **     This file was created by Processor Expert 10.3 [05.09]
+    592          **     for the Freescale Kinetis series of microcontrollers.
+    593          **
+    594          ** ###################################################################
+    595          */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   HWEnDi
+        16   -> _int_disable
+        16   -> _int_enable
+      16   StackTimer_Disable
+        16   -> HWEnDi
+      16   StackTimer_Enable
+        16   -> HWEnDi
+       0   StackTimer_GetCounterValue
+       8   StackTimer_GetInputFrequency
+         8   -> Cpu_GetClockConfiguration
+       8   StackTimer_GetInputFrequencyReal
+         8   -> Cpu_GetClockConfiguration
+      16   StackTimer_GetOffsetTicks
+      16   StackTimer_Init
+        16   -> Cpu_GetClockConfiguration
+        16   -> StackTimer_SetClockConfiguration
+        16   -> _int_get_isr_data
+        16   -> _int_install_isr
+      32   StackTimer_Interrupt
+        32   -> StackTimer_OnChannel0
+        32   -> StackTimer_OnCounterRestart
+       4   StackTimer_ResetCounter
+      16   StackTimer_SetClockConfiguration
+        16   -> HWEnDi
+      16   StackTimer_SetOffsetTicks
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable8
+       4  ??DataTable8_1
+       4  ??DataTable9
+       4  ??DataTable9_1
+       4  ??DataTable9_10
+       4  ??DataTable9_11
+       4  ??DataTable9_12
+       4  ??DataTable9_13
+       4  ??DataTable9_14
+       4  ??DataTable9_15
+       4  ??DataTable9_2
+       4  ??DataTable9_3
+       4  ??DataTable9_4
+       4  ??DataTable9_5
+       4  ??DataTable9_6
+       4  ??DataTable9_7
+       4  ??DataTable9_8
+       4  ??DataTable9_9
+       1  ChannelDevice
+       1  ChannelMode
+      24  DeviceDataPrv__DEFAULT_RTOS_ALLOC
+      54  HWEnDi
+      36  StackTimer_Disable
+      36  StackTimer_Enable
+       8  StackTimer_GetCounterValue
+      22  StackTimer_GetInputFrequency
+      22  StackTimer_GetInputFrequencyReal
+      68  StackTimer_GetOffsetTicks
+     140  StackTimer_Init
+     114  StackTimer_Interrupt
+      26  StackTimer_ResetCounter
+      62  StackTimer_SetClockConfiguration
+      82  StackTimer_SetOffsetTicks
+
+ 
+  24 bytes in section .bss
+   2 bytes in section .rodata
+ 742 bytes in section .text
+ 
+ 742 bytes of CODE  memory
+   2 bytes of CONST memory
+  24 bytes of DATA  memory
+
+Errors: none
+Warnings: none

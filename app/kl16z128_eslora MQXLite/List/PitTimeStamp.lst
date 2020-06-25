@@ -1,0 +1,763 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:01
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\PitTimeStamp.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5D0D.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\PitTimeStamp.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\PitTimeStamp.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\PitTimeStamp.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\PitTimeStamp.c
+      1          /* ###################################################################
+      2          **     THIS COMPONENT MODULE IS GENERATED BY THE TOOL. DO NOT MODIFY IT.
+      3          **     Filename    : PitTimeStamp.c
+      4          **     Project     : ProcessorExpert
+      5          **     Processor   : MKL26Z128VLL4
+      6          **     Component   : TimerUnit_LDD
+      7          **     Version     : Component 01.164, Driver 01.11, CPU db: 3.00.000
+      8          **     Compiler    : IAR ARM C Compiler
+      9          **     Date/Time   : 2014-10-10, 12:09, # CodeGen: 152
+     10          **     Abstract    :
+     11          **          This TimerUnit component provides a low level API for unified hardware access across
+     12          **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
+     13          **     Settings    :
+     14          **          Component name                                 : PitTimeStamp
+     15          **          Module name                                    : PIT
+     16          **          Counter                                        : PIT_CVAL0
+     17          **          Counter direction                              : Down
+     18          **          Counter width                                  : 32 bits
+     19          **          Value type                                     : Optimal
+     20          **          Input clock source                             : Internal
+     21          **            Counter frequency                            : Auto select
+     22          **          Counter restart                                : On-match
+     23          **            Period device                                : PIT_LDVAL0
+     24          **            Period                                       : 1 µs
+     25          **            Interrupt                                    : Enabled
+     26          **              Interrupt                                  : INT_PIT
+     27          **              Interrupt priority                         : medium priority
+     28          **          Channel list                                   : 0
+     29          **          Initialization                                 :
+     30          **            Enabled in init. code                        : no
+     31          **            Auto initialization                          : no
+     32          **            Event mask                                   :
+     33          **              OnCounterRestart                           : Enabled
+     34          **              OnChannel0                                 : Disabled
+     35          **              OnChannel1                                 : Disabled
+     36          **              OnChannel2                                 : Disabled
+     37          **              OnChannel3                                 : Disabled
+     38          **              OnChannel4                                 : Disabled
+     39          **              OnChannel5                                 : Disabled
+     40          **              OnChannel6                                 : Disabled
+     41          **              OnChannel7                                 : Disabled
+     42          **          CPU clock/configuration selection              :
+     43          **            Clock configuration 0                        : This component enabled
+     44          **            Clock configuration 1                        : This component enabled
+     45          **            Clock configuration 2                        : This component disabled
+     46          **            Clock configuration 3                        : This component disabled
+     47          **            Clock configuration 4                        : This component disabled
+     48          **            Clock configuration 5                        : This component disabled
+     49          **            Clock configuration 6                        : This component disabled
+     50          **            Clock configuration 7                        : This component disabled
+     51          **     Contents    :
+     52          **         Init                  - LDD_TDeviceData* PitTimeStamp_Init(LDD_TUserData *UserDataPtr);
+     53          **         Deinit                - void PitTimeStamp_Deinit(LDD_TDeviceData *DeviceDataPtr);
+     54          **         Enable                - LDD_TError PitTimeStamp_Enable(LDD_TDeviceData *DeviceDataPtr);
+     55          **         Disable               - LDD_TError PitTimeStamp_Disable(LDD_TDeviceData *DeviceDataPtr);
+     56          **         GetInputFrequencyReal - LDD_TimerUnit_Tfloat PitTimeStamp_GetInputFrequencyReal(LDD_TDeviceData...
+     57          **         GetInputFrequency     - uint32_t PitTimeStamp_GetInputFrequency(LDD_TDeviceData *DeviceDataPtr);
+     58          **         SetPeriodTicks        - LDD_TError PitTimeStamp_SetPeriodTicks(LDD_TDeviceData *DeviceDataPtr,...
+     59          **         GetPeriodTicks        - LDD_TError PitTimeStamp_GetPeriodTicks(LDD_TDeviceData *DeviceDataPtr,...
+     60          **         ResetCounter          - LDD_TError PitTimeStamp_ResetCounter(LDD_TDeviceData *DeviceDataPtr);
+     61          **
+     62          **     Copyright : 1997 - 2013 Freescale Semiconductor, Inc. All Rights Reserved.
+     63          **     SOURCE DISTRIBUTION PERMISSIBLE as directed in End User License Agreement.
+     64          **
+     65          **     http      : www.freescale.com
+     66          **     mail      : support@freescale.com
+     67          ** ###################################################################*/
+     68          /*!
+     69          ** @file PitTimeStamp.c
+     70          ** @version 01.11
+     71          ** @brief
+     72          **          This TimerUnit component provides a low level API for unified hardware access across
+     73          **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
+     74          */
+     75          /*!
+     76          **  @addtogroup PitTimeStamp_module PitTimeStamp module documentation
+     77          **  @{
+     78          */
+     79          
+     80          /* MODULE PitTimeStamp. */
+     81          
+     82          #include "Events.h"
+     83          #include "PitTimeStamp.h"
+     84          /* MQX Lite include files */
+     85          #include "mqxlite.h"
+     86          #include "mqxlite_prv.h"
+     87          #include "IO_Map.h"
+     88          
+     89          #ifdef __cplusplus
+     90          extern "C" {
+     91          #endif
+     92          
+     93          
+     94          typedef struct {
+     95            LDD_RTOS_TISRVectorSettings SavedISRSettings_TUInterrupt; /* {MQXLite RTOS Adapter} Saved settings of allocated interrupt vector */
+     96            bool EnUser;                         /* Enable/Disable device */
+     97            bool EnMode;                         /* Enable/Disable device in clock configuration */
+     98            LDD_TClockConfiguration LastClock;   /* Last enabled clock configuration */
+     99            LDD_TUserData *UserDataPtr;          /* RTOS device data structure */
+    100          } PitTimeStamp_TDeviceData;
+    101          
+    102          typedef PitTimeStamp_TDeviceData *PitTimeStamp_TDeviceDataPtr; /* Pointer to the device data structure. */
+    103          
+    104          /* {MQXLite RTOS Adapter} Static object used for simulation of dynamic driver memory allocation */
+    105          static PitTimeStamp_TDeviceData DeviceDataPrv__DEFAULT_RTOS_ALLOC;
+    106          
+    107          #define AVAILABLE_EVENTS_MASK (LDD_TEventMask)(LDD_TIMERUNIT_ON_COUNTER_RESTART)
+    108          
+    109          /* Internal method prototypes */
+    110          static void HWEnDi(LDD_TDeviceData *DeviceDataPtr);
+    111          /*
+    112          ** ===================================================================
+    113          **     Method      :  PitTimeStamp_Init (component TimerUnit_LDD)
+    114          */
+    115          /*!
+    116          **     @brief
+    117          **         Initializes the device. Allocates memory for the device data
+    118          **         structure, allocates interrupt vectors and sets interrupt
+    119          **         priority, sets pin routing, sets timing, etc. If the
+    120          **         property ["Enable in init. code"] is set to "yes" value then
+    121          **         the device is also enabled (see the description of the
+    122          **         [Enable] method). In this case the [Enable] method is not
+    123          **         necessary and needn't to be generated. This method can be
+    124          **         called only once. Before the second call of Init the [Deinit]
+    125          **         must be called first.
+    126          **     @param
+    127          **         UserDataPtr     - Pointer to the user or
+    128          **                           RTOS specific data. This pointer will be
+    129          **                           passed as an event or callback parameter.
+    130          **     @return
+    131          **                         - Pointer to the dynamically allocated private
+    132          **                           structure or NULL if there was an error.
+    133          */
+    134          /* ===================================================================*/
+    135          LDD_TDeviceData* PitTimeStamp_Init(LDD_TUserData *UserDataPtr)
+    136          {
+    137            /* Allocate device structure */
+    138            PitTimeStamp_TDeviceData *DeviceDataPrv;
+    139            /* {MQXLite RTOS Adapter} Driver memory allocation: Dynamic allocation is simulated by a pointer to the static object */
+    140            DeviceDataPrv = &DeviceDataPrv__DEFAULT_RTOS_ALLOC;
+    141            DeviceDataPrv->UserDataPtr = UserDataPtr; /* Store the RTOS device structure */
+    142            /* Interrupt vector(s) allocation */
+    143            /* {MQXLite RTOS Adapter} Save old and set new interrupt vector (function handler and ISR parameter) */
+    144            /* Note: Exception handler for interrupt is not saved, because it is not modified */
+    145            DeviceDataPrv->SavedISRSettings_TUInterrupt.isrData = _int_get_isr_data(LDD_ivIndex_INT_PIT);
+    146            DeviceDataPrv->SavedISRSettings_TUInterrupt.isrFunction = _int_install_isr(LDD_ivIndex_INT_PIT, PitTimeStamp_Interrupt, DeviceDataPrv);
+    147            /* SIM_SCGC6: PIT=1 */
+    148            SIM_SCGC6 |= SIM_SCGC6_PIT_MASK;
+    149            /* PIT_MCR: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,MDIS=0,FRZ=0 */
+    150            PIT_MCR = 0x00U;                     /* Enable device clock */
+    151            /* PIT_TCTRL0: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHN=0,TIE=0,TEN=0 */
+    152            PIT_TCTRL0 = 0x00U;                  /* Clear control register */
+    153            /* PIT_TFLG0: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,TIF=1 */
+    154            PIT_TFLG0 = PIT_TFLG_TIF_MASK;       /* Clear timer flag register */
+    155            /* PIT_LDVAL0: TSV=0x14 */
+    156            PIT_LDVAL0 = PIT_LDVAL_TSV(0x14);    /* Set up load register */
+    157            /* NVIC_IPR5: PRI_22=0x80 */
+    158            NVIC_IPR5 = (uint32_t)((NVIC_IPR5 & (uint32_t)~(uint32_t)(
+    159                         NVIC_IP_PRI_22(0x7F)
+    160                        )) | (uint32_t)(
+    161                         NVIC_IP_PRI_22(0x80)
+    162                        ));
+    163            /* NVIC_ISER: SETENA|=0x00400000 */
+    164            NVIC_ISER |= NVIC_ISER_SETENA(0x00400000);
+    165            /* PIT_TCTRL0: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHN=0,TIE=1,TEN=0 */
+    166            PIT_TCTRL0 = PIT_TCTRL_TIE_MASK;     /* Set up control register */
+    167            DeviceDataPrv->EnUser = FALSE;       /* Set the flag "device disabled" */
+    168            DeviceDataPrv->LastClock = (LDD_TClockConfiguration)0xFFU; /* Set the flag "first clock configuration" */
+    169            PitTimeStamp_SetClockConfiguration(DeviceDataPrv, Cpu_GetClockConfiguration()); /* Set Initial according clock configuration */
+    170            /* Registration of the device structure */
+    171            PE_LDD_RegisterDeviceStructure(PE_LDD_COMPONENT_PitTimeStamp_ID,DeviceDataPrv);
+    172            return ((LDD_TDeviceData *)DeviceDataPrv); /* Return pointer to the device data structure */
+    173          }
+    174          
+    175          /*
+    176          ** ===================================================================
+    177          **     Method      :  PitTimeStamp_Deinit (component TimerUnit_LDD)
+    178          */
+    179          /*!
+    180          **     @brief
+    181          **         Deinitializes the device. Switches off the device, frees the
+    182          **         device data structure memory, interrupts vectors, etc.
+    183          **     @param
+    184          **         DeviceDataPtr   - Device data structure
+    185          **                           pointer returned by Init method
+    186          */
+    187          /* ===================================================================*/
+    188          void PitTimeStamp_Deinit(LDD_TDeviceData *DeviceDataPtr)
+    189          {
+    190            PitTimeStamp_TDeviceData *DeviceDataPrv = (PitTimeStamp_TDeviceData *)DeviceDataPtr;
+    191          
+    192            (void)DeviceDataPrv;
+    193            PIT_PDD_EnableDevice(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, PDD_DISABLE);
+    194            /* Interrupt vector(s) deallocation */
+    195            /* {MQXLite RTOS Adapter} Restore interrupt vector (function handler and ISR parameter) */
+    196            /* Note: Exception handler for interrupt is not restored, because it was not modified */
+    197            (void)_int_install_isr(LDD_ivIndex_INT_PIT, ((PitTimeStamp_TDeviceDataPtr)DeviceDataPrv)->SavedISRSettings_TUInterrupt.isrFunction, ((PitTimeStamp_TDeviceDataPtr)DeviceDataPrv)->SavedISRSettings_TUInterrupt.isrData);
+    198            PIT_PDD_ModuleClock(PIT_BASE_PTR, PIT_PDD_CLOCK_DISABLED);
+    199            /* Unregistration of the device structure */
+    200            PE_LDD_UnregisterDeviceStructure(PE_LDD_COMPONENT_PitTimeStamp_ID);
+    201            /* Deallocation of the device structure */
+    202            /* {MQXLite RTOS Adapter} Driver memory deallocation: Dynamic allocation is simulated, no deallocation code is generated */
+    203          }
+    204          
+    205          /*
+    206          ** ===================================================================
+    207          **     Method      :  PitTimeStamp_Enable (component TimerUnit_LDD)
+    208          */
+    209          /*!
+    210          **     @brief
+    211          **         Enables the component - it starts the signal generation.
+    212          **         Events may be generated (see SetEventMask). The method is
+    213          **         not available if the counter can't be disabled/enabled by HW.
+    214          **     @param
+    215          **         DeviceDataPtr   - Device data structure
+    216          **                           pointer returned by [Init] method.
+    217          **     @return
+    218          **                         - Error code, possible codes:
+    219          **                           ERR_OK - OK
+    220          **                           ERR_SPEED - The component does not work in
+    221          **                           the active clock configuration
+    222          */
+    223          /* ===================================================================*/
+    224          LDD_TError PitTimeStamp_Enable(LDD_TDeviceData *DeviceDataPtr)
+    225          {
+    226            PitTimeStamp_TDeviceData *DeviceDataPrv = (PitTimeStamp_TDeviceData *)DeviceDataPtr;
+    227          
+    228            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    229               property to the "yes" value in the "Configuration inspector" */
+    230            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    231              return ERR_SPEED;                  /* If yes then error */
+    232            }
+    233            if (!DeviceDataPrv->EnUser) {        /* Is the device disabled by user? */
+    234              DeviceDataPrv->EnUser = TRUE;      /* If yes then set the flag "device enabled" */
+    235              HWEnDi(DeviceDataPtr);             /* Enable/disable device according to status flags */
+    236            }
+    237            return ERR_OK;
+    238          }
+    239          
+    240          /*
+    241          ** ===================================================================
+    242          **     Method      :  PitTimeStamp_Disable (component TimerUnit_LDD)
+    243          */
+    244          /*!
+    245          **     @brief
+    246          **         Disables the component - it stops signal generation and
+    247          **         events calling. The method is not available if the counter
+    248          **         can't be disabled/enabled by HW.
+    249          **     @param
+    250          **         DeviceDataPtr   - Device data structure
+    251          **                           pointer returned by [Init] method.
+    252          **     @return
+    253          **                         - Error code, possible codes:
+    254          **                           ERR_OK - OK
+    255          **                           ERR_SPEED - The component does not work in
+    256          **                           the active clock configuration
+    257          */
+    258          /* ===================================================================*/
+    259          LDD_TError PitTimeStamp_Disable(LDD_TDeviceData *DeviceDataPtr)
+    260          {
+    261            PitTimeStamp_TDeviceData *DeviceDataPrv = (PitTimeStamp_TDeviceData *)DeviceDataPtr;
+    262          
+    263            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    264               property to the "yes" value in the "Configuration inspector" */
+    265            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    266              return ERR_SPEED;                  /* If yes then error */
+    267            }
+    268            if (DeviceDataPrv->EnUser) {         /* Is the device enabled by user? */
+    269              DeviceDataPrv->EnUser = FALSE;     /* If yes then set the flag "device disabled" */
+    270              HWEnDi(DeviceDataPtr);             /* Enable/disable device according to status flags */
+    271            }
+    272            return ERR_OK;
+    273          }
+    274          
+    275          /*
+    276          ** ===================================================================
+    277          **     Method      :  PitTimeStamp_GetInputFrequencyReal (component TimerUnit_LDD)
+    278          */
+    279          /*!
+    280          **     @brief
+    281          **         Returns current input frequency of the counter in Hz as
+    282          **         float number. This method can be used only if ["Input clock
+    283          **         source"] property is set to "internal".
+    284          **     @param
+    285          **         DeviceDataPtr   - Device data structure
+    286          **                           pointer returned by [Init] method.
+    287          **     @return
+    288          **                         - Input frequency
+    289          */
+    290          /* ===================================================================*/
+    291          LDD_TimerUnit_Tfloat PitTimeStamp_GetInputFrequencyReal(LDD_TDeviceData *DeviceDataPtr)
+    292          {
+    293            (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
+    294            switch (Cpu_GetClockConfiguration()) {
+    295              case CPU_CLOCK_CONFIG_0:
+    296                return PitTimeStamp_CNT_INP_FREQ_R_0_CFG_0;
+    297              case CPU_CLOCK_CONFIG_1:
+    298                return PitTimeStamp_CNT_INP_FREQ_R_0_CFG_1;
+    299              default:
+    300                break;
+    301            }
+    302            return PitTimeStamp_CNT_INP_FREQ_R_0;
+    303          }
+    304          
+    305          /*
+    306          ** ===================================================================
+    307          **     Method      :  PitTimeStamp_GetInputFrequency (component TimerUnit_LDD)
+    308          */
+    309          /*!
+    310          **     @brief
+    311          **         Returns current input frequency of the counter in Hz as
+    312          **         32-bit unsigned integer number. This method can be used only
+    313          **         if ["Input clock source"] property is set to "internal".
+    314          **     @param
+    315          **         DeviceDataPtr   - Device data structure
+    316          **                           pointer returned by [Init] method.
+    317          **     @return
+    318          **                         - Input frequency
+    319          */
+    320          /* ===================================================================*/
+    321          uint32_t PitTimeStamp_GetInputFrequency(LDD_TDeviceData *DeviceDataPtr)
+    322          {
+    323            (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
+    324            switch (Cpu_GetClockConfiguration()) {
+    325              case CPU_CLOCK_CONFIG_0:
+    326                return PitTimeStamp_CNT_INP_FREQ_U_0_CFG_0;
+    327              case CPU_CLOCK_CONFIG_1:
+    328                return PitTimeStamp_CNT_INP_FREQ_U_0_CFG_1;
+    329              default:
+    330                break;
+    331            }
+    332            return PitTimeStamp_CNT_INP_FREQ_U_0;
+    333          }
+    334          
+    335          /*
+    336          ** ===================================================================
+    337          **     Method      :  PitTimeStamp_SetPeriodTicks (component TimerUnit_LDD)
+    338          */
+    339          /*!
+    340          **     @brief
+    341          **         The method sets timer re-initialization period (in timer
+    342          **         ticks). This method is available only if the property
+    343          **         ["Counter restart"] is switched to 'on-match' value.
+    344          **     @param
+    345          **         DeviceDataPtr   - Device data structure
+    346          **                           pointer returned by [Init] method.
+    347          **     @param
+    348          **         Ticks           - Number of counter ticks before counter
+    349          **                           re-initialization. Value 0 means maximal
+    350          **                           period value the same as "free-running
+    351          **                           mode", e.g. counter overflow or underflow
+    352          **                           without any explicit re-initialization.
+    353          **     @return
+    354          **                         - Error code, possible codes:
+    355          **                           ERR_OK - OK
+    356          **                           ERR_PARAM_TICKS - Ticks parameter is out of
+    357          **                           possible range.
+    358          **                           ERR_SPEED - The component does not work in
+    359          **                           the active clock configuration
+    360          */
+    361          /* ===================================================================*/
+    362          LDD_TError PitTimeStamp_SetPeriodTicks(LDD_TDeviceData *DeviceDataPtr, PitTimeStamp_TValueType Ticks)
+    363          {
+    364            PitTimeStamp_TDeviceData *DeviceDataPrv = (PitTimeStamp_TDeviceData *)DeviceDataPtr;
+    365          
+    366            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    367               property to the "yes" value in the "Configuration inspector" */
+    368            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    369              return ERR_SPEED;                  /* If yes then error */
+    370            }
+    371            PIT_PDD_WriteLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, (uint32_t)(Ticks-1));
+    372            return ERR_OK;                       /* OK */
+    373          }
+    374          
+    375          /*
+    376          ** ===================================================================
+    377          **     Method      :  PitTimeStamp_GetPeriodTicks (component TimerUnit_LDD)
+    378          */
+    379          /*!
+    380          **     @brief
+    381          **         Returns the number of counter ticks before re-initialization.
+    382          **         See also method [SetPeriodTicks]. This method is available
+    383          **         only if the property ["Counter restart"] is switched to
+    384          **         'on-match' value.
+    385          **     @param
+    386          **         DeviceDataPtr   - Device data structure
+    387          **                           pointer returned by [Init] method.
+    388          **     @param
+    389          **         TicksPtr        - Pointer to return value of the
+    390          **                           number of counter ticks before
+    391          **                           re-initialization
+    392          **     @return
+    393          **                         - Error code, possible codes:
+    394          **                           ERR_OK - OK
+    395          **                           ERR_SPEED - The component does not work in
+    396          **                           the active clock configuration
+    397          */
+    398          /* ===================================================================*/
+    399          LDD_TError PitTimeStamp_GetPeriodTicks(LDD_TDeviceData *DeviceDataPtr, PitTimeStamp_TValueType *TicksPtr)
+    400          {
+    401            PitTimeStamp_TDeviceData *DeviceDataPrv = (PitTimeStamp_TDeviceData *)DeviceDataPtr;
+    402          
+    403            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    404               property to the "yes" value in the "Configuration inspector" */
+    405            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    406              return ERR_SPEED;                  /* If yes then error */
+    407            }
+    408            *TicksPtr = (PitTimeStamp_TValueType)(PIT_PDD_ReadLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_0) + 1U);
+    409            return ERR_OK;                       /* OK */
+    410          }
+    411          
+    412          /*
+    413          ** ===================================================================
+    414          **     Method      :  PitTimeStamp_ResetCounter (component TimerUnit_LDD)
+    415          */
+    416          /*!
+    417          **     @brief
+    418          **         Resets counter. If counter is counting up then it is set to
+    419          **         zero. If counter is counting down then counter is updated to
+    420          **         the reload value.
+    421          **         The method is not available if HW doesn't allow resetting of
+    422          **         the counter.
+    423          **     @param
+    424          **         DeviceDataPtr   - Device data structure
+    425          **                           pointer returned by [Init] method.
+    426          **     @return
+    427          **                         - Error code, possible codes:
+    428          **                           ERR_OK - OK
+    429          **                           ERR_SPEED - The component does not work in
+    430          **                           the active clock configuration
+    431          */
+    432          /* ===================================================================*/
+    433          LDD_TError PitTimeStamp_ResetCounter(LDD_TDeviceData *DeviceDataPtr)
+    434          {
+    435            PitTimeStamp_TDeviceData *DeviceDataPrv = (PitTimeStamp_TDeviceData *)DeviceDataPtr;
+    436          
+    437            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    438               property to the "yes" value in the "Configuration inspector" */
+    439            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    440              return ERR_SPEED;                  /* If yes then error */
+    441            }
+    442            /* {MQXLite RTOS Adapter} Critical section begin (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    443            _int_disable();
+    444            if ((PIT_PDD_GetEnableDeviceStatus(PIT_BASE_PTR, PIT_PDD_CHANNEL_0)) != 0U) {
+    445              PIT_PDD_EnableDevice(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, PDD_DISABLE);
+    446              PIT_PDD_EnableDevice(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, PDD_ENABLE);
+    447            }
+    448            /* {MQXLite RTOS Adapter} Critical section ends (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    449            _int_enable();
+    450            return ERR_OK;                       /* OK */
+    451          }
+    452          
+    453          /*
+    454          ** ===================================================================
+    455          **     Method      :  PitTimeStamp_SetClockConfiguration (component TimerUnit_LDD)
+    456          **
+    457          **     Description :
+    458          **         This method changes the clock configuration. During a clock
+    459          **         configuration change the component changes it's setting
+    460          **         immediately upon a request.
+    461          **         This method is internal. It is used by Processor Expert only.
+    462          ** ===================================================================
+    463          */
+    464          void PitTimeStamp_SetClockConfiguration(LDD_TDeviceData *DeviceDataPtr, LDD_TClockConfiguration ClockConfiguration)
+    465          {
+    466            PitTimeStamp_TDeviceData *DeviceDataPrv = (PitTimeStamp_TDeviceData *)DeviceDataPtr;
+    467            LDD_TimerUnit_Tfloat NewConst, OldConst;
+    468            uint32_t NewRegVal, OldRegVal;
+    469          
+    470            PIT_PDD_EnableDevice(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, PDD_DISABLE);
+    471            switch (ClockConfiguration) {
+    472              case CPU_CLOCK_CONFIG_0:
+    473                DeviceDataPrv->EnMode = TRUE;    /* Set the flag "device enabled" in the actual clock configuration */
+    474                NewConst = PitTimeStamp_CNT_INP_FREQ_R_0_CFG_0; /* Load constant for clock configuration 0 */
+    475                break;
+    476              case CPU_CLOCK_CONFIG_1:
+    477                DeviceDataPrv->EnMode = TRUE;    /* Set the flag "device enabled" in the actual clock configuration */
+    478                NewConst = PitTimeStamp_CNT_INP_FREQ_R_0_CFG_1; /* Load constant for clock configuration 1 */
+    479                break;
+    480              default:
+    481                DeviceDataPrv->EnMode = FALSE;   /* Set the flag "device disabled" in the actual clock configuration */
+    482                break;
+    483            }
+    484            if (DeviceDataPrv->EnMode) {
+    485              switch (DeviceDataPrv->LastClock) { /* Get last active (enabled) clock configuration */
+    486                case CPU_CLOCK_CONFIG_0:
+    487                  OldConst = PitTimeStamp_CNT_INP_FREQ_R_0_CFG_0; /* Load constant for clock configuration 0 */
+    488                  break;
+    489                case CPU_CLOCK_CONFIG_1:
+    490                  OldConst = PitTimeStamp_CNT_INP_FREQ_R_0_CFG_1; /* Load constant for clock configuration 1 */
+    491                  break;
+    492                default:
+    493                  OldConst = NewConst;           /* First initialization, do nothing in code below */
+    494                  break;
+    495              }
+    496              if (OldConst != NewConst) {        /* Is necessary to re-calculate period/offset value in the registers? */
+    497                OldRegVal = (uint32_t)(PIT_PDD_ReadLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_0));
+    498                NewRegVal = (uint32_t)(((((LDD_TimerUnit_Tfloat)(OldRegVal) + 1U)) * (NewConst / OldConst)) - 1U); /* Calculation of new period for new clock configuration */
+    499                if (NewRegVal > 0xFFFFFFFFUL) {  /* Is the result greater than 4294967295 ? */
+    500                  PIT_PDD_WriteLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, 0xFFFFFFFFUL); /* If yes then use maximal possible value */
+    501                }
+    502                else {
+    503                  PIT_PDD_WriteLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, NewRegVal);
+    504                }
+    505              }
+    506              DeviceDataPrv->LastClock = ClockConfiguration; /* Store new ClockConfiguration as actual value */
+    507            }
+    508            HWEnDi(DeviceDataPtr);               /* Enable/disable device according to status flags */
+    509          }
+    510          
+    511          /*
+    512          ** ===================================================================
+    513          **     Method      :  PitTimeStamp_Interrupt (component TimerUnit_LDD)
+    514          **
+    515          **     Description :
+    516          **         The method services the interrupt of the selected peripheral(s)
+    517          **         and eventually invokes event(s) of the component.
+    518          **         This method is internal. It is used by Processor Expert only.
+    519          ** ===================================================================
+    520          */
+    521          void PitTimeStamp_Interrupt(LDD_RTOS_TISRParameter _isrParameter)
+    522          {
+    523            /* {MQXLite RTOS Adapter} ISR parameter is passed as parameter from RTOS interrupt dispatcher */
+    524            PitTimeStamp_TDeviceDataPtr DeviceDataPrv = (PitTimeStamp_TDeviceDataPtr)_isrParameter;
+    525          
+    526            PIT_PDD_ClearInterruptFlag(PIT_BASE_PTR, PIT_PDD_CHANNEL_0); /* Clear interrupt flag */
+    527            PitTimeStamp_OnCounterRestart(DeviceDataPrv->UserDataPtr); /* Invoke OnCounterRestart event */
+    528          }
+    529          
+    530          /*
+    531          ** ===================================================================
+    532          **     Method      :  HWEnDi (component TimerUnit_LDD)
+    533          **
+    534          **     Description :
+    535          **         Enables or disables the peripheral(s) associated with the
+    536          **         component. The method is called automatically as a part of the
+    537          **         Enable and Disable methods and several internal methods.
+    538          **         This method is internal. It is used by Processor Expert only.
+    539          ** ===================================================================
+    540          */
+    541          static void HWEnDi(LDD_TDeviceData *DeviceDataPtr)
+    542          {
+    543            PitTimeStamp_TDeviceDataPtr DeviceDataPrv = (PitTimeStamp_TDeviceDataPtr)DeviceDataPtr;
+    544          
+    545            /* {MQXLite RTOS Adapter} Critical section begin (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    546            _int_disable();
+    547            if (DeviceDataPrv->EnMode && DeviceDataPrv->EnUser) { /* Enable device? */
+    548              PIT_PDD_EnableDevice(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, PDD_ENABLE);
+    549            }
+    550            else {
+    551              PIT_PDD_EnableDevice(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, PDD_DISABLE);
+    552            }
+    553            /* {MQXLite RTOS Adapter} Critical section ends (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    554            _int_enable();
+    555          }
+    556          /* END PitTimeStamp. */
+    557          
+    558          #ifdef __cplusplus
+    559          }  /* extern "C" */
+    560          #endif
+    561          
+    562          /*!
+    563          ** @}
+    564          */
+    565          /*
+    566          ** ###################################################################
+    567          **
+    568          **     This file was created by Processor Expert 10.3 [05.09]
+    569          **     for the Freescale Kinetis series of microcontrollers.
+    570          **
+    571          ** ###################################################################
+    572          */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   HWEnDi
+        16   -> _int_disable
+        16   -> _int_enable
+      16   PitTimeStamp_Deinit
+        16   -> _int_install_isr
+      16   PitTimeStamp_Disable
+        16   -> HWEnDi
+      16   PitTimeStamp_Enable
+        16   -> HWEnDi
+       8   PitTimeStamp_GetInputFrequency
+         8   -> Cpu_GetClockConfiguration
+       8   PitTimeStamp_GetInputFrequencyReal
+         8   -> Cpu_GetClockConfiguration
+       4   PitTimeStamp_GetPeriodTicks
+      24   PitTimeStamp_Init
+        24   -> Cpu_GetClockConfiguration
+        24   -> PitTimeStamp_SetClockConfiguration
+        24   -> _int_get_isr_data
+        24   -> _int_install_isr
+      16   PitTimeStamp_Interrupt
+        16   -> PitTimeStamp_OnCounterRestart
+      16   PitTimeStamp_ResetCounter
+        16   -> _int_disable
+        16   -> _int_enable
+      40   PitTimeStamp_SetClockConfiguration
+        40   -> HWEnDi
+        40   -> __aeabi_f2uiz
+        40   -> __aeabi_fadd
+        40   -> __aeabi_fdiv
+        40   -> __aeabi_fmul
+        40   -> __aeabi_ui2f
+        40 __aeabi_cfcmpeq
+       8   PitTimeStamp_SetPeriodTicks
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable9
+       4  ??DataTable9_1
+       4  ??DataTable9_10
+       4  ??DataTable9_11
+       4  ??DataTable9_12
+       4  ??DataTable9_13
+       4  ??DataTable9_14
+       4  ??DataTable9_2
+       4  ??DataTable9_3
+       4  ??DataTable9_4
+       4  ??DataTable9_5
+       4  ??DataTable9_6
+       4  ??DataTable9_7
+       4  ??DataTable9_8
+       4  ??DataTable9_9
+      16  DeviceDataPrv__DEFAULT_RTOS_ALLOC
+      50  HWEnDi
+      44  PitTimeStamp_Deinit
+      36  PitTimeStamp_Disable
+      36  PitTimeStamp_Enable
+      34  PitTimeStamp_GetInputFrequency
+      30  PitTimeStamp_GetInputFrequencyReal
+      28  PitTimeStamp_GetPeriodTicks
+     118  PitTimeStamp_Init
+      24  PitTimeStamp_Interrupt
+      54  PitTimeStamp_ResetCounter
+     170  PitTimeStamp_SetClockConfiguration
+      26  PitTimeStamp_SetPeriodTicks
+
+ 
+  16 bytes in section .bss
+ 710 bytes in section .text
+ 
+ 710 bytes of CODE memory
+  16 bytes of DATA memory
+
+Errors: none
+Warnings: 1

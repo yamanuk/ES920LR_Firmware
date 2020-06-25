@@ -1,0 +1,566 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:00
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode                         
+#    Endian                        =  little
+#    Source file                   =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\mqx_utils.c
+#    Command line                  =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5A76.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\mqx_utils.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale                        =  C
+#    List file                     =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\mqx_utils.lst
+#    Object file                   =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\mqx_utils.o
+#    Runtime model:                   
+#      __SystemLibrary             =  DLib
+#      __dlib_jmp_buf_num_elements =  8
+#      __dlib_version              =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\mqx_utils.c
+      1          /*HEADER**********************************************************************
+      2          *
+      3          * Copyright (c) 2008-2010 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7          * All Rights Reserved
+      8          *
+      9          * Copyright (c) 1989-2008 ARC International;
+     10          * All Rights Reserved
+     11          *
+     12          ******************************************************************************
+     13          *
+     14          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24          * THE POSSIBILITY OF SUCH DAMAGE.
+     25          *
+     26          ******************************************************************************
+     27          *
+     28          * $FileName: mqx.c$
+     29          * $Version : 3.8.31.3$
+     30          * $Date    : Feb-24-2012$
+     31          *
+     32          * Comments:
+     33          *
+     34          *   This file contains the source for the main MQX function _mqx().
+     35          *
+     36          *END*************************************************************************/
+     37          
+     38          #ifndef __NO_SETJMP
+     39          #include <setjmp.h>
+     40          #endif
+     41          
+     42          #include "mqx_inc.h"
+     43          
+     44          /*!
+     45           * \brief Gets a pointer to kernel data.
+     46           *
+     47           * The address of kernel data corresponds to START_OF_KERNEL_MEMORY in the MQX
+     48           * initialization structure that the application used to start MQX on the processor.
+     49           *
+     50           * \return Pointer to kernel data.
+     51           *
+     52           * \see MQX_INITIALIZATION_STRUCT
+     53           */
+     54          pointer _mqx_get_kernel_data
+     55          (
+     56              void
+     57          )
+     58          { /* Body */
+     59              KERNEL_DATA_STRUCT_PTR kernel_data;
+     60          
+     61              _GET_KERNEL_DATA(kernel_data);
+     62          
+     63              return (pointer) kernel_data;
+     64          
+     65          } /* Endbody */
+     66          
+     67          /*!
+     68           * \brief Indicates that an error occurred that is so severe that MQX or the
+     69           * application can no longer function.
+     70           *
+     71           * The function logs an error in kernel log (if it has been created and configured
+     72           * to log errors) and calls _mqx_exit().
+     73           * \n MQX calls _mqx_fatal_error() if it detects an unhandled interrupt while it
+     74           * is in _int_exception_isr().
+     75           * \n If an application calls _mqx_fatal_error() when it detects a serious error,
+     76           * you can use this to help you debug by setting a breakpoint in the function.
+     77           *
+     78           * \param[in] error Error code.
+     79           *
+     80           * \warning Terminates the application by calling _mqx_exit().
+     81           *
+     82           * \see _mqx_exit
+     83           * \see _int_exception_isr
+     84           */
+     85          void _mqx_fatal_error
+     86          (
+     87              _mqx_uint error
+     88          )
+     89          { /* Body */
+     90              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+     91          
+     92              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+     93              _KLOGE2(KLOG_mqx_fatal_error, error);
+     94              _mqx_exit(error);
+     95              _KLOGX1( KLOG_mqx_fatal_error);
+     96          
+     97          } /* Endbody */
+     98          
+     99          #if MQX_KD_HAS_COUNTER
+    100          /*!
+    101           * \brief Gets a unique number.
+    102           *
+    103           * This function increments the counter and then returns value of the counter.
+    104           * \n This provides a unique number for whoever requires it.
+    105           *
+    106           * \note The unique number will never be 0.
+    107           *
+    108           * \return 16-bit number for 16-bit processors or a 32-bit number for 32-bit
+    109           * processors (unique for the processor and never 0).
+    110           */
+    111          _mqx_uint _mqx_get_counter
+    112          (
+    113              void
+    114          )
+    115          { /* Body */
+    116              register KERNEL_DATA_STRUCT_PTR kernel_data;
+    117              _mqx_uint return_value;
+    118          
+    119              _GET_KERNEL_DATA(kernel_data);
+    120              _INT_DISABLE();
+    121          
+    122              /*
+    123               * Increment counter, and ensure it is not zero.
+    124               * If it is zero, set it to one.
+    125               */
+    126              if ( ++kernel_data->COUNTER == 0 ) {
+    127                  kernel_data->COUNTER = 1;
+    128              } /* Endif */
+    129              return_value = kernel_data->COUNTER;
+    130              _INT_ENABLE();
+    131              return (return_value);
+    132          
+    133          } /* Endbody */
+    134          #endif /* MQX_KD_HAS_COUNTER */
+    135          
+    136          /*!
+    137           * \brief Gets the CPU type.
+    138           *
+    139           * CPU types begin with PSP_CPU_TYPE_ and are defined in
+    140           * "source\psp\<cpu_family>\<cpu_family.h>".
+    141           *
+    142           * \return CPU_TYPE field of kernel data.
+    143           *
+    144           * \see _mqx_set_cpu_type
+    145           */
+    146          _mqx_uint _mqx_get_cpu_type
+    147          (
+    148              void
+    149          )
+    150          { /* Body */
+    151              KERNEL_DATA_STRUCT_PTR kernel_data;
+    152          
+    153              _GET_KERNEL_DATA(kernel_data);
+    154              return kernel_data->CPU_TYPE;
+    155          } /* Endbody */
+    156          
+    157          /*!
+    158           * \brief Sets the CPU type.
+    159           *
+    160           * The function sets CPU_TYPE in kernel data. The MQX Host Tools family of products
+    161           * uses CPU type. CPU types begin with PSP_CPU_TYPE_ and are defined in
+    162           * source\psp\cpu_family\cpu_family.h.
+    163           *
+    164           * \param[in] cpu_type The value representing the kernel CPU type.
+    165           *
+    166           * \warning Does not verify that cpu_type is valid.
+    167           *
+    168           * \see _mqx_get_cpu_type
+    169           */
+    170          void _mqx_set_cpu_type
+    171          (
+    172              _mqx_uint cpu_type
+    173          )
+    174          { /* Body */
+    175              KERNEL_DATA_STRUCT_PTR kernel_data;
+    176          
+    177              _GET_KERNEL_DATA(kernel_data);
+    178              kernel_data->CPU_TYPE = cpu_type;
+    179          
+    180          } /* Endbody */
+    181          
+    182          /*!
+    183           * \brief Gets a pointer to the MQX initialization structure for this processor.
+    184           *
+    185           * \return Pointer to the MQX initialization structure in kernel data.
+    186           *
+    187           * \see _mqxlite_init
+    188           * \see MQX_INITIALIZATION_STRUCT
+    189           */
+    190          MQX_INITIALIZATION_STRUCT_PTR _mqx_get_initialization
+    191          (
+    192              void
+    193          )
+    194          { /* Body */
+    195              KERNEL_DATA_STRUCT_PTR kernel_data;
+    196          
+    197              _GET_KERNEL_DATA(kernel_data);
+    198          
+    199              return ((MQX_INITIALIZATION_STRUCT_PTR) & kernel_data->INIT);
+    200          
+    201          } /* Endbody */
+    202          
+    203          /*!
+    204           * \brief Gets a pointer to the MQX exit handler function called when MQX exits.
+    205           *
+    206           * \return Pointer to the MQX exit handler.
+    207           *
+    208           * \see _mqx_exit
+    209           * \see _mqx_set_exit_handler
+    210           */
+    211          MQX_EXIT_FPTR _mqx_get_exit_handler (void)
+    212          { /* Body */
+    213          #if MQX_EXIT_ENABLED
+    214              KERNEL_DATA_STRUCT_PTR kernel_data;
+    215          
+    216              _GET_KERNEL_DATA(kernel_data);
+    217              return (kernel_data->EXIT_HANDLER);
+    218          
+    219          #else
+    220              return NULL;
+    221          #endif /* MQX_EXIT_ENABLED */
+    222          } /* Endbody */
+    223          
+    224          /*!
+    225           * \brief Sets a pointer to the MQX exit handler function called when MQX exits.
+    226           *
+    227           * \param[in] entry Pointer to the exit handler.
+    228           *
+    229           * \see _mqx_exit
+    230           * \see _mqx_get_exit_handler
+    231           */
+    232          void _mqx_set_exit_handler
+    233          (
+    234              MQX_EXIT_FPTR entry
+    235          )
+    236          { /* Body */
+    237          #if MQX_EXIT_ENABLED
+    238              KERNEL_DATA_STRUCT_PTR kernel_data;
+    239          
+    240              _GET_KERNEL_DATA(kernel_data);
+    241              _KLOGE2(KLOG_mqx_set_exit_handler, entry);
+    242              kernel_data->EXIT_HANDLER = entry;
+    243              _KLOGX1(KLOG_mqx_set_exit_handler);
+    244          
+    245          #endif /* MQX_EXIT_ENABLED */
+    246          } /* Endbody */
+    247          
+    248          /*!
+    249           * \brief Gets the task ID of the System Task.
+    250           *
+    251           * System resources are owned by System Task.
+    252           *
+    253           * \return TASK_ID Task ID of System Task.
+    254           *
+    255           * \see _mem_transfer
+    256           */
+    257          _task_id _mqx_get_system_task_id
+    258          (
+    259              void
+    260          )
+    261          { /* Body */
+    262              KERNEL_DATA_STRUCT_PTR kernel_data;
+    263          
+    264              _GET_KERNEL_DATA(kernel_data);
+    265              return(kernel_data->SYSTEM_TD.TASK_ID);
+    266          
+    267          } /* Endbody */
+    268          
+    269          /*!
+    270           * \private
+    271           *
+    272           * \brief Initializes the static parts of the kernel data structure.
+    273           *
+    274           * Care has to be taken when calling functions within this file, as the kernel is
+    275           * not running yet. Specifically, functions which rely on _mqx_get_kernel_data
+    276           * can not be called.
+    277           */
+    278          void _mqx_init_kernel_data_internal
+    279          (
+    280              void
+    281          )
+    282          { /* Body */
+    283              KERNEL_DATA_STRUCT_PTR kernel_data;
+    284          
+    285              TASK_TEMPLATE_STRUCT_PTR    task_template_ptr;
+    286              TD_STRUCT_PTR               td_ptr;
+    287              _mqx_uint                   priority_levels;
+    288              _mqx_uint                   i;
+    289          
+    290              _GET_KERNEL_DATA(kernel_data);
+    291          
+    292              /* Store the configuration used when the kernel was compiled */
+    293              kernel_data->CONFIG1 = MQX_CNFG1;
+    294              kernel_data->CONFIG2 = MQX_CNFG2;
+    295          
+    296              /* Store the addressability of the processor. How many bits in a byte. */
+    297              kernel_data->ADDRESSING_CAPABILITY = PSP_MEMORY_ADDRESSING_CAPABILITY;
+    298          
+    299              /* Indicate the endianess of the target */
+    300              kernel_data->ENDIANESS = PSP_ENDIAN;
+    301          
+    302              /* Store PSP memory alignment information */
+    303          
+    304          #if PSP_MEM_STOREBLOCK_ALIGNMENT != 0
+    305              kernel_data->PSP_CFG_MEM_STOREBLOCK_ALIGNMENT = PSP_MEM_STOREBLOCK_ALIGNMENT;
+    306          #endif
+    307          
+    308              kernel_data->PSP_CFG_MEMORY_ALIGNMENT = PSP_MEMORY_ALIGNMENT;
+    309              kernel_data->PSP_CFG_STACK_ALIGNMENT = PSP_STACK_ALIGNMENT;
+    310          
+    311              /* Set IPC id for compatibility */
+    312          #if MQX_USE_IPC
+    313              kernel_data->MY_IPC_ID = BUILD_TASKID(kernel_data->INIT.PROCESSOR_NUMBER, 1);
+    314          #endif
+    315          
+    316              /* Store location of current interrupt vector table */
+    317          #if MQX_EXIT_ENABLED
+    318              kernel_data->USERS_VBR = (_mqx_max_type)_int_get_vector_table();
+    319          #endif
+    320          
+    321          #if MQX_CHECK_ERRORS
+    322              if (kernel_data->INIT.TASK_TEMPLATE_LIST == NULL) {
+    323                  _mqx_exit(MQX_INVALID_POINTER);
+    324              } /* Endif */
+    325          #endif
+    326          
+    327          #if MQX_HAS_TIME_SLICE
+    328              /* Set the default scheduling policy for created tasks */
+    329              kernel_data->SCHED_POLICY = MQX_SCHED_FIFO;
+    330          #endif
+    331          
+    332          #if MQX_KD_HAS_COUNTER
+    333              /* Initialize the kernel counter. */
+    334              kernel_data->COUNTER = 1U;
+    335          #endif
+    336          
+    337              /* Set up the disable and enable priority levels */
+    338              _psp_set_kernel_disable_level();
+    339          
+    340              /*
+    341               * Initialize the system task so that functions which update the
+    342               * task error code can be called.
+    343               * The system task never runs, but it's TD is used for error codes
+    344               * during initialization, and for storage of memory blocks assigned
+    345               * to the system.
+    346               */
+    347              td_ptr = (TD_STRUCT_PTR) & kernel_data->SYSTEM_TD;
+    348              kernel_data->ACTIVE_PTR = td_ptr;
+    349              kernel_data->ACTIVE_SR = kernel_data->DISABLE_SR;
+    350              td_ptr->TASK_SR = kernel_data->DISABLE_SR;
+    351              td_ptr->TASK_ID = BUILD_TASKID(kernel_data->INIT.PROCESSOR_NUMBER, SYSTEM_TASK_NUMBER);
+    352              td_ptr->STATE = BLOCKED;
+    353          
+    354              /* Initialize the light weight semaphores queue */
+    355              _QUEUE_INIT(&kernel_data->LWSEM, 0);
+    356          
+    357          #if MQX_ENABLE_USER_MODE
+    358              _QUEUE_INIT(&kernel_data->USR_LWSEM, 0);
+    359          #endif
+    360          
+    361          #if MQX_HAS_TICK
+    362              /* Set up the timeout queue */
+    363              _QUEUE_INIT(&kernel_data->TIMEOUT_QUEUE, 0);
+    364          #endif
+    365          
+    366              /*
+    367               * Compute the number of MQX priority levels needed. This is done
+    368               * by determining the task that has the lowest priority (highest number)
+    369               */
+    370              priority_levels = 0;
+    371          
+    372              task_template_ptr = kernel_data->INIT.TASK_TEMPLATE_LIST;
+    373          
+    374              for (i = 0; task_template_ptr->TASK_TEMPLATE_INDEX && (i < MQX_MAXIMUM_NUMBER_OF_TASK_TEMPLATES); ++i, ++task_template_ptr) {
+    375                  if (priority_levels < task_template_ptr->TASK_PRIORITY) {
+    376                      priority_levels = task_template_ptr->TASK_PRIORITY;
+    377                  } /* Endif */
+    378              } /* Endfor */
+    379              kernel_data->LOWEST_TASK_PRIORITY = priority_levels;
+    380          
+    381          #if MQX_USE_IDLE_TASK
+    382              /*
+    383               * Initialize the task template for the IDLE Task.
+    384               * NOTE that the idle task runs at 1 level lower than any user task.
+    385               */
+    386              task_template_ptr = (TASK_TEMPLATE_STRUCT_PTR)&kernel_data->IDLE_TASK_TEMPLATE;
+    387              task_template_ptr->TASK_TEMPLATE_INDEX  = IDLE_TASK;
+    388              task_template_ptr->TASK_STACKSIZE       = kernel_data->INIT.IDLE_TASK_STACK_SIZE;
+    389              task_template_ptr->TASK_NAME            = "_mqx_idle_task";
+    390              task_template_ptr->TASK_ADDRESS         = _mqx_idle_task;
+    391              task_template_ptr->TASK_PRIORITY        = priority_levels + 1;
+    392          #endif
+    393          
+    394              /*
+    395               * Initialize the linked list of all TDs in the system.
+    396               * Initially zero. Not including system TD
+    397               */
+    398              _QUEUE_INIT(&kernel_data->TD_LIST, 0);
+    399          
+    400              /* Set the TD counter */
+    401              kernel_data->TASK_NUMBER = 1;
+    402          
+    403          } /* Endbody */
+    404          
+    405          
+    406          /* EOF */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   _mqx_fatal_error
+         8   -> _mqx_exit
+       0   _mqx_get_cpu_type
+       0   _mqx_get_exit_handler
+       0   _mqx_get_initialization
+       0   _mqx_get_kernel_data
+       0   _mqx_get_system_task_id
+      32   _mqx_init_kernel_data_internal
+        32   -> _int_get_vector_table
+        32   -> _mqx_exit
+        32   -> _psp_set_kernel_disable_level
+       0   _mqx_set_cpu_type
+       0   _mqx_set_exit_handler
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable7
+       4  ??DataTable7_1
+       4  ??DataTable7_2
+       4  ??DataTable7_3
+       4  ??DataTable7_4
+       4  ??DataTable7_5
+      16  ?_0
+      12  _mqx_fatal_error
+       8  _mqx_get_cpu_type
+      12  _mqx_get_exit_handler
+      12  _mqx_get_initialization
+       6  _mqx_get_kernel_data
+       8  _mqx_get_system_task_id
+     290  _mqx_init_kernel_data_internal
+      10  _mqx_set_cpu_type
+      12  _mqx_set_exit_handler
+
+ 
+  16 bytes in section .rodata
+ 394 bytes in section .text
+ 
+ 394 bytes of CODE  memory
+  16 bytes of CONST memory
+
+Errors: none
+Warnings: none

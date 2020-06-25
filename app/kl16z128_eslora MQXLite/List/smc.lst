@@ -1,0 +1,708 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:02
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\SMC\Source\smc.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW620F.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\SMC\Source\smc.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\smc.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\smc.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\SMC\Source\smc.c
+      1          /*****************************************************************************
+      2          * smc file.
+      3          *
+      4          * (c) Copyright 2016, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          #include "smc.h"
+     13          
+     14          /***************************************************************/
+     15          /*
+     16           * Configures the ARM system control register for WAIT(sleep)mode
+     17           * and then executes the WFI instruction to enter the mode.
+     18           *
+     19           * Parameters:
+     20           * none
+     21           *
+     22           */
+     23          void sleep (void)
+     24          {
+     25              /* Clear the SLEEPDEEP bit to make sure we go into WAIT (sleep)
+     26               * mode instead of deep sleep. */
+     27              SCB_SCR &= ~SCB_SCR_SLEEPDEEP_MASK;
+     28          
+     29              /* WFI instruction will start entry into WAIT mode */
+     30              asm("WFI");
+     31          }
+     32          
+     33          /***************************************************************/
+     34          /*
+     35           * Configures the ARM system control register for STOP
+     36           * (deepsleep) mode and then executes the WFI instruction
+     37           * to enter the mode.
+     38           *
+     39           * Parameters:
+     40           * none
+     41           *
+     42           */
+     43          void deepsleep (void)
+     44          {
+     45              /* Set the SLEEPDEEP bit to enable deep sleep mode (STOP) */
+     46              SCB_SCR |= SCB_SCR_SLEEPDEEP_MASK;
+     47          
+     48              /* WFI instruction will start entry into STOP mode */
+     49              asm("WFI");
+     50          }
+     51          
+     52          /********************************************************************/
+     53          /* WAIT mode entry routine. Puts the processor into wait mode.
+     54           * In this mode the core clock is disabled (no code executing), but
+     55           * bus clocks are enabled (peripheral modules are operational).
+     56           *
+     57           * Mode transitions:
+     58           * RUN -> WAIT
+     59           * VLPR -> VLPW
+     60           *
+     61           * This function can be used to enter normal wait mode or VLPW
+     62           * mode. If you are executing in normal run mode when calling this
+     63           * function, then you will enter normal wait mode. If you are in VLPR
+     64           * mode when calling this function, then you will enter VLPW mode instead.
+     65           *
+     66           * NOTE: Some modules include a programmable option to disable them in
+     67           * wait mode. If those modules are programmed to disable in wait mode,
+     68           * they will not be able to generate interrupts to wake up the core.
+     69           *
+     70           * WAIT mode is exited using any enabled interrupt or RESET, so no
+     71           * exit_wait routine is needed.
+     72           *
+     73           *
+     74           * Parameters:
+     75           * none
+     76           */
+     77          void enter_wait(void)
+     78          {
+     79              /* Clear the SLEEPDEEP bit to make sure we go into WAIT (sleep) mode instead
+     80               * of deep sleep. */
+     81          	SCB_SCR &= ~SCB_SCR_SLEEPDEEP_MASK;
+     82          
+     83              asm("WFI");
+     84          }
+     85          
+     86          /********************************************************************/
+     87          /* STOP mode entry routine. Puts the processor into normal stop mode.
+     88           * In this mode core, bus and peripheral clocks are disabled.
+     89           *
+     90           * Mode transitions:
+     91           * RUN -> STOP
+     92           *
+     93           * This function can be used to enter normal stop mode.
+     94           * If you are executing in normal run mode when calling this
+     95           * function and AVLP = 0, then you will enter normal stop mode.
+     96           * If AVLP = 1 with previous write to PMPROT
+     97           * then you will enter VLPS mode instead.
+     98           *
+     99           * STOP mode is exited using any enabled interrupt or RESET, so no
+    100           * exit_stop routine is needed.
+    101           *
+    102           * Parameters:
+    103           * Partial Stop Option:
+    104           *  0x00 = STOP - Normal Stop Mode
+    105           *  0x40 = PSTOP1 - Partial Stop with both system and bus clocks disabled
+    106           *  0x80 = PSTOP2 - Partial Stop with system clock disabled and bus clock enabled
+    107           *  0xC0 = Reserved
+    108           */
+    109          void enter_stop(unsigned char partial_stop_opt)
+    110          {
+    111              volatile unsigned int dummyread;
+    112          
+    113              /* The PMPROT register may have already been written by init code
+    114               If so then this next write is not done since
+    115               PMPROT is write once after RESET
+    116               this write-once bit allows the MCU to enter the
+    117               normal STOP mode.
+    118               If AVLP is already a 1, VLPS mode is entered instead of normal STOP*/
+    119          
+    120              /* Set the STOPM field to 0b000 for normal STOP mode */
+    121              SMC_PMCTRL &= ~SMC_PMCTRL_STOPM_MASK;
+    122              SMC_PMCTRL |=  SMC_PMCTRL_STOPM(0);
+    123              SMC_STOPCTRL &= ~SMC_STOPCTRL_PSTOPO_MASK;
+    124              SMC_STOPCTRL |= partial_stop_opt;
+    125              /*wait for write to complete to SMC before stopping core */
+    126              dummyread = SMC_PMCTRL;
+    127              dummyread = dummyread + 1;
+    128          
+    129              /* Set the SLEEPDEEP bit to enable deep sleep mode (STOP) */
+    130              SCB_SCR |= SCB_SCR_SLEEPDEEP_MASK;
+    131          
+    132              asm("WFI");
+    133          }
+    134          
+    135          /****************************************************************/
+    136          /* VLPR mode entry routine.Puts the processor into very low power
+    137           * run mode. In this mode all clocks are enabled, but the core clock limited.
+    138           * The flash clock is limited to 1MHz or less.
+    139           *
+    140           * Mode transitions:
+    141           * RUN -> VLPR
+    142           *
+    143           * exit_vlpr() function can be used
+    144           * to switch from VLPR back to RUN.
+    145           *
+    146           * while in VLPR,VLPW or VLPS the exit to VLPR is not possible
+    147           *
+    148           *
+    149           * Parameters:
+    150           * Return value : PMSTAT value or error code
+    151           *                PMSTAT = return_value = PMSTAT
+    152           *                         000_0001 Current power mode is RUN
+    153           *                         000_0100 Current power mode is VLPR
+    154           *                ERROR Code =  0x14 - already in VLPR mode
+    155           *                           =  0x24 - REGONS never clear indicating stop regulation
+    156           */
+    157          int enter_vlpr(void)
+    158          {
+    159              int i;
+    160              unsigned int return_value = 0;
+    161          
+    162              if ((SMC_PMSTAT & SMC_PMSTAT_PMSTAT_MASK)== 4)
+    163              {
+    164                  return_value = 0x14;
+    165              }
+    166          
+    167              /* The PMPROT register may have already been written by init code
+    168               If so then this next write is not done.
+    169               PMPROT is write once after RESET
+    170               this write-once bit allows the MCU to enter the
+    171               very low power modes: VLPR, VLPW, and VLPS   */
+    172          
+    173              /* Set the (for MC1)LPLLSM or (for MC2)STOPM field
+    174               to 0b010 for VLPS mode -
+    175               and RUNM bits to 0b010 for VLPR mode  */
+    176              SMC_PMCTRL &= ~SMC_PMCTRL_RUNM_MASK;
+    177              SMC_PMCTRL  |= SMC_PMCTRL_RUNM(0x2);
+    178          
+    179              /* Wait for VLPS regulator mode to be confirmed */
+    180              for (i = 0 ; i < 10000 ; i++)
+    181              {
+    182                  /* check that the value of REGONS bit is not 0
+    183                     once it is a zero we can stop checking */
+    184                  if ((PMC_REGSC & PMC_REGSC_REGONS_MASK) ==0x04)
+    185                  {
+    186                      /* 0 Regulator is in stop regulation or in transition
+    187                         to/from it 1 MCU is in Run regulation mode */
+    188                  }
+    189                  else  break;
+    190              }
+    191          
+    192              if ((PMC_REGSC & PMC_REGSC_REGONS_MASK) ==0x04)
+    193              {
+    194                  return_value = 0x24;
+    195              }
+    196          
+    197              /* SMC_PMSTAT register only exist in Mode Controller 2 MCU versions */
+    198              if ((SMC_PMSTAT & SMC_PMSTAT_PMSTAT_MASK) == 4)
+    199              {
+    200                  return_value = SMC_PMSTAT;
+    201              }
+    202          
+    203              return (return_value);
+    204          }
+    205          
+    206          /********************************************************************/
+    207          /* VLPR mode exit routine. Puts the processor into normal run mode
+    208           * from VLPR mode. You can transition from VLPR to normal run using
+    209           * this function.
+    210           *
+    211           * Mode transitions:
+    212           * VLPR -> RUN
+    213           *
+    214           * Parameters:
+    215           * none
+    216           */
+    217           /********************************************************************/
+    218          
+    219          void exit_vlpr(void)
+    220          {
+    221              int i;
+    222          
+    223              /* check to make sure in VLPR before exiting    */
+    224              if  ((SMC_PMSTAT & SMC_PMSTAT_PMSTAT_MASK)== 4)
+    225              {
+    226                  /* Clear RUNM */
+    227                  SMC_PMCTRL &= ~SMC_PMCTRL_RUNM_MASK;
+    228          
+    229                  /* Wait for normal RUN regulation mode to be confirmed */
+    230                  // 1 PMSTAT MCU is in RUN  mode
+    231                  // 4 PMSTAT MCU is in VLPR mode
+    232                  for (i=0;i<0xff;i++)
+    233                  {
+    234                      if ((SMC_PMSTAT & SMC_PMSTAT_PMSTAT_MASK)== 1)
+    235                          if ((PMC_REGSC & PMC_REGSC_REGONS_MASK) == 1)
+    236              	            break;
+    237                  }
+    238              }  //if in VLPR mode
+    239              // else if not in VLPR ignore call
+    240          }
+    241          
+    242          /***************************************************************/
+    243          /* VLPS mode entry routine. Puts the processor into VLPS mode
+    244           * directly from run or VLPR modes.
+    245           *
+    246           * Mode transitions:
+    247           * RUN  -> VLPS
+    248           * VLPR -> VLPS
+    249           *
+    250           * Note, when VLPS is entered directly from RUN or VLPR mode,
+    251           * exit to VLPR is disabled by hardware and the system will
+    252           * always exit back to RUN.
+    253           *
+    254           * Parameters:
+    255           * none
+    256           */
+    257           /****************************************************************/
+    258          
+    259          void enter_vlps(void)
+    260          {
+    261              volatile unsigned int dummyread;
+    262          
+    263              /* The PMPROT register may have already been written by init code
+    264               If so then this next write is not done since
+    265               PMPROT is write once after RESET
+    266               allows the MCU to enter the VLPR, VLPW, and VLPS modes.
+    267               If AVLP is already writen to 0
+    268               Stop is entered instead of VLPS*/
+    269          
+    270              /* Set the STOPM field to 0b010 for VLPS mode */
+    271              SMC_PMCTRL &= ~SMC_PMCTRL_STOPM_MASK;
+    272              SMC_PMCTRL |=  SMC_PMCTRL_STOPM(0x2);
+    273              /*wait for write to complete to SMC before stopping core */
+    274              dummyread = SMC_PMCTRL;
+    275              dummyread = dummyread + 1;
+    276              /* Now execute the stop instruction to go into VLPS */
+    277              /* Set the SLEEPDEEP bit to enable deep sleep mode (STOP) */
+    278              SCB_SCR |= SCB_SCR_SLEEPDEEP_MASK;
+    279          
+    280              asm("WFI");
+    281          }
+    282          
+    283          /****************************************************************/
+    284          /* LLS mode entry routine. Puts the processor into LLS mode from
+    285           * normal run mode or VLPR.
+    286           *
+    287           * Mode transitions:
+    288           * RUN -> LLS
+    289           * VLPR -> LLS
+    290           *
+    291           * NOTE: LLS mode will always exit to RUN mode even if you were
+    292           * in VLPR mode before entering LLS.
+    293           *
+    294           * Wakeup from LLS mode is controlled by the LLWU module. Most
+    295           * modules cannot issue a wakeup interrupt in LLS mode, so make
+    296           * sure to setup the desired wakeup sources in the LLWU before
+    297           * calling this function.
+    298           *
+    299           * Parameters:
+    300           * none
+    301           */
+    302           /********************************************************************/
+    303          
+    304          void enter_lls(void)
+    305          {
+    306              volatile unsigned int dummyread;
+    307          
+    308              /* Set the STOPM field to 0b011 for LLS mode  */
+    309              SMC_PMCTRL &= ~SMC_PMCTRL_STOPM_MASK;
+    310              SMC_PMCTRL |=  SMC_PMCTRL_STOPM(0x3);
+    311              /*wait for write to complete to SMC before stopping core */
+    312              dummyread = SMC_PMCTRL;
+    313              dummyread = dummyread + 1;
+    314              /* Now execute the stop instruction to go into LLS */
+    315              /* Set the SLEEPDEEP bit to enable deep sleep mode (STOP) */
+    316              SCB_SCR |= SCB_SCR_SLEEPDEEP_MASK;
+    317          
+    318              asm("WFI");
+    319          }
+    320          
+    321          /***************************************************************/
+    322          /* VLLS3 mode entry routine. Puts the processor into
+    323           * VLLS3 mode from normal run mode or VLPR.
+    324           *
+    325           * Mode transitions:
+    326           * RUN -> VLLS3
+    327           * VLPR -> VLLS3
+    328           *
+    329           * NOTE: VLLSx modes will always exit to RUN mode even if you were
+    330           * in VLPR mode before entering VLLSx.
+    331           *
+    332           * Wakeup from VLLSx mode is controlled by the LLWU module. Most
+    333           * modules cannot issue a wakeup interrupt in VLLSx mode, so make
+    334           * sure to setup the desired wakeup sources in the LLWU before
+    335           * calling this function.
+    336           *
+    337           * Parameters:
+    338           * none
+    339           */
+    340           /********************************************************************/
+    341          
+    342          void enter_vlls3(void)
+    343          {
+    344              volatile unsigned int dummyread;
+    345          
+    346              /* Set the STOPM field to 0b100 for VLLS3 mode */
+    347              SMC_PMCTRL &= ~SMC_PMCTRL_STOPM_MASK;
+    348              SMC_PMCTRL |=  SMC_PMCTRL_STOPM(0x4);
+    349              /* set VLLSM = 0b11 */
+    350              SMC_STOPCTRL =  SMC_STOPCTRL_VLLSM(3);
+    351              /*wait for write to complete to SMC before stopping core */
+    352              dummyread = SMC_STOPCTRL;
+    353              dummyread = dummyread + 1;
+    354              /* Now execute the stop instruction to go into VLLS3 */
+    355              /* Set the SLEEPDEEP bit to enable deep sleep mode (STOP) */
+    356              SCB_SCR |= SCB_SCR_SLEEPDEEP_MASK;
+    357          
+    358              asm("WFI");
+    359          }
+    360          
+    361          /***************************************************************/
+    362          /* VLLS2 mode entry routine. Puts the processor into
+    363           * VLLS2 mode from normal run mode or VLPR.
+    364           *
+    365           * Mode transitions:
+    366           * RUN -> VLLS2
+    367           * VLPR -> VLLS2
+    368           *
+    369           * NOTE: VLLSx modes will always exit to RUN mode even
+    370           *       if you werein VLPR mode before entering VLLSx.
+    371           *
+    372           * Wakeup from VLLSx mode is controlled by the LLWU module. Most
+    373           * modules cannot issue a wakeup interrupt in VLLSx mode, so make
+    374           * sure to setup the desired wakeup sources in the LLWU before
+    375           * calling this function.
+    376           *
+    377           * Parameters:
+    378           * none
+    379           */
+    380           /********************************************************************/
+    381          
+    382          void enter_vlls2(void)
+    383          {
+    384              volatile unsigned int dummyread;
+    385          
+    386              /* Set the STOPM field to 0b100 for VLLS2 mode */
+    387              SMC_PMCTRL &= ~SMC_PMCTRL_STOPM_MASK;
+    388              SMC_PMCTRL |=  SMC_PMCTRL_STOPM(0x4);
+    389              /* set VLLSM = 0b10 */
+    390              SMC_STOPCTRL =  SMC_STOPCTRL_VLLSM(2);
+    391              /*wait for write to complete to SMC before stopping core */
+    392              dummyread = SMC_STOPCTRL;
+    393              dummyread = dummyread + 1;
+    394              /* Now execute the stop instruction to go into VLLS2 */
+    395              /* Set the SLEEPDEEP bit to enable deep sleep mode (STOP) */
+    396              SCB_SCR |= SCB_SCR_SLEEPDEEP_MASK;
+    397          
+    398              asm("WFI");
+    399          }
+    400          
+    401          /***************************************************************/
+    402          /* VLLS1 mode entry routine. Puts the processor into
+    403           * VLLS1 mode from normal run mode or VLPR.
+    404           *
+    405           * Mode transitions:
+    406           * RUN -> VLLS1
+    407           * VLPR -> VLLS1
+    408           *
+    409           * NOTE: VLLSx modes will always exit to RUN mode even if you were
+    410           * in VLPR mode before entering VLLSx.
+    411           *
+    412           * Wakeup from VLLSx mode is controlled by the LLWU module. Most
+    413           * modules cannot issue a wakeup interrupt in VLLSx mode, so make
+    414           * sure to setup the desired wakeup sources in the LLWU before
+    415           * calling this function.
+    416           *
+    417           * Parameters:
+    418           * none
+    419           */
+    420           /********************************************************************/
+    421          
+    422          void enter_vlls1(void)
+    423          {
+    424              volatile unsigned int dummyread;
+    425          
+    426              /* Set the STOPM field to 0b100 for VLLS1 mode */
+    427              SMC_PMCTRL &= ~SMC_PMCTRL_STOPM_MASK;
+    428              SMC_PMCTRL |=  SMC_PMCTRL_STOPM(0x4);
+    429              /* set VLLSM = 0b01 */
+    430              SMC_STOPCTRL =  SMC_STOPCTRL_VLLSM(1);
+    431              /*wait for write to complete to SMC before stopping core */
+    432              dummyread = SMC_STOPCTRL;
+    433              dummyread = dummyread + 1;
+    434              /* Now execute the stop instruction to go into VLLS1 */
+    435              /* Set the SLEEPDEEP bit to enable deep sleep mode (STOP) */
+    436              SCB_SCR |= SCB_SCR_SLEEPDEEP_MASK;
+    437          
+    438              asm("WFI");
+    439          }
+    440          
+    441          /********************************************************************/
+    442          /* VLLS0 mode entry routine. Puts the processor into VLLS0 mode from
+    443           * normal run mode or VLPR.
+    444           *
+    445           * Mode transitions:
+    446           * RUN -> VLLS0
+    447           * VLPR -> VLLS0
+    448           *
+    449           * NOTE: VLLSx modes will always exit to RUN mode even if you were
+    450           * in VLPR mode before entering VLLSx.
+    451           *
+    452           * Wakeup from VLLSx mode is controlled by the LLWU module. Most
+    453           * modules cannot issue a wakeup interrupt in VLLSx mode, so make
+    454           * sure to setup the desired wakeup sources in the LLWU before
+    455           * calling this function.
+    456           *
+    457           * Parameters:
+    458           * PORPO_value - 0 POR detect circuit is enabled in VLLS0
+    459           *               1 POR detect circuit is disabled in VLLS0
+    460           */
+    461           /***************************************************************/
+    462          
+    463          void enter_vlls0(unsigned char PORPO_value )
+    464          {
+    465              volatile unsigned int dummyread;
+    466              int i;
+    467          
+    468              if ((SMC_PMSTAT & SMC_PMSTAT_PMSTAT_MASK)== 4)
+    469              {
+    470                  SMC_PMCTRL &= ~SMC_PMCTRL_RUNM_MASK;   // go back to RUN mode temporarily
+    471                  for (i=0;i<0xff;i++)
+    472                  {
+    473                      if ((SMC_PMSTAT & SMC_PMSTAT_PMSTAT_MASK)== 1)
+    474                          break;
+    475                  }
+    476              }
+    477              /* Set the STOPM field to 0b100 for VLLS0 mode */
+    478              SMC_PMCTRL &= ~SMC_PMCTRL_STOPM_MASK;
+    479              SMC_PMCTRL |=  SMC_PMCTRL_STOPM(0x4);
+    480              /* set VLLSM = 0b00 */
+    481              SMC_STOPCTRL &= ~SMC_STOPCTRL_VLLSM_MASK;
+    482              SMC_STOPCTRL &= ~SMC_STOPCTRL_PORPO_MASK;
+    483              SMC_STOPCTRL |=  (PORPO_value <<SMC_STOPCTRL_PORPO_SHIFT)
+    484                           | SMC_STOPCTRL_VLLSM(0);
+    485              /*wait for write to complete to SMC before stopping core */
+    486              dummyread = SMC_STOPCTRL;
+    487              dummyread = dummyread + 1;
+    488              /* Now execute the stop instruction to go into VLLS0 */
+    489              /* Set the SLEEPDEEP bit to enable deep sleep mode (STOP) */
+    490              SCB_SCR |= SCB_SCR_SLEEPDEEP_MASK;
+    491          
+    492              asm("WFI");
+    493          }
+    494          
+    495          /***************************************************************/
+    496          /* VLLS0 mode entry routine. Puts the processor into VLLS0 mode from
+    497           * normal run mode or VLPR with the POR circuit disabled
+    498           *
+    499           * Mode transitions:
+    500           * RUN -> VLLS0
+    501           * VLPR -> VLLS0
+    502           *
+    503           * NOTE: VLLSx modes will always exit to RUN mode even if you were
+    504           * in VLPR mode before entering VLLSx.
+    505           *
+    506           * Wakeup from VLLSx mode is controlled by the LLWU module. Most
+    507           * modules cannot issue a wakeup interrupt in VLLSx mode, so make
+    508           * sure to setup the desired wakeup sources in the LLWU before
+    509           * calling this function.
+    510           *
+    511           * Parameters:
+    512           * PORPO = 1-  POR detect circuit is disabled in VLLS0
+    513           */
+    514          /***************************************************************/
+    515          void enter_vlls0_nopor(void)
+    516          {
+    517              volatile unsigned int dummyread;
+    518              int i;
+    519          
+    520              if ((SMC_PMSTAT & SMC_PMSTAT_PMSTAT_MASK)== 4)
+    521              {
+    522                  SMC_PMCTRL &= ~SMC_PMCTRL_RUNM_MASK;   // go back to RUN mode temporarily
+    523                  for (i=0;i<0xff;i++)
+    524                  {
+    525                      if ((SMC_PMSTAT & SMC_PMSTAT_PMSTAT_MASK)== 1)
+    526                          break;
+    527                  }
+    528              }
+    529              /* Set the STOPM field to 0b100 for VLLS0 mode */
+    530              SMC_PMCTRL &= ~SMC_PMCTRL_STOPM_MASK;
+    531              SMC_PMCTRL |=  SMC_PMCTRL_STOPM(0x4);
+    532              /* set VLLSM = 00 * and PORPO = 1 */
+    533              SMC_STOPCTRL &= ~SMC_STOPCTRL_VLLSM_MASK;
+    534              SMC_STOPCTRL =  SMC_STOPCTRL_VLLSM(0) | SMC_STOPCTRL_PORPO_MASK;
+    535              /*wait for write to complete to SMC before stopping core */
+    536              dummyread = SMC_STOPCTRL;
+    537              dummyread = dummyread + 1;
+    538              /* Now execute the stop instruction to go into VLLS0 */
+    539              /* Set the SLEEPDEEP bit to enable deep sleep mode (STOP) */
+    540              SCB_SCR |= SCB_SCR_SLEEPDEEP_MASK;
+    541          
+    542              asm("WFI");
+    543          }
+    544          /********************************************************************/
+    545          /********************End of Functions *******************************/
+    546          /********************************************************************/
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   deepsleep
+       4   enter_lls
+       4   enter_stop
+      20   enter_vlls0
+      16   enter_vlls0_nopor
+       4   enter_vlls1
+       4   enter_vlls2
+       4   enter_vlls3
+      16   enter_vlpr
+       4   enter_vlps
+       0   enter_wait
+      12   exit_vlpr
+       0   sleep
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable11
+       4  ??DataTable11_1
+       4  ??DataTable12
+       4  ??DataTable12_1
+       4  ??DataTable12_2
+       4  ??DataTable12_3
+       4  ??DataTable12_4
+       4  ??DataTable12_5
+      14  deepsleep
+      46  enter_lls
+      58  enter_stop
+     114  enter_vlls0
+      98  enter_vlls0_nopor
+      52  enter_vlls1
+      52  enter_vlls2
+      52  enter_vlls3
+      88  enter_vlpr
+      46  enter_vlps
+      14  enter_wait
+      50  exit_vlpr
+      14  sleep
+
+ 
+ 730 bytes in section .text
+ 
+ 730 bytes of CODE memory
+
+Errors: none
+Warnings: none

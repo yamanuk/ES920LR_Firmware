@@ -1,0 +1,3933 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:03
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\task.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW64AA.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\task.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\task.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\task.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\task.c
+      1          /*HEADER*********************************************************************
+      2           *
+      3           * Copyright (c) 2008 Freescale Semiconductor;
+      4           * All Rights Reserved
+      5           *
+      6           * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7           * All Rights Reserved
+      8           *
+      9           * Copyright (c) 1989-2008 ARC International;
+     10           * All Rights Reserved
+     11           *
+     12           *****************************************************************************
+     13           *
+     14           * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15           * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16           * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17           * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18           * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20           * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21           * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22           * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23           * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24           * THE POSSIBILITY OF SUCH DAMAGE.
+     25           *
+     26           *****************************************************************************
+     27           *
+     28           * $FileName: task.c$
+     29           * $Version : 3.8.0.2$
+     30           * $Date    : Feb-27-2012$
+     31           *
+     32           * Comments:
+     33           *
+     34           *   This file contains functions of the Task Management component.
+     35           *
+     36           *END************************************************************************/
+     37          
+     38          #include <string.h>
+     39          #include "mqx_inc.h"
+     40          
+     41          /*!
+     42           * \private
+     43           *
+     44           * This variable has no use to MQX.
+     45           * Its been created for Task Aware Debug module.
+     46           */
+     47          volatile uint_32 _tad_task_at_flag;
+     48          
+     49          /*!
+     50           * \private
+     51           *
+     52           * \brief Makes a task run its task exit handler and then destroys itself.
+     53           *
+     54           * \param[in] task_id The task id of the task to abort.
+     55           * \param[in] user User mode functionality.
+     56           *
+     57           * \return MQX_OK
+     58           * \return MQX_INVALID_TASK_ID
+     59           *
+     60           * \see _task_abort
+     61           */
+     62          _mqx_uint _task_abort_internal
+     63          (
+     64              _task_id    task_id,
+     65              boolean     user
+     66          )
+     67          {
+     68              KERNEL_DATA_STRUCT_PTR kernel_data;
+     69              TD_STRUCT_PTR          td_ptr;
+     70              pointer                stack_ptr;
+     71              _processor_number processor;
+     72          
+     73              _GET_KERNEL_DATA(kernel_data);
+     74              _KLOGE2(KLOG_task_abort, task_id);
+     75          
+     76              if (task_id != MQX_NULL_TASK_ID)
+     77              {
+     78                  processor = PROC_NUMBER_FROM_TASKID(task_id);
+     79                  if (processor != (_processor_number) kernel_data->INIT.PROCESSOR_NUMBER)
+     80                  {
+     81          #if MQX_IS_MULTI_PROCESSOR
+     82                      if ( kernel_data->IPC != NULL )
+     83                      {
+     84                          _KLOGX2(KLOG_task_abort, MQX_OK);
+     85                          return( (*kernel_data->IPC)(FALSE, processor,
+     86                                                          KERNEL_MESSAGES, IPC_TASK_ABORT, 1, (_mqx_uint)task_id) );
+     87                      }
+     88                      else
+     89                      {
+     90          #endif
+     91                      _KLOGX2(KLOG_task_abort, MQX_INVALID_TASK_ID);
+     92                      return (MQX_INVALID_TASK_ID);
+     93          #if MQX_IS_MULTI_PROCESSOR
+     94                  } /* Endif */
+     95          #endif
+     96                  }/* Endif */
+     97              }/* Endif */
+     98          
+     99              td_ptr = (TD_STRUCT_PTR) _task_get_td(task_id);
+    100          
+    101          #if MQX_ENABLE_USER_MODE
+    102              /* check template for correct user task parameters */
+    103              if (user)
+    104              {
+    105                  if (!(td_ptr->FLAGS & MQX_USER_TASK))
+    106                  {
+    107                      return MQX_INVALID_TASK_ID;
+    108                  }
+    109              }
+    110          #endif
+    111          
+    112          #if MQX_CHECK_ERRORS
+    113              if ((td_ptr == NULL) || (td_ptr == SYSTEM_TD_PTR(kernel_data)))
+    114              {
+    115                  _KLOGX2(KLOG_task_abort, MQX_INVALID_TASK_ID);
+    116                  return (MQX_INVALID_TASK_ID);
+    117              } /* Endif */
+    118          #endif
+    119          
+    120              if (td_ptr == kernel_data->ACTIVE_PTR)
+    121              {
+    122                  if (kernel_data->IN_ISR)
+    123                  {
+    124                      stack_ptr = (pointer) td_ptr->STACK_PTR;
+    125                      _PSP_SET_PC_OF_INTERRUPTED_TASK(stack_ptr,
+    126                                      _task_exit_function_internal);
+    127                  }
+    128                  else
+    129                  {
+    130                      _task_exit_function_internal();
+    131                  }/* Endif */
+    132              }
+    133              else
+    134              {
+    135          
+    136                  _int_disable();
+    137                  /* Task is not running */
+    138                  stack_ptr = (pointer) td_ptr->STACK_PTR;
+    139                  _PSP_SET_PC_OF_BLOCKED_TASK(stack_ptr,
+    140                                  _task_exit_function_internal);
+    141                  if (td_ptr->STATE & IS_ON_TIMEOUT_Q)
+    142                  {
+    143                      /* Remove from time queue (uses NEXT, PREV field) */
+    144                      _TIME_DEQUEUE(td_ptr, kernel_data);
+    145                  }
+    146                  else if (td_ptr->STATE & TD_IS_ON_QUEUE)
+    147                  {
+    148                      _QUEUE_REMOVE(td_ptr->INFO, td_ptr);
+    149                  }
+    150                  else if ((td_ptr->STATE & BLOCKED_ON_AUX_QUEUE) == BLOCKED_ON_AUX_QUEUE)
+    151                  {
+    152                      /* We need to remove it here because _task_ready() below will
+    153                       change its state to READY */
+    154                      _QUEUE_REMOVE(td_ptr->INFO, &td_ptr->AUX_QUEUE);
+    155                  } /* Endif */
+    156                  if (td_ptr->STATE & IS_BLOCKED)
+    157                  {
+    158                      _task_ready(td_ptr);
+    159                  } /* Endif */
+    160                  _int_enable();
+    161              }/* Endif */
+    162          
+    163              _KLOGX2(KLOG_task_abort, MQX_OK);
+    164              return (MQX_OK);
+    165          }
+    166          
+    167          /*!
+    168           * \brief Makes a task run its task exit handler and then destroys itself.
+    169           *
+    170           * \param[in] task_id One of the following:
+    171           * \n - Task ID of the task to be destroyed.
+    172           * \n - MQX_NULL_TASK_ID (Abort the calling task.)
+    173           *
+    174           * \return MQX_OK
+    175           * \return MQX_INVALID_TASK_ID (Task_id does not represent a valid task.)
+    176           *
+    177           * \see _task_destroy
+    178           * \see _task_get_exit_handler
+    179           * \see _task_set_exit_handler
+    180           */
+    181          _mqx_uint _task_abort
+    182          (
+    183              _task_id    task_id
+    184          )
+    185          {
+    186          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    187              if (MQX_RUN_IN_USER_MODE)
+    188              {
+    189                  return _usr_task_abort(task_id);
+    190              }
+    191          #endif
+    192          
+    193              return _task_abort_internal(task_id, FALSE);
+    194          }
+    195          
+    196          #if MQX_ENABLE_USER_MODE
+    197          
+    198          /*!
+    199           * \brief Makes a task run its task exit handler and then destroys itself.
+    200           *
+    201           * This function is an equivalent to the _task_abort() API call but it can be
+    202           * executed from within the User task or other code running in the CPU User mode.
+    203           * Parameters passed to this function by pointer are required to meet the memory
+    204           * protection requirements as described in the parameter list below.
+    205           *
+    206           * \param[in] task_id One of the following:
+    207           * \n - Task ID of the task to be destroyed.
+    208           * \n - MQX_NULL_TASK_ID (Abort the calling task.)
+    209           *
+    210           * \return MQX_OK
+    211           * \return MQX_INVALID_TASK_ID
+    212           *
+    213           * \see _task_abort
+    214           * \see _usr_task_destroy
+    215           */
+    216          _mqx_uint _usr_task_abort
+    217          (
+    218              _task_id    task_id
+    219          )
+    220          {
+    221              MQX_API_CALL_PARAMS params = {(uint_32)task_id, 0, 0, 0, 0};
+    222              return _mqx_api_call(MQX_API_TASK_ABORT, &params);
+    223          }
+    224          
+    225          #endif /* MQX_ENABLE_USER_MODE */
+    226          
+    227          #if !MQX_LITE_VERSION_NUMBER
+    228          /*!
+    229           * \private
+    230           *
+    231           * \brief Creates the task and make it ready.
+    232           *
+    233           * \param[in] processor_number One of the following:
+    234           * \n - Processor number of the processor where the task is to be created.
+    235           * \n - 0 (Create on the local processor.)
+    236           * \param[in] template_index One of the following:
+    237           * \n - Index of the task template in the processor's task template list to use
+    238           * for the child task.
+    239           * \n - 0 (Use the task template that create_parameter defines.)
+    240           * \param[in] parameter Pointer:
+    241           * \n - Template_index is not 0 (Pointer to the parameter that MQX passes to the
+    242           * child task.)
+    243           * \n - Template_index is 0 (Pointer to the task template.)
+    244           * \param[in] user User mode functionality.
+    245           *
+    246           * \return Task ID of the child task (Success.)
+    247           * \return MQX_NULL_TASK_ID
+    248           *
+    249           * \warning If the child is on another processor, blocks the creator until the
+    250           * child is created.
+    251           * \warning On failure, _task_set_error() is called to set the the following task
+    252           * error codes:
+    253           * \n - MQX_INVALID_PROCESSOR_NUMBER (Processor_number is not one of the allowed
+    254           * processor numbers.)
+    255           * \n - MQX_NO_TASK_TEMPLATE (Template_index is not in the task template list.)
+    256           * \n - MQX_OUT_OF_MEMORY (MQX cannot allocate memory for the task data structures.)
+    257           * \warning For _task_create(): If the child is on the same processor, preempts
+    258           * the creator if the
+    259           * child is a higher priority.
+    260           *
+    261           * \see _task_create
+    262           * \see _task_create_blocked
+    263           * \see _task_create_at
+    264           * \see _usr_task_create
+    265           */
+    266          _task_id _task_create_internal
+    267          (
+    268              _processor_number   processor_number,
+    269              _mqx_uint           template_index,
+    270              uint_32             parameter,
+    271              boolean             user
+    272          )
+    273          {
+    274              KERNEL_DATA_STRUCT_PTR   kernel_data;
+    275              TD_STRUCT_PTR            td_ptr;
+    276          #if MQX_IS_MULTI_PROCESSOR
+    277              TASK_TEMPLATE_STRUCT_PTR task_template_ptr;
+    278              boolean                  blocking;
+    279          #endif
+    280              _task_id                 result = MQX_NULL_TASK_ID;
+    281          
+    282              _GET_KERNEL_DATA(kernel_data);
+    283              _KLOGE4(KLOG_task_create, processor_number, template_index, parameter);
+    284          
+    285          #if MQX_CHECK_ERRORS
+    286              if (template_index & SYSTEM_TASK_FLAG)
+    287              {
+    288                  _task_set_error(MQX_INVALID_TEMPLATE_INDEX);
+    289                  _KLOGX3(KLOG_task_create, MQX_NULL_TASK_ID, MQX_INVALID_TEMPLATE_INDEX);
+    290                  return MQX_NULL_TASK_ID;
+    291              }
+    292          #endif
+    293          
+    294          #if MQX_ENABLE_USER_MODE
+    295              if (user)
+    296              {
+    297                  if (kernel_data->INIT.MAX_USER_TASK_COUNT && kernel_data->USR_TASK_RUN_COUNT >= kernel_data->INIT.MAX_USER_TASK_COUNT)
+    298                  {
+    299                      _task_set_error(MQX_TOO_MANY_USER_TASKS);
+    300                      _KLOGX3(KLOG_task_create, MQX_NULL_TASK_ID, MQX_TOO_MANY_USER_TASKS);
+    301                      return MQX_NULL_TASK_ID;
+    302                  }
+    303          
+    304                  kernel_data->USR_TASK_RUN_COUNT++;
+    305              }
+    306          #endif /* MQX_ENABLE_USER_MODE */
+    307              if (processor_number == 0)
+    308              {
+    309                  processor_number = (_processor_number) kernel_data->INIT.PROCESSOR_NUMBER;
+    310          #if MQX_CHECK_ERRORS
+    311              }
+    312              else if (processor_number > MQX_MAX_PROCESSOR_NUMBER)
+    313              {
+    314                  _task_set_error(MQX_INVALID_PROCESSOR_NUMBER);
+    315                  _KLOGX3(KLOG_task_create, MQX_NULL_TASK_ID, MQX_INVALID_PROCESSOR_NUMBER);
+    316                  return MQX_NULL_TASK_ID;
+    317          #endif
+    318              }
+    319              else if (processor_number != kernel_data->INIT.PROCESSOR_NUMBER)
+    320              {
+    321          #if MQX_ENABLE_USER_MODE
+    322                  if (user)
+    323                  {
+    324                      /* usermode don't support multiprocessor functionality */
+    325                      _task_set_error(MQX_INVALID_PROCESSOR_NUMBER);
+    326                      _KLOGX3(KLOG_task_create, MQX_NULL_TASK_ID, MQX_INVALID_PROCESSOR_NUMBER);
+    327                      return MQX_NULL_TASK_ID;
+    328                  }
+    329          #endif
+    330          
+    331          #if MQX_IS_MULTI_PROCESSOR
+    332                  if ( kernel_data->IPC != NULL )
+    333                  {
+    334          #if MQX_TASK_CREATION_BLOCKS
+    335                      blocking = TRUE;
+    336          #else
+    337                      blocking = FALSE;
+    338          #endif
+    339                      if (template_index == 0)
+    340                      {
+    341                          /* Task template is pointed to by the parameter */
+    342                          task_template_ptr = (TASK_TEMPLATE_STRUCT_PTR)parameter;
+    343                          (*kernel_data->IPC)(blocking, processor_number,
+    344                                          KERNEL_MESSAGES,
+    345                                          IPC_TASK_CREATE_WITH_TEMPLATE,
+    346                                          8L,
+    347                                          task_template_ptr->TASK_TEMPLATE_INDEX,
+    348                                          task_template_ptr->TASK_ADDRESS,
+    349                                          task_template_ptr->TASK_STACKSIZE,
+    350                                          task_template_ptr->TASK_PRIORITY,
+    351                                          task_template_ptr->TASK_NAME,
+    352                                          task_template_ptr->TASK_ATTRIBUTES,
+    353                                          task_template_ptr->CREATION_PARAMETER,
+    354                                          task_template_ptr->DEFAULT_TIME_SLICE);
+    355                      }
+    356                      else
+    357                      {
+    358                          (*kernel_data->IPC)(blocking, processor_number,
+    359                                          KERNEL_MESSAGES, IPC_TASK_CREATE, 3,
+    360                                          processor_number, template_index, parameter);
+    361                      } /* Endif */
+    362                      return(kernel_data->ACTIVE_PTR->INFO);
+    363                  }
+    364                  else
+    365                  {
+    366          #endif
+    367                  _task_set_error(MQX_INVALID_PROCESSOR_NUMBER);
+    368                  _KLOGX3(KLOG_task_create, MQX_NULL_TASK_ID, MQX_INVALID_PROCESSOR_NUMBER);
+    369                  return MQX_NULL_TASK_ID;
+    370          #if MQX_IS_MULTI_PROCESSOR
+    371              } /* Endif */
+    372          #endif
+    373              } /* Endif */
+    374          
+    375              td_ptr = _task_build_internal(template_index, parameter, NULL, 0, user);
+    376          
+    377              if (td_ptr != NULL)
+    378              {
+    379                  result = td_ptr->TASK_ID;
+    380                  _INT_DISABLE();
+    381                  _task_ready_internal(td_ptr);
+    382                  _INT_ENABLE();
+    383                  _CHECK_RUN_SCHEDULER(); /* Let a higher priority task run */
+    384              }
+    385          
+    386              _KLOGX3(KLOG_task_create, result, kernel_data->ACTIVE_PTR->TASK_ERROR_CODE);
+    387          
+    388              return (result);
+    389          }
+    390          
+    391          /*!
+    392           * \brief Creates the task and make it ready.
+    393           *
+    394           * \param[in] processor_number One of the following:
+    395           * \n - Processor number of the processor where the task is to be created.
+    396           * \n - 0 (Create on the local processor.)
+    397           * \param[in] template_index   One of the following:
+    398           * \n - Index of the task template in the processor's task template list to use
+    399           * for the child task.
+    400           * \n - 0 (Use the task template that create_parameter defines.)
+    401           * \param[in] parameter        Pointer:
+    402           * \n - Template_index is not 0 (Pointer to the parameter that MQX passes to the
+    403           * child task.)
+    404           * \n - Template_index is 0 (Pointer to the task template.)
+    405           *
+    406           * \return Task ID of the child task (Success.)
+    407           * \return MQX_NULL_TASK_ID (Failure.)
+    408           *
+    409           * \warning If the child is on another processor, blocks the creator until the
+    410           * child is created.
+    411           * \warning On failure, _task_set_error() is called to set the the following task
+    412           * error codes:
+    413           * \n - MQX_INVALID_PROCESSOR_NUMBER (Processor_number is not one of the allowed
+    414           * processor numbers.)
+    415           * \n - MQX_NO_TASK_TEMPLATE (Template_index is not in the task template list.)
+    416           * \n - MQX_OUT_OF_MEMORY (MQX cannot allocate memory for the task data structures.)
+    417           * \warning If the child is on the same processor, preempts the creator if the
+    418           * child is a higher priority.
+    419           *
+    420           * \see _task_create_blocked
+    421           * \see _task_create_at
+    422           * \see _task_abort
+    423           * \see _task_block
+    424           * \see _task_destroy
+    425           * \see _task_get_parameter
+    426           * \see _task_get_parameter_for
+    427           * \see _task_set_parameter
+    428           * \see _task_set_parameter_for
+    429           * \see _task_ready
+    430           * \see _task_set_error
+    431           */
+    432          _task_id _task_create
+    433          (
+    434              _processor_number   processor_number,
+    435              _mqx_uint           template_index,
+    436              uint_32             parameter
+    437          )
+    438          {
+    439          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+    440              if (MQX_RUN_IN_USER_MODE)
+    441              {
+    442                  return _usr_task_create(processor_number, template_index, parameter);
+    443              }
+    444          #endif
+    445              return _task_create_internal(processor_number, template_index, parameter, FALSE);
+    446          }
+    447          #endif /* MQX_LITE_VERSION_NUMBER */
+    448          
+    449          #if MQX_ENABLE_USER_MODE
+    450          
+    451          /*!
+    452           * \brief Creates the task and make it ready.
+    453           *
+    454           * This function is an equivalent to the _task_create() API call but it can be
+    455           * executed from within the User task or other code running in the CPU User mode.
+    456           * Parameters passed to this function by pointer are required to meet the memory
+    457           * protection requirements as described in the parameter list below.
+    458           *
+    459           * \param[in] processor_number One of the following:
+    460           * \n - Processor number of the processor where the task is to be created.
+    461           * \n - 0 (Create on the local processor.)
+    462           * \param[in] template_index   One of the following:
+    463           * \n - Index of the task template in the processor's task template list to use
+    464           * for the child task.
+    465           * \n - 0 (Use the task template that create_parameter defines.)
+    466           * \param[in] parameter        Pointer:
+    467           * \n - Template_index is not 0 (Pointer to the parameter that MQX passes to the
+    468           * child task.)
+    469           * \n - Template_index is 0 (Pointer to the task template.)
+    470           *
+    471           * \return Task ID of the child task (Success.)
+    472           * \return MQX_NULL_TASK_ID (Failure.)
+    473           *
+    474           * \warning If the child is on another processor, blocks the creator until the
+    475           * child is created.
+    476           * \warning On failure, _task_set_error() is called to set the the following task
+    477           * error codes:
+    478           * \n - MQX_INVALID_PROCESSOR_NUMBER (Processor_number is not one of the allowed
+    479           * processor numbers.)
+    480           * \n - MQX_NO_TASK_TEMPLATE (Template_index is not in the task template list.)
+    481           * \n - MQX_OUT_OF_MEMORY (MQX cannot allocate memory for the task data structures.)
+    482           * \warning If the child is on the same processor, preempts the creator if the
+    483           * child is a higher priority.
+    484           *
+    485           * \see _task_create
+    486           * \see _usr_task_abort
+    487           * \see _usr_task_destroy
+    488           * \see _usr_task_ready
+    489           * \see _usr_task_set_error
+    490           */
+    491          _task_id _usr_task_create
+    492          (
+    493              _processor_number   processor_number,
+    494              _mqx_uint           template_index,
+    495              uint_32             parameter
+    496          )
+    497          {
+    498              MQX_API_CALL_PARAMS params =
+    499                  {(uint_32)processor_number, (uint_32)template_index, (uint_32)parameter, 0, 0};
+    500          
+    501              return _mqx_api_call(MQX_API_TASK_CREATE, &params);
+    502          }
+    503          
+    504          #endif /* MQX_ENABLE_USER_MODE */
+    505          
+    506          #if !MQX_LITE_VERSION_NUMBER
+    507          /*!
+    508           * \brief Creates the task, but do not make it ready.
+    509           *
+    510           * \param[in] processor_number One of the following:
+    511           * \n - Processor number of the processor where the task is to be created.
+    512           * \n - 0 (Create on the local processor.)
+    513           * \param[in] template_index   One of the following:
+    514           * \n - Index of the task template in the processor's task template list to use
+    515           * for the child task.
+    516           * \n - 0 (Use the task template that create_parameter defines.)
+    517           * \param[in] parameter        Pointer:
+    518           * \n - Template_index is not 0 (Pointer to the parameter that MQX passes to the
+    519           * child task.)
+    520           * \n - Template_index is 0 (Pointer to the task template.)
+    521           *
+    522           * \return Task ID of the child task (Success.)
+    523           * \return MQX_NULL_TASK_ID (Failure.)
+    524           *
+    525           * \warning If the child is on another processor, blocks the creator until the
+    526           * child is created.
+    527           * \warning On failure, _task_set_error() is called to set the the following task
+    528           * error codes:
+    529           * \n - MQX_INVALID_PROCESSOR_NUMBER (Processor_number is not one of the allowed
+    530           * processor numbers.)
+    531           * \n - MQX_NO_TASK_TEMPLATE (Template_index is not in the task template list.)
+    532           * \n - MQX_OUT_OF_MEMORY (MQX cannot allocate memory for the task data structures.)
+    533           * \warning If the child is on the same processor, preempts the creator if the
+    534           * child is a higher priority.
+    535           *
+    536           * \see _task_create
+    537           * \see _task_create_at
+    538           * \see _task_abort
+    539           * \see _task_block
+    540           * \see _task_destroy
+    541           * \see _task_get_parameter
+    542           * \see _task_get_parameter_for
+    543           * \see _task_set_parameter
+    544           * \see _task_set_parameter_for
+    545           * \see _task_ready
+    546           * \see _task_set_error
+    547           */
+    548          _task_id _task_create_blocked
+    549          (
+    550              _processor_number   processor_number,
+    551              _mqx_uint           template_index,
+    552              uint_32             parameter
+    553          )
+    554          { /* Body */
+    555              KERNEL_DATA_STRUCT_PTR   kernel_data;
+    556              TD_STRUCT_PTR            td_ptr;
+    557          #if MQX_IS_MULTI_PROCESSOR
+    558              TASK_TEMPLATE_STRUCT_PTR task_template_ptr;
+    559              boolean                  blocking;
+    560          #endif
+    561              _task_id                 result;
+    562          
+    563              _GET_KERNEL_DATA(kernel_data);
+    564              _KLOGE4(KLOG_task_create_block, processor_number, template_index, parameter);
+    565          
+    566          #if MQX_CHECK_ERRORS
+    567              if (template_index & SYSTEM_TASK_FLAG)
+    568              {
+    569                  _task_set_error(MQX_INVALID_TEMPLATE_INDEX);
+    570                  _KLOGX3(KLOG_task_create_block, MQX_NULL_TASK_ID,
+    571                                  MQX_INVALID_TEMPLATE_INDEX);
+    572                  return MQX_NULL_TASK_ID;
+    573              } /* Endif */
+    574          #endif
+    575          
+    576              if (processor_number == 0)
+    577              {
+    578                  processor_number = (_processor_number) kernel_data->INIT.PROCESSOR_NUMBER;
+    579          #if MQX_CHECK_ERRORS
+    580              }
+    581              else if (processor_number > MQX_MAX_PROCESSOR_NUMBER)
+    582              {
+    583                  _task_set_error(MQX_INVALID_PROCESSOR_NUMBER);
+    584                  _KLOGX3(KLOG_task_create_block, MQX_NULL_TASK_ID,
+    585                                  MQX_INVALID_PROCESSOR_NUMBER);
+    586                  return MQX_NULL_TASK_ID;
+    587          #endif
+    588              }
+    589              else if (processor_number != kernel_data->INIT.PROCESSOR_NUMBER)
+    590              {
+    591          #if MQX_IS_MULTI_PROCESSOR
+    592                  if ( kernel_data->IPC != NULL )
+    593                  {
+    594          #if MQX_TASK_CREATION_BLOCKS
+    595                      blocking = TRUE;
+    596          #else
+    597                      blocking = FALSE;
+    598          #endif
+    599                      if (template_index == 0)
+    600                      {
+    601                          /* Task template is pointed to by the parameter */
+    602                          task_template_ptr = (TASK_TEMPLATE_STRUCT_PTR)parameter;
+    603                          (*kernel_data->IPC)(blocking, processor_number,
+    604                                          KERNEL_MESSAGES, IPC_TASK_CREATE_WITH_TEMPLATE, 8L,
+    605                                          task_template_ptr->TASK_TEMPLATE_INDEX,
+    606                                          task_template_ptr->TASK_ADDRESS,
+    607                                          task_template_ptr->TASK_STACKSIZE,
+    608                                          task_template_ptr->TASK_PRIORITY,
+    609                                          task_template_ptr->TASK_NAME,
+    610                                          task_template_ptr->TASK_ATTRIBUTES,
+    611                                          task_template_ptr->CREATION_PARAMETER,
+    612                                          task_template_ptr->DEFAULT_TIME_SLICE
+    613                          );
+    614                      }
+    615                      else
+    616                      {
+    617                          (*kernel_data->IPC)(blocking, processor_number,
+    618                                          KERNEL_MESSAGES, IPC_TASK_CREATE, 3,
+    619                                          processor_number, template_index, parameter);
+    620                      } /* Endif */
+    621                      return(kernel_data->ACTIVE_PTR->INFO);
+    622                  }
+    623                  else
+    624                  {
+    625          #endif
+    626                  _task_set_error(MQX_INVALID_PROCESSOR_NUMBER);
+    627                  _KLOGX3(KLOG_task_create_block, MQX_NULL_TASK_ID,
+    628                                  MQX_INVALID_PROCESSOR_NUMBER);
+    629                  return MQX_NULL_TASK_ID;
+    630          #if MQX_IS_MULTI_PROCESSOR
+    631              } /* Endif */
+    632          #endif
+    633              } /* Endif */
+    634          
+    635              td_ptr = _task_build_internal(template_index, parameter, NULL, 0, FALSE);
+    636              if (td_ptr != NULL)
+    637              {
+    638                  td_ptr->STATE = BLOCKED;
+    639                  result = td_ptr->TASK_ID;
+    640              }
+    641              else
+    642              {
+    643                  result = MQX_NULL_TASK_ID;
+    644              }/* Endif */
+    645          
+    646              _KLOGX3(KLOG_task_create_block, result,
+    647                              kernel_data->ACTIVE_PTR->TASK_ERROR_CODE);
+    648          
+    649              return (result);
+    650          
+    651          } /* Endbody */
+    652          #endif /* MQX_LITE_VERSION_NUMBER */
+    653          
+    654          /*!
+    655           * \brief Creates the task with the stack location specified.
+    656           *
+    657           * \param[in] processor_number One of the following:
+    658           * \n - Processor number of the processor where the task is to be created.
+    659           * \n - 0 (Create on the local processor.)
+    660           * \param[in] template_index   One of the following:
+    661           * \n - Index of the task template in the processor's task template list to use
+    662           * for the child task.
+    663           * \n - 0 (Use the task template that create_parameter defines.)
+    664           * \param[in] parameter        Pointer:
+    665           * \n - Template_index is not 0 (Pointer to the parameter that MQX passes to the
+    666           * child task.)
+    667           * \n - Template_index is 0 (Pointer to the task template.)
+    668           * \param[in] stack_ptr        Pointer to where the stack and TD are to be created.
+    669           * \param[in] stack_size       The size of the stack.
+    670           *
+    671           * \return Task ID of the child task (Success.)
+    672           * \return MQX_NULL_TASK_ID (Failure.)
+    673           *
+    674           * \warning If the child is on another processor, blocks the creator until the
+    675           * child is created.
+    676           * \warning On failure, _task_set_error() is called to set the following task
+    677           * error codes:
+    678           * \n Task Error Codes
+    679           * \n - MQX_INVALID_PROCESSOR_NUMBER (Processor_number is not one of the allowed
+    680           * processor numbers.)
+    681           * \n - MQX_NO_TASK_TEMPLATE (Template_index is not in the task template list.)
+    682           * \n - MQX_OUT_OF_MEMORY (MQX cannot allocate memory for the task data structures.)
+    683           *
+    684           * \see _task_create
+    685           * \see _task_create_blocked
+    686           * \see _task_abort
+    687           * \see _task_block
+    688           * \see _task_destroy
+    689           * \see _task_get_parameter
+    690           * \see _task_get_parameter_for
+    691           * \see _task_set_parameter
+    692           * \see _task_set_parameter_for
+    693           * \see _task_ready
+    694           * \see _task_set_error
+    695           */
+    696          _task_id _task_create_at
+    697          (
+    698              _processor_number   processor_number,
+    699              _mqx_uint           template_index,
+    700              uint_32             parameter,
+    701              pointer             stack_ptr,
+    702              _mem_size           stack_size
+    703          )
+    704          { /* Body */
+    705              KERNEL_DATA_STRUCT_PTR kernel_data;
+    706              TD_STRUCT_PTR          td_ptr;
+    707              _task_id               result;
+    708          
+    709              _GET_KERNEL_DATA(kernel_data);
+    710              _KLOGE5(KLOG_task_create_at, processor_number, template_index, parameter,
+    711                              stack_ptr);
+    712          
+    713          #if MQX_CHECK_ERRORS
+    714              if (template_index & SYSTEM_TASK_FLAG)
+    715              {
+    716                  _task_set_error(MQX_INVALID_TEMPLATE_INDEX);
+    717                  _KLOGX3(KLOG_task_create_at, MQX_NULL_TASK_ID,
+    718                                  MQX_INVALID_TEMPLATE_INDEX);
+    719                  return MQX_NULL_TASK_ID;
+    720              } /* Endif */
+    721          #endif
+    722          
+    723          #if MQX_CHECK_ERRORS
+    724              if (processor_number != 0)
+    725              {
+    726                  _task_set_error(MQX_INVALID_PROCESSOR_NUMBER);
+    727                  _KLOGX3(KLOG_task_create_at, MQX_NULL_TASK_ID,
+    728                                  MQX_INVALID_PROCESSOR_NUMBER);
+    729                  return MQX_NULL_TASK_ID;
+    730              } /* Endif */
+    731          #endif
+    732          
+    733              td_ptr = _task_build_internal(template_index, parameter, stack_ptr, stack_size, FALSE);
+    734              if (td_ptr != NULL)
+    735              {
+    736                  result = td_ptr->TASK_ID;
+    737                  _INT_DISABLE();
+    738                  _task_ready_internal(td_ptr);
+    739                  _INT_ENABLE();
+    740                  _CHECK_RUN_SCHEDULER(); /* Let a higher priority task run */
+    741              }
+    742              else
+    743              {
+    744                  result = MQX_NULL_TASK_ID;
+    745              }/* Endif */
+    746          
+    747              _KLOGX3(KLOG_task_create_at, result,
+    748                              kernel_data->ACTIVE_PTR->TASK_ERROR_CODE);
+    749          
+    750              _tad_task_at_flag++;
+    751          
+    752              return (result);
+    753          
+    754          } /* Endbody */
+    755          
+    756          /*!
+    757           * \private
+    758           *
+    759           * \brief Destroys the task.
+    760           *
+    761           * \param[in] task_id One of the following:
+    762           * \n - Task ID of the task to be destroyed.
+    763           * \n - MQX_NULL_TASK_ID (Destroy the calling task.)
+    764           * \param[in] user    User mode functionality.
+    765           *
+    766           * \return MQX_OK
+    767           * \return MQX_INVALID_TASK_ID
+    768           *
+    769           * \see _task_destroy
+    770           * \see _usr_task_destroy
+    771           */
+    772          _mqx_uint _task_destroy_internal
+    773          (
+    774              _task_id task_id,
+    775              boolean  user
+    776          )
+    777          {
+    778              KERNEL_DATA_STRUCT_PTR   kernel_data;
+    779              TD_STRUCT_PTR            victim_ptr;
+    780              TD_STRUCT_PTR            td_ptr;
+    781              _processor_number        processor;
+    782              uint_16                  task_num;
+    783          
+    784              _GET_KERNEL_DATA(kernel_data);
+    785              _KLOGE2(KLOG_task_destroy, task_id);
+    786          
+    787              if (task_id != MQX_NULL_TASK_ID) {
+    788                  processor = PROC_NUMBER_FROM_TASKID(task_id);
+    789                  if (processor != (_processor_number)kernel_data->INIT.PROCESSOR_NUMBER ) {
+    790          #if MQX_IS_MULTI_PROCESSOR
+    791                      if ( kernel_data->IPC != NULL ) {
+    792                          _KLOGX2(KLOG_task_destroy, MQX_OK);
+    793                          return( (*kernel_data->IPC)(FALSE, processor,
+    794                                          KERNEL_MESSAGES, IPC_TASK_DESTROY, 1, (_mqx_uint)task_id) );
+    795                      } else {
+    796          #endif
+    797                          _KLOGX2(KLOG_task_destroy, MQX_INVALID_TASK_ID);
+    798                          return(MQX_INVALID_TASK_ID);
+    799          #if MQX_IS_MULTI_PROCESSOR
+    800                      } /* Endif */
+    801          #endif
+    802                  }/* Endif */
+    803              }/* Endif */
+    804          
+    805              victim_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+    806          
+    807          #if MQX_ENABLE_USER_MODE
+    808              /* check template for correct user task parameters */
+    809              if (user) {
+    810                  if (!(victim_ptr->FLAGS & MQX_USER_TASK)) {
+    811                      return MQX_INVALID_TASK_ID;
+    812                  }
+    813              }
+    814          #endif
+    815          
+    816              /* Make sure we are not trying to destroy the system task */
+    817          #if MQX_CHECK_ERRORS
+    818              if ((victim_ptr == NULL) || (victim_ptr == SYSTEM_TD_PTR(kernel_data))) {
+    819                  _KLOGX2(KLOG_task_destroy, MQX_INVALID_TASK_ID);
+    820                  return MQX_INVALID_TASK_ID;
+    821              } /* Endif */
+    822          #endif
+    823          
+    824              /* First, serialize task creation/destruction */
+    825              _lwsem_wait((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+    826          
+    827              _int_disable();
+    828          
+    829              if (victim_ptr->STATE == DYING) {
+    830                  /* Task is already being destroyed */
+    831                  /* SPR P171-0021-01 re-enable interrupts */
+    832                  _int_enable();
+    833                  /* END SPR */
+    834                  _lwsem_post((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+    835                  _KLOGX2(KLOG_task_destroy, MQX_OK);
+    836                  return MQX_OK;
+    837              } /* Endif */
+    838          
+    839              /* remove the victim from any queues it may be in. */
+    840              if (victim_ptr->STATE == READY) {
+    841                  if (victim_ptr != kernel_data->ACTIVE_PTR) {
+    842                      /* Remove other task from ready queue */
+    843                      _QUEUE_UNLINK(victim_ptr);
+    844                  } /* Endif */
+    845              } else if (victim_ptr->STATE & IS_ON_TIMEOUT_Q) {
+    846                  /* Remove from time queue (uses NEXT, PREV field) */
+    847                  _TIME_DEQUEUE(victim_ptr, kernel_data);
+    848              } else if (victim_ptr->STATE & TD_IS_ON_QUEUE) {
+    849                  /*
+    850                   * Remove from queue, where suspended
+    851                   * eg, MUTEX_BLOCKED, IO_BLOCKED, TASKQ_BLOCKED
+    852                   * (uses NEXT, PREV field)
+    853                   */
+    854                  _QUEUE_REMOVE(victim_ptr->INFO, victim_ptr);
+    855              } /* Endif */
+    856          
+    857              if (victim_ptr->STATE & TD_IS_ON_AUX_QUEUE) {
+    858                  /*
+    859                   * Remove from queue, where suspended
+    860                   * eg, LWSEM_BLOCKED
+    861                   * (uses AUX_QUEUE field)
+    862                   */
+    863                  _QUEUE_REMOVE(victim_ptr->INFO, &victim_ptr->AUX_QUEUE);
+    864              } /* Endif */
+    865          
+    866              victim_ptr->STATE   = DYING;
+    867          
+    868          #if MQXCFG_ENABLE_FP && PSP_HAS_FPU
+    869              /* Stop Floating point context monitoring */
+    870              if (kernel_data->FP_ACTIVE_PTR == victim_ptr) {
+    871                  kernel_data->FP_ACTIVE_PTR = NULL;
+    872              }/* Endif */
+    873          #endif
+    874          
+    875          #if MQXCFG_ENABLE_DSP && PSP_HAS_DSP
+    876              /* Stop DSP context monitoring */
+    877              if (kernel_data->DSP_ACTIVE_PTR == victim_ptr) {
+    878                  kernel_data->DSP_ACTIVE_PTR = NULL;
+    879              }/* Endif */
+    880          #endif
+    881          
+    882              _int_enable();
+    883          
+    884          #if MQX_COMPONENT_DESTRUCTION
+    885              {
+    886                  _mqx_uint i;
+    887                  for (i = 0; i < MAX_KERNEL_COMPONENTS; ++i) {
+    888                      if (kernel_data->COMPONENT_CLEANUP[i] != NULL) {
+    889                          (*kernel_data->COMPONENT_CLEANUP[i])(victim_ptr);
+    890                      } /* Endif */
+    891                  } /* Endfor */
+    892              }
+    893          #endif
+    894          
+    895          
+    896              /* Save the task number */
+    897              task_num = TASK_NUMBER_FROM_TASKID(victim_ptr->TASK_ID);
+    898          
+    899              td_ptr = kernel_data->ACTIVE_PTR;
+    900          
+    901          #if !MQX_LITE_VERSION_NUMBER
+    902              if ((victim_ptr->FLAGS & TASK_STACK_PREALLOCATED) == 0) {
+    903                  pointer block_ptr = _mem_get_next_block_internal(victim_ptr, NULL);
+    904                  while (block_ptr != NULL) {
+    905                      pointer next_block_ptr = _mem_get_next_block_internal(victim_ptr, block_ptr);
+    906                      if (td_ptr != victim_ptr) {
+    907                          _mem_transfer_internal(block_ptr, SYSTEM_TD_PTR(kernel_data));
+    908                      } /* Endif */
+    909                      if (block_ptr != victim_ptr) {
+    910                          _mem_free(block_ptr);
+    911                      } /* Endif */
+    912                      block_ptr = next_block_ptr;
+    913                  } /* Endwhile */
+    914              } /* Endif */
+    915          #endif /* MQX_LITE_VERSION_NUMBER */
+    916          
+    917              victim_ptr->TASK_ID = TASK_ID_DYING;
+    918          
+    919              /* Start SPR P171-0017-01                */
+    920              /* Remove td from linked list of all tds */
+    921              if (_QUEUE_GET_SIZE(&kernel_data->TD_LIST) == 1) {
+    922                  /* Destroying the last task */
+    923                  kernel_data->TASK_NUMBER   = 1;
+    924                  kernel_data->INSERT_TD_PTR = NULL;
+    925              } else if (kernel_data->TASK_NUMBER > task_num) {
+    926                  kernel_data->TASK_NUMBER   = task_num;
+    927                  kernel_data->INSERT_TD_PTR =
+    928                                  (TD_STRUCT_PTR)((uchar_ptr)victim_ptr->TD_LIST_INFO.PREV -
+    929                                                  FIELD_OFFSET(TD_STRUCT,TD_LIST_INFO));
+    930              } /* Endif */
+    931              _QUEUE_REMOVE(&kernel_data->TD_LIST, &victim_ptr->TD_LIST_INFO);
+    932              /* End SPR P171-0017-01                  */
+    933          
+    934              /* Free up create/destroy for other tasks */
+    935              _lwsem_post((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+    936          
+    937              if (victim_ptr == td_ptr) {
+    938                  /* We are destroying the current task */
+    939                  _int_disable();
+    940                  _QUEUE_UNLINK(victim_ptr);  /* Remove myself from the ready queue */
+    941                  _psp_destroy_stack_frame(victim_ptr);
+    942          #if !MQX_LITE_VERSION_NUMBER
+    943                  if ((victim_ptr->FLAGS & TASK_STACK_PREALLOCATED) == 0) {
+    944                      _mem_transfer_internal(victim_ptr, SYSTEM_TD_PTR(kernel_data));
+    945                      _mem_free(victim_ptr);   /* Free the td which includes task's stack! */
+    946                  } /* Endif */
+    947          #endif /* MQX_LITE_VERSION_NUMBER */
+    948                  /* Now we must jump to the scheduler */
+    949                  _sched_run_internal();   /* WILL NEVER RETURN FROM HERE */
+    950              }/* Endif */
+    951          
+    952              _psp_destroy_stack_frame(victim_ptr);
+    953          
+    954          #if !MQX_LITE_VERSION_NUMBER
+    955              /* Free the task descriptor. */
+    956              if ((victim_ptr->FLAGS & TASK_STACK_PREALLOCATED) == 0) {
+    957                  _mem_free(victim_ptr);
+    958              } /* Endif */
+    959          #endif /* MQX_LITE_VERSION_NUMBER */
+    960          
+    961          #if MQX_ENABLE_USER_MODE
+    962              if (victim_ptr->FLAGS & MQX_USER_TASK) {
+    963                  _int_disable();
+    964                  kernel_data->USR_TASK_RUN_COUNT--;
+    965                  _int_enable();
+    966              }
+    967          #endif /* MQX_ENABLE_USER_MODE */
+    968          
+    969              _KLOGX2(KLOG_task_destroy, MQX_OK);
+    970              return(MQX_OK);
+    971          
+    972          }
+    973          
+    974          /*!
+    975           * \brief Destroys the task.
+    976           *
+    977           * This function does the following for the task being destroyed:
+    978           * \n - Frees memory resources that the task allocated with functions from the
+    979           * _mem and _partition families.
+    980           * \n - Closes all queues that the task owns and frees all the queue elements.
+    981           * \n - Frees any other component resources that the task owns.
+    982           *
+    983           * \param[in] task_id One of the following:
+    984           * \n - Task ID of the task to be destroyed.
+    985           * \n - MQX_NULL_TASK_ID (Destroy the calling task.)
+    986           *
+    987           * \return MQX_OK
+    988           * \return MQX_INVALID_TASK_ID
+    989           *
+    990           * \warning If the task being destroyed is remote, blocks the calling task until
+    991           * the task is destroyed.
+    992           * \warning If the task being destroyed is local, does not block the calling task.
+    993           * \warning If the task being destroyed is the active task, blocks it.
+    994           *
+    995           * \see _task_create
+    996           * \see _task_create_blocked
+    997           * \see _task_create_at
+    998           * \see _task_get_creator
+    999           * \see _task_get_id
+   1000           * \see _task_abort
+   1001           */
+   1002          _mqx_uint _task_destroy
+   1003          (
+   1004              _task_id task_id
+   1005          )
+   1006          {
+   1007          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+   1008              if (MQX_RUN_IN_USER_MODE)
+   1009              {
+   1010                  return _usr_task_destroy(task_id);
+   1011              }
+   1012          #endif
+   1013          
+   1014              return _task_destroy_internal(task_id, FALSE);
+   1015          }
+   1016          
+   1017          
+   1018          #if MQX_ENABLE_USER_MODE
+   1019          /*!
+   1020           * \brief Destroys the task.
+   1021           *
+   1022           * This function is an equivalent to the _task_destroy() API call but it can be
+   1023           * executed from within the User task or other code running in the CPU User mode.
+   1024           * Parameters passed to this function by pointer are required to meet the memory
+   1025           * protection requirements as described in the parameter list below.
+   1026           *
+   1027           * \param[in] task_id One of the following:
+   1028           * \n - Task ID of the task to be destroyed.
+   1029           * \n - MQX_NULL_TASK_ID (Destroy the calling task.)
+   1030           *
+   1031           * \return MQX_OK
+   1032           * \return MQX_INVALID_TASK_ID
+   1033           *
+   1034           * \warning If the task being destroyed is remote, blocks the calling task until
+   1035           * the task is destroyed.
+   1036           * \warning If the task being destroyed is local, does not block the calling task.
+   1037           * \warning If the task being destroyed is the active task, blocks it.
+   1038           *
+   1039           * \see _task_destroy
+   1040           * \see _usr_task_create
+   1041           * \see _usr_task_abort
+   1042           */
+   1043          _mqx_uint _usr_task_destroy
+   1044          (
+   1045              _task_id task_id
+   1046          )
+   1047          {
+   1048              MQX_API_CALL_PARAMS params = {(uint_32)task_id, 0, 0, 0, 0};
+   1049              return _mqx_api_call(MQX_API_TASK_DESTROY, &params);
+   1050          }
+   1051          
+   1052          #endif /* MQX_ENABLE_USER_MODE */
+   1053          
+   1054          #if MQXCFG_ENABLE_FP && PSP_HAS_FPU
+   1055          #if !MQX_LITE_VERSION_NUMBER
+   1056          
+   1057          /*!
+   1058           * \brief Enables floating-point context switching for the active task.
+   1059           *
+   1060           * When MQX performs a context switch (due to _task_enable_fp call), floating-point
+   1061           * registers are saved and restored. Otherwise ( _task_disable_fp call) floating-point
+   1062           * registers are not saved and restored.
+   1063           *
+   1064           * \warning Changes context information that MQX stores.
+   1065           *
+   1066           * \see _task_disable_fp
+   1067           */
+   1068          boolean _task_enable_fp(void)
+   1069          {
+   1070              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   1071              TD_STRUCT_PTR td_ptr;
+   1072              boolean res = TRUE;
+   1073          
+   1074              _GET_KERNEL_DATA(kernel_data);
+   1075              _KLOGE1(KLOG_task_enable_fp);
+   1076          
+   1077              td_ptr = kernel_data->ACTIVE_PTR;
+   1078              _int_disable();
+   1079          
+   1080              if (NULL == td_ptr->FLOAT_CONTEXT_PTR)
+   1081              {
+   1082                  /* we dont have allocated space for fp context... try allocate it */
+   1083                  _psp_build_float_context(td_ptr);
+   1084              }
+   1085          
+   1086              if (NULL != td_ptr->FLOAT_CONTEXT_PTR)
+   1087              {
+   1088                  /* we have allocated space for fp context */
+   1089                  td_ptr->FLAGS |= MQX_FLOATING_POINT_TASK;
+   1090                  if (kernel_data->FP_ACTIVE_PTR != NULL)
+   1091                  {
+   1092                      if (kernel_data->FP_ACTIVE_PTR != kernel_data->ACTIVE_PTR)
+   1093                      {
+   1094                          _psp_save_fp_context_internal();
+   1095                      }
+   1096                  }
+   1097                  kernel_data->FP_ACTIVE_PTR = kernel_data->ACTIVE_PTR;
+   1098              }
+   1099              else
+   1100              {
+   1101                  /* some problem - TD dont have allocated space for fp context */
+   1102                  res = FALSE;
+   1103              }
+   1104          
+   1105              _int_enable();
+   1106              _KLOGX1(KLOG_task_enable_fp);
+   1107          
+   1108              return res;
+   1109          }
+   1110          
+   1111          /*!
+   1112           * \brief Disables floating-point context switching for the active task if the
+   1113           * task is a floating-point task.
+   1114           *
+   1115           * When MQX performs a context switch (due to _task_enable_fp call), floating-point
+   1116           * registers are saved and restored. Otherwise ( _task_disable_fp call) floating-point
+   1117           * registers are not saved and restored.
+   1118           *
+   1119           * \warning Changes context information that MQX stores.
+   1120           *
+   1121           * \see _task_enable_fp
+   1122           */
+   1123          void _task_disable_fp(void)
+   1124          { /* Body */
+   1125              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   1126              TD_STRUCT_PTR                   td_ptr;
+   1127          
+   1128              _GET_KERNEL_DATA(kernel_data);
+   1129              _KLOGE1(KLOG_task_disable_fp);
+   1130          
+   1131              td_ptr = kernel_data->ACTIVE_PTR;
+   1132              _int_disable();
+   1133              if (td_ptr->FLAGS & MQX_FLOATING_POINT_TASK)
+   1134              {
+   1135                  td_ptr->FLAGS &= ~MQX_FLOATING_POINT_TASK;
+   1136                  kernel_data->FP_ACTIVE_PTR = NULL;
+   1137              }
+   1138          
+   1139              if (NULL != td_ptr->FLOAT_CONTEXT_PTR)
+   1140              {
+   1141                  /* deallocate fp context area */
+   1142                  _mem_free(td_ptr->FLOAT_CONTEXT_PTR);
+   1143                  td_ptr->FLOAT_CONTEXT_PTR = NULL;
+   1144              }
+   1145          
+   1146              _int_enable();
+   1147              _KLOGX1(KLOG_task_disable_fp);
+   1148          
+   1149          } /* Endbody */
+   1150          #endif /* MQX_LITE_VERSION_NUMBER */
+   1151          #endif /* MQXCFG_ENABLE_FP && PSP_HAS_FPU */
+   1152          
+   1153          #if MQX_HAS_TASK_ENVIRONMENT
+   1154          
+   1155          /*!
+   1156           * \brief Sets the address of the application-specific environment data for the task.
+   1157           *
+   1158           * \param[in] task_id         Task ID of the task whose environment is to be set.
+   1159           * \param[in] environment_ptr Pointer to the environment data.
+   1160           *
+   1161           * \return Previous environment data (Success.)
+   1162           * \return NULL (Failure.)
+   1163           *
+   1164           * \warning On failure, calls _task_set_error() to set the task error code to
+   1165           * MQX_INVALID_TASK_ID.
+   1166           *
+   1167           * \see _task_get_environment
+   1168           * \see _task_get_parameter
+   1169           * \see _task_get_parameter_for
+   1170           * \see _task_set_parameter
+   1171           * \see _task_set_parameter_for
+   1172           * \see _task_set_error
+   1173           */
+   1174          pointer _task_set_environment
+   1175          (
+   1176              _task_id    task_id,
+   1177              pointer     environment_ptr
+   1178          )
+   1179          { /* Body */
+   1180              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+   1181              TD_STRUCT_PTR td_ptr;
+   1182              pointer       old_env_ptr;
+   1183          
+   1184              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+   1185              _KLOGE3(KLOG_task_set_environment, task_id, environment_ptr);
+   1186          
+   1187              td_ptr = (TD_STRUCT_PTR) _task_get_td(task_id);
+   1188              if (td_ptr == NULL)
+   1189              {
+   1190                  _task_set_error(MQX_INVALID_TASK_ID);
+   1191                  _KLOGX2(KLOG_task_set_environment, NULL);
+   1192                  return (NULL);
+   1193              }/* Endif */
+   1194          
+   1195              old_env_ptr = td_ptr->ENVIRONMENT_PTR;
+   1196              td_ptr->ENVIRONMENT_PTR = environment_ptr;
+   1197          
+   1198              _KLOGX2(KLOG_task_set_environment, old_env_ptr);
+   1199              return (old_env_ptr);
+   1200          
+   1201          } /* Endbody */
+   1202          
+   1203          /*!
+   1204           * \brief Gets a pointer to the application-specific environment data for the task.
+   1205           *
+   1206           * \param[in] task_id Task ID of the task whose environment is to be obtained.
+   1207           *
+   1208           * \return Environment data (Success.)
+   1209           * \return NULL (Failure.)
+   1210           *
+   1211           * \warning On failure, calls _task_set_error() to set the task error code to
+   1212           * MQX_INVALID_TASK_ID.
+   1213           *
+   1214           * \see _task_set_environment
+   1215           * \see _task_get_parameter
+   1216           * \see _task_get_parameter_for
+   1217           * \see _task_set_parameter
+   1218           * \see _task_set_parameter_for
+   1219           * \see _task_set_error
+   1220           */
+   1221          pointer _task_get_environment
+   1222          (
+   1223              _task_id task_id
+   1224          )
+   1225          { /* Body */
+   1226              TD_STRUCT_PTR td_ptr;
+   1227          
+   1228              td_ptr = (TD_STRUCT_PTR) _task_get_td(task_id);
+   1229              if (td_ptr == NULL)
+   1230              {
+   1231                  _task_set_error(MQX_INVALID_TASK_ID);
+   1232                  return (NULL);
+   1233              }/* Endif */
+   1234          
+   1235              return (td_ptr->ENVIRONMENT_PTR);
+   1236          
+   1237          } /* Endbody */
+   1238          
+   1239          #endif /* MQX_HAS_TASK_ENVIRONMENT */
+   1240          
+   1241          #if MQX_HAS_EXCEPTION_HANDLER
+   1242          
+   1243          /*!
+   1244           * \brief Gets a pointer to the task exception handler.
+   1245           *
+   1246           * \param[in] task_id Task ID of the task whose exception handler is to be obtained.
+   1247           *
+   1248           * \return Pointer to the task exception handler for the task (might be NULL).
+   1249           * \return NULL (Task ID is not valid.)
+   1250           *
+   1251           * \warning On failure, calls _task_set_error() to set the task error code to
+   1252           * MQX_INVALID_TASK_ID.
+   1253           *
+   1254           * \see _task_set_exception_handler
+   1255           * \see _task_get_exit_handler
+   1256           * \see _task_set_exit_handler
+   1257           * \see _int_exception_isr
+   1258           * \see _task_set_error
+   1259           */
+   1260          TASK_EXCEPTION_FPTR _task_get_exception_handler
+   1261          (
+   1262              _task_id        task_id
+   1263          )
+   1264          { /* Body */
+   1265              TD_STRUCT_PTR       td_ptr;
+   1266              TASK_EXCEPTION_FPTR excpt_function;
+   1267          
+   1268              td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+   1269              if ( td_ptr == NULL )
+   1270              {
+   1271                  _task_set_error(MQX_INVALID_TASK_ID);
+   1272                  return( NULL );
+   1273              }/* Endif */
+   1274          
+   1275              excpt_function   = td_ptr->EXCEPTION_HANDLER_PTR;
+   1276          
+   1277              return(excpt_function);
+   1278          
+   1279          } /* Endbody */
+   1280          
+   1281          /*!
+   1282           * \brief Sets the address of the task exception handler.
+   1283           *
+   1284           * \param[in] task_id         Task ID of the task whose exception handler is to be set.
+   1285           * \param[in] handler_address Pointer to the task exception handler.
+   1286           *
+   1287           * \return Pointer to the previous task exception handler (might be NULL).
+   1288           * \return NULL (Task ID is not valid.)
+   1289           *
+   1290           * \warning On failure, calls _task_set_error() to set the task error code to
+   1291           * MQX_INVALID_TASK_ID.
+   1292           *
+   1293           * \see _task_get_exception_handler
+   1294           * \see _task_get_exit_handler
+   1295           * \see _task_set_exit_handler
+   1296           * \see _int_exception_isr
+   1297           * \see _task_set_error
+   1298           */
+   1299          TASK_EXCEPTION_FPTR _task_set_exception_handler
+   1300          (
+   1301              _task_id            task_id,
+   1302              TASK_EXCEPTION_FPTR handler_address
+   1303          )
+   1304          { /* Body */
+   1305              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+   1306              TD_STRUCT_PTR       td_ptr;
+   1307              TASK_EXCEPTION_FPTR old_function;
+   1308          
+   1309              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+   1310              _KLOGE3(KLOG_task_set_exception_handler, task_id, handler_address);
+   1311          
+   1312              td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+   1313              if ( td_ptr == NULL )
+   1314              {
+   1315                  _task_set_error(MQX_INVALID_TASK_ID);
+   1316                  _KLOGX2(KLOG_task_set_exception_handler, NULL);
+   1317                  return( NULL );
+   1318              } /* Endif */
+   1319          
+   1320              old_function = td_ptr->EXCEPTION_HANDLER_PTR;
+   1321              td_ptr->EXCEPTION_HANDLER_PTR = handler_address;
+   1322          
+   1323              _KLOGX2(KLOG_task_set_exception_handler, old_function);
+   1324              return(old_function);
+   1325          
+   1326          } /* Endbody */
+   1327          
+   1328          #endif /* MQX_HAS_EXCEPTION_HANDLER */
+   1329          
+   1330          #if MQX_HAS_EXIT_HANDLER
+   1331          /*!
+   1332           * \brief Gets a pointer to the task exit handler for the task.
+   1333           *
+   1334           * MQX calls a task's task exit handler if either of these conditions is true:
+   1335           * \n - Task is terminated with _task_abort().
+   1336           * \n - Task returns from its function body (for example, if it calls _mqx_exit()).
+   1337           *
+   1338           * \param[in] task_id Task ID of the task whose exit handler is to be obtained.
+   1339           *
+   1340           * \return Pointer to the exit handler (might be NULL).
+   1341           * \return NULL (Task_id is not valid.)
+   1342           *
+   1343           * \warning On failure, calls _task_set_error() to set the task error code to
+   1344           * MQX_INVALID_TASK_ID.
+   1345           *
+   1346           * \see _task_set_exit_handler
+   1347           * \see _mqx_exit
+   1348           * \see _task_get_exception_handler
+   1349           * \see _task_set_exception_handler
+   1350           * \see _task_abort
+   1351           * \see _task_set_error
+   1352           */
+   1353          TASK_EXIT_FPTR _task_get_exit_handler
+   1354          (
+   1355              _task_id        task_id
+   1356          )
+   1357          { /* Body */
+   1358              TD_STRUCT_PTR  td_ptr;
+   1359              TASK_EXIT_FPTR exit_function;
+   1360          
+   1361              td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+   1362              if ( td_ptr == NULL )
+   1363              {
+   1364                  _task_set_error(MQX_INVALID_TASK_ID);
+   1365                  return( NULL );
+   1366              }/* Endif */
+   1367          
+   1368              exit_function = td_ptr->EXIT_HANDLER_PTR;
+   1369          
+   1370              return(exit_function);
+   1371          } /* Endbody */
+   1372          
+   1373          /*!
+   1374           * \brief Sets the address of the task exit handler for the task.
+   1375           *
+   1376           * MQX calls a task's task exit handler if either of these conditions is true:
+   1377           * \n - Task is terminated with _task_abort().
+   1378           * \n - Task returns from its function body (for example, if it calls _mqx_exit()).
+   1379           *
+   1380           * \param[in] task_id              Task ID of the task whose exit handler is to be set.
+   1381           * \param[in] exit_handler_address Pointer to the exit handler for the task.
+   1382           *
+   1383           * \return Pointer to the previous exit handler (might be NULL).
+   1384           * \return NULL (Task_id is not valid.)
+   1385           *
+   1386           * \warning On failure, calls _task_set_error() to set the task error code to
+   1387           * MQX_INVALID_TASK_ID.
+   1388           *
+   1389           * \see _task_get_exit_handler
+   1390           * \see _mqx_exit
+   1391           * \see _task_get_exception_handler
+   1392           * \see _task_set_exception_handler
+   1393           * \see _task_abort
+   1394           * \see _task_set_error
+   1395           */
+   1396          TASK_EXIT_FPTR _task_set_exit_handler
+   1397          (
+   1398              _task_id       task_id,
+   1399              TASK_EXIT_FPTR exit_handler_address
+   1400          )
+   1401          { /* Body */
+   1402              _KLOGM(KERNEL_DATA_STRUCT_PTR kernel_data;)
+   1403              TD_STRUCT_PTR  td_ptr;
+   1404              TASK_EXIT_FPTR old_function;
+   1405          
+   1406              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+   1407              _KLOGE3(KLOG_task_set_exit_handler, task_id, exit_handler_address);
+   1408          
+   1409              td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+   1410              if ( td_ptr == NULL )
+   1411              {
+   1412                  _task_set_error(MQX_INVALID_TASK_ID);
+   1413                  _KLOGX2(KLOG_task_set_exit_handler, NULL);
+   1414                  return( NULL );
+   1415              }/* Endif */
+   1416          
+   1417              old_function = td_ptr->EXIT_HANDLER_PTR;
+   1418              td_ptr->EXIT_HANDLER_PTR = exit_handler_address;
+   1419          
+   1420              _KLOGX2(KLOG_task_set_exit_handler, old_function);
+   1421              return(old_function);
+   1422          
+   1423          } /* Endbody */
+   1424          
+   1425          #endif /* MQX_HAS_EXIT_HANDLER */
+   1426          
+   1427          #if MQX_TD_HAS_TASK_TEMPLATE_PTR
+   1428          /*!
+   1429           * \brief Gets the task ID that is associated with the task name.
+   1430           *
+   1431           * This function uses a task name (from its task template) to find a task id. Only
+   1432           * the first task found with the provided name is found.
+   1433           *
+   1434           * \param[in] name_ptr Pointer to the name to find in the task template list.
+   1435           *
+   1436           * \return Task ID that is associated with the first match of name_ptr.
+   1437           * \return MQX_NULL_TASK_ID (Name is not in the task template list.)
+   1438           *
+   1439           * \see _task_get_creator
+   1440           * \see _task_get_processor
+   1441           * \see _task_get_id
+   1442           */
+   1443          _task_id _task_get_id_from_name
+   1444          (
+   1445              char_ptr name_ptr
+   1446          )
+   1447          { /* Body */
+   1448              KERNEL_DATA_STRUCT_PTR  kernel_data;
+   1449              TD_STRUCT_PTR           td_ptr;
+   1450              _mqx_uint               size;
+   1451          
+   1452              _GET_KERNEL_DATA(kernel_data);
+   1453          
+   1454              _lwsem_wait((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+   1455          
+   1456              td_ptr = (TD_STRUCT_PTR)((uchar_ptr)kernel_data->TD_LIST.NEXT -
+   1457                       FIELD_OFFSET(TD_STRUCT,TD_LIST_INFO));
+   1458              size   = _QUEUE_GET_SIZE(&kernel_data->TD_LIST);
+   1459          
+   1460              while (size && td_ptr)
+   1461              {
+   1462                  if (strncmp( td_ptr->TASK_TEMPLATE_PTR->TASK_NAME, name_ptr,
+   1463                                  MQX_MAX_TASK_NAME_SIZE) == 0)
+   1464                  {
+   1465                      _lwsem_post((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+   1466                      return td_ptr->TASK_ID;
+   1467                  } /* Endif */
+   1468                  size--;
+   1469                  td_ptr = (TD_STRUCT_PTR)((uchar_ptr)(td_ptr->TD_LIST_INFO.NEXT) -
+   1470                           FIELD_OFFSET(TD_STRUCT,TD_LIST_INFO));
+   1471              } /* Endwhile */
+   1472          
+   1473              _lwsem_post((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+   1474          
+   1475              return MQX_NULL_TASK_ID;
+   1476          
+   1477          } /* Endbody */
+   1478          
+   1479          /*!
+   1480           * \brief Gets the pointer to the task template for the task ID.
+   1481           *
+   1482           * \param[in] task_id Task ID for the task for which to get pointer.
+   1483           *
+   1484           * \return Pointer to the task's task template. NULL if an invalid task_id is
+   1485           * presented.
+   1486           *
+   1487           * \see _task_get_template_index
+   1488           * \see _task_get_index_from_id
+   1489           * \see TASK_TEMPLATE_STRUCT
+   1490           */
+   1491          TASK_TEMPLATE_STRUCT_PTR  _task_get_template_ptr
+   1492          (
+   1493              _task_id  task_id
+   1494          )
+   1495          { /* Body */
+   1496              TD_STRUCT_PTR  td_ptr;
+   1497          
+   1498              td_ptr = _task_get_td(task_id);
+   1499          
+   1500              return (td_ptr ? td_ptr->TASK_TEMPLATE_PTR : NULL);
+   1501          
+   1502          } /* Endbody */
+   1503          
+   1504          #endif /* MQX_TD_HAS_TASK_TEMPLATE_PTR */
+   1505          
+   1506          /*!
+   1507           * \brief Gets the task template index that is associated with the task name.
+   1508           *
+   1509           * \param[in] name_ptr Pointer to the name to find in the task template list.
+   1510           *
+   1511           * \return Task template index that is associated with the first match of name_ptr.
+   1512           * \return MQX_NULL_TASK_ID (Name is not in the task template list.)
+   1513           *
+   1514           * \see _task_get_id_from_name
+   1515           * \see _task_get_index_from_id
+   1516           */
+   1517          _mqx_uint  _task_get_template_index
+   1518          (
+   1519              char_ptr name_ptr
+   1520          )
+   1521          { /* Body */
+   1522              KERNEL_DATA_STRUCT_PTR   kernel_data;
+   1523              TASK_TEMPLATE_STRUCT_PTR task_template_ptr;
+   1524          
+   1525              _GET_KERNEL_DATA(kernel_data);
+   1526          
+   1527              _lwsem_wait((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+   1528          
+   1529              /* Search all the local task templates for one whose index matches */
+   1530              task_template_ptr = kernel_data->INIT.TASK_TEMPLATE_LIST;
+   1531          
+   1532              while (task_template_ptr->TASK_TEMPLATE_INDEX)
+   1533              {
+   1534                  if (task_template_ptr->TASK_NAME != NULL)
+   1535                  {
+   1536                      if (strncmp( task_template_ptr->TASK_NAME, name_ptr,
+   1537                                      MQX_MAX_TASK_NAME_SIZE) == 0)
+   1538                      {
+   1539                          break;
+   1540                      } /* Endif */
+   1541                  } /* Endif */
+   1542                  ++task_template_ptr;
+   1543              } /* Endwhile */
+   1544          
+   1545              _lwsem_post((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+   1546          
+   1547              return task_template_ptr->TASK_TEMPLATE_INDEX;
+   1548          
+   1549          } /* Endwhile */
+   1550          
+   1551          /*!
+   1552           * \brief Gets the task ID out of the task descriptor.
+   1553           *
+   1554           * \param[in] td_ptr Pointer to the task descriptor.
+   1555           *
+   1556           * \return TASK_ID Task ID
+   1557           * \return MQX_NULL_TASK_ID
+   1558           */
+   1559          _task_id _task_get_id_from_td
+   1560          (
+   1561              pointer td_ptr
+   1562          )
+   1563          {
+   1564              if (NULL == td_ptr)
+   1565              {
+   1566                  return MQX_NULL_TASK_ID;
+   1567              }
+   1568              return ((TD_STRUCT_PTR)td_ptr)->TASK_ID;
+   1569          }
+   1570          
+   1571          #if MQX_TD_HAS_TASK_TEMPLATE_PTR || MQX_TD_HAS_TEMPLATE_INDEX
+   1572          
+   1573          /*!
+   1574           * \brief Gets the task template index for the task ID.
+   1575           *
+   1576           * \param[in] task_id Task ID to look up.
+   1577           *
+   1578           * \return Task template index.
+   1579           * \return 0 (Task ID was not found.)
+   1580           *
+   1581           * \see _task_get_template_index
+   1582           */
+   1583          _mqx_uint _task_get_index_from_id
+   1584          (
+   1585              _task_id task_id
+   1586          )
+   1587          { /* Body */
+   1588              TD_STRUCT_PTR           td_ptr;
+   1589          
+   1590              td_ptr = _task_get_td(task_id);
+   1591          
+   1592              if (td_ptr == NULL)
+   1593              {
+   1594                  return 0;
+   1595              } /* Endif */
+   1596          
+   1597          #if MQX_TD_HAS_TASK_TEMPLATE_PTR
+   1598              return td_ptr->TASK_TEMPLATE_PTR->TASK_TEMPLATE_INDEX;
+   1599          #elif MQX_TD_HAS_TEMPLATE_INDEX
+   1600              return td_ptr->TEMPLATE_INDEX;
+   1601          #else
+   1602              return 0;
+   1603          #endif
+   1604          
+   1605          } /* Endbody */
+   1606          #endif /* MQX_TD_HAS_TASK_TEMPLATE_PTR || MQX_TD_HAS_TEMPLATE_INDEX */
+   1607          
+   1608          /*!
+   1609           * \brief Gets the task creation parameter of the active task.
+   1610           *
+   1611           * If a deeply nested function needs the task creation parameter, it can get the
+   1612           * parameter with _task_get_parameter() or _task_get_parameter_for() rather than
+   1613           * have the task's main body pass the parameter to it.
+   1614           *
+   1615           * \return Creation parameter (might be NULL).
+   1616           *
+   1617           * \see _task_get_parameter_for
+   1618           * \see _task_set_parameter
+   1619           * \see _task_set_parameter_for
+   1620           * \see _task_create
+   1621           * \see _task_create_blocked
+   1622           * \see _task_create_at
+   1623           */
+   1624          uint_32 _task_get_parameter(void)
+   1625          { /* Body */
+   1626              KERNEL_DATA_STRUCT_PTR     kernel_data;
+   1627          
+   1628              _GET_KERNEL_DATA(kernel_data);
+   1629          
+   1630              return _task_get_parameter_internal(kernel_data->ACTIVE_PTR);
+   1631          
+   1632          } /* Endbody */
+   1633          
+   1634          /*!
+   1635           * \brief Gets the task creation parameter of the specified task.
+   1636           *
+   1637           * If a deeply nested function needs the task creation parameter, it can get the
+   1638           * parameter with _task_get_parameter() or _task_get_parameter_for() rather than
+   1639           * have the task's main body pass the parameter to it.
+   1640           *
+   1641           * \param[in] tid Task ID of the task to get creation parameter from.
+   1642           *
+   1643           * \return Creation parameter (might be NULL).
+   1644           *
+   1645           * \see _task_get_parameter
+   1646           * \see _task_set_parameter
+   1647           * \see _task_set_parameter_for
+   1648           * \see _task_create
+   1649           * \see _task_create_blocked
+   1650           * \see _task_create_at
+   1651           */
+   1652          uint_32 _task_get_parameter_for
+   1653          (
+   1654              _task_id  tid
+   1655          )
+   1656          { /* Body */
+   1657              TD_STRUCT_PTR td_ptr;
+   1658          
+   1659              td_ptr = (TD_STRUCT_PTR)_task_get_td(tid);
+   1660          
+   1661              return _task_get_parameter_internal(td_ptr);
+   1662          
+   1663          } /* Endbody */
+   1664          
+   1665          /*!
+   1666           * \private
+   1667           *
+   1668           * \brief Gets the task creation parameter of the specified task.
+   1669           *
+   1670           * \param[in] td_ptr Task ID of the task to get creation parameter from.
+   1671           *
+   1672           * \return Creation parameter (might be NULL).
+   1673           *
+   1674           * \see _task_get_parameter
+   1675           * \see _task_get_parameter_for
+   1676           *
+   1677           * \see TD_STRUCT
+   1678           */
+   1679          uint_32 _task_get_parameter_internal
+   1680          (
+   1681              TD_STRUCT_PTR td_ptr
+   1682          )
+   1683          {
+   1684              PSP_STACK_START_STRUCT_PTR stack_start_ptr;
+   1685              stack_start_ptr = _psp_get_stack_start(td_ptr);
+   1686              return PSP_TASK_PARAM(stack_start_ptr);
+   1687          }
+   1688          
+   1689          /*!
+   1690           * \brief Sets the task creation parameter of the active task.
+   1691           *
+   1692           * \param[in] new_value Value to set the task parameter to.
+   1693           *
+   1694           * \return Previous creation parameter (might be NULL).
+   1695           *
+   1696           * \see _task_get_parameter
+   1697           * \see _task_get_parameter_for
+   1698           * \see _task_set_parameter_for
+   1699           * \see _task_create
+   1700           * \see _task_create_blocked
+   1701           * \see _task_create_at
+   1702           */
+   1703          uint_32 _task_set_parameter
+   1704          (
+   1705              uint_32 new_value
+   1706          )
+   1707          { /* Body */
+   1708              KERNEL_DATA_STRUCT_PTR     kernel_data;
+   1709              uint_32                    old_value;
+   1710          
+   1711              _GET_KERNEL_DATA(kernel_data);
+   1712              _KLOGE2(KLOG_task_set_parameter, new_value);
+   1713          
+   1714              old_value = _task_set_parameter_internal(new_value, kernel_data->ACTIVE_PTR);
+   1715          
+   1716              _KLOGX2(KLOG_task_set_parameter, old_value);
+   1717              return old_value;
+   1718          
+   1719          } /* Endbody */
+   1720          
+   1721          /*!
+   1722           * \brief Sets the task creation parameter of the specified task.
+   1723           *
+   1724           * \param[in] new_value Value to set the task parameter to.
+   1725           * \param[in] tid       Task ID of the task to set.
+   1726           *
+   1727           * \return Previous creation parameter (might be NULL).
+   1728           *
+   1729           * \see _task_get_parameter
+   1730           * \see _task_get_parameter_for
+   1731           * \see _task_set_parameter
+   1732           * \see _task_create
+   1733           * \see _task_create_blocked
+   1734           * \see _task_create_at
+   1735           */
+   1736          uint_32 _task_set_parameter_for
+   1737          (
+   1738              uint_32   new_value,
+   1739              _task_id  tid
+   1740          )
+   1741          { /* Body */
+   1742              KERNEL_DATA_STRUCT_PTR  kernel_data;
+   1743              TD_STRUCT_PTR           td_ptr;
+   1744              uint_32                 old_value;
+   1745          
+   1746              _GET_KERNEL_DATA(kernel_data);
+   1747              _KLOGE3(KLOG_task_set_parameter_for, tid, new_value);
+   1748          
+   1749              td_ptr = (TD_STRUCT_PTR)_task_get_td(tid);
+   1750          #if MQX_CHECK_ERRORS
+   1751              if (td_ptr == NULL)
+   1752              {
+   1753                  _KLOGX3(KLOG_task_set_parameter_for, tid, MQX_INVALID_PARAMETER);
+   1754                  return 0;
+   1755              } /* Endif */
+   1756          #endif
+   1757          
+   1758              old_value = _task_set_parameter_internal(new_value, td_ptr);
+   1759          
+   1760              _KLOGX2(KLOG_task_set_parameter_for, old_value);
+   1761              return old_value;
+   1762          
+   1763          } /* Endbody */
+   1764          
+   1765          /*!
+   1766           * \private
+   1767           *
+   1768           * \brief Sets the task creation parameter of the specified task.
+   1769           *
+   1770           * \param[in] new_value Value to set the task parameter to.
+   1771           * \param[in] td_ptr    Task ID of the task to set.
+   1772           *
+   1773           * \return Previous creation parameter (might be NULL).
+   1774           *
+   1775           * \see _task_set_parameter
+   1776           * \see _task_set_parameter_for
+   1777           * \see TD_STRUCT
+   1778           */
+   1779          uint_32 _task_set_parameter_internal
+   1780          (
+   1781              uint_32       new_value,
+   1782              TD_STRUCT_PTR td_ptr
+   1783          )
+   1784          { /* Body */
+   1785              PSP_STACK_START_STRUCT_PTR stack_start_ptr;
+   1786              uint_32                    old_value;
+   1787          
+   1788              stack_start_ptr = _psp_get_stack_start(td_ptr);
+   1789          
+   1790              old_value = PSP_TASK_PARAM(stack_start_ptr);
+   1791              PSP_TASK_PARAM(stack_start_ptr) = new_value;
+   1792          
+   1793              return old_value;
+   1794          
+   1795          } /* Endbody */
+   1796          
+   1797          #if MQX_HAS_DYNAMIC_PRIORITIES
+   1798          
+   1799          /*!
+   1800           * \brief Gets the priority of the task.
+   1801           *
+   1802           * \param[in]  task_id      One of the following:
+   1803           * \n - Task ID of the task for which to set or get info.
+   1804           * \n - MQX_NULL_TASK_ID (Use the calling task.)
+   1805           * \param[out] priority_ptr Pointer to the priority.
+   1806           *
+   1807           * \return MQX_OK
+   1808           * \return MQX_INVALID_TASK_ID (Task_id does not represent a currently valid task.)
+   1809           *
+   1810           * \warning Might dispatch a task.
+   1811           *
+   1812           * \see _task_set_priority
+   1813           * \see _task_get_creator
+   1814           * \see _task_get_processor
+   1815           * \see _sem_create
+   1816           * \see _sem_create_fast
+   1817           * \see _sem_wait
+   1818           * \see _sem_wait_for
+   1819           * \see _sem_wait_ticks
+   1820           * \see _sem_wait_until
+   1821           * \see _mutatr_get_sched_protocol
+   1822           * \see _mutatr_set_sched_protocol
+   1823           * \see _mutex_lock
+   1824           */
+   1825          _mqx_uint _task_get_priority
+   1826          (
+   1827              _task_id      task_id,
+   1828              _mqx_uint_ptr priority_ptr
+   1829          )
+   1830          { /* Body */
+   1831              TD_STRUCT_PTR           td_ptr;
+   1832          
+   1833              td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+   1834              if (td_ptr == NULL)
+   1835              {
+   1836                  return(MQX_INVALID_TASK_ID);
+   1837              } /* Endif */
+   1838              *priority_ptr = td_ptr->HOME_QUEUE->PRIORITY;
+   1839              return MQX_OK;
+   1840          
+   1841          } /* Endbody */
+   1842          
+   1843          /*!
+   1844           * \brief Sets the priority of the task.
+   1845           *
+   1846           * MQX might boost the priority of a task that waits for a semaphore or locks a
+   1847           * mutex. If MQX has boosted the priority of the task that is specified by task_id,
+   1848           * _task_set_priority() will raise but not lower the task's priority.
+   1849           * \n If the task is in the blocked state, priority change takes place when task
+   1850           * is ready.
+   1851           * \n When the task is in the ready state, priority change takes place immediately.
+   1852           *
+   1853           * \param[in]  task_id      One of the following:
+   1854           * \n - Task ID of the task for which to set or get info.
+   1855           * \n - MQX_NULL_TASK_ID (Use the calling task.)
+   1856           * \param[in]  new_priority New task priority.
+   1857           * \param[out] priority_ptr Pointer to the previous task priority.
+   1858           *
+   1859           * \return MQX_OK
+   1860           * \return MQX_INVALID_TASK_ID (Task_id does not represent a currently valid task.)
+   1861           * \return MQX_INVALID_PARAMETER (New_priority is numerically greater than the
+   1862           * lowest-allowable priority of an application task.)
+   1863           *
+   1864           * \warning Might dispatch a task.
+   1865           *
+   1866           * \see _task_get_priority
+   1867           * \see _task_get_creator
+   1868           * \see _task_get_processor
+   1869           * \see _sem_create
+   1870           * \see _sem_create_fast
+   1871           * \see _sem_wait
+   1872           * \see _sem_wait_for
+   1873           * \see _sem_wait_ticks
+   1874           * \see _sem_wait_until
+   1875           * \see _mutatr_get_sched_protocol
+   1876           * \see _mutatr_set_sched_protocol
+   1877           * \see _mutex_lock
+   1878           */
+   1879          _mqx_uint _task_set_priority
+   1880          (
+   1881              _task_id     task_id,
+   1882              _mqx_uint     new_priority,
+   1883              _mqx_uint_ptr priority_ptr
+   1884          )
+   1885          { /* Body */
+   1886              KERNEL_DATA_STRUCT_PTR  kernel_data;
+   1887              READY_Q_STRUCT_PTR      ready_q_ptr;
+   1888              TD_STRUCT_PTR           td_ptr;
+   1889              TASK_QUEUE_STRUCT_PTR   task_queue_ptr;
+   1890          
+   1891              _GET_KERNEL_DATA(kernel_data);
+   1892          
+   1893              _KLOGE3(KLOG_task_set_priority, task_id, new_priority);
+   1894          
+   1895          #if MQX_CHECK_ERRORS
+   1896              if (new_priority > kernel_data->LOWEST_TASK_PRIORITY)
+   1897              {
+   1898                  _KLOGX2(KLOG_task_set_priority, MQX_INVALID_PARAMETER);
+   1899                  return(MQX_INVALID_PARAMETER);
+   1900              }/* Endif */
+   1901          #endif
+   1902          
+   1903              td_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+   1904              if (td_ptr == NULL)
+   1905              {
+   1906                  _KLOGX2(KLOG_task_set_priority, MQX_INVALID_TASK_ID);
+   1907                  return(MQX_INVALID_TASK_ID);
+   1908              } /* Endif */
+   1909          
+   1910              _int_disable();
+   1911              /* Return old priority */
+   1912              *priority_ptr = td_ptr->HOME_QUEUE->PRIORITY;
+   1913          
+   1914              /* Make the change permanent */
+   1915              ready_q_ptr = kernel_data->READY_Q_LIST;
+   1916              td_ptr->HOME_QUEUE = ready_q_ptr - new_priority;
+   1917          
+   1918              if (td_ptr->BOOSTED)
+   1919              {
+   1920                  /* Can only change priority to a higher (lower value) */
+   1921                  if (new_priority < td_ptr->MY_QUEUE->PRIORITY)
+   1922                  {
+   1923                      /* Move the task to the correct priority level */
+   1924                      _sched_set_priority_internal(td_ptr, new_priority);
+   1925                  } /* Endif */
+   1926              }
+   1927              else
+   1928              {
+   1929                  /* Move the task to the correct priority level */
+   1930                  _sched_set_priority_internal(td_ptr, new_priority);
+   1931              } /* Endif */
+   1932          
+   1933              if (td_ptr->STATE == TASK_QUEUE_BLOCKED)
+   1934              {
+   1935                  task_queue_ptr = (TASK_QUEUE_STRUCT_PTR)
+   1936                                   ((uchar_ptr)td_ptr->INFO - FIELD_OFFSET(TASK_QUEUE_STRUCT, TD_QUEUE));
+   1937                  if (task_queue_ptr->POLICY & MQX_TASK_QUEUE_BY_PRIORITY)
+   1938                  {
+   1939                      /* Requeue the td by priority */
+   1940                      _QUEUE_REMOVE(&task_queue_ptr->TD_QUEUE, td_ptr);
+   1941                      _sched_insert_priorityq_internal(&task_queue_ptr->TD_QUEUE, td_ptr);
+   1942                  }/* Endif */
+   1943              }/* Endif */
+   1944          
+   1945              /* Allow higher priority tasks to run */
+   1946              _CHECK_RUN_SCHEDULER();
+   1947          
+   1948              _int_enable();
+   1949          
+   1950              _KLOGX2(KLOG_task_set_priority, MQX_OK);
+   1951              return MQX_OK;
+   1952          
+   1953          } /* Endbody */
+   1954          
+   1955          #endif /* MQX_HAS_DYNAMIC_PRIORITIES */
+   1956          
+   1957          /*!
+   1958           * \brief Makes the task ready to run by putting it in its ready queue.
+   1959           *
+   1960           * This function is the only way to make ready a task that called _task_block().
+   1961           *
+   1962           * \param[in] td Pointer to the task descriptor of the task (on this processor)
+   1963           * to be made ready.
+   1964           *
+   1965           * \warning If the new ready task has higher priority than the calling task,
+   1966           * MQX makes the new ready task active.
+   1967           * \warning Might set one of the following task error codes:
+   1968           * \n - MQX_INVALID_TASK_ID (Task_id is not valid for this processor.)
+   1969           * \n - MQX_INVALID_TASK_STATE (Task is already in its ready queue.)
+   1970           *
+   1971           * \see _task_block
+   1972           * \see _time_dequeue
+   1973           * \see _taskq_resume
+   1974           */
+   1975          void _task_ready
+   1976          (
+   1977              pointer td
+   1978          )
+   1979          {
+   1980              KERNEL_DATA_STRUCT_PTR  kernel_data;
+   1981              TD_STRUCT_PTR           td_ptr = (TD_STRUCT_PTR)td;
+   1982          
+   1983          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+   1984              if (MQX_RUN_IN_USER_MODE)
+   1985              {
+   1986                  _usr_task_ready(td);
+   1987                  return;
+   1988              }
+   1989          #endif
+   1990          
+   1991              _GET_KERNEL_DATA(kernel_data);
+   1992          
+   1993              /* Perform a validity check on the td */
+   1994          #if MQX_CHECK_ERRORS
+   1995              if (PROC_NUMBER_FROM_TASKID(td_ptr->TASK_ID) != kernel_data->INIT.PROCESSOR_NUMBER)
+   1996              {
+   1997                  _KLOGE2(KLOG_task_ready, td_ptr);
+   1998                  _task_set_error(MQX_INVALID_TASK_ID);
+   1999                  _KLOGX1(KLOG_task_ready);
+   2000                  return;
+   2001              }
+   2002          #endif
+   2003          
+   2004              _INT_DISABLE();
+   2005          
+   2006              if (td_ptr->STATE == READY)
+   2007              {
+   2008                  /* The task is already on the ready to run Queue! */
+   2009                  _int_enable();
+   2010                  _KLOGE2(KLOG_task_ready, td_ptr);
+   2011                  _task_set_error(MQX_INVALID_TASK_STATE);
+   2012                  _KLOGX1(KLOG_task_ready);
+   2013                  return;
+   2014              }/* Endif */
+   2015          
+   2016              _task_ready_internal(td_ptr);
+   2017          
+   2018              _INT_ENABLE();
+   2019          
+   2020              _CHECK_RUN_SCHEDULER(); /* Let higher priority task run */
+   2021          }
+   2022          
+   2023          #if MQX_ENABLE_USER_MODE
+   2024          
+   2025          /*!
+   2026           * \brief Makes the task ready to run by putting it in its ready queue.
+   2027           *
+   2028           * This function is an equivalent to the _task_ready() API call but it can be
+   2029           * executed from within the User task or other code running in the CPU User mode.
+   2030           * Parameters passed to this function by pointer are required to meet the memory
+   2031           * protection requirements as described in the parameter list below.
+   2032           *
+   2033           * \param[in] td Pointer to the task descriptor of the task (on this processor)
+   2034           * to be made ready.
+   2035           *
+   2036           * \warning If the new ready task has higher priority than the calling task,
+   2037           * MQX makes the new ready task active.
+   2038           * \warning Might set one of the following task error codes:
+   2039           * \n - MQX_INVALID_TASK_ID (Task_id is not valid for this processor.)
+   2040           * \n - MQX_INVALID_TASK_STATE (Task is already in its ready queue.)
+   2041           *
+   2042           * \see _task_ready
+   2043           */
+   2044          void _usr_task_ready
+   2045          (
+   2046              pointer td
+   2047          )
+   2048          {
+   2049              MQX_API_CALL_PARAMS params = {(uint_32)td, 0, 0, 0, 0};
+   2050              _mqx_api_call(MQX_API_TASK_READY, &params);
+   2051          }
+   2052          
+   2053          #endif /* MQX_ENABLE_USER_MODE */
+   2054          
+   2055          #if MQX_TD_HAS_TASK_TEMPLATE_PTR
+   2056          
+   2057          /*!
+   2058           * \brief Restart the specified task.
+   2059           *
+   2060           * Restart the task specified by the given task_id (the victim).
+   2061           * \n All of the victim's resources are released, specifically all queues are
+   2062           * closed and all memory is freed.
+   2063           * \n Component cleanup functions are called to free any component resources
+   2064           * owned by this task.
+   2065           *
+   2066           * \param[in] task_id   Task ID of the task to restart.
+   2067           * \param[in] param_ptr One of the following:
+   2068           * \n - Pointer to a new task creation parameter.
+   2069           * \n - NULL (victim's creation parameter used).
+   2070           * \param[in] blocked   Whether the task should be restarted in the blocked state or not.
+   2071           *
+   2072           * \return MQX_OK
+   2073           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+   2074           * \return MQX_INVALID_TASK_ID (Task_id is invalid.)
+   2075           * \return MQX_OUT_OF_MEMORY (Not enough memory to rebuild stack.)
+   2076           *
+   2077           * \warning Cannot be called from an ISR.
+   2078           *
+   2079           * \see _task_create
+   2080           * \see _task_create_blocked
+   2081           * \see _task_create_at
+   2082           */
+   2083          static _mqx_uint _task_restart_func
+   2084          (
+   2085              _task_id    task_id,
+   2086              uint_32_ptr param_ptr,
+   2087              boolean     blocked
+   2088          )
+   2089          { /* Body */
+   2090              PSP_STACK_START_STRUCT_PTR  stack_start_ptr;
+   2091              KERNEL_DATA_STRUCT_PTR      kernel_data;
+   2092              TASK_TEMPLATE_STRUCT_PTR    template_ptr;
+   2093              TD_STRUCT_PTR               victim_ptr;
+   2094              TD_STRUCT_PTR               td_ptr;
+   2095              READY_Q_STRUCT_PTR          ready_q_ptr;
+   2096              char_ptr                    stack_ptr;
+   2097              uint_32                     create_param;
+   2098              _processor_number           processor;
+   2099              _mem_size                   stack_size;
+   2100          
+   2101              _GET_KERNEL_DATA(kernel_data);
+   2102              _KLOGE2(KLOG_task_restart, task_id);
+   2103          
+   2104          #if MQX_CHECK_ERRORS
+   2105              if (kernel_data->IN_ISR)
+   2106              {
+   2107                  /* Cannot be called from an ISR */
+   2108                  _KLOGX2(KLOG_task_restart, MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+   2109                  return(MQX_CANNOT_CALL_FUNCTION_FROM_ISR);
+   2110              } /* Endif */
+   2111          #endif
+   2112          
+   2113              if (task_id != MQX_NULL_TASK_ID)
+   2114              {
+   2115                  processor = PROC_NUMBER_FROM_TASKID(task_id);
+   2116                  if (processor != (_processor_number)kernel_data->INIT.PROCESSOR_NUMBER )
+   2117                  {
+   2118          #if MQX_IS_MULTI_PROCESSOR
+   2119                      if ( kernel_data->IPC != NULL )
+   2120                      {
+   2121                          _KLOGX2(KLOG_task_restart, MQX_OK);
+   2122                          return( (*kernel_data->IPC)(FALSE, processor,
+   2123                                          KERNEL_MESSAGES, IPC_TASK_RESTART, 3, (_mqx_uint)task_id,
+   2124                                          (_mqx_uint)param_ptr, (_mqx_uint)blocked));
+   2125                      }
+   2126                      else
+   2127                      {
+   2128          #endif
+   2129                          _KLOGX2(KLOG_task_restart, MQX_INVALID_TASK_ID);
+   2130                          return(MQX_INVALID_TASK_ID);
+   2131          #if MQX_IS_MULTI_PROCESSOR
+   2132                      } /* Endif */
+   2133          #endif
+   2134                  }/* Endif */
+   2135              }/* Endif */
+   2136          
+   2137              victim_ptr = (TD_STRUCT_PTR)_task_get_td(task_id);
+   2138          
+   2139          #if MQX_CHECK_ERRORS
+   2140              if (victim_ptr == NULL)
+   2141              {
+   2142                  _KLOGX2(KLOG_task_restart, MQX_INVALID_TASK_ID);
+   2143                  return(MQX_INVALID_TASK_ID);
+   2144              } /* Endif */
+   2145          
+   2146              if (victim_ptr == SYSTEM_TD_PTR(kernel_data))
+   2147              {
+   2148                  _KLOGX2(KLOG_task_restart, MQX_INVALID_TASK_ID);
+   2149                  return(MQX_INVALID_TASK_ID);
+   2150              } /* Endif */
+   2151          #endif
+   2152          
+   2153              /* First, serialize task creation/destruction/restart */
+   2154              _lwsem_wait((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+   2155          
+   2156              _int_disable();
+   2157              /* remove the victim from any queues it may be in. */
+   2158              if (victim_ptr->STATE == READY)
+   2159              {
+   2160                  if (victim_ptr != kernel_data->ACTIVE_PTR)
+   2161                  {
+   2162                      /* Remove other task from ready queue */
+   2163                      _QUEUE_UNLINK(victim_ptr);
+   2164                  } /* Endif */
+   2165              }
+   2166              else if (victim_ptr->STATE & IS_ON_TIMEOUT_Q)
+   2167              {
+   2168                  /* Remove from time queue */
+   2169                  _TIME_DEQUEUE(victim_ptr, kernel_data);
+   2170              }
+   2171              else if (victim_ptr->STATE & TD_IS_ON_QUEUE)
+   2172              {
+   2173                  /* Remove from queue, where suspended
+   2174                   * eg, MUTEX_BLOCKED, IO_BLOCKED, TASKQ_BLOCKED
+   2175                   */
+   2176                  _QUEUE_REMOVE(victim_ptr->INFO, victim_ptr);
+   2177              } /* Endif */
+   2178          
+   2179              if (victim_ptr->STATE & TD_IS_ON_AUX_QUEUE)
+   2180              {
+   2181                  /*
+   2182                   * Remove from queue, where suspended
+   2183                   * eg, LWSEM_BLOCKED
+   2184                   * (uses AUX_QUEUE field)
+   2185                   */
+   2186                  _QUEUE_REMOVE(victim_ptr->INFO, &victim_ptr->AUX_QUEUE);
+   2187              } /* Endif */
+   2188          
+   2189              victim_ptr->STATE   = DYING;
+   2190          
+   2191          #if MQXCFG_ENABLE_FP && PSP_HAS_FPU
+   2192              /* Stop Floating point context monitoring */
+   2193              if (kernel_data->FP_ACTIVE_PTR == victim_ptr)
+   2194              {
+   2195                  kernel_data->FP_ACTIVE_PTR = NULL;
+   2196              }/* Endif */
+   2197          #endif
+   2198          
+   2199              _int_enable();
+   2200          
+   2201          #if MQX_COMPONENT_DESTRUCTION
+   2202              {
+   2203                  _mqx_uint   i;
+   2204                  for (i = 0; i < MAX_KERNEL_COMPONENTS; ++i)
+   2205                  {
+   2206                      if (kernel_data->COMPONENT_CLEANUP[i] != NULL)
+   2207                      {
+   2208                          (*kernel_data->COMPONENT_CLEANUP[i])(victim_ptr);
+   2209                      } /* Endif */
+   2210                  } /* Endfor */
+   2211              }
+   2212          #endif
+   2213          
+   2214              td_ptr = kernel_data->ACTIVE_PTR;
+   2215          #if !MQX_LITE_VERSION_NUMBER
+   2216              {
+   2217                  pointer                     block_ptr;
+   2218                  block_ptr = _mem_get_next_block_internal(victim_ptr, NULL);
+   2219                  while (block_ptr != NULL)
+   2220                  {
+   2221                      if (block_ptr           == victim_ptr ||
+   2222                          MEM_TYPE_TD         == GET_MEMBLOCK_TYPE(block_ptr) ||
+   2223                          MEM_TYPE_TASK_STACK == GET_MEMBLOCK_TYPE(block_ptr))
+   2224                      {
+   2225          
+   2226                          block_ptr = _mem_get_next_block_internal (victim_ptr, block_ptr);
+   2227                          if (block_ptr == victim_ptr)
+   2228                              break;
+   2229                      }
+   2230                      else
+   2231                      {
+   2232                          _mem_transfer_td_internal(block_ptr, victim_ptr, td_ptr);
+   2233                          _mem_free(block_ptr);
+   2234                          block_ptr = _mem_get_next_block_internal (victim_ptr, NULL);
+   2235                      }
+   2236                  }
+   2237              }
+   2238          #endif /* MQX_LITE_VERSION_NUMBER */
+   2239          
+   2240              /* Free up create/destroy/restart for other tasks */
+   2241              _lwsem_post((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+   2242          
+   2243              template_ptr    = victim_ptr->TASK_TEMPLATE_PTR;
+   2244              stack_start_ptr = _psp_get_stack_start(victim_ptr);
+   2245              if (param_ptr == NULL)
+   2246              {
+   2247                  create_param = stack_start_ptr->PARAMETER;
+   2248              }
+   2249              else
+   2250              {
+   2251                  create_param = *param_ptr;
+   2252              } /* Endif */
+   2253          
+   2254              if (victim_ptr->STACK_ALLOC_BLOCK)    {
+   2255                  stack_ptr = victim_ptr->STACK_ALLOC_BLOCK;
+   2256              }
+   2257              else    {
+   2258                  stack_ptr = (char_ptr)victim_ptr + sizeof(TD_STRUCT);
+   2259              }
+   2260          
+   2261              if (stack_ptr == (pointer)template_ptr)
+   2262              {
+   2263                  /* task has been created with temporary template, copy of template is before stack in allocated block for stack */
+   2264                      stack_ptr +=  sizeof(TASK_TEMPLATE_STRUCT);
+   2265              }
+   2266          
+   2267              stack_size = template_ptr->TASK_STACKSIZE;
+   2268              if ( stack_size <= PSP_MINSTACKSIZE  )
+   2269              {
+   2270                  stack_size = PSP_MINSTACKSIZE;
+   2271              } /* Endif */
+   2272          
+   2273              /* Make the size a multiple of the memory alignment */
+   2274              _MEMORY_ALIGN_VAL_LARGER(stack_size);
+   2275          
+   2276              ready_q_ptr = kernel_data->READY_Q_LIST - template_ptr->TASK_PRIORITY;
+   2277              victim_ptr->MY_QUEUE = ready_q_ptr;
+   2278          #if MQX_HAS_DYNAMIC_PRIORITIES
+   2279              victim_ptr->HOME_QUEUE  = ready_q_ptr;
+   2280          #endif
+   2281              victim_ptr->TASK_SR     = ready_q_ptr->ENABLE_SR;
+   2282              victim_ptr->FLAGS       = template_ptr->TASK_ATTRIBUTES;
+   2283          
+   2284          #if MQX_ENABLE_USER_MODE
+   2285              if (template_ptr->TASK_ATTRIBUTES & MQX_USER_TASK)
+   2286              {
+   2287                  victim_ptr->FLAGS |= TASK_USER_MODE;
+   2288              }
+   2289          #endif /* MQX_ENABLE_USER_MODE */
+   2290          
+   2291          #if MQX_HAS_TIME_SLICE
+   2292              /* Reset the time slice back to the default */
+   2293              if (template_ptr->DEFAULT_TIME_SLICE)
+   2294              {
+   2295          #if (MQX_DEFAULT_TIME_SLICE_IN_TICKS == 0)
+   2296                  uint_32 ticks;
+   2297          
+   2298                  ticks = ((template_ptr->DEFAULT_TIME_SLICE * 2 *
+   2299                                  kernel_data->TICKS_PER_SECOND) / 1000) / 2  /* Rounding.. */;
+   2300                  PSP_ADD_TICKS_TO_TICK_STRUCT(&td_ptr->TIME_SLICE,
+   2301                      ticks, &td_ptr->TIME_SLICE);
+   2302          #else
+   2303                  PSP_ADD_TICKS_TO_TICK_STRUCT(&victim_ptr->TIME_SLICE,
+   2304                      template_ptr->DEFAULT_TIME_SLICE, &victim_ptr->TIME_SLICE);
+   2305          #endif
+   2306              }
+   2307              else
+   2308              {
+   2309                  victim_ptr->TIME_SLICE = kernel_data->SCHED_TIME_SLICE;
+   2310              } /* Endif */
+   2311              /* Reset scheduling policy for task */
+   2312              if (kernel_data->SCHED_POLICY == MQX_SCHED_RR)
+   2313              {
+   2314                  victim_ptr->FLAGS |= MQX_TIME_SLICE_TASK;
+   2315              } /* Endif */
+   2316          #endif
+   2317          
+   2318          #if MQX_USE_IO
+   2319              /* Reset the io streams back to the default */
+   2320              victim_ptr->STDIN_STREAM  = kernel_data->PROCESSOR_STDIN;
+   2321              victim_ptr->STDOUT_STREAM = kernel_data->PROCESSOR_STDOUT;
+   2322              victim_ptr->STDERR_STREAM = kernel_data->PROCESSOR_STDERR;
+   2323          #endif
+   2324          
+   2325              _int_disable();
+   2326          
+   2327              if (victim_ptr == td_ptr)
+   2328              {
+   2329                  _QUEUE_UNLINK(victim_ptr);  /* Remove victim from the queue */
+   2330              } /* Endif */
+   2331          
+   2332              /* Rebuild the task's initial context */
+   2333              if (FALSE == _psp_build_stack_frame(victim_ptr, stack_ptr, stack_size, template_ptr, victim_ptr->TASK_SR, create_param))
+   2334              {
+   2335                  /* build stack failed */
+   2336                  return MQX_OUT_OF_MEMORY;
+   2337              }
+   2338          
+   2339              if (blocked)
+   2340              {
+   2341                  victim_ptr->STATE = BLOCKED;
+   2342              }
+   2343              else
+   2344              {
+   2345                  _task_ready_internal(victim_ptr);
+   2346              } /* Endif */
+   2347          
+   2348              victim_ptr->DISABLED_LEVEL = 0;
+   2349          
+   2350              if (victim_ptr == td_ptr)
+   2351              {
+   2352                  /*
+   2353                   * The active task is to be restarted.
+   2354                   * Will not return from here
+   2355                   */
+   2356                  _sched_run_internal();
+   2357              } /* Endif */
+   2358          
+   2359              /* The victim has been added to the ready Q. Preemption check must be made */
+   2360              if (kernel_data->CURRENT_READY_Q != td_ptr->MY_QUEUE)
+   2361              {
+   2362                  _sched_execute_scheduler_internal();
+   2363              } /* Endif */
+   2364          
+   2365              _int_enable();
+   2366          
+   2367              _KLOGX2(KLOG_task_restart, MQX_OK);
+   2368              return(MQX_OK);
+   2369          
+   2370          } /* Endbody */
+   2371          
+   2372          /*!
+   2373           * \brief Restart the specified task.
+   2374           *
+   2375           * This function closes all queues that the task has open, releases all the task's
+   2376           * resources, and frees all memory that is associated with the task's resources.
+   2377           * \n This function restarts the task with the same task descriptor, task ID, and
+   2378           * task stack (Reserve stack for Stack Start Structure and call the
+   2379           * _task_restart_func().).
+   2380           *
+   2381           * \param[in] task_id   Task ID of the task to restart.
+   2382           * \param[in] param_ptr One of the following:
+   2383           * \n - Pointer to a new task creation parameter.
+   2384           * \n - NULL
+   2385           * \param[in] blocked   Whether the task should be restarted in the blocked state or not.
+   2386           *
+   2387           * \return MQX_OK
+   2388           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+   2389           * \return MQX_INVALID_TASK_ID (Task_id is invalid.)
+   2390           * \return MQX_OUT_OF_MEMORY (Not enough memory to restart function.)
+   2391           *
+   2392           * \warning Cannot be called from an ISR.
+   2393           *
+   2394           * \see _task_create
+   2395           * \see _task_create_blocked
+   2396           * \see _task_create_at
+   2397           */
+   2398          _mqx_uint _task_restart
+   2399          (
+   2400              _task_id    task_id,
+   2401              uint_32_ptr param_ptr,
+   2402              boolean     blocked
+   2403          )
+   2404          { /* Body */
+   2405              /* reserve memory in stack */
+   2406              volatile char dummy_stack_start_struct[sizeof(PSP_STACK_START_STRUCT)];
+   2407              dummy_stack_start_struct[0] = 0x00;
+   2408          
+   2409              /* call the right _task_restart function */
+   2410              return(_task_restart_func(task_id, param_ptr, blocked));
+   2411          }
+   2412          
+   2413          #endif /* MQX_TD_HAS_TASK_TEMPLATE_PTR */
+   2414          
+   2415          /*!
+   2416           * \brief Disables preemption of the current task.
+   2417           *
+   2418           * The _task_stop_preemption() function disables preemption of the active task
+   2419           * unless the task blocks explicitly (_task_block()) or calls _task_start_preemption().
+   2420           *
+   2421           * \warning Changes the preemption ability of tasks.
+   2422           * \warning Interrupts are still handled.
+   2423           *
+   2424           * \see _task_start_preemption
+   2425           * \see _task_ready
+   2426           * \see _task_block
+   2427           */
+   2428          void _task_stop_preemption(void)
+   2429          { /* Body */
+   2430              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   2431              TD_STRUCT_PTR                   td_ptr;
+   2432          
+   2433              _GET_KERNEL_DATA(kernel_data);
+   2434              _KLOGE1(KLOG_task_stop_preemption);
+   2435          
+   2436              td_ptr      = kernel_data->ACTIVE_PTR;
+   2437              _int_disable();
+   2438              td_ptr->FLAGS |= TASK_PREEMPTION_DISABLED;
+   2439              _int_enable();
+   2440              _KLOGX1(KLOG_task_stop_preemption);
+   2441          
+   2442          } /* Endbody */
+   2443          
+   2444          /*!
+   2445           * \brief Enables preemption of the current task.
+   2446           *
+   2447           * The _task_start_preemption() function enables preemption of the active task
+   2448           * after _task_stop_preemption() was called.
+   2449           *
+   2450           * \warning Changes the preemption ability of tasks.
+   2451           * \warning Interrupts are still handled.
+   2452           *
+   2453           * \see _task_stop_preemption
+   2454           * \see _task_ready
+   2455           * \see _task_block
+   2456           */
+   2457          void _task_start_preemption(void)
+   2458          { /* Body */
+   2459              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   2460              TD_STRUCT_PTR                   td_ptr;
+   2461          
+   2462              _GET_KERNEL_DATA(kernel_data);
+   2463              _KLOGE1(KLOG_task_start_preemption);
+   2464          
+   2465              td_ptr      = kernel_data->ACTIVE_PTR;
+   2466              _int_disable();
+   2467              td_ptr->FLAGS &= ~TASK_PREEMPTION_DISABLED;
+   2468              _CHECK_RUN_SCHEDULER(); /* Allow higher priority tasks to run */
+   2469              _int_enable();
+   2470          
+   2471              _KLOGX1(KLOG_task_start_preemption);
+   2472          
+   2473          } /* Endbody */
+   2474          
+   2475          /*!
+   2476           * \brief Determines whether the active task's stack is currently overflowed.
+   2477           *
+   2478           * This function indicates whether the stack is currently past its limit. The
+   2479           * function does not indicate whether the stack previously passed its limit.
+   2480           *
+   2481           * \return TRUE (Stack is out of bounds.)
+   2482           * \return FALSE (Stack is not out of bounds.)
+   2483           *
+   2484           * \see _task_set_error
+   2485           */
+   2486          boolean _task_check_stack(void)
+   2487          { /* Body */
+   2488          #if MQX_TD_HAS_STACK_LIMIT
+   2489              register  KERNEL_DATA_STRUCT_PTR kernel_data;
+   2490              volatile  char                   loc = (char)0;
+   2491          
+   2492              _GET_KERNEL_DATA(kernel_data);
+   2493          
+   2494          #if PSP_STACK_GROWS_TO_LOWER_MEM
+   2495              if ( &loc < ((char_ptr)kernel_data->ACTIVE_PTR->STACK_LIMIT) )
+   2496              {
+   2497          #else
+   2498                  if ( &loc > ((char_ptr)kernel_data->ACTIVE_PTR->STACK_LIMIT) )
+   2499                  {
+   2500          #endif
+   2501                      return (TRUE);
+   2502                  }
+   2503                  else
+   2504                  {
+   2505                      return (FALSE);
+   2506                  } /* Endif */
+   2507          #else
+   2508                  return (FALSE);
+   2509          #endif
+   2510          } /* Endbody */
+   2511          
+   2512          #if !MQX_LITE_VERSION_NUMBER
+   2513          
+   2514          /*!
+   2515           * \brief Gets the processor number of the task's home processor.
+   2516           *
+   2517           * This function returns the processor-number portion of task_id. It cannot check
+   2518           * the validity of task_id because MQX on one processor is unaware of which tasks
+   2519           * might reside on another processor.
+   2520           *
+   2521           * \param[in] task_id Task ID of the task for which to get info.
+   2522           *
+   2523           * \return Processor number of the processor where the task resides.
+   2524           *
+   2525           * \see _task_get_id
+   2526           */
+   2527          _processor_number _task_get_processor
+   2528          (
+   2529              _task_id task_id
+   2530          )
+   2531          { /* Body */
+   2532          
+   2533              return PROC_NUMBER_FROM_TASKID(task_id);
+   2534          
+   2535          } /* Endbody */
+   2536          
+   2537          #endif /* MQX_LITE_VERSION_NUMBER */
+   2538          #if MQX_TD_HAS_PARENT
+   2539          
+   2540          /*!
+   2541           * \brief Gets parent's task ID to the calling task.
+   2542           *
+   2543           * \return Task ID of the parent task.
+   2544           *
+   2545           * \see _task_get_processor
+   2546           * \see _task_get_id
+   2547           */
+   2548          _task_id _task_get_creator(void)
+   2549          { /* Body */
+   2550              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   2551          
+   2552              _GET_KERNEL_DATA(kernel_data);
+   2553              return( kernel_data->ACTIVE_PTR->PARENT );
+   2554          
+   2555          } /* Endbody */
+   2556          #endif /* MQX_TD_HAS_PARENT */
+   2557          
+   2558          #if MQX_TD_HAS_ERROR_CODE
+   2559          
+   2560          /*!
+   2561           * \brief Gets the task error code.
+   2562           *
+   2563           * \return Task error code for the active task.
+   2564           *
+   2565           * \see _task_get_error_ptr
+   2566           * \see _task_set_error
+   2567           * \see _task_errno
+   2568           */
+   2569          _mqx_uint _task_get_error(void)
+   2570          { /* Body */
+   2571              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   2572          
+   2573              _GET_KERNEL_DATA(kernel_data);
+   2574          
+   2575              if (kernel_data->IN_ISR)
+   2576              {
+   2577                  return( kernel_data->INTERRUPT_CONTEXT_PTR->ERROR_CODE );
+   2578              }
+   2579              else
+   2580              {
+   2581                  return( kernel_data->ACTIVE_PTR->TASK_ERROR_CODE );
+   2582              } /* Endif */
+   2583          } /* Endbody */
+   2584          
+   2585          /*!
+   2586           * \brief Gets a pointer to the task error code.
+   2587           *
+   2588           * \return Pointer to the task error code.
+   2589           *
+   2590           * \warning If a task writes to the pointer that _task_get_error_ptr() returns,
+   2591           * the task error code is changed to the value, overwriting any previous error code. To
+   2592           * avoid overwriting a previous error code, a task should use _task_set_error().
+   2593           *
+   2594           * \see _task_get_error
+   2595           * \see _task_set_error
+   2596           * \see _task_errno
+   2597           */
+   2598          _mqx_uint _PTR_ _task_get_error_ptr(void)
+   2599          { /* Body */
+   2600              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   2601          
+   2602              _GET_KERNEL_DATA(kernel_data);
+   2603              if (kernel_data->IN_ISR)
+   2604              {
+   2605                  return( &kernel_data->INTERRUPT_CONTEXT_PTR->ERROR_CODE );
+   2606              }
+   2607              else
+   2608              {
+   2609                  return( &kernel_data->ACTIVE_PTR->TASK_ERROR_CODE );
+   2610              } /* Endif */
+   2611          } /* Endbody */
+   2612          #endif /* MQX_TD_HAS_ERROR_CODE */
+   2613          
+   2614          /*!
+   2615           * \brief Gets the task ID of the active task.
+   2616           *
+   2617           * \return Task ID of the active task.
+   2618           *
+   2619           * \see _task_get_creator
+   2620           * \see _task_get_processor
+   2621           * \see _task_get_id_from_name
+   2622           */
+   2623          _task_id _task_get_id(void)
+   2624          { /* Body */
+   2625              register KERNEL_DATA_STRUCT_PTR kernel_data;
+   2626          
+   2627              _GET_KERNEL_DATA(kernel_data);
+   2628              return( kernel_data->ACTIVE_PTR->TASK_ID );
+   2629          } /* Endbody */
+   2630          
+   2631          /*!
+   2632           * \brief Gets a pointer to the task descriptor for the task ID.
+   2633           *
+   2634           * \param[in] task_id One of:
+   2635           * \n - Task ID for a task on this processor.
+   2636           * \n - MQX_NULL_TASK_ID (Use the current task.)
+   2637           *
+   2638           * \return Pointer to the task descriptor for task_id.
+   2639           * \return NULL (Task_id is not valid for this processor.)
+   2640           *
+   2641           * \see _task_ready
+   2642           */
+   2643          pointer _task_get_td
+   2644          (
+   2645              _task_id task_id
+   2646          )
+   2647          {
+   2648              KERNEL_DATA_STRUCT_PTR  kernel_data;
+   2649              TD_STRUCT_PTR           td_ptr;
+   2650              _mqx_uint               size;
+   2651          
+   2652          #if MQX_ENABLE_USER_MODE && MQX_ENABLE_USER_STDAPI
+   2653              if (MQX_RUN_IN_USER_MODE)
+   2654              {
+   2655                  return _usr_task_get_td(task_id);
+   2656              }
+   2657          #endif
+   2658          
+   2659              _GET_KERNEL_DATA(kernel_data);
+   2660              if (task_id == MQX_NULL_TASK_ID)
+   2661              {
+   2662                  return((pointer)kernel_data->ACTIVE_PTR);
+   2663              }
+   2664          
+   2665              /* check task_id for SYSTEM_TASK_ID */
+   2666              if (task_id == kernel_data->SYSTEM_TD.TASK_ID)
+   2667              {
+   2668                  return((pointer)&(kernel_data->SYSTEM_TD));
+   2669              }
+   2670          
+   2671              /* SPR P171-0022-01 Use int disable, not a semaphore */
+   2672              _INT_DISABLE();
+   2673              /* END SPR */
+   2674          
+   2675              td_ptr = (TD_STRUCT_PTR)((uchar_ptr)kernel_data->TD_LIST.NEXT - FIELD_OFFSET(TD_STRUCT,TD_LIST_INFO));
+   2676          
+   2677              size   = _QUEUE_GET_SIZE(&kernel_data->TD_LIST);
+   2678              while (size--)
+   2679              {
+   2680                  /* END SPR */
+   2681                  if (td_ptr->TASK_ID == task_id)
+   2682                  {
+   2683                      /* SPR P171-0022-01 Use int disable, not a semaphore */
+   2684                      _INT_ENABLE();
+   2685                      /* END SPR */
+   2686                      return (pointer)td_ptr;
+   2687                  } /* Endif */
+   2688                  td_ptr = (TD_STRUCT_PTR)((uchar_ptr)td_ptr->TD_LIST_INFO.NEXT - FIELD_OFFSET(TD_STRUCT,TD_LIST_INFO));
+   2689              } /* Endwhile */
+   2690          
+   2691              /* SPR P171-0022-01 Use int disable, not a semaphore */
+   2692              _int_enable();
+   2693              /* END SPR */
+   2694          
+   2695              return NULL;
+   2696          }
+   2697          
+   2698          #if MQX_ENABLE_USER_MODE
+   2699          
+   2700          /*!
+   2701           * \brief Gets a pointer to the task descriptor for the task ID.
+   2702           *
+   2703           * This function is an equivalent to the _task_get_td() API call but it can be
+   2704           * executed from within the User task or other code running in the CPU User mode.
+   2705           * Parameters passed to this function by pointer are required to meet the memory
+   2706           * protection requirements as described in the parameter list below.
+   2707           *
+   2708           * \param[in] task_id One of:
+   2709           * \n - Task ID for a task on this processor.
+   2710           * \n - MQX_NULL_TASK_ID (Use the current task.)
+   2711           *
+   2712           * \return Pointer to the task descriptor for task_id.
+   2713           * \return NULL (Task_id is not valid for this processor.)
+   2714           *
+   2715           * \see _task_get_td
+   2716           * \see _usr_task_ready
+   2717           */
+   2718          pointer _usr_task_get_td
+   2719          (
+   2720              _task_id task_id
+   2721          )
+   2722          {
+   2723              MQX_API_CALL_PARAMS params = {(uint_32)task_id, 0, 0, 0, 0};
+   2724              return (pointer)_mqx_api_call(MQX_API_TASK_GET_TD, &params);
+   2725          }
+   2726          
+   2727          #endif /* MQX_ENABLE_USER_MODE */
+   2728          /*!
+   2729           * \brief Sets the task error code.
+   2730           *
+   2731           * MQX uses this function to indicate an error. MQX never sets the task error code
+   2732           * to MQX_OK; that is, MQX does not reset the task error code. It is the responsibility
+   2733           * of the application to reset the task error code. As a result, when an application
+   2734           * calls _task_get_error(), it gets the first error that MQX detected since the
+   2735           * last time the application reset the task error code.
+   2736           *
+   2737           * <table>
+   2738           *  <tr>
+   2739           *      <td><b> If the current task error code is: </b></td>
+   2740           *      <td><b> Function changes the task error code: </b></td>
+   2741           *  </tr>
+   2742           *  <tr>
+   2743           *      <td> MQX_OK </td>
+   2744           *      <td> To new_error_code. </td>
+   2745           *  </tr>
+   2746           *  <tr>
+   2747           *      <td> Not MQX_OK </td>
+   2748           *      <td> To new_error_code if new_error_code is MQX_OK. </td>
+   2749           *  </tr>
+   2750           * </table>
+   2751           *
+   2752           * \n If this function is called from an ISR, the function sets the interrupt error code.
+   2753           *
+   2754           * \param[in] new_error_code New task error code.
+   2755           *
+   2756           * \return Previous task error code.
+   2757           *
+   2758           * \see _task_check_stack
+   2759           * \see _task_get_error
+   2760           * \see _task_get_error_ptr
+   2761           * \see _task_errno
+   2762           */
+   2763          _mqx_uint _task_set_error
+   2764          (
+   2765              _mqx_uint new_error_code
+   2766          )
+   2767          { /* Body */
+   2768          #if MQX_TD_HAS_ERROR_CODE
+   2769              register KERNEL_DATA_STRUCT_PTR  kernel_data;
+   2770              register _mqx_uint               old_error_code;
+   2771          
+   2772              _GET_KERNEL_DATA(kernel_data);
+   2773          
+   2774              _KLOGE2(KLOG_task_set_error, new_error_code);
+   2775          
+   2776              /* get the old value */
+   2777              if (kernel_data->IN_ISR)
+   2778              {
+   2779                  old_error_code = kernel_data->INTERRUPT_CONTEXT_PTR->ERROR_CODE;
+   2780              }
+   2781              else
+   2782              {
+   2783                  old_error_code = kernel_data->ACTIVE_PTR->TASK_ERROR_CODE;
+   2784              } /* Endif */
+   2785          
+   2786              if (( new_error_code == MQX_OK ) || ( old_error_code == MQX_OK ))
+   2787              {
+   2788                  if (kernel_data->IN_ISR)
+   2789                  {
+   2790                      kernel_data->INTERRUPT_CONTEXT_PTR->ERROR_CODE = new_error_code;
+   2791                  }
+   2792                  else
+   2793                  {
+   2794                      kernel_data->ACTIVE_PTR->TASK_ERROR_CODE = new_error_code;
+   2795                  } /* Endif */
+   2796              } /* Endif */
+   2797          
+   2798              _KLOGX2(KLOG_task_set_error, old_error_code);
+   2799              return( old_error_code );
+   2800          #else
+   2801              return MQX_OK;
+   2802          #endif
+   2803          
+   2804          }
+   2805          
+   2806          #if MQX_ENABLE_USER_MODE
+   2807          
+   2808          /*!
+   2809           * \brief Sets the task error code.
+   2810           *
+   2811           * This function is an equivalent to the _task_set_error() API call but it can be
+   2812           * executed from within the User task or other code running in the CPU User mode.
+   2813           * Parameters passed to this function by pointer are required to meet the memory
+   2814           * protection requirements as described in the parameter list below.
+   2815           *
+   2816           * \param[in] new_error_code New task error code.
+   2817           *
+   2818           * \return Previous task error code.
+   2819           *
+   2820           * \see _task_set_error
+   2821           */
+   2822          _task_id _usr_task_set_error
+   2823          (
+   2824              _mqx_uint new_error_code
+   2825          )
+   2826          {
+   2827              MQX_API_CALL_PARAMS params = {(uint_32)new_error_code, 0, 0, 0, 0};
+   2828              return _mqx_api_call(MQX_API_TASK_SET_ERROR, &params);
+   2829          }
+   2830          
+   2831          #endif /* MQX_ENABLE_USER_MODE */
+   2832          /*!
+   2833           * \private
+   2834           *
+   2835           * \brief Creates a new task of the type specified by the task template number,
+   2836           * but not make it ready to run.
+   2837           *
+   2838           * \param[in] template_index Task template index number for this task.
+   2839           * \param[in] parameter      The parameter to pass to the newly created task.
+   2840           * \param[in] stack_ptr      Pointer to the stack (if not NULL).
+   2841           * \param[in] stack_size     Stack size if provided by the application.
+   2842           * \param[in] user           User mode functionality.
+   2843           *
+   2844           * \return Pointer to the task descriptor for created task.
+   2845           * \return NULL
+   2846           *
+   2847           * \see TD_STRUCT
+   2848           */
+   2849          TD_STRUCT_PTR _task_build_internal
+   2850          (
+   2851              _mqx_uint     template_index,
+   2852              uint_32       parameter,
+   2853              pointer       stack_ptr,
+   2854              _mqx_uint     stack_size,
+   2855              boolean       user
+   2856          )
+   2857          {
+   2858              KERNEL_DATA_STRUCT_PTR   kernel_data;
+   2859              TD_STRUCT_PTR            td_ptr;
+   2860              TASK_TEMPLATE_STRUCT_PTR task_template_ptr;
+   2861              boolean                  dynamic;
+   2862              uint_32                  create_parameter;
+   2863          
+   2864              _GET_KERNEL_DATA(kernel_data);
+   2865          
+   2866              if ( template_index )
+   2867              {
+   2868                  dynamic = FALSE;
+   2869                  create_parameter = parameter;
+   2870          
+   2871                  /* Search all the local task templates for one whose index matches */
+   2872                  task_template_ptr = kernel_data->INIT.TASK_TEMPLATE_LIST;
+   2873          
+   2874                  while ( task_template_ptr->TASK_TEMPLATE_INDEX &&
+   2875                                  (task_template_ptr->TASK_TEMPLATE_INDEX != template_index) )
+   2876                  {
+   2877                      ++task_template_ptr;
+   2878                  } /* Endwhile */
+   2879                  if (task_template_ptr->TASK_TEMPLATE_INDEX == 0)
+   2880                  {
+   2881                      /* Task not found */
+   2882                      task_template_ptr = NULL;
+   2883                  } /* Endif */
+   2884              }
+   2885              else
+   2886              {
+   2887                  task_template_ptr = (TASK_TEMPLATE_STRUCT_PTR)parameter;
+   2888                  create_parameter  = task_template_ptr->CREATION_PARAMETER;
+   2889                  dynamic = TRUE;
+   2890              } /* Endif */
+   2891          
+   2892          #if MQX_CHECK_ERRORS
+   2893              if (task_template_ptr == NULL)
+   2894              {
+   2895                  _task_set_error(MQX_NO_TASK_TEMPLATE);
+   2896                  return NULL;
+   2897              } /* Endif */
+   2898          #endif
+   2899          
+   2900          
+   2901          #if MQX_ENABLE_USER_MODE
+   2902              /* check template for correct user task parameters */
+   2903              if (user)
+   2904              {
+   2905                  if (!(task_template_ptr->TASK_ATTRIBUTES & MQX_USER_TASK))
+   2906                  {
+   2907                      _task_set_error(MQX_INVALID_PARAMETER);
+   2908                      return NULL;
+   2909                  }
+   2910          
+   2911                  if (kernel_data->INIT.MAX_USER_TASK_PRIORITY && kernel_data->INIT.MAX_USER_TASK_PRIORITY > task_template_ptr->TASK_PRIORITY)
+   2912                  {
+   2913                      _task_set_error(MQX_INVALID_TASK_PRIORITY);
+   2914                      return NULL;
+   2915                  }
+   2916              }
+   2917          #endif
+   2918          
+   2919              /* serialize task creation/destruction */
+   2920              _lwsem_wait((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+   2921          
+   2922              /* Create the task, but do not ready it */
+   2923              td_ptr = _task_init_internal(task_template_ptr, kernel_data->ACTIVE_PTR->TASK_ID, \
+   2924                              create_parameter, dynamic, stack_ptr, stack_size);
+   2925          
+   2926              /* Allow other tasks to create */
+   2927              _lwsem_post((LWSEM_STRUCT_PTR)&kernel_data->TASK_CREATE_LWSEM);
+   2928          
+   2929              return(td_ptr);
+   2930          
+   2931          } /* Endbody */
+   2932          
+   2933          
+   2934          /*! \private */
+   2935          extern void _task_exiting_function_internal(void);  /* Dummy prototype */
+   2936          /*!
+   2937           * \private
+   2938           *
+   2939           * \brief Dummy function so debuggers will display stack correctly.
+   2940           */
+   2941          void _task_exiting_function_internal(void){}
+   2942          
+   2943          /*!
+   2944           * \private
+   2945           *
+   2946           * \brief Executes the exit handler for the current task, then destroys the current task.
+   2947           */
+   2948          void _task_exit_function_internal(void)
+   2949          {
+   2950              KERNEL_DATA_STRUCT_PTR kernel_data;
+   2951              TD_STRUCT_PTR          td_ptr;
+   2952          
+   2953              _GET_KERNEL_DATA(kernel_data);
+   2954              _KLOGE2(KLOG_task_exit_function, kernel_data->ACTIVE_PTR->TASK_ID);
+   2955          
+   2956              td_ptr = kernel_data->ACTIVE_PTR;
+   2957          #if MQX_TASK_DESTRUCTION
+   2958          
+   2959          #if MQX_HAS_EXIT_HANDLER
+   2960              if (td_ptr->EXIT_HANDLER_PTR != NULL)
+   2961              {
+   2962                  (*td_ptr->EXIT_HANDLER_PTR)();
+   2963              }
+   2964          #endif
+   2965              (void)_task_destroy(MQX_NULL_TASK_ID); /* Never returns */
+   2966          #else
+   2967              td_ptr->STATE = DYING;
+   2968              while(TRUE)
+   2969              {
+   2970                  _task_block();
+   2971              }
+   2972          #endif /* MQX_TASK_DESTRUCTION */
+   2973          }
+   2974          
+   2975          #if MQX_EXTRA_TASK_STACK_ENABLE
+   2976          #if !MQX_LITE_VERSION_NUMBER
+   2977          /*!
+   2978           * \brief Gets the base address of the space reserved for the active task.
+   2979           *
+   2980           * \return TD_STRUCT.TOS_RESERVED
+   2981           * \return 0 (MQX is currently in ISR.)
+   2982           *
+   2983           * \see _task_reserve_space
+   2984           */
+   2985          pointer _task_get_reserved_base(void)
+   2986          { /* Body */
+   2987              KERNEL_DATA_STRUCT_PTR kernel_data;
+   2988              _GET_KERNEL_DATA(kernel_data);
+   2989          
+   2990              if (kernel_data->IN_ISR)
+   2991              {
+   2992                  return 0;
+   2993              } /* Endif */
+   2994          
+   2995              return kernel_data->ACTIVE_PTR->TOS_RESERVED;
+   2996          
+   2997          } /* Endbody */
+   2998          #endif /* MQX_LITE_VERSION_NUMBER */
+   2999          #endif /* MQX_EXTRA_TASK_STACK_ENABLE */
+   3000          
+   3001          /*!
+   3002           * \private
+   3003           *
+   3004           * \brief Creates task for given task template.
+   3005           *
+   3006           * \param[in] template_ptr     Task template for the new task.
+   3007           * \param[in] creator_task_id  Task ID of the creating task.
+   3008           * \param[in] create_parameter Creation parameter for the task.
+   3009           * \param[in] dynamic          TRUE (Template_ptr is a dynamic template.), FALSE
+   3010           * (Template_ptr is not a dynamic template.)
+   3011           * \param[in] input_stack_ptr  If not NULL, the location of the stack if provided.
+   3012           * \param[in] input_stack_size Input stack size if provided by the application.
+   3013           *
+   3014           * \return Pointer to the created task's descriptor.
+   3015           * \return NULL (Failure)
+   3016           *
+   3017           * \see TASK_TEMPLATE_STRUCT
+   3018           * \see TD_STRUCT
+   3019           */
+   3020          TD_STRUCT_PTR _task_init_internal
+   3021          (
+   3022              TASK_TEMPLATE_STRUCT_PTR template_ptr,
+   3023              _task_id                 creator_task_id,
+   3024              uint_32                  create_parameter,
+   3025              boolean                  dynamic,
+   3026              pointer                  input_stack_ptr,
+   3027              _mem_size                input_stack_size
+   3028          )
+   3029          { /* Body */
+   3030              KERNEL_DATA_STRUCT_PTR   kernel_data;
+   3031              TD_STRUCT_PTR            td_ptr;
+   3032              READY_Q_STRUCT_PTR       ready_q_ptr;
+   3033              TASK_TEMPLATE_STRUCT_PTR new_template_ptr;
+   3034          #if MQX_USE_LWMEM_ALLOCATOR == 0 && !MQX_LITE_VERSION_NUMBER
+   3035              STOREBLOCK_STRUCT_PTR    block_ptr;
+   3036          #endif
+   3037          
+   3038              char_ptr                 stack_ptr;
+   3039              _mqx_uint                stack_size;
+   3040              _mqx_uint                td_size;
+   3041          
+   3042              _GET_KERNEL_DATA(kernel_data);
+   3043          
+   3044          #if MQX_CHECK_ERRORS
+   3045              if (template_ptr->TASK_PRIORITY > kernel_data->LOWEST_TASK_PRIORITY)
+   3046              {
+   3047          #if MQX_USE_IDLE_TASK
+   3048                  if (template_ptr != &kernel_data->IDLE_TASK_TEMPLATE)
+   3049                  {
+   3050          #endif /* MQX_USE_IDLE_TASK */
+   3051          
+   3052                      _task_set_error(MQX_INVALID_TASK_PRIORITY);
+   3053                      return (NULL);
+   3054          
+   3055          #if MQX_USE_IDLE_TASK
+   3056                  }
+   3057          #endif /* MQX_USE_IDLE_TASK */
+   3058              }
+   3059          #endif /* MQX_CHECK_ERRORS */
+   3060          
+   3061          
+   3062              /*
+   3063               * Calculate space for the stack. Note that the stack size
+   3064               * must be no smaller than a specified minimum, and it
+   3065               * is made to be a multiple of longwords. The space allocated
+   3066               * for the stack includes the specified stacksize and the
+   3067               * overhead required by the kernel.
+   3068               */
+   3069              if (input_stack_ptr)
+   3070              {
+   3071                  /* force stack size, ignore stack size from template */
+   3072                  stack_size = input_stack_size;
+   3073          #if MQX_CHECK_ERRORS
+   3074                  if (stack_size <= (PSP_MINSTACKSIZE+sizeof(TD_STRUCT)))
+   3075                  {
+   3076                      _task_set_error(MQX_INVALID_SIZE);
+   3077                      return(NULL);
+   3078                  } /* Endif */
+   3079          #endif
+   3080                  td_ptr = _task_alloc_td_internal(stack_size, &td_size, input_stack_ptr, template_ptr->TASK_ATTRIBUTES & MQX_USER_TASK);
+   3081                  stack_size -= td_size;
+   3082          
+   3083                  if (dynamic)
+   3084                  {
+   3085                      stack_size -=  sizeof(TASK_TEMPLATE_STRUCT);
+   3086                  }
+   3087          
+   3088              }
+   3089              else
+   3090              {
+   3091                  /* take stack size from template */
+   3092                  stack_size = template_ptr->TASK_STACKSIZE;
+   3093          #if MQX_CHECK_ERRORS
+   3094                  if ( stack_size <= PSP_MINSTACKSIZE  )
+   3095                  {
+   3096                      stack_size = PSP_MINSTACKSIZE;
+   3097                  } /* Endif */
+   3098          #endif
+   3099                  /* Make the size a multiple of the memory alignment */
+   3100                  _STACK_ALIGN_VAL_LARGER(stack_size);
+   3101          
+   3102          #if 0 /* we dont need this, because we using _mem_alloc_align function in _task_alloc_td_internal */
+   3103          #if PSP_MEMORY_ALIGNMENT
+   3104                  /* But we need to add size to allow for alignment of stack base */
+   3105                  stack_size += PSP_STACK_ALIGNMENT + 1;
+   3106          #endif
+   3107          #endif
+   3108          
+   3109                  /*
+   3110                   * Allocate space for a task descriptor and stack.
+   3111                   * If there is none available,
+   3112                   * then indicate that the create failed.
+   3113                   */
+   3114                  /* function allocate task descriptor, stack and optionally increase stack block size by size required for task template (dynamic = nonzero) */
+   3115                  td_ptr = _task_alloc_td_internal(dynamic ? (stack_size +  sizeof(TASK_TEMPLATE_STRUCT)) : stack_size,
+   3116                                                           &td_size, NULL, template_ptr->TASK_ATTRIBUTES & MQX_USER_TASK);
+   3117              }/* Endif */
+   3118          
+   3119          
+   3120          #if MQX_CHECK_MEMORY_ALLOCATION_ERRORS
+   3121              if (td_ptr == NULL)
+   3122              {
+   3123                  _task_set_error(MQX_OUT_OF_TASK_DESCRIPTORS);
+   3124                  return (NULL);
+   3125              } /* Endif */
+   3126          #endif
+   3127              td_ptr->STATE = BLOCKED;
+   3128          
+   3129              /* get begin of new stack */
+   3130              if (td_ptr->STACK_ALLOC_BLOCK)
+   3131              {
+   3132                  /* (stack has been allocated) */
+   3133                  /* stack start in new allocated block */
+   3134                  stack_ptr = td_ptr->STACK_ALLOC_BLOCK;
+   3135              }
+   3136              else
+   3137              {
+   3138                  /* (this will be executed if user provide input_stack_size) */
+   3139                  /* stack start in provided block behind TD */
+   3140                  stack_ptr = (char_ptr)td_ptr + td_size;
+   3141              }
+   3142          
+   3143              if (dynamic)
+   3144              {
+   3145                  /* task is creating from temporary template, store template before stack (in stack allocated memory) */
+   3146                  new_template_ptr = (pointer)stack_ptr;
+   3147                  stack_ptr +=  sizeof(TASK_TEMPLATE_STRUCT);
+   3148                  *new_template_ptr = *template_ptr;
+   3149                  template_ptr = new_template_ptr;
+   3150                  template_ptr->TASK_TEMPLATE_INDEX |= SYSTEM_TASK_FLAG;
+   3151                  /* stack_ptr is moved behind template */
+   3152              }
+   3153          
+   3154          #if MQX_MONITOR_STACK
+   3155              /* fill stack with mark for TAD stack overflow functionality */
+   3156              _task_fill_stack_internal((_mqx_uint_ptr)stack_ptr, stack_size);
+   3157          #endif
+   3158          
+   3159              /*  Find the ready_q that the new task belongs to.  */
+   3160              /* The ready queues are stored as a array as follows:
+   3161               *     lowest priority - eg 9
+   3162               *                          8
+   3163               *                        ...
+   3164               *     highest priority     0
+   3165               * With the READY_Q_LIST pointer pointing to the highest priority queue
+   3166               */
+   3167              ready_q_ptr = kernel_data->READY_Q_LIST - template_ptr->TASK_PRIORITY;
+   3168              td_ptr->MY_QUEUE = ready_q_ptr;
+   3169          #if MQX_HAS_DYNAMIC_PRIORITIES
+   3170              td_ptr->HOME_QUEUE  = ready_q_ptr;
+   3171          #endif
+   3172              td_ptr->TASK_SR     = ready_q_ptr->ENABLE_SR;
+   3173              td_ptr->FLAGS       = template_ptr->TASK_ATTRIBUTES;
+   3174          
+   3175          #if MQX_ENABLE_USER_MODE
+   3176              if (template_ptr->TASK_ATTRIBUTES & MQX_USER_TASK)
+   3177              {
+   3178                  td_ptr->FLAGS |= TASK_USER_MODE;
+   3179              }
+   3180          #endif /* MQX_ENABLE_USER_MODE */
+   3181          
+   3182              if (input_stack_ptr)
+   3183              {
+   3184                  td_ptr->FLAGS |= TASK_STACK_PREALLOCATED;
+   3185              } /* Endif */
+   3186          
+   3187              /* create stack frame - initialize stack parameters in TD and stack itself (registers required by scheduller, etc.) */
+   3188              if (FALSE == _psp_build_stack_frame(td_ptr, stack_ptr, stack_size, template_ptr, (_mqx_uint)ready_q_ptr->ENABLE_SR, create_parameter))
+   3189              {
+   3190                  /* build stack failed */
+   3191                  return NULL;
+   3192              }
+   3193          
+   3194          
+   3195              /* Initialize the task's task descriptor. */
+   3196          #if MQX_TD_HAS_TASK_TEMPLATE_PTR
+   3197              td_ptr->TASK_TEMPLATE_PTR = template_ptr;
+   3198          #endif
+   3199          #if MQX_TD_HAS_TEMPLATE_INDEX
+   3200              td_ptr->TEMPLATE_INDEX    = template_ptr->TASK_TEMPLATE_INDEX;
+   3201          #endif
+   3202          
+   3203          #if MQX_HAS_TIME_SLICE
+   3204              /* Use the provided default time slice */
+   3205              if (template_ptr->DEFAULT_TIME_SLICE)
+   3206              {
+   3207          #if (MQX_DEFAULT_TIME_SLICE_IN_TICKS == 0)
+   3208                  uint_32 ticks;
+   3209          
+   3210                  ticks = ((template_ptr->DEFAULT_TIME_SLICE * 2 *
+   3211                                  kernel_data->TICKS_PER_SECOND) / 1000) / 2  /* Rounding.. */;
+   3212                  PSP_ADD_TICKS_TO_TICK_STRUCT(&td_ptr->TIME_SLICE,
+   3213                      ticks, &td_ptr->TIME_SLICE);
+   3214          #else
+   3215                  PSP_ADD_TICKS_TO_TICK_STRUCT(&td_ptr->TIME_SLICE,
+   3216                      template_ptr->DEFAULT_TIME_SLICE, &td_ptr->TIME_SLICE);
+   3217          #endif
+   3218              }
+   3219              else
+   3220              {
+   3221                  td_ptr->TIME_SLICE = kernel_data->SCHED_TIME_SLICE;
+   3222              } /* Endif */
+   3223              if (kernel_data->SCHED_POLICY == MQX_SCHED_RR)
+   3224              {
+   3225                  td_ptr->FLAGS |= MQX_TIME_SLICE_TASK;
+   3226              } /* Endif */
+   3227          #endif
+   3228          
+   3229          #if MQX_USE_IO
+   3230              td_ptr->STDIN_STREAM  = kernel_data->PROCESSOR_STDIN;
+   3231              td_ptr->STDOUT_STREAM = kernel_data->PROCESSOR_STDOUT;
+   3232              td_ptr->STDERR_STREAM = kernel_data->PROCESSOR_STDERR;
+   3233          #endif
+   3234          
+   3235          #if MQX_TD_HAS_PARENT
+   3236              td_ptr->PARENT = creator_task_id;
+   3237          #endif
+   3238          
+   3239          #if !MQX_LITE_VERSION_NUMBER
+   3240              /*
+   3241               * Move ownership of the td from the creating task, to the
+   3242               * newly created task.
+   3243               */
+   3244          #if MQX_USE_LWMEM_ALLOCATOR==0
+   3245              block_ptr = GET_MEMBLOCK_PTR(td_ptr);
+   3246              kernel_data->ACTIVE_PTR->MEMORY_RESOURCE_LIST = block_ptr->NEXTBLOCK;
+   3247          #endif
+   3248          
+   3249              if (input_stack_ptr == 0)
+   3250              {
+   3251                  _mem_transfer_internal(td_ptr, td_ptr);
+   3252                  _mem_transfer_internal(td_ptr->STACK_ALLOC_BLOCK, td_ptr);
+   3253              } /* Endif */
+   3254          #endif /* MQX_LITE_VERSION_NUMBER */
+   3255          
+   3256              return (td_ptr);
+   3257          
+   3258          } /* Endbody */
+   3259          
+   3260          #if MQX_MONITOR_STACK
+   3261          /*!
+   3262           * \private
+   3263           *
+   3264           * \brief Initializes a stack to be filled with the MQX_MONITOR_STACK_VALUE: "stak".
+   3265           *
+   3266           * \param[in] addr_ptr Pointer to the start of the stack which is to be filled.
+   3267           * \param[in] size     The number of bytes to be filled.
+   3268           */
+   3269          void _task_fill_stack_internal
+   3270          (
+   3271              _mqx_uint_ptr addr_ptr,
+   3272              _mqx_uint     size
+   3273          )
+   3274          { /* Body */
+   3275          
+   3276              size = (size/sizeof(_mqx_uint)) + 1;  /* Calculate # _mqx_uints */
+   3277              while (--size)
+   3278              {
+   3279                  *addr_ptr++ = MQX_STACK_MONITOR_VALUE;
+   3280              } /* Endwhile */
+   3281          
+   3282          } /* Endbody */
+   3283          #endif
+   3284          
+   3285          /*!
+   3286           * \private
+   3287           *
+   3288           * \brief Adds a task to the ready to run queue.
+   3289           *
+   3290           * This function MUST BE CALLED DISABLED.
+   3291           *
+   3292           * \param[in] td_ptr Pointer to the task descriptor to add.
+   3293           *
+   3294           * \see TD_STRUCT
+   3295           */
+   3296          void _task_ready_internal
+   3297          (
+   3298              TD_STRUCT_PTR td_ptr
+   3299          )
+   3300          { /* Body */
+   3301              KERNEL_DATA_STRUCT_PTR       kernel_data;
+   3302              register READY_Q_STRUCT_PTR  ready_q_ptr;
+   3303              register TD_STRUCT_PTR       old_tail_ptr;
+   3304          
+   3305              _GET_KERNEL_DATA(kernel_data);
+   3306          
+   3307              _KLOGE2(KLOG_task_ready, td_ptr);
+   3308          
+   3309              ready_q_ptr   = td_ptr->MY_QUEUE;
+   3310              old_tail_ptr  = ready_q_ptr->TAIL_READY_Q;
+   3311              /*
+   3312               * Ready queues are ALWAYS allocated with higher priority queues in higher
+   3313               * memory, thus we need to update the CURRENT_READY_Q field (which
+   3314               * always points to the highest priority ready queue with a task
+   3315               * on it.
+   3316               */
+   3317              if ( (uchar_ptr)ready_q_ptr > (uchar_ptr)(kernel_data->CURRENT_READY_Q) )
+   3318              {
+   3319                  kernel_data->CURRENT_READY_Q = ready_q_ptr;
+   3320              } /* Endif */
+   3321          
+   3322              td_ptr->STATE              = READY;
+   3323              td_ptr->TD_PREV            = old_tail_ptr;
+   3324              td_ptr->TD_NEXT            = old_tail_ptr->TD_NEXT;
+   3325              old_tail_ptr->TD_NEXT      = td_ptr;
+   3326              ready_q_ptr->TAIL_READY_Q  = td_ptr;
+   3327              /* SPR P171-0020-01 add macro to zero tick structure */
+   3328          #if MQX_HAS_TIME_SLICE
+   3329              MQX_ZERO_TICK_STRUCT(&td_ptr->CURRENT_TIME_SLICE);
+   3330          #endif
+   3331              /* END SPR */
+   3332              _KLOGX1(KLOG_task_ready);
+   3333          
+   3334          } /* Endbody */
+   3335          
+   3336          #if MQX_EXTRA_TASK_STACK_ENABLE
+   3337          #if !MQX_LITE_VERSION_NUMBER
+   3338          /*!
+   3339           * \brief Reserves space to add to every stack.
+   3340           *
+   3341           * This function reserves 'size' bytes that will be added to the size of every
+   3342           * task's stack. It can be thought of as a way of allocating "task local storage"
+   3343           * or perhaps as a way of dynamically adding to the TD_STRUCT. Both "OS Changer"
+   3344           * and the MetaWare C/C++ runtime want additional per-task variables. However,
+   3345           * this is a general feature that can be used for many more purposes.
+   3346           *
+   3347           * \note
+   3348           * The space added to each task must be known before ANY tasks are created.
+   3349           *
+   3350           * \param[in] size Amount of space to reserve.
+   3351           *
+   3352           * \return Byte offset from reserved area base address.
+   3353           *
+   3354           * \see _task_get_reserved_base
+   3355           * \see _task_alloc_td_internal
+   3356           */
+   3357          _mqx_uint _task_reserve_space
+   3358          (
+   3359              _mqx_uint size
+   3360          )
+   3361          { /* Body */
+   3362              KERNEL_DATA_STRUCT_PTR kernel_data;
+   3363              _mqx_uint              off, algn;
+   3364          
+   3365              _GET_KERNEL_DATA(kernel_data);
+   3366          
+   3367          #if MQX_CHECK_ERRORS
+   3368              /* Can only be called prior to creating any tasks! */
+   3369              if (_QUEUE_GET_SIZE(&kernel_data->TD_LIST) != 0)
+   3370              {
+   3371                  _mqx_fatal_error(MQX_EINVAL);
+   3372              } /* Endif */
+   3373          #endif
+   3374          
+   3375              if      (size > 7) algn = 7;
+   3376              else if (size > 3) algn = 3;
+   3377              else if (size > 1) algn = 1;
+   3378              else               algn = 0;
+   3379          
+   3380              if (algn > kernel_data->TOS_RESERVED_ALIGN_MASK)
+   3381              {
+   3382                  kernel_data->TOS_RESERVED_ALIGN_MASK = algn;
+   3383              } /* Endif */
+   3384          
+   3385              off = (kernel_data->TOS_RESERVED_SIZE + algn) & ~algn;
+   3386              kernel_data->TOS_RESERVED_SIZE = off + size;
+   3387          
+   3388              return off;
+   3389          
+   3390          } /* Endbody */
+   3391          #endif /* MQX_LITE_VERSION_NUMBER */
+   3392          #endif /* MQX_EXTRA_TASK_STACK_ENABLE */
+   3393          
+   3394          /*!
+   3395           * \private
+   3396           *
+   3397           * \brief Changes task's priority level.
+   3398           *
+   3399           * This function is called when a quiescent task's priority level has changed, and
+   3400           * the hardware disable/enable bits may need to be patched to the correct level.
+   3401           *
+   3402           * \param[in] td_ptr Task descriptor whose stack is to be modified.
+   3403           *
+   3404           * \see TD_STRUCT
+   3405           */
+   3406          void _task_sync_priority_internal
+   3407          (
+   3408              TD_STRUCT_PTR td_ptr
+   3409          )
+   3410          { /* Body */
+   3411              pointer stack_ptr = td_ptr->STACK_PTR;
+   3412          
+   3413              _PSP_SET_SR_OF_BLOCKED_TASK(stack_ptr, td_ptr->MY_QUEUE->ENABLE_SR);
+   3414          
+   3415          } /* Endbody */
+   3416          
+   3417          /* Start SPR P171-0016-01 */
+   3418          
+   3419          /*!
+   3420           * \private
+   3421           *
+   3422           * \brief Gets a pointer to an initialized task descriptor.
+   3423           *
+   3424           * Note that the task descriptor is initialized to zero.
+   3425           *
+   3426           * \param[in]  stack_size      Size of the stack for the newly created task.
+   3427           * \param[out] overhead        Size of TD_STRUCT and other overhead.
+   3428           * \param[in]  input_stack_ptr If not NULL, the location of the stack is provided.
+   3429           * \param[in]  user            User mode functionality.
+   3430           *
+   3431           * \return Pointer to an initialized task descriptor.
+   3432           * \return NULL
+   3433           * \return 0 (Not enough resources to create a task.)
+   3434           *
+   3435           * \see TD_STRUCT
+   3436           */
+   3437          
+   3438          TD_STRUCT_PTR _task_alloc_td_internal
+   3439          (
+   3440              _mem_size     stack_size,
+   3441              _mem_size_ptr overhead,
+   3442              pointer    input_stack_ptr,
+   3443              _mqx_uint user
+   3444          )
+   3445          { /* Body */
+   3446              KERNEL_DATA_STRUCT_PTR      kernel_data;
+   3447              TD_STRUCT_PTR               insert_td_ptr;
+   3448              TD_STRUCT_PTR               next_td_ptr;
+   3449              TD_STRUCT_PTR               new_td_ptr;
+   3450              TD_STRUCT_PTR               prev_td_ptr;
+   3451              QUEUE_ELEMENT_STRUCT_PTR    q_ptr;
+   3452              _mem_size                   extra = sizeof(TD_STRUCT);
+   3453          #if MQX_EXTRA_TASK_STACK_ENABLE
+   3454              _mem_size                tos, tos_offset = 0;
+   3455          #endif
+   3456              uint_16                  task_num;
+   3457          
+   3458              _GET_KERNEL_DATA(kernel_data);
+   3459          
+   3460          #if MQX_CHECK_ERRORS
+   3461              if (_QUEUE_GET_SIZE(&kernel_data->TD_LIST) >= (MAX_UINT_16-1))
+   3462              {
+   3463                  /* We already have maximum number of tasks in system */
+   3464                  return NULL;
+   3465              } /* Endif */
+   3466          #endif
+   3467          
+   3468          #if MQX_EXTRA_TASK_STACK_ENABLE
+   3469              tos = kernel_data->TOS_RESERVED_SIZE;
+   3470              if (tos != 0)
+   3471              {
+   3472                  uint_32 align_mask = kernel_data->TOS_RESERVED_ALIGN_MASK;
+   3473                  extra = (extra + align_mask) & ~align_mask;
+   3474                  tos_offset = extra;
+   3475                  /* must be word multiple */
+   3476                  extra = (extra + tos + 3) & ~3;
+   3477              } /* Endif */
+   3478          #endif
+   3479              *overhead = extra;
+   3480          
+   3481          
+   3482              if (input_stack_ptr)
+   3483              {
+   3484                  new_td_ptr = (TD_STRUCT_PTR)input_stack_ptr;
+   3485                  _mem_zero((pointer)new_td_ptr, extra);
+   3486              }
+   3487          #if !MQX_LITE_VERSION_NUMBER
+   3488              else
+   3489              {
+   3490                  new_td_ptr = (TD_STRUCT_PTR)_mem_alloc_zero(extra);
+   3491          
+   3492                  if (new_td_ptr)
+   3493                  {
+   3494          #if MQX_ENABLE_USER_MODE
+   3495                      if (user)
+   3496                      {
+   3497                          new_td_ptr->STACK_ALLOC_BLOCK = (TD_STRUCT_PTR)_mem_alloc_from(kernel_data->KD_USER_POOL, stack_size);
+   3498                      }
+   3499                      else
+   3500                      {
+   3501                          new_td_ptr->STACK_ALLOC_BLOCK = (TD_STRUCT_PTR)_mem_alloc(stack_size);
+   3502                      }
+   3503          #else
+   3504                      new_td_ptr->STACK_ALLOC_BLOCK = (TD_STRUCT_PTR)_mem_alloc(stack_size);
+   3505          #endif /* MQX_ENABLE_USER_MODE */
+   3506                  }
+   3507          
+   3508          #if MQX_CHECK_MEMORY_ALLOCATION_ERRORS
+   3509                  if ( new_td_ptr == NULL )
+   3510                  {
+   3511                      return ((TD_STRUCT_PTR)new_td_ptr);
+   3512                  } /* Endif */
+   3513          
+   3514                  if (new_td_ptr->STACK_ALLOC_BLOCK == NULL )
+   3515                  {
+   3516                      /* dealloc TD, because we do not have enough resources to create task */
+   3517                      _mem_free(new_td_ptr);
+   3518                      return 0;
+   3519                  }
+   3520          
+   3521                  _mem_set_type(new_td_ptr, MEM_TYPE_TD);
+   3522                  _mem_set_type(new_td_ptr->STACK_ALLOC_BLOCK, MEM_TYPE_TASK_STACK);
+   3523          #endif
+   3524              } /* Endif */
+   3525          #endif /* MQX_LITE_VERSION_NUMBER */
+   3526          
+   3527          
+   3528          #if MQX_EXTRA_TASK_STACK_ENABLE
+   3529              if (tos != 0)
+   3530              {
+   3531                  new_td_ptr->TOS_RESERVED = ((uchar_ptr) new_td_ptr) + tos_offset;
+   3532              } /* Endif */
+   3533          #endif
+   3534          
+   3535              /* Add new task to list */
+   3536              task_num = kernel_data->TASK_NUMBER;
+   3537              insert_td_ptr = kernel_data->INSERT_TD_PTR;
+   3538              new_td_ptr->TASK_ID = BUILD_TASKID(kernel_data->INIT.PROCESSOR_NUMBER, task_num);
+   3539          
+   3540              if (!insert_td_ptr)
+   3541              {
+   3542                  q_ptr = (QUEUE_ELEMENT_STRUCT_PTR)((pointer)&kernel_data->TD_LIST);
+   3543              }
+   3544              else
+   3545              {
+   3546                  q_ptr = &insert_td_ptr->TD_LIST_INFO;
+   3547              } /* Endif */
+   3548          
+   3549              _QUEUE_INSERT(&kernel_data->TD_LIST, q_ptr, &new_td_ptr->TD_LIST_INFO);
+   3550          
+   3551              /*
+   3552               * New task may not have been inserted at the end of the list. Search for a
+   3553               * spot to insert the next td and also calculate its task number
+   3554               */
+   3555              prev_td_ptr = new_td_ptr;
+   3556              do
+   3557              {
+   3558                  insert_td_ptr = prev_td_ptr;
+   3559                  next_td_ptr   = (TD_STRUCT_PTR)((uchar_ptr)insert_td_ptr->TD_LIST_INFO.NEXT - FIELD_OFFSET(TD_STRUCT,TD_LIST_INFO));
+   3560                  prev_td_ptr   = next_td_ptr;
+   3561                  INC_TASK_NUMBER(task_num);
+   3562              } while( ((pointer)next_td_ptr != ((pointer)&kernel_data->TD_LIST)) &&
+   3563                              (TASK_NUMBER_FROM_TASKID(next_td_ptr->TASK_ID) == task_num) );
+   3564          
+   3565              kernel_data->INSERT_TD_PTR = insert_td_ptr;
+   3566              kernel_data->TASK_NUMBER   = task_num;
+   3567          
+   3568              return ((TD_STRUCT_PTR)new_td_ptr);
+   3569          
+   3570          } /* Endbody */
+   3571          
+   3572          /* End SPR P171-0016-01 */
+   3573          
+   3574          /*!
+   3575           * \private
+   3576           *
+   3577           * \brief Sets the task error code of the specified task.
+   3578           *
+   3579           * If the task error code does not equal MQX_OK, then the value is not changed.
+   3580           * However, the value of the task error code may be reset to MQX_OK by setting the
+   3581           * task error code to MQX_OK.  The old value of the task error code is returned.
+   3582           *
+   3583           * \param[in] td_ptr         Pointer to the task descriptor whose error is to be set.
+   3584           * \param[in] new_error_code The new error code.
+   3585           *
+   3586           * \return MQX_OK
+   3587           * \return Old task error code.
+   3588           *
+   3589           * \see TD_STRUCT
+   3590           */
+   3591          _mqx_uint _task_set_error_td_internal
+   3592          (
+   3593              TD_STRUCT_PTR td_ptr,
+   3594              _mqx_uint new_error_code
+   3595          )
+   3596          { /* Body */
+   3597          #if MQX_TD_HAS_ERROR_CODE
+   3598              _KLOGM(KERNEL_DATA_STRUCT_PTR  kernel_data;)
+   3599              _mqx_uint                      old_error_code;
+   3600          
+   3601              _KLOGM(_GET_KERNEL_DATA(kernel_data);)
+   3602          
+   3603              _KLOGE2(KLOG_task_set_error, new_error_code);
+   3604          
+   3605              /* get the old value */
+   3606              old_error_code = td_ptr->TASK_ERROR_CODE;
+   3607              if (( new_error_code == MQX_OK ) || ( old_error_code == MQX_OK ))
+   3608              {
+   3609                  td_ptr->TASK_ERROR_CODE = new_error_code;
+   3610              } /* Endif */
+   3611          
+   3612              _KLOGX2(KLOG_task_set_error, old_error_code);
+   3613              return( old_error_code );
+   3614          #else
+   3615              return MQX_OK;
+   3616          #endif
+   3617          
+   3618          } /* Endbody */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   _task_abort
+         8   -> _task_abort_internal
+      32   _task_abort_internal
+        32   -> _int_disable
+        32   -> _int_enable
+        32   -> _task_exit_function_internal
+        32   -> _task_get_td
+        32   -> _task_ready
+      48   _task_alloc_td_internal
+        48   -> _mem_zero
+      48   _task_build_internal
+        48   -> _lwsem_post
+        48   -> _lwsem_wait
+        48   -> _task_init_internal
+        48   -> _task_set_error
+       8   _task_check_stack
+      40   _task_create_at
+        40   -> _sched_check_scheduler_internal
+        40   -> _task_build_internal
+        40   -> _task_ready_internal
+        40   -> _task_set_error
+       8   _task_destroy
+         8   -> _task_destroy_internal
+      40   _task_destroy_internal
+        40   -- Indirect call
+        40   -> _int_disable
+        40   -> _int_enable
+        40   -> _lwsem_post
+        40   -> _lwsem_wait
+        40   -> _psp_destroy_stack_frame
+        40   -> _sched_run_internal
+        40   -> _task_get_td
+      16   _task_exit_function_internal
+        16   -- Indirect call
+        16   -> _task_destroy
+       0   _task_exiting_function_internal
+       4   _task_fill_stack_internal
+       0   _task_get_creator
+       4   _task_get_error
+       4   _task_get_error_ptr
+      16   _task_get_exception_handler
+        16   -> _task_get_td
+        16   -> _task_set_error
+      16   _task_get_exit_handler
+        16   -> _task_get_td
+        16   -> _task_set_error
+       0   _task_get_id
+      24   _task_get_id_from_name
+        24   -> _lwsem_post
+        24   -> _lwsem_wait
+        24   -> strncmp
+       4   _task_get_id_from_td
+       8   _task_get_index_from_id
+         8   -> _task_get_td
+       8   _task_get_parameter
+         8   -> _task_get_parameter_internal
+      16   _task_get_parameter_for
+        16   -> _task_get_parameter_internal
+        16   -> _task_get_td
+       8   _task_get_parameter_internal
+         8   -> _psp_get_stack_start
+      16   _task_get_priority
+        16   -> _task_get_td
+      24   _task_get_td
+        24   -> _int_enable
+      16   _task_get_template_index
+        16   -> _lwsem_post
+        16   -> _lwsem_wait
+        16   -> strncmp
+       8   _task_get_template_ptr
+         8   -> _task_get_td
+      56   _task_init_internal
+        56   -> __aeabi_memcpy4
+        56   -> _psp_build_stack_frame
+        56   -> _task_alloc_td_internal
+        56   -> _task_fill_stack_internal
+        56   -> _task_set_error
+      16   _task_ready
+        16   -> _int_enable
+        16   -> _sched_check_scheduler_internal
+        16   -> _task_ready_internal
+        16   -> _task_set_error
+       8   _task_ready_internal
+     112   _task_restart
+       112   -> _task_restart_func
+      72   _task_restart_func
+        72   -- Indirect call
+        72   -> _int_disable
+        72   -> _int_enable
+        72   -> _lwsem_post
+        72   -> _lwsem_wait
+        72   -> _psp_build_stack_frame
+        72   -> _psp_get_stack_start
+        72   -> _sched_execute_scheduler_internal
+        72   -> _sched_run_internal
+        72   -> _task_get_td
+        72   -> _task_ready_internal
+       4   _task_set_error
+       4   _task_set_error_td_internal
+      16   _task_set_exception_handler
+        16   -> _task_get_td
+        16   -> _task_set_error
+      16   _task_set_exit_handler
+        16   -> _task_get_td
+        16   -> _task_set_error
+      16   _task_set_parameter
+        16   -> _task_set_parameter_internal
+      24   _task_set_parameter_for
+        24   -> _task_get_td
+        24   -> _task_set_parameter_internal
+      16   _task_set_parameter_internal
+        16   -> _psp_get_stack_start
+      32   _task_set_priority
+        32   -> _int_disable
+        32   -> _int_enable
+        32   -> _sched_check_scheduler_internal
+        32   -> _sched_insert_priorityq_internal
+        32   -> _sched_set_priority_internal
+        32   -> _task_get_td
+      16   _task_start_preemption
+        16   -> _int_disable
+        16   -> _int_enable
+        16   -> _sched_check_scheduler_internal
+      16   _task_stop_preemption
+        16   -> _int_disable
+        16   -> _int_enable
+       0   _task_sync_priority_internal
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable10
+       4  ??DataTable12
+       4  ??DataTable19
+       4  ??DataTable2
+       4  ??DataTable21
+       4  ??DataTable22
+       4  ??DataTable25
+       4  ??DataTable25_1
+       4  ??DataTable25_2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable3
+       4  ??DataTable5
+       4  ??DataTable9
+       4  _tad_task_at_flag
+      14  _task_abort
+     244  _task_abort_internal
+     194  _task_alloc_td_internal
+     124  _task_build_internal
+      30  _task_check_stack
+     152  _task_create_at
+      14  _task_destroy
+     414  _task_destroy_internal
+      26  _task_exit_function_internal
+       2  _task_exiting_function_internal
+      22  _task_fill_stack_internal
+      10  _task_get_creator
+      24  _task_get_error
+      24  _task_get_error_ptr
+      30  _task_get_exception_handler
+      30  _task_get_exit_handler
+      10  _task_get_id
+      82  _task_get_id_from_name
+      16  _task_get_id_from_td
+      26  _task_get_index_from_id
+      14  _task_get_parameter
+      20  _task_get_parameter_for
+      14  _task_get_parameter_internal
+      32  _task_get_priority
+     128  _task_get_td
+      64  _task_get_template_index
+      22  _task_get_template_ptr
+     296  _task_init_internal
+     122  _task_ready
+      34  _task_ready_internal
+      30  _task_restart
+     496  _task_restart_func
+      50  _task_set_error
+      18  _task_set_error_td_internal
+      34  _task_set_exception_handler
+      34  _task_set_exit_handler
+      18  _task_set_parameter
+      36  _task_set_parameter_for
+      20  _task_set_parameter_internal
+     160  _task_set_priority
+      30  _task_start_preemption
+      28  _task_stop_preemption
+       4  _task_sync_priority_internal
+
+ 
+     4 bytes in section .bss
+ 3'248 bytes in section .text
+ 
+ 3'248 bytes of CODE memory
+     4 bytes of DATA memory
+
+Errors: none
+Warnings: 2

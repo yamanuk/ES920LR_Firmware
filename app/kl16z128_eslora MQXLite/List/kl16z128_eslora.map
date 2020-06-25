@@ -1,0 +1,1553 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.1.245/W32 for ARM                  14/May/2020  16:51:04
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Exe\kl16z128_eslora.out
+#    Map file     =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\kl16z128_eslora.map
+#    Command line =
+#        -f C:\Users\81901\AppData\Local\Temp\EW67FD.tmp
+#        ("C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\adc16.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\boot.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\cca.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\cortex.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\Cpu.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\dispatch.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\Events.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\flash.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\flash_RamFunc.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\FunctionLib.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\GenericList.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\i2c.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\idletask.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\int.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\int_gkis.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\int_inst.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\int_kisr.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\int_pvta.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\int_unx.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\int_vtab.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\int_xcpt.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\klog.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\LED.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\LED1.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\LED2.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\llwu.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lptmr.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lwevent.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lwlog.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lwmsgq.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lwsem.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lwtimer.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\mcg.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\mem_zero.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\MemManager.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\menus.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\message.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\Messaging.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\mqx_tasks.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\mqx_utils.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\mqxlite.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\MQXLite1.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\MQXLite_Adapter.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\mutex.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\Panic.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\PE_LDD.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\PitTimeStamp.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\ProcessorExpert.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\psp_iinit.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\psp_supp.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\psp_tiad.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\psp_tinm.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\psp_tisu.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\qu_test.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\radio.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\RealTimeClock.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\Reset.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\RNG.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sc_irdyq.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sched.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\SerialManager.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\smac.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\smc.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\stack_bu.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\stack_de.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\stack_st.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\StackTimer.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sx1276-Hal.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sx1276-LoRa.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sx1276-LoRaMisc.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sx1276-Spi.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sx1276.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\SystemTimer1.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\task.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\task_template_list.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\time_ticks.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\TimersManager.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\UARTA.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\usr_tasks.o"
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\Vectors.o" --no_out_extension -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Exe\kl16z128_eslora.out" --map
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\kl16z128_eslora.map" --config
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\MKL16_Custom_Linker_File.icf
+#        --semihosting --no_library_search "C:\Program Files (x86)\IAR
+#        Systems\Embedded Workbench 8.4\arm\lib\rt6M_tl.a" "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench 8.4\arm\lib\shb_l.a" "C:\Program
+#        Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\lib\m6M_tl.a"
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\lib\dl6M_tln.a" --entry __iar_program_start --no_exceptions
+#        --merge_duplicate_sections --no_vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                   = *
+__SystemLibrary             = DLib
+__dlib_jmp_buf_num_elements = 8
+__dlib_version              = 6
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x1000 { ro section .intvec };
+"P1":  place in [from 0x1000 to 0x10bf] |
+                [from 0x1410 to 0x1'fbff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x1fff'f000 to 0x2000'2fff] {
+          rw, block CSTACK, block HEAP };
+"P3":  place in [from 0x1400 to 0x140f] { section FlashConfig };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  section m_calibrate  in "P4"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc0
+  .intvec            const         0x1000    0xc0  Vectors.o [1]
+                                 - 0x10c0    0xc0
+
+"P3":                                        0x10
+  FlashConfig        const         0x1400    0x10  Cpu.o [1]
+                                 - 0x1410    0x10
+
+"P1":                                      0xd858
+  .text              ro code       0x1410  0x28a0  menus.o [1]
+  .text              ro code       0x3cb0    0x98  strcmp.o [4]
+  .text              ro code       0x3d48     0xe  strlen.o [4]
+  .rodata            const         0x3d56     0x1  StackTimer.o [1]
+  .text              ro code       0x3d58   0xafa  SerialManager.o [1]
+  .text              ro code       0x4852    0x22  FunctionLib.o [1]
+  .text              ro code       0x4874   0x158  int.o [1]
+  .text              ro code       0x49cc    0x96  flash.o [1]
+  .text              ro code       0x4a64   0x67c  usr_tasks.o [1]
+  .text              ro code       0x50e0   0x4e4  MQXLite_Adapter.o [1]
+  .text              ro code       0x55c4   0x374  UARTA.o [1]
+  .text              ro code       0x5938    0xe0  I32DivModFast.o [4]
+  .text              ro code       0x5a18   0x6be  task.o [1]
+  .text              ro code       0x60d8    0xa8  MemManager.o [1]
+  .text              ro code       0x6180   0x524  TimersManager.o [1]
+  .text              ro code       0x66a4   0x160  LED.o [1]
+  .text              ro code       0x6804   0xe78  message.o [1]
+  .text              ro code       0x767c    0x2c  strncmp.o [2]
+  .text              ro code       0x76a8    0x74  strcpy.o [4]
+  .text              ro code       0x771c    0xba  GenericList.o [1]
+  .text              ro code       0x77d8   0x4e0  lwevent.o [1]
+  .text              ro code       0x7cb8   0x3c4  lwsem.o [1]
+  .text              ro code       0x807c   0x340  time_ticks.o [1]
+  .text              ro code       0x83bc   0x4bc  Cpu.o [1]
+  .text              ro code       0x8878    0x68  Events.o [1]
+  .text              ro code       0x88e0     0x2  RealTimeClock.o [1]
+  KERNEL             ro code       0x88f0   0x25c  dispatch.o [1]
+  .text              ro code       0x8b4c    0xc0  sched.o [1]
+  .text              ro code       0x8c0c    0x4e  ABImemcpy.o [4]
+  .text              ro code       0x8c5c    0x5c  stack_bu.o [1]
+  .text              ro code       0x8cb8   0x134  mem_zero.o [1]
+  .text              ro code       0x8dec    0x14  uwrite4.o [4]
+  .text              ro code       0x8e00    0x32  I64Mul.o [4]
+  .text              ro code       0x8e32    0x6a  I64DivMod.o [4]
+  .text              ro code       0x8e9c   0x270  StackTimer.o [1]
+  .text              ro code       0x910c    0x3c  Panic.o [1]
+  .text              ro code       0x9148    0x78  LED1.o [1]
+  .text              ro code       0x91c0    0x78  LED2.o [1]
+  .text              ro code       0x9238   0x278  llwu.o [1]
+  .text              ro code       0x94b0   0xa00  smac.o [1]
+  .text              ro code       0x9eb0    0x34  IxxToDbl.o [3]
+  .text              ro code       0x9ee4   0x184  DblMul.o [3]
+  .text              ro code       0xa068   0x1b4  DblAddSub.o [3]
+  .text              ro code       0xa21c    0xc2  DblDiv.o [3]
+  .text              ro code       0xa2e0    0x58  ceil.o [3]
+  .text              ro code       0xa338    0x32  FltToDbl.o [3]
+  .text              ro code       0xa36c    0x52  DblToI32.o [3]
+  .text              ro code       0xa3c0   0x424  mcg.o [1]
+  .text              ro code       0xa7e4    0xf4  lptmr.o [1]
+  .text              ro code       0xa8d8    0x38  smc.o [1]
+  .text              ro code       0xa910    0x50  psp_tiad.o [1]
+  .text              ro code       0xa960    0x3c  psp_tinm.o [1]
+  .text              ro code       0xa99c    0x68  PE_LDD.o [1]
+  .text              ro code       0xaa04   0x1d8  mqxlite.o [1]
+  .text              ro code       0xabdc   0x1e0  sx1276-Hal.o [1]
+  .text              ro code       0xadbc   0x218  SystemTimer1.o [1]
+  .text              ro code       0xafd4    0x38  radio.o [1]
+  .text              ro code       0xb00c    0x24  RNG.o [1]
+  .text              ro code       0xb030   0x168  sx1276.o [1]
+  .text              ro code       0xb198   0x480  sx1276-LoRaMisc.o [1]
+  .text              ro code       0xb618   0x7b0  cca.o [1]
+  .text              ro code       0xbdc8    0xf4  PitTimeStamp.o [1]
+  .text              ro code       0xbebc    0x40  MQXLite1.o [1]
+  .text              ro code       0xbefc   0x148  mqx_utils.o [1]
+  .text              ro code       0xc044    0xc4  sc_irdyq.o [1]
+  .text              ro code       0xc108    0x1c  psp_iinit.o [1]
+  .text              ro code       0xc124    0x24  int_vtab.o [1]
+  .text              ro code       0xc148    0x36  setjmp.o [4]
+  .text              ro code       0xc180   0x1c8  sx1276-Spi.o [1]
+  .text              ro code       0xc348    0x20  FltCmpEq.o [3]
+  .text              ro code       0xc368    0x20  IxxToFlt.o [3]
+  .text              ro code       0xc388   0x120  FltAddSub.o [3]
+  .text              ro code       0xc4a8    0xaa  FltDiv.o [3]
+  .text              ro code       0xc552    0xb0  FltMul.o [3]
+  .text              ro code       0xc604    0x26  FltToU32.o [3]
+  .text              ro code       0xc62c   0x718  sx1276-LoRa.o [1]
+  .text              ro code       0xcd44    0x52  ABImemset.o [4]
+  .text              ro code       0xcd96    0x32  DblCmpLe.o [3]
+  .text              ro code       0xcdc8    0x14  int_inst.o [1]
+  .rodata            const         0xcddc   0x208  menus.o [1]
+  .rodata            const         0xcfe4    0xf0  smac.o [1]
+  .rodata            const         0xd0d4    0xf0  smac.o [1]
+  .rodata            const         0xd1c4    0xcc  sx1276-LoRa.o [1]
+  .rodata            const         0xd290    0x78  menus.o [1]
+  .text              ro code       0xd308    0x4c  flash_RamFunc.o [1]
+  .rodata            const         0xd354    0x48  mqxlite.o [1]
+  .text              ro code       0xd39c    0x3c  zero_init3.o [4]
+  .rodata            const         0xd3d8    0x38  task_template_list.o [1]
+  .rodata            const         0xd410    0x34  menus.o [1]
+  .rodata            const         0xd444    0x34  menus.o [1]
+  .rodata            const         0xd478    0x34  menus.o [1]
+  .text              ro code       0xd4b0    0x34  boot.o [1]
+  .text              ro code       0xd4e4     0xc  cstartup_M.o [4]
+  .text              ro code       0xd4f0    0x1e  cmain.o [4]
+  .text              ro code       0xd510    0x28  data_init.o [4]
+  .text              ro code       0xd538     0xc  ProcessorExpert.o [1]
+  .text              ro code       0xd544     0x8  exit.o [2]
+  .text              ro code       0xd54c     0xa  cexit.o [4]
+  .text              ro code       0xd558     0xc  XXexit.o [4]
+  .rodata            const         0xd564    0x30  menus.o [1]
+  .rodata            const         0xd594    0x30  menus.o [1]
+  .rodata            const         0xd5c4    0x30  menus.o [1]
+  .rodata            const         0xd5f4    0x30  message.o [1]
+  .text              ro code       0xd624    0x30  copy_init3.o [4]
+  .rodata            const         0xd654    0x2c  menus.o [1]
+  .rodata            const         0xd680    0x2c  menus.o [1]
+  .rodata            const         0xd6ac    0x2c  menus.o [1]
+  .rodata            const         0xd6d8    0x2c  menus.o [1]
+  .rodata            const         0xd704    0x2c  menus.o [1]
+  .rodata            const         0xd730    0x2c  menus.o [1]
+  .rodata            const         0xd75c    0x2c  menus.o [1]
+  .rodata            const         0xd788    0x2c  message.o [1]
+  .rodata            const         0xd7b4    0x2c  message.o [1]
+  .rodata            const         0xd7e0    0x28  menus.o [1]
+  .rodata            const         0xd808    0x28  menus.o [1]
+  .rodata            const         0xd830    0x28  menus.o [1]
+  .rodata            const         0xd858    0x28  menus.o [1]
+  .rodata            const         0xd880    0x28  menus.o [1]
+  .rodata            const         0xd8a8    0x28  menus.o [1]
+  .rodata            const         0xd8d0    0x28  menus.o [1]
+  .rodata            const         0xd8f8    0x28  menus.o [1]
+  .rodata            const         0xd920    0x28  menus.o [1]
+  .rodata            const         0xd948    0x28  menus.o [1]
+  .rodata            const         0xd970    0x28  menus.o [1]
+  .rodata            const         0xd998    0x28  menus.o [1]
+  .rodata            const         0xd9c0    0x28  menus.o [1]
+  .rodata            const         0xd9e8    0x28  menus.o [1]
+  .rodata            const         0xda10    0x28  menus.o [1]
+  .rodata            const         0xda38    0x24  menus.o [1]
+  .rodata            const         0xda5c    0x24  menus.o [1]
+  .rodata            const         0xda80    0x24  menus.o [1]
+  .rodata            const         0xdaa4    0x24  menus.o [1]
+  .rodata            const         0xdac8    0x24  menus.o [1]
+  .rodata            const         0xdaec    0x24  menus.o [1]
+  .rodata            const         0xdb10    0x24  menus.o [1]
+  .rodata            const         0xdb34    0x24  menus.o [1]
+  .rodata            const         0xdb58    0x24  menus.o [1]
+  .rodata            const         0xdb7c    0x24  menus.o [1]
+  .rodata            const         0xdba0    0x24  menus.o [1]
+  .rodata            const         0xdbc4    0x24  menus.o [1]
+  .rodata            const         0xdbe8    0x24  menus.o [1]
+  .rodata            const         0xdc0c    0x24  menus.o [1]
+  .rodata            const         0xdc30    0x24  menus.o [1]
+  .rodata            const         0xdc54    0x24  menus.o [1]
+  .rodata            const         0xdc78    0x24  menus.o [1]
+  .rodata            const         0xdc9c    0x24  menus.o [1]
+  .rodata            const         0xdcc0    0x24  menus.o [1]
+  .rodata            const         0xdce4    0x24  menus.o [1]
+  .rodata            const         0xdd08    0x24  menus.o [1]
+  .rodata            const         0xdd2c    0x24  menus.o [1]
+  .rodata            const         0xdd50    0x24  menus.o [1]
+  .rodata            const         0xdd74    0x24  menus.o [1]
+  .rodata            const         0xdd98    0x24  menus.o [1]
+  .rodata            const         0xddbc    0x24  menus.o [1]
+  .rodata            const         0xdde0    0x24  menus.o [1]
+  .rodata            const         0xde04    0x24  menus.o [1]
+  .rodata            const         0xde28    0x24  menus.o [1]
+  .rodata            const         0xde4c    0x24  menus.o [1]
+  .rodata            const         0xde70    0x24  menus.o [1]
+  .rodata            const         0xde94    0x24  menus.o [1]
+  .rodata            const         0xdeb8    0x24  menus.o [1]
+  .rodata            const         0xdedc    0x24  menus.o [1]
+  .rodata            const         0xdf00    0x24  menus.o [1]
+  .rodata            const         0xdf24    0x24  menus.o [1]
+  .rodata            const         0xdf48    0x24  menus.o [1]
+  .rodata            const         0xdf6c    0x24  MQXLite1.o [1]
+  .iar.init_table    const         0xdf90    0x24  - Linker created -
+  .rodata            const         0xdfb4    0x20  menus.o [1]
+  .rodata            const         0xdfd4    0x20  menus.o [1]
+  .rodata            const         0xdff4    0x20  menus.o [1]
+  .rodata            const         0xe014    0x20  menus.o [1]
+  .rodata            const         0xe034    0x20  menus.o [1]
+  .rodata            const         0xe054    0x20  menus.o [1]
+  .rodata            const         0xe074    0x20  menus.o [1]
+  .rodata            const         0xe094    0x20  menus.o [1]
+  .rodata            const         0xe0b4    0x20  menus.o [1]
+  .rodata            const         0xe0d4    0x20  menus.o [1]
+  .rodata            const         0xe0f4    0x20  menus.o [1]
+  .rodata            const         0xe114    0x20  menus.o [1]
+  .rodata            const         0xe134    0x20  menus.o [1]
+  .rodata            const         0xe154    0x20  menus.o [1]
+  .rodata            const         0xe174    0x20  message.o [1]
+  .rodata            const         0xe194    0x20  message.o [1]
+  .rodata            const         0xe1b4    0x1c  menus.o [1]
+  .rodata            const         0xe1d0    0x1c  menus.o [1]
+  .rodata            const         0xe1ec    0x1c  menus.o [1]
+  .rodata            const         0xe208    0x1c  menus.o [1]
+  .rodata            const         0xe224    0x1c  menus.o [1]
+  .rodata            const         0xe240    0x1c  menus.o [1]
+  .rodata            const         0xe25c    0x1c  menus.o [1]
+  .rodata            const         0xe278    0x1c  menus.o [1]
+  .rodata            const         0xe294    0x1c  menus.o [1]
+  .rodata            const         0xe2b0    0x1c  menus.o [1]
+  .rodata            const         0xe2cc    0x1c  menus.o [1]
+  .rodata            const         0xe2e8    0x1c  menus.o [1]
+  .rodata            const         0xe304    0x1c  menus.o [1]
+  .rodata            const         0xe320    0x1c  menus.o [1]
+  .rodata            const         0xe33c    0x1c  menus.o [1]
+  .rodata            const         0xe358    0x1c  menus.o [1]
+  .rodata            const         0xe374    0x1c  menus.o [1]
+  .rodata            const         0xe390    0x1c  menus.o [1]
+  .rodata            const         0xe3ac    0x1c  menus.o [1]
+  .rodata            const         0xe3c8    0x1c  message.o [1]
+  .rodata            const         0xe3e4    0x1c  message.o [1]
+  .rodata            const         0xe400    0x1c  message.o [1]
+  .rodata            const         0xe41c    0x18  menus.o [1]
+  .rodata            const         0xe434    0x18  menus.o [1]
+  .rodata            const         0xe44c    0x18  menus.o [1]
+  .rodata            const         0xe464    0x18  menus.o [1]
+  .rodata            const         0xe47c    0x18  menus.o [1]
+  .rodata            const         0xe494    0x18  menus.o [1]
+  .rodata            const         0xe4ac    0x18  menus.o [1]
+  .rodata            const         0xe4c4    0x18  menus.o [1]
+  .rodata            const         0xe4dc    0x18  menus.o [1]
+  .rodata            const         0xe4f4    0x18  menus.o [1]
+  .rodata            const         0xe50c    0x18  menus.o [1]
+  .rodata            const         0xe524    0x18  menus.o [1]
+  .rodata            const         0xe53c    0x18  menus.o [1]
+  .rodata            const         0xe554    0x18  menus.o [1]
+  .rodata            const         0xe56c    0x18  menus.o [1]
+  .rodata            const         0xe584    0x18  menus.o [1]
+  .rodata            const         0xe59c    0x18  menus.o [1]
+  .rodata            const         0xe5b4    0x18  menus.o [1]
+  .rodata            const         0xe5cc    0x18  message.o [1]
+  .rodata            const         0xe5e4    0x18  message.o [1]
+  .rodata            const         0xe5fc    0x18  message.o [1]
+  .rodata            const         0xe614    0x18  message.o [1]
+  .rodata            const         0xe62c    0x18  mqxlite.o [1]
+  .rodata            const         0xe644    0x14  menus.o [1]
+  .rodata            const         0xe658    0x14  menus.o [1]
+  .rodata            const         0xe66c    0x14  menus.o [1]
+  .rodata            const         0xe680    0x14  menus.o [1]
+  .rodata            const         0xe694    0x14  menus.o [1]
+  .rodata            const         0xe6a8    0x14  menus.o [1]
+  .rodata            const         0xe6bc    0x14  menus.o [1]
+  .rodata            const         0xe6d0    0x14  menus.o [1]
+  .rodata            const         0xe6e4    0x14  menus.o [1]
+  .rodata            const         0xe6f8    0x14  menus.o [1]
+  .rodata            const         0xe70c    0x14  menus.o [1]
+  .rodata            const         0xe720    0x14  menus.o [1]
+  .rodata            const         0xe734    0x14  menus.o [1]
+  .rodata            const         0xe748    0x14  menus.o [1]
+  .rodata            const         0xe75c    0x14  menus.o [1]
+  .rodata            const         0xe770    0x14  message.o [1]
+  .rodata            const         0xe784    0x14  message.o [1]
+  .rodata            const         0xe798    0x14  message.o [1]
+  .rodata            const         0xe7ac    0x14  message.o [1]
+  .rodata            const         0xe7c0    0x14  message.o [1]
+  .rodata            const         0xe7d4    0x14  SerialManager.o [1]
+  .rodata            const         0xe7e8    0x14  UARTA.o [1]
+  .rodata            const         0xe7fc    0x10  Cpu.o [1]
+  .rodata            const         0xe80c    0x10  menus.o [1]
+  .rodata            const         0xe81c    0x10  menus.o [1]
+  .rodata            const         0xe82c    0x10  menus.o [1]
+  .rodata            const         0xe83c    0x10  menus.o [1]
+  .rodata            const         0xe84c    0x10  menus.o [1]
+  .rodata            const         0xe85c    0x10  menus.o [1]
+  .rodata            const         0xe86c    0x10  menus.o [1]
+  .rodata            const         0xe87c    0x10  menus.o [1]
+  .rodata            const         0xe88c    0x10  menus.o [1]
+  .rodata            const         0xe89c    0x10  menus.o [1]
+  .rodata            const         0xe8ac    0x10  menus.o [1]
+  .rodata            const         0xe8bc    0x10  menus.o [1]
+  .rodata            const         0xe8cc    0x10  menus.o [1]
+  .rodata            const         0xe8dc    0x10  menus.o [1]
+  .rodata            const         0xe8ec    0x10  menus.o [1]
+  .rodata            const         0xe8fc    0x10  menus.o [1]
+  .rodata            const         0xe90c    0x10  menus.o [1]
+  .rodata            const         0xe91c    0x10  message.o [1]
+  .rodata            const         0xe92c    0x10  message.o [1]
+  .rodata            const         0xe93c    0x10  message.o [1]
+  .rodata            const         0xe94c    0x10  mqx_utils.o [1]
+  .text              ro code       0xe95c    0x10  idletask.o [1]
+  .rodata            const         0xe96c     0xc  menus.o [1]
+  .rodata            const         0xe978     0xc  menus.o [1]
+  .rodata            const         0xe984     0xc  menus.o [1]
+  .rodata            const         0xe990     0xc  menus.o [1]
+  .rodata            const         0xe99c     0xc  menus.o [1]
+  .rodata            const         0xe9a8     0xc  menus.o [1]
+  .rodata            const         0xe9b4     0xc  menus.o [1]
+  .rodata            const         0xe9c0     0xc  menus.o [1]
+  .rodata            const         0xe9cc     0xc  menus.o [1]
+  .rodata            const         0xe9d8     0xc  menus.o [1]
+  .rodata            const         0xe9e4     0xc  menus.o [1]
+  .rodata            const         0xe9f0     0xc  menus.o [1]
+  .rodata            const         0xe9fc     0xc  menus.o [1]
+  .rodata            const         0xea08     0xc  menus.o [1]
+  .rodata            const         0xea14     0xc  menus.o [1]
+  .rodata            const         0xea20     0xc  menus.o [1]
+  .rodata            const         0xea2c     0xc  menus.o [1]
+  .rodata            const         0xea38     0xc  message.o [1]
+  .rodata            const         0xea44     0xc  message.o [1]
+  .rodata            const         0xea50     0xc  message.o [1]
+  .rodata            const         0xea5c     0xc  message.o [1]
+  .rodata            const         0xea68     0xc  message.o [1]
+  .rodata            const         0xea74     0xc  message.o [1]
+  .rodata            const         0xea80     0xc  message.o [1]
+  .rodata            const         0xea8c     0xc  message.o [1]
+  .rodata            const         0xea98     0xc  message.o [1]
+  .rodata            const         0xeaa4     0xc  mqxlite.o [1]
+  .rodata            const         0xeab0     0xc  smac.o [1]
+  .rodata            const         0xeabc     0xc  TimersManager.o [1]
+  .text              ro code       0xeac8     0xc  mqx_tasks.o [1]
+  .rodata            const         0xead4     0x8  menus.o [1]
+  .rodata            const         0xeadc     0x8  menus.o [1]
+  .rodata            const         0xeae4     0x8  menus.o [1]
+  .rodata            const         0xeaec     0x8  menus.o [1]
+  .rodata            const         0xeaf4     0x8  menus.o [1]
+  .rodata            const         0xeafc     0x8  menus.o [1]
+  .rodata            const         0xeb04     0x8  menus.o [1]
+  .rodata            const         0xeb0c     0x8  menus.o [1]
+  .rodata            const         0xeb14     0x8  menus.o [1]
+  .rodata            const         0xeb1c     0x8  menus.o [1]
+  .rodata            const         0xeb24     0x8  menus.o [1]
+  .rodata            const         0xeb2c     0x8  menus.o [1]
+  .rodata            const         0xeb34     0x8  menus.o [1]
+  .rodata            const         0xeb3c     0x8  menus.o [1]
+  .rodata            const         0xeb44     0x8  message.o [1]
+  .rodata            const         0xeb4c     0x8  message.o [1]
+  .rodata            const         0xeb54     0x8  message.o [1]
+  .rodata            const         0xeb5c     0x8  message.o [1]
+  .rodata            const         0xeb64     0x8  message.o [1]
+  .rodata            const         0xeb6c     0x8  message.o [1]
+  .rodata            const         0xeb74     0x8  message.o [1]
+  .rodata            const         0xeb7c     0x8  message.o [1]
+  .rodata            const         0xeb84     0x8  message.o [1]
+  .rodata            const         0xeb8c     0x8  message.o [1]
+  .rodata            const         0xeb94     0x8  task_template_list.o [1]
+  .rodata            const         0xeb9c     0x8  usr_tasks.o [1]
+  .rodata            const         0xeba4     0x8  usr_tasks.o [1]
+  .rodata            const         0xebac     0x4  menus.o [1]
+  .rodata            const         0xebb0     0x4  mqxlite.o [1]
+  .rodata            const         0xebb4     0x4  mqxlite.o [1]
+  .rodata            const         0xebb8     0x4  mqxlite.o [1]
+  .rodata            const         0xebbc     0x4  mqxlite.o [1]
+  .rodata            const         0xebc0     0x0  zero_init3.o [4]
+  .rodata            const         0xebc0     0x0  copy_init3.o [4]
+  Initializer bytes  const         0xebc0    0xa8  <for P2 s0>
+                                 - 0xec68  0xd858
+
+"P2", part 1 of 3:                           0xa8
+  P2 s0                       0x1fff'f000    0xa8  <Init block>
+    .data            inited   0x1fff'f000    0x20  SerialManager.o [1]
+    .data            inited   0x1fff'f020    0x20  smac.o [1]
+    .data            inited   0x1fff'f040    0x20  TimersManager.o [1]
+    .data            inited   0x1fff'f060    0x1c  sx1276-LoRa.o [1]
+    .data            inited   0x1fff'f07c    0x10  MemManager.o [1]
+    .data            inited   0x1fff'f08c     0x8  MQXLite1.o [1]
+    .data            inited   0x1fff'f094     0x4  mqxlite.o [1]
+    .data            inited   0x1fff'f098     0x4  MQXLite_Adapter.o [1]
+    .data            inited   0x1fff'f09c     0x4  MQXLite_Adapter.o [1]
+    .data            inited   0x1fff'f0a0     0x4  RNG.o [1]
+    .data            inited   0x1fff'f0a4     0x1  LED.o [1]
+    .data            inited   0x1fff'f0a5     0x1  LED.o [1]
+    .data            inited   0x1fff'f0a6     0x1  sx1276-LoRa.o [1]
+    .data            inited   0x1fff'f0a7     0x1  sx1276-LoRa.o [1]
+                            - 0x1fff'f0a8    0xa8
+
+"P2", part 2 of 3:                         0x2c74
+  .bss               zero     0x1fff'f0a8   0xb80  MemManager.o [1]
+  .bss               zero     0x1fff'fc28   0x384  MQXLite1.o [1]
+  .bss               zero     0x1fff'ffac   0x2bc  SerialManager.o [1]
+  .bss               zero     0x2000'0268   0x2bc  smac.o [1]
+  .bss               zero     0x2000'0524   0x2bc  TimersManager.o [1]
+  .bss               zero     0x2000'07e0   0x26c  MQXLite1.o [1]
+  .bss               zero     0x2000'0a4c   0x210  MQXLite1.o [1]
+  .bss               zero     0x2000'0c5c   0x18c  MQXLite1.o [1]
+  .bss               zero     0x2000'0de8   0x168  TimersManager.o [1]
+  .bss               zero     0x2000'0f50   0x160  MQXLite1.o [1]
+  .bss               zero     0x2000'10b0   0x128  MQXLite1.o [1]
+  .bss               zero     0x2000'11d8   0x100  SerialManager.o [1]
+  .bss               zero     0x2000'12d8   0x100  smac.o [1]
+  .bss               zero     0x2000'13d8   0x100  sx1276-LoRa.o [1]
+  .bss               zero     0x2000'14d8   0x100  usr_tasks.o [1]
+  .bss               zero     0x2000'15d8   0x100  usr_tasks.o [1]
+  .bss               zero     0x2000'16d8    0xa8  usr_tasks.o [1]
+  .bss               zero     0x2000'1780    0x8c  MQXLite_Adapter.o [1]
+  .bss               zero     0x2000'180c    0x80  message.o [1]
+  .bss               zero     0x2000'188c    0x80  message.o [1]
+  codeRam            zero     0x2000'190c    0x80  flash.o [1]
+  .bss               zero     0x2000'198c    0x70  sx1276.o [1]
+  .bss               zero     0x2000'19fc    0x34  PE_LDD.o [1]
+  .bss               zero     0x2000'1a30    0x40  mqxlite.o [1]
+  .bss               zero     0x2000'1a70    0x30  MemManager.o [1]
+  .bss               zero     0x2000'1aa0    0x24  MQXLite_Adapter.o [1]
+  .bss               zero     0x2000'1ac4    0x24  SerialManager.o [1]
+  .bss               zero     0x2000'1ae8    0x24  smac.o [1]
+  .bss               zero     0x2000'1b0c    0x24  TimersManager.o [1]
+  .bss               zero     0x2000'1b30    0x24  UARTA.o [1]
+  .bss               zero     0x2000'1b54    0x20  MQXLite_Adapter.o [1]
+  .bss               zero     0x2000'1b74    0x1c  MQXLite_Adapter.o [1]
+  .bss               zero     0x2000'1b90    0x1c  Panic.o [1]
+  .bss               zero     0x2000'1bac    0x1c  SerialManager.o [1]
+  .bss               zero     0x2000'1bc8    0x1c  smac.o [1]
+  .bss               zero     0x2000'1be4    0x1c  TimersManager.o [1]
+  .bss               zero     0x2000'1c00    0x18  radio.o [1]
+  .bss               zero     0x2000'1c18    0x18  StackTimer.o [1]
+  .bss               zero     0x2000'1c30    0x14  TimersManager.o [1]
+  .bss               zero     0x2000'1c44    0x10  SystemTimer1.o [1]
+  .bss               zero     0x2000'1c54     0xc  MQXLite_Adapter.o [1]
+  default            zero     0x2000'1c60     0xc  flash.o [1]
+  .bss               zero     0x2000'1c6c     0x4  Events.o [1]
+  .bss               zero     0x2000'1c70     0x8  sx1276-LoRa.o [1]
+  .bss               zero     0x2000'1c78     0x4  Events.o [1]
+  .bss               zero     0x2000'1c7c     0x4  Events.o [1]
+  .bss               zero     0x2000'1c80     0x4  LED1.o [1]
+  .bss               zero     0x2000'1c84     0x4  LED2.o [1]
+  .bss               zero     0x2000'1c88     0x4  message.o [1]
+  .bss               zero     0x2000'1c8c     0x4  message.o [1]
+  .bss               zero     0x2000'1c90     0x4  message.o [1]
+  .bss               zero     0x2000'1c94     0x4  MQXLite1.o [1]
+  .bss               zero     0x2000'1c98     0x4  MQXLite_Adapter.o [1]
+  .bss               zero     0x2000'1c9c     0x4  SerialManager.o [1]
+  .bss               zero     0x2000'1ca0     0x4  smac.o [1]
+  .bss               zero     0x2000'1ca4     0x4  smac.o [1]
+  .bss               zero     0x2000'1ca8     0x4  smac.o [1]
+  .bss               zero     0x2000'1cac     0x4  smac.o [1]
+  .bss               zero     0x2000'1cb0     0x4  smac.o [1]
+  .bss               zero     0x2000'1cb4     0x4  smac.o [1]
+  .bss               zero     0x2000'1cb8     0x4  sx1276-Hal.o [1]
+  .bss               zero     0x2000'1cbc     0x4  sx1276-LoRa.o [1]
+  .bss               zero     0x2000'1cc0     0x4  sx1276-LoRa.o [1]
+  .bss               zero     0x2000'1cc4     0x4  sx1276-LoRa.o [1]
+  .bss               zero     0x2000'1cc8     0x4  sx1276-Spi.o [1]
+  .bss               zero     0x2000'1ccc     0x4  task.o [1]
+  .bss               zero     0x2000'1cd0     0x4  TimersManager.o [1]
+  .bss               zero     0x2000'1cd4     0x4  TimersManager.o [1]
+  .bss               zero     0x2000'1cd8     0x4  TimersManager.o [1]
+  .bss               zero     0x2000'1cdc     0x4  TimersManager.o [1]
+  .bss               zero     0x2000'1ce0     0x4  usr_tasks.o [1]
+  .bss               zero     0x2000'1ce4     0x2  MemManager.o [1]
+  .bss               zero     0x2000'1ce6     0x2  smac.o [1]
+  .bss               zero     0x2000'1ce8     0x2  smac.o [1]
+  .bss               zero     0x2000'1cea     0x2  sx1276-LoRa.o [1]
+  .bss               zero     0x2000'1cec     0x2  sx1276-LoRa.o [1]
+  .bss               zero     0x2000'1cee     0x2  TimersManager.o [1]
+  .bss               zero     0x2000'1cf0     0x2  TimersManager.o [1]
+  .bss               zero     0x2000'1cf2     0x2  usr_tasks.o [1]
+  .bss               zero     0x2000'1cf4     0x2  usr_tasks.o [1]
+  .bss               zero     0x2000'1cf6     0x1  Cpu.o [1]
+  .bss               zero     0x2000'1cf7     0x1  LED.o [1]
+  .bss               zero     0x2000'1cf8     0x1  LED.o [1]
+  .bss               zero     0x2000'1cf9     0x1  message.o [1]
+  .bss               zero     0x2000'1cfa     0x1  message.o [1]
+  .bss               zero     0x2000'1cfb     0x1  message.o [1]
+  .bss               zero     0x2000'1cfc     0x1  smac.o [1]
+  .bss               zero     0x2000'1cfd     0x1  smac.o [1]
+  .bss               zero     0x2000'1cfe     0x1  smac.o [1]
+  .bss               zero     0x2000'1cff     0x1  smac.o [1]
+  .bss               zero     0x2000'1d00     0x1  smac.o [1]
+  .bss               zero     0x2000'1d01     0x1  smac.o [1]
+  .bss               zero     0x2000'1d02     0x1  smac.o [1]
+  .bss               zero     0x2000'1d03     0x1  smac.o [1]
+  .bss               zero     0x2000'1d04     0x1  smac.o [1]
+  .bss               zero     0x2000'1d05     0x1  smac.o [1]
+  .bss               zero     0x2000'1d06     0x1  smac.o [1]
+  .bss               zero     0x2000'1d07     0x1  smac.o [1]
+  .bss               zero     0x2000'1d08     0x1  smac.o [1]
+  .bss               zero     0x2000'1d09     0x1  sx1276-LoRa.o [1]
+  .bss               zero     0x2000'1d0a     0x1  sx1276-LoRa.o [1]
+  .bss               zero     0x2000'1d0b     0x1  sx1276.o [1]
+  .bss               zero     0x2000'1d0c     0x1  sx1276.o [1]
+  .bss               zero     0x2000'1d0d     0x1  sx1276.o [1]
+  .bss               zero     0x2000'1d0e     0x1  TimersManager.o [1]
+  .bss               zero     0x2000'1d0f     0x1  TimersManager.o [1]
+  .bss               zero     0x2000'1d10     0x1  TimersManager.o [1]
+  .bss               zero     0x2000'1d11     0x1  usr_tasks.o [1]
+  .bss               zero     0x2000'1d12     0x1  usr_tasks.o [1]
+  .bss               zero     0x2000'1d13     0x1  usr_tasks.o [1]
+  .bss               zero     0x2000'1d14     0x1  usr_tasks.o [1]
+  .bss               zero     0x2000'1d15     0x1  usr_tasks.o [1]
+  .bss               zero     0x2000'1d16     0x1  usr_tasks.o [1]
+  .bss               zero     0x2000'1d17     0x1  usr_tasks.o [1]
+  .bss               zero     0x2000'1d18     0x1  usr_tasks.o [1]
+                            - 0x2000'1d19  0x2c71
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'1d20   0x400  <Block>
+    CSTACK           uninit   0x2000'1d20   0x400  <Block tail>
+                            - 0x2000'2120   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0xec68     0x1'fbff  0x1'0f98
+  0x2000'1d1c  0x2000'1d1f       0x4
+  0x2000'2120  0x2000'2fff     0xee0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2c71:
+          0x1fff'f0a8  0x2c71
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xa8:
+               0xebc0    0xa8
+    1 destination range, total size 0xa8:
+          0x1fff'f000    0xa8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  ro data  rw data
+    ------                -------  -------  -------
+command line/config:
+    -----------------------------------------------
+    Total:
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora MQXLite\Obj: [1]
+    Cpu.o                   1'212       32        1
+    Events.o                  104                12
+    FunctionLib.o              34
+    GenericList.o             186
+    LED.o                     352        2        4
+    LED1.o                    120                 4
+    LED2.o                    120                 4
+    MQXLite1.o                 64       44    3'104
+    MQXLite_Adapter.o       1'252        8      260
+    MemManager.o              168       16    3'010
+    PE_LDD.o                  104                52
+    Panic.o                    60                28
+    PitTimeStamp.o            244
+    ProcessorExpert.o          12
+    RNG.o                      36        4        4
+    RealTimeClock.o             2
+    SerialManager.o         2'810       52    1'056
+    StackTimer.o              624        1       24
+    SystemTimer1.o            536                16
+    TimersManager.o         1'316       44    1'199
+    UARTA.o                   884       20       36
+    Vectors.o                          192
+    boot.o                     52
+    cca.o                   1'968
+    dispatch.o                604
+    flash.o                   150               140
+    flash_RamFunc.o            76
+    idletask.o                 16
+    int.o                     344
+    int_inst.o                 20
+    int_vtab.o                 36
+    llwu.o                    632
+    lptmr.o                   244
+    lwevent.o               1'248
+    lwsem.o                   964
+    mcg.o                   1'060
+    mem_zero.o                308
+    menus.o                10'400    5'484
+    message.o               3'704      716      271
+    mqx_tasks.o                12
+    mqx_utils.o               328       16
+    mqxlite.o                 472      128       68
+    psp_iinit.o                28
+    psp_tiad.o                 80
+    psp_tinm.o                 60
+    radio.o                    56                24
+    sc_irdyq.o                196
+    sched.o                   192
+    smac.o                  2'560      524    1'093
+    smc.o                      56
+    stack_bu.o                 92
+    sx1276-Hal.o              480                 4
+    sx1276-LoRa.o           1'816      234      312
+    sx1276-LoRaMisc.o       1'152
+    sx1276-Spi.o              456                 4
+    sx1276.o                  360               115
+    task.o                  1'726                 4
+    task_template_list.o                64
+    time_ticks.o              832
+    usr_tasks.o             1'660       16      696
+    -----------------------------------------------
+    Total:                 44'680    7'597   11'545
+
+dl6M_tln.a: [2]
+    exit.o                      8
+    strncmp.o                  44
+    -----------------------------------------------
+    Total:                     52
+
+m6M_tl.a: [3]
+    DblAddSub.o               436
+    DblCmpLe.o                 50
+    DblDiv.o                  194
+    DblMul.o                  388
+    DblToI32.o                 82
+    FltAddSub.o               288
+    FltCmpEq.o                 32
+    FltDiv.o                  170
+    FltMul.o                  176
+    FltToDbl.o                 50
+    FltToU32.o                 38
+    IxxToDbl.o                 52
+    IxxToFlt.o                 32
+    ceil.o                     88
+    -----------------------------------------------
+    Total:                  2'076
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                78
+    ABImemset.o                82
+    I32DivModFast.o           224
+    I64DivMod.o               106
+    I64Mul.o                   50
+    XXexit.o                   12
+    cexit.o                    10
+    cmain.o                    30
+    copy_init3.o               48
+    cstartup_M.o               12
+    data_init.o                40
+    setjmp.o                   54
+    strcmp.o                  152
+    strcpy.o                  116
+    strlen.o                   14
+    uwrite4.o                  20
+    zero_init3.o               60
+    -----------------------------------------------
+    Total:                  1'108
+
+    Gaps                       43
+    Linker created                      36    1'024
+---------------------------------------------------
+    Grand Total:           47'959    7'633   12'569
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0xdf90          --   Gb  - Linker created -
+.iar.init_table$$Limit       0xdfb4          --   Gb  - Linker created -
+?main                        0xd4f1         Code  Gb  cmain.o [4]
+AckTransmit                  0x9b35   0x8e  Code  Lc  smac.o [1]
+CSTACK$$Base            0x2000'1d20          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2120          --   Gb  - Linker created -
+CcaFreqConfig                0xb65b   0x7a  Code  Lc  cca.o [1]
+ChannelDevice                0x3d56    0x1  Data  Lc  StackTimer.o [1]
+CheckRouteInfo               0x7141   0x62  Code  Lc  message.o [1]
+ClockConfigurationID    0x2000'1cf6    0x1  Data  Lc  Cpu.o [1]
+CommDataBuffer          0x2000'14d8  0x100  Data  Gb  usr_tasks.o [1]
+CommDataIndex           0x2000'1cf2    0x2  Data  Gb  usr_tasks.o [1]
+CommExecHelp                 0x3c15    0xe  Code  Lc  menus.o [1]
+CommExecLoadParameter        0x37f9   0x2c  Code  Lc  menus.o [1]
+CommExecSaveParameter        0x373d   0xb8  Code  Lc  menus.o [1]
+CommExecSelectBandWidth
+                             0x1919  0x220  Code  Lc  menus.o [1]
+CommExecSelectBaudrate       0x2d39  0x210  Code  Lc  menus.o [1]
+CommExecSelectNode           0x17a1  0x13a  Code  Lc  menus.o [1]
+CommExecSelectOperation
+                             0x2bd1  0x13a  Code  Lc  menus.o [1]
+CommExecSelectRcvId          0x2921  0x13a  Code  Lc  menus.o [1]
+CommExecSelectRssi           0x2a7d  0x13a  Code  Lc  menus.o [1]
+CommExecSelectSleep          0x2f7d  0x15a  Code  Lc  menus.o [1]
+CommExecSelectTransMode
+                             0x27c9  0x13a  Code  Lc  menus.o [1]
+CommExecSetAck               0x2531  0x13a  Code  Lc  menus.o [1]
+CommExecSetChannel           0x1d01  0x19a  Code  Lc  menus.o [1]
+CommExecSetDestinationId
+                             0x2331  0x1ea  Code  Lc  menus.o [1]
+CommExecSetFormat            0x33f1  0x13a  Code  Lc  menus.o [1]
+CommExecSetPanId             0x1ed9  0x20e  Code  Lc  menus.o [1]
+CommExecSetPower             0x3239  0x19a  Code  Lc  menus.o [1]
+CommExecSetRetry             0x267d  0x12a  Code  Lc  menus.o [1]
+CommExecSetSendData          0x3671   0x74  Code  Lc  menus.o [1]
+CommExecSetSendTime          0x3545  0x11e  Code  Lc  menus.o [1]
+CommExecSetSleepTime         0x30e5  0x12a  Code  Lc  menus.o [1]
+CommExecSetSourceId          0x210d  0x1fe  Code  Lc  menus.o [1]
+CommExecSetSpreadingFactor
+                             0x1b69  0x16e  Code  Lc  menus.o [1]
+CommExecShow                 0x3871  0x374  Code  Lc  menus.o [1]
+CommExecVersion              0x36f1   0x42  Code  Lc  menus.o [1]
+CommRxCallBack               0x1559   0x8a  Code  Gb  menus.o [1]
+CommShowModeSel              0x16d1   0x26  Code  Lc  menus.o [1]
+CommShowPrompt               0x1705   0x74  Code  Lc  menus.o [1]
+CommandObj              0x2000'1c60    0xc  Data  Gb  flash.o [1]
+Config                       0x1400   0x10  Data  Gb  Cpu.o [1]
+Cpu_GetClockConfiguration
+                             0x86c3    0x6  Code  Gb  Cpu.o [1]
+Cpu_GetCurrentMCGMode        0x85f5   0x3a  Code  Lc  Cpu.o [1]
+Cpu_Interrupt                0x83bd    0x2  Code  Gb  Cpu.o [1]
+Cpu_OnReset                  0x88b7   0x18  Code  Gb  Events.o [1]
+Cpu_SetClockConfiguration
+                             0x8641   0x82  Code  Gb  Cpu.o [1]
+Cpu_SetMCG                   0x8575   0x80  Code  Lc  Cpu.o [1]
+Cpu_SetMCGModeFBE            0x8487   0x98  Code  Lc  Cpu.o [1]
+Cpu_SetMCGModeFEI            0x851f   0x56  Code  Lc  Cpu.o [1]
+Cpu_SetMCGModePBE            0x8401   0x86  Code  Lc  Cpu.o [1]
+Cpu_SetMCGModePEE            0x83bf   0x42  Code  Lc  Cpu.o [1]
+Debug_Print                  0x4a65    0x2  Code  Gb  usr_tasks.o [1]
+DeviceDataPrv__DEFAULT_RTOS_ALLOC
+                        0x2000'1c80    0x4  Data  Lc  LED1.o [1]
+DeviceDataPrv__DEFAULT_RTOS_ALLOC
+                        0x2000'1c84    0x4  Data  Lc  LED2.o [1]
+DeviceDataPrv__DEFAULT_RTOS_ALLOC
+                        0x2000'1c18   0x18  Data  Lc  StackTimer.o [1]
+DeviceDataPrv__DEFAULT_RTOS_ALLOC
+                        0x2000'1c44   0x10  Data  Lc  SystemTimer1.o [1]
+DeviceDataPrv__DEFAULT_RTOS_ALLOC
+                        0x2000'1b30   0x24  Data  Lc  UARTA.o [1]
+DoConfiguration              0x142d  0x12c  Code  Gb  menus.o [1]
+DoOperation                  0x6805  0x13a  Code  Gb  message.o [1]
+DutyTimerCallBack            0x9d35    0x8  Code  Lc  smac.o [1]
+DutyTmr                 0x2000'1d05    0x1  Data  Lc  smac.o [1]
+FLASH_EraseSector            0x4a29   0x14  Code  Gb  flash.o [1]
+FLASH_FlashCommandSequenceStart
+                             0xd309   0x4c  Code  Gb  flash_RamFunc.o [1]
+FLASH_Init                   0x49cd   0x1a  Code  Gb  flash.o [1]
+FLASH_ProgramLongWord        0x49e7   0x18  Code  Gb  flash.o [1]
+FLASH_ProgramSectionByLongs
+                             0x49ff   0x2a  Code  Gb  flash.o [1]
+FLASH_ReadLongWord           0x4a59    0xa  Code  Gb  flash.o [1]
+FLASH_ReadShortWord          0x4a4d    0xc  Code  Gb  flash.o [1]
+FLib_MemCpy                  0x4853   0x14  Code  Gb  FunctionLib.o [1]
+FLib_MemSet                  0x4867    0xe  Code  Gb  FunctionLib.o [1]
+HWEnDi                       0xbe73   0x32  Code  Lc  PitTimeStamp.o [1]
+HWEnDi                       0x9099   0x36  Code  Lc  StackTimer.o [1]
+HWEnDi                       0xaf69   0x32  Code  Lc  SystemTimer1.o [1]
+HWEnDi                       0x576b   0x4e  Code  Lc  UARTA.o [1]
+HoppingFrequencies           0xd1c4   0xcc  Data  Gb  sx1276-LoRa.o [1]
+InitProject                  0x4bef   0x22  Code  Lc  usr_tasks.o [1]
+IntDisableAll                0xc189    0x8  Code  Lc  sx1276-Spi.o [1]
+IntRestoreAll                0xc181    0x8  Code  Lc  sx1276-Spi.o [1]
+InterruptRx                  0x57b9   0x34  Code  Lc  UARTA.o [1]
+InterruptTx                  0x57ed   0x4c  Code  Lc  UARTA.o [1]
+IntervalTimerCallBack        0x754f   0x10  Code  Lc  message.o [1]
+IntervalTmr             0x2000'1d13    0x1  Data  Gb  usr_tasks.o [1]
+IsCcaOk                      0xb701  0x6ae  Code  Gb  cca.o [1]
+IsChar                       0x1411   0x1c  Code  Gb  menus.o [1]
+LDD_SetClockConfiguration
+                             0xa99d   0x60  Code  Gb  PE_LDD.o [1]
+LED1_ClrVal                  0x917d    0xa  Code  Gb  LED1.o [1]
+LED1_Init                    0x9149   0x34  Code  Gb  LED1.o [1]
+LED1_NegVal                  0x9191    0xa  Code  Gb  LED1.o [1]
+LED1_SetVal                  0x9187    0xa  Code  Gb  LED1.o [1]
+LED2_ClrVal                  0x91f5    0xa  Code  Gb  LED2.o [1]
+LED2_Init                    0x91c1   0x34  Code  Gb  LED2.o [1]
+LED2_NegVal                  0x9209    0xa  Code  Gb  LED2.o [1]
+LED2_SetVal                  0x91ff    0xa  Code  Gb  LED2.o [1]
+LED_FlashTimeout             0x67a5   0x4a  Code  Lc  LED.o [1]
+LED_Init                     0x66a5   0x24  Code  Gb  LED.o [1]
+LED_Operate                  0x66c9   0x60  Code  Gb  LED.o [1]
+LED_StartFlash               0x6765   0x1c  Code  Gb  LED.o [1]
+LED_StopFlash                0x6781   0x24  Code  Gb  LED.o [1]
+LED_ToggleLed                0x6747   0x1e  Code  Gb  LED.o [1]
+LED_TurnOffLed               0x6729   0x1e  Code  Gb  LED.o [1]
+LLW_IRQHandler               0x9387   0xee  Code  Gb  llwu.o [1]
+LPTMR_IRQHandler             0xa87b   0x3c  Code  Gb  lptmr.o [1]
+LPTMR_init                   0xa7e5   0x96  Code  Gb  lptmr.o [1]
+ListAddTail                  0x772f   0x48  Code  Gb  GenericList.o [1]
+ListGetHead                  0x7777    0x4  Code  Gb  GenericList.o [1]
+ListGetList                  0x772b    0x4  Code  Gb  GenericList.o [1]
+ListGetNext                  0x777b    0x4  Code  Gb  GenericList.o [1]
+ListInit                     0x771d    0xe  Code  Gb  GenericList.o [1]
+ListRemoveElement            0x777f   0x58  Code  Gb  GenericList.o [1]
+LoRaOn                  0x2000'1d0b    0x1  Data  Lc  sx1276.o [1]
+LoRaOnState             0x2000'1d0c    0x1  Data  Lc  sx1276.o [1]
+LoRaSettings            0x1fff'f060   0x1c  Data  Gb  sx1276-LoRa.o [1]
+MCGTransitionMatrix          0xe7fc   0x10  Data  Lc  Cpu.o [1]
+MEM_Init                     0x60d9   0x98  Code  Gb  MemManager.o [1]
+MQXLite1_SetClockConfiguration
+                             0xbee1   0x16  Code  Gb  MQXLite1.o [1]
+MQX_init_struct              0xdf6c   0x24  Data  Gb  MQXLite1.o [1]
+MQX_template_list            0xd3d8   0x38  Data  Gb  task_template_list.o [1]
+MainThread                   0x4b3b   0x24  Code  Gb  usr_tasks.o [1]
+MainThreadWrapper            0x50e1   0x56  Code  Gb  MQXLite_Adapter.o [1]
+MainThreadWrapper::osMainThreadDef
+                        0x2000'1b54   0x20  Data  Lc  MQXLite_Adapter.o [1]
+MainThreadWrapper::osMainThreadLink
+                        0x2000'1b74   0x1c  Data  Lc  MQXLite_Adapter.o [1]
+MainThreadWrapper::osMainThreadSignal
+                        0x2000'1aa0   0x24  Data  Lc  MQXLite_Adapter.o [1]
+MessageTask                  0x4b5f   0x90  Code  Lc  usr_tasks.o [1]
+PE_LDD_DeviceDataList   0x2000'19fc   0x34  Data  Gb  PE_LDD.o [1]
+PE_low_level_init            0x8773   0x86  Code  Gb  Cpu.o [1]
+PExTask                      0xeac9    0xc  Code  Gb  mqx_tasks.o [1]
+PORT_Init                    0x4c11   0x7e  Code  Lc  usr_tasks.o [1]
+PacketTimeout           0x2000'1cc4    0x4  Data  Lc  sx1276-LoRa.o [1]
+PhyTimerCallBack             0xb16b    0xa  Code  Lc  sx1276.o [1]
+PhyTmr                  0x2000'1d0d    0x1  Data  Lc  sx1276.o [1]
+PitTimeStamp_SetClockConfiguration
+                             0xbdc9   0xaa  Code  Gb  PitTimeStamp.o [1]
+PrintMessage                 0x1691   0x38  Code  Lc  menus.o [1]
+ProcessEvent                 0x693f   0xcc  Code  Lc  message.o [1]
+Processor_Print              0x4add   0x1a  Code  Gb  usr_tasks.o [1]
+Processor_PrintBin           0x4b1b   0x20  Code  Gb  usr_tasks.o [1]
+Processor_PrintHex           0x4af7   0x24  Code  Gb  usr_tasks.o [1]
+RFBuffer                0x2000'13d8  0x100  Data  Lc  sx1276-LoRa.o [1]
+RFLRState               0x2000'1d09    0x1  Data  Lc  sx1276-LoRa.o [1]
+RNG_GetRandomNo              0xb011   0x14  Code  Gb  RNG.o [1]
+RNG_Init                     0xb00d    0x4  Code  Gb  RNG.o [1]
+Radio                   0x2000'1ca4    0x4  Data  Lc  smac.o [1]
+RadioDriver             0x2000'1c00   0x18  Data  Gb  radio.o [1]
+RadioDriverInit              0xafd5   0x38  Code  Gb  radio.o [1]
+ReadConfigParam              0x4cd9  0x158  Code  Lc  usr_tasks.o [1]
+RealTimeClock_SetClockConfiguration
+                             0x88e1    0x2  Code  Gb  RealTimeClock.o [1]
+Receive                      0x9be9  0x13e  Code  Lc  smac.o [1]
+ReceiveData                  0x71b1  0x128  Code  Lc  message.o [1]
+ReceivePacketProcess         0x706d   0xcc  Code  Lc  message.o [1]
+Region$$Table$$Base          0xdf90          --   Gb  - Linker created -
+Region$$Table$$Limit         0xdfb4          --   Gb  - Linker created -
+RetryCount              0x2000'1cfd    0x1  Data  Lc  smac.o [1]
+RetryTransmit                0x99d1  0x14a  Code  Lc  smac.o [1]
+RxGain                  0x1fff'f0a6    0x1  Data  Lc  sx1276-LoRa.o [1]
+RxPacketRssiValue       0x2000'1c70    0x8  Data  Lc  sx1276-LoRa.o [1]
+RxPacketSize            0x2000'1cea    0x2  Data  Lc  sx1276-LoRa.o [1]
+RxPacketSnrEstimate     0x2000'1d0a    0x1  Data  Lc  sx1276-LoRa.o [1]
+RxTimeoutTimer          0x2000'1cc0    0x4  Data  Lc  sx1276-LoRa.o [1]
+SMAC_ConfigureTxContext
+                             0x9581   0x46  Code  Gb  smac.o [1]
+SMAC_FillHeader              0x95d1   0x34  Code  Gb  smac.o [1]
+SMAC_GetLastPktRssi          0x9735   0x12  Code  Gb  smac.o [1]
+SMAC_GetSymbolTime           0x9767   0x18  Code  Gb  smac.o [1]
+SMAC_Init                    0x94b1   0x8c  Code  Gb  smac.o [1]
+SMAC_RegisterHandler         0x95c7    0xa  Code  Gb  smac.o [1]
+SMAC_RxStart                 0x953d   0x32  Code  Gb  smac.o [1]
+SMAC_SetChannel              0x9635   0x86  Code  Gb  smac.o [1]
+SMAC_SetOpMode               0x9619   0x1c  Code  Gb  smac.o [1]
+SMAC_SetPanID                0x960f    0xa  Code  Gb  smac.o [1]
+SMAC_SetRFPower              0x970d   0x28  Code  Gb  smac.o [1]
+SMAC_SetSpreadingFactor
+                             0x9747   0x20  Code  Gb  smac.o [1]
+SMAC_SetSrcAddress           0x9605    0xa  Code  Gb  smac.o [1]
+SMAC_TxPacket                0x956f   0x12  Code  Gb  smac.o [1]
+SX1276GetPacketRssi          0xb0fd   0x16  Code  Gb  sx1276.o [1]
+SX1276GetRxPacket            0xb125   0x18  Code  Gb  sx1276.o [1]
+SX1276Init                   0xb031   0x2e  Code  Gb  sx1276.o [1]
+SX1276InitIo                 0xabdd   0xf2  Code  Gb  sx1276-Hal.o [1]
+SX1276LR                0x2000'1cbc    0x4  Data  Gb  sx1276-LoRa.o [1]
+SX1276LoRaGetPacketRssi
+                             0xc771    0x6  Code  Gb  sx1276-LoRa.o [1]
+SX1276LoRaGetRxPacket        0xc777   0x20  Code  Gb  sx1276-LoRa.o [1]
+SX1276LoRaInit               0xc62d   0xa4  Code  Gb  sx1276-LoRa.o [1]
+SX1276LoRaProcess            0xc7f9  0x516  Code  Gb  sx1276-LoRa.o [1]
+SX1276LoRaReadRssi           0xc733   0x3e  Code  Gb  sx1276-LoRa.o [1]
+SX1276LoRaReadRxGain         0xc719   0x1a  Code  Gb  sx1276-LoRa.o [1]
+SX1276LoRaSetDefaults        0xc6d1   0x12  Code  Gb  sx1276-LoRa.o [1]
+SX1276LoRaSetErrorCoding
+                             0xb433   0x32  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetImplicitHeaderOn
+                             0xb497   0x30  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetLowDatarateOptimize
+                             0xb5ad   0x34  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetNbTrigPeaks
+                             0xb5e1   0x32  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetOpMode          0xc6e3   0x36  Code  Gb  sx1276-LoRa.o [1]
+SX1276LoRaSetOpMode::opModePrev
+                        0x1fff'f0a7    0x1  Data  Lc  sx1276-LoRa.o [1]
+SX1276LoRaSetPAOutput        0xb53f   0x2c  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetPa20dBm         0xb4f1   0x4e  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetPacketCrcOn
+                             0xb465   0x32  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetPayloadLength
+                             0xb4cd   0x1e  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetRFFrequency
+                             0xb199   0x3c  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetRFPower         0xb1d5  0x19a  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetRFState         0xc7b9    0x6  Code  Gb  sx1276-LoRa.o [1]
+SX1276LoRaSetSignalBandwidth
+                             0xb37d   0x54  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetSpreadingFactor
+                             0xb3d1   0x62  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetSymbTimeout
+                             0xb56b   0x42  Code  Gb  sx1276-LoRaMisc.o [1]
+SX1276LoRaSetTxPacket        0xc797   0x22  Code  Gb  sx1276-LoRa.o [1]
+SX1276Process                0xb157   0x14  Code  Gb  sx1276.o [1]
+SX1276Read                   0xad03   0x14  Code  Gb  sx1276-Hal.o [1]
+SX1276ReadBuffer             0xad2f   0x18  Code  Gb  sx1276-Hal.o [1]
+SX1276ReadDio0               0xad6f    0xe  Code  Gb  sx1276-Hal.o [1]
+SX1276ReadDio2               0xad7d    0xe  Code  Gb  sx1276-Hal.o [1]
+SX1276ReadFifo               0xad5b   0x14  Code  Gb  sx1276-Hal.o [1]
+SX1276ReadRssi               0xb0e7   0x16  Code  Gb  sx1276.o [1]
+SX1276Regs              0x2000'198c   0x70  Data  Gb  sx1276.o [1]
+SX1276Reset                  0xb05f   0x26  Code  Gb  sx1276.o [1]
+SX1276SetLoRaOn              0xb085   0x4c  Code  Gb  sx1276.o [1]
+SX1276SetOpMode              0xb0d1   0x16  Code  Gb  sx1276.o [1]
+SX1276SetReset               0xaccf   0x22  Code  Gb  sx1276-Hal.o [1]
+SX1276SetTxPacket            0xb13d   0x1a  Code  Gb  sx1276.o [1]
+SX1276StartRx                0xb113   0x12  Code  Gb  sx1276.o [1]
+SX1276Write                  0xacf1   0x12  Code  Gb  sx1276-Hal.o [1]
+SX1276WriteBuffer            0xad17   0x18  Code  Gb  sx1276-Hal.o [1]
+SX1276WriteFifo              0xad47   0x14  Code  Gb  sx1276-Hal.o [1]
+SelectMode                   0x15e3   0xaa  Code  Lc  menus.o [1]
+SendDataBuffer          0x2000'15d8  0x100  Data  Gb  usr_tasks.o [1]
+SendDataLen             0x2000'1d18    0x1  Data  Gb  usr_tasks.o [1]
+SendDoneProcess              0x7305   0xd0  Code  Lc  message.o [1]
+SendPacket                   0x6d25  0x318  Code  Gb  message.o [1]
+SendPacketProcess            0x6a5d  0x28c  Code  Lc  message.o [1]
+SendTimeTimerCallBack        0x7579   0x12  Code  Lc  message.o [1]
+SendTimeTmr             0x2000'1d15    0x1  Data  Gb  usr_tasks.o [1]
+SerialManagerTask            0x3d87  0x130  Code  Lc  SerialManager.o [1]
+SerialManager_Init           0x3d59   0x2e  Code  Gb  SerialManager.o [1]
+SerialManager_RxNotify       0x44c3   0xa4  Code  Gb  SerialManager.o [1]
+SerialManager_RxNotify_fptr
+                        0x2000'1c78    0x4  Data  Gb  Events.o [1]
+SerialManager_TxNotify       0x4567   0x68  Code  Gb  SerialManager.o [1]
+SerialManager_TxNotify_fptr
+                        0x2000'1c7c    0x4  Data  Gb  Events.o [1]
+Serial_AsyncWrite            0x402d   0x24  Code  Gb  SerialManager.o [1]
+Serial_InitInterface         0x3eb7  0x158  Code  Gb  SerialManager.o [1]
+Serial_Print                 0x42d5   0x42  Code  Gb  SerialManager.o [1]
+Serial_PrintBin              0x4299   0x3c  Code  Gb  SerialManager.o [1]
+Serial_PrintDec              0x43f7   0x5c  Code  Gb  SerialManager.o [1]
+Serial_PrintHex              0x4317   0xe0  Code  Gb  SerialManager.o [1]
+Serial_Read                  0x40d5   0x52  Code  Gb  SerialManager.o [1]
+Serial_ReadInternal          0x45cf   0x70  Code  Gb  SerialManager.o [1]
+Serial_RxBufferByteCount
+                             0x4127   0x6c  Code  Gb  SerialManager.o [1]
+Serial_SetBaudRate           0x41c1   0xd0  Code  Gb  SerialManager.o [1]
+Serial_SetRxCallBack         0x4193   0x2e  Code  Gb  SerialManager.o [1]
+Serial_SyncWrite             0x4051   0x84  Code  Gb  SerialManager.o [1]
+Serial_TxQueueMaintenance
+                             0x4781   0xd2  Code  Lc  SerialManager.o [1]
+Serial_WriteCommon           0x463f  0x136  Code  Lc  SerialManager.o [1]
+Serial_WriteInternal         0x4453   0x70  Code  Gb  SerialManager.o [1]
+SetRadioRxOnNoTimeOut        0x753d   0x12  Code  Gb  message.o [1]
+SettingDefaultValue          0x4e3d   0x74  Code  Gb  usr_tasks.o [1]
+SleepProcess                 0x73f9  0x140  Code  Lc  message.o [1]
+SmacRetryProcess             0x9d3d   0x42  Code  Lc  smac.o [1]
+SmacTask                     0x9d91   0xd8  Code  Lc  smac.o [1]
+SmacTimerCallBack            0x9d27    0x8  Code  Lc  smac.o [1]
+SmacTmr                 0x2000'1d04    0x1  Data  Lc  smac.o [1]
+SpiInit                      0xc191   0x98  Code  Gb  sx1276-Spi.o [1]
+SpiReadBytes                 0xc229   0x74  Code  Gb  sx1276-Spi.o [1]
+SpiRegs                 0x2000'1cc8    0x4  Data  Gb  sx1276-Spi.o [1]
+SpiWriteBytes                0xc2c1   0x74  Code  Gb  sx1276-Spi.o [1]
+StackTimer_Disable           0x8f4d   0x24  Code  Gb  StackTimer.o [1]
+StackTimer_Enable            0x8f29   0x24  Code  Gb  StackTimer.o [1]
+StackTimer_GetCounterValue
+                             0x8f87    0x8  Code  Gb  StackTimer.o [1]
+StackTimer_GetInputFrequency
+                             0x8f71   0x16  Code  Gb  StackTimer.o [1]
+StackTimer_Init              0x8e9d   0x8c  Code  Gb  StackTimer.o [1]
+StackTimer_Interrupt         0x901f   0x72  Code  Gb  StackTimer.o [1]
+StackTimer_OnChannel0        0x88a3   0x14  Code  Gb  Events.o [1]
+StackTimer_OnChannel0_Notify
+                             0x6263   0x10  Code  Gb  TimersManager.o [1]
+StackTimer_OnChannel0_Notify_fptr
+                        0x2000'1c6c    0x4  Data  Gb  Events.o [1]
+StackTimer_OnCounterRestart
+                             0x88a1    0x2  Code  Gb  Events.o [1]
+StackTimer_SetClockConfiguration
+                             0x8fe1   0x3e  Code  Gb  StackTimer.o [1]
+StackTimer_SetOffsetTicks
+                             0x8f8f   0x52  Code  Gb  StackTimer.o [1]
+Switch_Init                  0x4c95   0x3c  Code  Lc  usr_tasks.o [1]
+Switch_Interrupt             0x75a1   0x32  Code  Gb  message.o [1]
+SystemTimer1_Enable          0xae19   0x24  Code  Gb  SystemTimer1.o [1]
+SystemTimer1_GetCounterValue
+                             0xae7f    0x8  Code  Gb  SystemTimer1.o [1]
+SystemTimer1_GetInputFrequency
+                             0xae3d   0x1e  Code  Gb  SystemTimer1.o [1]
+SystemTimer1_GetPeriodTicks
+                             0xae5b   0x24  Code  Gb  SystemTimer1.o [1]
+SystemTimer1_GetTicsPerSecond
+                             0xbec7   0x1a  Code  Gb  MQXLite1.o [1]
+SystemTimer1_Init            0xadbd   0x5c  Code  Gb  SystemTimer1.o [1]
+SystemTimer1_Interrupt       0xaf51   0x18  Code  Gb  SystemTimer1.o [1]
+SystemTimer1_OnCounterRestart
+                             0xbebd    0xa  Code  Gb  MQXLite1.o [1]
+SystemTimer1_SetClockConfiguration
+                             0xae87   0xca  Code  Gb  SystemTimer1.o [1]
+SystemTimerDeviceDataPtr
+                        0x2000'1c94    0x4  Data  Lc  MQXLite1.o [1]
+TMR_AllocateTimer            0x623b   0x28  Code  Gb  TimersManager.o [1]
+TMR_EnableTimer              0x662d   0x52  Code  Gb  TimersManager.o [1]
+TMR_GetTimerStatus           0x6181    0xc  Code  Lc  TimersManager.o [1]
+TMR_GetTimerType             0x61a7    0xc  Code  Lc  TimersManager.o [1]
+TMR_Init                     0x61e7   0x54  Code  Gb  TimersManager.o [1]
+TMR_SetTimerStatus           0x618d   0x1a  Code  Lc  TimersManager.o [1]
+TMR_SetTimerType             0x61b3   0x1a  Code  Lc  TimersManager.o [1]
+TMR_StartIntervalTimer       0x6331   0x1c  Code  Gb  TimersManager.o [1]
+TMR_StartSingleShotTimer
+                             0x634d   0x1c  Code  Gb  TimersManager.o [1]
+TMR_StartTimer               0x6273   0x90  Code  Gb  TimersManager.o [1]
+TMR_StopTimer                0x6369   0x70  Code  Gb  TimersManager.o [1]
+TMR_Thread                   0x63e5  0x246  Code  Gb  TimersManager.o [1]
+Terminal_Print               0x4a67   0x1a  Code  Gb  usr_tasks.o [1]
+Terminal_PrintBin            0x4abd   0x20  Code  Gb  usr_tasks.o [1]
+Terminal_PrintDec            0x4a81   0x18  Code  Gb  usr_tasks.o [1]
+Terminal_PrintHex            0x4a99   0x24  Code  Gb  usr_tasks.o [1]
+ThreadId                0x2000'1cb0    0x4  Data  Lc  smac.o [1]
+TickCounter             0x2000'1cb8    0x4  Data  Gb  sx1276-Hal.o [1]
+Tick_Diff                    0xb63f   0x1c  Code  Lc  cca.o [1]
+Timer_Init                   0xb619   0x26  Code  Lc  cca.o [1]
+TmrTicksFromMilliseconds
+                             0x61cd   0x1a  Code  Gb  TimersManager.o [1]
+Transmit                     0x97a1  0x212  Code  Lc  smac.o [1]
+TxBuffer                0x2000'12d8  0x100  Data  Lc  smac.o [1]
+TxPacketSize            0x2000'1cec    0x2  Data  Lc  sx1276-LoRa.o [1]
+TxSeqNum                0x2000'1cfe    0x1  Data  Lc  smac.o [1]
+UARTA_Init                   0x55c5   0xbc  Code  Gb  UARTA.o [1]
+UARTA_Interrupt              0x583d   0x38  Code  Gb  UARTA.o [1]
+UARTA_OnBlockReceived        0x8879   0x14  Code  Gb  Events.o [1]
+UARTA_OnBlockSent            0x888d   0x14  Code  Gb  Events.o [1]
+UARTA_ReceiveBlock           0x5681   0x3e  Code  Gb  UARTA.o [1]
+UARTA_SelectBaudRate         0x5715   0x56  Code  Gb  UARTA.o [1]
+UARTA_SelectBaudRate::UARTA_BaudDivisorSpeed1
+                             0xe7e8   0x14  Data  Lc  UARTA.o [1]
+UARTA_SendBlock              0x56bf   0x56  Code  Gb  UARTA.o [1]
+UARTA_SetClockConfiguration
+                             0x5895   0x62  Code  Gb  UARTA.o [1]
+UartCheckTimerCallBack       0x50a9    0x8  Code  Lc  usr_tasks.o [1]
+UartCheckTmr            0x2000'1d17    0x1  Data  Gb  usr_tasks.o [1]
+UartRxCallback               0x4f19  0x190  Code  Lc  usr_tasks.o [1]
+UartRxCallback::rcvlen  0x2000'1cf4    0x2  Data  Lc  usr_tasks.o [1]
+WaitSendTimerCallBack        0x755f   0x16  Code  Gb  message.o [1]
+WaitSendTmr             0x2000'1d14    0x1  Data  Gb  usr_tasks.o [1]
+__VECTOR_TABLE_START {Abs}
+                             0x1000         Data  Gb  <internal module>
+__aeabi_JMP_BUF_SIZE {Abs}
+                                0x8          --   Gb  setjmp.o [4]
+__aeabi_cdcmple              0xcd97         Code  Gb  DblCmpLe.o [3]
+__aeabi_cfcmpeq              0xc349         Code  Gb  FltCmpEq.o [3]
+__aeabi_d2iz                 0xa36d         Code  Gb  DblToI32.o [3]
+__aeabi_d2uiz                0xa391         Code  Gb  DblToI32.o [3]
+__aeabi_dadd                 0xa069         Code  Gb  DblAddSub.o [3]
+__aeabi_ddiv                 0xa21d         Code  Gb  DblDiv.o [3]
+__aeabi_dmul                 0x9ee5         Code  Gb  DblMul.o [3]
+__aeabi_dsub                 0xa12f         Code  Gb  DblAddSub.o [3]
+__aeabi_f2d                  0xa339         Code  Gb  FltToDbl.o [3]
+__aeabi_f2uiz                0xc605         Code  Gb  FltToU32.o [3]
+__aeabi_fadd                 0xc389         Code  Gb  FltAddSub.o [3]
+__aeabi_fdiv                 0xc4a9         Code  Gb  FltDiv.o [3]
+__aeabi_fmul                 0xc553         Code  Gb  FltMul.o [3]
+__aeabi_fsub                 0xc3f9         Code  Gb  FltAddSub.o [3]
+__aeabi_i2d                  0x9ed1         Code  Gb  IxxToDbl.o [3]
+__aeabi_idiv                 0x5965         Code  Gb  I32DivModFast.o [4]
+__aeabi_idivmod              0x5965         Code  Gb  I32DivModFast.o [4]
+__aeabi_lmul                 0x8e01         Code  Gb  I64Mul.o [4]
+__aeabi_memclr4              0xcd65         Code  Gb  ABImemset.o [4]
+__aeabi_memclr8              0xcd65         Code  Gb  ABImemset.o [4]
+__aeabi_memcpy               0x8c41         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4              0x8c0d         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8              0x8c0d         Code  Gb  ABImemcpy.o [4]
+__aeabi_memset               0xcd45         Code  Gb  ABImemset.o [4]
+__aeabi_ui2d                 0x9eb1         Code  Gb  IxxToDbl.o [3]
+__aeabi_ui2f                 0xc369         Code  Gb  IxxToFlt.o [3]
+__aeabi_uidiv                0x596b         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod             0x596b         Code  Gb  I32DivModFast.o [4]
+__aeabi_uldivmod             0x8e33         Code  Gb  I64DivMod.o [4]
+__aeabi_uwrite4              0x8ded         Code  Gb  uwrite4.o [4]
+__boot                       0xd4b1         Code  Gb  boot.o [1]
+__cal_value {Abs}          0x1'fc00         Data  Gb  <internal module>
+__cmain                      0xd4f1         Code  Gb  cmain.o [4]
+__exit                       0xd559         Code  Gb  XXexit.o [4]
+__get_MSP                    0x8b25         Code  Gb  dispatch.o [1]
+__get_PSP                    0x8b1f         Code  Gb  dispatch.o [1]
+__get_PSR                    0x8b31         Code  Gb  dispatch.o [1]
+__iar_Memcpy                 0x8c4d         Code  Gb  ABImemcpy.o [4]
+__iar_Memset4_word           0xcd69         Code  Gb  ABImemset.o [4]
+__iar_Memset_word            0xcd51         Code  Gb  ABImemset.o [4]
+__iar_ceil64                 0xa2e1         Code  Gb  ceil.o [3]
+__iar_copy_init3             0xd625   0x30  Code  Gb  copy_init3.o [4]
+__iar_d2uiz                  0xa395         Code  Gb  DblToI32.o [3]
+__iar_data_init3             0xd511   0x28  Code  Gb  data_init.o [4]
+__iar_program_start          0xd4e5         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3             0xd39d   0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init             0x86d5   0x9e  Code  Gb  Cpu.o [1]
+__set_MSPI                   0x8b2b         Code  Gb  dispatch.o [1]
+__vect_table {Abs}           0x1000         Data  Gb  <internal module>
+__vector_table               0x1000   0xc0  Data  Gb  Vectors.o [1]
+_call_main                   0xd4fd         Code  Gb  cmain.o [4]
+_exit                        0xd54d         Code  Gb  cexit.o [4]
+_int_default_isr             0x4875   0x30  Code  Gb  int.o [1]
+_int_disable                 0x48a5   0x1c  Code  Gb  int.o [1]
+_int_enable                  0x48c1   0x2e  Code  Gb  int.o [1]
+_int_get_isr_data            0x48ef   0x3e  Code  Gb  int.o [1]
+_int_get_vector_table        0xc139    0x6  Code  Gb  int_vtab.o [1]
+_int_init                    0x497d   0x3c  Code  Gb  int.o [1]
+_int_install_isr             0x492d   0x50  Code  Gb  int.o [1]
+_int_kernel_isr              0x8a27         Code  Gb  dispatch.o [1]
+_int_set_vector_table        0xc125   0x14  Code  Gb  int_vtab.o [1]
+_lwevent_clear               0x7971   0x5e  Code  Gb  lwevent.o [1]
+_lwevent_create              0x7895   0x12  Code  Gb  lwevent.o [1]
+_lwevent_create_internal
+                             0x77d9   0xbc  Code  Gb  lwevent.o [1]
+_lwevent_destroy             0x7963    0xe  Code  Gb  lwevent.o [1]
+_lwevent_destroy_internal
+                             0x78a7   0xbc  Code  Gb  lwevent.o [1]
+_lwevent_set                 0x79dd  0x124  Code  Gb  lwevent.o [1]
+_lwevent_wait_internal       0x7b11  0x13e  Code  Gb  lwevent.o [1]
+_lwevent_wait_ticks          0x7c4f   0x5a  Code  Gb  lwevent.o [1]
+_lwsem_create                0x7d2f   0x14  Code  Gb  lwsem.o [1]
+_lwsem_create_internal       0x7cb9   0x76  Code  Gb  lwsem.o [1]
+_lwsem_poll                  0x7d45   0x62  Code  Gb  lwsem.o [1]
+_lwsem_post                  0x7da9   0xd4  Code  Gb  lwsem.o [1]
+_lwsem_wait                  0x7e89   0xb0  Code  Gb  lwsem.o [1]
+_lwsem_wait_ticks            0x7f8d   0xe2  Code  Gb  lwsem.o [1]
+_lwsem_wait_timed_internal
+                             0x7f3d   0x4a  Code  Gb  lwsem.o [1]
+_main                        0xd50b         Code  Gb  cmain.o [4]
+_mem_test_and_set            0x8b09         Code  Gb  dispatch.o [1]
+_mem_zero                    0x8cb9  0x134  Code  Gb  mem_zero.o [1]
+_mqx_api_call                0x89dd         Code  Gb  dispatch.o [1]
+_mqx_exit                    0xab89   0x2e  Code  Gb  mqxlite.o [1]
+_mqx_exit_jump_buffer_internal
+                        0x2000'1a30   0x40  Data  Gb  mqxlite.o [1]
+_mqx_idle_task               0xe95d   0x10  Code  Gb  idletask.o [1]
+_mqx_init_kernel_data_internal
+                             0xbf07  0x122  Code  Gb  mqx_utils.o [1]
+_mqx_kernel_data        0x1fff'f094    0x4  Data  Gb  mqxlite.o [1]
+_mqx_kernel_data_struct
+                        0x2000'07e0  0x26c  Data  Gb  MQXLite1.o [1]
+_mqx_path                    0xebb8    0x4  Data  Gb  mqxlite.o [1]
+_mqx_set_cpu_type            0xbefd    0xa  Code  Gb  mqx_utils.o [1]
+_mqx_vendor                  0xebb4    0x4  Data  Gb  mqxlite.o [1]
+_mqx_version_number          0xebb0    0x4  Data  Gb  mqxlite.o [1]
+_mqx_zero_tick_struct        0xeaa4    0xc  Data  Gb  mqxlite.o [1]
+_mqxlite                     0xaadf   0xaa  Code  Gb  mqxlite.o [1]
+_mqxlite_init                0xaa05   0xda  Code  Gb  mqxlite.o [1]
+_mqxlite_version_number
+                             0xebbc    0x4  Data  Gb  mqxlite.o [1]
+_psp_add_ticks               0xa911   0x50  Code  Gb  psp_tiad.o [1]
+_psp_build_stack_frame       0x8c5d   0x5c  Code  Gb  stack_bu.o [1]
+_psp_exception_return        0x8ad1         Code  Gb  dispatch.o [1]
+_psp_init_readyqs            0xc09d   0x5a  Code  Gb  sc_irdyq.o [1]
+_psp_int_init                0xc109   0x1c  Code  Gb  psp_iinit.o [1]
+_psp_int_install             0xcdc9   0x14  Code  Gb  int_inst.o [1]
+_psp_normalize_ticks         0xa961   0x3c  Code  Gb  psp_tinm.o [1]
+_psp_set_kernel_disable_level
+                             0xc045   0x58  Code  Gb  sc_irdyq.o [1]
+_sched_check_scheduler_internal
+                             0x88fd         Code  Gb  dispatch.o [1]
+_sched_execute_scheduler_internal
+                             0x8915         Code  Gb  dispatch.o [1]
+_sched_insert_priorityq_internal
+                             0x8b4d   0x34  Code  Gb  sched.o [1]
+_sched_run_internal          0x88f7         Code  Gb  dispatch.o [1]
+_sched_set_priority_internal
+                             0x8b81   0x84  Code  Gb  sched.o [1]
+_sched_start_internal        0x88f1         Code  Gb  dispatch.o [1]
+_tad_task_at_flag       0x2000'1ccc    0x4  Data  Gb  task.o [1]
+_task_alloc_td_internal
+                             0x5ff5   0xc2  Code  Gb  task.o [1]
+_task_block                  0x89df         Code  Gb  dispatch.o [1]
+_task_build_internal         0x5df5   0x7c  Code  Gb  task.o [1]
+_task_create_at              0x5a19   0x98  Code  Gb  task.o [1]
+_task_destroy                0x5c55    0xe  Code  Gb  task.o [1]
+_task_destroy_internal       0x5ab1  0x19e  Code  Gb  task.o [1]
+_task_exit_function_internal
+                             0x5e71   0x1a  Code  Gb  task.o [1]
+_task_fill_stack_internal
+                             0x5fb9   0x16  Code  Gb  task.o [1]
+_task_get_id                 0x5d35    0xa  Code  Gb  task.o [1]
+_task_get_priority           0x5c6d   0x20  Code  Gb  task.o [1]
+_task_get_td                 0x5d41   0x80  Code  Gb  task.o [1]
+_task_init_internal          0x5e91  0x128  Code  Gb  task.o [1]
+_task_ready_internal         0x5fcf   0x22  Code  Gb  task.o [1]
+_task_set_error              0x5dc1   0x32  Code  Gb  task.o [1]
+_task_set_error_td_internal
+                             0x60c5   0x12  Code  Gb  task.o [1]
+_task_set_priority           0x5c8d   0xa0  Code  Gb  task.o [1]
+_task_sync_priority_internal
+                             0x5ff1    0x4  Code  Gb  task.o [1]
+_time_delay_for              0x807d   0x68  Code  Gb  time_ticks.o [1]
+_time_delay_internal         0x80e5   0xbc  Code  Gb  time_ticks.o [1]
+_time_delay_until            0x81a1   0x64  Code  Gb  time_ticks.o [1]
+_time_get_ticks_per_sec
+                             0x839f    0xc  Code  Gb  time_ticks.o [1]
+_time_notify_kernel          0x820d  0x172  Code  Gb  time_ticks.o [1]
+_time_set_hwtick_function
+                             0x8381   0x12  Code  Gb  time_ticks.o [1]
+_time_set_hwticks_per_tick
+                             0x8393    0xc  Code  Gb  time_ticks.o [1]
+bAckFailed              0x2000'1cfa    0x1  Data  Lc  message.o [1]
+bCCAFailed              0x2000'1cf9    0x1  Data  Lc  message.o [1]
+blpi_fbi                     0xa41b   0x5a  Code  Gb  mcg.o [1]
+buffer                  0x2000'190c   0x80  Data  Gb  flash.o [1]
+ceil                         0xa2e1         Code  Gb  ceil.o [3]
+ceill                        0xa2e1         Code  Gb  ceil.o [3]
+command1                     0xcddc  0x208  Data  Gb  menus.o [1]
+cu8Logo                      0xe59c   0x18  Data  Gb  menus.o [1]
+cu8MainMenu                  0xd290   0x78  Data  Gb  menus.o [1]
+cu8ModeSel                   0xda10   0x28  Data  Lc  menus.o [1]
+cu8Prompt                    0xeb3c    0x8  Data  Lc  menus.o [1]
+cuBaudrateMenu               0xdf48   0x24  Data  Gb  menus.o [1]
+cuBwMenu                     0xe3ac   0x1c  Data  Gb  menus.o [1]
+cuFormatMenu                 0xe75c   0x14  Data  Gb  menus.o [1]
+cuNodeMenu                   0xe720   0x14  Data  Gb  menus.o [1]
+cuOnOffMenu                  0xe70c   0x14  Data  Gb  menus.o [1]
+cuOperationMenu              0xe734   0x14  Data  Gb  menus.o [1]
+cuSleepMenu                  0xe5b4   0x18  Data  Gb  menus.o [1]
+cuTransMenu                  0xe748   0x14  Data  Gb  menus.o [1]
+enter_lls                    0xa8d9   0x2e  Code  Gb  smc.o [1]
+evDataFromUART          0x2000'1d11    0x1  Data  Gb  usr_tasks.o [1]
+exit                         0xd545    0x8  Code  Gb  exit.o [2]
+fbi_blpi                     0xa3c1   0x5a  Code  Gb  mcg.o [1]
+fbi_fei                      0xa481   0xba  Code  Gb  mcg.o [1]
+fei_fbi                      0xa54d  0x114  Code  Gb  mcg.o [1]
+fll_freq                     0xa681  0x136  Code  Gb  mcg.o [1]
+gAppRxPacket            0x2000'1c90    0x4  Data  Gb  message.o [1]
+gAppTxPacket            0x2000'1c8c    0x4  Data  Gb  message.o [1]
+gDataRate                    0xcfe4   0xf0  Data  Gb  smac.o [1]
+gEnterIdle              0x2000'1d12    0x1  Data  Gb  usr_tasks.o [1]
+gFreeMessagesCount      0x2000'1ce4    0x2  Data  Gb  MemManager.o [1]
+gSendingType            0x2000'1cfb    0x1  Data  Gb  message.o [1]
+gSerialManagerTaskId    0x2000'1c9c    0x4  Data  Gb  SerialManager.o [1]
+gSymbolTime                  0xd0d4   0xf0  Data  Gb  smac.o [1]
+gTimerHandle            0x2000'1cd8    0x4  Data  Lc  TimersManager.o [1]
+gau8RxDataBuffer        0x2000'180c   0x80  Data  Lc  message.o [1]
+gau8TxDataBuffer        0x2000'188c   0x80  Data  Lc  message.o [1]
+iAckTmo                 0x2000'1cb4    0x4  Data  Lc  smac.o [1]
+isAck                   0x2000'1d00    0x1  Data  Lc  smac.o [1]
+isAckFin                0x2000'1d02    0x1  Data  Lc  smac.o [1]
+isDutyFin               0x2000'1d03    0x1  Data  Lc  smac.o [1]
+isRetry                 0x2000'1d01    0x1  Data  Lc  smac.o [1]
+lastAllocatedBuffer     0x2000'1c98    0x4  Data  Gb  MQXLite_Adapter.o [1]
+lastSendSeqNo           0x2000'1cff    0x1  Data  Lc  smac.o [1]
+llwu_configure               0x9239  0x14e  Code  Gb  llwu.o [1]
+longjmp                      0xc161         Code  Gb  setjmp.o [4]
+mAppSer                 0x2000'1d16    0x1  Data  Gb  usr_tasks.o [1]
+mCounterFreqHz          0x2000'1cd4    0x4  Data  Lc  TimersManager.o [1]
+mLEDTimerID             0x1fff'f0a5    0x1  Data  Lc  LED.o [1]
+mLedFlashingLEDs        0x2000'1cf8    0x1  Data  Lc  LED.o [1]
+mLedStartFlashingPosition
+                        0x1fff'f0a4    0x1  Data  Lc  LED.o [1]
+mMaxToCountDown_c       0x2000'1cf0    0x2  Data  Lc  TimersManager.o [1]
+mRandomNumber           0x1fff'f0a0    0x4  Data  Lc  RNG.o [1]
+mSerials                0x2000'11d8  0x100  Data  Gb  SerialManager.o [1]
+mTermParam              0x2000'16d8   0xa8  Data  Gb  usr_tasks.o [1]
+mTicksFor1ms            0x2000'1cd0    0x4  Data  Lc  TimersManager.o [1]
+mTimerThreadId          0x2000'1cdc    0x4  Data  Lc  TimersManager.o [1]
+maTmrTimerStatusTable   0x2000'1c30   0x14  Data  Lc  TimersManager.o [1]
+maTmrTimerTable         0x2000'0de8  0x168  Data  Lc  TimersManager.o [1]
+main                         0xd539    0xc  Code  Gb  ProcessorExpert.o [1]
+main_task_stack         0x1fff'fc28  0x384  Data  Gb  MQXLite1.o [1]
+memHeap                 0x1fff'f0a8  0xb80  Data  Gb  MemManager.o [1]
+memPools                0x2000'1a70   0x30  Data  Gb  MemManager.o [1]
+mfLedInSerialMode       0x2000'1cf7    0x1  Data  Lc  LED.o [1]
+mqx_idle_task_stack     0x2000'10b0  0x128  Data  Gb  MQXLite1.o [1]
+mqx_interrupt_stack     0x2000'0a4c  0x210  Data  Gb  MQXLite1.o [1]
+mqx_static_isr_table    0x2000'0c5c  0x18c  Data  Gb  MQXLite1.o [1]
+mqx_static_ready_queue  0x2000'0f50  0x160  Data  Gb  MQXLite1.o [1]
+mqx_task_stack_pointers
+                        0x1fff'f08c    0x8  Data  Gb  MQXLite1.o [1]
+myAppId                 0x2000'1ce0    0x4  Data  Gb  usr_tasks.o [1]
+numberOfActiveTimers    0x2000'1d0e    0x1  Data  Lc  TimersManager.o [1]
+numberOfLowPowerActiveTimers
+                        0x2000'1d0f    0x1  Data  Lc  TimersManager.o [1]
+osBufferAlloc                0x5579   0x26  Code  Gb  MQXLite_Adapter.o [1]
+osBufferFree                 0x559f   0x10  Code  Gb  MQXLite_Adapter.o [1]
+osHeap                  0x2000'1780   0x8c  Data  Gb  MQXLite_Adapter.o [1]
+osHeapPtr               0x1fff'f098    0x4  Data  Gb  MQXLite_Adapter.o [1]
+osInstallIsr                 0x5565   0x14  Code  Gb  MQXLite_Adapter.o [1]
+osInterruptDisable           0x555d    0x8  Code  Gb  MQXLite_Adapter.o [1]
+osInterruptEnable            0x5555    0x8  Code  Gb  MQXLite_Adapter.o [1]
+osSemaphoreCreate            0x52d5   0x40  Code  Gb  MQXLite_Adapter.o [1]
+osSemaphoreRelease           0x5315   0x16  Code  Gb  MQXLite_Adapter.o [1]
+osSemaphoreWait              0x532b   0x70  Code  Gb  MQXLite_Adapter.o [1]
+osSignalSet                  0x53a1   0x66  Code  Gb  MQXLite_Adapter.o [1]
+osSignalWait                 0x5407  0x146  Code  Gb  MQXLite_Adapter.o [1]
+osThreadCreate               0x5137  0x11a  Code  Gb  MQXLite_Adapter.o [1]
+osThreadCreate::TASK_TEMPLATE_INDEX
+                        0x1fff'f09c    0x4  Data  Lc  MQXLite_Adapter.o [1]
+osThreadGetId                0x5251    0x8  Code  Gb  MQXLite_Adapter.o [1]
+osThreadGetPriority          0x529d   0x1e  Code  Gb  MQXLite_Adapter.o [1]
+osThreadLink_SerialManagerTask
+                        0x2000'1bac   0x1c  Data  Gb  SerialManager.o [1]
+osThreadLink_SmacTask   0x2000'1bc8   0x1c  Data  Gb  smac.o [1]
+osThreadLink_TMR_Thread
+                        0x2000'1be4   0x1c  Data  Gb  TimersManager.o [1]
+osThreadSetPriority          0x5259   0x44  Code  Gb  MQXLite_Adapter.o [1]
+osThread_SerialManagerTask_signal
+                        0x2000'1ac4   0x24  Data  Gb  SerialManager.o [1]
+osThread_SerialManagerTask_stack
+                        0x1fff'ffac  0x2bc  Data  Gb  SerialManager.o [1]
+osThread_SmacTask_signal
+                        0x2000'1ae8   0x24  Data  Gb  smac.o [1]
+osThread_SmacTask_stack
+                        0x2000'0268  0x2bc  Data  Gb  smac.o [1]
+osThread_TMR_Thread_signal
+                        0x2000'1b0c   0x24  Data  Gb  TimersManager.o [1]
+osThread_TMR_Thread_stack
+                        0x2000'0524  0x2bc  Data  Gb  TimersManager.o [1]
+os_thread_def_SerialManagerTask
+                        0x1fff'f000   0x20  Data  Gb  SerialManager.o [1]
+os_thread_def_SmacTask  0x1fff'f020   0x20  Data  Gb  smac.o [1]
+os_thread_def_TMR_Thread
+                        0x1fff'f040   0x20  Data  Gb  TimersManager.o [1]
+pHandler                0x2000'1cac    0x4  Data  Lc  smac.o [1]
+panic                        0x910d   0x3c  Code  Gb  Panic.o [1]
+panic_data              0x2000'1b90   0x1c  Data  Gb  Panic.o [1]
+poolInfo                0x1fff'f07c   0x10  Data  Gb  MemManager.o [1]
+previousTimeInTicks     0x2000'1cee    0x2  Data  Lc  TimersManager.o [1]
+rxBuffer                0x2000'1ca8    0x4  Data  Lc  smac.o [1]
+setBw                   0x2000'1d07    0x1  Data  Lc  smac.o [1]
+setCh                   0x2000'1d06    0x1  Data  Lc  smac.o [1]
+setSf                   0x2000'1d08    0x1  Data  Lc  smac.o [1]
+setjmp                       0xc149         Code  Gb  setjmp.o [4]
+smacInitialized         0x2000'1cfc    0x1  Data  Lc  smac.o [1]
+smacToAppHandler             0x75e9   0x46  Code  Gb  message.o [1]
+strcmp                       0x3cc1         Code  Gb  strcmp.o [4]
+strcpy                       0x76a9         Code  Gb  strcpy.o [4]
+strlen                       0x3d49         Code  Gb  strlen.o [4]
+strncmp                      0x767d   0x2c  Code  Gb  strncmp.o [2]
+threadList              0x2000'1c54    0xc  Data  Gb  MQXLite_Adapter.o [1]
+timerHardwareIsRunning  0x2000'1d10    0x1  Data  Lc  TimersManager.o [1]
+txConfig                0x2000'1c88    0x4  Data  Lc  message.o [1]
+txConfigurator          0x2000'1ca0    0x4  Data  Lc  smac.o [1]
+u16PanID                0x2000'1ce6    0x2  Data  Lc  smac.o [1]
+u16SrcAddress           0x2000'1ce8    0x2  Data  Lc  smac.o [1]
+
+
+[1] = C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora MQXLite\Obj
+[2] = dl6M_tln.a
+[3] = m6M_tl.a
+[4] = rt6M_tl.a
+
+  47'959 bytes of readonly  code memory
+   7'633 bytes of readonly  data memory
+  12'569 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

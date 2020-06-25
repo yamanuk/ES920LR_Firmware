@@ -1,0 +1,721 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:03
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\UARTA.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW6635.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\UARTA.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\UARTA.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\UARTA.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\UARTA.c
+      1          /* ###################################################################
+      2          **     THIS COMPONENT MODULE IS GENERATED BY THE TOOL. DO NOT MODIFY IT.
+      3          **     Filename    : UARTA.c
+      4          **     Project     : ProcessorExpert
+      5          **     Processor   : MKL26Z128VLL4
+      6          **     Component   : Serial_LDD
+      7          **     Version     : Component 01.173, Driver 01.12, CPU db: 3.00.000
+      8          **     Compiler    : IAR ARM C Compiler
+      9          **     Date/Time   : 2014-10-10, 12:09, # CodeGen: 152
+     10          **     Abstract    :
+     11          **         This component "Serial_LDD" implements an asynchronous serial
+     12          **         communication. The component supports different settings of
+     13          **         parity, word width, stop-bit and communication speed,
+     14          **         user can select interrupt or polling handler.
+     15          **         Communication speed can be changed also in runtime.
+     16          **         The component requires one on-chip asynchronous serial communication channel.
+     17          **     Settings    :
+     18          **          Component name                                 : UARTA
+     19          **          Device                                         : UART0
+     20          **          Interrupt service/event                        : Enabled
+     21          **            Interrupt RxD                                : INT_UART0
+     22          **            Interrupt RxD priority                       : medium priority
+     23          **            Interrupt TxD                                : INT_UART0
+     24          **            Interrupt TxD priority                       : medium priority
+     25          **            Interrupt Error                              : INT_UART0
+     26          **            Interrupt Error priority                     : medium priority
+     27          **          Settings                                       :
+     28          **            Data width                                   : 8 bits
+     29          **            Parity                                       : None
+     30          **            Stop bits                                    : 1
+     31          **            Loop mode                                    : Normal
+     32          **            Baud rate                                    : 1200 baud
+     33          **            Wakeup condition                             : Idle line wakeup
+     34          **            Stop in wait mode                            : no
+     35          **            Idle line mode                               : Starts after start bit
+     36          **            Transmitter output                           : Not inverted
+     37          **            Receiver input                               : Not inverted
+     38          **            Break generation length                      : 10/11 bits
+     39          **            Receiver                                     : Enabled
+     40          **              RxD                                        : TSI0_CH2/PTA1/UART0_RX/TPM2_CH0
+     41          **              RxD pin signal                             :
+     42          **            Transmitter                                  : Enabled
+     43          **              TxD                                        : TSI0_CH3/PTA2/UART0_TX/TPM2_CH1
+     44          **              TxD pin signal                             :
+     45          **            Flow control                                 : None
+     46          **          Initialization                                 :
+     47          **            Enabled in init. code                        : yes
+     48          **            Auto initialization                          : yes
+     49          **            Event mask                                   :
+     50          **              OnBlockSent                                : Enabled
+     51          **              OnBlockReceived                            : Enabled
+     52          **              OnTxComplete                               : Disabled
+     53          **              OnError                                    : Disabled
+     54          **              OnBreak                                    : Disabled
+     55          **          CPU clock/configuration selection              :
+     56          **            Clock configuration 0                        : This component disabled
+     57          **            Clock configuration 1                        : This component enabled
+     58          **            Clock configuration 2                        : This component disabled
+     59          **            Clock configuration 3                        : This component disabled
+     60          **            Clock configuration 4                        : This component disabled
+     61          **            Clock configuration 5                        : This component disabled
+     62          **            Clock configuration 6                        : This component disabled
+     63          **            Clock configuration 7                        : This component disabled
+     64          **     Contents    :
+     65          **         Init           - LDD_TDeviceData* UARTA_Init(LDD_TUserData *UserDataPtr);
+     66          **         SendBlock      - LDD_TError UARTA_SendBlock(LDD_TDeviceData *DeviceDataPtr, LDD_TData...
+     67          **         ReceiveBlock   - LDD_TError UARTA_ReceiveBlock(LDD_TDeviceData *DeviceDataPtr, LDD_TData...
+     68          **         SelectBaudRate - LDD_TError UARTA_SelectBaudRate(LDD_TDeviceData *DeviceDataPtr,...
+     69          **
+     70          **     Copyright : 1997 - 2013 Freescale Semiconductor, Inc. All Rights Reserved.
+     71          **     SOURCE DISTRIBUTION PERMISSIBLE as directed in End User License Agreement.
+     72          **
+     73          **     http      : www.freescale.com
+     74          **     mail      : support@freescale.com
+     75          ** ###################################################################*/
+     76          /*!
+     77          ** @file UARTA.c
+     78          ** @version 01.12
+     79          ** @brief
+     80          **         This component "Serial_LDD" implements an asynchronous serial
+     81          **         communication. The component supports different settings of
+     82          **         parity, word width, stop-bit and communication speed,
+     83          **         user can select interrupt or polling handler.
+     84          **         Communication speed can be changed also in runtime.
+     85          **         The component requires one on-chip asynchronous serial communication channel.
+     86          */
+     87          /*!
+     88          **  @addtogroup UARTA_module UARTA module documentation
+     89          **  @{
+     90          */
+     91          
+     92          /* MODULE UARTA. */
+     93          /*lint -save  -e926 -e927 -e928 -e929 -e572 Disable MISRA rule (11.4,12.8) checking. */
+     94          
+     95          /* MQX Lite include files */
+     96          #include "mqxlite.h"
+     97          #include "mqxlite_prv.h"
+     98          #include "UARTA.h"
+     99          #include "Events.h"
+    100          #include "UART0_PDD.h"
+    101          
+    102          #ifdef __cplusplus
+    103          extern "C" {
+    104          #endif
+    105          
+    106          /*! The mask of available events used to enable/disable events during runtime. */
+    107          #define AVAILABLE_EVENTS_MASK (LDD_SERIAL_ON_BLOCK_RECEIVED | LDD_SERIAL_ON_BLOCK_SENT)
+    108          
+    109          /* {MQXLite RTOS Adapter} Static object used for simulation of dynamic driver memory allocation */
+    110          static UARTA_TDeviceData DeviceDataPrv__DEFAULT_RTOS_ALLOC;
+    111          /* Internal method prototypes */
+    112          static void HWEnDi(LDD_TDeviceData *DeviceDataPtr);
+    113          
+    114          /*
+    115          ** ===================================================================
+    116          **     Method      :  UARTA_Init (component Serial_LDD)
+    117          */
+    118          /*!
+    119          **     @brief
+    120          **         Initializes the device. Allocates memory for the device data
+    121          **         structure, allocates interrupt vectors and sets interrupt
+    122          **         priority, sets pin routing, sets timing, etc. If the "Enable
+    123          **         in init. code" is set to "yes" value then the device is also
+    124          **         enabled(see the description of the Enable() method). In this
+    125          **         case the Enable() method is not necessary and needn't to be
+    126          **         generated.
+    127          **     @param
+    128          **         UserDataPtr     - Pointer to the user or
+    129          **                           RTOS specific data. This pointer will be
+    130          **                           passed as an event or callback parameter.
+    131          **     @return
+    132          **                         - Device data structure pointer.
+    133          */
+    134          /* ===================================================================*/
+    135          LDD_TDeviceData* UARTA_Init(LDD_TUserData *UserDataPtr)
+    136          {
+    137            /* Allocate device structure */
+    138            UARTA_TDeviceDataPtr DeviceDataPrv;
+    139            /* {MQXLite RTOS Adapter} Driver memory allocation: Dynamic allocation is simulated by a pointer to the static object */
+    140            DeviceDataPrv = &DeviceDataPrv__DEFAULT_RTOS_ALLOC;
+    141          
+    142            /* Clear the receive counters and pointer */
+    143            DeviceDataPrv->InpRecvDataNum = 0x00U; /* Clear the counter of received characters */
+    144            DeviceDataPrv->InpDataNumReq = 0x00U; /* Clear the counter of characters to receive by ReceiveBlock() */
+    145            DeviceDataPrv->InpDataPtr = NULL;    /* Clear the buffer pointer for received characters */
+    146            /* Clear the transmit counters and pointer */
+    147            DeviceDataPrv->OutSentDataNum = 0x00U; /* Clear the counter of sent characters */
+    148            DeviceDataPrv->OutDataNumReq = 0x00U; /* Clear the counter of characters to be send by SendBlock() */
+    149            DeviceDataPrv->OutDataPtr = NULL;    /* Clear the buffer pointer for data to be transmitted */
+    150            DeviceDataPrv->UserDataPtr = UserDataPtr; /* Store the RTOS device structure */
+    151            /* Allocate interrupt vectors */
+    152            /* {MQXLite RTOS Adapter} Save old and set new interrupt vector (function handler and ISR parameter) */
+    153            /* Note: Exception handler for interrupt is not saved, because it is not modified */
+    154            DeviceDataPrv->SavedISRSettings.isrData = _int_get_isr_data(LDD_ivIndex_INT_UART0);
+    155            DeviceDataPrv->SavedISRSettings.isrFunction = _int_install_isr(LDD_ivIndex_INT_UART0, UARTA_Interrupt, DeviceDataPrv);
+    156            /* SIM_SCGC4: UART0=1 */
+    157            SIM_SCGC4 |= SIM_SCGC4_UART0_MASK;
+    158            /* PORTA_PCR1: ISF=0,MUX=2 */
+    159            PORTA_PCR1 = (uint32_t)((PORTA_PCR1 & (uint32_t)~(uint32_t)(
+    160                          PORT_PCR_ISF_MASK |
+    161                          PORT_PCR_MUX(0x05)
+    162                         )) | (uint32_t)(
+    163                          PORT_PCR_MUX(0x02)
+    164                         ));
+    165            /* PORTA_PCR2: ISF=0,MUX=2 */
+    166            PORTA_PCR2 = (uint32_t)((PORTA_PCR2 & (uint32_t)~(uint32_t)(
+    167                          PORT_PCR_ISF_MASK |
+    168                          PORT_PCR_MUX(0x05)
+    169                         )) | (uint32_t)(
+    170                          PORT_PCR_MUX(0x02)
+    171                         ));
+    172            /* NVIC_IPR3: PRI_12=0x80 */
+    173            NVIC_IPR3 = (uint32_t)((NVIC_IPR3 & (uint32_t)~(uint32_t)(
+    174                         NVIC_IP_PRI_12(0x7F)
+    175                        )) | (uint32_t)(
+    176                         NVIC_IP_PRI_12(0x80)
+    177                        ));
+    178            /* NVIC_ISER: SETENA|=0x1000 */
+    179            NVIC_ISER |= NVIC_ISER_SETENA(0x1000);
+    180            UART0_PDD_EnableTransmitter(UART0_BASE_PTR, PDD_DISABLE); /* Disable transmitter. */
+    181            UART0_PDD_EnableReceiver(UART0_BASE_PTR, PDD_DISABLE); /* Disable receiver. */
+    182            DeviceDataPrv->BaudDivisorSpeed1 = 0x1388u; /* Baudrate divisor in speed 1 mode */
+    183            DeviceDataPrv->BaudMode = UARTA_BM_1200BAUD; /* Initial baud rate mode index */
+    184            DeviceDataPrv->SerFlag = 0x00U;      /* Reset flags */
+    185            /* UART0_C1: LOOPS=0,DOZEEN=0,RSRC=0,M=0,WAKE=0,ILT=0,PE=0,PT=0 */
+    186            UART0_C1 = 0x00U;                    /*  Set the C1 register */
+    187            /* UART0_C3: R8T9=0,R9T8=0,TXDIR=0,TXINV=0,ORIE=0,NEIE=0,FEIE=0,PEIE=0 */
+    188            UART0_C3 = 0x00U;                    /*  Set the C3 register */
+    189            /* UART0_C4: MAEN1=0,MAEN2=0,M10=0,OSR=0 */
+    190            UART0_C4 = UART0_C4_OSR(0x00);       /*  Set the C4 register */
+    191            /* UART0_S2: LBKDIF=0,RXEDGIF=0,MSBF=0,RXINV=0,RWUID=0,BRK13=0,LBKDE=0,RAF=0 */
+    192            UART0_S2 = 0x00U;                    /*  Set the S2 register */
+    193            UARTA_SetClockConfiguration(DeviceDataPrv, Cpu_GetClockConfiguration()); /* Initial speed CPU mode is high */
+    194            /* Registration of the device structure */
+    195            PE_LDD_RegisterDeviceStructure(PE_LDD_COMPONENT_UARTA_ID,DeviceDataPrv);
+    196            return ((LDD_TDeviceData *)DeviceDataPrv);
+    197          }
+    198          
+    199          /*
+    200          ** ===================================================================
+    201          **     Method      :  UARTA_ReceiveBlock (component Serial_LDD)
+    202          */
+    203          /*!
+    204          **     @brief
+    205          **         Specifies the number of data to receive. The method returns
+    206          **         ERR_BUSY until the specified number of characters is
+    207          **         received. Method <CancelBlockReception> can be used to
+    208          **         cancel a running receive operation.
+    209          **     @param
+    210          **         DeviceDataPtr   - Device data structure
+    211          **                           pointer returned by <Init> method.
+    212          **     @param
+    213          **         BufferPtr       - Pointer to a buffer where
+    214          **                           received characters will be stored.
+    215          **     @param
+    216          **         Size            - Number of characters to receive
+    217          **     @return
+    218          **                         - Error code, possible codes:
+    219          **                           ERR_OK - OK
+    220          **                           ERR_SPEED - The component does not work in
+    221          **                           the active clock configuration.
+    222          **                           ERR_PARAM_SIZE - Parameter Size is out of
+    223          **                           expected range.
+    224          **                           ERR_DISABLED - The component or device is
+    225          **                           disabled.
+    226          **                           ERR_BUSY - The previous receive request is
+    227          **                           pending.
+    228          */
+    229          /* ===================================================================*/
+    230          LDD_TError UARTA_ReceiveBlock(LDD_TDeviceData *DeviceDataPtr, LDD_TData *BufferPtr, uint16_t Size)
+    231          {
+    232            UARTA_TDeviceDataPtr DeviceDataPrv = (UARTA_TDeviceDataPtr)DeviceDataPtr;
+    233          
+    234            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual speed CPU mode? */
+    235              return ERR_SPEED;                  /* If yes then error */
+    236            }
+    237            if (Size == 0U) {                    /* Is the parameter Size within an expected range? */
+    238              return ERR_PARAM_SIZE;             /* If no then error */
+    239            }
+    240            if (DeviceDataPrv->InpDataNumReq != 0x00U) { /* Is the previous receive operation pending? */
+    241              return ERR_BUSY;                   /* If yes then error */
+    242            }
+    243            /* {MQXLite RTOS Adapter} Critical section begin (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    244            _int_disable();
+    245            DeviceDataPrv->InpDataPtr = (uint8_t*)BufferPtr; /* Store a pointer to the input data. */
+    246            DeviceDataPrv->InpDataNumReq = Size; /* Store a number of characters to be received. */
+    247            DeviceDataPrv->InpRecvDataNum = 0x00U; /* Set number of received characters to zero. */
+    248            /* {MQXLite RTOS Adapter} Critical section ends (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    249            _int_enable();
+    250            return ERR_OK;                       /* OK */
+    251          }
+    252          
+    253          /*
+    254          ** ===================================================================
+    255          **     Method      :  UARTA_SendBlock (component Serial_LDD)
+    256          */
+    257          /*!
+    258          **     @brief
+    259          **         Sends a block of characters. The method returns ERR_BUSY
+    260          **         when the previous block transmission is not completed.
+    261          **         Method <CancelBlockTransmission> can be used to cancel a
+    262          **         transmit operation. This method is available only if the
+    263          **         transmitter property is enabled.
+    264          **     @param
+    265          **         DeviceDataPtr   - Device data structure
+    266          **                           pointer returned by <Init> method.
+    267          **     @param
+    268          **         BufferPtr       - Pointer to a buffer from where
+    269          **                           data will be sent.
+    270          **     @param
+    271          **         Size            - Number of characters in the buffer.
+    272          **     @return
+    273          **                         - Error code, possible codes:
+    274          **                           ERR_OK - OK
+    275          **                           ERR_SPEED - The component does not work in
+    276          **                           the active clock configuration.
+    277          **                           ERR_PARAM_SIZE - Parameter Size is out of
+    278          **                           expected range.
+    279          **                           ERR_DISABLED - The component or device is
+    280          **                           disabled.
+    281          **                           ERR_BUSY - The previous transmit request is
+    282          **                           pending.
+    283          */
+    284          /* ===================================================================*/
+    285          LDD_TError UARTA_SendBlock(LDD_TDeviceData *DeviceDataPtr, LDD_TData *BufferPtr, uint16_t Size)
+    286          {
+    287            UARTA_TDeviceDataPtr DeviceDataPrv = (UARTA_TDeviceDataPtr)DeviceDataPtr;
+    288          
+    289            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual speed CPU mode? */
+    290              return ERR_SPEED;                  /* If yes then error */
+    291            }
+    292            if (Size == 0U) {                    /* Is the parameter Size within an expected range? */
+    293              return ERR_PARAM_SIZE;             /* If no then error */
+    294            }
+    295            if (DeviceDataPrv->OutDataNumReq != 0x00U) { /* Is the previous transmit operation pending? */
+    296              return ERR_BUSY;                   /* If yes then error */
+    297            }
+    298            /* {MQXLite RTOS Adapter} Critical section begin (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    299            _int_disable();
+    300            DeviceDataPrv->OutDataPtr = (uint8_t*)BufferPtr; /* Set a pointer to the output data. */
+    301            DeviceDataPrv->OutDataNumReq = Size; /* Set the counter of characters to be sent. */
+    302            DeviceDataPrv->OutSentDataNum = 0x00U; /* Clear the counter of sent characters. */
+    303            DeviceDataPrv->SerFlag |= ENABLED_TX_INT; /* Set the flag ENABLED_TX_INT */
+    304            UART0_PDD_EnableInterrupt(UART0_BASE_PTR, UART0_PDD_INTERRUPT_TRANSMITTER); /* Enable TX interrupt */
+    305            /* {MQXLite RTOS Adapter} Critical section ends (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    306            _int_enable();
+    307            return ERR_OK;                       /* OK */
+    308          }
+    309          
+    310          /*
+    311          ** ===================================================================
+    312          **     Method      :  UARTA_SelectBaudRate (component Serial_LDD)
+    313          */
+    314          /*!
+    315          **     @brief
+    316          **         This method changes the channel communication speed (baud
+    317          **         rate). This method is enabled only if the user specifies a
+    318          **         list of possible period settings at design time (see <Timing
+    319          **         dialog box> - Runtime setting - from a list of values). Each
+    320          **         of these settings constitutes a _/mode/_ and Processor
+    321          **         Expert assigns them a _/mode identifier/_. The prescaler and
+    322          **         compare values corresponding to each mode are calculated in
+    323          **         design time. The user may switch modes at runtime by
+    324          **         referring to a mode identifier. No run-time calculations are
+    325          **         performed, all the calculations are performed at design time.
+    326          **     @param
+    327          **         DeviceDataPtr   - Device data structure
+    328          **                           pointer returned by <Init> method.
+    329          **     @param
+    330          **         Mode            - Timing mode to set
+    331          **                           Note: Special constant is generated in the
+    332          **                           components header file for each mode from
+    333          **                           the list of values.
+    334          **                           This constant can be directly passed to the
+    335          **                           parameter. Format of the constant is:
+    336          **                           <BeanName>_BM_<Timing> e.g.
+    337          **                           "as1_BM_9600BAUD" for baud rate set to 9600
+    338          **                           baud and component name "as1". See header
+    339          **                           file of the generated code for details.
+    340          **     @return
+    341          **                         - Error code, possible codes:
+    342          **                           ERR_OK - OK
+    343          **                           ERR_SPEED - The component does not work in
+    344          **                           the active clock configuration.
+    345          **                           ERR_DISABLED - The component or device is
+    346          **                           disabled.
+    347          **                           ERR_PARAM_MODE - Invalid ID of the baud
+    348          **                           rate mode.
+    349          */
+    350          /* ===================================================================*/
+    351          LDD_TError UARTA_SelectBaudRate(LDD_TDeviceData *DeviceDataPtr, LDD_SERIAL_TBaudMode Mode)
+    352          {
+    353            UARTA_TDeviceDataPtr DeviceDataPrv = (UARTA_TDeviceDataPtr)DeviceDataPtr;
+    354            static const uint16_t UARTA_BaudDivisorSpeed1[0x09] = {0x1388u,0x09C4u,0x04E2u,0x0271u,0x0139u,0x9Cu,0x68u,0x34u,0x1Au};
+    355          
+    356            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual speed CPU mode? */
+    357              return ERR_SPEED;                  /* If yes then error */
+    358            }
+    359            if (Mode >= 0x09U) {                 /* Is mode in baud mode list */
+    360              return ERR_PARAM_MODE ;            /* If no then error */
+    361            }
+    362            DeviceDataPrv->BaudMode = Mode;
+    363            DeviceDataPrv->BaudDivisorSpeed1 = UARTA_BaudDivisorSpeed1[Mode]; /* Prescaler in clock configuration 1. */
+    364            switch (Cpu_GetClockConfiguration()) {
+    365              case CPU_CLOCK_CONFIG_0:
+    366              case CPU_CLOCK_CONFIG_1:
+    367                UART0_PDD_SetBaudRate(UART0_BASE_PTR, DeviceDataPrv->BaudDivisorSpeed1); /* Set the baud rate register in clock configuration 1. */
+    368                break;
+    369              default:
+    370                break;
+    371            }
+    372            return ERR_OK;                       /* OK */
+    373          }
+    374          
+    375          /*
+    376          ** ===================================================================
+    377          **     Method      :  HWEnDi (component Serial_LDD)
+    378          **
+    379          **     Description :
+    380          **         Enables or disables the peripheral(s) associated with the
+    381          **         component. The method is called automatically as a part of the
+    382          **         Enable and Disable methods and several internal methods.
+    383          **         This method is internal. It is used by Processor Expert only.
+    384          ** ===================================================================
+    385          */
+    386          static void HWEnDi(LDD_TDeviceData *DeviceDataPtr)
+    387          {
+    388            UARTA_TDeviceDataPtr DeviceDataPrv = (UARTA_TDeviceDataPtr)DeviceDataPtr;
+    389          
+    390            if (DeviceDataPrv->EnMode) {         /* Enable device? */
+    391              UART0_PDD_EnableTransmitter(UART0_BASE_PTR, PDD_ENABLE); /* Enable transmitter */
+    392              UART0_PDD_EnableReceiver(UART0_BASE_PTR, PDD_ENABLE); /* Enable receiver */
+    393              UART0_PDD_EnableInterrupt(UART0_BASE_PTR, ( UART0_PDD_INTERRUPT_RECEIVER )); /* Enable interrupts */
+    394            } else {
+    395              UART0_PDD_DisableInterrupt(UART0_BASE_PTR, ( UART0_PDD_INTERRUPT_RECEIVER | UART0_PDD_INTERRUPT_TRANSMITTER )); /* Disable interrupts */
+    396              UART0_PDD_EnableTransmitter(UART0_BASE_PTR, PDD_DISABLE); /* Disable transmitter. */
+    397              UART0_PDD_EnableReceiver(UART0_BASE_PTR, PDD_DISABLE); /* Disable receiver. */
+    398            }
+    399          }
+    400          /*
+    401          ** ===================================================================
+    402          **     Method      :  InterruptRx (component Serial_LDD)
+    403          **
+    404          **     Description :
+    405          **         The method services the receive interrupt of the selected
+    406          **         peripheral(s) and eventually invokes the bean's event(s).
+    407          **         This method is internal. It is used by Processor Expert only.
+    408          ** ===================================================================
+    409          */
+    410          static void InterruptRx(UARTA_TDeviceDataPtr DeviceDataPrv)
+    411          {
+    412            register uint16_t Data;              /* Temporary variable for data */
+    413          
+    414            Data = (uint16_t)UART0_PDD_GetChar8(UART0_BASE_PTR); /* Read an 8-bit character from the receiver */
+    415            if (DeviceDataPrv->InpDataNumReq != 0x00U) { /* Is the receive block operation pending? */
+    416              *(DeviceDataPrv->InpDataPtr++) = (uint8_t)Data; /* Put an 8-bit character to the receive buffer */
+    417              DeviceDataPrv->InpRecvDataNum++;   /* Increment received char. counter */
+    418              if (DeviceDataPrv->InpRecvDataNum == DeviceDataPrv->InpDataNumReq) { /* Is the requested number of characters received? */
+    419                DeviceDataPrv->InpDataNumReq = 0x00U; /* If yes then clear number of requested characters to be received. */
+    420                UARTA_OnBlockReceived(DeviceDataPrv->UserDataPtr);
+    421              }
+    422            }
+    423          }
+    424          
+    425          /*
+    426          ** ===================================================================
+    427          **     Method      :  InterruptTx (component Serial_LDD)
+    428          **
+    429          **     Description :
+    430          **         The method services the receive interrupt of the selected
+    431          **         peripheral(s) and eventually invokes the bean's event(s).
+    432          **         This method is internal. It is used by Processor Expert only.
+    433          ** ===================================================================
+    434          */
+    435          static void InterruptTx(UARTA_TDeviceDataPtr DeviceDataPrv)
+    436          {
+    437          
+    438            if (DeviceDataPrv->OutSentDataNum < DeviceDataPrv->OutDataNumReq) { /* Is number of sent characters less than the number of requested incoming characters? */
+    439              UART0_PDD_PutChar8(UART0_BASE_PTR, *(DeviceDataPrv->OutDataPtr++)); /* Put a 8-bit character to the transmit register */
+    440              DeviceDataPrv->OutSentDataNum++;   /* Increment the counter of sent characters. */
+    441              if (DeviceDataPrv->OutSentDataNum == DeviceDataPrv->OutDataNumReq) {
+    442                DeviceDataPrv->OutDataNumReq = 0x00U; /* Clear the counter of characters to be send by SendBlock() */
+    443                UARTA_OnBlockSent(DeviceDataPrv->UserDataPtr);
+    444              }
+    445            } else {
+    446              UART0_PDD_DisableInterrupt(UART0_BASE_PTR, UART0_PDD_INTERRUPT_TRANSMITTER); /* Disable TX interrupt */
+    447              DeviceDataPrv->SerFlag &= (uint16_t)(~(uint16_t)ENABLED_TX_INT); /* Clear the flag ENABLED_TX_INT */
+    448            }
+    449          }
+    450          
+    451          /*
+    452          ** ===================================================================
+    453          **     Method      :  UARTA_Interrupt (component Serial_LDD)
+    454          **
+    455          **     Description :
+    456          **         The ISR function handling the device receive/transmit
+    457          **         interrupt. Calls InterruptTX/InterruptRX methods.
+    458          **         This method is internal. It is used by Processor Expert only.
+    459          ** ===================================================================
+    460          */
+    461          void UARTA_Interrupt(LDD_RTOS_TISRParameter _isrParameter)
+    462          {
+    463            /* {MQXLite RTOS Adapter} ISR parameter is passed as parameter from RTOS interrupt dispatcher */
+    464            UARTA_TDeviceDataPtr DeviceDataPrv = (UARTA_TDeviceDataPtr)_isrParameter;
+    465            register uint16_t StatReg = UART0_PDD_ReadInterruptStatusReg(UART0_BASE_PTR); /* Read status register */
+    466          
+    467            if (StatReg & (UART0_S1_NF_MASK | UART0_S1_OR_MASK | UART0_S1_FE_MASK | UART0_S1_PF_MASK)) { /* Is any error flag set? */
+    468              UART0_PDD_ClearInterruptFlags(UART0_BASE_PTR, (UART0_S1_NF_MASK | UART0_S1_OR_MASK | UART0_S1_FE_MASK | UART0_S1_PF_MASK));
+    469              (void)UART0_PDD_GetChar8(UART0_BASE_PTR); /* Dummy read 8-bit character from receiver */
+    470              StatReg &= (uint16_t)(~(uint16_t)UART0_S1_RDRF_MASK); /* Clear the receive data flag to discard the errorneous data */
+    471            }
+    472            if (StatReg & UART0_S1_RDRF_MASK) {  /* Is the receiver's interrupt flag set? */
+    473              InterruptRx(DeviceDataPrv);        /* If yes, then invoke the internal service routine. This routine is inlined. */
+    474            }
+    475            if (DeviceDataPrv->SerFlag & ENABLED_TX_INT) { /* Is the transmitter interrupt enabled? */
+    476              if (StatReg & UART0_S1_TDRE_MASK) { /* Is the transmitter empty? */
+    477                InterruptTx(DeviceDataPrv);      /* If yes, then invoke the internal service routine. This routine is inlined. */
+    478              }
+    479            }
+    480          }
+    481          
+    482          /*
+    483          ** ===================================================================
+    484          **     Method      :  UARTA_SetClockConfiguration (component Serial_LDD)
+    485          **
+    486          **     Description :
+    487          **         This method changes the clock configuration. During a clock
+    488          **         configuration change the component changes it's setting
+    489          **         immediately upon a request.
+    490          **         This method is internal. It is used by Processor Expert only.
+    491          ** ===================================================================
+    492          */
+    493          void UARTA_SetClockConfiguration(LDD_TDeviceData *DeviceDataPtr, LDD_TClockConfiguration ClockConfiguration)
+    494          {
+    495            UARTA_TDeviceDataPtr DeviceDataPrv = (UARTA_TDeviceDataPtr)DeviceDataPtr;
+    496          
+    497            switch (ClockConfiguration) {
+    498              case CPU_CLOCK_CONFIG_0:
+    499              case CPU_CLOCK_CONFIG_1:
+    500                UART0_PDD_SetClockSource(UART0_BASE_PTR, UART0_PDD_PLL_FLL_CLOCK);
+    501                UART0_PDD_SetBaudRate(UART0_BASE_PTR, DeviceDataPrv->BaudDivisorSpeed1); /* Set the baud rate register. */
+    502                UART0_PDD_SetOversamplingRatio(UART0_BASE_PTR, 3U);
+    503                UART0_PDD_EnableSamplingOnBothEdges(UART0_BASE_PTR, PDD_ENABLE);
+    504                DeviceDataPrv->EnMode = TRUE;    /* Set the flag "device enabled" in the actual speed CPU mode */
+    505                break;
+    506              default:
+    507                DeviceDataPrv->EnMode = FALSE;   /* Set the flag "device disabled" in the actual speed CPU mode */
+    508                break;
+    509            }
+    510            HWEnDi(DeviceDataPtr);               /* Enable/disable device according to status flags */
+    511          }
+    512          
+    513          /*lint -restore Enable MISRA rule (11.4,12.8) checking. */
+    514          /* END UARTA. */
+    515          
+    516          #ifdef __cplusplus
+    517          }  /* extern "C" */
+    518          #endif
+    519          
+    520          /*!
+    521          ** @}
+    522          */
+    523          /*
+    524          ** ###################################################################
+    525          **
+    526          **     This file was created by Processor Expert 10.3 [05.09]
+    527          **     for the Freescale Kinetis series of microcontrollers.
+    528          **
+    529          ** ###################################################################
+    530          */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   HWEnDi
+      16   InterruptRx
+        16   -> UARTA_OnBlockReceived
+       8   InterruptTx
+         8   -> UARTA_OnBlockSent
+      16   UARTA_Init
+        16   -> Cpu_GetClockConfiguration
+        16   -> UARTA_SetClockConfiguration
+        16   -> _int_get_isr_data
+        16   -> _int_install_isr
+      16   UARTA_Interrupt
+        16   -> InterruptRx
+        16   -> InterruptTx
+      24   UARTA_ReceiveBlock
+        24   -> _int_disable
+        24   -> _int_enable
+      16   UARTA_SelectBaudRate
+        16   -> Cpu_GetClockConfiguration
+      24   UARTA_SendBlock
+        24   -> _int_disable
+        24   -> _int_enable
+      16   UARTA_SetClockConfiguration
+        16   -> HWEnDi
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable5
+       4  ??DataTable6
+       4  ??DataTable6_1
+       4  ??DataTable6_2
+       4  ??DataTable6_3
+       4  ??DataTable6_4
+       4  ??DataTable6_5
+       4  ??DataTable6_6
+       4  ??DataTable6_7
+       4  ??DataTable7
+       4  ??DataTable7_1
+       4  ??DataTable7_10
+       4  ??DataTable7_11
+       4  ??DataTable7_12
+       4  ??DataTable7_13
+       4  ??DataTable7_14
+       4  ??DataTable7_15
+       4  ??DataTable7_2
+       4  ??DataTable7_3
+       4  ??DataTable7_4
+       4  ??DataTable7_5
+       4  ??DataTable7_6
+       4  ??DataTable7_7
+       4  ??DataTable7_8
+       4  ??DataTable7_9
+      36  DeviceDataPrv__DEFAULT_RTOS_ALLOC
+      78  HWEnDi
+      52  InterruptRx
+      76  InterruptTx
+      20  UARTA_BaudDivisorSpeed1
+     188  UARTA_Init
+      56  UARTA_Interrupt
+      62  UARTA_ReceiveBlock
+      86  UARTA_SelectBaudRate
+      86  UARTA_SendBlock
+      98  UARTA_SetClockConfiguration
+
+ 
+  36 bytes in section .bss
+  20 bytes in section .rodata
+ 882 bytes in section .text
+ 
+ 882 bytes of CODE  memory
+  20 bytes of CONST memory
+  36 bytes of DATA  memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,1230 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:59
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\lwlog.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW572F.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\lwlog.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\lwlog.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lwlog.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\lwlog.c
+      1          /*HEADER*********************************************************************
+      2           *
+      3           * Copyright (c) 2008 Freescale Semiconductor;
+      4           * All Rights Reserved
+      5           *
+      6           * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7           * All Rights Reserved
+      8           *
+      9           * Copyright (c) 1989-2008 ARC International;
+     10           * All Rights Reserved
+     11           *
+     12           ***************************************************************************
+     13           *
+     14           * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15           * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16           * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17           * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18           * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20           * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21           * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22           * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23           * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24           * THE POSSIBILITY OF SUCH DAMAGE.
+     25           *
+     26           **************************************************************************
+     27           *
+     28           * $FileName: lwlog.c$
+     29           * $Version : 3.8.0.1$
+     30           * $Date    : Feb-22-2012$
+     31           *
+     32           * Comments:
+     33           *
+     34           *   This file contains functions of the Lightweight LOG component.
+     35           *
+     36           *END************************************************************************/
+     37          
+     38          #include "mqx_inc.h"
+     39          
+     40          #if MQX_USE_LWLOGS
+     41          #include "lwlog.h"
+     42          #include "lwlog_prv.h"
+     43          
+     44          #if MQX_LITE_VERSION_NUMBER
+     45          LWLOG_COMPONENT_STRUCT lwlog_struct = {0};
+     46          #endif /* MQX_LITE_VERSION_NUMBER */
+     47          
+     48          /*!
+     49           * \brief This function creates a kernel component providing a lightweight log
+     50           * service for all user tasks.
+     51           *
+     52           * The lightweight log component provides a maximum of 16 logs, all with the same
+     53           * size of entries. Log number 0 is reserved for kernel log.
+     54           * \n An application subsequently creates lightweight logs with _lwlog_create() or
+     55           * _lwlog_create_at().
+     56           *
+     57           * \return MQX_OK
+     58           * \return MQX_OUT_OF_MEMORY (MQX is out of memory.)
+     59           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+     60           *
+     61           * \warning Cannot be called from an ISR.
+     62           *
+     63           * \see _lwlog_create
+     64           * \see _lwlog_create_at
+     65           * \see _klog_create
+     66           * \see _klog_create_at
+     67           */
+     68          _mqx_uint _lwlog_create_component(void)
+     69          { /* Body */
+     70              KERNEL_DATA_STRUCT_PTR     kernel_data;
+     71              LWLOG_COMPONENT_STRUCT_PTR log_component_ptr;
+     72          
+     73              _GET_KERNEL_DATA(kernel_data);
+     74          
+     75          #if MQX_CHECK_ERRORS
+     76              if (kernel_data->IN_ISR)
+     77              {
+     78                  return MQX_CANNOT_CALL_FUNCTION_FROM_ISR;
+     79              } /* Endif */
+     80          #endif
+     81          
+     82              _lwsem_wait((LWSEM_STRUCT_PTR) &kernel_data->COMPONENT_CREATE_LWSEM);
+     83          
+     84          #if MQX_CHECK_ERRORS
+     85              if (kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG] != NULL)
+     86              {
+     87                  _lwsem_post((LWSEM_STRUCT_PTR) &kernel_data->COMPONENT_CREATE_LWSEM);
+     88                  return (MQX_OK);
+     89              } /* Endif */
+     90          #endif
+     91          
+     92          #if MQX_LITE_VERSION_NUMBER
+     93              log_component_ptr = &lwlog_struct;
+     94          #else
+     95              log_component_ptr = _mem_alloc_system_zero((_mem_size) sizeof(LWLOG_COMPONENT_STRUCT));
+     96          #if MQX_CHECK_MEMORY_ALLOCATION_ERRORS
+     97              if (log_component_ptr == NULL)
+     98              {
+     99                  _lwsem_post((LWSEM_STRUCT_PTR) &kernel_data->COMPONENT_CREATE_LWSEM);
+    100                  return (MQX_OUT_OF_MEMORY);
+    101              } /* Endif */
+    102          #endif
+    103              _mem_set_type(log_component_ptr, MEM_TYPE_LWLOG_COMPONENT);
+    104          #endif /* MQX_LITE_VERSION_NUMBER */
+    105          
+    106              kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG] = log_component_ptr;
+    107              log_component_ptr->VALID = LWLOG_VALID;
+    108          
+    109              _lwsem_post((LWSEM_STRUCT_PTR) &kernel_data->COMPONENT_CREATE_LWSEM);
+    110          
+    111              return (MQX_OK);
+    112          
+    113          } /* Endbody */
+    114          
+    115          /*!
+    116           * \brief Creates the lightweight log at the specified location.
+    117           *
+    118           * Each entry in the log is the same size and contains a sequence number, a timestamp,
+    119           * and a seven-element array of application-defined data.
+    120           *
+    121           * \param[in] log_number Log number to create ( 1 through 15; 0 is reserved for
+    122           * kernel log).
+    123           * \param[in] max_size   Maximum number of entries in the log.
+    124           * \param[in] flags      LOG_OVERWRITE (when the log is full, write new entries
+    125           * over oldest ones), NULL (when the log is full, do not write entries; the default
+    126           * behavior).
+    127           * \param[in] where      Where to create the lightweight log.
+    128           *
+    129           * \return MQX_OK
+    130           * \return LOG_EXISTS (Lightweight log with log number log_number exists.)
+    131           * \return LOG_INVALID (Log_number is out of range.)
+    132           * \return LOG_INVALID_SIZE (Max_size is 0.)
+    133           * \return MQX_INVALID_POINTER (Where is NULL.)
+    134           * \return MQX_INVALID_COMPONENT_BASE (Data for the lightweight log component is
+    135           * not valid.)
+    136           * \return MQX_OUT_OF_MEMORY (MQX is out of memory.)
+    137           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+    138           *
+    139           * \warning Creates the lightweight log component if it was not created.
+    140           *
+    141           * \see _lwlog_create
+    142           * \see _lwlog_create_component
+    143           * \see _klog_create
+    144           * \see _klog_create_at
+    145           */
+    146          _mqx_uint _lwlog_create_at
+    147          (
+    148              _mqx_uint log_number,
+    149              _mqx_uint max_size,
+    150              _mqx_uint flags,
+    151              pointer   where
+    152          )
+    153          { /* Body */
+    154              LWLOG_HEADER_STRUCT_PTR log_header_ptr = (LWLOG_HEADER_STRUCT_PTR) where;
+    155              _mqx_uint               result;
+    156          
+    157          #if MQX_CHECK_ERRORS
+    158              if (max_size == 0)
+    159              {
+    160                  return (LOG_INVALID_SIZE);
+    161              } /* Endif */
+    162          
+    163              if (where == NULL)
+    164              {
+    165                  return (MQX_INVALID_POINTER);
+    166              } /* Endif */
+    167          #endif
+    168          
+    169              result = _lwlog_create_internal(log_number, max_size, flags, log_header_ptr);
+    170              if (result == MQX_OK)
+    171              {
+    172                  log_header_ptr->TYPE = LWLOG_STATIC;
+    173              } /* Endif */
+    174          
+    175              return (result);
+    176          
+    177          } /* Endbody */
+    178          
+    179          /*!
+    180           * \private
+    181           *
+    182           * \brief Creates the lightweight log.
+    183           *
+    184           * \param[in] log_number     Log number to create ( 1 through 15; 0 is reserved
+    185           * for kernel log).
+    186           * \param[in] max_size       Maximum number of entries in the log.
+    187           * \param[in] flags          LOG_OVERWRITE (when the log is full, write new entries
+    188           * over oldest ones), NULL (when the log is full, do not write entries; the default
+    189           * behavior).
+    190           * \param[in] log_header_ptr Pointer to lightweight log header.
+    191           *
+    192           * \return MQX_OK
+    193           * \return LOG_INVALID (log_number is out of range.)
+    194           * \return LOG_EXISTS (Lightweight log with log number log_number exists.)
+    195           * \return MQX_OUT_OF_MEMORY (MQX is out of memory.)
+    196           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+    197           * \return MQX_INVALID_COMPONENT_BASE (Data for the lightweight log component is
+    198           * not valid.)
+    199           *
+    200           * \see _lwlog_create
+    201           * \see _lwlog_create_at
+    202           * \see LWLOG_HEADER_STRUCT
+    203           */
+    204          _mqx_uint _lwlog_create_internal
+    205          (
+    206              _mqx_uint log_number,
+    207              _mqx_uint max_size,
+    208              _mqx_uint flags,
+    209              LWLOG_HEADER_STRUCT_PTR log_header_ptr
+    210          )
+    211          { /* Body */
+    212              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    213              LWLOG_COMPONENT_STRUCT_PTR log_component_ptr;
+    214              LWLOG_ENTRY_STRUCT_PTR     entry_ptr;
+    215              _mqx_uint                  i;
+    216              _mqx_uint                  result = MQX_OK;
+    217          
+    218              _GET_KERNEL_DATA(kernel_data);
+    219          
+    220          #if MQX_CHECK_ERRORS
+    221              if (log_number >= LOG_MAXIMUM_NUMBER)
+    222              {
+    223                  return (LOG_INVALID);
+    224              } /* Endif */
+    225          #endif
+    226          
+    227              log_component_ptr = (LWLOG_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG];
+    228              if (log_component_ptr == NULL)
+    229              {
+    230                  result = _lwlog_create_component();
+    231                  log_component_ptr = (LWLOG_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG];
+    232          #if MQX_CHECK_MEMORY_ALLOCATION_ERRORS
+    233                  if (log_component_ptr == NULL)
+    234                  {
+    235                      return (result);
+    236                  } /* Endif */
+    237          #endif
+    238          #if MQX_CHECK_ERRORS
+    239              }
+    240              else if (log_component_ptr->LOGS[log_number] != NULL)
+    241              {
+    242                  return (LOG_EXISTS);
+    243          #endif
+    244              } /* Endif */
+    245          
+    246          #if MQX_CHECK_VALIDITY
+    247              if (log_component_ptr->VALID != LWLOG_VALID)
+    248              {
+    249                  return (MQX_INVALID_COMPONENT_BASE);
+    250              } /* Endif */
+    251          #endif
+    252              _mem_zero((pointer) log_header_ptr, (_mem_size) sizeof(LWLOG_HEADER_STRUCT));
+    253          
+    254              log_header_ptr->FLAGS = flags;
+    255              log_header_ptr->FLAGS |= LWLOG_ENABLED;
+    256              log_header_ptr->NUMBER = 1;
+    257              log_header_ptr->MAX_ENTRIES = max_size;
+    258          
+    259              entry_ptr = &log_header_ptr->FIRST_ENTRY;
+    260          
+    261              log_header_ptr->READ_PTR = entry_ptr;
+    262              log_header_ptr->OLDEST_PTR = entry_ptr;
+    263          
+    264              max_size--;
+    265              for (i = 0; i < max_size; i++)
+    266              {
+    267                  entry_ptr->NEXT_PTR = entry_ptr + 1;
+    268                  entry_ptr++;
+    269              } /* Endfor */
+    270          
+    271              log_header_ptr->WRITE_PTR = entry_ptr;
+    272              entry_ptr->NEXT_PTR = log_header_ptr->READ_PTR;
+    273          
+    274              _int_disable();
+    275          #if MQX_CHECK_ERRORS
+    276              if (log_component_ptr->LOGS[log_number] != NULL)
+    277              {
+    278                  _int_enable();
+    279                  return (LOG_EXISTS);
+    280              } /* Endif */
+    281          #endif
+    282              log_component_ptr->LOGS[log_number] = log_header_ptr;
+    283              _int_enable();
+    284          
+    285              return (result);
+    286          
+    287          } /* Endbody */
+    288          
+    289          
+    290          #if !MQX_LITE_VERSION_NUMBER
+    291          /*!
+    292           * \brief Creates the lightweight log.
+    293           *
+    294           * Each entry in the log is the same size and contains a sequence number, a timestamp,
+    295           * and a seven-element array of application-defined data.
+    296           *
+    297           * \param[in] log_number Log number to create ( 1 through 15; 0 is reserved for
+    298           * kernel log).
+    299           * \param[in] max_size   Maximum number of entries in the log.
+    300           * \param[in] flags      LOG_OVERWRITE (when the log is full, write new entries
+    301           * over oldest ones), NULL (when the log is full, do not write entries; the default
+    302           * behavior).
+    303           *
+    304           * \return MQX_OK
+    305           * \return LOG_EXISTS (Lightweight log with log number log_number exists.)
+    306           * \return LOG_INVALID (Log_number is out of range.)
+    307           * \return LOG_INVALID_SIZE (Max_size is 0.)
+    308           * \return MQX_INVALID_COMPONENT_BASE (Data for the lightweight log component is
+    309           * not valid.)
+    310           * \return MQX_OUT_OF_MEMORY (MQX is out of memory.)
+    311           * \return MQX_CANNOT_CALL_FUNCTION_FROM_ISR (Function cannot be called from an ISR.)
+    312           *
+    313           * \warning Creates the lightweight log component if it was not created.
+    314           *
+    315           * \see _lwlog_create_at
+    316           * \see _lwlog_create_component
+    317           * \see _klog_create
+    318           * \see _klog_create_at
+    319           */
+    320          _mqx_uint _lwlog_create
+    321          (
+    322              _mqx_uint log_number,
+    323              _mqx_uint max_size,
+    324              _mqx_uint flags
+    325          )
+    326          { /* Body */
+    327              LWLOG_HEADER_STRUCT_PTR log_header_ptr;
+    328              _mqx_uint               result;
+    329          
+    330          #if MQX_CHECK_ERRORS
+    331              if (max_size == 0)
+    332              {
+    333                  return LOG_INVALID_SIZE;
+    334              } /* Endif */
+    335          #endif
+    336          
+    337              log_header_ptr = _mem_alloc_system_zero((_mem_size) sizeof(LWLOG_HEADER_STRUCT) + (_mem_size) (max_size - 1)
+    338                              * (_mem_size) sizeof(LWLOG_ENTRY_STRUCT));
+    339          #if MQX_CHECK_MEMORY_ALLOCATION_ERRORS
+    340              if (log_header_ptr == NULL)
+    341              {
+    342                  return (MQX_OUT_OF_MEMORY);
+    343              } /* Endif */
+    344          #endif
+    345              _mem_set_type(log_header_ptr, MEM_TYPE_LWLOG);
+    346          
+    347              result = _lwlog_create_internal(log_number, max_size, flags, log_header_ptr);
+    348              if (result == MQX_OK)
+    349              {
+    350                  log_header_ptr->TYPE = LWLOG_DYNAMIC;
+    351              }
+    352              else
+    353              {
+    354                  _mem_free(log_header_ptr);
+    355              } /* Endif */
+    356          
+    357              return (result);
+    358          
+    359          } /* Endbody */
+    360          #endif /* MQX_LITE_VERSION_NUMBER */
+    361          
+    362          /*!
+    363           * \brief Destroys an existing lightweight log.
+    364           *
+    365           * \param[in] log_number Log number of a previously created lightweight log (if
+    366           * log_number is 0, kernel log is destroyed).
+    367           *
+    368           * \return MQX_OK
+    369           * \return LOG_DOES_NOT_EXIST (Log_number was not previously created.)
+    370           * \return LOG_INVALID (Log_number is out of range.)
+    371           * \return MQX_COMPONENT_DOES_NOT_EXIST (Lightweight log component is not created.)
+    372           * \return MQX_INVALID_COMPONENT_HANDLE (Lightweight log component data is not valid.)
+    373           *
+    374           * \warning Disables and enables interrupts.
+    375           *
+    376           * \see _lwlog_create
+    377           * \see _lwlog_create_at
+    378           * \see _lwlog_create_component
+    379           */
+    380          _mqx_uint _lwlog_destroy
+    381          (
+    382              _mqx_uint log_number
+    383          )
+    384          { /* Body */
+    385              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    386              LWLOG_COMPONENT_STRUCT_PTR log_component_ptr;
+    387              LWLOG_HEADER_STRUCT_PTR    log_header_ptr;
+    388          
+    389              _GET_KERNEL_DATA(kernel_data);
+    390          
+    391          #if MQX_CHECK_ERRORS
+    392              if (log_number >= LOG_MAXIMUM_NUMBER)
+    393              {
+    394                  return (LOG_INVALID);
+    395              } /* Endif */
+    396          #endif
+    397          
+    398              log_component_ptr = (LWLOG_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG];
+    399          
+    400          #if MQX_CHECK_ERRORS
+    401              if (log_component_ptr == NULL)
+    402              {
+    403                  return (MQX_COMPONENT_DOES_NOT_EXIST);
+    404              } /* Endif */
+    405          #endif
+    406          
+    407          #if MQX_CHECK_VALIDITY
+    408              if (log_component_ptr->VALID != LWLOG_VALID)
+    409              {
+    410                  return (MQX_INVALID_COMPONENT_HANDLE);
+    411              } /* Endif */
+    412          #endif
+    413          
+    414              _int_disable();
+    415          
+    416              log_header_ptr = log_component_ptr->LOGS[log_number];
+    417          #if MQX_CHECK_ERRORS
+    418              if (log_header_ptr == NULL)
+    419              {
+    420                  _int_enable();
+    421                  return (LOG_DOES_NOT_EXIST);
+    422              } /* Endif */
+    423          #endif
+    424          
+    425              log_component_ptr->LOGS[log_number] = NULL;
+    426              _int_enable();
+    427          
+    428          #if !MQX_LITE_VERSION_NUMBER
+    429              if (log_header_ptr->TYPE == LWLOG_DYNAMIC)
+    430              {
+    431                  _mem_free(log_header_ptr);
+    432              } /* Endif */
+    433          #endif
+    434          
+    435              return (MQX_OK);
+    436          
+    437          } /* Endbody */
+    438          
+    439          /*!
+    440           * \brief Stops logging to the selected lightweight log.
+    441           *
+    442           * \param[in] log_number Log number of a previously created lightweight log (if
+    443           * log_number is 0, kernel log is disabled).
+    444           *
+    445           * \return MQX_OK
+    446           * \return LOG_DOES_NOT_EXIST (Log_number was not created.)
+    447           * \return LOG_INVALID (Log_number is out of range.)
+    448           * \return MQX_COMPONENT_DOES_NOT_EXIST (Lightweight log component is not created.)
+    449           * \return MQX_INVALID_COMPONENT_HANDLE (Lightweight log component data is not valid.)
+    450           *
+    451           * \see _lwlog_enable
+    452           * \see _lwlog_read
+    453           * \see _lwlog_reset
+    454           * \see _lwlog_write
+    455           */
+    456          _mqx_uint _lwlog_disable
+    457          (
+    458              _mqx_uint log_number
+    459          )
+    460          { /* Body */
+    461              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    462              LWLOG_COMPONENT_STRUCT_PTR log_component_ptr;
+    463              LWLOG_HEADER_STRUCT_PTR    log_header_ptr;
+    464          
+    465              _GET_KERNEL_DATA(kernel_data);
+    466          
+    467          #if MQX_CHECK_ERRORS
+    468              if (log_number >= LOG_MAXIMUM_NUMBER)
+    469              {
+    470                  return (LOG_INVALID);
+    471              } /* Endif */
+    472          #endif
+    473          
+    474              log_component_ptr = (LWLOG_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG];
+    475          
+    476          #if MQX_CHECK_ERRORS
+    477              if (log_component_ptr == NULL)
+    478              {
+    479                  return (MQX_COMPONENT_DOES_NOT_EXIST);
+    480              } /* Endif */
+    481          #endif
+    482          
+    483          #if MQX_CHECK_VALIDITY
+    484              if (log_component_ptr->VALID != LWLOG_VALID)
+    485              {
+    486                  return (MQX_INVALID_COMPONENT_HANDLE);
+    487              } /* Endif */
+    488          #endif
+    489          
+    490              _int_disable();
+    491              log_header_ptr = log_component_ptr->LOGS[log_number];
+    492          #if MQX_CHECK_ERRORS
+    493              if (log_header_ptr == NULL)
+    494              {
+    495                  _int_enable();
+    496                  return (LOG_DOES_NOT_EXIST);
+    497              } /* Endif */
+    498          #endif
+    499          
+    500              log_header_ptr->FLAGS &= ~LWLOG_ENABLED;
+    501              _int_enable();
+    502          
+    503              return (MQX_OK);
+    504          
+    505          } /* Endbody */
+    506          
+    507          /*!
+    508           * \brief Starts logging to the selected lightweight log.
+    509           *
+    510           * \param[in] log_number Log number of a previously created lightweight log (if
+    511           * log_number is 0, kernel log is enabled).
+    512           *
+    513           * \return MQX_OK
+    514           * \return LOG_DOES_NOT_EXIST (Log_number was not created.)
+    515           * \return LOG_INVALID (Log_number is out of range.)
+    516           * \return MQX_COMPONENT_DOES_NOT_EXIST (Lightweight log component is not created.)
+    517           * \return MQX_INVALID_COMPONENT_HANDLE (Lightweight log component data is not valid.)
+    518           *
+    519           * \see _lwlog_disable
+    520           * \see _lwlog_read
+    521           * \see _lwlog_reset
+    522           * \see _lwlog_write
+    523           */
+    524          _mqx_uint _lwlog_enable
+    525          (
+    526              /* [IN] the log number to be used */
+    527              _mqx_uint log_number
+    528          )
+    529          { /* Body */
+    530              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    531              LWLOG_COMPONENT_STRUCT_PTR log_component_ptr;
+    532              LWLOG_HEADER_STRUCT_PTR    log_header_ptr;
+    533          
+    534              _GET_KERNEL_DATA(kernel_data);
+    535          
+    536          #if MQX_CHECK_ERRORS
+    537              if (log_number >= LOG_MAXIMUM_NUMBER)
+    538              {
+    539                  return (LOG_INVALID);
+    540              } /* Endif */
+    541          #endif
+    542          
+    543              log_component_ptr = (LWLOG_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG];
+    544          
+    545          #if MQX_CHECK_ERRORS
+    546              if (log_component_ptr == NULL)
+    547              {
+    548                  return (MQX_COMPONENT_DOES_NOT_EXIST);
+    549              } /* Endif */
+    550          #endif
+    551          
+    552          #if MQX_CHECK_VALIDITY
+    553              if (log_component_ptr->VALID != LWLOG_VALID)
+    554              {
+    555                  return (MQX_INVALID_COMPONENT_HANDLE);
+    556              } /* Endif */
+    557          #endif
+    558          
+    559              _int_disable();
+    560              log_header_ptr = log_component_ptr->LOGS[log_number];
+    561          #if MQX_CHECK_ERRORS
+    562              if (log_header_ptr == NULL)
+    563              {
+    564                  _int_enable();
+    565                  return (LOG_DOES_NOT_EXIST);
+    566              } /* Endif */
+    567          #endif
+    568          
+    569              log_header_ptr->FLAGS |= LWLOG_ENABLED;
+    570              _int_enable();
+    571          
+    572              return (MQX_OK);
+    573          
+    574          } /* Endbody */
+    575          
+    576          /*!
+    577           * \brief Reads the information in the lightweight log.
+    578           *
+    579           * \param[in] log_number Log number of a previously created lightweight log (if
+    580           * log_number is 0, kernel log is read).
+    581           * \param[in] read_type  Type of read operation (see _log_read()).
+    582           * \param[in] entry_ptr  Pointer to where to write the lightweight log entry.
+    583           *
+    584           * \return MQX_OK
+    585           * \return LOG_DOES_NOT_EXIST (Log_number was not created.)
+    586           * \return LOG_ENTRY_NOT_AVAILABLE (Log entry is not available.)
+    587           * \return LOG_INVALID (Log_number is out of range.)
+    588           * \return LOG_INVALID_READ_TYPE (Read_type is not valid.)
+    589           * \return MQX_INVALID_POINTER (Entry_ptr is NULL.)
+    590           * \return MQX_INVALID_COMPONENT_HANDLE (Lightweight log component data is not valid.)
+    591           * \return MQX_COMPONENT_DOES_NOT_EXIST (Lightweight log component is not created.)
+    592           *
+    593           * \see _lwlog_create
+    594           * \see _lwlog_create_at
+    595           * \see _lwlog_write
+    596           * \see _klog_display
+    597           * \see LWLOG_ENTRY_STRUCT
+    598           */
+    599          _mqx_uint _lwlog_read
+    600          (
+    601              _mqx_uint               log_number,
+    602              _mqx_uint               read_type,
+    603              LWLOG_ENTRY_STRUCT_PTR  entry_ptr
+    604          )
+    605          { /* Body */
+    606              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    607              LWLOG_COMPONENT_STRUCT_PTR log_component_ptr;
+    608              LWLOG_HEADER_STRUCT_PTR    log_header_ptr;
+    609              LWLOG_ENTRY_STRUCT_PTR     log_ptr;
+    610          
+    611              _GET_KERNEL_DATA(kernel_data);
+    612          
+    613          #if MQX_CHECK_ERRORS
+    614              if (log_number >= LOG_MAXIMUM_NUMBER)
+    615              {
+    616                  return (LOG_INVALID);
+    617              } /* Endif */
+    618              if (entry_ptr == NULL)
+    619              {
+    620                  return (MQX_INVALID_POINTER);
+    621              } /* Endif */
+    622          #endif
+    623          
+    624              log_component_ptr = (LWLOG_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG];
+    625          
+    626          #if MQX_CHECK_ERRORS
+    627              if (log_component_ptr == NULL)
+    628              {
+    629                  return (MQX_COMPONENT_DOES_NOT_EXIST);
+    630              } /* Endif */
+    631          #endif
+    632          
+    633              _int_disable();
+    634          #if MQX_CHECK_VALIDITY
+    635              if (log_component_ptr->VALID != LWLOG_VALID)
+    636              {
+    637                  _int_enable();
+    638                  return (MQX_INVALID_COMPONENT_HANDLE);
+    639              } /* Endif */
+    640          #endif
+    641          
+    642              log_header_ptr = log_component_ptr->LOGS[log_number];
+    643          
+    644          #if MQX_CHECK_ERRORS
+    645              if (log_header_ptr == NULL)
+    646              {
+    647                  _int_enable();
+    648                  return (LOG_DOES_NOT_EXIST);
+    649              } /* Endif */
+    650          #endif
+    651          
+    652              if (!log_header_ptr->CURRENT_ENTRIES)
+    653              {
+    654                  /* No data available */
+    655                  _int_enable();
+    656                  return (LOG_ENTRY_NOT_AVAILABLE);
+    657              } /* Endif */
+    658          
+    659              if (read_type == LOG_READ_OLDEST_AND_DELETE)
+    660              {
+    661                  log_header_ptr->CURRENT_ENTRIES--;
+    662                  log_ptr = log_header_ptr->OLDEST_PTR;
+    663                  log_header_ptr->OLDEST_PTR = log_ptr->NEXT_PTR;
+    664                  log_header_ptr->READ_PTR = log_ptr->NEXT_PTR;
+    665                  log_header_ptr->READS = 0;
+    666              }
+    667              else if (read_type == LOG_READ_OLDEST)
+    668              {
+    669                  log_ptr = log_header_ptr->OLDEST_PTR;
+    670                  log_header_ptr->READ_PTR = log_ptr->NEXT_PTR;
+    671                  log_header_ptr->READS = 1;
+    672              }
+    673              else if (read_type == LOG_READ_NEXT)
+    674              {
+    675                  log_ptr = log_header_ptr->READ_PTR;
+    676                  if ((log_ptr == log_header_ptr->WRITE_PTR->NEXT_PTR) && (log_header_ptr->READS
+    677                                  >= log_header_ptr->CURRENT_ENTRIES))
+    678                  {
+    679                      _int_enable();
+    680                      return (LOG_ENTRY_NOT_AVAILABLE);
+    681                  } /* Endif */
+    682                  log_header_ptr->READ_PTR = log_ptr->NEXT_PTR;
+    683                  log_header_ptr->READS++;
+    684              }
+    685              else if (read_type == LOG_READ_NEWEST)
+    686              {
+    687                  log_header_ptr->READS = log_header_ptr->CURRENT_ENTRIES;
+    688                  log_ptr = log_header_ptr->WRITE_PTR;
+    689          #if MQX_CHECK_ERRORS
+    690              }
+    691              else
+    692              {
+    693                  _int_enable();
+    694                  return (LOG_INVALID_READ_TYPE);
+    695          #endif
+    696              } /* Endif */
+    697          
+    698              *entry_ptr = *log_ptr;
+    699          
+    700              _int_enable();
+    701          
+    702              return (MQX_OK);
+    703          
+    704          } /* Endbody */
+    705          
+    706          /*!
+    707           * \brief Resets the lightweight log to its initial state (remove all entries).
+    708           *
+    709           * \param[in] log_number Log number of a previously created lightweight log (if
+    710           * log_number is 0, kernel log is reseted).
+    711           *
+    712           * \return MQX_OK
+    713           * \return LOG_INVALID (Log_number is out of range.)
+    714           * \return LOG_DOES_NOT_EXIST (Log_number was not created.)
+    715           * \return MQX_COMPONENT_DOES_NOT_EXIST (Log component is not created.)
+    716           * \return MQX_INVALID_COMPONENT_HANDLE (Log component data is not valid.)
+    717           *
+    718           * \warning Disables and enables interrupts.
+    719           *
+    720           * \see _lwlog_disable
+    721           * \see _lwlog_enable
+    722           */
+    723          _mqx_uint _lwlog_reset
+    724          (
+    725              _mqx_uint log_number
+    726          )
+    727          { /* Body */
+    728              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    729              LWLOG_COMPONENT_STRUCT_PTR log_component_ptr;
+    730              LWLOG_HEADER_STRUCT_PTR    log_header_ptr;
+    731              LWLOG_ENTRY_STRUCT_PTR     entry_ptr;
+    732          
+    733              _GET_KERNEL_DATA(kernel_data);
+    734          
+    735          #if MQX_CHECK_ERRORS
+    736              if (log_number >= LOG_MAXIMUM_NUMBER)
+    737              {
+    738                  return (LOG_INVALID);
+    739              } /* Endif */
+    740          #endif
+    741          
+    742              log_component_ptr = (LWLOG_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG];
+    743          
+    744              if (log_component_ptr == NULL)
+    745              {
+    746                  return (MQX_COMPONENT_DOES_NOT_EXIST);
+    747              } /* Endif */
+    748          
+    749              _int_disable();
+    750          
+    751          #if MQX_CHECK_VALIDITY
+    752              if (log_component_ptr->VALID != LWLOG_VALID)
+    753              {
+    754                  return (MQX_INVALID_COMPONENT_HANDLE);
+    755              } /* Endif */
+    756          #endif
+    757          
+    758              log_header_ptr = log_component_ptr->LOGS[log_number];
+    759          #if MQX_CHECK_ERRORS
+    760              if (log_header_ptr == NULL)
+    761              {
+    762                  _int_enable();
+    763                  return (LOG_DOES_NOT_EXIST);
+    764              } /* Endif */
+    765          #endif
+    766          
+    767              log_header_ptr->READS = 0;
+    768              log_header_ptr->CURRENT_ENTRIES = 0;
+    769              log_header_ptr->NUMBER = 1;
+    770          
+    771              entry_ptr = &log_header_ptr->FIRST_ENTRY;
+    772          
+    773              log_header_ptr->WRITE_PTR = entry_ptr + (log_header_ptr->MAX_ENTRIES - 1);
+    774              log_header_ptr->READ_PTR = entry_ptr;
+    775              log_header_ptr->OLDEST_PTR = entry_ptr;
+    776          
+    777              _int_enable();
+    778          
+    779              return (MQX_OK);
+    780          
+    781          } /* Endbody */
+    782          
+    783          /*!
+    784           * \brief Calculates the number of single-addressable units required for the
+    785           * lightweight log.
+    786           *
+    787           * The calculation takes into account all headers.
+    788           *
+    789           * \param[in] entries Maximum number of entries in the lightweight log.
+    790           *
+    791           * \return Number of single-addressable units required
+    792           *
+    793           * \see _lwlog_create
+    794           * \see _lwlog_create_at
+    795           * \see _lwlog_create_component
+    796           * \see _klog_create
+    797           * \see _klog_create_at
+    798           */
+    799          _mem_size _lwlog_calculate_size
+    800          (
+    801              _mqx_uint entries
+    802          )
+    803          { /* Body */
+    804              _mem_size result;
+    805          
+    806          #if MQX_CHECK_ERRORS
+    807              if (entries == 0)
+    808              {
+    809                  return 0;
+    810              } /* Endif */
+    811          #endif
+    812          
+    813              result = (_mem_size) sizeof(LWLOG_HEADER_STRUCT) + (_mem_size) (entries - 1)
+    814                              * (_mem_size) sizeof(LWLOG_ENTRY_STRUCT);
+    815          
+    816              return result;
+    817          
+    818          } /* Endbody */
+    819          
+    820          /*!
+    821           * \brief Tests the lightweight log component for consistency.
+    822           *
+    823           * \param[out] log_error_ptr Pointer to the lightweight log if error is found (NULL
+    824           * if no error is found).
+    825           *
+    826           * \return MQX_OK Lightweight log component data is valid (Log_error_ptr is NULL.).
+    827           * \return LOG_INVALID Information for a specific lightweight log is not valid
+    828           * (Log_error_ptr contains log number of the first invalid lightweight log.).
+    829           * \return MQX_INVALID_POINTER Log_error_ptr is NULL.
+    830           * \return MQX_INVALID_COMPONENT_BASE Lightweight log component data is not valid
+    831           * (Log_error_ptr is NULL.).
+    832           *
+    833           * \warning Disables and enables interrupts.
+    834           *
+    835           * \see _lwlog_create_component
+    836           * \see _lwlog_create
+    837           * \see _lwlog_create_at
+    838           */
+    839          _mqx_uint _lwlog_test
+    840          (
+    841              _mqx_uint _PTR_ log_error_ptr
+    842          )
+    843          { /* Body */
+    844              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    845              LWLOG_COMPONENT_STRUCT_PTR log_component_ptr;
+    846              LWLOG_HEADER_STRUCT_PTR    log_header_ptr;
+    847              LWLOG_ENTRY_STRUCT_PTR     entry_ptr;
+    848              uchar_ptr                  min_ptr;
+    849              uchar_ptr                  max_ptr;
+    850              _mqx_uint                  i, j;
+    851          
+    852              _GET_KERNEL_DATA(kernel_data);
+    853          
+    854          #if MQX_CHECK_ERRORS
+    855              if ((pointer) log_error_ptr == NULL)
+    856              {
+    857                  return MQX_INVALID_POINTER;
+    858              } /* Endif */
+    859          #endif
+    860          
+    861              *log_error_ptr = 0;
+    862              log_component_ptr = (LWLOG_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_LOG];
+    863              if (log_component_ptr == NULL)
+    864              {
+    865                  return (MQX_OK);
+    866              } /* Endif */
+    867          
+    868              _int_disable();
+    869          
+    870          #if MQX_CHECK_VALIDITY
+    871              if (log_component_ptr->VALID != LWLOG_VALID)
+    872              {
+    873                  _int_enable();
+    874                  return (MQX_INVALID_COMPONENT_BASE);
+    875              } /* Endif */
+    876          #endif
+    877          
+    878              for (i = 0; i < LOG_MAXIMUM_NUMBER; i++)
+    879              {
+    880                  log_header_ptr = log_component_ptr->LOGS[i];
+    881                  if (log_header_ptr != NULL)
+    882                  {
+    883                      /* Verify the log pointers */
+    884                      min_ptr = (uchar_ptr) log_header_ptr + sizeof(LWLOG_HEADER_STRUCT_PTR);
+    885                      max_ptr = min_ptr + sizeof(LWLOG_ENTRY_STRUCT) * log_header_ptr->MAX_ENTRIES;
+    886          
+    887                      if (((uchar_ptr) log_header_ptr->READ_PTR < min_ptr) || ((uchar_ptr) log_header_ptr->READ_PTR >= max_ptr)
+    888                                      || ((uchar_ptr) log_header_ptr->WRITE_PTR < min_ptr)
+    889                                      || ((uchar_ptr) log_header_ptr->WRITE_PTR >= max_ptr)
+    890                                      || ((uchar_ptr) log_header_ptr->OLDEST_PTR < min_ptr)
+    891                                      || ((uchar_ptr) log_header_ptr->OLDEST_PTR >= max_ptr))
+    892          
+    893                      {
+    894                          _int_enable();
+    895                          *log_error_ptr = i;
+    896                          return (LOG_INVALID);
+    897                      } /* Endif */
+    898          
+    899                      /* Check each entry in the log */
+    900                      entry_ptr = &log_header_ptr->FIRST_ENTRY;
+    901                      j = log_header_ptr->MAX_ENTRIES;
+    902                      while (entry_ptr->NEXT_PTR && j)
+    903                      {
+    904                          entry_ptr = entry_ptr->NEXT_PTR;
+    905                          --j;
+    906                          if (((uchar_ptr) entry_ptr < min_ptr) || ((uchar_ptr) entry_ptr >= max_ptr))
+    907                          {
+    908                              _int_enable();
+    909                              *log_error_ptr = i;
+    910                              return (LOG_INVALID);
+    911                          } /* Endif */
+    912                      } /* Endwhile */
+    913                  } /* Endif */
+    914              } /* Endfor */
+    915          
+    916              _int_enable();
+    917          
+    918              return (MQX_OK);
+    919          
+    920          } /* Endbody */
+    921          
+    922          /*!
+    923           * \private
+    924           *
+    925           * \brief Writes data to the lightweight log.
+    926           *
+    927           * \param[in] log_number Log number of a previously created lightweight log.
+    928           * \param[in] p1         Data to be written into the log entry.
+    929           * \param[in] p2         Data to be written into the log entry.
+    930           * \param[in] p3         Data to be written into the log entry.
+    931           * \param[in] p4         Data to be written into the log entry.
+    932           * \param[in] p5         Data to be written into the log entry.
+    933           * \param[in] p6         Data to be written into the log entry.
+    934           * \param[in] p7         Data to be written into the log entry.
+    935           *
+    936           * \return MQX_OK
+    937           * \return LOG_FULL (Log is full and LOG_OVERWRITE is not set.)
+    938           * \return LOG_DISABLED (Log is disabled.)
+    939           * \return LOG_DOES_NOT_EXIST (Log_number was not created.)
+    940           * \return MQX_INVALID_COMPONENT_HANDLE (Log component data is not valid.)
+    941           *
+    942           * \see _lwlog_write
+    943           */
+    944          _mqx_uint _lwlog_write_internal
+    945          (
+    946              _mqx_uint     log_number,
+    947              _mqx_max_type p1,
+    948              _mqx_max_type p2,
+    949              _mqx_max_type p3,
+    950              _mqx_max_type p4,
+    951              _mqx_max_type p5,
+    952              _mqx_max_type p6,
+    953              _mqx_max_type p7
+    954          )
+    955          { /* Body */
+    956              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    957              LWLOG_COMPONENT_STRUCT_PTR log_component_ptr;
+    958              LWLOG_HEADER_STRUCT_PTR    log_header_ptr;
+    959              _mqx_max_type _PTR_        data_ptr;
+    960              LWLOG_ENTRY_STRUCT_PTR     log_ptr;
+    961          #if MQX_LWLOG_TIME_STAMP_IN_TICKS == 0
+    962              TIME_STRUCT                time;
+    963              MQX_TICK_STRUCT ticks;
+    964          #endif
+    965          
+    966              _GET_KERNEL_DATA(kernel_data);
+    967          
+    968              log_component_ptr = (LWLOG_COMPONENT_STRUCT_PTR) kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG];
+    969              log_header_ptr = log_component_ptr->LOGS[log_number];
+    970          
+    971          #if MQX_CHECK_VALIDITY
+    972              if (log_component_ptr->VALID != LWLOG_VALID)
+    973              {
+    974                  return (MQX_INVALID_COMPONENT_HANDLE);
+    975              } /* Endif */
+    976          #endif
+    977          
+    978          #if MQX_CHECK_ERRORS
+    979              if (log_header_ptr == NULL)
+    980              {
+    981                  return (LOG_DOES_NOT_EXIST);
+    982              } /* Endif */
+    983          #endif
+    984          
+    985              if (!(log_header_ptr->FLAGS & LWLOG_ENABLED))
+    986              {
+    987                  return (LOG_DISABLED);
+    988              } /* Endif */
+    989          
+    990              log_ptr = log_header_ptr->WRITE_PTR->NEXT_PTR;
+    991          
+    992              if (log_header_ptr->CURRENT_ENTRIES >= log_header_ptr->MAX_ENTRIES)
+    993              {
+    994                  if (log_header_ptr->FLAGS & LOG_OVERWRITE)
+    995                  {
+    996                      if (log_ptr == log_header_ptr->READ_PTR)
+    997                      {
+    998                          log_header_ptr->READ_PTR = log_ptr->NEXT_PTR;
+    999                      } /* Endif */
+   1000                      log_header_ptr->OLDEST_PTR = log_ptr->NEXT_PTR;
+   1001                  }
+   1002                  else
+   1003                  {
+   1004                      return (LOG_FULL);
+   1005                  } /* Endif */
+   1006              }
+   1007              else
+   1008              {
+   1009                  log_header_ptr->CURRENT_ENTRIES++;
+   1010              } /* Endif */
+   1011          
+   1012          #if MQX_LWLOG_TIME_STAMP_IN_TICKS == 0
+   1013              log_ptr->MICROSECONDS = (uint_32)_time_get_microseconds();
+   1014              PSP_ADD_TICKS(&kernel_data->TIME, &kernel_data->TIME_OFFSET, &ticks);
+   1015              PSP_TICKS_TO_TIME(&ticks, &time);
+   1016              log_ptr->SECONDS = time.SECONDS;
+   1017              log_ptr->MILLISECONDS = time.MILLISECONDS;
+   1018          #else
+   1019              log_ptr->TIMESTAMP = kernel_data->TIME;
+   1020              log_ptr->TIMESTAMP.HW_TICKS = _time_get_hwticks();
+   1021              PSP_ADD_TICKS(&log_ptr->TIMESTAMP, &kernel_data->TIME_OFFSET,
+   1022                              &log_ptr->TIMESTAMP);
+   1023          #endif
+   1024          
+   1025              log_ptr->SEQUENCE_NUMBER = log_header_ptr->NUMBER++;
+   1026          
+   1027              data_ptr = &log_ptr->DATA[0];
+   1028              *data_ptr++ = p1;
+   1029              *data_ptr++ = p2;
+   1030              *data_ptr++ = p3;
+   1031              *data_ptr++ = p4;
+   1032              *data_ptr++ = p5;
+   1033              *data_ptr++ = p6;
+   1034              *data_ptr = p7;
+   1035          
+   1036              log_header_ptr->WRITE_PTR = log_ptr;
+   1037          
+   1038              return (MQX_OK);
+   1039          
+   1040          } /* Endbody */
+   1041          
+   1042          /*!
+   1043           * \brief Writes to the lightweight log.
+   1044           *
+   1045           * The function writes the log entry only if it returns MQX_OK.
+   1046           *
+   1047           * \param[in] log_number Log number of a previously created lightweight log.
+   1048           * \param[in] p1         Data to be written to the log entry. If log_number is 0
+   1049           * and p1 is >= 10 (0 through 9 are reserved for MQX), data specified by p2 through
+   1050           * p7 is written to kernel log.
+   1051           * \param[in] p2
+   1052           * \param[in] p3
+   1053           * \param[in] p4
+   1054           * \param[in] p5
+   1055           * \param[in] p6
+   1056           * \param[in] p7
+   1057           *
+   1058           * \return MQX_OK
+   1059           * \return LOG_FULL (Log is full and LOG_OVERWRITE is not set.)
+   1060           * \return LOG_DISABLED (Log is disabled.)
+   1061           * \return LOG_INVALID (Log_number is out of range.)
+   1062           * \return LOG_DOES_NOT_EXIST (Log_number was not created.)
+   1063           * \return MQX_INVALID_COMPONENT_HANDLE (Log component data is not valid.)
+   1064           * \return MQX_COMPONENT_DOES_NOT_EXIST (Log component is not created.)
+   1065           *
+   1066           * \see _lwlog_create
+   1067           * \see _lwlog_create_at
+   1068           * \see _lwlog_read
+   1069           * \see _lwlog_disable
+   1070           * \see _lwlog_enable
+   1071           */
+   1072          _mqx_uint _lwlog_write
+   1073          (
+   1074              _mqx_uint     log_number,
+   1075              _mqx_max_type p1,
+   1076              _mqx_max_type p2,
+   1077              _mqx_max_type p3,
+   1078              _mqx_max_type p4,
+   1079              _mqx_max_type p5,
+   1080              _mqx_max_type p6,
+   1081              _mqx_max_type p7
+   1082          )
+   1083          { /* Body */
+   1084              KERNEL_DATA_STRUCT_PTR kernel_data;
+   1085              _mqx_uint              result;
+   1086          
+   1087              _GET_KERNEL_DATA(kernel_data);
+   1088          
+   1089          #if MQX_CHECK_ERRORS
+   1090              if (log_number >= LOG_MAXIMUM_NUMBER)
+   1091              {
+   1092                  return (LOG_INVALID);
+   1093              } /* Endif */
+   1094          
+   1095              if (kernel_data->KERNEL_COMPONENTS[KERNEL_LWLOG] == NULL)
+   1096              {
+   1097                  return (MQX_COMPONENT_DOES_NOT_EXIST);
+   1098              } /* Endif */
+   1099          #endif
+   1100          
+   1101              _INT_DISABLE();
+   1102          
+   1103              result = _lwlog_write_internal(log_number, p1, p2, p3, p4, p5, p6, p7);
+   1104          
+   1105              _INT_ENABLE();
+   1106          
+   1107              return (result);
+   1108          
+   1109          } /* Endbody */
+   1110          
+   1111          #endif /* MQX_USE_LWLOGS */
+   1112          
+   1113          /* EOF */
+
+
+ 
+ 
+ 0 bytes of memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,406 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:58
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\I2C\Source\i2c.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW527B.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\I2C\Source\i2c.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\i2c.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\i2c.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\I2C\Source\i2c.c
+      1          /*****************************************************************************
+      2          * i2c file.
+      3          *
+      4          * (c) Copyright 2016, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          #include "i2c.h"
+     13          
+     14          
+     15          #if 0
+     16          /************************************************************************************
+     17          *
+     18          * I2C Initialization
+     19          *
+     20          * Set Baud Rate and turn on I2C0
+     21          *
+     22          ************************************************************************************/
+     23          void I2C0_Init( void )
+     24          {
+     25              SIM_SCGC5 |= SIM_SCGC5_PORTB_MASK;
+     26          
+     27              /* Turn on clock to I2C module */
+     28              SIM_SCGC4 |= SIM_SCGC4_I2C0_MASK;
+     29          
+     30              /* configure GPIO for I2C0 function */
+     31              PORTB_PCR0 = PORT_PCR_MUX(2) | PORT_PCR_PE_MASK | PORT_PCR_PS_MASK;
+     32              PORTB_PCR1 = PORT_PCR_MUX(2) | PORT_PCR_PE_MASK | PORT_PCR_PS_MASK;
+     33          
+     34              /* set MULT and ICR:  For bus speed of 24MHz, 0x12 should give 400 kHz */
+     35              I2C0_F  = 0x17;
+     36          
+     37              /* enable IIC */
+     38              I2C0_C1 = I2C_C1_IICEN_MASK;
+     39          }
+     40          
+     41          /************************************************************************************
+     42          *
+     43          * Pause Routine
+     44          *
+     45          ************************************************************************************/
+     46          void Pause( uint32_t time )
+     47          {
+     48              uint32_t n;
+     49              for( n = 1; n < time; n++ )
+     50              {
+     51                  asm("nop");
+     52              }
+     53          }
+     54          
+     55          ///////////////////////////////////////////////////////////////////////////////////
+     56          ///////////////////////////////////////////////////////////////////////////////////
+     57          //
+     58          //  Begin I2C0 functions
+     59          //
+     60          ///////////////////////////////////////////////////////////////////////////////////
+     61          ///////////////////////////////////////////////////////////////////////////////////
+     62          
+     63          /************************************************************************************
+     64          *
+     65          * Start I2C Transmision
+     66          *
+     67          * Interface assumptions:
+     68          *     SlaveID is the 7 bit Slave Address
+     69          *     unsigned char Mode
+     70          *
+     71          * Return value:
+     72          *     None
+     73          *
+     74          ************************************************************************************/
+     75          void IIC0_StartTransmission( unsigned char SlaveID, unsigned char Mode )
+     76          {
+     77              unsigned char MasterTransmission = 0;
+     78          
+     79          
+     80              /* set transmission mode */
+     81              if( Mode == MWSR )
+     82              {
+     83                  MasterTransmission = MWSR;
+     84              }
+     85              else
+     86              {
+     87                  MasterTransmission = MRSW;
+     88              }
+     89          
+     90              /* shift ID in right possition */
+     91              SlaveID = SlaveID << 1;
+     92          
+     93              /* Set R/W bit at end of Slave Address */
+     94              SlaveID |= (unsigned char)MasterTransmission;
+     95          
+     96              /* send start signal */
+     97              i2c0_Start();
+     98          
+     99              /* send ID with W/R bit */
+    100              i2c0_write_byte( SlaveID );
+    101          }
+    102          
+    103          /************************************************************************************
+    104          *
+    105          * Read transaction
+    106          *
+    107          * Interface assumptions:
+    108          *     u8Command is Command Code
+    109          *
+    110          * Return value:
+    111          *     Data stored in Register
+    112          *
+    113          ************************************************************************************/
+    114          unsigned char I2C0ReadTransaction( unsigned char SlaveAddr, unsigned char u8Command )
+    115          {
+    116              unsigned char result;
+    117          
+    118          
+    119              /* Send Slave Address */
+    120              IIC0_StartTransmission( SlaveAddr, MWSR );
+    121              i2c0_Wait();
+    122          
+    123              /* Write Commnad */
+    124              I2C0_D = u8Command;
+    125              i2c0_Wait();
+    126          
+    127              /* Do a repeated start */
+    128              I2C0_C1 |= I2C_C1_RSTA_MASK;
+    129          
+    130              /* Send Slave Address */
+    131              I2C0_D = (SlaveAddr << 1) | MRSW; //read address
+    132              i2c0_Wait();
+    133          
+    134              /* Put in Rx Mode */
+    135              I2C0_C1 &= (~I2C_C1_TX_MASK);
+    136          
+    137              /* Ensure TXAK bit is 0 */
+    138              I2C0_C1 &= ~I2C_C1_TXAK_MASK;
+    139          
+    140              /* Turn off ACK since this is second to last byte being read*/
+    141              I2C0_C1 |= I2C_C1_TXAK_MASK;
+    142          
+    143              /* Dummy read */
+    144              result = I2C0_D;
+    145              i2c0_Wait();
+    146          
+    147              /* Send stop since about to read last byte */
+    148              i2c0_Stop();
+    149          
+    150              /* Read byte */
+    151              result = I2C0_D;
+    152          
+    153              Pause(50);
+    154          
+    155              return( result );
+    156          }
+    157          
+    158          /************************************************************************************
+    159          *
+    160          * Write transaction
+    161          *
+    162          * Interface assumptions:
+    163          *     u8Command is Command Code
+    164          *     u8Data is Data to write
+    165          *
+    166          * Return value:
+    167          *     None
+    168          *
+    169          ************************************************************************************/
+    170          void I2C0WriteTransaction( unsigned char SlaveAddr, unsigned char u8Command, unsigned char u8Data )
+    171          {
+    172              /* send data to slave */
+    173              IIC0_StartTransmission( SlaveAddr, MWSR );
+    174              i2c0_Wait();
+    175          
+    176              /* Write Command */
+    177              I2C0_D = u8Command;
+    178              i2c0_Wait();
+    179          
+    180              /* Write byte */
+    181              I2C0_D = u8Data;
+    182              i2c0_Wait();
+    183          
+    184              i2c0_Stop();
+    185          
+    186              Pause(50);
+    187          }
+    188          
+    189          /************************************************************************************
+    190          *
+    191          * Read multi byte transaction
+    192          *
+    193          * Interface assumptions:
+    194          *     u8Command is Command Code
+    195          *
+    196          * Return value:
+    197          *     Data stored in Register
+    198          *
+    199          ************************************************************************************/
+    200          void I2C0ReadMultiTransaction( unsigned char SlaveAddr, unsigned char u8Command, unsigned char bytes, unsigned char buf[] )
+    201          {
+    202              unsigned char result;
+    203              int i;
+    204          
+    205          
+    206              /* Send Slave Address */
+    207              IIC0_StartTransmission( SlaveAddr, MWSR );
+    208              i2c0_Wait();
+    209          
+    210              /* Write Command */
+    211              I2C0_D = u8Command;
+    212              i2c0_Wait();
+    213          
+    214              /* Do a repeated start */
+    215              I2C0_C1 |= I2C_C1_RSTA_MASK;
+    216          
+    217              /* Send Slave Address */
+    218              I2C0_D = (SlaveAddr << 1) | MRSW; //read address
+    219              i2c0_Wait();
+    220          
+    221              /* Put in Rx Mode */
+    222              I2C0_C1 &= (~I2C_C1_TX_MASK);
+    223          
+    224              /* Ensure TXAK bit is 0 */
+    225              I2C0_C1 &= ~I2C_C1_TXAK_MASK;
+    226          
+    227              /* Dummy read */
+    228              result = I2C0_D;
+    229              i2c0_Wait();
+    230          
+    231              for( i = 0; i < bytes - 2; i++ )
+    232              {
+    233                  /* Read first byte */
+    234                  buf[i] = I2C0_D;
+    235                  i2c0_Wait();
+    236              }
+    237          
+    238              /* Turn off ACK since this is second to last read*/
+    239              I2C0_C1 |= I2C_C1_TXAK_MASK;
+    240          
+    241              /* Read second byte */
+    242              buf[i++] = I2C0_D;
+    243              i2c0_Wait();
+    244          
+    245              /* Send stop */
+    246              i2c0_Stop();
+    247          
+    248              /* Read third byte */
+    249              buf[i++] = I2C0_D;
+    250          
+    251              Pause(50);
+    252          }
+    253          
+    254          /************************************************************************************
+    255          *
+    256          * Write multi byte transaction
+    257          *
+    258          * Interface assumptions:
+    259          *     u8Command is Command Code
+    260          *     u8Data is Data to write
+    261          *
+    262          * Return value:
+    263          *     None
+    264          *
+    265          ************************************************************************************/
+    266          void I2C0WriteMultiTransaction( unsigned char SlaveAddr, unsigned char u8Command, unsigned char *u8Data, unsigned int length )
+    267          {
+    268              unsigned int i;
+    269          
+    270              /* send data to slave */
+    271              IIC0_StartTransmission( SlaveAddr, MWSR );
+    272              i2c0_Wait();
+    273          
+    274              /* Write Register Address */
+    275              I2C0_D = u8Command;
+    276              i2c0_Wait();
+    277          
+    278              /* Write byte */
+    279              for( i = 0; i < length; i++ )
+    280              {
+    281                  I2C0_D = u8Data[i];
+    282                  i2c0_Wait();
+    283              }
+    284          
+    285              i2c0_Stop();
+    286          
+    287              Pause(50);
+    288          }
+    289          #endif
+
+
+ 
+ 
+ 0 bytes of memory
+
+Errors: none
+Warnings: none

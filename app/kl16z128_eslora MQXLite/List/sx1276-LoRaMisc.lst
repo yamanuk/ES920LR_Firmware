@@ -1,0 +1,758 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:02
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276-LoRaMisc.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW63EB.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276-LoRaMisc.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\sx1276-LoRaMisc.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sx1276-LoRaMisc.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276-LoRaMisc.c
+      1          /*
+      2           * THE FOLLOWING FIRMWARE IS PROVIDED: (1) "AS IS" WITH NO WARRANTY; AND
+      3           * (2)TO ENABLE ACCESS TO CODING INFORMATION TO GUIDE AND FACILITATE CUSTOMER.
+      4           * CONSEQUENTLY, SEMTECH SHALL NOT BE HELD LIABLE FOR ANY DIRECT, INDIRECT OR
+      5           * CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE CONTENT
+      6           * OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING INFORMATION
+      7           * CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+      8           *
+      9           * Copyright (C) SEMTECH S.A.
+     10           */
+     11          /*!
+     12           * \file       sx1276-LoRaMisc.c
+     13           * \brief      SX1276 RF chip high level functions driver
+     14           *
+     15           * \remark     Optional support functions.
+     16           *             These functions are defined only to easy the change of the
+     17           *             parameters.
+     18           *             For a final firmware the radio parameters will be known so
+     19           *             there is no need to support all possible parameters.
+     20           *             Removing these functions will greatly reduce the final firmware
+     21           *             size.
+     22           *
+     23           * \version    2.0.0
+     24           * \date       May 6 2013
+     25           * \author     Gregory Cristian
+     26           *
+     27           * Last modified by Miguel Luis on Jun 19 2013
+     28           */
+     29          
+     30          #include "sx1276-Hal.h"
+     31          #include "sx1276.h"
+     32          #include "sx1276-LoRa.h"
+     33          #include "sx1276-LoRaMisc.h"
+     34          
+     35          /*!
+     36           * SX1276 definitions
+     37           */
+     38          #define XTAL_FREQ   32000000
+     39          #define FREQ_STEP   61.03515625
+     40          
+     41          extern tLoRaSettings LoRaSettings;
+     42          
+     43          void SX1276LoRaSetRFFrequency( uint32_t freq )
+     44          {
+     45              LoRaSettings.RFFrequency = freq;
+     46          
+     47              freq = ( uint32_t )( ( double )freq / ( double )FREQ_STEP );
+     48              SX1276LR->RegFrfMsb = ( uint8_t )( ( freq >> 16 ) & 0xFF );
+     49              SX1276LR->RegFrfMid = ( uint8_t )( ( freq >> 8 ) & 0xFF );
+     50              SX1276LR->RegFrfLsb = ( uint8_t )( freq & 0xFF );
+     51              SX1276WriteBuffer( REG_LR_FRFMSB, &SX1276LR->RegFrfMsb, 3 );
+     52          }
+     53          
+     54          uint32_t SX1276LoRaGetRFFrequency( void )
+     55          {
+     56              SX1276ReadBuffer( REG_LR_FRFMSB, &SX1276LR->RegFrfMsb, 3 );
+     57              LoRaSettings.RFFrequency = ( ( uint32_t )SX1276LR->RegFrfMsb << 16 ) | ( ( uint32_t )SX1276LR->RegFrfMid << 8 ) | ( ( uint32_t )SX1276LR->RegFrfLsb );
+     58              LoRaSettings.RFFrequency = ( uint32_t )( ( double )LoRaSettings.RFFrequency * ( double )FREQ_STEP );
+     59          
+     60              return LoRaSettings.RFFrequency;
+     61          }
+     62          
+     63          void SX1276LoRaSetRFPower( int8_t power )
+     64          {
+     65              uint8_t setval = 0;
+     66          
+     67              SX1276Read( REG_LR_PACONFIG, &SX1276LR->RegPaConfig );
+     68              SX1276Read( REG_LR_PADAC, &SX1276LR->RegPaDac );
+     69          
+     70              if( ( SX1276LR->RegPaConfig & RFLR_PACONFIG_PASELECT_PABOOST ) == RFLR_PACONFIG_PASELECT_PABOOST )
+     71              {
+     72                  if( ( SX1276LR->RegPaDac & 0x87 ) == 0x87 )
+     73                  {
+     74                      if( power < 5 )
+     75                      {
+     76                          power = 5;
+     77                      }
+     78                      if( power > 20 )
+     79                      {
+     80                          power = 20;
+     81                      }
+     82                      SX1276LR->RegPaConfig = ( SX1276LR->RegPaConfig & RFLR_PACONFIG_MAX_POWER_MASK ) | 0x70;
+     83                      SX1276LR->RegPaConfig = ( SX1276LR->RegPaConfig & RFLR_PACONFIG_OUTPUTPOWER_MASK ) | ( uint8_t )( ( uint16_t )( power - 5 ) & 0x0F );
+     84                  }
+     85                  else
+     86                  {
+     87                      if( power < 2 )
+     88                      {
+     89                          power = 2;
+     90                      }
+     91                      if( power > 17 )
+     92                      {
+     93                          power = 17;
+     94                      }
+     95                      SX1276LR->RegPaConfig = ( SX1276LR->RegPaConfig & RFLR_PACONFIG_MAX_POWER_MASK ) | 0x70;
+     96                      SX1276LR->RegPaConfig = ( SX1276LR->RegPaConfig & RFLR_PACONFIG_OUTPUTPOWER_MASK ) | ( uint8_t )( ( uint16_t )( power - 2 ) & 0x0F );
+     97                  }
+     98              }
+     99              else
+    100              {
+    101                  if( power < -4 )
+    102                  {
+    103                      power = -4;
+    104                  }
+    105                  if( power > 13 )
+    106                  {
+    107                      power = 13;
+    108                  }
+    109                  switch( power )
+    110                  {
+    111                  case -4:
+    112                      setval = 0x21;
+    113                      break;
+    114                  case -3:
+    115                      setval = 0x22;
+    116                      break;
+    117                  case -2:
+    118                      setval = 0x23;
+    119                      break;
+    120                  case -1:
+    121                      setval = 0x24;
+    122                      break;
+    123                  case 0:
+    124                      setval = 0x25;
+    125                      break;
+    126                  case 1:
+    127                      setval = 0x26;
+    128                      break;
+    129                  case 2:
+    130                      setval = 0x27;
+    131                      break;
+    132                  case 3:
+    133                      setval = 0x28;
+    134                      break;
+    135                  case 4:
+    136                      setval = 0x29;
+    137                      break;
+    138                  case 5:
+    139                      setval = 0x2A;
+    140                      break;
+    141                  case 6:
+    142                      setval = 0x2B;
+    143                      break;
+    144                  case 7:
+    145                      setval = 0x2C;
+    146                      break;
+    147                  case 8:
+    148                      setval = 0x2D;
+    149                      break;
+    150                  case 9:
+    151                      setval = 0x2E;
+    152                      break;
+    153                  case 10:
+    154                      setval = 0x2F;
+    155                      break;
+    156                  case 11:
+    157                      setval = 0x7D;
+    158                      break;
+    159                  case 12:
+    160                      setval = 0x7E;
+    161                      break;
+    162                  case 13:
+    163                      setval = 0x7F;
+    164                      break;
+    165                  default:
+    166                      break;
+    167                  }
+    168                  SX1276LR->RegPaConfig = setval;
+    169              }
+    170              SX1276Write( REG_LR_PACONFIG, SX1276LR->RegPaConfig );
+    171              LoRaSettings.Power = power;
+    172          }
+    173          
+    174          int8_t SX1276LoRaGetRFPower( void )
+    175          {
+    176              SX1276Read( REG_LR_PACONFIG, &SX1276LR->RegPaConfig );
+    177              SX1276Read( REG_LR_PADAC, &SX1276LR->RegPaDac );
+    178          
+    179              if( ( SX1276LR->RegPaConfig & RFLR_PACONFIG_PASELECT_PABOOST ) == RFLR_PACONFIG_PASELECT_PABOOST )
+    180              {
+    181                  if( ( SX1276LR->RegPaDac & 0x07 ) == 0x07 )
+    182                  {
+    183                      LoRaSettings.Power = 5 + ( SX1276LR->RegPaConfig & ~RFLR_PACONFIG_OUTPUTPOWER_MASK );
+    184                  }
+    185                  else
+    186                  {
+    187                      LoRaSettings.Power = 2 + ( SX1276LR->RegPaConfig & ~RFLR_PACONFIG_OUTPUTPOWER_MASK );
+    188                  }
+    189              }
+    190              else
+    191              {
+    192                  LoRaSettings.Power = (int8_t)((10.8 + 0.6 * ((SX1276LR->RegPaConfig & 0x70) >> 4)) - (15 - (SX1276LR->RegPaConfig & 0x0F)));
+    193                  LoRaSettings.Power -= 2;
+    194              }
+    195              return LoRaSettings.Power;
+    196          }
+    197          
+    198          void SX1276LoRaSetSignalBandwidth( uint8_t bw )
+    199          {
+    200              SX1276Read( REG_LR_MODEMCONFIG1, &SX1276LR->RegModemConfig1 );
+    201              SX1276LR->RegModemConfig1 = ( SX1276LR->RegModemConfig1 & RFLR_MODEMCONFIG1_BW_MASK ) | ( bw << 4 );
+    202              SX1276Write( REG_LR_MODEMCONFIG1, SX1276LR->RegModemConfig1 );
+    203              LoRaSettings.SignalBw = bw;
+    204          
+    205              // ERRATA 2.1 - Sensitivity Optimization with a 500 kHz Bandwidth
+    206              if(9 == bw)
+    207              {
+    208                  SX1276Write( 0x36, 0x02 );
+    209                  SX1276Write( 0x3A, 0x64 );
+    210              }
+    211              else
+    212              {
+    213                  SX1276Write( 0x36, 0x03 );
+    214              }
+    215          }
+    216          
+    217          uint8_t SX1276LoRaGetSignalBandwidth( void )
+    218          {
+    219              SX1276Read( REG_LR_MODEMCONFIG1, &SX1276LR->RegModemConfig1 );
+    220              LoRaSettings.SignalBw = ( SX1276LR->RegModemConfig1 & ~RFLR_MODEMCONFIG1_BW_MASK ) >> 4;
+    221              return LoRaSettings.SignalBw;
+    222          }
+    223          
+    224          void SX1276LoRaSetSpreadingFactor( uint8_t factor )
+    225          {
+    226              if( factor > 12 )
+    227              {
+    228                  factor = 12;
+    229              }
+    230              else if( factor < 6 )
+    231              {
+    232                  factor = 6;
+    233              }
+    234          
+    235              if( factor == 6 )
+    236              {
+    237                  SX1276LoRaSetNbTrigPeaks( 5 );
+    238              }
+    239              else
+    240              {
+    241                  SX1276LoRaSetNbTrigPeaks( 3 );
+    242              }
+    243          
+    244              SX1276Read( REG_LR_MODEMCONFIG2, &SX1276LR->RegModemConfig2 );
+    245              SX1276LR->RegModemConfig2 = ( SX1276LR->RegModemConfig2 & RFLR_MODEMCONFIG2_SF_MASK ) | ( factor << 4 );
+    246              SX1276Write( REG_LR_MODEMCONFIG2, SX1276LR->RegModemConfig2 );
+    247              LoRaSettings.SpreadingFactor = factor;
+    248          }
+    249          
+    250          uint8_t SX1276LoRaGetSpreadingFactor( void )
+    251          {
+    252              SX1276Read( REG_LR_MODEMCONFIG2, &SX1276LR->RegModemConfig2 );
+    253              LoRaSettings.SpreadingFactor = ( SX1276LR->RegModemConfig2 & ~RFLR_MODEMCONFIG2_SF_MASK ) >> 4;
+    254              return LoRaSettings.SpreadingFactor;
+    255          }
+    256          
+    257          void SX1276LoRaSetErrorCoding( uint8_t value )
+    258          {
+    259              SX1276Read( REG_LR_MODEMCONFIG1, &SX1276LR->RegModemConfig1 );
+    260              SX1276LR->RegModemConfig1 = ( SX1276LR->RegModemConfig1 & RFLR_MODEMCONFIG1_CODINGRATE_MASK ) | ( value << 1 );
+    261              SX1276Write( REG_LR_MODEMCONFIG1, SX1276LR->RegModemConfig1 );
+    262              LoRaSettings.ErrorCoding = value;
+    263          }
+    264          
+    265          uint8_t SX1276LoRaGetErrorCoding( void )
+    266          {
+    267              SX1276Read( REG_LR_MODEMCONFIG1, &SX1276LR->RegModemConfig1 );
+    268              LoRaSettings.ErrorCoding = ( SX1276LR->RegModemConfig1 & ~RFLR_MODEMCONFIG1_CODINGRATE_MASK ) >> 1;
+    269              return LoRaSettings.ErrorCoding;
+    270          }
+    271          
+    272          void SX1276LoRaSetPacketCrcOn( bool enable )
+    273          {
+    274              SX1276Read( REG_LR_MODEMCONFIG2, &SX1276LR->RegModemConfig2 );
+    275              SX1276LR->RegModemConfig2 = ( SX1276LR->RegModemConfig2 & RFLR_MODEMCONFIG2_RXPAYLOADCRC_MASK ) | ( enable << 2 );
+    276              SX1276Write( REG_LR_MODEMCONFIG2, SX1276LR->RegModemConfig2 );
+    277              LoRaSettings.CrcOn = enable;
+    278          }
+    279          
+    280          void SX1276LoRaSetContinuous( uint8_t enable )
+    281          {
+    282              SX1276Read( REG_LR_MODEMCONFIG2, &SX1276LR->RegModemConfig2 );
+    283              SX1276LR->RegModemConfig2 = ( SX1276LR->RegModemConfig2 & RFLR_MODEMCONFIG2_TXCONTINUOUSMODE_MASK ) | ( enable << 3 );
+    284              SX1276Write( REG_LR_MODEMCONFIG2, SX1276LR->RegModemConfig2 );
+    285          }
+    286          
+    287          void SX1276LoRaSetPreambleLength( uint16_t value )
+    288          {
+    289              SX1276ReadBuffer( REG_LR_PREAMBLEMSB, &SX1276LR->RegPreambleMsb, 2 );
+    290              SX1276LR->RegPreambleMsb = ( value >> 8 ) & 0x00FF;
+    291              SX1276LR->RegPreambleLsb = value & 0xFF;
+    292              SX1276WriteBuffer( REG_LR_PREAMBLEMSB, &SX1276LR->RegPreambleMsb, 2 );
+    293          }
+    294          
+    295          uint16_t SX1276LoRaGetPreambleLength( void )
+    296          {
+    297              SX1276ReadBuffer( REG_LR_PREAMBLEMSB, &SX1276LR->RegPreambleMsb, 2 );
+    298              return ( ( SX1276LR->RegPreambleMsb & 0x00FF ) << 8 ) | SX1276LR->RegPreambleLsb;
+    299          }
+    300          
+    301          bool SX1276LoRaGetPacketCrcOn( void )
+    302          {
+    303              SX1276Read( REG_LR_MODEMCONFIG2, &SX1276LR->RegModemConfig2 );
+    304              LoRaSettings.CrcOn = ( SX1276LR->RegModemConfig2 & RFLR_MODEMCONFIG2_RXPAYLOADCRC_ON ) >> 1;
+    305              return LoRaSettings.CrcOn;
+    306          }
+    307          
+    308          void SX1276LoRaSetImplicitHeaderOn( bool enable )
+    309          {
+    310              SX1276Read( REG_LR_MODEMCONFIG1, &SX1276LR->RegModemConfig1 );
+    311              SX1276LR->RegModemConfig1 = ( SX1276LR->RegModemConfig1 & RFLR_MODEMCONFIG1_IMPLICITHEADER_MASK ) | ( enable );
+    312              SX1276Write( REG_LR_MODEMCONFIG1, SX1276LR->RegModemConfig1 );
+    313              LoRaSettings.ImplicitHeaderOn = enable;
+    314          }
+    315          
+    316          bool SX1276LoRaGetImplicitHeaderOn( void )
+    317          {
+    318              SX1276Read( REG_LR_MODEMCONFIG1, &SX1276LR->RegModemConfig1 );
+    319              LoRaSettings.ImplicitHeaderOn = ( SX1276LR->RegModemConfig1 & RFLR_MODEMCONFIG1_IMPLICITHEADER_ON );
+    320              return LoRaSettings.ImplicitHeaderOn;
+    321          }
+    322          
+    323          void SX1276LoRaSetRxSingleOn( bool enable )
+    324          {
+    325              LoRaSettings.RxSingleOn = enable;
+    326          }
+    327          
+    328          bool SX1276LoRaGetRxSingleOn( void )
+    329          {
+    330              return LoRaSettings.RxSingleOn;
+    331          }
+    332          
+    333          void SX1276LoRaSetFreqHopOn( bool enable )
+    334          {
+    335              LoRaSettings.FreqHopOn = enable;
+    336          }
+    337          
+    338          bool SX1276LoRaGetFreqHopOn( void )
+    339          {
+    340              return LoRaSettings.FreqHopOn;
+    341          }
+    342          
+    343          void SX1276LoRaSetHopPeriod( uint8_t value )
+    344          {
+    345              SX1276LR->RegHopPeriod = value;
+    346              SX1276Write( REG_LR_HOPPERIOD, SX1276LR->RegHopPeriod );
+    347              LoRaSettings.HopPeriod = value;
+    348          }
+    349          
+    350          uint8_t SX1276LoRaGetHopPeriod( void )
+    351          {
+    352              SX1276Read( REG_LR_HOPPERIOD, &SX1276LR->RegHopPeriod );
+    353              LoRaSettings.HopPeriod = SX1276LR->RegHopPeriod;
+    354              return LoRaSettings.HopPeriod;
+    355          }
+    356          
+    357          void SX1276LoRaSetTxPacketTimeout( uint32_t value )
+    358          {
+    359              LoRaSettings.TxPacketTimeout = value;
+    360          }
+    361          
+    362          uint32_t SX1276LoRaGetTxPacketTimeout( void )
+    363          {
+    364              return LoRaSettings.TxPacketTimeout;
+    365          }
+    366          
+    367          void SX1276LoRaSetRxPacketTimeout( uint32_t value )
+    368          {
+    369              LoRaSettings.RxPacketTimeout = value;
+    370          }
+    371          
+    372          uint32_t SX1276LoRaGetRxPacketTimeout( void )
+    373          {
+    374              return LoRaSettings.RxPacketTimeout;
+    375          }
+    376          
+    377          void SX1276LoRaSetPayloadLength( uint8_t value )
+    378          {
+    379              SX1276LR->RegPayloadLength = value;
+    380              SX1276Write( REG_LR_PAYLOADLENGTH, SX1276LR->RegPayloadLength );
+    381              LoRaSettings.PayloadLength = value;
+    382          }
+    383          
+    384          uint8_t SX1276LoRaGetPayloadLength( void )
+    385          {
+    386              SX1276Read( REG_LR_PAYLOADLENGTH, &SX1276LR->RegPayloadLength );
+    387              LoRaSettings.PayloadLength = SX1276LR->RegPayloadLength;
+    388              return LoRaSettings.PayloadLength;
+    389          }
+    390          
+    391          void SX1276LoRaSetPa20dBm( bool enale )
+    392          {
+    393              SX1276Read( REG_LR_PADAC, &SX1276LR->RegPaDac );
+    394              SX1276Read( REG_LR_PACONFIG, &SX1276LR->RegPaConfig );
+    395          
+    396              if( ( SX1276LR->RegPaConfig & RFLR_PACONFIG_PASELECT_PABOOST ) == RFLR_PACONFIG_PASELECT_PABOOST )
+    397              {
+    398                  if( enale == true )
+    399                  {
+    400                      SX1276LR->RegPaDac = 0x87;
+    401                  }
+    402              }
+    403              else
+    404              {
+    405                  SX1276LR->RegPaDac = 0x84;
+    406              }
+    407              SX1276Write( REG_LR_PADAC, SX1276LR->RegPaDac );
+    408          }
+    409          
+    410          bool SX1276LoRaGetPa20dBm( void )
+    411          {
+    412              SX1276Read( REG_LR_PADAC, &SX1276LR->RegPaDac );
+    413          
+    414              return ( ( SX1276LR->RegPaDac & 0x07 ) == 0x07 ) ? true : false;
+    415          }
+    416          
+    417          void SX1276LoRaSetPAOutput( uint8_t outputPin )
+    418          {
+    419              SX1276Read( REG_LR_PACONFIG, &SX1276LR->RegPaConfig );
+    420              SX1276LR->RegPaConfig = (SX1276LR->RegPaConfig & RFLR_PACONFIG_PASELECT_MASK ) | outputPin;
+    421              SX1276Write( REG_LR_PACONFIG, SX1276LR->RegPaConfig );
+    422          }
+    423          
+    424          uint8_t SX1276LoRaGetPAOutput( void )
+    425          {
+    426              SX1276Read( REG_LR_PACONFIG, &SX1276LR->RegPaConfig );
+    427              return SX1276LR->RegPaConfig & ~RFLR_PACONFIG_PASELECT_MASK;
+    428          }
+    429          
+    430          void SX1276LoRaSetPaRamp( uint8_t value )
+    431          {
+    432              SX1276Read( REG_LR_PARAMP, &SX1276LR->RegPaRamp );
+    433              SX1276LR->RegPaRamp = ( SX1276LR->RegPaRamp & RFLR_PARAMP_MASK ) | ( value & ~RFLR_PARAMP_MASK );
+    434              SX1276Write( REG_LR_PARAMP, SX1276LR->RegPaRamp );
+    435          }
+    436          
+    437          uint8_t SX1276LoRaGetPaRamp( void )
+    438          {
+    439              SX1276Read( REG_LR_PARAMP, &SX1276LR->RegPaRamp );
+    440              return SX1276LR->RegPaRamp & ~RFLR_PARAMP_MASK;
+    441          }
+    442          
+    443          void SX1276LoRaSetSymbTimeout( uint16_t value )
+    444          {
+    445              SX1276ReadBuffer( REG_LR_MODEMCONFIG2, &SX1276LR->RegModemConfig2, 2 );
+    446              SX1276LR->RegModemConfig2 = ( SX1276LR->RegModemConfig2 & RFLR_MODEMCONFIG2_SYMBTIMEOUTMSB_MASK ) | ( ( value >> 8 ) & ~RFLR_MODEMCONFIG2_SYMBTIMEOUTMSB_MASK );
+    447              SX1276LR->RegSymbTimeoutLsb = value & 0xFF;
+    448              SX1276WriteBuffer( REG_LR_MODEMCONFIG2, &SX1276LR->RegModemConfig2, 2 );
+    449          }
+    450          
+    451          uint16_t SX1276LoRaGetSymbTimeout( void )
+    452          {
+    453              SX1276ReadBuffer( REG_LR_MODEMCONFIG2, &SX1276LR->RegModemConfig2, 2 );
+    454              return ( ( SX1276LR->RegModemConfig2 & ~RFLR_MODEMCONFIG2_SYMBTIMEOUTMSB_MASK ) << 8 ) | SX1276LR->RegSymbTimeoutLsb;
+    455          }
+    456          
+    457          void SX1276LoRaSetLowDatarateOptimize( bool enable )
+    458          {
+    459              SX1276Read( REG_LR_MODEMCONFIG3, &SX1276LR->RegModemConfig3 );
+    460              SX1276LR->RegModemConfig3 = ( SX1276LR->RegModemConfig3 & RFLR_MODEMCONFIG3_LOWDATARATEOPTIMIZE_MASK ) | ( enable << 3 );
+    461              SX1276Write( REG_LR_MODEMCONFIG3, SX1276LR->RegModemConfig3 );
+    462          }
+    463          
+    464          bool SX1276LoRaGetLowDatarateOptimize( void )
+    465          {
+    466              SX1276Read( REG_LR_MODEMCONFIG3, &SX1276LR->RegModemConfig3 );
+    467              return ( ( SX1276LR->RegModemConfig3 & RFLR_MODEMCONFIG3_LOWDATARATEOPTIMIZE_ON ) >> 3 );
+    468          }
+    469          
+    470          void SX1276LoRaSetNbTrigPeaks( uint8_t value )
+    471          {
+    472              SX1276Read( REG_LR_LORADETECTOPTIMIZE, &SX1276LR->RegDetectOptimize );
+    473              SX1276LR->RegDetectOptimize = ( SX1276LR->RegDetectOptimize & 0xF8 ) | value;
+    474              SX1276Write( REG_LR_LORADETECTOPTIMIZE, SX1276LR->RegDetectOptimize );
+    475          }
+    476          
+    477          uint8_t SX1276LoRaGetNbTrigPeaks( void )
+    478          {
+    479              SX1276Read( REG_LR_LORADETECTOPTIMIZE, &SX1276LR->RegDetectOptimize );
+    480              return ( SX1276LR->RegDetectOptimize & 0x07 );
+    481          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   SX1276LoRaGetErrorCoding
+         8   -> SX1276Read
+       0   SX1276LoRaGetFreqHopOn
+       8   SX1276LoRaGetHopPeriod
+         8   -> SX1276Read
+       8   SX1276LoRaGetImplicitHeaderOn
+         8   -> SX1276Read
+       8   SX1276LoRaGetLowDatarateOptimize
+         8   -> SX1276Read
+       8   SX1276LoRaGetNbTrigPeaks
+         8   -> SX1276Read
+       8   SX1276LoRaGetPAOutput
+         8   -> SX1276Read
+       8   SX1276LoRaGetPa20dBm
+         8   -> SX1276Read
+       8   SX1276LoRaGetPaRamp
+         8   -> SX1276Read
+       8   SX1276LoRaGetPacketCrcOn
+         8   -> SX1276Read
+       8   SX1276LoRaGetPayloadLength
+         8   -> SX1276Read
+       8   SX1276LoRaGetPreambleLength
+         8   -> SX1276ReadBuffer
+      16   SX1276LoRaGetRFFrequency
+        16   -> SX1276ReadBuffer
+        16   -> __aeabi_d2uiz
+        16   -> __aeabi_dmul
+        16   -> __aeabi_ui2d
+      24   SX1276LoRaGetRFPower
+        24   -> SX1276Read
+        24   -> __aeabi_d2iz
+        24   -> __aeabi_dadd
+        24   -> __aeabi_dmul
+        24   -> __aeabi_dsub
+        24   -> __aeabi_i2d
+       0   SX1276LoRaGetRxPacketTimeout
+       0   SX1276LoRaGetRxSingleOn
+       8   SX1276LoRaGetSignalBandwidth
+         8   -> SX1276Read
+       8   SX1276LoRaGetSpreadingFactor
+         8   -> SX1276Read
+       8   SX1276LoRaGetSymbTimeout
+         8   -> SX1276ReadBuffer
+       0   SX1276LoRaGetTxPacketTimeout
+      16   SX1276LoRaSetContinuous
+        16   -> SX1276Read
+        16   -> SX1276Write
+      16   SX1276LoRaSetErrorCoding
+        16   -> SX1276Read
+        16   -> SX1276Write
+       0   SX1276LoRaSetFreqHopOn
+       8   SX1276LoRaSetHopPeriod
+         8   -> SX1276Write
+      16   SX1276LoRaSetImplicitHeaderOn
+        16   -> SX1276Read
+        16   -> SX1276Write
+      16   SX1276LoRaSetLowDatarateOptimize
+        16   -> SX1276Read
+        16   -> SX1276Write
+      16   SX1276LoRaSetNbTrigPeaks
+        16   -> SX1276Read
+        16   -> SX1276Write
+      16   SX1276LoRaSetPAOutput
+        16   -> SX1276Read
+        16   -> SX1276Write
+      16   SX1276LoRaSetPa20dBm
+        16   -> SX1276Read
+        16   -> SX1276Write
+      16   SX1276LoRaSetPaRamp
+        16   -> SX1276Read
+        16   -> SX1276Write
+      16   SX1276LoRaSetPacketCrcOn
+        16   -> SX1276Read
+        16   -> SX1276Write
+       8   SX1276LoRaSetPayloadLength
+         8   -> SX1276Write
+      16   SX1276LoRaSetPreambleLength
+        16   -> SX1276ReadBuffer
+        16   -> SX1276WriteBuffer
+       8   SX1276LoRaSetRFFrequency
+         8   -> SX1276WriteBuffer
+         8   -> __aeabi_d2uiz
+         8   -> __aeabi_ddiv
+         8   -> __aeabi_ui2d
+      16   SX1276LoRaSetRFPower
+        16   -> SX1276Read
+        16   -> SX1276Write
+       0   SX1276LoRaSetRxPacketTimeout
+       0   SX1276LoRaSetRxSingleOn
+      16   SX1276LoRaSetSignalBandwidth
+        16   -> SX1276Read
+        16   -> SX1276Write
+      16   SX1276LoRaSetSpreadingFactor
+        16   -> SX1276LoRaSetNbTrigPeaks
+        16   -> SX1276Read
+        16   -> SX1276Write
+      16   SX1276LoRaSetSymbTimeout
+        16   -> SX1276ReadBuffer
+        16   -> SX1276WriteBuffer
+       0   SX1276LoRaSetTxPacketTimeout
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       8  ??DataTable18
+       8  ??DataTable19
+       4  ??DataTable21
+       4  ??DataTable28
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_2
+       4  ??DataTable40
+      36  SX1276LoRaGetErrorCoding
+       6  SX1276LoRaGetFreqHopOn
+      30  SX1276LoRaGetHopPeriod
+      34  SX1276LoRaGetImplicitHeaderOn
+      36  SX1276LoRaGetLowDatarateOptimize
+      28  SX1276LoRaGetNbTrigPeaks
+      26  SX1276LoRaGetPAOutput
+      40  SX1276LoRaGetPa20dBm
+      26  SX1276LoRaGetPaRamp
+      36  SX1276LoRaGetPacketCrcOn
+      30  SX1276LoRaGetPayloadLength
+      38  SX1276LoRaGetPreambleLength
+      64  SX1276LoRaGetRFFrequency
+     168  SX1276LoRaGetRFPower
+       6  SX1276LoRaGetRxPacketTimeout
+       6  SX1276LoRaGetRxSingleOn
+      32  SX1276LoRaGetSignalBandwidth
+      32  SX1276LoRaGetSpreadingFactor
+      40  SX1276LoRaGetSymbTimeout
+       6  SX1276LoRaGetTxPacketTimeout
+      46  SX1276LoRaSetContinuous
+      50  SX1276LoRaSetErrorCoding
+       6  SX1276LoRaSetFreqHopOn
+      30  SX1276LoRaSetHopPeriod
+      48  SX1276LoRaSetImplicitHeaderOn
+      52  SX1276LoRaSetLowDatarateOptimize
+      50  SX1276LoRaSetNbTrigPeaks
+      44  SX1276LoRaSetPAOutput
+      78  SX1276LoRaSetPa20dBm
+      48  SX1276LoRaSetPaRamp
+      50  SX1276LoRaSetPacketCrcOn
+      30  SX1276LoRaSetPayloadLength
+      56  SX1276LoRaSetPreambleLength
+      60  SX1276LoRaSetRFFrequency
+     410  SX1276LoRaSetRFPower
+       6  SX1276LoRaSetRxPacketTimeout
+       6  SX1276LoRaSetRxSingleOn
+      84  SX1276LoRaSetSignalBandwidth
+      98  SX1276LoRaSetSpreadingFactor
+      66  SX1276LoRaSetSymbTimeout
+       6  SX1276LoRaSetTxPacketTimeout
+
+ 
+ 2'084 bytes in section .text
+ 
+ 2'084 bytes of CODE memory
+
+Errors: none
+Warnings: none

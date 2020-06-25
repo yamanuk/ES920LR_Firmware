@@ -1,0 +1,495 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:58
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\psp\cortex_m\cortex.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW50CF.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\psp\cortex_m\cortex.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\cortex.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\cortex.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\psp\cortex_m\cortex.c
+      1          /**HEADER********************************************************************
+      2          *
+      3          * Copyright (c) 2010 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          ***************************************************************************
+      7          *
+      8          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+      9          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     10          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     11          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     12          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     13          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     14          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     15          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     16          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     17          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     18          * THE POSSIBILITY OF SUCH DAMAGE.
+     19          *
+     20          **************************************************************************
+     21          *
+     22          * $FileName: cortex.c$
+     23          * $Version : 3.8.11.2$
+     24          * $Date    : Feb-22-2012$
+     25          *
+     26          * Comments:
+     27          *
+     28          *   This file contains the type definitions for the ARM Cortex processors.
+     29          *
+     30          *END************************************************************************/
+     31          
+     32          #include "mqx_inc.h"
+     33          #include "cortex.h"
+     34          
+     35          #if MQX_ENABLE_USER_MODE
+     36          #include "lwevent.h"
+     37          
+     38          #if MQX_USE_LWEVENTS
+     39          #include "lwevent_prv.h"
+     40          #endif /* MQX_USE_LWEVENTS */
+     41          
+     42          #if MQX_USE_LWMSGQ
+     43          #include "lwmsgq.h"
+     44          #include "lwmsgq_prv.h"
+     45          #endif
+     46          
+     47          #if MQX_USE_LWMEM
+     48          #include "lwmem.h"
+     49          #endif
+     50          
+     51          #endif /* MQX_ENABLE_USER_MODE */
+     52          
+     53          #if !MQX_USE_IDLE_TASK
+     54          #error "MQX for ARM Cortex M requires to enable MQX_USE_IDLE_TASK"
+     55          #endif
+     56          
+     57          /*FUNCTION*-----------------------------------------------------------------
+     58          *
+     59          * Function Name   : _cortex_int_init
+     60          * Returned Value  : uint_32
+     61          *       MQX_OK or error code
+     62          * Comments        :
+     63          *  	Initialize a specific interrupt in the cortex core nvic
+     64          *
+     65          *END*---------------------------------------------------------------------*/
+     66          
+     67          uint_32 _cortex_int_init
+     68             (
+     69                // [IN} Interrupt number
+     70                _mqx_uint     irq,
+     71          
+     72                // [IN} Interrupt priority
+     73                _int_priority prior,
+     74          
+     75                // [IN] enable the interrupt now?
+     76                boolean       enable
+     77             )
+     78          {
+     79          	VCORTEX_NVIC_STRUCT_PTR nvic = (VCORTEX_NVIC_STRUCT_PTR)&(((CORTEX_SCS_STRUCT_PTR)CORTEX_PRI_PERIPH_IN_BASE)->NVIC);
+     80              uint_32 ext_irq_no = irq - 16;
+     81          
+     82          	if (irq >= PSP_INT_FIRST_INTERNAL && irq <= PSP_INT_LAST_INTERNAL) {
+     83          		nvic->PRIORITY[ext_irq_no >> 2] = (nvic->PRIORITY[ext_irq_no >> 2] & ~(0xff << ((ext_irq_no & 3) * 8))) | (((prior << CORTEX_PRIOR_SHIFT) & CORTEX_PRIOR_MASK) << ((ext_irq_no & 3) * 8));
+     84          
+     85          		if (enable)
+     86          			_cortex_int_enable(irq);
+     87          		else
+     88          			_cortex_int_disable(irq);
+     89          
+     90              }
+     91              else
+     92                  return MQX_INVALID_PARAMETER;
+     93          
+     94              return MQX_OK;
+     95          }
+     96          
+     97          /*FUNCTION*-----------------------------------------------------------------
+     98          *
+     99          * Function Name   : _cortex_int_enable
+    100          * Returned Value  : uint_32
+    101          *       MQX_OK or error code
+    102          * Comments        :
+    103          * 	Enable interrupt on cortex core NVIC
+    104          *
+    105          *END*---------------------------------------------------------------------*/
+    106          uint_32 _cortex_int_enable
+    107             (
+    108                // [IN] Interrupt number
+    109                _mqx_uint  irq
+    110             )
+    111          {
+    112              VCORTEX_NVIC_STRUCT_PTR nvic = (VCORTEX_NVIC_STRUCT_PTR)&(((CORTEX_SCS_STRUCT_PTR)CORTEX_PRI_PERIPH_IN_BASE)->NVIC);
+    113              uint_32 ext_irq_no = irq - 16;
+    114          
+    115              if (ext_irq_no >= PSP_INT_FIRST_INTERNAL && ext_irq_no <= PSP_INT_LAST_INTERNAL) {
+    116                  nvic->ENABLE[ext_irq_no >> 5] = 1 << (ext_irq_no & 0x1f);
+    117              }
+    118              else
+    119                  return MQX_INVALID_PARAMETER;
+    120          
+    121              return MQX_OK;
+    122          }
+    123          
+    124          /*FUNCTION*-----------------------------------------------------------------
+    125          *
+    126          * Function Name   : _cortex_int_disable
+    127          * Returned Value  : uint_32
+    128          *       MQX_OK or error code
+    129          * Comments        :
+    130          * 	Disable interrupt on cortex core NVIC
+    131          *
+    132          *END*---------------------------------------------------------------------*/
+    133          
+    134          uint_32 _cortex_int_disable
+    135             (
+    136                // [IN] Interrupt number
+    137                _mqx_uint  irq
+    138             )
+    139          {
+    140              VCORTEX_NVIC_STRUCT_PTR nvic = (VCORTEX_NVIC_STRUCT_PTR)&(((CORTEX_SCS_STRUCT_PTR)CORTEX_PRI_PERIPH_IN_BASE)->NVIC);
+    141              uint_32 ext_irq_no = irq - 16;
+    142          
+    143              if (ext_irq_no >= PSP_INT_FIRST_INTERNAL && ext_irq_no <= PSP_INT_LAST_INTERNAL) {
+    144                  nvic->DISABLE[ext_irq_no >> 5] = 1 << (ext_irq_no & 0x1f);
+    145              }
+    146              else
+    147                  return MQX_INVALID_PARAMETER;
+    148          
+    149              return MQX_OK;
+    150          }
+    151          
+    152          
+    153          #if MQX_ENABLE_USER_MODE
+    154          
+    155          /*FUNCTION*-----------------------------------------------------------------
+    156          *
+    157          * Function Name     : _mqx_api_call_handler
+    158          * Returned Value    : uint_32
+    159          *       return returned value of called function
+    160          * Comments          :
+    161          * 	MQX API handler for usermode - part of wrapper around standard
+    162          * MQX API which require privilege mode.
+    163          *
+    164          *END*---------------------------------------------------------------------*/
+    165          
+    166          uint_32 _mqx_api_call_handler
+    167              (
+    168                  // [IN] API number - number of wrapped function
+    169                  MQX_API_NUMBER_ENUM api_no,
+    170                  // [IN] generic parameter - direct use with called MQX API fn
+    171                  MQX_API_CALL_PARAMS_PTR params
+    172              )
+    173          {
+    174              uint_32 res = -1;
+    175              uint_32 param0 = params->param0;
+    176              uint_32 param1 = params->param1;
+    177              uint_32 param2 = params->param2;
+    178              uint_32 param3 = params->param3;
+    179              uint_32 param4 = params->param4;
+    180          
+    181              switch (api_no) {
+    182          
+    183              // _lwsem
+    184              case MQX_API_LWSEM_POLL:
+    185                  if (MQX_OK == _lwsem_usr_check((LWSEM_STRUCT_PTR)param0))
+    186                      res = _lwsem_poll((LWSEM_STRUCT_PTR)param0);
+    187                  break;
+    188              case MQX_API_LWSEM_POST:
+    189                  if (MQX_OK == _lwsem_usr_check((LWSEM_STRUCT_PTR)param0))
+    190                      res = _lwsem_post((LWSEM_STRUCT_PTR)param0);
+    191                  break;
+    192              case MQX_API_LWSEM_WAIT:
+    193                  if (MQX_OK == _lwsem_usr_check((LWSEM_STRUCT_PTR)param0))
+    194                      res = _lwsem_wait((LWSEM_STRUCT_PTR)param0);
+    195                  break;
+    196              case MQX_API_LWSEM_CREATE:
+    197                  res = _lwsem_create_internal((LWSEM_STRUCT_PTR)param0, (_mqx_int)param1, (boolean)param2, TRUE);
+    198                  break;
+    199          #if MQX_HAS_TICK
+    200              case MQX_API_LWSEM_WAIT_FOR:
+    201                  if (MQX_OK == _lwsem_usr_check((LWSEM_STRUCT_PTR)param0) && (!param1 || _psp_mem_check_access(param1, sizeof(MQX_TICK_STRUCT), MPU_UM_RW)))
+    202                      res = _lwsem_wait_for((LWSEM_STRUCT_PTR)param0, (MQX_TICK_STRUCT_PTR)param1);
+    203                  break;
+    204              case MQX_API_LWSEM_WAIT_TICKS:
+    205                  if (MQX_OK == _lwsem_usr_check((LWSEM_STRUCT_PTR)param0))
+    206                      res = _lwsem_wait_ticks((LWSEM_STRUCT_PTR)param0, (_mqx_uint)param1);
+    207                  break;
+    208              case MQX_API_LWSEM_WAIT_UNTIL:
+    209                  if (MQX_OK == _lwsem_usr_check((LWSEM_STRUCT_PTR)param0) && (!param1 || _psp_mem_check_access(param1, sizeof(MQX_TICK_STRUCT), MPU_UM_RW)))
+    210                      res = _lwsem_wait_until((LWSEM_STRUCT_PTR)param0, (MQX_TICK_STRUCT_PTR)param1);
+    211                  break;
+    212              case MQX_API_LWSEM_DESTROY:
+    213                  if (MQX_OK == _lwsem_usr_check((LWSEM_STRUCT_PTR)param0)) {
+    214                      res = _lwsem_destroy_internal((LWSEM_STRUCT_PTR)param0, TRUE);
+    215                  }
+    216                  break;
+    217          
+    218          #endif // MQX_HAS_TICK
+    219          
+    220              // _lwevent
+    221          #if MQX_USE_LWEVENTS
+    222              case MQX_API_LWEVENT_CLEAR:
+    223                  if (MQX_OK == _lwevent_usr_check((LWEVENT_STRUCT_PTR)param0))
+    224                      res = _lwevent_clear((LWEVENT_STRUCT_PTR)param0, (_mqx_uint)param1);
+    225                  break;
+    226              case MQX_API_LWEVENT_SET:
+    227                  if (MQX_OK == _lwevent_usr_check((LWEVENT_STRUCT_PTR)param0))
+    228                      res = _lwevent_set((LWEVENT_STRUCT_PTR)param0, (_mqx_uint)param1);
+    229                  break;
+    230              case MQX_API_LWEVENT_SET_AUTO_CLEAR:
+    231                  if (MQX_OK == _lwevent_usr_check((LWEVENT_STRUCT_PTR)param0))
+    232                      res = _lwevent_set_auto_clear((LWEVENT_STRUCT_PTR)param0, (_mqx_uint)param1);
+    233                  break;
+    234              case MQX_API_LWEVENT_WAIT_FOR:
+    235                  if (MQX_OK == _lwevent_usr_check((LWEVENT_STRUCT_PTR)param0) && \
+    236                      (!param3 || _psp_mem_check_access(param3, sizeof(MQX_TICK_STRUCT), MPU_UM_RW))) {
+    237                      res = _lwevent_wait_for((LWEVENT_STRUCT_PTR)param0, (_mqx_uint)param1, (boolean)param2, (MQX_TICK_STRUCT_PTR)param3);
+    238                  }
+    239                  break;
+    240              case MQX_API_LWEVENT_WAIT_FOR_TICKS:
+    241                  if (MQX_OK == _lwevent_usr_check((LWEVENT_STRUCT_PTR)param0)) {
+    242                      res = _lwevent_wait_ticks((LWEVENT_STRUCT_PTR)param0, (_mqx_uint)param1, (boolean)param2, (_mqx_uint)param3);
+    243                  }
+    244                  break;
+    245              case MQX_API_LWEVENT_WAIT_UNTIL:
+    246                  if (MQX_OK == _lwevent_usr_check((LWEVENT_STRUCT_PTR)param0) && \
+    247                      (!param3 || _psp_mem_check_access(param3, sizeof(MQX_TICK_STRUCT), MPU_UM_RW))) {
+    248                      res = _lwevent_wait_until((LWEVENT_STRUCT_PTR)param0, (_mqx_uint)param1, (boolean)param2, (MQX_TICK_STRUCT_PTR)param3);
+    249                  }
+    250                  break;
+    251              case MQX_API_LWEVENT_GET_SIGNALLED:
+    252                  res = _lwevent_get_signalled();
+    253                  break;
+    254          
+    255              case MQX_API_LWEVENT_CREATE:
+    256                  res = _lwevent_create_internal((LWEVENT_STRUCT_PTR)param0, (_mqx_uint)param1, TRUE);
+    257                  break;
+    258          
+    259              case MQX_API_LWEVENT_DESTROY:
+    260                  if (MQX_OK == _lwevent_usr_check((LWEVENT_STRUCT_PTR)param0)) {
+    261                      res = _lwevent_destroy_internal((LWEVENT_STRUCT_PTR)param0, TRUE);
+    262                  }
+    263                  break;
+    264          #endif
+    265          
+    266          #if MQX_USE_LWMSGQ
+    267              case MQX_API_LWMSGQ_INIT:
+    268                  res = _lwmsgq_init_internal((pointer)param0, (_mqx_uint)param1, (_mqx_uint)param2, TRUE);
+    269                  break;
+    270              case MQX_API_LWMSGQ_RECEIVE:
+    271                  if (MQX_OK == _lwmsgq_usr_check((LWMSGQ_STRUCT_PTR)param0) && \
+    272                      _psp_mem_check_access(param1, ((LWMSGQ_STRUCT_PTR)param0)->MSG_SIZE, MPU_UM_RW) && \
+    273                      (!param4 || _psp_mem_check_access(param4, sizeof(MQX_TICK_STRUCT), MPU_UM_RW)))
+    274                      res = _lwmsgq_receive((pointer)param0, (_mqx_max_type_ptr)param1, (_mqx_uint)param2, (_mqx_uint)param3, (MQX_TICK_STRUCT_PTR)param4);
+    275          
+    276                  break;
+    277              case MQX_API_LWMSGQ_SEND:
+    278                  if (MQX_OK == _lwmsgq_usr_check((LWMSGQ_STRUCT_PTR)param0) && \
+    279                      _psp_mem_check_access(param1, ((LWMSGQ_STRUCT_PTR)param0)->MSG_SIZE, MPU_UM_RW))
+    280                      res = _lwmsgq_send((pointer)param0, (_mqx_max_type_ptr)param1, (_mqx_uint)param2);
+    281                  break;
+    282          #endif // MQX_USE_LWMSGQ
+    283          
+    284              case MQX_API_TASK_CREATE:
+    285                  res = _task_create_internal((_processor_number)param0, (_mqx_uint)param1, (uint_32)param2, TRUE);
+    286                  break;
+    287              case MQX_API_TASK_DESTROY:
+    288                  res = _task_destroy_internal((_task_id)param0, TRUE);
+    289                  break;
+    290              case MQX_API_TASK_ABORT:
+    291                  res = _task_abort_internal((_task_id)param0, TRUE);
+    292                  break;
+    293              case MQX_API_TASK_READY:
+    294                  _task_ready((pointer)param0);
+    295                  res = MQX_OK;       // irelevant, function is without return value
+    296                  break;
+    297              case MQX_API_TASK_SET_ERROR:
+    298                  res = _task_set_error((_mqx_uint)param0);
+    299                  break;
+    300              case MQX_API_TASK_GET_TD:
+    301                  res = (uint_32)_task_get_td((_task_id)param0);
+    302                  break;
+    303          
+    304          #if MQX_USE_LWMEM
+    305              case MQX_API_LWMEM_ALLOC:
+    306                  res = (uint_32)_usr_lwmem_alloc_internal((_mem_size)param0);
+    307                  break;
+    308          
+    309              case MQX_API_LWMEM_ALLOC_FROM:
+    310                  if (_psp_mem_check_access(param0, sizeof(LWMEM_POOL_STRUCT), MPU_UM_RW) && \
+    311                      _psp_mem_check_access((uint_32)(((LWMEM_POOL_STRUCT_PTR)param0)->POOL_ALLOC_START_PTR), (char*)(((LWMEM_POOL_STRUCT_PTR)param0)->POOL_ALLOC_END_PTR) - (char*)(((LWMEM_POOL_STRUCT_PTR)param0)->POOL_ALLOC_START_PTR), MPU_UM_RW))
+    312                      res = (uint_32)_lwmem_alloc_from((_lwmem_pool_id)param0, (_mem_size)param1);
+    313                  else
+    314                      res = 0; // NULL, allocation failed
+    315                  break;
+    316          
+    317              case MQX_API_LWMEM_FREE:
+    318                  if (_psp_mem_check_access(param0, 4, MPU_UM_RW))
+    319                      res = _lwmem_free((pointer)param0);
+    320                  break;
+    321          
+    322              case MQX_API_LWMEM_CREATE_POOL:\
+    323                  if (_psp_mem_check_access(param0, sizeof(LWMEM_POOL_STRUCT), MPU_UM_RW) && \
+    324                      _psp_mem_check_access(param1, param2, MPU_UM_RW))
+    325                      res = (uint_32)_lwmem_create_pool((LWMEM_POOL_STRUCT_PTR)param0, (pointer)param1, (_mem_size)param2);
+    326                  break;
+    327          #endif // MQX_USE_LWMEM
+    328          
+    329              // _time
+    330              case MQX_API_TIME_DELAY:
+    331                  _time_delay(param0);
+    332                  res = MQX_OK;       // irelevant, function is without return value
+    333                  break;
+    334          
+    335          #if MQX_HAS_TICK
+    336              case MQX_API_TIME_DELAY_TICKS:
+    337                  _time_delay_ticks(param0);
+    338                  res = MQX_OK;       // irelevant, function is without return value
+    339                  break;
+    340              case MQX_API_TIME_GET_ELAPSED_TICKS:
+    341                  if (_psp_mem_check_access(param0, sizeof(MQX_TICK_STRUCT), MPU_UM_RW)) {
+    342                      _time_get_elapsed_ticks((MQX_TICK_STRUCT_PTR)param0);
+    343                      res = MQX_OK;       // irelevant, function is without return value
+    344                  }
+    345                  else {
+    346                      _task_set_error(MQX_ACCESS_ERROR);
+    347                  }
+    348          
+    349                  break;
+    350          #endif // MQX_HAS_TICK
+    351              default:
+    352                  while (1);
+    353              }
+    354          
+    355              return res;
+    356          }
+    357          
+    358          #endif // MQX_ENABLE_USER_MODE
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   _cortex_int_disable
+      12   _cortex_int_enable
+      32   _cortex_int_init
+        32   -> _cortex_int_disable
+        32   -> _cortex_int_enable
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+      44  _cortex_int_disable
+      40  _cortex_int_enable
+     124  _cortex_int_init
+
+ 
+ 212 bytes in section .text
+ 
+ 212 bytes of CODE memory
+
+Errors: none
+Warnings: 3

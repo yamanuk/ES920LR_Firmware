@@ -1,0 +1,783 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:03
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\SystemTimer1.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW649A.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\SystemTimer1.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\SystemTimer1.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\SystemTimer1.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\SystemTimer1.c
+      1          /* ###################################################################
+      2          **     THIS COMPONENT MODULE IS GENERATED BY THE TOOL. DO NOT MODIFY IT.
+      3          **     Filename    : SystemTimer1.c
+      4          **     Project     : ProcessorExpert
+      5          **     Processor   : MKL26Z128VLL4
+      6          **     Component   : TimerUnit_LDD
+      7          **     Version     : Component 01.164, Driver 01.11, CPU db: 3.00.000
+      8          **     Compiler    : IAR ARM C Compiler
+      9          **     Date/Time   : 2014-10-10, 12:09, # CodeGen: 152
+     10          **     Abstract    :
+     11          **          This TimerUnit component provides a low level API for unified hardware access across
+     12          **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
+     13          **     Settings    :
+     14          **          Component name                                 : SystemTimer1
+     15          **          Module name                                    : SysTick
+     16          **          Counter                                        : SYST_CVR
+     17          **          Counter direction                              : Down
+     18          **          Counter width                                  : 24 bits
+     19          **          Value type                                     : Optimal
+     20          **          Input clock source                             : Internal
+     21          **            Counter frequency                            : Auto select
+     22          **          Counter restart                                : On-match
+     23          **            Period device                                : SYST_RVR
+     24          **            Period                                       : 5 ms
+     25          **            Interrupt                                    : Enabled
+     26          **              Interrupt                                  : INT_SysTick
+     27          **              Interrupt priority                         : medium priority
+     28          **          Channel list                                   : 0
+     29          **          Initialization                                 :
+     30          **            Enabled in init. code                        : no
+     31          **            Auto initialization                          : no
+     32          **            Event mask                                   :
+     33          **              OnCounterRestart                           : Enabled
+     34          **              OnChannel0                                 : Disabled
+     35          **              OnChannel1                                 : Disabled
+     36          **              OnChannel2                                 : Disabled
+     37          **              OnChannel3                                 : Disabled
+     38          **              OnChannel4                                 : Disabled
+     39          **              OnChannel5                                 : Disabled
+     40          **              OnChannel6                                 : Disabled
+     41          **              OnChannel7                                 : Disabled
+     42          **          CPU clock/configuration selection              :
+     43          **            Clock configuration 0                        : This component enabled
+     44          **            Clock configuration 1                        : This component enabled
+     45          **            Clock configuration 2                        : This component enabled
+     46          **            Clock configuration 3                        : This component enabled
+     47          **            Clock configuration 4                        : This component enabled
+     48          **            Clock configuration 5                        : This component enabled
+     49          **            Clock configuration 6                        : This component enabled
+     50          **            Clock configuration 7                        : This component enabled
+     51          **     Contents    :
+     52          **         Init              - LDD_TDeviceData* SystemTimer1_Init(LDD_TUserData *UserDataPtr);
+     53          **         Deinit            - void SystemTimer1_Deinit(LDD_TDeviceData *DeviceDataPtr);
+     54          **         Enable            - LDD_TError SystemTimer1_Enable(LDD_TDeviceData *DeviceDataPtr);
+     55          **         GetInputFrequency - uint32_t SystemTimer1_GetInputFrequency(LDD_TDeviceData *DeviceDataPtr);
+     56          **         SetPeriodTicks    - LDD_TError SystemTimer1_SetPeriodTicks(LDD_TDeviceData *DeviceDataPtr,...
+     57          **         GetPeriodTicks    - LDD_TError SystemTimer1_GetPeriodTicks(LDD_TDeviceData *DeviceDataPtr,...
+     58          **         ResetCounter      - LDD_TError SystemTimer1_ResetCounter(LDD_TDeviceData *DeviceDataPtr);
+     59          **         GetCounterValue   - SystemTimer1_TValueType SystemTimer1_GetCounterValue(LDD_TDeviceData...
+     60          **         SetOperationMode  - LDD_TError SystemTimer1_SetOperationMode(LDD_TDeviceData *DeviceDataPtr,...
+     61          **
+     62          **     Copyright : 1997 - 2013 Freescale Semiconductor, Inc. All Rights Reserved.
+     63          **     SOURCE DISTRIBUTION PERMISSIBLE as directed in End User License Agreement.
+     64          **
+     65          **     http      : www.freescale.com
+     66          **     mail      : support@freescale.com
+     67          ** ###################################################################*/
+     68          /*!
+     69          ** @file SystemTimer1.c
+     70          ** @version 01.11
+     71          ** @brief
+     72          **          This TimerUnit component provides a low level API for unified hardware access across
+     73          **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
+     74          */
+     75          /*!
+     76          **  @addtogroup SystemTimer1_module SystemTimer1 module documentation
+     77          **  @{
+     78          */
+     79          
+     80          /* MODULE SystemTimer1. */
+     81          
+     82          #include "MQXLite1.h"
+     83          #include "SystemTimer1.h"
+     84          /* MQX Lite include files */
+     85          #include "mqxlite.h"
+     86          #include "mqxlite_prv.h"
+     87          #include "IO_Map.h"
+     88          
+     89          #ifdef __cplusplus
+     90          extern "C" {
+     91          #endif
+     92          
+     93          
+     94          typedef struct {
+     95            LDD_RTOS_TISRVectorSettings SavedISRSettings_TUInterrupt; /* {MQXLite RTOS Adapter} Saved settings of allocated interrupt vector */
+     96            bool EnUser;                         /* Enable/Disable device */
+     97            bool EnMode;                         /* Enable/Disable device in clock configuration */
+     98            LDD_TClockConfiguration LastClock;   /* Last enabled clock configuration */
+     99            LDD_TUserData *UserDataPtr;          /* RTOS device data structure */
+    100          } SystemTimer1_TDeviceData;
+    101          
+    102          typedef SystemTimer1_TDeviceData *SystemTimer1_TDeviceDataPtr; /* Pointer to the device data structure. */
+    103          
+    104          /* {MQXLite RTOS Adapter} Static object used for simulation of dynamic driver memory allocation */
+    105          static SystemTimer1_TDeviceData DeviceDataPrv__DEFAULT_RTOS_ALLOC;
+    106          
+    107          #define AVAILABLE_EVENTS_MASK (LDD_TEventMask)(LDD_TIMERUNIT_ON_COUNTER_RESTART)
+    108          
+    109          /* Internal method prototypes */
+    110          static void HWEnDi(LDD_TDeviceData *DeviceDataPtr);
+    111          /*
+    112          ** ===================================================================
+    113          **     Method      :  SystemTimer1_Init (component TimerUnit_LDD)
+    114          */
+    115          /*!
+    116          **     @brief
+    117          **         Initializes the device. Allocates memory for the device data
+    118          **         structure, allocates interrupt vectors and sets interrupt
+    119          **         priority, sets pin routing, sets timing, etc. If the
+    120          **         property ["Enable in init. code"] is set to "yes" value then
+    121          **         the device is also enabled (see the description of the
+    122          **         [Enable] method). In this case the [Enable] method is not
+    123          **         necessary and needn't to be generated. This method can be
+    124          **         called only once. Before the second call of Init the [Deinit]
+    125          **         must be called first.
+    126          **     @param
+    127          **         UserDataPtr     - Pointer to the user or
+    128          **                           RTOS specific data. This pointer will be
+    129          **                           passed as an event or callback parameter.
+    130          **     @return
+    131          **                         - Pointer to the dynamically allocated private
+    132          **                           structure or NULL if there was an error.
+    133          */
+    134          /* ===================================================================*/
+    135          LDD_TDeviceData* SystemTimer1_Init(LDD_TUserData *UserDataPtr)
+    136          {
+    137            /* Allocate device structure */
+    138            SystemTimer1_TDeviceData *DeviceDataPrv;
+    139            /* {MQXLite RTOS Adapter} Driver memory allocation: Dynamic allocation is simulated by a pointer to the static object */
+    140            DeviceDataPrv = &DeviceDataPrv__DEFAULT_RTOS_ALLOC;
+    141            DeviceDataPrv->UserDataPtr = UserDataPtr; /* Store the RTOS device structure */
+    142            /* Interrupt vector(s) allocation */
+    143            /* {MQXLite RTOS Adapter} Save old and set new interrupt vector (function handler and ISR parameter) */
+    144            /* Note: Exception handler for interrupt is not saved, because it is not modified */
+    145            DeviceDataPrv->SavedISRSettings_TUInterrupt.isrData = _int_get_isr_data(LDD_ivIndex_INT_SysTick);
+    146            DeviceDataPrv->SavedISRSettings_TUInterrupt.isrFunction = _int_install_isr(LDD_ivIndex_INT_SysTick, SystemTimer1_Interrupt, DeviceDataPrv);
+    147            /* SYST_CSR: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,COUNTFLAG=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CLKSOURCE=0,TICKINT=0,ENABLE=0 */
+    148            SYST_CSR = 0x00U;                    /* Clear control register */
+    149            /* SYST_RVR: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,RELOAD=0x00019999 */
+    150            SYST_RVR = SysTick_RVR_RELOAD(0x00005DC0); /* Setup reload value */
+    151            /* SYST_CVR: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CURRENT=0 */
+    152            SYST_CVR = SysTick_CVR_CURRENT(0x00); /* Clear current value */
+    153            /* SCB_SHPR3: PRI_15=0x80 */
+    154            SCB_SHPR3 = (uint32_t)((SCB_SHPR3 & (uint32_t)~(uint32_t)(
+    155                         SCB_SHPR3_PRI_15(0x7F)
+    156                        )) | (uint32_t)(
+    157                         SCB_SHPR3_PRI_15(0x80)
+    158                        ));
+    159            /* SYST_CSR: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,COUNTFLAG=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CLKSOURCE=0,TICKINT=1,ENABLE=0 */
+    160            SYST_CSR = SysTick_CSR_TICKINT_MASK; /* Set up control register */
+    161            DeviceDataPrv->EnUser = FALSE;       /* Set the flag "device disabled" */
+    162            DeviceDataPrv->LastClock = (LDD_TClockConfiguration)0xFFU; /* Set the flag "first clock configuration" */
+    163            SystemTimer1_SetClockConfiguration(DeviceDataPrv, Cpu_GetClockConfiguration()); /* Set Initial according clock configuration */
+    164            /* Registration of the device structure */
+    165            PE_LDD_RegisterDeviceStructure(PE_LDD_COMPONENT_SystemTimer1_ID,DeviceDataPrv);
+    166            return ((LDD_TDeviceData *)DeviceDataPrv); /* Return pointer to the device data structure */
+    167          }
+    168          
+    169          /*
+    170          ** ===================================================================
+    171          **     Method      :  SystemTimer1_Deinit (component TimerUnit_LDD)
+    172          */
+    173          /*!
+    174          **     @brief
+    175          **         Deinitializes the device. Switches off the device, frees the
+    176          **         device data structure memory, interrupts vectors, etc.
+    177          **     @param
+    178          **         DeviceDataPtr   - Device data structure
+    179          **                           pointer returned by Init method
+    180          */
+    181          /* ===================================================================*/
+    182          void SystemTimer1_Deinit(LDD_TDeviceData *DeviceDataPtr)
+    183          {
+    184            SystemTimer1_TDeviceData *DeviceDataPrv = (SystemTimer1_TDeviceData *)DeviceDataPtr;
+    185          
+    186            (void)DeviceDataPrv;
+    187            SysTick_PDD_EnableDevice(SysTick_BASE_PTR, PDD_DISABLE);
+    188            /* Interrupt vector(s) deallocation */
+    189            /* {MQXLite RTOS Adapter} Restore interrupt vector (function handler and ISR parameter) */
+    190            /* Note: Exception handler for interrupt is not restored, because it was not modified */
+    191            (void)_int_install_isr(LDD_ivIndex_INT_SysTick, ((SystemTimer1_TDeviceDataPtr)DeviceDataPrv)->SavedISRSettings_TUInterrupt.isrFunction, ((SystemTimer1_TDeviceDataPtr)DeviceDataPrv)->SavedISRSettings_TUInterrupt.isrData);
+    192            /* Unregistration of the device structure */
+    193            PE_LDD_UnregisterDeviceStructure(PE_LDD_COMPONENT_SystemTimer1_ID);
+    194            /* Deallocation of the device structure */
+    195            /* {MQXLite RTOS Adapter} Driver memory deallocation: Dynamic allocation is simulated, no deallocation code is generated */
+    196          }
+    197          
+    198          /*
+    199          ** ===================================================================
+    200          **     Method      :  SystemTimer1_Enable (component TimerUnit_LDD)
+    201          */
+    202          /*!
+    203          **     @brief
+    204          **         Enables the component - it starts the signal generation.
+    205          **         Events may be generated (see SetEventMask). The method is
+    206          **         not available if the counter can't be disabled/enabled by HW.
+    207          **     @param
+    208          **         DeviceDataPtr   - Device data structure
+    209          **                           pointer returned by [Init] method.
+    210          **     @return
+    211          **                         - Error code, possible codes:
+    212          **                           ERR_OK - OK
+    213          **                           ERR_SPEED - The component does not work in
+    214          **                           the active clock configuration
+    215          */
+    216          /* ===================================================================*/
+    217          LDD_TError SystemTimer1_Enable(LDD_TDeviceData *DeviceDataPtr)
+    218          {
+    219            SystemTimer1_TDeviceData *DeviceDataPrv = (SystemTimer1_TDeviceData *)DeviceDataPtr;
+    220          
+    221            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    222               property to the "yes" value in the "Configuration inspector" */
+    223            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    224              return ERR_SPEED;                  /* If yes then error */
+    225            }
+    226            if (!DeviceDataPrv->EnUser) {        /* Is the device disabled by user? */
+    227              DeviceDataPrv->EnUser = TRUE;      /* If yes then set the flag "device enabled" */
+    228              HWEnDi(DeviceDataPtr);             /* Enable/disable device according to status flags */
+    229            }
+    230            return ERR_OK;
+    231          }
+    232          
+    233          /*
+    234          ** ===================================================================
+    235          **     Method      :  SystemTimer1_GetInputFrequency (component TimerUnit_LDD)
+    236          */
+    237          /*!
+    238          **     @brief
+    239          **         Returns current input frequency of the counter in Hz as
+    240          **         32-bit unsigned integer number. This method can be used only
+    241          **         if ["Input clock source"] property is set to "internal".
+    242          **     @param
+    243          **         DeviceDataPtr   - Device data structure
+    244          **                           pointer returned by [Init] method.
+    245          **     @return
+    246          **                         - Input frequency
+    247          */
+    248          /* ===================================================================*/
+    249          uint32_t SystemTimer1_GetInputFrequency(LDD_TDeviceData *DeviceDataPtr)
+    250          {
+    251            (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
+    252            switch (Cpu_GetClockConfiguration()) {
+    253              case CPU_CLOCK_CONFIG_0:
+    254                return SystemTimer1_CNT_INP_FREQ_U_0_CFG_0;
+    255              case CPU_CLOCK_CONFIG_1:
+    256                return SystemTimer1_CNT_INP_FREQ_U_0_CFG_1;
+    257              default:
+    258                break;
+    259            }
+    260            return SystemTimer1_CNT_INP_FREQ_U_0;
+    261          }
+    262          
+    263          /*
+    264          ** ===================================================================
+    265          **     Method      :  SystemTimer1_SetPeriodTicks (component TimerUnit_LDD)
+    266          */
+    267          /*!
+    268          **     @brief
+    269          **         The method sets timer re-initialization period (in timer
+    270          **         ticks). This method is available only if the property
+    271          **         ["Counter restart"] is switched to 'on-match' value.
+    272          **     @param
+    273          **         DeviceDataPtr   - Device data structure
+    274          **                           pointer returned by [Init] method.
+    275          **     @param
+    276          **         Ticks           - Number of counter ticks before counter
+    277          **                           re-initialization. Value 0 means maximal
+    278          **                           period value the same as "free-running
+    279          **                           mode", e.g. counter overflow or underflow
+    280          **                           without any explicit re-initialization.
+    281          **     @return
+    282          **                         - Error code, possible codes:
+    283          **                           ERR_OK - OK
+    284          **                           ERR_PARAM_TICKS - Ticks parameter is out of
+    285          **                           possible range.
+    286          **                           ERR_SPEED - The component does not work in
+    287          **                           the active clock configuration
+    288          */
+    289          /* ===================================================================*/
+    290          LDD_TError SystemTimer1_SetPeriodTicks(LDD_TDeviceData *DeviceDataPtr, SystemTimer1_TValueType Ticks)
+    291          {
+    292            SystemTimer1_TDeviceData *DeviceDataPrv = (SystemTimer1_TDeviceData *)DeviceDataPtr;
+    293          
+    294            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    295               property to the "yes" value in the "Configuration inspector" */
+    296            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    297              return ERR_SPEED;                  /* If yes then error */
+    298            }
+    299            /* Parameter test - this test can be disabled by setting the "Ignore range checking"
+    300               property to the "yes" value in the "Configuration inspector" */
+    301            if (Ticks > 16777215U) {             /* Is the given value out of range? */
+    302              return ERR_PARAM_TICKS;            /* If yes then error */
+    303            }
+    304            SysTick_PDD_WriteReloadValueReg(SysTick_BASE_PTR, (uint32_t)(--Ticks));
+    305            return ERR_OK;                       /* OK */
+    306          }
+    307          
+    308          /*
+    309          ** ===================================================================
+    310          **     Method      :  SystemTimer1_GetPeriodTicks (component TimerUnit_LDD)
+    311          */
+    312          /*!
+    313          **     @brief
+    314          **         Returns the number of counter ticks before re-initialization.
+    315          **         See also method [SetPeriodTicks]. This method is available
+    316          **         only if the property ["Counter restart"] is switched to
+    317          **         'on-match' value.
+    318          **     @param
+    319          **         DeviceDataPtr   - Device data structure
+    320          **                           pointer returned by [Init] method.
+    321          **     @param
+    322          **         TicksPtr        - Pointer to return value of the
+    323          **                           number of counter ticks before
+    324          **                           re-initialization
+    325          **     @return
+    326          **                         - Error code, possible codes:
+    327          **                           ERR_OK - OK
+    328          **                           ERR_SPEED - The component does not work in
+    329          **                           the active clock configuration
+    330          */
+    331          /* ===================================================================*/
+    332          LDD_TError SystemTimer1_GetPeriodTicks(LDD_TDeviceData *DeviceDataPtr, SystemTimer1_TValueType *TicksPtr)
+    333          {
+    334            SystemTimer1_TDeviceData *DeviceDataPrv = (SystemTimer1_TDeviceData *)DeviceDataPtr;
+    335            uint32_t tmp;
+    336          
+    337            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    338               property to the "yes" value in the "Configuration inspector" */
+    339            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    340              return ERR_SPEED;                  /* If yes then error */
+    341            }
+    342            tmp = (SystemTimer1_TValueType)(SysTick_PDD_ReadReloadValueReg(SysTick_BASE_PTR));
+    343            *TicksPtr = (SystemTimer1_TValueType)++tmp;
+    344            *TicksPtr &= 0x00FFFFFFUL;
+    345            return ERR_OK;                       /* OK */
+    346          }
+    347          
+    348          /*
+    349          ** ===================================================================
+    350          **     Method      :  SystemTimer1_ResetCounter (component TimerUnit_LDD)
+    351          */
+    352          /*!
+    353          **     @brief
+    354          **         Resets counter. If counter is counting up then it is set to
+    355          **         zero. If counter is counting down then counter is updated to
+    356          **         the reload value.
+    357          **         The method is not available if HW doesn't allow resetting of
+    358          **         the counter.
+    359          **     @param
+    360          **         DeviceDataPtr   - Device data structure
+    361          **                           pointer returned by [Init] method.
+    362          **     @return
+    363          **                         - Error code, possible codes:
+    364          **                           ERR_OK - OK
+    365          **                           ERR_SPEED - The component does not work in
+    366          **                           the active clock configuration
+    367          */
+    368          /* ===================================================================*/
+    369          LDD_TError SystemTimer1_ResetCounter(LDD_TDeviceData *DeviceDataPtr)
+    370          {
+    371            SystemTimer1_TDeviceData *DeviceDataPrv = (SystemTimer1_TDeviceData *)DeviceDataPtr;
+    372          
+    373            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    374               property to the "yes" value in the "Configuration inspector" */
+    375            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    376              return ERR_SPEED;                  /* If yes then error */
+    377            }
+    378            /* {MQXLite RTOS Adapter} Critical section begin (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    379            _int_disable();
+    380            if ((SysTick_PDD_GetEnableDeviceStatus(SysTick_BASE_PTR)) != 0U) {
+    381              SysTick_PDD_EnableDevice(SysTick_BASE_PTR, PDD_DISABLE);
+    382              SysTick_PDD_EnableDevice(SysTick_BASE_PTR, PDD_ENABLE);
+    383            }
+    384            /* {MQXLite RTOS Adapter} Critical section ends (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    385            _int_enable();
+    386            return ERR_OK;                       /* OK */
+    387          }
+    388          
+    389          /*
+    390          ** ===================================================================
+    391          **     Method      :  SystemTimer1_GetCounterValue (component TimerUnit_LDD)
+    392          */
+    393          /*!
+    394          **     @brief
+    395          **         Returns the content of counter register. This method can be
+    396          **         used both if counter is enabled and if counter is disabled.
+    397          **         The method is not available if HW doesn't allow reading of
+    398          **         the counter.
+    399          **     @param
+    400          **         DeviceDataPtr   - Device data structure
+    401          **                           pointer returned by [Init] method.
+    402          **     @return
+    403          **                         - Counter value (number of counted ticks).
+    404          */
+    405          /* ===================================================================*/
+    406          SystemTimer1_TValueType SystemTimer1_GetCounterValue(LDD_TDeviceData *DeviceDataPtr)
+    407          {
+    408            (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
+    409            return (SystemTimer1_TValueType)SysTick_PDD_ReadCurrentValueReg(SysTick_BASE_PTR);
+    410          }
+    411          
+    412          /*
+    413          ** ===================================================================
+    414          **     Method      :  SystemTimer1_SetClockConfiguration (component TimerUnit_LDD)
+    415          **
+    416          **     Description :
+    417          **         This method changes the clock configuration. During a clock
+    418          **         configuration change the component changes it's setting
+    419          **         immediately upon a request.
+    420          **         This method is internal. It is used by Processor Expert only.
+    421          ** ===================================================================
+    422          */
+    423          void SystemTimer1_SetClockConfiguration(LDD_TDeviceData *DeviceDataPtr, LDD_TClockConfiguration ClockConfiguration)
+    424          {
+    425            SystemTimer1_TDeviceData *DeviceDataPrv = (SystemTimer1_TDeviceData *)DeviceDataPtr;
+    426            LDD_TimerUnit_Tfloat NewConst, OldConst;
+    427            uint32_t NewRegVal, OldRegVal;
+    428          
+    429            SysTick_PDD_EnableDevice(SysTick_BASE_PTR, PDD_DISABLE);
+    430            switch (ClockConfiguration) {
+    431              case CPU_CLOCK_CONFIG_0:
+    432                DeviceDataPrv->EnMode = TRUE;    /* Set the flag "device enabled" in the actual clock configuration */
+    433                SysTick_PDD_SetClkSource(SysTick_BASE_PTR, SysTick_PDD_CORE_CLOCK); /* Set prescaler register */
+    434                NewConst = SystemTimer1_CNT_INP_FREQ_R_0_CFG_0; /* Load constant for clock configuration 0 */
+    435                break;
+    436              case CPU_CLOCK_CONFIG_1:
+    437                DeviceDataPrv->EnMode = TRUE;    /* Set the flag "device enabled" in the actual clock configuration */
+    438                SysTick_PDD_SetClkSource(SysTick_BASE_PTR, SysTick_PDD_CORE_CLOCK); /* Set prescaler register */
+    439                NewConst = SystemTimer1_CNT_INP_FREQ_R_0_CFG_1; /* Load constant for clock configuration 1 */
+    440                break;
+    441              default:
+    442                DeviceDataPrv->EnMode = FALSE;   /* Set the flag "device disabled" in the actual clock configuration */
+    443                break;
+    444            }
+    445            if (DeviceDataPrv->EnMode) {
+    446              switch (DeviceDataPrv->LastClock) { /* Get last active (enabled) clock configuration */
+    447                case CPU_CLOCK_CONFIG_0:
+    448                  OldConst = SystemTimer1_CNT_INP_FREQ_R_0_CFG_0; /* Load constant for clock configuration 0 */
+    449                  break;
+    450                case CPU_CLOCK_CONFIG_1:
+    451                  OldConst = SystemTimer1_CNT_INP_FREQ_R_0_CFG_1; /* Load constant for clock configuration 1 */
+    452                  break;
+    453                default:
+    454                  OldConst = NewConst;           /* First initialization, do nothing in code below */
+    455                  break;
+    456              }
+    457              if (OldConst != NewConst) {        /* Is necessary to re-calculate period/offset value in the registers? */
+    458                OldRegVal = (uint32_t)(SysTick_PDD_ReadReloadValueReg(SysTick_BASE_PTR));
+    459                NewRegVal = (uint32_t)(((((LDD_TimerUnit_Tfloat)(OldRegVal) + 1U)) * (NewConst / OldConst)) - 1U); /* Calculation of new period for new clock configuration */
+    460                if (NewRegVal > 0x00FFFFFFUL) {  /* Is the result greater than 16777215 ? */
+    461                  SysTick_PDD_WriteReloadValueReg(SysTick_BASE_PTR, 0x00FFFFFFUL); /* If yes then use maximal possible value */
+    462                }
+    463                else {
+    464                  SysTick_PDD_WriteReloadValueReg(SysTick_BASE_PTR, NewRegVal);
+    465                }
+    466              }
+    467              DeviceDataPrv->LastClock = ClockConfiguration; /* Store new ClockConfiguration as actual value */
+    468            }
+    469            HWEnDi(DeviceDataPtr);               /* Enable/disable device according to status flags */
+    470          }
+    471          
+    472          /*
+    473          ** ===================================================================
+    474          **     Method      :  SystemTimer1_SetOperationMode (component TimerUnit_LDD)
+    475          */
+    476          /*!
+    477          **     @brief
+    478          **         This method requests to change the component's operation
+    479          **         mode. Upon a request to change the operation mode, the
+    480          **         component will finish a pending job first and then notify a
+    481          **         caller that an operation mode has been changed. When no job
+    482          **         is pending (ERR_OK), the component changes an operation mode
+    483          **         immediately and notify a caller about this change.
+    484          **     @param
+    485          **         DeviceDataPtr   - Device data structure
+    486          **                           pointer returned by [Init] method.
+    487          **     @param
+    488          **         OperationMode   - Requested driver
+    489          **                           operation mode.
+    490          **     @param
+    491          **         ModeChangeCallback - Callback to
+    492          **                           notify the upper layer once a mode has been
+    493          **                           changed.
+    494          **     @param
+    495          **         ModeChangeCallbackParamPtr
+    496          **                           - Pointer to callback parameter to notify
+    497          **                           the upper layer once a mode has been
+    498          **                           changed.
+    499          **     @return
+    500          **                         - Error code, possible codes:
+    501          **                           ERR_OK - OK
+    502          **                           ERR_SPEED - The component does not work in
+    503          **                           the active clock configuration.
+    504          **                           ERR_PARAM_MODE - Invalid operation mode.
+    505          */
+    506          /* ===================================================================*/
+    507          LDD_TError SystemTimer1_SetOperationMode(LDD_TDeviceData *DeviceDataPtr, LDD_TDriverOperationMode OperationMode, LDD_TCallback ModeChangeCallback, LDD_TCallbackParam *ModeChangeCallbackParamPtr)
+    508          {
+    509            SystemTimer1_TDeviceData *DeviceDataPrv = (SystemTimer1_TDeviceData *)DeviceDataPtr;
+    510          
+    511            /* Clock configuration test - this test can be disabled by setting the "Ignore clock configuration test"
+    512               property to the "yes" value in the "Configuration inspector" */
+    513            if (!DeviceDataPrv->EnMode) {        /* Is the device disabled in the actual clock configuration? */
+    514              return ERR_SPEED;                  /* If yes then error */
+    515            }
+    516            switch (OperationMode) {
+    517              case DOM_RUN:
+    518                break;
+    519              case DOM_WAIT:
+    520              case DOM_SLEEP:
+    521                break;
+    522              case DOM_STOP:
+    523                break;
+    524              default:
+    525                return ERR_PARAM_MODE;           /* Invalid Operationmode parameter */
+    526            }
+    527            if (ModeChangeCallback != NULL) {
+    528              ModeChangeCallback(ModeChangeCallbackParamPtr); /* Invoke a callback */
+    529            }
+    530            return ERR_OK;
+    531          }
+    532          
+    533          /*
+    534          ** ===================================================================
+    535          **     Method      :  SystemTimer1_Interrupt (component TimerUnit_LDD)
+    536          **
+    537          **     Description :
+    538          **         The method services the interrupt of the selected peripheral(s)
+    539          **         and eventually invokes event(s) of the component.
+    540          **         This method is internal. It is used by Processor Expert only.
+    541          ** ===================================================================
+    542          */
+    543          void SystemTimer1_Interrupt(LDD_RTOS_TISRParameter _isrParameter)
+    544          {
+    545            /* {MQXLite RTOS Adapter} ISR parameter is passed as parameter from RTOS interrupt dispatcher */
+    546            SystemTimer1_TDeviceDataPtr DeviceDataPrv = (SystemTimer1_TDeviceDataPtr)_isrParameter;
+    547          
+    548            SysTick_PDD_ClearInterruptFlag(SysTick_BASE_PTR); /* Clear interrupt flag */
+    549            SystemTimer1_OnCounterRestart(DeviceDataPrv->UserDataPtr); /* Invoke OnCounterRestart event */
+    550          }
+    551          
+    552          /*
+    553          ** ===================================================================
+    554          **     Method      :  HWEnDi (component TimerUnit_LDD)
+    555          **
+    556          **     Description :
+    557          **         Enables or disables the peripheral(s) associated with the
+    558          **         component. The method is called automatically as a part of the
+    559          **         Enable and Disable methods and several internal methods.
+    560          **         This method is internal. It is used by Processor Expert only.
+    561          ** ===================================================================
+    562          */
+    563          static void HWEnDi(LDD_TDeviceData *DeviceDataPtr)
+    564          {
+    565            SystemTimer1_TDeviceDataPtr DeviceDataPrv = (SystemTimer1_TDeviceDataPtr)DeviceDataPtr;
+    566          
+    567            /* {MQXLite RTOS Adapter} Critical section begin (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    568            _int_disable();
+    569            if (DeviceDataPrv->EnMode && DeviceDataPrv->EnUser) { /* Enable device? */
+    570              SysTick_PDD_EnableDevice(SysTick_BASE_PTR, PDD_ENABLE);
+    571            }
+    572            else {
+    573              SysTick_PDD_EnableDevice(SysTick_BASE_PTR, PDD_DISABLE);
+    574            }
+    575            /* {MQXLite RTOS Adapter} Critical section ends (RTOS function call is defined by MQXLite RTOS Adapter property) */
+    576            _int_enable();
+    577          }
+    578          /* END SystemTimer1. */
+    579          
+    580          #ifdef __cplusplus
+    581          }  /* extern "C" */
+    582          #endif
+    583          
+    584          /*!
+    585          ** @}
+    586          */
+    587          /*
+    588          ** ###################################################################
+    589          **
+    590          **     This file was created by Processor Expert 10.3 [05.09]
+    591          **     for the Freescale Kinetis series of microcontrollers.
+    592          **
+    593          ** ###################################################################
+    594          */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   HWEnDi
+        16   -> _int_disable
+        16   -> _int_enable
+      16   SystemTimer1_Deinit
+        16   -> _int_install_isr
+      16   SystemTimer1_Enable
+        16   -> HWEnDi
+       0   SystemTimer1_GetCounterValue
+       8   SystemTimer1_GetInputFrequency
+         8   -> Cpu_GetClockConfiguration
+       8   SystemTimer1_GetPeriodTicks
+      16   SystemTimer1_Init
+        16   -> Cpu_GetClockConfiguration
+        16   -> SystemTimer1_SetClockConfiguration
+        16   -> _int_get_isr_data
+        16   -> _int_install_isr
+      16   SystemTimer1_Interrupt
+        16   -> SystemTimer1_OnCounterRestart
+      16   SystemTimer1_ResetCounter
+        16   -> _int_disable
+        16   -> _int_enable
+      40   SystemTimer1_SetClockConfiguration
+        40   -> HWEnDi
+        40   -> __aeabi_f2uiz
+        40   -> __aeabi_fadd
+        40   -> __aeabi_fdiv
+        40   -> __aeabi_fmul
+        40   -> __aeabi_ui2f
+        40 __aeabi_cfcmpeq
+      24   SystemTimer1_SetOperationMode
+        24   -- Indirect call
+       4   SystemTimer1_SetPeriodTicks
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable9
+       4  ??DataTable9_1
+       4  ??DataTable9_10
+       4  ??DataTable9_11
+       4  ??DataTable9_12
+       4  ??DataTable9_13
+       4  ??DataTable9_2
+       4  ??DataTable9_3
+       4  ??DataTable9_4
+       4  ??DataTable9_5
+       4  ??DataTable9_6
+       4  ??DataTable9_7
+       4  ??DataTable9_8
+       4  ??DataTable9_9
+      16  DeviceDataPrv__DEFAULT_RTOS_ALLOC
+      50  HWEnDi
+      34  SystemTimer1_Deinit
+      36  SystemTimer1_Enable
+       8  SystemTimer1_GetCounterValue
+      30  SystemTimer1_GetInputFrequency
+      36  SystemTimer1_GetPeriodTicks
+      92  SystemTimer1_Init
+      24  SystemTimer1_Interrupt
+      54  SystemTimer1_ResetCounter
+     202  SystemTimer1_SetClockConfiguration
+      68  SystemTimer1_SetOperationMode
+      38  SystemTimer1_SetPeriodTicks
+
+ 
+  16 bytes in section .bss
+ 728 bytes in section .text
+ 
+ 728 bytes of CODE memory
+  16 bytes of DATA memory
+
+Errors: none
+Warnings: none

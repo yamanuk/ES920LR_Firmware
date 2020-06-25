@@ -1,0 +1,1191 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:58
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\int.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW52CB.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\int.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\int.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\int.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\MQXLITE\kernel\int.c
+      1          /*HEADER*********************************************************************
+      2           *
+      3           * Copyright (c) 2008 Freescale Semiconductor;
+      4           * All Rights Reserved
+      5           *
+      6           * Copyright (c) 2004-2008 Embedded Access Inc.;
+      7           * All Rights Reserved
+      8           *
+      9           * Copyright (c) 1989-2008 ARC International;
+     10           * All Rights Reserved
+     11           *
+     12           ***************************************************************************
+     13           *
+     14           * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     15           * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     16           * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     17           * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     18           * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     19           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     20           * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     21           * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     22           * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     23           * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     24           * THE POSSIBILITY OF SUCH DAMAGE.
+     25           *
+     26           **************************************************************************
+     27           *
+     28           * $FileName: int.c$
+     29           * $Version : 3.8.0.1$
+     30           * $Date    : Feb-22-2012$
+     31           *
+     32           * Comments:
+     33           *
+     34           *   This file contains functions of the Interrupt component.
+     35           *
+     36           *END************************************************************************/
+     37          
+     38          #include "mqx_inc.h"
+     39          
+     40          #if MQX_USE_INTERRUPTS
+     41          
+     42          /*!
+     43           * \brief Default ISR that MQX calls if an unhandled interrupt or exception occurs.
+     44           *
+     45           * An application can replace the function with _int_install_unexpected_isr() or
+     46           * _int_install_exception_isr(), in both cases MQX-provided default ISR is installed.
+     47           * \n An application can install an application-provided default ISR with
+     48           * _int_install_default_isr().
+     49           * \n MQX changes the state of the active task to UNHANDLED_INT_BLOCKED and blocks it.
+     50           *
+     51           * \param[in] vector_number Parameter that MQX passes to the ISR.
+     52           *
+     53           * \warning Blocks the active task.
+     54           *
+     55           * \see _int_install_default_isr
+     56           * \see _int_install_unexpected_isr
+     57           * \see _int_install_exception_isr
+     58           */
+     59          void _int_default_isr
+     60          (
+     61              pointer vector_number
+     62          )
+     63          { /* Body */
+     64              KERNEL_DATA_STRUCT_PTR kernel_data;
+     65              TD_STRUCT_PTR          td_ptr;
+     66          
+     67              _GET_KERNEL_DATA(kernel_data);
+     68          
+     69              td_ptr = kernel_data->ACTIVE_PTR;
+     70              _KLOGE5(KLOG_int_default_isr, td_ptr, vector_number,
+     71                              &vector_number, vector_number);
+     72          
+     73              _int_disable();
+     74              if (td_ptr->STATE != UNHANDLED_INT_BLOCKED)
+     75              {
+     76                  td_ptr->STATE = UNHANDLED_INT_BLOCKED;
+     77                  td_ptr->INFO = (_mqx_uint) vector_number;
+     78                  _task_set_error_td_internal(td_ptr, MQX_UNHANDLED_INTERRUPT);
+     79                  _QUEUE_UNLINK(td_ptr);
+     80              } /* Endif */
+     81              _int_enable();
+     82          
+     83          } /* Endbody */
+     84          
+     85          /*!
+     86           * \brief This function disables all interrupts for this task.
+     87           *
+     88           * The function _int_disable() disables all hardware interrupts at priorities up
+     89           * to and including the MQX disable-interrupt level. As a result, no task can
+     90           * interrupt the active task while the active task is running until interrupts
+     91           * are re-enabled with _int_enable(). If the active task blocks while interrupts
+     92           * are disabled, the state of the interrupts (disabled or enabled) depends on
+     93           * the interrupt-disabled state of the next task that MQX makes ready.
+     94           * \n Keep minimum code between calls to _int_disable() and its matching _int_enable().
+     95           * If _int_disable() or _int_enable() are nested, MQX re-enables interrupts only
+     96           * after the number of calls to _int_enable() are equal to the number of calls to
+     97           * _int_disable().
+     98           *
+     99           * \see _int_enable
+    100           */
+    101          void _int_disable(void)
+    102          { /* Body */
+    103              KERNEL_DATA_STRUCT_PTR kernel_data;
+    104          
+    105              _GET_KERNEL_DATA(kernel_data);
+    106          
+    107              _INT_DISABLE_CODE();
+    108          
+    109          } /* Endbody */
+    110          
+    111          /*!
+    112           * \brief This function enables all interrupts for this task.
+    113           *
+    114           * The function _int_enable() resets the processor priority to the hardware
+    115           * priority that corresponds to the active task's software priority.
+    116           * Keep minimum code between calls to _int_disable() and its matching
+    117           * _int_enable().
+    118           * \n If _int_disable() or _int_enable() are nested, MQX re-enables interrupts only
+    119           * after the number of calls to _int_enable() are equal to the number of calls to
+    120           * _int_disable().
+    121           *
+    122           * \see _int_disable
+    123           */
+    124          void _int_enable(void)
+    125          { /* Body */
+    126              KERNEL_DATA_STRUCT_PTR kernel_data;
+    127          
+    128              _GET_KERNEL_DATA(kernel_data);
+    129          
+    130              _INT_ENABLE_CODE();
+    131          
+    132          } /* Endbody */
+    133          
+    134          /*!
+    135           * \brief Gets a pointer to the default ISR that MQX calls when an unexpected interrupt occurs.
+    136           *
+    137           * \return Pointer to the default ISR for unhandled interrupts.
+    138           * \return NULL (Failure.)
+    139           *
+    140           * \see _int_install_default_isr
+    141           */
+    142          INT_ISR_FPTR _int_get_default_isr
+    143          (
+    144              void
+    145          )
+    146          { /* Body */
+    147              KERNEL_DATA_STRUCT_PTR kernel_data;
+    148          
+    149              _GET_KERNEL_DATA(kernel_data);
+    150              return(kernel_data->DEFAULT_ISR);
+    151          
+    152          } /* Endbody */
+    153          
+    154          /*!
+    155           * \brief Gets a pointer to the current ISR exception handler for the vector number.
+    156           *
+    157           * The returned exception handler is either a default ISR or an ISR that the
+    158           * application installed with _int_set_exception_handler().
+    159           *
+    160           * \param[in] vector Number of a vector whose exception handler is to be returned.
+    161           *
+    162           * \return Pointer to the current exception handler.
+    163           * \return NULL (Failure.)
+    164           *
+    165           * \warning On failure, calls _task_set_error() to set the task error code.
+    166           *
+    167           * \see _int_set_exception_handler
+    168           * \see _int_exception_isr
+    169           * \see _task_set_error
+    170           */
+    171          #if !MQX_SPARSE_ISR_TABLE
+    172          
+    173          INT_EXCEPTION_FPTR _int_get_exception_handler
+    174          (
+    175              _mqx_uint vector
+    176          )
+    177          { /* Body */
+    178              KERNEL_DATA_STRUCT_PTR kernel_data;
+    179          
+    180              _GET_KERNEL_DATA(kernel_data);
+    181          #if MQX_CHECK_ERRORS
+    182              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    183              {
+    184                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    185                  return(NULL);
+    186              } /* Endif */
+    187              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    188                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    189              {
+    190                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    191                  return(NULL);
+    192              }/* Endif */
+    193          #endif
+    194          
+    195              vector -= kernel_data->FIRST_USER_ISR_VECTOR;
+    196              return(kernel_data->INTERRUPT_TABLE_PTR[vector].APP_ISR_EXCEPTION_HANDLER);
+    197          
+    198          } /* Endbody */
+    199          
+    200          #else /* MQX_SPARSE_ISR_TABLE */
+    201          
+    202          INT_EXCEPTION_FPTR _int_get_exception_handler
+    203          (
+    204              _mqx_uint vector
+    205          )
+    206          {
+    207              return NULL;
+    208          }
+    209          
+    210          #endif /* MQX_SPARSE_ISR_TABLE */
+    211          
+    212          /*!
+    213           * \brief Gets the current ISR for the specified vector.
+    214           *
+    215           * The returned ISR is either a default ISR or an ISR that the application
+    216           * installed with _int_install_isr().
+    217           *
+    218           * \param[in] vector Number of the vector whose ISR is to be returned.
+    219           *
+    220           * \return Pointer to the ISR. (Success.)
+    221           * \return NULL (Failure.)
+    222           *
+    223           * \warning On failure, calls _task_set_error() to set the task error code.
+    224           *
+    225           * \see _int_get_isr_data
+    226           * \see _int_set_isr_data
+    227           * \see _task_set_error
+    228           */
+    229          #if !MQX_SPARSE_ISR_TABLE
+    230          
+    231          INT_ISR_FPTR _int_get_isr
+    232          (
+    233              _mqx_uint vector
+    234          )
+    235          { /* Body */
+    236              KERNEL_DATA_STRUCT_PTR kernel_data;
+    237          
+    238              _GET_KERNEL_DATA(kernel_data);
+    239          
+    240          #if MQX_CHECK_ERRORS
+    241              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    242              {
+    243                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    244                  return(NULL);
+    245              } /* Endif */
+    246              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    247                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    248              {
+    249                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    250                  return NULL;
+    251              } /* Endif */
+    252          #endif
+    253          
+    254              vector -= kernel_data->FIRST_USER_ISR_VECTOR;
+    255          
+    256              return(kernel_data->INTERRUPT_TABLE_PTR[vector].APP_ISR);
+    257          
+    258          } /* Endbody */
+    259          
+    260          #else /* MQX_SPARSE_ISR_TABLE */
+    261          INT_ISR_FPTR _int_get_isr
+    262          (
+    263              _mqx_uint vector
+    264          )
+    265          { /* Body */
+    266              KERNEL_DATA_STRUCT_PTR          kernel_data;
+    267              INTERRUPT_SPARSE_REC_STRUCT_PTR int_ptr;
+    268          
+    269              _GET_KERNEL_DATA(kernel_data);
+    270          
+    271          #if MQX_CHECK_ERRORS
+    272              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    273              {
+    274                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    275                  return(NULL);
+    276              } /* Endif */
+    277              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    278                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    279              {
+    280                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    281                  return NULL;
+    282              } /* Endif */
+    283          #endif
+    284          
+    285              _int_disable();
+    286          
+    287              int_ptr = kernel_data->INTERRUPT_TABLE_PTR[(vector - kernel_data->FIRST_USER_ISR_VECTOR) >> MQX_SPARSE_ISR_SHIFT];
+    288          
+    289              while (int_ptr && int_ptr->VEC_NUM != vector)
+    290              {
+    291                  int_ptr = int_ptr->NEXT;
+    292              }
+    293          
+    294              _int_enable();
+    295          
+    296              return (int_ptr) ? int_ptr->APP_ISR : _int_default_isr;
+    297          
+    298          }
+    299          
+    300          #endif /* MQX_SPARSE_ISR_TABLE */
+    301          
+    302          /*!
+    303           * \brief Retrieves a pointer of the interrupt handler data for the specified
+    304           * vector.
+    305           *
+    306           * ISR data can be installed with _int_set_isr_data().
+    307           * \n When MQX calls _int_kernel_isr() or an application ISR, it passes the data
+    308           * as the first parameter to the ISR.
+    309           *
+    310           * \param[in] vector Number of the vector whose ISR data are to be returned.
+    311           *
+    312           * \return Pointer to the ISR data.
+    313           * \return NULL (Failure.)
+    314           *
+    315           * \warning On failure, calls _task_set_error() to set the task error code.
+    316           *
+    317           * \see _int_get_isr
+    318           * \see _int_install_isr
+    319           * \see _int_set_isr_data
+    320           */
+    321          #if !MQX_SPARSE_ISR_TABLE
+    322          
+    323          pointer _int_get_isr_data
+    324          (
+    325              _mqx_uint vector
+    326          )
+    327          { /* Body */
+    328              KERNEL_DATA_STRUCT_PTR kernel_data;
+    329          
+    330              _GET_KERNEL_DATA(kernel_data);
+    331          #if MQX_CHECK_ERRORS
+    332              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    333              {
+    334                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    335                  return(NULL);
+    336              } /* Endif */
+    337              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    338                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    339              {
+    340                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    341                  return(NULL);
+    342              }/* Endif */
+    343          #endif
+    344          
+    345              vector -= kernel_data->FIRST_USER_ISR_VECTOR;
+    346              return(kernel_data->INTERRUPT_TABLE_PTR[vector].APP_ISR_DATA);
+    347          
+    348          } /* Endbody */
+    349          
+    350          #else /* MQX_SPARSE_ISR_TABLE */
+    351          
+    352          pointer _int_get_isr_data
+    353          (
+    354              _mqx_uint vector
+    355          )
+    356          {
+    357              KERNEL_DATA_STRUCT_PTR          kernel_data;
+    358              INTERRUPT_SPARSE_REC_STRUCT_PTR int_ptr;
+    359          
+    360              _GET_KERNEL_DATA(kernel_data);
+    361          #if MQX_CHECK_ERRORS
+    362              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    363              {
+    364                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    365                  return(NULL);
+    366              } /* Endif */
+    367              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    368                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    369              {
+    370                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    371                  return(NULL);
+    372              }/* Endif */
+    373          #endif
+    374          
+    375              _int_disable();
+    376          
+    377              int_ptr = kernel_data->INTERRUPT_TABLE_PTR[(vector - kernel_data->FIRST_USER_ISR_VECTOR) >> MQX_SPARSE_ISR_SHIFT];
+    378          
+    379              while (int_ptr && int_ptr->VEC_NUM != vector)
+    380              {
+    381                  int_ptr = int_ptr->NEXT;
+    382              }
+    383          
+    384              _int_enable();
+    385          
+    386              return (int_ptr) ? int_ptr->APP_ISR_DATA : NULL;
+    387          }
+    388          
+    389          #endif /* MQX_SPARSE_ISR_TABLE */
+    390          
+    391          /*!
+    392           * \brief Gets the depth of nesting of the current interrupt stack.
+    393           *
+    394           * \return 0 (An interrupt is not being serviced.)
+    395           * \return 1 (A non-nested interrupt is being serviced.)
+    396           * \return >=2 (A nested interrupt is being serviced.)
+    397           *
+    398           * \see _int_install_isr
+    399           */
+    400          _mqx_uint _int_get_isr_depth(void)
+    401          { /* Body */
+    402              KERNEL_DATA_STRUCT_PTR kernel_data;
+    403          
+    404              _GET_KERNEL_DATA(kernel_data);
+    405              return( kernel_data->IN_ISR );
+    406          } /* Endbody */
+    407          
+    408          /*!
+    409           * \brief Installs the provided function as the default ISR, called whenever an
+    410           * unhandled interrupt occurs.
+    411           *
+    412           * MQX uses the application-provided default ISR for all interrupts for which
+    413           * the application has not installed an application ISR. The ISR handles all
+    414           * unhandled and unexpected interrupts.
+    415           *
+    416           * \param[in] default_isr The new default ISR function.
+    417           *
+    418           * \return Pointer to the default ISR before the function was called.
+    419           *
+    420           * \see _int_get_default_isr
+    421           * \see _int_install_isr
+    422           */
+    423          #if !MQX_SPARSE_ISR_TABLE
+    424          
+    425          INT_ISR_FPTR _int_install_default_isr
+    426          (
+    427              INT_ISR_FPTR default_isr
+    428          )
+    429          { /* Body */
+    430              KERNEL_DATA_STRUCT_PTR      kernel_data;
+    431              INT_ISR_FPTR                old_default_isr;
+    432              INTERRUPT_TABLE_STRUCT_PTR  int_table_ptr;
+    433              _mqx_uint                   number;
+    434          
+    435              _GET_KERNEL_DATA(kernel_data);
+    436              _KLOGE2(KLOG_int_install_default_isr, default_isr);
+    437          
+    438              old_default_isr = kernel_data->DEFAULT_ISR;
+    439              kernel_data->DEFAULT_ISR = default_isr;
+    440          
+    441              int_table_ptr = kernel_data->INTERRUPT_TABLE_PTR;
+    442              if (int_table_ptr != NULL)
+    443              {
+    444                  number = (kernel_data->LAST_USER_ISR_VECTOR -
+    445                                  kernel_data->FIRST_USER_ISR_VECTOR) + 1 + 1;
+    446          
+    447                  while (--number)
+    448                  {
+    449                      if (int_table_ptr->APP_ISR == old_default_isr)
+    450                      {
+    451                          int_table_ptr->APP_ISR = default_isr;
+    452                      } /* Endif */
+    453                      ++int_table_ptr;
+    454                  } /* Endwhile */
+    455              } /* Endif */
+    456          
+    457              _KLOGX2(KLOG_int_install_default_isr, old_default_isr);
+    458          
+    459              return(old_default_isr);
+    460          
+    461          } /* Endbody */
+    462          
+    463          #else /* MQX_SPARSE_ISR_TABLE */
+    464          
+    465          INT_ISR_FPTR _int_install_default_isr
+    466          (
+    467              INT_ISR_FPTR default_isr
+    468          )
+    469          { /* Body */
+    470              KERNEL_DATA_STRUCT_PTR kernel_data;
+    471              INT_ISR_FPTR           old_default_isr;
+    472          
+    473              _GET_KERNEL_DATA(kernel_data);
+    474              _KLOGE2(KLOG_int_install_default_isr, default_isr);
+    475          
+    476              old_default_isr = kernel_data->DEFAULT_ISR;
+    477              kernel_data->DEFAULT_ISR = default_isr;
+    478          
+    479              _KLOGX2(KLOG_int_install_default_isr, old_default_isr);
+    480          
+    481              return(old_default_isr);
+    482          
+    483          } /* Endbody */
+    484          
+    485          #endif /* MQX_SPARSE_ISR_TABLE */
+    486          
+    487          /*!
+    488           * \brief Installs the MQX-provided _int_exception_isr() as the default ISR for
+    489           * unhandled interrupts and exceptions.
+    490           *
+    491           * The exception ISR handler performs the following service:
+    492           * \n If an unhandled interrupt occurs and
+    493           * \n a) A task is running
+    494           * \n - If the task has an exception handler, this handler is called
+    495           * \n - Otherwise, the task is aborted (_task_abort)
+    496           * \n b) An ISR is running
+    497           * \n - If the ISR has an exception handler installed, then the exception handler
+    498           * is called. Finally, both exception and ISR interrupt frames are removed.
+    499           *
+    500           * \return Pointer to the default exception handler before the function was called.
+    501           *
+    502           * \see _int_get_default_isr
+    503           */
+    504          INT_ISR_FPTR _int_install_exception_isr
+    505          (
+    506              void
+    507          )
+    508          { /* Body */
+    509              KERNEL_DATA_STRUCT_PTR kernel_data;
+    510          
+    511              _GET_KERNEL_DATA(kernel_data);
+    512              kernel_data->FLAGS |= MQX_FLAGS_EXCEPTION_HANDLER_INSTALLED;
+    513              return(_int_install_default_isr(_int_exception_isr));
+    514          
+    515          } /* Endbody */
+    516          
+    517          /*!
+    518           * \brief Installs the ISR.
+    519           *
+    520           * The application defines the ISR data, which can be a constant or a pointer to
+    521           * a memory block from _mem_alloc().
+    522           * \n MQX catches all hardware interrupts in the range that the BSP defined and saves
+    523           * the context of the active task. For most interrupts, MQX calls the ISR that is
+    524           * stored in the interrupt vector table at the location identified by its interrupt
+    525           * vector number.
+    526           *
+    527           * \param[in] vector   Vector number (not the offset) of the interrupt.
+    528           * \param[in] isr_ptr  Pointer to the ISR
+    529           * \param[in] isr_data Pointer to the data to be passed as the first parameter to
+    530           * the ISR when an interrupt occurs and the ISR runs
+    531           *
+    532           * \return Pointer to the ISR for the vector before calling the function.
+    533           * \return NULL (Failure.)
+    534           *
+    535           * \see _int_get_default_isr
+    536           * \see _int_install_default_isr
+    537           * \see _int_get_isr_data
+    538           * \see _int_set_isr_data
+    539           * \see _int_get_isr
+    540           * \see _task_set_error
+    541           */
+    542          #if !MQX_SPARSE_ISR_TABLE
+    543          
+    544          INT_ISR_FPTR _int_install_isr
+    545          (
+    546              _mqx_uint        vector,
+    547              INT_ISR_FPTR     isr_ptr,
+    548              pointer          isr_data
+    549          )
+    550          { /* Body */
+    551              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    552              INTERRUPT_TABLE_STRUCT_PTR table_ptr;
+    553              INT_ISR_FPTR               old_isr_ptr;
+    554          
+    555              _GET_KERNEL_DATA(kernel_data);
+    556          
+    557              _KLOGE4(KLOG_int_install_isr, vector, isr_ptr, isr_data);
+    558          
+    559          #if MQX_CHECK_ERRORS
+    560              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    561              {
+    562                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    563                  return(NULL);
+    564              } /* Endif */
+    565              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    566                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    567              {
+    568                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    569                  _KLOGX2(KLOG_int_install_isr, NULL);
+    570                  return(NULL);
+    571              }/* Endif */
+    572          #endif
+    573          
+    574              table_ptr = &kernel_data->INTERRUPT_TABLE_PTR[vector -
+    575                                                            kernel_data->FIRST_USER_ISR_VECTOR];
+    576          
+    577              _int_disable();
+    578              old_isr_ptr = table_ptr->APP_ISR;
+    579              table_ptr->APP_ISR  = isr_ptr;
+    580              table_ptr->APP_ISR_DATA = isr_data;
+    581              _int_enable();
+    582          
+    583              _KLOGX2(KLOG_int_install_isr, old_isr_ptr);
+    584          
+    585              return (old_isr_ptr);
+    586          
+    587          } /* Endbody */
+    588          
+    589          #else /* MQX_SPARSE_ISR_TABLE */
+    590          
+    591          INT_ISR_FPTR _int_install_isr
+    592          (
+    593              _mqx_uint        vector,
+    594              INT_ISR_FPTR     isr_ptr,
+    595              pointer          isr_data
+    596          )
+    597          { /* Body */
+    598              KERNEL_DATA_STRUCT_PTR          kernel_data;
+    599              INTERRUPT_SPARSE_REC_STRUCT_PTR int_ptr;
+    600              INT_ISR_FPTR                    old_isr_ptr;
+    601          
+    602              _GET_KERNEL_DATA(kernel_data);
+    603          
+    604              _KLOGE4(KLOG_int_install_isr, vector, isr_ptr, isr_data);
+    605          
+    606          #if MQX_CHECK_ERRORS
+    607              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    608              {
+    609                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    610                  return(NULL);
+    611              } /* Endif */
+    612              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    613                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    614              {
+    615                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    616                  _KLOGX2(KLOG_int_install_isr, NULL);
+    617                  return(NULL);
+    618              }/* Endif */
+    619          #endif
+    620          
+    621              _int_disable();
+    622          
+    623              int_ptr = kernel_data->INTERRUPT_TABLE_PTR[(vector - kernel_data->FIRST_USER_ISR_VECTOR) >> MQX_SPARSE_ISR_SHIFT];
+    624          
+    625              while (int_ptr && int_ptr->VEC_NUM != vector)
+    626              {
+    627                  int_ptr = int_ptr->NEXT;
+    628              }
+    629          
+    630              if (!int_ptr)
+    631              {
+    632          #if MQX_LITE_VERSION_NUMBER
+    633                  int_ptr = &sparse_struct;
+    634          #else
+    635                  int_ptr = _mem_alloc_system(sizeof(INTERRUPT_SPARSE_REC_STRUCT));
+    636                  _mem_set_type(int_ptr, MEM_TYPE_INTERRUPT_VECTOR);
+    637          #endif
+    638          
+    639                  int_ptr->NEXT = kernel_data->INTERRUPT_TABLE_PTR[(vector - kernel_data->FIRST_USER_ISR_VECTOR) >> MQX_SPARSE_ISR_SHIFT];
+    640                  kernel_data->INTERRUPT_TABLE_PTR[(vector - kernel_data->FIRST_USER_ISR_VECTOR) >> MQX_SPARSE_ISR_SHIFT] = int_ptr;
+    641          
+    642                  old_isr_ptr = _int_default_isr;
+    643              }
+    644              else
+    645                  old_isr_ptr = int_ptr->APP_ISR;
+    646          
+    647              int_ptr->VEC_NUM = vector;
+    648              int_ptr->APP_ISR  = isr_ptr;
+    649              int_ptr->APP_ISR_DATA = isr_data;
+    650          
+    651              _int_enable();
+    652          
+    653              _KLOGX2(KLOG_int_install_isr, old_isr_ptr);
+    654          
+    655              return (old_isr_ptr);
+    656          
+    657          } /* Endbody */
+    658          
+    659          #endif /* MQX_SPARSE_ISR_TABLE */
+    660          
+    661          /*!
+    662           * \brief Installs the MQX-provided unexpected ISR, _int_unexpected_isr(), for all
+    663           * interrupts that do not have an application-installed ISR.
+    664           *
+    665           * The installed ISR writes the cause of the unexpected interrupt to the standard
+    666           * I/O stream.
+    667           *
+    668           * \return Pointer to the unexpected interrupt ISR before the function was called.
+    669           *
+    670           * \see _int_install_exception_isr
+    671           * \see _int_unexpected_isr
+    672           */
+    673          INT_ISR_FPTR _int_install_unexpected_isr
+    674          (
+    675              void
+    676          )
+    677          { /* Body */
+    678              KERNEL_DATA_STRUCT_PTR kernel_data;
+    679          
+    680              _GET_KERNEL_DATA(kernel_data);
+    681              kernel_data->FLAGS &= ~MQX_FLAGS_EXCEPTION_HANDLER_INSTALLED;
+    682          
+    683              return(_int_install_default_isr(_int_unexpected_isr));
+    684          
+    685          } /* Endbody */
+    686          
+    687          /*!
+    688           * \brief Sets the ISR exception handler for the interrupt vector.
+    689           *
+    690           * The function sets the exception handler for an ISR. When an exception (unhandled
+    691           * interrupt) occurs while the ISR is running, MQX calls the exception handler
+    692           * and terminates the ISR.
+    693           * \n An application should install _int_exception_isr() as the MQX default ISR.
+    694           * \n The returned exception handler is either the default handler or one that the
+    695           * application previously installed with _int_set_exception_handler().
+    696           *
+    697           * \param[in] vector                Interrupt vector that this exception handler is for.
+    698           * \param[in] error_handler_address Pointer to the exception handler.
+    699           *
+    700           * \return Pointer to the exception handler before the function was called.
+    701           * \return NULL (Failure.)
+    702           *
+    703           * \warning On failure, the exception handler is not installed and _task_set_error()
+    704           * is called to set the task error code.
+    705           *
+    706           * \see _int_get_exception_handler
+    707           * \see _int_exception_isr
+    708           * \see _task_set_error
+    709           */
+    710          #if !MQX_SPARSE_ISR_TABLE
+    711          
+    712          INT_EXCEPTION_FPTR _int_set_exception_handler
+    713          (
+    714              _mqx_uint              vector,
+    715              INT_EXCEPTION_FPTR error_handler_address
+    716          )
+    717          { /* Body */
+    718              KERNEL_DATA_STRUCT_PTR kernel_data;
+    719              INT_EXCEPTION_FPTR     old_handler = NULL;
+    720          
+    721              _GET_KERNEL_DATA(kernel_data);
+    722              _KLOGE3(KLOG_int_set_exception_handler, vector, error_handler_address);
+    723          
+    724          #if MQX_CHECK_ERRORS
+    725              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    726              {
+    727                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    728                  _KLOGX2(KLOG_int_set_exception_handler, NULL);
+    729                  return(NULL);
+    730              } /* Endif */
+    731              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    732                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    733              {
+    734                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    735                  _KLOGX2(KLOG_int_set_exception_handler, NULL);
+    736                  return(NULL);
+    737              } /* Endif */
+    738          #endif
+    739          
+    740              vector -= kernel_data->FIRST_USER_ISR_VECTOR;
+    741          
+    742              old_handler = kernel_data->INTERRUPT_TABLE_PTR[vector].APP_ISR_EXCEPTION_HANDLER;
+    743              kernel_data->INTERRUPT_TABLE_PTR[vector].APP_ISR_EXCEPTION_HANDLER = error_handler_address;
+    744          
+    745              _KLOGX2(KLOG_int_set_exception_handler, old_handler);
+    746              return(old_handler);
+    747          } /* Endbody */
+    748          
+    749          #else /* MQX_SPARSE_ISR_TABLE */
+    750          
+    751          INT_EXCEPTION_FPTR _int_set_exception_handler
+    752          (
+    753              _mqx_uint              vector,
+    754              INT_EXCEPTION_FPTR error_handler_address
+    755          )
+    756          {
+    757              KERNEL_DATA_STRUCT_PTR kernel_data;
+    758              INT_EXCEPTION_FPTR old_handler = NULL;
+    759              INTERRUPT_SPARSE_REC_STRUCT_PTR int_ptr;
+    760          
+    761              _GET_KERNEL_DATA(kernel_data);
+    762              _KLOGE3(KLOG_int_set_exception_handler, vector, error_handler_address);
+    763          
+    764          #if MQX_CHECK_ERRORS
+    765              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    766              {
+    767                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    768                  _KLOGX2(KLOG_int_set_exception_handler, NULL);
+    769                  return (NULL);
+    770              }
+    771          
+    772              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    773                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    774              {
+    775                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    776                  _KLOGX2(KLOG_int_set_exception_handler, NULL);
+    777                  return (NULL);
+    778              }
+    779          #endif
+    780          
+    781              _int_disable();
+    782          
+    783              int_ptr = kernel_data->INTERRUPT_TABLE_PTR[(vector - kernel_data->FIRST_USER_ISR_VECTOR) >> MQX_SPARSE_ISR_SHIFT];
+    784          
+    785              while (int_ptr && int_ptr->VEC_NUM != vector)
+    786              {
+    787                  int_ptr = int_ptr->NEXT;
+    788              }
+    789          
+    790              if (!int_ptr)
+    791              {
+    792          #if MQX_LITE_VERSION_NUMBER
+    793                  int_ptr = &sparse_struct;
+    794          #else
+    795                  int_ptr = _mem_alloc_system(sizeof(INTERRUPT_SPARSE_REC_STRUCT));
+    796                  _mem_set_type(int_ptr, MEM_TYPE_INTERRUPT_VECTOR);
+    797          #endif
+    798          
+    799                  int_ptr->NEXT = kernel_data->INTERRUPT_TABLE_PTR[(vector - kernel_data->FIRST_USER_ISR_VECTOR) >> MQX_SPARSE_ISR_SHIFT];
+    800                  kernel_data->INTERRUPT_TABLE_PTR[(vector - kernel_data->FIRST_USER_ISR_VECTOR) >> MQX_SPARSE_ISR_SHIFT] = int_ptr;
+    801          
+    802                  old_handler = NULL;
+    803              }
+    804              else
+    805                  old_handler = int_ptr->APP_ISR_EXCEPTION_HANDLER;
+    806          
+    807          
+    808              int_ptr->VEC_NUM = vector;
+    809              int_ptr->APP_ISR_EXCEPTION_HANDLER  = error_handler_address;
+    810          
+    811              _int_enable();
+    812          
+    813              _KLOGX2(KLOG_int_set_exception_handler, old_handler);
+    814              return (old_handler);
+    815          }
+    816          
+    817          #endif /* MQX_SPARSE_ISR_TABLE */
+    818          
+    819          /*!
+    820           * \brief Sets the address of the interrupt handler data for the specified vector,
+    821           * and returns the old value.
+    822           *
+    823           * \param[in] vector The interrupt vector that this data is for.
+    824           * \param[in] data   Data that MQX passes to the ISR as its first parameter.
+    825           *
+    826           * \return ISR data before the function was called.
+    827           * \return NULL (Failure.)
+    828           *
+    829           * \warning On failure, calls _task_set_error() to set the task error code.
+    830           *
+    831           * \see _int_get_isr
+    832           * \see _int_get_isr_data
+    833           */
+    834          #if !MQX_SPARSE_ISR_TABLE
+    835          
+    836          pointer _int_set_isr_data
+    837          (
+    838              _mqx_uint vector,
+    839              pointer data
+    840          )
+    841          { /* Body */
+    842              KERNEL_DATA_STRUCT_PTR kernel_data;
+    843              pointer                old_data;
+    844          
+    845              _GET_KERNEL_DATA(kernel_data);
+    846              _KLOGE3(KLOG_int_set_isr_data,vector,data);
+    847          
+    848          #if MQX_CHECK_ERRORS
+    849              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    850              {
+    851                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    852                  _KLOGX2(KLOG_int_set_isr_data,NULL);
+    853                  return(NULL);
+    854              } /* Endif */
+    855              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    856                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    857              {
+    858                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    859                  _KLOGX2(KLOG_int_set_isr_data,NULL);
+    860                  return(NULL);
+    861              } /* Endif */
+    862          #endif
+    863          
+    864              vector -= (kernel_data->FIRST_USER_ISR_VECTOR);
+    865          
+    866              old_data = kernel_data->INTERRUPT_TABLE_PTR[vector].APP_ISR_DATA;
+    867              kernel_data->INTERRUPT_TABLE_PTR[vector].APP_ISR_DATA = data;
+    868          
+    869              _KLOGX2(KLOG_int_set_isr_data,old_data);
+    870              return old_data;
+    871          
+    872          } /* Endbody */
+    873          
+    874          #else /* MQX_SPARSE_ISR_TABLE */
+    875          
+    876          pointer _int_set_isr_data
+    877          (
+    878              _mqx_uint vector,
+    879              pointer data
+    880          )
+    881          {
+    882              KERNEL_DATA_STRUCT_PTR          kernel_data;
+    883              pointer                         old_data = NULL;
+    884              INTERRUPT_SPARSE_REC_STRUCT_PTR int_ptr;
+    885          
+    886              _GET_KERNEL_DATA(kernel_data);
+    887              _KLOGE3(KLOG_int_set_isr_data,vector,data);
+    888          
+    889          #if MQX_CHECK_ERRORS
+    890              if ( kernel_data->INTERRUPT_TABLE_PTR == NULL )
+    891              {
+    892                  _task_set_error(MQX_COMPONENT_DOES_NOT_EXIST);
+    893                  _KLOGX2(KLOG_int_set_isr_data,NULL);
+    894                  return(NULL);
+    895              } /* Endif */
+    896              if ((vector < kernel_data->FIRST_USER_ISR_VECTOR) ||
+    897                  (vector > kernel_data->LAST_USER_ISR_VECTOR))
+    898              {
+    899                  _task_set_error(MQX_INVALID_VECTORED_INTERRUPT);
+    900                  _KLOGX2(KLOG_int_set_isr_data,NULL);
+    901                  return(NULL);
+    902              } /* Endif */
+    903          #endif
+    904          
+    905              _int_disable();
+    906          
+    907              int_ptr = kernel_data->INTERRUPT_TABLE_PTR[(vector - kernel_data->FIRST_USER_ISR_VECTOR) >> MQX_SPARSE_ISR_SHIFT];
+    908          
+    909              while (int_ptr && int_ptr->VEC_NUM != vector)
+    910              {
+    911                  int_ptr = int_ptr->NEXT;
+    912              }
+    913          
+    914              if (int_ptr)
+    915              {
+    916                  old_data = int_ptr->APP_ISR_DATA;
+    917                  int_ptr->APP_ISR_DATA = data;
+    918              }
+    919          
+    920              _int_enable();
+    921          
+    922              _KLOGX2(KLOG_int_set_isr_data,old_data);
+    923              return old_data;
+    924          }
+    925          
+    926          #endif /* MQX_SPARSE_ISR_TABLE */
+    927          
+    928          /*!
+    929           * \brief This function initializes the kernel interrupt table.
+    930           *
+    931           * \param[in] first_user_isr_vector_number The first (lower) user ISR vector number.
+    932           * \param[in] last_user_isr_vector_number  The last user ISR vector number.
+    933           *
+    934           * \return MQX_OK (Success.)
+    935           * \return MQX_INVALID_PARAMETER (first_user_isr_vector_number is greater than
+    936           * last_user_isr_vector_number.)
+    937           * \return MQX_OUT_OF_MEMORY (Not enough free memory for the interrupt table.)
+    938           */
+    939          _mqx_uint _int_init
+    940          (
+    941              _mqx_uint          first_user_isr_vector_number,
+    942              _mqx_uint          last_user_isr_vector_number
+    943          )
+    944          { /* Body */
+    945              KERNEL_DATA_STRUCT_PTR     kernel_data;
+    946              INTERRUPT_TABLE_STRUCT_PTR int_table_ptr;
+    947              _mqx_uint                  number;
+    948          
+    949          #if MQX_CHECK_ERRORS
+    950              if (last_user_isr_vector_number < first_user_isr_vector_number)
+    951              {
+    952                  return MQX_INVALID_PARAMETER;
+    953              } /* Endif */
+    954          #endif
+    955          
+    956              _GET_KERNEL_DATA(kernel_data);
+    957              kernel_data->INT_KERNEL_ISR_ADDR = _int_kernel_isr;
+    958          
+    959              /* Set the current default ISR for MQX that is called whenever an
+    960               * unhandled interrupt occurs
+    961               */
+    962              kernel_data->DEFAULT_ISR = _int_default_isr;
+    963          
+    964          #if !MQX_SPARSE_ISR_TABLE
+    965              number = last_user_isr_vector_number - first_user_isr_vector_number + 1;
+    966          #else
+    967              number = ((last_user_isr_vector_number - first_user_isr_vector_number + 1) >> MQX_SPARSE_ISR_SHIFT) + 1;
+    968          #endif
+    969          
+    970          #ifdef MQX_LITE_VERSION_NUMBER
+    971              int_table_ptr = mqx_static_isr_table;
+    972          #else
+    973              int_table_ptr = _mem_alloc_system_zero((_mem_size)(sizeof(INTERRUPT_TABLE_STRUCT) * number));
+    974          
+    975          #if MQX_CHECK_MEMORY_ALLOCATION_ERRORS
+    976              if ( int_table_ptr == NULL )
+    977              {
+    978                  return(MQX_OUT_OF_MEMORY);
+    979              }/* Endif */
+    980          #endif /* MQX_CHECK_MEMORY_ALLOCATION_ERRORS */
+    981              _mem_set_type(int_table_ptr, MEM_TYPE_INTERRUPT_TABLE);
+    982          #endif /* MQX_LITE_VERSION_NUMBER */
+    983          
+    984              kernel_data->INTERRUPT_TABLE_PTR   = int_table_ptr;
+    985              kernel_data->FIRST_USER_ISR_VECTOR = first_user_isr_vector_number;
+    986              kernel_data->LAST_USER_ISR_VECTOR  = last_user_isr_vector_number;
+    987          
+    988          #if !MQX_SPARSE_ISR_TABLE
+    989              while (number--)
+    990              {
+    991                  int_table_ptr->APP_ISR      = _int_default_isr;
+    992                  int_table_ptr->APP_ISR_DATA = (pointer)(first_user_isr_vector_number++);
+    993                  ++int_table_ptr;
+    994              } /* Endwhile */
+    995          #else /* MQX_SPARSE_ISR_TABLE */
+    996          
+    997              kernel_data->SPARSE_ISR_COUNT = number;
+    998              kernel_data->SPARSE_ISR_SHIFT = MQX_SPARSE_ISR_SHIFT;
+    999          
+   1000              while (number--)
+   1001              {
+   1002                  int_table_ptr[number] = NULL;
+   1003              }
+   1004          
+   1005          #endif /* MQX_SPARSE_ISR_TABLE */
+   1006          
+   1007              return MQX_OK;
+   1008          
+   1009          } /* Endbody */
+   1010          
+   1011          #endif /* MQX_USE_INTERRUPTS */
+   1012          
+   1013          /* EOF */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   _int_default_isr
+        16   -> _int_disable
+        16   -> _int_enable
+        16   -> _task_set_error_td_internal
+       4   _int_disable
+       4   _int_enable
+       0   _int_get_default_isr
+      16   _int_get_exception_handler
+        16   -> _task_set_error
+      16   _int_get_isr
+        16   -> _task_set_error
+      16   _int_get_isr_data
+        16   -> _task_set_error
+       0   _int_get_isr_depth
+      16   _int_init
+      16   _int_install_default_isr
+       8   _int_install_exception_isr
+         8   -> _int_install_default_isr
+      32   _int_install_isr
+        32   -> _int_disable
+        32   -> _int_enable
+        32   -> _task_set_error
+       8   _int_install_unexpected_isr
+         8   -> _int_install_default_isr
+      24   _int_set_exception_handler
+        24   -> _task_set_error
+      16   _int_set_isr_data
+        16   -> _task_set_error
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable14
+       4  ??DataTable14_1
+       4  ??DataTable14_2
+       4  ??DataTable14_3
+       4  ??DataTable14_4
+       4  ??DataTable14_5
+       4  ??DataTable14_6
+      48  _int_default_isr
+      28  _int_disable
+      46  _int_enable
+       8  _int_get_default_isr
+      62  _int_get_exception_handler
+      60  _int_get_isr
+      62  _int_get_isr_data
+       8  _int_get_isr_depth
+      60  _int_init
+      50  _int_install_default_isr
+      22  _int_install_exception_isr
+      80  _int_install_isr
+      22  _int_install_unexpected_isr
+      76  _int_set_exception_handler
+      74  _int_set_isr_data
+
+ 
+ 734 bytes in section .text
+ 
+ 734 bytes of CODE memory
+
+Errors: none
+Warnings: none

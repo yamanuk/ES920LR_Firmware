@@ -1,0 +1,410 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:59
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\LLWU\Source\llwu.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5690.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\LLWU\Source\llwu.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\llwu.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\llwu.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\LLWU\Source\llwu.c
+      1          /*****************************************************************************
+      2          * llwu file.
+      3          *
+      4          * (c) Copyright 2016, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          #include "llwu.h"
+     13          #include "cmsis_os.h"
+     14          
+     15          extern int re_init_clk;
+     16          extern int clock_freq_hz;
+     17          
+     18          
+     19          /************************************************************************************
+     20          *
+     21          *   function: llwu_configure
+     22          *
+     23          *   description: Set up the LLWU for wakeup the MCU from LLS and VLLSx modes
+     24          *   from the selected pin or module.
+     25          *
+     26          *   inputs:
+     27          *   pin_en - unsigned integer, bit position indicates the pin is enabled.
+     28          *            More than one bit can be set to enable more than one pin at a time.
+     29          *
+     30          *   rise_fall - 0x00 = External input disabled as wakeup
+     31          *               0x01 - External input enabled as rising edge detection
+     32          *               0x02 - External input enabled as falling edge detection
+     33          *               0x03 - External input enablge as any edge detection
+     34          *   module_en - unsigned char, bit position indicates the module is enabled.
+     35          *               More than one bit can be set to enabled more than one module
+     36          *
+     37          *   for example:  if bit 0 and 1 need to be enabled as rising edge detect call this  routine with
+     38          *   pin_en = 0x0003 and rise_fall = 0x02
+     39          *
+     40          *   Note: to set up one set of pins for rising and another for falling, 2 calls to this
+     41          *         function are required, 1st for rising then the second for falling.
+     42          *
+     43          ************************************************************************************/
+     44          void llwu_configure( unsigned int pin_en, unsigned char rise_fall, unsigned char module_en )
+     45          {
+     46              uint8_t temp;
+     47          
+     48          
+     49              osInstallIsr(INT_LLW, LLW_IRQHandler, NULL);
+     50          
+     51              NVIC_ICPR |= 1 << ((INT_LLW-16)%32);
+     52              NVIC_ISER |= 1 << ((INT_LLW-16)%32);
+     53          
+     54              temp = LLWU_PE1;
+     55              if( pin_en & 0x0001 )
+     56              {
+     57                  ;
+     58              }
+     59              if( pin_en & 0x0002 )
+     60              {
+     61                  ;
+     62              }
+     63              if( pin_en & 0x0004 )
+     64              {
+     65                  ;
+     66              }
+     67              if( pin_en & 0x0008 )
+     68              {
+     69                  ;
+     70              }
+     71              LLWU_PE1 = temp;
+     72          
+     73              temp = LLWU_PE2;
+     74              if( pin_en & 0x0010 )
+     75              {
+     76                  ;
+     77              }
+     78              if( pin_en & 0x0020 )
+     79              {
+     80                  temp |= LLWU_PE2_WUPE5(rise_fall);
+     81                  LLWU_F1 |= LLWU_F1_WUF5_MASK;   // write one to clear the flag
+     82              }
+     83              if( pin_en & 0x0040 )
+     84              {
+     85                  temp |= LLWU_PE2_WUPE6(rise_fall);
+     86                  LLWU_F1 |= LLWU_F1_WUF6_MASK;   // write one to clear the flag
+     87              }
+     88              if( pin_en & 0x0080 )
+     89              {
+     90                  temp |= LLWU_PE2_WUPE7(rise_fall);
+     91                  LLWU_F1 |= LLWU_F1_WUF7_MASK;   // write one to clear the flag
+     92              }
+     93              LLWU_PE2 = temp;
+     94          
+     95              temp = LLWU_PE3;
+     96              if( pin_en & 0x0100 )
+     97              {
+     98                  temp |= LLWU_PE3_WUPE8(rise_fall);
+     99                  LLWU_F2 |= LLWU_F2_WUF8_MASK;   // write one to clear the flag
+    100              }
+    101              if( pin_en & 0x0200 )
+    102              {
+    103                  temp |= LLWU_PE3_WUPE9(rise_fall);
+    104                  LLWU_F2 |= LLWU_F2_WUF9_MASK;   // write one to clear the flag
+    105              }
+    106              if( pin_en & 0x0400 )
+    107              {
+    108                  temp |= LLWU_PE3_WUPE10(rise_fall);
+    109                  LLWU_F2 |= LLWU_F2_WUF10_MASK;   // write one to clear the flag
+    110              }
+    111              if( pin_en & 0x0800 )
+    112              {
+    113                  temp |= LLWU_PE3_WUPE11(rise_fall);
+    114                  LLWU_F2 |= LLWU_F2_WUF11_MASK;   // write one to clear the flag
+    115              }
+    116              LLWU_PE3 = temp;
+    117          
+    118              temp = LLWU_PE4;
+    119              if( pin_en & 0x1000 )
+    120              {
+    121                  temp |= LLWU_PE4_WUPE12(rise_fall);
+    122                  LLWU_F2 |= LLWU_F2_WUF12_MASK;   // write one to clear the flag
+    123              }
+    124              if( pin_en & 0x2000 )
+    125              {
+    126                  temp |= LLWU_PE4_WUPE13(rise_fall);
+    127                  LLWU_F2 |= LLWU_F2_WUF13_MASK;   // write one to clear the flag
+    128              }
+    129              if( pin_en & 0x4000 )
+    130              {
+    131                  temp |= LLWU_PE4_WUPE14(rise_fall);
+    132                  LLWU_F2 |= LLWU_F2_WUF14_MASK;   // write one to clear the flag
+    133              }
+    134              if( pin_en & 0x8000 )
+    135              {
+    136                  temp |= LLWU_PE4_WUPE15(rise_fall);
+    137                  LLWU_F2 |= LLWU_F2_WUF15_MASK;   // write one to clear the flag
+    138              }
+    139              LLWU_PE4 = temp;
+    140          
+    141              if( module_en == 0 )
+    142              {
+    143                  LLWU_ME = 0;
+    144              }
+    145              else
+    146              {
+    147                  LLWU_ME |= module_en;  //Set up more modules to wakeup up
+    148              }
+    149          }
+    150          
+    151          /************************************************************************************
+    152          *
+    153          * llwu_configure_filter
+    154          *
+    155          ************************************************************************************/
+    156          void llwu_configure_filter( unsigned int wu_pin_num, unsigned char filter_en, unsigned char rise_fall )
+    157          {
+    158              /* wu_pin_num is the pin number to be written to FILTSEL.  wu_pin_num is not the same as pin_en. */
+    159              uint8_t temp;
+    160          
+    161          
+    162              temp = 0;
+    163          
+    164              /* first clear filter values and clear flag by writing a 1 */
+    165              LLWU_FILT1 = LLWU_FILT1_FILTF_MASK;
+    166              LLWU_FILT2 = LLWU_FILT2_FILTF_MASK;
+    167          
+    168              if(filter_en == 1)
+    169              {
+    170                  /*clear the flag bit and set the others */
+    171                  temp |= (LLWU_FILT1_FILTF_MASK) | (LLWU_FILT1_FILTE(rise_fall) | LLWU_FILT1_FILTSEL(wu_pin_num));
+    172                  LLWU_FILT1 = temp;
+    173              }
+    174              else if (filter_en == 2)
+    175              {
+    176                  /* clear the flag bit and set the others */
+    177                  temp |= (LLWU_FILT2_FILTF_MASK) | (LLWU_FILT2_FILTE(rise_fall) | LLWU_FILT2_FILTSEL(wu_pin_num));
+    178                  LLWU_FILT2 = temp;
+    179              }
+    180              else
+    181              {
+    182                  ;
+    183              }
+    184          }
+    185          
+    186          /************************************************************************************
+    187          *
+    188          * Interrupt handler for LLWU
+    189          *
+    190          ************************************************************************************/
+    191          void LLW_IRQHandler( void *param )
+    192          {
+    193              if (LLWU_F1 & LLWU_F1_WUF5_MASK)
+    194              {
+    195                  LLWU_F1 |= LLWU_F1_WUF5_MASK;   // write one to clear the flag
+    196              }
+    197              if (LLWU_F1 & LLWU_F1_WUF6_MASK)
+    198              {
+    199                  LLWU_F1 |= LLWU_F1_WUF6_MASK;   // write one to clear the flag
+    200              }
+    201              if (LLWU_F1 & LLWU_F1_WUF7_MASK)
+    202              {
+    203                  LLWU_F1 |= LLWU_F1_WUF7_MASK;   // write one to clear the flag
+    204              }
+    205              if (LLWU_F2 & LLWU_F2_WUF8_MASK)
+    206              {
+    207                  LLWU_F2 |= LLWU_F2_WUF8_MASK;   // write one to clear the flag
+    208              }
+    209              if (LLWU_F2 & LLWU_F2_WUF9_MASK)
+    210              {
+    211                  LLWU_F2 |= LLWU_F2_WUF9_MASK;   // write one to clear the flag
+    212              }
+    213              if (LLWU_F2 & LLWU_F2_WUF10_MASK)
+    214              {
+    215                  LLWU_F2 |= LLWU_F2_WUF10_MASK;   // write one to clear the flag
+    216              }
+    217              if (LLWU_F2 & LLWU_F2_WUF11_MASK)
+    218              {
+    219                  LLWU_F2 |= LLWU_F2_WUF11_MASK;   // write one to clear the flag
+    220              }
+    221              if (LLWU_F2 & LLWU_F2_WUF12_MASK)
+    222              {
+    223                  LLWU_F2 |= LLWU_F2_WUF12_MASK;   // write one to clear the flag
+    224              }
+    225              if (LLWU_F2 & LLWU_F2_WUF13_MASK)
+    226              {
+    227                  LLWU_F2 |= LLWU_F2_WUF13_MASK;   // write one to clear the flag
+    228              }
+    229              if (LLWU_F2 & LLWU_F2_WUF14_MASK)
+    230              {
+    231                  LLWU_F2 |= LLWU_F2_WUF14_MASK;   // write one to clear the flag
+    232              }
+    233              if (LLWU_F2 & LLWU_F2_WUF15_MASK)
+    234              {
+    235                  LLWU_F2 |= LLWU_F2_WUF15_MASK;   // write one to clear the flag
+    236              }
+    237          
+    238              /************************************************************************
+    239              * Note: This ISR does not write to the LLWU_F3 register because these
+    240              * are peripheral module wakeups.  The flags contained in the LLWU_F3
+    241              * register should be cleared through the associated module interrupt
+    242              * and not through the LLWU_F3 per the Kinetis L Family Reference
+    243              * Manual (LLWU Chapter)
+    244              **********************************************************************/
+    245              if (LLWU_F3 & LLWU_F3_MWUF0_MASK)
+    246              {
+    247                  SIM_SCGC5  |= SIM_SCGC5_LPTMR_MASK;
+    248                  LPTMR0_CSR |=  LPTMR_CSR_TCF_MASK;   // write 1 to TCF to clear the LPT timer compare flag
+    249                  LPTMR0_CSR = ( LPTMR_CSR_TEN_MASK | LPTMR_CSR_TIE_MASK | LPTMR_CSR_TCF_MASK  );
+    250              }
+    251              if(LLWU_FILT1 & LLWU_FILT1_FILTF_MASK)
+    252              {
+    253                  LLWU_FILT1 |= LLWU_FILT1_FILTF_MASK;
+    254              }
+    255              if(LLWU_FILT2 & LLWU_FILT2_FILTF_MASK)
+    256              {
+    257                  LLWU_FILT2 |= LLWU_FILT2_FILTF_MASK;
+    258              }
+    259              NVIC_ICPR |= 1 << ((INT_LLW-16)%32);
+    260          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   LLW_IRQHandler
+      24   llwu_configure
+        24   -> osInstallIsr
+      20   llwu_configure_filter
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_10
+       4  ??DataTable2_11
+       4  ??DataTable2_12
+       4  ??DataTable2_13
+       4  ??DataTable2_14
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+       4  ??DataTable2_5
+       4  ??DataTable2_6
+       4  ??DataTable2_7
+       4  ??DataTable2_8
+       4  ??DataTable2_9
+     238  LLW_IRQHandler
+     334  llwu_configure
+      72  llwu_configure_filter
+
+ 
+ 704 bytes in section .text
+ 
+ 704 bytes of CODE memory
+
+Errors: none
+Warnings: none

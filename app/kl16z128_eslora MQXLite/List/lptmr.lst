@@ -1,0 +1,265 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:59
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\LPTMR\Source\lptmr.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW56C0.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\LPTMR\Source\lptmr.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\lptmr.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\lptmr.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Portable\LPTMR\Source\lptmr.c
+      1          /*****************************************************************************
+      2          * lptmr file.
+      3          *
+      4          * (c) Copyright 2014, EASEL, Inc.  All rights reserved.
+      5          *
+      6          * No part of this document may be reproduced in any form - including copied,
+      7          * transcribed, printed or by any electronic means - without specific written
+      8          * permission from EASEL.
+      9          *
+     10          *****************************************************************************/
+     11          
+     12          #include "lptmr.h"
+     13          #include "BME.h"
+     14          #include "cmsis_os.h"
+     15          
+     16          
+     17          /*******************************************************************************
+     18          *
+     19          *   PROCEDURE NAME:
+     20          *       lptmr_init -
+     21          *
+     22          *******************************************************************************/
+     23          void LPTMR_init( int count, int mode, int clock_source )
+     24          {
+     25              SIM_SCGC5 |= SIM_SCGC5_LPTMR_MASK;
+     26          
+     27              osInstallIsr(INT_LPTimer, LPTMR_IRQHandler, NULL);
+     28          
+     29              NVIC_ICPR |= 1 << ((INT_LPTimer-16)%32);
+     30              NVIC_ISER |= 1 << ((INT_LPTimer-16)%32);
+     31          
+     32              if( DIV_0 == mode )
+     33              {
+     34                  LPTMR0_PSR = ( LPTMR_PSR_PRESCALE(0)            // 0000 is div 2
+     35                               | LPTMR_PSR_PBYP_MASK              // LPO feeds directly to LPT
+     36                               | LPTMR_PSR_PCS(clock_source)) ;   // use the choice of clock
+     37          
+     38                  count = count * 100;
+     39              }
+     40              else if( DIV_512 == mode )
+     41              {
+     42                  LPTMR0_PSR = ( LPTMR_PSR_PRESCALE(8)            // 0000 is div 2
+     43                               | LPTMR_PSR_PCS(clock_source)) ;   // use the choice of clock
+     44          
+     45                  count = count * 100 / 512;
+     46              }
+     47              else
+     48              {
+     49                  LPTMR0_PSR = ( LPTMR_PSR_PRESCALE(10)           // 0000 is div 2
+     50                               | LPTMR_PSR_PCS(clock_source)) ;   // use the choice of clock
+     51          
+     52                  count = count * 100 / 2048;
+     53              }
+     54          
+     55              LPTMR0_CMR = LPTMR_CMR_COMPARE(count);    //Set compare value
+     56          
+     57              LPTMR0_CSR =(  LPTMR_CSR_TCF_MASK   // Clear any pending interrupt
+     58                           | LPTMR_CSR_TIE_MASK   // LPT interrupt enabled
+     59                           | LPTMR_CSR_TPS(0)     // TMR pin select
+     60                           |!LPTMR_CSR_TPP_MASK   // TMR Pin polarity
+     61                           |!LPTMR_CSR_TFC_MASK   // Timer Free running counter is reset whenever TMR counter equals compare
+     62                           |!LPTMR_CSR_TMS_MASK   // LPTMR0 as Timer
+     63                          );
+     64              LPTMR0_CSR |= LPTMR_CSR_TEN_MASK;   //Turn on LPT and start counting
+     65          }
+     66          
+     67          /************************************************************************************
+     68          *
+     69          * LPTMR_IRQHandler
+     70          *
+     71          ************************************************************************************/
+     72          void LPTMR_IRQHandler( void *param )
+     73          {
+     74              volatile unsigned int dummyread;
+     75          
+     76              if(MCM_CPO & MCM_CPO_CPOACK_MASK)
+     77              {
+     78                  MCM_CPO &= ~MCM_CPO_CPOREQ_MASK;
+     79                  while (MCM_CPO & MCM_CPO_CPOACK_MASK);
+     80              }
+     81              SIM_SCGC5 |= SIM_SCGC5_LPTMR_MASK;
+     82          
+     83              LPTMR0_CSR |=  LPTMR_CSR_TCF_MASK;   // write 1 to TCF to clear the LPT timer compare flag
+     84              LPTMR0_CSR = ( LPTMR_CSR_TEN_MASK | LPTMR_CSR_TIE_MASK | LPTMR_CSR_TCF_MASK  );
+     85          
+     86              // enable timer
+     87              // enable interrupts
+     88              // clear the flag
+     89              /*wait for write to complete to  before returning */
+     90              dummyread = LPTMR0_CSR;
+     91          
+     92              return;
+     93          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   BME_AND_B
+       0   BME_AND_H
+       0   BME_AND_W
+       8   BME_BFI_B
+       8   BME_BFI_H
+       8   BME_BFI_W
+       0   BME_OR_B
+       0   BME_OR_H
+       0   BME_OR_W
+       0   BME_UBFX_B
+       0   BME_UBFX_H
+       0   BME_UBFX_W
+       0   BME_XOR_B
+       0   BME_XOR_H
+       0   BME_XOR_W
+      12   LPTMR_IRQHandler
+      24   LPTMR_init
+        24   -> osInstallIsr
+        24 __aeabi_idiv
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+       4  ??DataTable2_5
+       4  ??DataTable2_6
+       4  ??DataTable2_7
+      10  BME_AND_B
+      10  BME_AND_H
+      10  BME_AND_W
+      32  BME_BFI_B
+      32  BME_BFI_H
+      32  BME_BFI_W
+      10  BME_OR_B
+      10  BME_OR_H
+      10  BME_OR_W
+      26  BME_UBFX_B
+      26  BME_UBFX_H
+      24  BME_UBFX_W
+      10  BME_XOR_B
+      10  BME_XOR_H
+      10  BME_XOR_W
+      60  LPTMR_IRQHandler
+     150  LPTMR_init
+
+ 
+ 504 bytes in section .text
+ 
+ 504 bytes of CODE memory
+
+Errors: none
+Warnings: none

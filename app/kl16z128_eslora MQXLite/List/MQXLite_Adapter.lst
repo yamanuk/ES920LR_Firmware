@@ -1,0 +1,1724 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:00
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\OSAbstraction\MQXLite\Source\MQXLite_Adapter.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5BD1.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\OSAbstraction\MQXLite\Source\MQXLite_Adapter.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\MQXLite_Adapter.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\MQXLite_Adapter.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\OSAbstraction\MQXLite\Source\MQXLite_Adapter.c
+      1          /*!
+      2          * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      3          * All rights reserved.
+      4          *
+      5          * \file MQXLite_Adapter.c
+      6          * This is the source file for the OS Abstraction layer for MQXLite.
+      7          *
+      8          * Redistribution and use in source and binary forms, with or without modification,
+      9          * are permitted provided that the following conditions are met:
+     10          *
+     11          * o Redistributions of source code must retain the above copyright notice, this list
+     12          *   of conditions and the following disclaimer.
+     13          *
+     14          * o Redistributions in binary form must reproduce the above copyright notice, this
+     15          *   list of conditions and the following disclaimer in the documentation and/or
+     16          *   other materials provided with the distribution.
+     17          *
+     18          * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     19          *   contributors may be used to endorse or promote products derived from this
+     20          *   software without specific prior written permission.
+     21          *
+     22          * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     23          * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     24          * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     25          * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     26          * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     27          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     28          * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     29          * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     30          * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     31          * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     32          */
+     33          
+     34          /*! *********************************************************************************
+     35          *************************************************************************************
+     36          * Include
+     37          *************************************************************************************
+     38          ********************************************************************************** */
+     39          
+     40          #include "EmbeddedTypes.h"
+     41          #include "cmsis_os.h"
+     42          
+     43          #include <string.h>
+     44          #include "GenericList.h"
+     45          #include "mqxlite.h"
+     46          #include "lwmsgq.h"
+     47          #include "lwevent.h"
+     48          #include "mutex.h"
+     49          #include "lwtimer.h"
+     50          
+     51          #define gHighestThreadPriority_c 3
+     52          #define gLowestThreadPriority_c 31
+     53          
+     54          #define priorityAdjust(priority) ((gHighestThreadPriority_c + gLowestThreadPriority_c) -    \
+     55                                            ((gHighestThreadPriority_c + gLowestThreadPriority_c)>>1) - \
+     56                                            priority)
+     57          
+     58          #define millisecToTicks(millisec) ((millisec * _time_get_ticks_per_sec() + 999)/1000)
+     59          
+     60          #ifdef DEBUG_ASSERT
+     61          #define OS_ASSERT(condition) if(!(condition))while(1);
+     62          #else
+     63          #define OS_ASSERT(condition) (void)(condition);
+     64          #endif
+     65          
+     66          #define osHeapSize ( (osNumberOfSemaphores * sizeof(LWSEM_STRUCT)) + \
+     67                               (osNumberOfMutexes * (sizeof(MUTEX_STRUCT) + sizeof(MUTEX_ATTR_STRUCT))) + \
+     68                               (osNumberOfTimers * (sizeof(LWTIMER_STRUCT) + \
+     69                                                    sizeof(LWTIMER_PERIOD_STRUCT) + \
+     70                                                    sizeof(void *) + \
+     71                                                    sizeof(void *) + \
+     72                                                    sizeof(os_timer_type))) + \
+     73                               (osNumberOfMessageQs * sizeof(LWMSGQ_STRUCT)) + (osNumberOfMessages * sizeof(int)) )
+     74          
+     75          void* osBufferAlloc(uint32_t numBytes);
+     76          void osBufferFree(void* buffer);
+     77          void TimerMQXLiteCallback(void *argument);
+     78          extern void MainThread(void const *argument);
+     79          void MainThreadWrapper(void const *argument);
+     80          
+     81          extern const TASK_TEMPLATE_STRUCT MQX_template_list[];
+     82          
+     83          list_t threadList;
+     84          uint8_t osHeap[osHeapSize];
+     85          uint8_t *osHeapPtr = osHeap, *lastAllocatedBuffer = NULL;
+     86          
+     87          /*! *********************************************************************************
+     88          *************************************************************************************
+     89          * Public functions
+     90          *************************************************************************************
+     91          ********************************************************************************** */
+     92          /*! *********************************************************************************
+     93          * \brief   Wrapper over MainThread.
+     94          *
+     95          * \param[in] param - Parameter to pass to the thread.
+     96          *
+     97          * \return void.
+     98          *
+     99          * \pre
+    100          *
+    101          * \post
+    102          *
+    103          * \remarks
+    104          *
+    105          ********************************************************************************** */
+    106          void MainThreadWrapper(void const *argument)
+    107          {
+    108            static osThreadLink_t osMainThreadLink;
+    109            static osThreadDef_t osMainThreadDef;
+    110            static LWEVENT_STRUCT osMainThreadSignal;
+    111          
+    112            ListInit(&threadList, 0);
+    113            _lwevent_create(&osMainThreadSignal, 0);
+    114          
+    115            osMainThreadDef.pthread = (os_pthread)MQX_template_list[0].TASK_ADDRESS;
+    116            osMainThreadDef.instances = 1;
+    117            osMainThreadDef.tlink = &osMainThreadLink;
+    118            osMainThreadDef.tname = MQX_template_list[0].TASK_NAME;
+    119            osMainThreadDef.tpriority = (osPriority)priorityAdjust(MQX_template_list[0].TASK_PRIORITY);
+    120            osMainThreadDef.tstack = NULL;
+    121            osMainThreadDef.stacksize = MQX_template_list[0].TASK_STACKSIZE;
+    122          
+    123            osMainThreadLink.osThreadDefHandle = &osMainThreadDef;
+    124            osMainThreadLink.osThreadId = osThreadGetId();
+    125            osMainThreadLink.osThreadStackHandle = NULL;
+    126            osMainThreadLink.osThreadSignalHandle = &osMainThreadSignal;
+    127          
+    128            ListAddTail(&threadList, (listElementHandle_t)&osMainThreadLink.link);
+    129          
+    130            MainThread(argument);
+    131          
+    132            while(1);
+    133          }
+    134          
+    135          /*! *********************************************************************************
+    136          * \brief   Starts a thread dinamically.
+    137          *
+    138          * \param[in] threadDef - Definition of the thread.
+    139          *            param - Parameter to pass to the new thread.
+    140          *
+    141          * \return Thread handle of the new thread, or NULL if failed.
+    142          *
+    143          * \pre
+    144          *
+    145          * \post
+    146          *
+    147          * \remarks
+    148          *
+    149          ********************************************************************************** */
+    150          osThreadId osThreadCreate (osThreadDef_t *thread_def, void *argument)
+    151          {
+    152            osThreadId thread_id;
+    153            static uint32_t TASK_TEMPLATE_INDEX = 1;
+    154            TASK_TEMPLATE_STRUCT taskTemplate;
+    155            uint8_t *threadStackPtr, *stackPtr;
+    156            uint8_t *threadSignalPtr, *signalPtr;
+    157            osThreadLinkHandle_t threadLinkHandle;
+    158            osPriority oldPriority;
+    159          
+    160            if(thread_def->instances == 0)
+    161            {
+    162              return NULL;
+    163            }
+    164          
+    165            /*Change priority to avoid context switches*/
+    166            oldPriority = osThreadGetPriority(osThreadGetId());
+    167            osThreadSetPriority(osThreadGetId(), osPriorityRealtime);
+    168          
+    169            thread_def->instances--;
+    170          
+    171            stackPtr = thread_def->tstack;
+    172            signalPtr = thread_def->tsignal;
+    173            threadStackPtr = NULL;
+    174          
+    175            while(threadStackPtr == NULL)
+    176            {
+    177              threadLinkHandle = (osThreadLinkHandle_t)ListGetHead(&threadList);
+    178              while (threadLinkHandle != NULL)
+    179              {
+    180                if(stackPtr == threadLinkHandle->osThreadStackHandle)
+    181                {
+    182                  break; /*Stack is used by another thread*/
+    183                }
+    184                else
+    185                {
+    186                  threadLinkHandle = (osThreadLinkHandle_t)ListGetNext((listElementHandle_t)&threadLinkHandle->link); /*Check next thread*/
+    187                }
+    188              }
+    189              if(threadLinkHandle == NULL)
+    190              {
+    191                threadStackPtr = stackPtr; /*Stack not taken, use it*/
+    192                threadSignalPtr = signalPtr; /*Use signal*/
+    193                break;
+    194              }
+    195              else
+    196              {
+    197                stackPtr = stackPtr + thread_def->stacksize; /*Go to next stack*/
+    198                signalPtr = signalPtr + sizeof(LWEVENT_STRUCT); /*Go to next signal*/
+    199              }
+    200            }
+    201          
+    202            threadLinkHandle = thread_def->tlink;
+    203          
+    204            while(ListGetList((listElementHandle_t)&threadLinkHandle->link) == &threadList)
+    205            {
+    206              threadLinkHandle = threadLinkHandle + 1; /*Go to next link element*/
+    207            }
+    208          
+    209            TASK_TEMPLATE_INDEX++;
+    210          
+    211            taskTemplate.TASK_TEMPLATE_INDEX = TASK_TEMPLATE_INDEX;
+    212            taskTemplate.TASK_ADDRESS = (TASK_FPTR)(thread_def->pthread);
+    213            taskTemplate.TASK_STACKSIZE = thread_def->stacksize;
+    214            taskTemplate.TASK_PRIORITY = priorityAdjust(thread_def->tpriority);
+    215            taskTemplate.TASK_NAME = thread_def->tname;
+    216            taskTemplate.TASK_ATTRIBUTES = 0;
+    217            taskTemplate.CREATION_PARAMETER = (uint_32)argument;
+    218          
+    219            _lwevent_create((LWEVENT_STRUCT_PTR)threadSignalPtr, 0);
+    220          
+    221            ListAddTail(&threadList, (listElementHandle_t)&threadLinkHandle->link);
+    222          
+    223            thread_id = (void *)_task_create_at(0,0,(uint_32)&taskTemplate,threadStackPtr,thread_def->stacksize);
+    224          
+    225            threadLinkHandle->osThreadDefHandle = thread_def;
+    226            threadLinkHandle->osThreadId = thread_id;
+    227            threadLinkHandle->osThreadStackHandle = threadStackPtr;
+    228            threadLinkHandle->osThreadSignalHandle = threadSignalPtr;
+    229          
+    230            if(thread_id == MQX_NULL_TASK_ID)
+    231            {
+    232              ListRemoveElement((listElementHandle_t)&threadLinkHandle->link);
+    233              _lwevent_destroy((LWEVENT_STRUCT_PTR)threadSignalPtr);
+    234              thread_def->instances++;
+    235              osThreadSetPriority(osThreadGetId(), oldPriority);
+    236              return NULL; /*Failure.*/
+    237            }
+    238            else
+    239            {
+    240              osThreadSetPriority(osThreadGetId(), oldPriority);
+    241              return thread_id;
+    242            }
+    243          }
+    244          
+    245          /*! *********************************************************************************
+    246          * \brief   Stops a thread referenced by the given thread handle.
+    247          *
+    248          * \param[in] thread_id - Thread handle.
+    249          *
+    250          * \return osOK: The operation was successful.
+    251          *         osErrorParameter: The thread handle was not found.
+    252          *
+    253          * \pre
+    254          *
+    255          * \post
+    256          *
+    257          * \remarks
+    258          *
+    259          ********************************************************************************** */
+    260          osStatus osThreadTerminate(osThreadId thread_id)
+    261          {
+    262            _mqx_uint status;
+    263            osThreadLinkHandle_t threadLinkHandle;
+    264            osPriority oldPriority;
+    265          
+    266            /*Change priority to avoid context switches*/
+    267            oldPriority = osThreadGetPriority(osThreadGetId());
+    268            osThreadSetPriority(osThreadGetId(), osPriorityRealtime);
+    269          
+    270            threadLinkHandle = (osThreadLinkHandle_t)ListGetHead(&threadList);
+    271            while(threadLinkHandle->osThreadId != thread_id)
+    272            {
+    273              threadLinkHandle = (osThreadLinkHandle_t)ListGetNext((listElementHandle_t)&threadLinkHandle->link); /*Check next thread*/
+    274              if(threadLinkHandle == NULL)
+    275              {
+    276                osThreadSetPriority(osThreadGetId(), oldPriority);
+    277                return osErrorParameter;
+    278              }
+    279            }
+    280          
+    281            threadLinkHandle->osThreadDefHandle->instances++;
+    282            ListRemoveElement((listElementHandle_t)&threadLinkHandle->link);
+    283            /*No MQX API support to detect illegal ISR call or terminated thread.*/
+    284            status = _task_destroy((_task_id)(threadLinkHandle->osThreadId));
+    285          
+    286            if(status == MQX_INVALID_TASK_ID)
+    287            {
+    288              threadLinkHandle->osThreadDefHandle->instances--;
+    289              ListAddTail(&threadList, (listElementHandle_t)&threadLinkHandle->link);
+    290              osThreadSetPriority(osThreadGetId(), oldPriority);
+    291              return osErrorParameter; /*Thread ID error.*/
+    292            }
+    293          
+    294            _lwevent_destroy((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle);
+    295          
+    296            osThreadSetPriority(osThreadGetId(), oldPriority);
+    297            return osOK;
+    298          }
+    299          
+    300          /*! *********************************************************************************
+    301          * \brief   Puts the active thread at the end of the scheduler's queue.
+    302          *
+    303          * \param[in] void.
+    304          *
+    305          * \return osOK: The action was successful.
+    306          *
+    307          * \pre
+    308          *
+    309          * \post
+    310          *
+    311          * \remarks
+    312          *
+    313          ********************************************************************************** */
+    314          osStatus osThreadYield(void)
+    315          {
+    316            /*No MQX API support to detect illegal ISR call.*/
+    317            _sched_yield();
+    318            return osOK;
+    319          }
+    320          
+    321          /*! *********************************************************************************
+    322          * \brief   Retrieves the thread handle of the active thread.
+    323          *
+    324          * \param[in] void.
+    325          *
+    326          * \return Thread handle of the calling thread.
+    327          *
+    328          * \pre
+    329          *
+    330          * \post
+    331          *
+    332          * \remarks
+    333          *
+    334          ********************************************************************************** */
+    335          osThreadId osThreadGetId(void)
+    336          {
+    337            osThreadId thread_id;
+    338          
+    339            thread_id = (void *)_task_get_id();
+    340          
+    341            return thread_id;
+    342          }
+    343          
+    344          /*! *********************************************************************************
+    345          * \brief   Sets the priority of a thread.
+    346          *
+    347          * \param[in] thread_id - Thread handle of the thread to change the priority of.
+    348          *            priority - Priority value.
+    349          *
+    350          * \return osOK: The action completed successfully.
+    351          *         osErrorValue: The priority value is out of range.
+    352          *         osErrorParameter: The thread handle was not found.
+    353          *
+    354          * \pre
+    355          *
+    356          * \post
+    357          *
+    358          * \remarks
+    359          *
+    360          ********************************************************************************** */
+    361          osStatus osThreadSetPriority(osThreadId thread_id, osPriority priority)
+    362          {
+    363            _mqx_uint newPriority, oldPriority;
+    364          
+    365            /*No MQX API support to detect terminated threads.*/
+    366            if( (priority < osPriorityIdle) || (priority > osPriorityRealtime) )
+    367            {
+    368              return osErrorValue; /*Priority value is out of range.*/
+    369            }
+    370          
+    371            newPriority = priorityAdjust(priority);
+    372          
+    373            if( _task_get_priority((_task_id)thread_id, &oldPriority) == MQX_INVALID_TASK_ID )
+    374            {
+    375              return osErrorParameter; /*Incorrect thread ID*/
+    376            }
+    377            _task_set_priority((_task_id)thread_id, newPriority, &oldPriority);
+    378          
+    379            return osOK;
+    380          }
+    381          
+    382          /*! *********************************************************************************
+    383          * \brief   Gets the priority of a thread.
+    384          *
+    385          * \param[in] thread_id - Thread handle of the thread to to get the priority of.
+    386          *
+    387          * \return Priority of the given thread or osPriorityError if the action failed.
+    388          *
+    389          * \pre
+    390          *
+    391          * \post
+    392          *
+    393          * \remarks
+    394          *
+    395          ********************************************************************************** */
+    396          osPriority osThreadGetPriority(osThreadId thread_id)
+    397          {
+    398            _mqx_uint priority;
+    399          
+    400            if( _task_get_priority((_task_id)thread_id, &priority) == MQX_INVALID_TASK_ID)
+    401            {
+    402              return osPriorityError; /*Thread ID error.*/
+    403            }
+    404            else
+    405            {
+    406              return (osPriority)priorityAdjust(priority);
+    407            }
+    408          }
+    409          
+    410          /*! *********************************************************************************
+    411          * \brief   Suspends the active thread for the given number of milliseconds.
+    412          *
+    413          * \param[in] millisec - Ammount of time to suspend the thread.
+    414          *
+    415          * \return osEventTimeout: Timeout occurred.
+    416          *
+    417          * \pre
+    418          *
+    419          * \post
+    420          *
+    421          * \remarks
+    422          *
+    423          ********************************************************************************** */
+    424          osStatus osDelay(uint32_t millisec)
+    425          {
+    426            _time_delay_ticks(millisecToTicks(millisec));
+    427            return osEventTimeout; /*No status from MQX API.*/
+    428          }
+    429          
+    430          /*! *********************************************************************************
+    431          * \brief   Creates and initializes a mutex object.
+    432          *
+    433          * \param[in] mutex_def - Definition of the mutex(not used by MQXLite).
+    434          *
+    435          * \return Mutex handle if successful or NULL if failed.
+    436          *
+    437          * \pre
+    438          *
+    439          * \post
+    440          *
+    441          * \remarks
+    442          *
+    443          ********************************************************************************** */
+    444          osMutexId osMutexCreate (osMutexDef_t *mutex_def)
+    445          {
+    446            osMutexId mutex_id;
+    447          
+    448            MUTEX_ATTR_STRUCT_PTR mutattr;
+    449          
+    450            (void)mutex_def;
+    451          
+    452            osInterruptDisable();
+    453          
+    454            mutex_id =  osBufferAlloc( sizeof(MUTEX_STRUCT) + sizeof(MUTEX_ATTR_STRUCT) );
+    455            if(mutex_id == NULL)
+    456            {
+    457              osInterruptEnable();
+    458              return NULL; /*Alloc error.*/
+    459            }
+    460          
+    461            mutattr = (MUTEX_ATTR_STRUCT_PTR)((uint8_t *)mutex_id + sizeof(MUTEX_STRUCT));
+    462          
+    463            if (_mutatr_init(mutattr) != MQX_EOK)
+    464            {
+    465              osBufferFree(mutex_id);
+    466              osInterruptEnable();
+    467              return NULL; /*Parameter error.*/
+    468            }
+    469            if (_mutatr_set_sched_protocol(mutattr, MUTEX_PRIO_INHERIT) != MQX_EOK)
+    470            {
+    471              osBufferFree(mutex_id);
+    472              osInterruptEnable();
+    473              return NULL; /*Parameter error.*/
+    474            }
+    475            if (_mutatr_set_wait_protocol(mutattr, MUTEX_PRIORITY_QUEUEING) != MQX_EOK)
+    476            {
+    477              osBufferFree(mutex_id);
+    478              osInterruptEnable();
+    479              return NULL; /*Parameter error.*/
+    480            }
+    481          
+    482            if (_mutex_init(mutex_id, mutattr) != MQX_EOK)
+    483            {
+    484              osBufferFree(mutex_id);
+    485              osInterruptEnable();
+    486              return NULL; /*Parameter error.*/
+    487            }
+    488          
+    489            osInterruptEnable();
+    490            return mutex_id;
+    491          }
+    492          
+    493          /*! *********************************************************************************
+    494          * \brief   Releases a mutex.
+    495          *
+    496          * \param[in] mutex_id - Handle of the mutex to release.
+    497          *
+    498          * \return osOK: Release was successful.
+    499          *         osErrorResource: Release failed, mutex handle is incorrect.
+    500          *
+    501          * \pre
+    502          *
+    503          * \post
+    504          *
+    505          * \remarks
+    506          *
+    507          ********************************************************************************** */
+    508          osStatus osMutexRelease(osMutexId  mutex_id)
+    509          {
+    510            if( _mutex_unlock(mutex_id) != MQX_EOK )
+    511            {
+    512              /*This error is not always correct. MQX does not differentiate between
+    513                osErrorResource and osErrorParameter.*/
+    514              return osErrorResource; /*Parameter error.*/
+    515            }
+    516            return osOK;
+    517          }
+    518          
+    519          /*! *********************************************************************************
+    520          * \brief   Takes a mutex.
+    521          *
+    522          * \param[in] mutex_id - handle of the mutex to take.
+    523          *            millisec - Ammount of time to wait for the mutex to become available.
+    524          *
+    525          * \return osOK: The mutex has been obtained.
+    526          *         osErrorTimeoutResource: The mutex could not be obtained in the given time.
+    527          *         osErrorResource: The mutex could not be obtained when no timeout was specified.
+    528          *         osErrorParameter: The parameter mutex_id is incorrect.
+    529          *         osErrorISR: osMutexWait cannot be called from interrupt service routines.
+    530          *
+    531          * \pre
+    532          *
+    533          * \post
+    534          *
+    535          * \remarks
+    536          *
+    537          ********************************************************************************** */
+    538          osStatus osMutexWait( osMutexId  mutex_id, uint32_t  millisec )
+    539          {
+    540            _mqx_uint status;
+    541          
+    542            if(millisec == 0)
+    543            {
+    544              status = _mutex_try_lock(mutex_id);
+    545            }
+    546            else
+    547            {
+    548              /*No timeout support in MQX for mutexes. Maybe MQX needs to add timeout support
+    549                for mutexes.*/
+    550              status = _mutex_lock(mutex_id);
+    551            }
+    552          
+    553            switch(status)
+    554            {
+    555            case MQX_EOK:
+    556              return osOK;
+    557            case MQX_CANNOT_CALL_FUNCTION_FROM_ISR:
+    558              return osErrorISR; /*Illegal ISR call.*/
+    559            case MQX_EINVAL:
+    560              return osErrorParameter; /*Parameter error.*/
+    561            case MQX_EDEADLK:
+    562              /*NOT TREATED BY CMSIS: Thread already has the mutex. Are CMSIS-RTOS mutexes
+    563                recursive? Maybe MQX needs to add support for recursive mutexes.*/
+    564              return osErrorTimeoutResource;
+    565            case MQX_EBUSY:
+    566              if(millisec == 0)
+    567              {
+    568                return osErrorResource; /*Mutex was not obtained.*/
+    569              }
+    570              else
+    571              {
+    572                return osErrorResource; /*We should never get here with the way mutAtr is set up.*/
+    573              }
+    574            default:
+    575              return osErrorResource; /*We should never get here.*/
+    576            }
+    577          }
+    578          
+    579          /*! *********************************************************************************
+    580          * \brief   Creates and initializes a semaphore object.
+    581          *
+    582          * \param[in] semaphore_def - Definition of the semaphore(not used by MQXLite).
+    583          *            count - Initial number of resources.
+    584          *
+    585          * \return Semaphore handle if successful or NULL if failed.
+    586          *
+    587          * \pre
+    588          *
+    589          * \post
+    590          *
+    591          * \remarks
+    592          *
+    593          ********************************************************************************** */
+    594          osSemaphoreId osSemaphoreCreate(osSemaphoreDef_t *semaphore_def, int32_t count)
+    595          {
+    596            osSemaphoreId semaphore_id;
+    597          
+    598            (void)semaphore_def;
+    599          
+    600            osInterruptDisable();
+    601          
+    602            semaphore_id =  osBufferAlloc( sizeof(LWSEM_STRUCT) );
+    603            if(semaphore_id == NULL)
+    604            {
+    605              osInterruptEnable();
+    606              return NULL; /*Alloc error.*/
+    607            }
+    608          
+    609            if(_lwsem_create(semaphore_id, count) != MQX_OK)
+    610            {
+    611              osBufferFree(semaphore_id);
+    612              osInterruptEnable();
+    613              return NULL; /*Parameter error.*/
+    614            }
+    615          
+    616            osInterruptEnable();
+    617            return semaphore_id;
+    618          }
+    619          
+    620          /*! *********************************************************************************
+    621          * \brief   Releases a semaphore.
+    622          *
+    623          * \param[in] semaphore_id - Handle of the semaphore to release.
+    624          *
+    625          * \return osOK: Release was successful.
+    626          *         osErrorParameter: Release failed, semaphore handle is incorrect.
+    627          *
+    628          * \pre
+    629          *
+    630          * \post
+    631          *
+    632          * \remarks
+    633          *
+    634          ********************************************************************************** */
+    635          osStatus osSemaphoreRelease(osSemaphoreId semaphore_id)
+    636          {
+    637            if(_lwsem_post(semaphore_id) != MQX_OK)
+    638            {
+    639              return osErrorParameter; /*Parameter error, no MQX support to detect if
+    640                                              all tokens have already been released.*/
+    641            }
+    642            else
+    643            {
+    644              return osOK;
+    645            }
+    646          }
+    647          
+    648          /*! *********************************************************************************
+    649          * \brief   Takes a semaphore.
+    650          *
+    651          * \param[in] semaphore_id - Handle of the semaphore to take.
+    652          *            millisec - Ammount of time to wait for the semaphore to become available.
+    653          *
+    654          * \return 1: Semaphore was obtained.
+    655          *         0: Semaphore was not obtained within the given time.
+    656          *        -1: Parameter error or illegal ISR call.
+    657          *
+    658          * \pre
+    659          *
+    660          * \post
+    661          *
+    662          * \remarks
+    663          *
+    664          ********************************************************************************** */
+    665          int32_t osSemaphoreWait(osSemaphoreId semaphore_id, uint32_t millisec)
+    666          {
+    667            _mqx_uint status;
+    668          
+    669            switch(millisec)
+    670            {
+    671            case 0:
+    672              if(_lwsem_poll(semaphore_id) == FALSE)
+    673              {
+    674                return 0; /*Semaphore not obtained or parameter error.*/
+    675              }
+    676              else
+    677              {
+    678                return 1; /*Semaphore obtained, no MQX API to get semaphore count.*/
+    679              }
+    680            case osWaitForever:
+    681              if(_lwsem_wait(semaphore_id) != MQX_OK)
+    682              {
+    683                return -1; /*Illegal ISR call or parameter error).*/
+    684              }
+    685              else
+    686              {
+    687                return 1; /*Semaphore obtained, no MQX API to get semaphore count.*/
+    688              }
+    689            default:
+    690              status = _lwsem_wait_ticks(semaphore_id, millisecToTicks(millisec));
+    691              switch(status)
+    692              {
+    693              case MQX_LWSEM_WAIT_TIMEOUT:
+    694                return 0; /*Semaphore not obtained.*/
+    695              case MQX_OK:
+    696                return 1; /*Semaphore obtained, no MQX API to get semaphore count.*/
+    697              default:
+    698                return -1; /*Illegal ISR call or parameter error).*/
+    699              }
+    700            }
+    701          }
+    702          
+    703          /*! *********************************************************************************
+    704          * \brief   Creates and initializes a message queue object.
+    705          *
+    706          * \param[in] queue_def - Definition of the message queue.
+    707          *            thread_id - Thread handle associated with the message queue(not used by MQXLite).
+    708          *
+    709          * \return Message queue handle if successful or NULL if failed.
+    710          *
+    711          * \pre
+    712          *
+    713          * \post
+    714          *
+    715          * \remarks
+    716          *
+    717          ********************************************************************************** */
+    718          osMessageQId osMessageCreate(osMessageQDef_t *queue_def, osThreadId thread_id)
+    719          {
+    720            osMessageQId queue_id;
+    721          
+    722            (void)thread_id;
+    723          
+    724            osInterruptDisable();
+    725            queue_id =  osBufferAlloc( sizeof(LWMSGQ_STRUCT) + (queue_def->queue_sz * sizeof(int)) );
+    726            if(queue_id == NULL)
+    727            {
+    728              osInterruptEnable();
+    729              return NULL; /*Alloc error.*/
+    730            }
+    731          
+    732            if( _lwmsgq_init(queue_id, queue_def->queue_sz, sizeof(int)/sizeof(_mqx_max_type)) != MQX_OK )
+    733            {
+    734              osBufferFree(queue_id);
+    735              osInterruptEnable();
+    736              return NULL; /*Parameter error.*/
+    737            }
+    738          
+    739            osInterruptEnable();
+    740            return queue_id;
+    741          }
+    742          
+    743          /*! *********************************************************************************
+    744          * \brief   Sends a messgage to the message queue.
+    745          *
+    746          * \param[in] queue_id - Handle of the message queue.
+    747          *            data - Message to be sent(32 bit integer value).
+    748          *
+    749          * \return osOK: The message was put into the queue.
+    750          *         osErrorResource: No memory in the queue was available.
+    751          *         osErrorParameter: A parameter is invalid or outside of a permitted range.
+    752          *
+    753          * \pre
+    754          *
+    755          * \post
+    756          *
+    757          * \remarks
+    758          *
+    759          ********************************************************************************** */
+    760          osStatus osMessagePut(osMessageQId queue_id, uint32_t info, uint32_t millisec)
+    761          {
+    762            _mqx_uint status;
+    763          
+    764            /*No MQX API support for timeout. Maybe MQX needs to add timeout support
+    765              for queues.*/
+    766            switch(millisec)
+    767            {
+    768            case 0:
+    769              status = _lwmsgq_send(queue_id, (_mqx_max_type_ptr)&info, 0);
+    770              break;
+    771            case osWaitForever:
+    772              status = _lwmsgq_send(queue_id, (_mqx_max_type_ptr)&info, LWMSGQ_SEND_BLOCK_ON_FULL);
+    773              break;
+    774            default:
+    775              status = _lwmsgq_send(queue_id, (_mqx_max_type_ptr)&info, LWMSGQ_SEND_BLOCK_ON_FULL);
+    776              break;
+    777            }
+    778          
+    779            switch(status)
+    780            {
+    781            case MQX_OK:
+    782              return osOK; /*Message sent*/
+    783            case LWMSGQ_INVALID:
+    784              return osErrorParameter; /*Parameter error*/
+    785            case LWMSGQ_FULL:
+    786              return osErrorResource; /*Queue full*/
+    787            default:
+    788              return osErrorResource; /*We should never get here.*/
+    789            }
+    790          }
+    791          
+    792          /*! *********************************************************************************
+    793          * \brief   Receives a messgage from the message queue.
+    794          *
+    795          * \param[in] queue_id - Handle of the queue to receive from.
+    796          *            millisec - Ammount of time to wait for a message to become available.
+    797          *
+    798          * \return osOK: No message is available in the queue and no timeout was specified.
+    799          *         osEventTimeout: No message has arrived during the given timeout period.
+    800          *         osEventMessage: Message received, value.p contains the pointer to message.
+    801          *         osErrorParameter: A parameter is invalid or outside of a permitted range.
+    802          *
+    803          *         queueNotify.def.message_id: Queue Handle of the queue the message was received from.
+    804          *         queueNotify.value.v: Message received(data).
+    805          *
+    806          * \pre
+    807          *
+    808          * \post
+    809          *
+    810          * \remarks
+    811          *
+    812          ********************************************************************************** */
+    813          osEvent osMessageGet (osMessageQId queue_id, uint32_t millisec)
+    814          {
+    815            _mqx_uint status;
+    816            uint32_t message;
+    817            MQX_TICK_STRUCT ticks;
+    818            osEvent queueNotify;
+    819          
+    820            switch(millisec)
+    821            {
+    822            case 0:
+    823              status = _lwmsgq_receive(queue_id, (_mqx_max_type_ptr)&message, 0, 0, NULL);
+    824              break;
+    825            case osWaitForever:
+    826              status = _lwmsgq_receive(queue_id, (_mqx_max_type_ptr)&message, LWMSGQ_RECEIVE_BLOCK_ON_EMPTY, 0, NULL);
+    827              break;
+    828            default:
+    829              status = _lwmsgq_receive(queue_id, (_mqx_max_type_ptr)&message, LWMSGQ_RECEIVE_BLOCK_ON_EMPTY | LWMSGQ_TIMEOUT_FOR, millisecToTicks(millisec), &ticks);
+    830              break;
+    831            }
+    832          
+    833            switch(status)
+    834            {
+    835            case MQX_OK:
+    836              queueNotify.status = osEventMessage; /*Message received*/
+    837              break;
+    838            case LWMSGQ_INVALID:
+    839              queueNotify.status = osErrorParameter; /*Parameter error*/
+    840              break;
+    841            case LWMSGQ_TIMEOUT:
+    842              queueNotify.status = osEventTimeout; /*Timeout occurred*/
+    843              break;
+    844            case LWMSGQ_EMPTY:
+    845              queueNotify.status = osOK; /*No message received*/
+    846              break;
+    847            default:
+    848              OS_ASSERT(FALSE); /*We should never get here.*/
+    849            }
+    850            queueNotify.def.message_id = queue_id; /*Not sure about this one. CMSIS is not clear.*/
+    851            queueNotify.value.v = message;
+    852          
+    853            return queueNotify;
+    854          }
+    855          
+    856          /*! *********************************************************************************
+    857          * \brief   Clears a thread's given signals.
+    858          *
+    859          * \param[in] thread_id - Thread ID.
+    860          *            signals - Bit mask of the signals
+    861          *
+    862          * \return Previously active signals or 0x80000000 if failed.
+    863          *
+    864          * \pre
+    865          *
+    866          * \post
+    867          *
+    868          * \remarks
+    869          *
+    870          ********************************************************************************** */
+    871          int32_t osSignalClear(osThreadId thread_id, int32_t signals)
+    872          {
+    873            osThreadLinkHandle_t threadLinkHandle;
+    874            _mqx_uint status;
+    875            int32_t oldSignals;
+    876          
+    877            if( (signals == 0) || ((uint32_t)(~((1U << osFeature_Signals) - 1U)) & signals) )
+    878            {
+    879              return 0x80000000; /*signals out of bounds*/
+    880            }
+    881          
+    882            threadLinkHandle = (osThreadLinkHandle_t)ListGetHead(&threadList);
+    883          
+    884            while(threadLinkHandle->osThreadId != thread_id)
+    885            {
+    886              threadLinkHandle = (osThreadLinkHandle_t)ListGetNext((listElementHandle_t)&threadLinkHandle->link);
+    887              if(threadLinkHandle == NULL)
+    888              {
+    889                return 0x80000000; /*Task ID not found*/
+    890              }
+    891            }
+    892          
+    893            osInterruptDisable(); /*Disable interrupts to avoid context switches.*/
+    894            oldSignals = ((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle)->VALUE;
+    895            status = _lwevent_clear((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle, signals);
+    896            osInterruptEnable();
+    897          
+    898            switch(status)
+    899            {
+    900            case MQX_LWEVENT_INVALID:
+    901              return 0x80000000;
+    902            case MQX_OK:
+    903              return oldSignals;
+    904            default :
+    905              return 0x80000000; /*We should never get here*/
+    906            }
+    907          }
+    908          
+    909          /*! *********************************************************************************
+    910          * \brief   Gets and clears a thread's signals.
+    911          *
+    912          * \param[in] thread_id - Thread ID.
+    913          *
+    914          * \return Previously active signals or 0x80000000 if failed.
+    915          *
+    916          * \pre
+    917          *
+    918          * \post
+    919          *
+    920          * \remarks
+    921          *
+    922          ********************************************************************************** */
+    923          int32_t osSignalGet(osThreadId thread_id)
+    924          {
+    925            osThreadLinkHandle_t threadLinkHandle;
+    926            _mqx_uint status;
+    927            int32_t oldSignals;
+    928          
+    929            threadLinkHandle = (osThreadLinkHandle_t)ListGetHead(&threadList);
+    930          
+    931            while(threadLinkHandle->osThreadId != thread_id)
+    932            {
+    933              threadLinkHandle = (osThreadLinkHandle_t)ListGetNext((listElementHandle_t)&threadLinkHandle->link);
+    934              if(threadLinkHandle == NULL)
+    935              {
+    936                return 0x80000000; /*Task ID not found*/
+    937              }
+    938            }
+    939          
+    940            osInterruptDisable(); /*Disable interrupts to avoid context switches.*/
+    941            oldSignals = ((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle)->VALUE;
+    942            status = _lwevent_clear((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle, oldSignals);
+    943            osInterruptEnable();
+    944          
+    945            switch(status)
+    946            {
+    947            case MQX_LWEVENT_INVALID:
+    948              return 0x80000000;
+    949            case MQX_OK:
+    950              return oldSignals;
+    951            default :
+    952              return 0x80000000; /*We should never get here*/
+    953            }
+    954          }
+    955          
+    956          /*! *********************************************************************************
+    957          * \brief   Sets a thread's signals flags.
+    958          *
+    959          * \param[in] thread_id - Thread ID.
+    960          *            signals - Bit mask of the signals.
+    961          *
+    962          * \return Previously active signals or 0x80000000 if failed.
+    963          *
+    964          * \pre
+    965          *
+    966          * \post
+    967          *
+    968          * \remarks
+    969          *
+    970          ********************************************************************************** */
+    971          int32_t osSignalSet(osThreadId thread_id, int32_t signals)
+    972          {
+    973            osThreadLinkHandle_t threadLinkHandle;
+    974            _mqx_uint status;
+    975            int32_t oldSignals;
+    976          
+    977            if( (signals == 0) || ((uint32_t)(~((1U << osFeature_Signals) - 1U)) & signals) )
+    978            {
+    979              return 0x80000000; /*signals out of bounds*/
+    980            }
+    981          
+    982            threadLinkHandle = (osThreadLinkHandle_t)ListGetHead(&threadList);
+    983          
+    984            while(threadLinkHandle->osThreadId != thread_id)
+    985            {
+    986              threadLinkHandle = (osThreadLinkHandle_t)ListGetNext((listElementHandle_t)&threadLinkHandle->link);
+    987              if(threadLinkHandle == NULL)
+    988              {
+    989                return 0x80000000; /*Task ID not found*/
+    990              }
+    991            }
+    992          
+    993            osInterruptDisable(); /*Disable interrupts to avoid context switches.*/
+    994            oldSignals = ((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle)->VALUE;
+    995            status = _lwevent_set((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle, signals);
+    996            osInterruptEnable();
+    997          
+    998            switch(status)
+    999            {
+   1000            case MQX_LWEVENT_INVALID:
+   1001              return 0x80000000;
+   1002            case MQX_OK:
+   1003              return oldSignals;
+   1004            default :
+   1005              return 0x80000000; /*We should never get here*/
+   1006            }
+   1007          }
+   1008          
+   1009          /*! *********************************************************************************
+   1010          * \brief   Suspends the calling thread and waits for the given signals flags.
+   1011          *
+   1012          * \param[in] thread_id - Thread ID.
+   1013          *            millisec - Time to wait.
+   1014          *
+   1015          * \return osOK: No signal received when the timeout value millisec was zero.
+   1016          *         osEventTimeout: Signal not occurred within timeout
+   1017          *         osEventSignal: Signal occurred, value.signals contains the signal flags; these signal flags are cleared.
+   1018          *         osErrorValue: The value signals is outside of the permitted range.
+   1019          *         osErrorISR: osSignalWait cannot be called from interrupt service routines.
+   1020          *
+   1021          * \pre
+   1022          *
+   1023          * \post
+   1024          *
+   1025          * \remarks
+   1026          *
+   1027          ********************************************************************************** */
+   1028          osEvent osSignalWait(int32_t signals, uint32_t millisec)
+   1029          {
+   1030            osThreadId thread_id;
+   1031            osThreadLinkHandle_t threadLinkHandle;
+   1032            _mqx_uint status;
+   1033            osEvent signalNotify;
+   1034          
+   1035            if( (signals != 0) && ((uint32_t)(~((1U << osFeature_Signals) - 1U)) & signals) )
+   1036            {
+   1037              signalNotify.status = osErrorValue;
+   1038              signalNotify.value.signals = 0;
+   1039              return signalNotify; /*signals out of bounds*/
+   1040            }
+   1041          
+   1042            thread_id = osThreadGetId();
+   1043            threadLinkHandle = (osThreadLinkHandle_t)ListGetHead(&threadList);
+   1044          
+   1045            while(threadLinkHandle->osThreadId != thread_id)
+   1046            {
+   1047              threadLinkHandle = (osThreadLinkHandle_t)ListGetNext((listElementHandle_t)&threadLinkHandle->link);
+   1048              if(threadLinkHandle == NULL)
+   1049              {
+   1050                /*Task ID not found. Improper CMSIS status, but no status defined for this case.*/
+   1051                signalNotify.status = osErrorISR;
+   1052                signalNotify.value.signals = 0;
+   1053                return signalNotify;
+   1054              }
+   1055            }
+   1056          
+   1057            osInterruptDisable(); /*Disable interrupts to avoid context switches.*/
+   1058          
+   1059            switch(millisec)
+   1060            {
+   1061            case 0:
+   1062              if( (((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle)->VALUE != 0) &&
+   1063                  (((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle)->VALUE & signals == signals) )
+   1064              {
+   1065                signalNotify.value.signals = ((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle)->VALUE;
+   1066                signalNotify.status = osEventSignal;
+   1067                _lwevent_clear((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle, signalNotify.value.signals);
+   1068              }
+   1069              else
+   1070              {
+   1071                signalNotify.status = osOK;
+   1072                signalNotify.value.signals = 0;
+   1073              }
+   1074              osInterruptEnable();
+   1075              break;
+   1076            default:
+   1077              osInterruptEnable();
+   1078              status = _lwevent_wait_ticks((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle,
+   1079                                           (signals)?(signals):((1U << osFeature_Signals) - 1U),
+   1080                                           (signals)?(TRUE):(FALSE),
+   1081                                           (millisec==osWaitForever)?0:millisecToTicks(millisec));
+   1082              osInterruptDisable(); /*Disable interrupts to avoid context switches.*/
+   1083              if(((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle)->VALUE & signals == signals)
+   1084              {
+   1085                status = MQX_OK;
+   1086              }
+   1087          
+   1088              switch(status)
+   1089              {
+   1090              case LWEVENT_WAIT_TIMEOUT:
+   1091                signalNotify.value.signals = 0;
+   1092                signalNotify.status = osEventTimeout;
+   1093                break;
+   1094              case MQX_OK:
+   1095                signalNotify.value.signals = ((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle)->VALUE;
+   1096                signalNotify.status = osEventSignal;
+   1097                _lwevent_clear((LWEVENT_STRUCT_PTR)threadLinkHandle->osThreadSignalHandle, signalNotify.value.signals);
+   1098                break;
+   1099              case MQX_CANNOT_CALL_FUNCTION_FROM_ISR:
+   1100                /*Fallthrough*/
+   1101              default :
+   1102                signalNotify.value.signals = 0;
+   1103                signalNotify.status = osErrorISR;
+   1104                break;
+   1105              }
+   1106          
+   1107              osInterruptEnable();
+   1108              break;
+   1109            }
+   1110            return signalNotify;
+   1111          }
+   1112          
+   1113          /*! *********************************************************************************
+   1114          * \brief   Enables interrupts.
+   1115          *
+   1116          * \param[in] void.
+   1117          *
+   1118          * \return void.
+   1119          *
+   1120          * \pre
+   1121          *
+   1122          * \post
+   1123          *
+   1124          * \remarks
+   1125          *
+   1126          ********************************************************************************** */
+   1127          void osInterruptEnable(void)
+   1128          {
+   1129            _int_enable();
+   1130          }
+   1131          
+   1132          /*! *********************************************************************************
+   1133          * \brief   Disables interrupts(prevents context switches).
+   1134          *
+   1135          * \param[in] void.
+   1136          *
+   1137          * \return void.
+   1138          *
+   1139          * \pre
+   1140          *
+   1141          * \post
+   1142          *
+   1143          * \remarks
+   1144          *
+   1145          ********************************************************************************** */
+   1146          void osInterruptDisable(void)
+   1147          {
+   1148            _int_disable();
+   1149          }
+   1150          
+   1151          /*! *********************************************************************************
+   1152          * \brief   Installs an ISR.
+   1153          *
+   1154          * \param[in] vector: Vector number (not the offset) of the interrupt.
+   1155          *            isrPtr: Pointer to the ISR.
+   1156          *            param:  Pointer to the data to be passed as the first parameter to the
+   1157          *                    ISR when an interrupt occurs and the ISR runs.
+   1158          *
+   1159          * \return void.
+   1160          *
+   1161          * \pre
+   1162          *
+   1163          * \post
+   1164          *
+   1165          * \remarks
+   1166          *
+   1167          ********************************************************************************** */
+   1168          osIsrFuncPtr_t osInstallIsr(uint32_t vector, osIsrFuncPtr_t isrPtr, void *argument)
+   1169          {
+   1170            return _int_install_isr(vector, isrPtr, argument);
+   1171          }
+   1172          
+   1173          /*! *********************************************************************************
+   1174          * \brief   Creates a timer object.
+   1175          *
+   1176          * \param[in] timer_def - Timer definition which includes the callback function pointer.
+   1177          *            type - One-shot or periodic timer.
+   1178          *            param - Parameter to pass to callback.
+   1179          *
+   1180          * \return Timer handle if procedure is successful or NULL if failed.
+   1181          *
+   1182          * \pre
+   1183          *
+   1184          * \post
+   1185          *
+   1186          * \remarks
+   1187          *
+   1188          ********************************************************************************** */
+   1189          osTimerId osTimerCreate (osTimerDef_t *timer_def, os_timer_type type, void *argument)
+   1190          {
+   1191            osTimerId timer_id;
+   1192            LWTIMER_PERIOD_STRUCT_PTR periodStruct;
+   1193            os_ptimer *userFunc;
+   1194            void **userArg;
+   1195            os_timer_type *timerType;
+   1196          
+   1197            osInterruptDisable();
+   1198            timer_id = (osTimerId)osBufferAlloc(sizeof(LWTIMER_STRUCT) +
+   1199                                                sizeof(LWTIMER_PERIOD_STRUCT) +
+   1200                                                sizeof(void *) +
+   1201                                                sizeof(void *) +
+   1202                                                sizeof(os_timer_type) );
+   1203            osInterruptEnable();
+   1204          
+   1205            if(timer_id == NULL)
+   1206            {
+   1207              return NULL; /*Alloc error*/
+   1208            }
+   1209          
+   1210            periodStruct = (LWTIMER_PERIOD_STRUCT_PTR)((uint8_t*)timer_id+ sizeof(LWTIMER_STRUCT));
+   1211            userFunc = (os_ptimer *)((uint8_t*)periodStruct + sizeof(LWTIMER_PERIOD_STRUCT));
+   1212            userArg = (void **)((uint8_t*)userFunc + sizeof(void *));
+   1213            timerType = (os_timer_type *)((uint8_t*)userArg + sizeof(void *));
+   1214          
+   1215            _lwtimer_create_periodic_queue( periodStruct, 100, 0 );
+   1216          
+   1217            *userFunc = timer_def->ptimer;
+   1218            *userArg = argument;
+   1219            *timerType = type;
+   1220          
+   1221            return timer_id;
+   1222          }
+   1223          
+   1224          /*! *********************************************************************************
+   1225          * \brief   Starts a timer.
+   1226          *
+   1227          * \param[in] timer_id - Timer handle of the timer to start.
+   1228          *            millisec - Timer period in milliseconds.
+   1229          *
+   1230          * \return osOK: The specified timer has been started or restarted.
+   1231          *         osErrorParameter: Timer ID is incorrect.
+   1232          *
+   1233          * \pre
+   1234          *
+   1235          * \post
+   1236          *
+   1237          * \remarks
+   1238          *
+   1239          ********************************************************************************** */
+   1240          osStatus osTimerStart (osTimerId timer_id, uint32_t millisec)
+   1241          {
+   1242            _mqx_uint status;
+   1243            LWTIMER_PERIOD_STRUCT_PTR periodStruct;
+   1244          
+   1245            periodStruct = (LWTIMER_PERIOD_STRUCT_PTR)((uint8_t*)timer_id+sizeof(LWTIMER_STRUCT));
+   1246          
+   1247            /*Hack mqx internal linked periodic queue. I have no other way.*/
+   1248            osInterruptDisable();
+   1249            periodStruct->EXPIRY = 0;
+   1250            periodStruct->PERIOD = millisecToTicks(millisec);
+   1251            osInterruptEnable();
+   1252          
+   1253            _lwtimer_cancel_timer((LWTIMER_STRUCT_PTR)timer_id);
+   1254            status = _lwtimer_add_timer_to_queue(
+   1255                                                 periodStruct,
+   1256                                                 (LWTIMER_STRUCT_PTR)timer_id,
+   1257                                                 millisecToTicks(millisec)-1,
+   1258                                                 (LWTIMER_ISR_FPTR)TimerMQXLiteCallback,
+   1259                                                 (void *)timer_id);
+   1260            switch(status)
+   1261            {
+   1262            case MQX_OK:
+   1263              return osOK;
+   1264            case MQX_LWTIMER_INVALID:
+   1265              return osErrorParameter;
+   1266            case MQX_INVALID_PARAMETER:
+   1267              return osErrorParameter; /*Improper status*/
+   1268            default:
+   1269              return osErrorResource; /*We should never get here.*/
+   1270            }
+   1271          }
+   1272          
+   1273          /*! *********************************************************************************
+   1274          * \brief   Stops a timer.
+   1275          *
+   1276          * \param[in] timer_id - Timer handle of the timer to stop.
+   1277          *
+   1278          * \return osOK: The specified timer has been stopped.
+   1279          *         osErrorParameter: Timer handle is incorrect.
+   1280          *         osErrorResource: The timer was not started.
+   1281          *
+   1282          * \pre
+   1283          *
+   1284          * \post
+   1285          *
+   1286          * \remarks
+   1287          *
+   1288          ********************************************************************************** */
+   1289          osStatus osTimerStop (osTimerId timer_id)
+   1290          {
+   1291            _mqx_uint status;
+   1292          
+   1293            status = _lwtimer_cancel_timer((LWTIMER_STRUCT_PTR)timer_id);
+   1294            switch(status)
+   1295            {
+   1296            case MQX_OK:
+   1297              return osOK;
+   1298            case MQX_LWTIMER_INVALID:
+   1299              return osErrorParameter;
+   1300            default:
+   1301              return osErrorResource; /*We should never get here.*/
+   1302            }
+   1303          }
+   1304          
+   1305          /*! *********************************************************************************
+   1306          *************************************************************************************
+   1307          * Private functions
+   1308          *************************************************************************************
+   1309          ********************************************************************************** */
+   1310          /*! *********************************************************************************
+   1311          * \brief   Re-entrant timer callback used for all timers to catch and stop one-shot timers.
+   1312          *
+   1313          * \param[in] param - Timer handle.
+   1314          *
+   1315          * \return void.
+   1316          *
+   1317          * \pre
+   1318          *
+   1319          * \post
+   1320          *
+   1321          * \remarks
+   1322          *
+   1323          ********************************************************************************** */
+   1324          /*! *********************************************************************************
+   1325          * \brief     Allocates a block from the os heap array.
+   1326          * \param[in] numBytes - Size of buffer to allocate.
+   1327          *
+   1328          * \return Pointer to the allocated buffer, NULL if failed.
+   1329          *
+   1330          * \pre
+   1331          *
+   1332          * \post
+   1333          *
+   1334          * \remarks Function is unprotected from interrupts.
+   1335          *
+   1336          ********************************************************************************** */
+   1337          void* osBufferAlloc(uint32_t numBytes)
+   1338          {
+   1339            void *bufferPtr = NULL;
+   1340          
+   1341            if( (osHeapSize - (osHeapPtr - osHeap)) >= numBytes )
+   1342            {
+   1343              bufferPtr = osHeapPtr;
+   1344              lastAllocatedBuffer = bufferPtr;
+   1345              osHeapPtr += numBytes;
+   1346            }
+   1347          
+   1348            return bufferPtr;
+   1349          }
+   1350          
+   1351          /*! *********************************************************************************
+   1352          * \brief     Frees a block from the os heap array.
+   1353          * \param[in] Pointer to the buffer to free.
+   1354          *
+   1355          * \return void.
+   1356          *
+   1357          * \pre
+   1358          *
+   1359          * \post
+   1360          *
+   1361          * \remarks Function provides limited buffer freeing. Only frees the last
+   1362          *          allocated buffer.
+   1363          *
+   1364          ********************************************************************************** */
+   1365          void osBufferFree(void* buffer)
+   1366          {
+   1367            if( lastAllocatedBuffer == buffer )
+   1368            {
+   1369              osHeapPtr = buffer;
+   1370            }
+   1371          }
+   1372          
+   1373          /*! *********************************************************************************
+   1374          * \brief   Re-entrant timer callback used for all timers to catch and stop one-shot timers.
+   1375          *
+   1376          * \param[in] param - Timer handle.
+   1377          *
+   1378          * \return void.
+   1379          *
+   1380          * \pre
+   1381          *
+   1382          * \post
+   1383          *
+   1384          * \remarks
+   1385          *
+   1386          ********************************************************************************** */
+   1387          void TimerMQXLiteCallback(void *argument)
+   1388          {
+   1389            osTimerId timer_id = argument;
+   1390            os_ptimer userFunc;
+   1391            void *userArg;
+   1392            os_timer_type timerType;
+   1393          
+   1394            userFunc = *(os_ptimer *)((uint8_t*)timer_id + sizeof(LWTIMER_STRUCT) + sizeof(LWTIMER_PERIOD_STRUCT));
+   1395            userArg = *(void **)((uint8_t*)timer_id + sizeof(LWTIMER_STRUCT) + sizeof(LWTIMER_PERIOD_STRUCT) + sizeof(void *));
+   1396            timerType = *(os_timer_type *)((uint8_t*)timer_id + sizeof(LWTIMER_STRUCT) + sizeof(LWTIMER_PERIOD_STRUCT) + sizeof(void *) + sizeof(void *));
+   1397          
+   1398            if( timerType == osTimerOnce )
+   1399            {
+   1400              _lwtimer_cancel_timer((LWTIMER_STRUCT_PTR)argument);
+   1401            }
+   1402          
+   1403            userFunc(userArg);
+   1404          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   MainThreadWrapper
+        24   -> ListAddTail
+        24   -> ListInit
+        24   -> MainThread
+        24   -> _lwevent_create
+        24   -> osThreadGetId
+      24   TimerMQXLiteCallback
+        24   -- Indirect call
+        24   -> _lwtimer_cancel_timer
+       8   osBufferAlloc
+       4   osBufferFree
+       8   osDelay
+         8   -> _time_delay_ticks
+         8   -> _time_get_ticks_per_sec
+         8 __aeabi_uidiv
+      16   osInstallIsr
+        16   -> _int_install_isr
+       8   osInterruptDisable
+         8   -> _int_disable
+       8   osInterruptEnable
+         8   -> _int_enable
+      16   osMessageCreate
+        16   -> _lwmsgq_init
+        16   -> osBufferAlloc
+        16   -> osBufferFree
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+      56   osMessageGet
+        56   -> _lwmsgq_receive
+        56   -> _time_get_ticks_per_sec
+        56 __aeabi_uidiv
+      16   osMessagePut
+        16   -> _lwmsgq_send
+      16   osMutexCreate
+        16   -> _mutatr_init
+        16   -> _mutatr_set_sched_protocol
+        16   -> _mutatr_set_wait_protocol
+        16   -> _mutex_init
+        16   -> osBufferAlloc
+        16   -> osBufferFree
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+       8   osMutexRelease
+         8   -> _mutex_unlock
+      16   osMutexWait
+        16   -> _mutex_lock
+        16   -> _mutex_try_lock
+      16   osSemaphoreCreate
+        16   -> _lwsem_create
+        16   -> osBufferAlloc
+        16   -> osBufferFree
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+       8   osSemaphoreRelease
+         8   -> _lwsem_post
+      16   osSemaphoreWait
+        16   -> _lwsem_poll
+        16   -> _lwsem_wait
+        16   -> _lwsem_wait_ticks
+        16   -> _time_get_ticks_per_sec
+        16 __aeabi_uidiv
+      24   osSignalClear
+        24   -> ListGetHead
+        24   -> ListGetNext
+        24   -> _lwevent_clear
+        24   -> osInterruptDisable
+        24   -> osInterruptEnable
+      24   osSignalGet
+        24   -> ListGetHead
+        24   -> ListGetNext
+        24   -> _lwevent_clear
+        24   -> osInterruptDisable
+        24   -> osInterruptEnable
+      24   osSignalSet
+        24   -> ListGetHead
+        24   -> ListGetNext
+        24   -> _lwevent_set
+        24   -> osInterruptDisable
+        24   -> osInterruptEnable
+      40   osSignalWait
+        40   -> ListGetHead
+        40   -> ListGetNext
+        40   -> _lwevent_clear
+        40   -> _lwevent_wait_ticks
+        40   -> _time_get_ticks_per_sec
+        40   -> osInterruptDisable
+        40   -> osInterruptEnable
+        40   -> osThreadGetId
+        40 __aeabi_uidiv
+      80   osThreadCreate
+        80   -> ListAddTail
+        80   -> ListGetHead
+        80   -> ListGetList
+        80   -> ListGetNext
+        80   -> ListRemoveElement
+        80   -> _lwevent_create
+        80   -> _lwevent_destroy
+        80   -> _task_create_at
+        80   -> osThreadGetId
+        80   -> osThreadGetPriority
+        80   -> osThreadSetPriority
+       8   osThreadGetId
+         8   -> _task_get_id
+      16   osThreadGetPriority
+        16   -> _task_get_priority
+      24   osThreadSetPriority
+        24   -> _task_get_priority
+        24   -> _task_set_priority
+      24   osThreadTerminate
+        24   -> ListAddTail
+        24   -> ListGetHead
+        24   -> ListGetNext
+        24   -> ListRemoveElement
+        24   -> _lwevent_destroy
+        24   -> _task_destroy
+        24   -> osThreadGetId
+        24   -> osThreadGetPriority
+        24   -> osThreadSetPriority
+       8   osThreadYield
+         8   -> _sched_yield
+      40   osTimerCreate
+        40   -> _lwtimer_create_periodic_queue
+        40   -> osBufferAlloc
+        40   -> osInterruptDisable
+        40   -> osInterruptEnable
+      32   osTimerStart
+        32   -> _lwtimer_add_timer_to_queue
+        32   -> _lwtimer_cancel_timer
+        32   -> _time_get_ticks_per_sec
+        32   -> osInterruptDisable
+        32   -> osInterruptEnable
+        32 __aeabi_uidiv
+       8   osTimerStop
+         8   -> _lwtimer_cancel_timer
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable10
+       4  ??DataTable10_1
+       4  ??DataTable13
+       4  ??DataTable13_1
+       4  ??DataTable13_2
+       4  ??DataTable13_3
+       4  ??DataTable13_4
+       4  ??DataTable13_5
+       4  ??DataTable13_6
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+       4  ??DataTable3_4
+       4  ??DataTable4
+       4  ??DataTable5
+       4  ??DataTable7
+      86  MainThreadWrapper
+       4  TASK_TEMPLATE_INDEX
+      36  TimerMQXLiteCallback
+       4  lastAllocatedBuffer
+      38  osBufferAlloc
+      16  osBufferFree
+      30  osDelay
+     140  osHeap
+       4  osHeapPtr
+      20  osInstallIsr
+       8  osInterruptDisable
+       8  osInterruptEnable
+      32  osMainThreadDef
+      28  osMainThreadLink
+      36  osMainThreadSignal
+      72  osMessageCreate
+     164  osMessageGet
+      98  osMessagePut
+     144  osMutexCreate
+      22  osMutexRelease
+      86  osMutexWait
+      64  osSemaphoreCreate
+      22  osSemaphoreRelease
+     112  osSemaphoreWait
+     102  osSignalClear
+      84  osSignalGet
+     102  osSignalSet
+     326  osSignalWait
+     282  osThreadCreate
+       8  osThreadGetId
+      30  osThreadGetPriority
+      68  osThreadSetPriority
+     154  osThreadTerminate
+      10  osThreadYield
+      88  osTimerCreate
+     124  osTimerStart
+      36  osTimerStop
+      12  threadList
+
+ 
+   252 bytes in section .bss
+     8 bytes in section .data
+ 2'508 bytes in section .text
+ 
+ 2'508 bytes of CODE memory
+   260 bytes of DATA memory
+
+Errors: none
+Warnings: none

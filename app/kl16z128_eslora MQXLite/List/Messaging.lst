@@ -1,0 +1,381 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:00
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\Messaging\Source\Messaging.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5A07.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\Messaging\Source\Messaging.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\Messaging.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\Messaging.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\Messaging\Source\Messaging.c
+      1          /*!
+      2          * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      3          * All rights reserved.
+      4          *
+      5          * \file Messaging.c
+      6          * This is a source file for the messaging module.
+      7          * It contains the implementation of inter-task messaging.
+      8          *
+      9          * Redistribution and use in source and binary forms, with or without modification,
+     10          * are permitted provided that the following conditions are met:
+     11          *
+     12          * o Redistributions of source code must retain the above copyright notice, this list
+     13          *   of conditions and the following disclaimer.
+     14          *
+     15          * o Redistributions in binary form must reproduce the above copyright notice, this
+     16          *   list of conditions and the following disclaimer in the documentation and/or
+     17          *   other materials provided with the distribution.
+     18          *
+     19          * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     20          *   contributors may be used to endorse or promote products derived from this
+     21          *   software without specific prior written permission.
+     22          *
+     23          * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     24          * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     25          * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     26          * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     27          * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     28          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     29          * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     30          * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     31          * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     32          * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     33          */
+     34          
+     35          /************************************************************************************
+     36          *************************************************************************************
+     37          * Include
+     38          *************************************************************************************
+     39          ************************************************************************************/
+     40          #include "EmbeddedTypes.h"
+     41          #include "MemManager.h"
+     42          #include "Messaging.h"
+     43          
+     44          /************************************************************************************
+     45          *************************************************************************************
+     46          * Private macros
+     47          *************************************************************************************
+     48          ************************************************************************************/
+     49          
+     50          /************************************************************************************
+     51          *************************************************************************************
+     52          * Private prototypes
+     53          *************************************************************************************
+     54          ************************************************************************************/
+     55          
+     56          /************************************************************************************
+     57          *************************************************************************************
+     58          * Private type definitions
+     59          *************************************************************************************
+     60          ************************************************************************************/
+     61          
+     62          /************************************************************************************
+     63          *************************************************************************************
+     64          * Private memory declarations
+     65          *************************************************************************************
+     66          ************************************************************************************/
+     67          
+     68          /************************************************************************************
+     69          *************************************************************************************
+     70          * Public functions
+     71          *************************************************************************************
+     72          ************************************************************************************/
+     73          /*! *********************************************************************************
+     74          * \brief     Links element to the tail of the list for the message system.
+     75          *
+     76          * \param[in] list - pointer to the list to insert into.
+     77          *            buffer - data block to add
+     78          *
+     79          * \return void.
+     80          *
+     81          * \pre Buffer must be allocated using MemManager.
+     82          *
+     83          * \post
+     84          *
+     85          * \remarks
+     86          *
+     87          ********************************************************************************** */
+     88          listStatus_t ListAddTailMsg(listHandle_t list, void* buffer)
+     89          {
+     90            buffer = (listHeader_t *)buffer - 1;
+     91            return ListAddTail(list, (listElementHandle_t)buffer);
+     92          }
+     93          
+     94          /*! *********************************************************************************
+     95          * \brief     Links element to the head of the list for the message system.
+     96          *
+     97          * \param[in] list - pointer to the list to insert into.
+     98          *            buffer - data block to add
+     99          *
+    100          * \return listStatus_t.
+    101          *
+    102          * \pre Buffer must be allocated using MemManager.
+    103          *
+    104          * \post
+    105          *
+    106          * \remarks
+    107          *
+    108          ********************************************************************************** */
+    109          listStatus_t ListAddHeadMsg(listHandle_t list, void* buffer)
+    110          {
+    111            buffer = (listHeader_t *)buffer - 1;
+    112            return ListAddHead(list, (listElementHandle_t)buffer);
+    113          }
+    114          
+    115          /*! *********************************************************************************
+    116          * \brief     Links the new element before a specified element.
+    117          *
+    118          * \param[in] pMsg - current element from list
+    119          *            pNewMsg - new element to add
+    120          *
+    121          * \return listStatus_t.
+    122          *
+    123          * \pre Buffer must be allocated using MemManager.
+    124          *
+    125          * \post
+    126          *
+    127          * \remarks
+    128          *
+    129          ********************************************************************************** */
+    130          listStatus_t ListAddPrevMsg( void* pMsg, void* pNewMsg )
+    131          {
+    132            listHeader_t *pElem = (listHeader_t*) pMsg - 1;
+    133            listHeader_t *pNewElem  = (listHeader_t*) pNewMsg - 1;
+    134          
+    135            return ListAddPrevElement((listElementHandle_t)pElem, (listElementHandle_t)pNewElem);
+    136          }
+    137          
+    138          
+    139          /*! *********************************************************************************
+    140          * \brief     Unlinks element from the head of the list for the message system.
+    141          *
+    142          * \param[in] list - pointer to the list to remove from.
+    143          *
+    144          * \return NULL if list is empty.
+    145          *         pointer to the data block if removal was successful.
+    146          *
+    147          * \pre Buffer must be allocated using MemManager.
+    148          *
+    149          * \post
+    150          *
+    151          * \remarks
+    152          *
+    153          ********************************************************************************** */
+    154          void *ListRemoveHeadMsg(listHandle_t list)
+    155          {
+    156            void *buffer;
+    157          
+    158            buffer = ListRemoveHead(list);
+    159            return buffer ? (listHeader_t *)buffer+1 : buffer;
+    160          }
+    161          
+    162          /*! *********************************************************************************
+    163          * \brief     Returns a pointer to the head of the list for the message system.
+    164          *
+    165          * \param[in] list - pointer to the list
+    166          *
+    167          * \return NULL if list is empty.
+    168          *         pointer to the data block
+    169          *
+    170          * \pre
+    171          *
+    172          * \post
+    173          *
+    174          * \remarks
+    175          *
+    176          ********************************************************************************** */
+    177          void *ListGetHeadMsg( listHandle_t list )
+    178          {
+    179              if( list->head )
+    180              {
+    181                  return (listHeader_t*)(list->head) + 1;
+    182              }
+    183          
+    184              return NULL;
+    185          }
+    186          
+    187          /*! *********************************************************************************
+    188          * \brief     Returns a pointer to the data of the next message in the list.
+    189          *
+    190          * \param[in] buffer - pointer to the data of the current message.
+    191          *
+    192          * \return NULL if buffer is the last element of the list.
+    193          *         pointer to the next data block if exists.
+    194          *
+    195          * \pre Buffer must be allocated using MemManager.
+    196          *
+    197          * \post
+    198          *
+    199          * \remarks
+    200          *
+    201          ********************************************************************************** */
+    202          void *ListGetNextMsg( void* buffer )
+    203          {
+    204              listHeader_t *p = (listHeader_t*)buffer - 1;
+    205          
+    206              if( p->link.next )
+    207              {
+    208                  return (listHeader_t*)(p->link.next) + 1;
+    209              }
+    210          
+    211              return NULL;
+    212          }
+    213          
+    214          /*! *********************************************************************************
+    215          * \brief     Unlik the specified element from the list.
+    216          *
+    217          * \param[in] buffer - pointer to the data of the current message.
+    218          *
+    219          * \return None.
+    220          *
+    221          * \pre Buffer must be allocated using MemManager.
+    222          *
+    223          * \post
+    224          *
+    225          * \remarks
+    226          *
+    227          ********************************************************************************** */
+    228          listStatus_t ListRemoveMsg( void* buffer )
+    229          {
+    230              listHeader_t *p = (listHeader_t*)buffer - 1;
+    231          
+    232              return ListRemoveElement( (listElementHandle_t)p );
+    233          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   ListAddHeadMsg
+        16   -> ListAddHead
+      24   ListAddPrevMsg
+        24   -> ListAddPrevElement
+      16   ListAddTailMsg
+        16   -> ListAddTail
+       4   ListGetHeadMsg
+      12   ListGetNextMsg
+        12 __aeabi_uread4
+       8   ListRemoveHeadMsg
+         8   -> ListRemoveHead
+      16   ListRemoveMsg
+        16   -> ListRemoveElement
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      18  ListAddHeadMsg
+      24  ListAddPrevMsg
+      18  ListAddTailMsg
+      20  ListGetHeadMsg
+      32  ListGetNextMsg
+      20  ListRemoveHeadMsg
+      16  ListRemoveMsg
+
+ 
+ 148 bytes in section .text
+ 
+ 148 bytes of CODE memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,538 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:02
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW644B.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\sx1276.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\sx1276.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\ieee_802_15_4\Phy\Source\sx1276.c
+      1          /*
+      2           * THE FOLLOWING FIRMWARE IS PROVIDED: (1) "AS IS" WITH NO WARRANTY; AND
+      3           * (2)TO ENABLE ACCESS TO CODING INFORMATION TO GUIDE AND FACILITATE CUSTOMER.
+      4           * CONSEQUENTLY, SEMTECH SHALL NOT BE HELD LIABLE FOR ANY DIRECT, INDIRECT OR
+      5           * CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE CONTENT
+      6           * OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING INFORMATION
+      7           * CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+      8           *
+      9           * Copyright (C) SEMTECH S.A.
+     10           */
+     11          /*!
+     12           * \file       sx1276.c
+     13           * \brief      SX1276 RF chip driver
+     14           *
+     15           * \version    2.0.0
+     16           * \date       May 6 2013
+     17           * \author     Gregory Cristian
+     18           *
+     19           * Last modified by Miguel Luis on Jun 19 2013
+     20           */
+     21          #include "radio.h"
+     22          
+     23          #include "sx1276.h"
+     24          #include "sx1276-Hal.h"
+     25          //#include "sx1276-Fsk.h"
+     26          #include "sx1276-LoRa.h"
+     27          
+     28          #include "TimersManager.h"
+     29          
+     30          /*!
+     31           * SX1276 registers variable
+     32           */
+     33          uint8_t SX1276Regs[0x70];
+     34          
+     35          static bool LoRaOn      = false;
+     36          static bool LoRaOnState = false;
+     37          static tmrTimerID_t PhyTmr;
+     38          static void PhyTimerCallBack( void* );
+     39          
+     40          void SX1276Init( void )
+     41          {
+     42              // start timer
+     43              PhyTmr = TMR_AllocateTimer();
+     44              TMR_StartIntervalTimer( PhyTmr, 1, PhyTimerCallBack, NULL );
+     45          
+     46              // Initialize FSK and LoRa registers structure
+     47          #if ( LORA == 0 )
+     48              SX1276   = ( tSX1276* )SX1276Regs;
+     49          #endif
+     50              SX1276LR = ( tSX1276LR* )SX1276Regs;
+     51          
+     52          #if ( LORA == 0 )
+     53          
+     54              LoRaOn = false;
+     55              SX1276SetLoRaOn( LoRaOn );
+     56              // Initialize FSK modem
+     57              SX1276FskInit( );
+     58          
+     59          #else
+     60          
+     61              LoRaOn = true;
+     62              SX1276SetLoRaOn( LoRaOn );
+     63              // Initialize LoRa modem
+     64              SX1276LoRaInit( );
+     65          
+     66          #endif
+     67          }
+     68          
+     69          void SX1276Reset( void )
+     70          {
+     71              uint32_t wait = 0;
+     72          
+     73              SX1276SetReset( RADIO_RESET_ON );
+     74          
+     75              // Wait 1ms
+     76              wait = 4500;
+     77              while( wait-- );
+     78          
+     79              SX1276SetReset( RADIO_RESET_OFF );
+     80          
+     81              // Wait 6ms
+     82              wait = 27000;
+     83              while( wait-- );
+     84          }
+     85          
+     86          void SX1276SetLoRaOn( bool enable )
+     87          {
+     88              if( LoRaOnState == enable )
+     89              {
+     90                  return;
+     91              }
+     92          
+     93              LoRaOnState = enable;
+     94              LoRaOn      = enable;
+     95          
+     96              if( LoRaOn == true )
+     97              {
+     98          //        SX1276LoRaSetOpMode( RFLR_OPMODE_SLEEP );
+     99          //        SX1276LR->RegOpMode = ( SX1276LR->RegOpMode & RFLR_OPMODE_LONGRANGEMODE_MASK ) | RFLR_OPMODE_LONGRANGEMODE_ON;
+    100          //        SX1276Write( REG_LR_OPMODE, SX1276LR->RegOpMode );
+    101          
+    102                  SX1276LoRaSetOpMode( RFLR_OPMODE_STANDBY );
+    103                                                  // RxDone               RxTimeout                   FhssChangeChannel           CadDone
+    104                  SX1276LR->RegDioMapping1 = RFLR_DIOMAPPING1_DIO0_00 | RFLR_DIOMAPPING1_DIO1_00 | RFLR_DIOMAPPING1_DIO2_00 | RFLR_DIOMAPPING1_DIO3_00;
+    105                                                  // CadDetected          ClkOut
+    106                  SX1276LR->RegDioMapping2 = RFLR_DIOMAPPING2_DIO4_00 | RFLR_DIOMAPPING2_DIO5_01;
+    107                  SX1276WriteBuffer( REG_LR_DIOMAPPING1, &SX1276LR->RegDioMapping1, 2 );
+    108              }
+    109              else
+    110              {
+    111          //        SX1276LoRaSetOpMode( RFLR_OPMODE_SLEEP );
+    112          //        SX1276LR->RegOpMode = ( SX1276LR->RegOpMode & RFLR_OPMODE_LONGRANGEMODE_MASK ) | RFLR_OPMODE_LONGRANGEMODE_OFF;
+    113          //        SX1276Write( REG_LR_OPMODE, SX1276LR->RegOpMode );
+    114          
+    115                  SX1276LoRaSetOpMode( RFLR_OPMODE_STANDBY );
+    116              }
+    117          }
+    118          
+    119          bool SX1276GetLoRaOn( void )
+    120          {
+    121              return LoRaOn;
+    122          }
+    123          
+    124          void SX1276SetOpMode( uint8_t opMode )
+    125          {
+    126              if( LoRaOn == false )
+    127              {
+    128          #if ( LORA == 0 )
+    129                  SX1276FskSetOpMode( opMode );
+    130          #endif
+    131              }
+    132              else
+    133              {
+    134                  SX1276LoRaSetOpMode( opMode );
+    135              }
+    136          }
+    137          
+    138          uint8_t SX1276GetOpMode( void )
+    139          {
+    140              if( LoRaOn == false )
+    141              {
+    142          #if ( LORA == 0 )
+    143                  return SX1276FskGetOpMode( );
+    144          #endif
+    145                  return 0;
+    146              }
+    147              else
+    148              {
+    149                  return SX1276LoRaGetOpMode( );
+    150              }
+    151          }
+    152          
+    153          double SX1276ReadRssi( void )
+    154          {
+    155              if( LoRaOn == false )
+    156              {
+    157          #if ( LORA == 0 )
+    158                  return SX1276FskReadRssi( );
+    159          #endif
+    160                  return 0;
+    161              }
+    162              else
+    163              {
+    164                  return SX1276LoRaReadRssi( );
+    165              }
+    166          }
+    167          
+    168          uint8_t SX1276ReadRxGain( void )
+    169          {
+    170              if( LoRaOn == false )
+    171              {
+    172          #if ( LORA == 0 )
+    173                  return SX1276FskReadRxGain( );
+    174          #endif
+    175                  return 0;
+    176              }
+    177              else
+    178              {
+    179                  return SX1276LoRaReadRxGain( );
+    180              }
+    181          }
+    182          
+    183          uint8_t SX1276GetPacketRxGain( void )
+    184          {
+    185              if( LoRaOn == false )
+    186              {
+    187          #if ( LORA == 0 )
+    188                  return SX1276FskGetPacketRxGain(  );
+    189          #endif
+    190                  return 0;
+    191              }
+    192              else
+    193              {
+    194                  return SX1276LoRaGetPacketRxGain(  );
+    195              }
+    196          }
+    197          
+    198          int8_t SX1276GetPacketSnr( void )
+    199          {
+    200              if( LoRaOn == false )
+    201              {
+    202                   while( 1 )
+    203                   {
+    204                       // Useless in FSK mode
+    205                       // Block program here
+    206                   }
+    207              }
+    208              else
+    209              {
+    210                  return SX1276LoRaGetPacketSnr(  );
+    211              }
+    212          }
+    213          
+    214          double SX1276GetPacketRssi( void )
+    215          {
+    216              if( LoRaOn == false )
+    217              {
+    218          #if ( LORA == 0 )
+    219                  return SX1276FskGetPacketRssi(  );
+    220          #endif
+    221                  return 0;
+    222              }
+    223              else
+    224              {
+    225                  return SX1276LoRaGetPacketRssi( );
+    226              }
+    227          }
+    228          
+    229          uint32_t SX1276GetPacketAfc( void )
+    230          {
+    231              if( LoRaOn == false )
+    232              {
+    233          #if ( LORA == 0 )
+    234                  return SX1276FskGetPacketAfc(  );
+    235          #endif
+    236                  return 0;
+    237              }
+    238              else
+    239              {
+    240                   while( 1 )
+    241                   {
+    242                       // Useless in LoRa mode
+    243                       // Block program here
+    244                   }
+    245              }
+    246          }
+    247          
+    248          void SX1276StartRx( void )
+    249          {
+    250              if( LoRaOn == false )
+    251              {
+    252          #if ( LORA == 0 )
+    253                  SX1276FskSetRFState( RF_STATE_RX_INIT );
+    254          #endif
+    255              }
+    256              else
+    257              {
+    258                  SX1276LoRaSetRFState( RFLR_STATE_RX_INIT );
+    259              }
+    260          }
+    261          
+    262          void SX1276GetRxPacket( void *buffer, uint16_t *size )
+    263          {
+    264              if( LoRaOn == false )
+    265              {
+    266          #if ( LORA == 0 )
+    267                  SX1276FskGetRxPacket( buffer, size );
+    268          #endif
+    269              }
+    270              else
+    271              {
+    272                  SX1276LoRaGetRxPacket( buffer, size );
+    273              }
+    274          }
+    275          
+    276          void SX1276SetTxPacket( const void *buffer, uint16_t size )
+    277          {
+    278              if( LoRaOn == false )
+    279              {
+    280          #if ( LORA == 0 )
+    281                  SX1276FskSetTxPacket( buffer, size );
+    282          #endif
+    283              }
+    284              else
+    285              {
+    286                  SX1276LoRaSetTxPacket( buffer, size );
+    287              }
+    288          }
+    289          
+    290          uint8_t SX1276GetRFState( void )
+    291          {
+    292              if( LoRaOn == false )
+    293              {
+    294          #if ( LORA == 0 )
+    295                  return SX1276FskGetRFState( );
+    296          #endif
+    297                  return 0;
+    298              }
+    299              else
+    300              {
+    301                  return SX1276LoRaGetRFState( );
+    302              }
+    303          }
+    304          
+    305          void SX1276SetRFState( uint8_t state )
+    306          {
+    307              if( LoRaOn == false )
+    308              {
+    309          #if ( LORA == 0 )
+    310                  SX1276FskSetRFState( state );
+    311          #endif
+    312              }
+    313              else
+    314              {
+    315                  SX1276LoRaSetRFState( state );
+    316              }
+    317          }
+    318          
+    319          uint32_t SX1276Process( void )
+    320          {
+    321              if( LoRaOn == false )
+    322              {
+    323          #if ( LORA == 0 )
+    324                  return SX1276FskProcess( );
+    325          #endif
+    326                  return 0;
+    327              }
+    328              else
+    329              {
+    330                  return SX1276LoRaProcess( );
+    331              }
+    332          }
+    333          
+    334          static void PhyTimerCallBack( void* param )
+    335          {
+    336              COUNTUP_TICKCOUNT( );
+    337          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   PhyTimerCallBack
+       0   SX1276GetLoRaOn
+       8   SX1276GetOpMode
+         8   -> SX1276LoRaGetOpMode
+       4   SX1276GetPacketAfc
+       8   SX1276GetPacketRssi
+         8   -> SX1276LoRaGetPacketRssi
+       8   SX1276GetPacketRxGain
+         8   -> SX1276LoRaGetPacketRxGain
+       8   SX1276GetPacketSnr
+         8   -> SX1276LoRaGetPacketSnr
+       8   SX1276GetRFState
+         8   -> SX1276LoRaGetRFState
+      16   SX1276GetRxPacket
+        16   -> SX1276LoRaGetRxPacket
+       8   SX1276Init
+         8   -> SX1276LoRaInit
+         8   -> SX1276SetLoRaOn
+         8   -> TMR_AllocateTimer
+         8   -> TMR_StartIntervalTimer
+       8   SX1276Process
+         8   -> SX1276LoRaProcess
+       8   SX1276ReadRssi
+         8   -> SX1276LoRaReadRssi
+       8   SX1276ReadRxGain
+         8   -> SX1276LoRaReadRxGain
+      16   SX1276Reset
+        16   -> SX1276SetReset
+       8   SX1276SetLoRaOn
+         8   -> SX1276LoRaSetOpMode
+         8   -> SX1276WriteBuffer
+       8   SX1276SetOpMode
+         8   -> SX1276LoRaSetOpMode
+       8   SX1276SetRFState
+         8   -> SX1276LoRaSetRFState
+      16   SX1276SetTxPacket
+        16   -> SX1276LoRaSetTxPacket
+       8   SX1276StartRx
+         8   -> SX1276LoRaSetRFState
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable18
+       4  ??DataTable18_1
+       4  ??DataTable18_2
+       4  ??DataTable18_3
+       4  ??DataTable18_4
+       4  ??DataTable18_5
+       4  ??DataTable18_6
+       4  ??DataTable18_7
+       4  ??DataTable18_8
+       1  LoRaOn
+       1  LoRaOnState
+      10  PhyTimerCallBack
+       1  PhyTmr
+       6  SX1276GetLoRaOn
+      20  SX1276GetOpMode
+      18  SX1276GetPacketAfc
+      22  SX1276GetPacketRssi
+      20  SX1276GetPacketRxGain
+      18  SX1276GetPacketSnr
+      20  SX1276GetRFState
+      24  SX1276GetRxPacket
+      46  SX1276Init
+      20  SX1276Process
+      22  SX1276ReadRssi
+      20  SX1276ReadRxGain
+     112  SX1276Regs
+      38  SX1276Reset
+      76  SX1276SetLoRaOn
+      22  SX1276SetOpMode
+      22  SX1276SetRFState
+      26  SX1276SetTxPacket
+      18  SX1276StartRx
+
+ 
+ 115 bytes in section .bss
+ 504 bytes in section .text
+ 
+ 504 bytes of CODE memory
+ 115 bytes of DATA memory
+
+Errors: none
+Warnings: none

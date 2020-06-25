@@ -1,0 +1,716 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:50:58
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\Events.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW512D.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\Events.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\Events.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\Events.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\Events.c
+      1          /* ###################################################################
+      2          **     Filename    : Events.c
+      3          **     Project     : ProcessorExpert
+      4          **     Processor   : MKL26Z128VLL4
+      5          **     Component   : Events
+      6          **     Version     : Driver 01.00
+      7          **     Compiler    : IAR ARM C Compiler
+      8          **     Date/Time   : 2013-05-22, 16:17, # CodeGen: 0
+      9          **     Abstract    :
+     10          **         This is user's event module.
+     11          **         Put your event handler code here.
+     12          **     Settings    :
+     13          **     Contents    :
+     14          **         UART_OnBlockReceived        - void UART_OnBlockReceived(LDD_TUserData *UserDataPtr);
+     15          **         UART_OnBlockSent            - void UART_OnBlockSent(LDD_TUserData *UserDataPtr);
+     16          **         StackTimer_OnCounterRestart - void StackTimer_OnCounterRestart(LDD_TUserData *UserDataPtr);
+     17          **         StackTimer_OnChannel0       - void StackTimer_OnChannel0(LDD_TUserData *UserDataPtr);
+     18          **         Cpu_OnReset                 - void Cpu_OnReset(uint16_t Reason);
+     19          **         Cpu_OnNMIINT0               - void Cpu_OnNMIINT0(void);
+     20          **
+     21          ** ###################################################################*/
+     22          /*!
+     23          ** @file Events.c
+     24          ** @version 01.00
+     25          ** @date 2013-05-22, 16:17, # CodeGen: 0
+     26          ** @brief
+     27          **         This is user's event module.
+     28          **         Put your event handler code here.
+     29          */
+     30          /*!
+     31          **  @addtogroup Events_module Events module documentation
+     32          **  @{
+     33          */
+     34          /* MODULE Events */
+     35          
+     36          #include "Cpu.h"
+     37          #include "Events.h"
+     38          #include "mqx_tasks.h"
+     39          
+     40          #ifdef __cplusplus
+     41          extern "C" {
+     42          #endif
+     43          
+     44          /* User includes (#include below this line is not maintained by Processor Expert) */
+     45          void (*StackTimer_OnChannel0_Notify_fptr)(LDD_TUserData*) = NULL;
+     46          void (*SerialManager_RxNotify_fptr)(LDD_TUserData*) = NULL;
+     47          void (*SerialManager_TxNotify_fptr)(LDD_TUserData*) = NULL;
+     48          void (*SerialManager_IICErrorNotify_fptr)(LDD_TUserData*) = NULL;
+     49          void (*DataAvailableCallback_fptr)(LDD_TUserData*) = NULL;
+     50          void (*PrecisionTimer_OnCounterRestart_fptr)(LDD_TUserData*) = NULL;
+     51          void (*RealTimeClock_OnAlarm_fptr)(LDD_TUserData*) = NULL;
+     52          extern void SX1276InitIo( void );
+     53          
+     54          /*
+     55          ** ===================================================================
+     56          **     Event       :  UARTA_OnBlockReceived (module Events)
+     57          **
+     58          **     Component   :  UARTA [Serial_LDD]
+     59          */
+     60          /*!
+     61          **     @brief
+     62          **         This event is called when the requested number of data is
+     63          **         moved to the input buffer.
+     64          **     @param
+     65          **         UserDataPtr     - Pointer to the user or
+     66          **                           RTOS specific data. This pointer is passed
+     67          **                           as the parameter of Init method.
+     68          */
+     69          /* ===================================================================*/
+     70          void UARTA_OnBlockReceived(LDD_TUserData *UserDataPtr)
+     71          {
+     72              /* Write your code here ... */
+     73              if(SerialManager_RxNotify_fptr != NULL)
+     74              {
+     75                  SerialManager_RxNotify_fptr(UserDataPtr);
+     76              }
+     77          }
+     78          
+     79          /*
+     80          ** ===================================================================
+     81          **     Event       :  UARTA_OnBlockSent (module Events)
+     82          **
+     83          **     Component   :  UARTA [Serial_LDD]
+     84          */
+     85          /*!
+     86          **     @brief
+     87          **         This event is called after the last character from the
+     88          **         output buffer is moved to the transmitter.
+     89          **     @param
+     90          **         UserDataPtr     - Pointer to the user or
+     91          **                           RTOS specific data. This pointer is passed
+     92          **                           as the parameter of Init method.
+     93          */
+     94          /* ===================================================================*/
+     95          void UARTA_OnBlockSent(LDD_TUserData *UserDataPtr)
+     96          {
+     97              /* Write your code here ... */
+     98              if(SerialManager_TxNotify_fptr != NULL)
+     99              {
+    100                  SerialManager_TxNotify_fptr(UserDataPtr);
+    101              }
+    102          }
+    103          
+    104          /*
+    105          ** ===================================================================
+    106          **     Event       :  StackTimer_OnCounterRestart (module Events)
+    107          **
+    108          **     Component   :  StackTimer [TimerUnit_LDD]
+    109          */
+    110          /*!
+    111          **     @brief
+    112          **         Called if counter overflow/underflow or counter is
+    113          **         reinitialized by modulo or compare register matching.
+    114          **         OnCounterRestart event and Timer unit must be enabled. See
+    115          **         <SetEventMask> and <GetEventMask> methods. This event is
+    116          **         available only if a <Interrupt> is enabled.
+    117          **     @param
+    118          **         UserDataPtr     - Pointer to the user or
+    119          **                           RTOS specific data. The pointer passed as
+    120          **                           the parameter of Init method.
+    121          */
+    122          /* ===================================================================*/
+    123          void StackTimer_OnCounterRestart(LDD_TUserData *UserDataPtr)
+    124          {
+    125              /* Write your code here ... */
+    126          }
+    127          
+    128          /*
+    129          ** ===================================================================
+    130          **     Event       :  StackTimer_OnChannel0 (module Events)
+    131          **
+    132          **     Component   :  StackTimer [TimerUnit_LDD]
+    133          */
+    134          /*!
+    135          **     @brief
+    136          **         Called if compare register match the counter registers or
+    137          **         capture register has a new content. OnChannel0 event and
+    138          **         Timer unit must be enabled. See <SetEventMask> and
+    139          **         <GetEventMask> methods. This event is available only if a
+    140          **         <Interrupt> is enabled.
+    141          **     @param
+    142          **         UserDataPtr     - Pointer to the user or
+    143          **                           RTOS specific data. The pointer passed as
+    144          **                           the parameter of Init method.
+    145          */
+    146          /* ===================================================================*/
+    147          void StackTimer_OnChannel0(LDD_TUserData *UserDataPtr)
+    148          {
+    149              /* Write your code here ... */
+    150              if(StackTimer_OnChannel0_Notify_fptr != NULL)
+    151              {
+    152                  StackTimer_OnChannel0_Notify_fptr(UserDataPtr);
+    153              }
+    154          }
+    155          
+    156          /*
+    157          ** ===================================================================
+    158          **     Event       :  Cpu_OnReset (module Events)
+    159          **
+    160          **     Component   :  Cpu [MK22DN512MC5]
+    161          **     Description :
+    162          **         This software event is called after a reset.
+    163          **     Parameters  :
+    164          **         NAME            - DESCRIPTION
+    165          **         Reason          - Content of the reset status register.
+    166          **                           You can use predefined constants RSTSRC_*
+    167          **                           defined in generated PE_Const.h file to
+    168          **                           determine a reason of the last reset. See
+    169          **                           definition of these constants in this file
+    170          **                           for details.
+    171          **     Returns     : Nothing
+    172          ** ===================================================================
+    173          */
+    174          void Cpu_OnReset(uint16_t Reason)
+    175          {
+    176              /* Write your code here ... */
+    177              SX1276InitIo( );
+    178          
+    179              Cpu_SetClockConfiguration(CPU_CLOCK_CONFIG_0);
+    180          
+    181          #ifdef __mqxlite_h__
+    182              SystemTimer1_Enable(PE_LDD_DeviceDataList[PE_LDD_COMPONENT_SystemTimer1_ID]); /*PEx bug workaround ENGR00262511 */
+    183          #endif
+    184          }
+    185          
+    186          /*
+    187          ** ===================================================================
+    188          **     Event       :  UARTB_OnBlockReceived (module Events)
+    189          **
+    190          **     Component   :  UARTB [Serial_LDD]
+    191          */
+    192          /*!
+    193          **     @brief
+    194          **         This event is called when the requested number of data is
+    195          **         moved to the input buffer.
+    196          **     @param
+    197          **         UserDataPtr     - Pointer to the user or
+    198          **                           RTOS specific data. This pointer is passed
+    199          **                           as the parameter of Init method.
+    200          */
+    201          /* ===================================================================*/
+    202          void UARTB_OnBlockReceived(LDD_TUserData *UserDataPtr)
+    203          {
+    204              /* Write your code here ... */
+    205              if(SerialManager_RxNotify_fptr != NULL)
+    206              {
+    207                  SerialManager_RxNotify_fptr(UserDataPtr);
+    208              }
+    209          }
+    210          
+    211          /*
+    212          ** ===================================================================
+    213          **     Event       :  UARTB_OnBlockSent (module Events)
+    214          **
+    215          **     Component   :  UARTB [Serial_LDD]
+    216          */
+    217          /*!
+    218          **     @brief
+    219          **         This event is called after the last character from the
+    220          **         output buffer is moved to the transmitter.
+    221          **     @param
+    222          **         UserDataPtr     - Pointer to the user or
+    223          **                           RTOS specific data. This pointer is passed
+    224          **                           as the parameter of Init method.
+    225          */
+    226          /* ===================================================================*/
+    227          void UARTB_OnBlockSent(LDD_TUserData *UserDataPtr)
+    228          {
+    229              /* Write your code here ... */
+    230              if(SerialManager_TxNotify_fptr != NULL)
+    231              {
+    232                  SerialManager_TxNotify_fptr(UserDataPtr);
+    233              }
+    234          }
+    235          
+    236          /*
+    237          ** ===================================================================
+    238          **     Event       :  I2CDriver_OnMasterBlockSent (module Events)
+    239          **
+    240          **     Component   :  I2CDriver [I2CDriver_LDD]
+    241          */
+    242          /*!
+    243          **     @brief
+    244          **         This event is called when I2CDriver in master mode finishes the
+    245          **         transmission of the data successfully. This event is not
+    246          **         available for the SLAVE mode and if MasterSendBlock is
+    247          **         disabled.
+    248          **     @param
+    249          **         UserDataPtr     - Pointer to the user or
+    250          **                           RTOS specific data. This pointer is passed
+    251          **                           as the parameter of Init method.
+    252          */
+    253          /* ===================================================================*/
+    254          void I2CDriver_OnMasterBlockSent(LDD_TUserData *UserDataPtr)
+    255          {
+    256              /* Write your code here ... */
+    257              if(SerialManager_TxNotify_fptr != NULL)
+    258              {
+    259                  SerialManager_TxNotify_fptr(UserDataPtr);
+    260              }
+    261          }
+    262          
+    263          /*
+    264          ** ===================================================================
+    265          **     Event       :  I2CDriver_OnMasterBlockReceived (module Events)
+    266          **
+    267          **     Component   :  I2CDriver [I2CDriver_LDD]
+    268          */
+    269          /*!
+    270          **     @brief
+    271          **         This event is called when I2CDriver is in master mode and finishes
+    272          **         the reception of the data successfully. This event is not
+    273          **         available for the SLAVE mode and if MasterReceiveBlock is
+    274          **         disabled.
+    275          **     @param
+    276          **         UserDataPtr     - Pointer to the user or
+    277          **                           RTOS specific data. This pointer is passed
+    278          **                           as the parameter of Init method.
+    279          */
+    280          /* ===================================================================*/
+    281          void I2CDriver_OnMasterBlockReceived(LDD_TUserData *UserDataPtr)
+    282          {
+    283              /* Write your code here ... */
+    284              if(SerialManager_RxNotify_fptr != NULL)
+    285              {
+    286                  SerialManager_RxNotify_fptr(UserDataPtr);
+    287              }
+    288          }
+    289          
+    290          /*
+    291          ** ===================================================================
+    292          **     Event       :  I2CDriver_OnSlaveBlockSent (module Events)
+    293          **
+    294          **     Component   :  I2CDriver [I2CDriver_LDD]
+    295          */
+    296          /*!
+    297          **     @brief
+    298          **         This event is called when I2CDriver in slave mode finishes the
+    299          **         transmission of the data successfully. This event is not
+    300          **         available for the MASTER mode and if SlaveSendBlock is
+    301          **         disabled.
+    302          **     @param
+    303          **         UserDataPtr     - Pointer to the user or
+    304          **                           RTOS specific data. This pointer is passed
+    305          **                           as the parameter of Init method.
+    306          */
+    307          /* ===================================================================*/
+    308          void I2CDriver_OnSlaveBlockSent(LDD_TUserData *UserDataPtr)
+    309          {
+    310              /* Write your code here ... */
+    311              if(SerialManager_TxNotify_fptr != NULL)
+    312              {
+    313                  SerialManager_TxNotify_fptr(UserDataPtr);
+    314              }
+    315          }
+    316          
+    317          /*
+    318          ** ===================================================================
+    319          **     Event       :  I2CDriver_OnSlaveBlockReceived (module Events)
+    320          **
+    321          **     Component   :  I2CDriver [I2CDriver_LDD]
+    322          */
+    323          /*!
+    324          **     @brief
+    325          **         This event is called when I2CDriver in slave mode finishes the
+    326          **         reception of the data successfully. This event is not
+    327          **         available for the MASTER mode and if SlaveReceiveBlock is
+    328          **         disabled.
+    329          **     @param
+    330          **         UserDataPtr     - Pointer to the user or
+    331          **                           RTOS specific data. This pointer is passed
+    332          **                           as the parameter of Init method.
+    333          */
+    334          /* ===================================================================*/
+    335          void I2CDriver_OnSlaveBlockReceived(LDD_TUserData *UserDataPtr)
+    336          {
+    337              /* Write your code here ... */
+    338              if(SerialManager_RxNotify_fptr != NULL)
+    339              {
+    340                  SerialManager_RxNotify_fptr(UserDataPtr);
+    341              }
+    342          }
+    343          
+    344          /*
+    345          ** ===================================================================
+    346          **     Event       :  I2CDriver_OnError (module Events)
+    347          **
+    348          **     Component   :  I2CDriver [I2CDriver_LDD]
+    349          */
+    350          /*!
+    351          **     @brief
+    352          **         This event is called when an error (e.g. Arbitration lost)
+    353          **         occurs. The errors can be read with GetError method.
+    354          **     @param
+    355          **         UserDataPtr     - Pointer to the user or
+    356          **                           RTOS specific data. This pointer is passed
+    357          **                           as the parameter of Init method.
+    358          */
+    359          /* ===================================================================*/
+    360          void I2CDriver_OnError(LDD_TUserData *UserDataPtr)
+    361          {
+    362              /* Write your code here ... */
+    363              if(SerialManager_IICErrorNotify_fptr != NULL)
+    364              {
+    365                  SerialManager_IICErrorNotify_fptr(UserDataPtr);
+    366              }
+    367          }
+    368          
+    369          /*
+    370          ** ===================================================================
+    371          **     Event       :  DataAvailablePin_OnPortEvent (module Events)
+    372          **
+    373          **     Component   :  DataAvailablePin [GPIO_LDD]
+    374          */
+    375          /*!
+    376          **     @brief
+    377          **         Called if defined event on any pin of the port occured.
+    378          **         OnPortEvent event and GPIO interrupt must be enabled. See
+    379          **         SetPortEventMask() and GetPortEventMask() methods. This
+    380          **         event is enabled if <Interrupt service/event> is Enabled and
+    381          **         disabled if <Interrupt service/event> is Disabled.
+    382          **     @param
+    383          **         UserDataPtr     - Pointer to RTOS device
+    384          **                           data structure pointer.
+    385          */
+    386          /* ===================================================================*/
+    387          void DataAvailablePin_OnPortEvent(LDD_TUserData *UserDataPtr)
+    388          {
+    389              /* Write your code here ... */
+    390              if(DataAvailableCallback_fptr != NULL)
+    391              {
+    392                  DataAvailableCallback_fptr(UserDataPtr);
+    393              }
+    394          }
+    395          
+    396          /*
+    397          ** ===================================================================
+    398          **     Event       :  SPISlave_OnBlockSent (module Events)
+    399          **
+    400          **     Component   :  SPISlave [SPISlave_LDD]
+    401          */
+    402          /*!
+    403          **     @brief
+    404          **         This event is called after the last character from the
+    405          **         output buffer is moved to the transmitter. This event is
+    406          **         available only if the SendBlock method is enabled.
+    407          **     @param
+    408          **         UserDataPtr     - Pointer to the user or
+    409          **                           RTOS specific data. The pointer is passed
+    410          **                           as the parameter of Init method.
+    411          */
+    412          /* ===================================================================*/
+    413          void SPISlave_OnBlockSent(LDD_TUserData *UserDataPtr)
+    414          {
+    415              /* Write your code here ... */
+    416              if(SerialManager_TxNotify_fptr != NULL)
+    417              {
+    418                  SerialManager_TxNotify_fptr(UserDataPtr);
+    419              }
+    420          }
+    421          
+    422          /*
+    423          ** ===================================================================
+    424          **     Event       :  SPISlave_OnBlockReceived (module Events)
+    425          **
+    426          **     Component   :  SPISlave [SPISlave_LDD]
+    427          */
+    428          /*!
+    429          **     @brief
+    430          **         This event is called when the requested number of data is
+    431          **         moved to the input buffer. This method is available only if
+    432          **         the ReceiveBlock method is enabled.
+    433          **     @param
+    434          **         UserDataPtr     - Pointer to the user or
+    435          **                           RTOS specific data. The pointer is passed
+    436          **                           as the parameter of Init method.
+    437          */
+    438          /* ===================================================================*/
+    439          void SPISlave_OnBlockReceived(LDD_TUserData *UserDataPtr)
+    440          {
+    441              /* Write your code here ... */
+    442              if(SerialManager_RxNotify_fptr != NULL)
+    443              {
+    444                  SerialManager_RxNotify_fptr(UserDataPtr);
+    445              }
+    446          }
+    447          
+    448          /*
+    449          ** ===================================================================
+    450          **     Event       :  RealTimeClock_OnAlarm (module Events)
+    451          **
+    452          **     Component   :  RealTimeClock [RTC_LDD]
+    453          */
+    454          /*!
+    455          **     @brief
+    456          **         Called if alarm date and time match the actual date and time,
+    457          **         OnAlarm event is enabled (see <SetEventMask> and
+    458          **         <GetEventMask> methods) and RTC device is enabled. This
+    459          **         event is available only if <Interrupt service/event> is
+    460          **         enabled.
+    461          **     @param
+    462          **         UserDataPtr     - Pointer to the user or
+    463          **                           RTOS specific data. This pointer is passed
+    464          **                           as the parameter of Init method.
+    465          */
+    466          /* ===================================================================*/
+    467          void RealTimeClock_OnAlarm(LDD_TUserData *UserDataPtr)
+    468          {
+    469              /* Write your code here ... */
+    470              if(RealTimeClock_OnAlarm_fptr != NULL)
+    471              {
+    472                  RealTimeClock_OnAlarm_fptr(UserDataPtr);
+    473              }
+    474          }
+    475          
+    476          /*
+    477          ** ===================================================================
+    478          **     Event       :  PitTimeStamp_OnCounterRestart (module Events)
+    479          **
+    480          **     Component   :  PitTimeStamp [TimerUnit_LDD]
+    481          */
+    482          /*!
+    483          **     @brief
+    484          **         Called if counter overflow/underflow or counter is
+    485          **         reinitialized by modulo or compare register matching.
+    486          **         OnCounterRestart event and Timer unit must be enabled. See
+    487          **         [SetEventMask] and [GetEventMask] methods. This event is
+    488          **         available only if a [Interrupt] is enabled.
+    489          **     @param
+    490          **         UserDataPtr     - Pointer to the user or
+    491          **                           RTOS specific data. The pointer passed as
+    492          **                           the parameter of Init method.
+    493          */
+    494          /* ===================================================================*/
+    495          void PitTimeStamp_OnCounterRestart(LDD_TUserData *UserDataPtr)
+    496          {
+    497              /* Write your code here ... */
+    498              if(UserDataPtr != NULL)
+    499              {
+    500                  ((void(*)(void))UserDataPtr)();
+    501              }
+    502          }
+    503          
+    504          /* END Events */
+    505          
+    506          #ifdef __cplusplus
+    507          }  /* extern "C" */
+    508          #endif
+    509          
+    510          /*!
+    511          ** @}
+    512          */
+    513          /*
+    514          ** ###################################################################
+    515          **
+    516          **     This file was created by Processor Expert 10.2 [05.06]
+    517          **     for the Freescale Kinetis series of microcontrollers.
+    518          **
+    519          ** ###################################################################
+    520          */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   Cpu_OnReset
+         8   -> Cpu_SetClockConfiguration
+         8   -> SX1276InitIo
+         8   -> SystemTimer1_Enable
+       8   DataAvailablePin_OnPortEvent
+         8   -- Indirect call
+       8   I2CDriver_OnError
+         8   -- Indirect call
+       8   I2CDriver_OnMasterBlockReceived
+         8   -- Indirect call
+       8   I2CDriver_OnMasterBlockSent
+         8   -- Indirect call
+       8   I2CDriver_OnSlaveBlockReceived
+         8   -- Indirect call
+       8   I2CDriver_OnSlaveBlockSent
+         8   -- Indirect call
+       8   PitTimeStamp_OnCounterRestart
+         8   -- Indirect call
+       8   RealTimeClock_OnAlarm
+         8   -- Indirect call
+       8   SPISlave_OnBlockReceived
+         8   -- Indirect call
+       8   SPISlave_OnBlockSent
+         8   -- Indirect call
+       8   StackTimer_OnChannel0
+         8   -- Indirect call
+       0   StackTimer_OnCounterRestart
+       8   UARTA_OnBlockReceived
+         8   -- Indirect call
+       8   UARTA_OnBlockSent
+         8   -- Indirect call
+       8   UARTB_OnBlockReceived
+         8   -- Indirect call
+       8   UARTB_OnBlockSent
+         8   -- Indirect call
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable14
+       4  ??DataTable14_1
+       4  ??DataTable14_2
+       4  ??DataTable14_3
+       4  ??DataTable14_4
+       4  ??DataTable14_5
+       4  ??DataTable14_6
+      24  Cpu_OnReset
+       4  DataAvailableCallback_fptr
+      20  DataAvailablePin_OnPortEvent
+      20  I2CDriver_OnError
+      20  I2CDriver_OnMasterBlockReceived
+      20  I2CDriver_OnMasterBlockSent
+      20  I2CDriver_OnSlaveBlockReceived
+      20  I2CDriver_OnSlaveBlockSent
+      12  PitTimeStamp_OnCounterRestart
+       4  PrecisionTimer_OnCounterRestart_fptr
+      20  RealTimeClock_OnAlarm
+       4  RealTimeClock_OnAlarm_fptr
+      20  SPISlave_OnBlockReceived
+      20  SPISlave_OnBlockSent
+       4  SerialManager_IICErrorNotify_fptr
+       4  SerialManager_RxNotify_fptr
+       4  SerialManager_TxNotify_fptr
+      20  StackTimer_OnChannel0
+       4  StackTimer_OnChannel0_Notify_fptr
+       2  StackTimer_OnCounterRestart
+      20  UARTA_OnBlockReceived
+      20  UARTA_OnBlockSent
+      20  UARTB_OnBlockReceived
+      20  UARTB_OnBlockSent
+
+ 
+  28 bytes in section .bss
+ 346 bytes in section .text
+ 
+ 346 bytes of CODE memory
+  28 bytes of DATA memory
+
+Errors: none
+Warnings: none

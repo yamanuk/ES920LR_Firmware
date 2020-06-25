@@ -1,0 +1,390 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:01
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\PE_LDD.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW5CDE.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\PE_LDD.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\PE_LDD.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\PE_LDD.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\drv\Generated_Code\PE_LDD.c
+      1          /** ###################################################################
+      2          **     THIS COMPONENT MODULE IS GENERATED BY THE TOOL. DO NOT MODIFY IT.
+      3          **     Filename    : PE_LDD.c
+      4          **     Project     : ProcessorExpert
+      5          **     Processor   : MKL26Z128VLL4
+      6          **     Version     : Component 01.006, Driver 01.04, CPU db: 3.00.000
+      7          **     Compiler    : IAR ARM C Compiler
+      8          **     Date/Time   : 2014-10-10, 12:09, # CodeGen: 152
+      9          **     Abstract    :
+     10          **
+     11          **     Settings    :
+     12          **
+     13          **
+     14          **     Copyright : 1997 - 2013 Freescale Semiconductor, Inc. All Rights Reserved.
+     15          **     SOURCE DISTRIBUTION PERMISSIBLE as directed in End User License Agreement.
+     16          **
+     17          **     http      : www.freescale.com
+     18          **     mail      : support@freescale.com
+     19          ** ###################################################################*/
+     20          /*!
+     21          ** @file PE_LDD.c
+     22          ** @version 01.04
+     23          ** @brief
+     24          **
+     25          */
+     26          /*!
+     27          **  @addtogroup PE_LDD_module PE_LDD module documentation
+     28          **  @{
+     29          */
+     30          
+     31          /* MODULE PE_LDD. */
+     32          
+     33          /* MQX Lite include files */
+     34          #include "mqxlite.h"
+     35          #include "mqxlite_prv.h"
+     36          
+     37          #include "PE_LDD.h"
+     38          #include "Cpu.h"
+     39          #include "SerialManager.h"
+     40          
+     41          /*lint -esym(765,PE_PeripheralUsed,LDD_SetClockConfiguration,PE_CpuClockConfigurations,PE_FillMemory) Disable MISRA rule (8.10) checking for symbols (PE_PeripheralUsed,LDD_SetClockConfiguration,PE_CpuClockConfigurations,PE_FillMemory). */
+     42          
+     43          /*
+     44          ** ===========================================================================
+     45          ** Array of initialized device structures of LDD components.
+     46          ** ===========================================================================
+     47          */
+     48          LDD_TDeviceData *PE_LDD_DeviceDataList[13] = {
+     49              NULL,
+     50              NULL,
+     51              NULL,
+     52              NULL,
+     53              NULL,
+     54              NULL,
+     55              NULL,
+     56              NULL,
+     57              NULL,
+     58              NULL,
+     59              NULL,
+     60              NULL,
+     61              NULL
+     62            };
+     63          
+     64          /*
+     65          ** ===========================================================================
+     66          ** The array of clock frequencies in configured clock configurations.
+     67          ** ===========================================================================
+     68          */
+     69          /*! The array of clock configurations (frequencies) configured in configured clock configurations of the CPU component. */
+     70          const TCpuClockConfiguration PE_CpuClockConfigurations[CPU_CLOCK_CONFIG_NUMBER] = {
+     71            /* Clock configuration 0 */
+     72            {
+     73              CPU_CORE_CLK_HZ_CONFIG_0,          /*!< Core clock frequency in clock configuration 0 */
+     74              CPU_BUS_CLK_HZ_CONFIG_0,           /*!< Bus clock frequency in clock configuration 0 */
+     75              CPU_FLEXBUS_CLK_HZ_CONFIG_0,       /*!< Flexbus clock frequency in clock configuration 0 */
+     76              CPU_FLASH_CLK_HZ_CONFIG_0,         /*!< FLASH clock frequency in clock configuration 0 */
+     77              CPU_USB_CLK_HZ_CONFIG_0,           /*!< USB clock frequency in clock configuration 0 */
+     78              CPU_PLL_FLL_CLK_HZ_CONFIG_0,       /*!< PLL/FLL clock frequency in clock configuration 0 */
+     79              CPU_MCGIR_CLK_HZ_CONFIG_0,         /*!< MCG internal reference clock frequency in clock configuration 0 */
+     80              CPU_OSCER_CLK_HZ_CONFIG_0,         /*!< System OSC external reference clock frequency in clock configuration 0 */
+     81              CPU_ERCLK32K_CLK_HZ_CONFIG_0,      /*!< External reference clock 32k frequency in clock configuration 0 */
+     82              CPU_MCGFF_CLK_HZ_CONFIG_0          /*!< MCG fixed frequency clock */
+     83            },
+     84            /* Clock configuration 1 */
+     85            {
+     86              CPU_CORE_CLK_HZ_CONFIG_1,          /*!< Core clock frequency in clock configuration 1 */
+     87              CPU_BUS_CLK_HZ_CONFIG_1,           /*!< Bus clock frequency in clock configuration 1 */
+     88              CPU_FLEXBUS_CLK_HZ_CONFIG_1,       /*!< Flexbus clock frequency in clock configuration 1 */
+     89              CPU_FLASH_CLK_HZ_CONFIG_1,         /*!< FLASH clock frequency in clock configuration 1 */
+     90              CPU_USB_CLK_HZ_CONFIG_1,           /*!< USB clock frequency in clock configuration 1 */
+     91              CPU_PLL_FLL_CLK_HZ_CONFIG_1,       /*!< PLL/FLL clock frequency in clock configuration 1 */
+     92              CPU_MCGIR_CLK_HZ_CONFIG_1,         /*!< MCG internal reference clock frequency in clock configuration 1 */
+     93              CPU_OSCER_CLK_HZ_CONFIG_1,         /*!< System OSC external reference clock frequency in clock configuration 1 */
+     94              CPU_ERCLK32K_CLK_HZ_CONFIG_1,      /*!< External reference clock 32k frequency in clock configuration 1 */
+     95              CPU_MCGFF_CLK_HZ_CONFIG_1          /*!< MCG fixed frequency clock */
+     96            }
+     97          };
+     98          
+     99          /*
+    100          ** ===================================================================
+    101          **     Method      :  Cpu_PE_FillMemory (component MKL26Z256LL4)
+    102          */
+    103          /*!
+    104          **     @brief
+    105          **         Fills a memory area block by a specified value.
+    106          **     @param
+    107          **       SourceAddressPtr - Source address pointer.
+    108          **     @param
+    109          **       c - A value used to fill a memory block.
+    110          **     @param
+    111          **       len - Length of a memory block to fill.
+    112          */
+    113          /* ===================================================================*/
+    114          void PE_FillMemory(register void* SourceAddressPtr, register uint8_t c, register uint32_t len)
+    115          {
+    116            register uint8_t *ptr = (uint8_t*)SourceAddressPtr;
+    117          
+    118            if (len > 0U) {
+    119              while (len--) {
+    120                *ptr++ = c;
+    121              }
+    122            }
+    123          }
+    124          
+    125          /*
+    126          ** ===================================================================
+    127          **     Method      :  Cpu_PE_PeripheralUsed (component MKL26Z256LL4)
+    128          */
+    129          /*!
+    130          **     @brief
+    131          **         Returns information whether a peripheral is allocated by PEx
+    132          **         or not.
+    133          **     @param
+    134          **       PrphBaseAddress - Base address of a peripheral.
+    135          **     @return
+    136          **       TRUE if a peripheral is used by PEx or FALSE if it isn't used.
+    137          */
+    138          /* ===================================================================*/
+    139          bool PE_PeripheralUsed(uint32_t PrphBaseAddress)
+    140          {
+    141            bool result = FALSE;
+    142          
+    143            switch (PrphBaseAddress) {
+    144              /* Base address allocated by peripheral(s) SysTick */
+    145              case 0xE000E010UL:
+    146              /* Base address allocated by peripheral(s) TPM2 */
+    147              case 0x4003A000UL:
+    148              /* Base address allocated by peripheral(s) UART0 */
+    149              case 0x4006A000UL:
+    150              /* Base address allocated by peripheral(s) UART1 */
+    151              case 0x4006B000UL:
+    152              /* Base address allocated by peripheral(s) SPI0 */
+    153              case 0x40076000UL:
+    154              /* Base address allocated by peripheral(s) I2C0 */
+    155              case 0x40066000UL:
+    156              /* Base address allocated by peripheral(s) PTD */
+    157              case 0x400FF0C0UL:
+    158              /* Base address allocated by peripheral(s) PIT */
+    159              case 0x40037000UL:
+    160              /* Base address allocated by peripheral(s) RTC */
+    161              case 0x4003D000UL:
+    162              /* Base address allocated by peripheral(s) PTA */
+    163              case 0x400FF000UL:
+    164              /* Base address allocated by peripheral(s) PTE */
+    165              case 0x400FF100UL:
+    166              /* Base address allocated by peripheral(s) PTB */
+    167              case 0x400FF040UL:
+    168                result = TRUE;
+    169                break;
+    170              default:
+    171                break;
+    172            }
+    173            return result;
+    174          }
+    175          
+    176          /*
+    177          ** ===================================================================
+    178          **     Method      :  Cpu_LDD_SetClockConfiguration (component MKL26Z256LL4)
+    179          */
+    180          /*!
+    181          **     @brief
+    182          **         Changes the clock configuration of all LDD components in a
+    183          **         project.
+    184          **     @param
+    185          **       ClockConfiguration - New CPU clock configuration changed by CPU SetClockConfiguration method.
+    186          **     @param
+    187          **       ClockConfiguration - New CPU clock configuration changed by CPU SetClockConfiguration method.
+    188          */
+    189          /* ===================================================================*/
+    190          void LDD_SetClockConfiguration(LDD_TClockConfiguration ClockConfiguration)
+    191          {
+    192            /* Component SystemTimer1 (TimerUnit_LDD). */
+    193            if (PE_LDD_DeviceDataList[PE_LDD_COMPONENT_SystemTimer1_ID] != NULL) {
+    194              SystemTimer1_SetClockConfiguration(PE_LDD_DeviceDataList[PE_LDD_COMPONENT_SystemTimer1_ID], ClockConfiguration);
+    195            }
+    196            /* Component StackTimer (TimerUnit_LDD). */
+    197            if (PE_LDD_DeviceDataList[PE_LDD_COMPONENT_StackTimer_ID] != NULL) {
+    198              StackTimer_SetClockConfiguration(PE_LDD_DeviceDataList[PE_LDD_COMPONENT_StackTimer_ID], ClockConfiguration);
+    199            }
+    200          #if (gSerialMgrUseUartA_c)
+    201            /* Component UARTA (Serial_LDD). */
+    202            if (PE_LDD_DeviceDataList[PE_LDD_COMPONENT_UARTA_ID] != NULL) {
+    203              UARTA_SetClockConfiguration(PE_LDD_DeviceDataList[PE_LDD_COMPONENT_UARTA_ID], ClockConfiguration);
+    204            }
+    205          #endif
+    206          #if (gSerialMgrUseUartB_c)
+    207            /* Component UARTB (Serial_LDD). */
+    208            if (PE_LDD_DeviceDataList[PE_LDD_COMPONENT_UARTB_ID] != NULL) {
+    209              UARTB_SetClockConfiguration(PE_LDD_DeviceDataList[PE_LDD_COMPONENT_UARTB_ID], ClockConfiguration);
+    210            }
+    211          #endif
+    212          #if (gSerialMgrUseIIC_c)
+    213            /* Component I2CDriver (I2C_LDD). */
+    214            if (PE_LDD_DeviceDataList[PE_LDD_COMPONENT_I2CDriver_ID] != NULL) {
+    215              I2CDriver_SetClockConfiguration(PE_LDD_DeviceDataList[PE_LDD_COMPONENT_I2CDriver_ID], ClockConfiguration);
+    216            }
+    217          #endif
+    218            /* Component PitTimeStamp (TimerUnit_LDD). */
+    219            if (PE_LDD_DeviceDataList[PE_LDD_COMPONENT_PitTimeStamp_ID] != NULL) {
+    220              PitTimeStamp_SetClockConfiguration(PE_LDD_DeviceDataList[PE_LDD_COMPONENT_PitTimeStamp_ID], ClockConfiguration);
+    221            }
+    222            /* Component RealTimeClock (LDD_RTC). */
+    223            if (PE_LDD_DeviceDataList[PE_LDD_COMPONENT_RealTimeClock_ID] != NULL) {
+    224              RealTimeClock_SetClockConfiguration(PE_LDD_DeviceDataList[PE_LDD_COMPONENT_RealTimeClock_ID], ClockConfiguration);
+    225            }
+    226            MQXLite1_SetClockConfiguration(ClockConfiguration);
+    227          }
+    228          
+    229          /* END PE_LDD. */
+    230          
+    231          /*!
+    232          ** @}
+    233          */
+    234          /*
+    235          ** ###################################################################
+    236          **
+    237          **     This file was created by Processor Expert 10.3 [05.09]
+    238          **     for the Freescale Kinetis series of microcontrollers.
+    239          **
+    240          ** ###################################################################
+    241          */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   LDD_SetClockConfiguration
+        16   -> MQXLite1_SetClockConfiguration
+        16   -> PitTimeStamp_SetClockConfiguration
+        16   -> RealTimeClock_SetClockConfiguration
+        16   -> StackTimer_SetClockConfiguration
+        16   -> SystemTimer1_SetClockConfiguration
+        16   -> UARTA_SetClockConfiguration
+       8   PE_FillMemory
+       4   PE_PeripheralUsed
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+      96  LDD_SetClockConfiguration
+      80  PE_CpuClockConfigurations
+      24  PE_FillMemory
+      52  PE_LDD_DeviceDataList
+      98  PE_PeripheralUsed
+
+ 
+  52 bytes in section .bss
+  80 bytes in section .rodata
+ 230 bytes in section .text
+ 
+ 230 bytes of CODE  memory
+  80 bytes of CONST memory
+  52 bytes of DATA  memory
+
+Errors: none
+Warnings: none

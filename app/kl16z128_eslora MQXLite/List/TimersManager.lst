@@ -1,0 +1,2137 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM         14/May/2020  16:51:03
+# Copyright 1999-2020 IAR Systems AB.
+#
+#    Cpu mode             
+#    Endian            =  little
+#    Source file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\TimersManager\Source\TimersManager.c
+#    Command line      =
+#        -f C:\Users\81901\AppData\Local\Temp\EW6588.tmp
+#        (C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\TimersManager\Source\TimersManager.c
+#        --preprocess=s
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -lcN
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List" -o
+#        "C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj" --no_cse --no_unroll --no_inline --no_code_motion
+#        --no_tbaa --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\Sources\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\include\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\config\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\MQXLITE\psp\cortex_m\compiler\iar\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Generated_Code\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\PExSupport\Kinetis\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\OSAbstraction\MQXLite\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Common\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\Lists\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\FunctionLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Utils\SecLib\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\FSCI\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Panic\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\SerialManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\MemManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\TimersManager\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\Messaging\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\framework\RNG\Source\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\Phy\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\ieee_802_15_4\SMAC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\ADC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\BME\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Flash\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\I2C\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LED\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LLWU\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\LPTMR\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\SMC\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\MCG\Interface\
+#        -I
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\..\drv\Portable\Reset\
+#        -On)
+#    Locale            =  C
+#    List file         =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\List\TimersManager.lst
+#    Object file       =
+#        C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\app\kl16z128_eslora
+#        MQXLite\Obj\TimersManager.o
+#    Runtime model:       
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+C:\Users\81901\Desktop\job\es920lr\SDK\src\Application\KL16_SMAC_MQXLite\framework\TimersManager\Source\TimersManager.c
+      1          /*!
+      2          * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      3          * All rights reserved.
+      4          *
+      5          * \file TimersManager.c
+      6          * TIMER implementation file for the ARM CORTEX-M4 processor
+      7          *
+      8          * Redistribution and use in source and binary forms, with or without modification,
+      9          * are permitted provided that the following conditions are met:
+     10          *
+     11          * o Redistributions of source code must retain the above copyright notice, this list
+     12          *   of conditions and the following disclaimer.
+     13          *
+     14          * o Redistributions in binary form must reproduce the above copyright notice, this
+     15          *   list of conditions and the following disclaimer in the documentation and/or
+     16          *   other materials provided with the distribution.
+     17          *
+     18          * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     19          *   contributors may be used to endorse or promote products derived from this
+     20          *   software without specific prior written permission.
+     21          *
+     22          * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     23          * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     24          * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     25          * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     26          * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     27          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     28          * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     29          * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     30          * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     31          * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     32          */
+     33          
+     34          #include "EmbeddedTypes.h"
+     35          #include "TimersManagerInternal.h"
+     36          #include "cmsis_os.h"
+     37          #include "Panic.h"
+     38          #if gTMR_Enabled_d
+     39          #include "StackTimer.h"
+     40          #endif
+     41          #if gPrecision_Timers_Enabled_d
+     42          #include "PrecisionTimer.h"
+     43          #endif
+     44          #if gTimestamp_Enabled_d
+     45          #include "RealTimeClock.h"
+     46          #include "RTC_PDD.h"
+     47          #endif
+     48          #if gTMR_PIT_Timestamp_Enabled_d
+     49          #include "PitTimeStamp.h"
+     50          #endif
+     51          #include "TimersManager.h"
+     52          
+     53          /*****************************************************************************
+     54          ******************************************************************************
+     55          * Private macros
+     56          ******************************************************************************
+     57          *****************************************************************************/
+     58          #define mTmrDummyEvent_c (1<<0)
+     59          
+     60          /*****************************************************************************
+     61           *****************************************************************************
+     62           * Private memory definitions
+     63           *****************************************************************************
+     64           *****************************************************************************/
+     65          
+     66          #if gTMR_Enabled_d
+     67          
+     68          /*
+     69           * NAME: previousTimeInTicks
+     70           * DESCRIPTION: The previous time in ticks when the counter register was read
+     71           * VALUES: 0..65535
+     72           */
+     73          static tmrTimerTicks16_t previousTimeInTicks;
+     74          
+     75          /*
+     76           * NAME: mMaxToCountDown_c
+     77           * DESCRIPTION:  Count to maximum (0xffff - 10*1ms(in ticks)), to be sure that
+     78           * the currentTimeInTicks will never roll over previousTimeInTicks in the
+     79           * TMR_Thread(); A thread have to be executed at most in 1ms.
+     80           * VALUES: 0..65535
+     81           */
+     82          static uint16_t mMaxToCountDown_c;
+     83          
+     84          /*
+     85           * NAME: mTicksFor1ms
+     86           * DESCRIPTION:  Ticks for 1ms. The TMR_Thread()event will not be issued faster than 1ms
+     87           * VALUES: uint32_t range
+     88           */
+     89          static uint32_t mTicksFor1ms;
+     90          
+     91          /*
+     92           * NAME: mCounterFreqHz
+     93           * DESCRIPTION:  The counter frequency in hz.
+     94           * VALUES: see definition
+     95           */
+     96          static uint32_t mCounterFreqHz;
+     97          
+     98          /*
+     99           * NAME: maTmrTimerTable
+    100           * DESCRIPTION:  Main timer table. All allocated timers are stored here.
+    101           *               A timer's ID is it's index in this table.
+    102           * VALUES: see definition
+    103           */
+    104          static tmrTimerTableEntry_t maTmrTimerTable[gTmrTotalTimers_c];
+    105          
+    106          /*
+    107           * NAME: maTmrTimerStatusTable
+    108           * DESCRIPTION: timer status stable. Making the single-byte-per-timer status
+    109           *              table a separate array saves a bit of code space.
+    110           *              If an entry is == 0, the timer is not allocated.
+    111           * VALUES: see definition
+    112           */
+    113          static tmrStatus_t maTmrTimerStatusTable[gTmrTotalTimers_c];
+    114          
+    115          /*
+    116           * NAME: numberOfActiveTimers
+    117           * DESCRIPTION: Number of Active timers (without low power capability)
+    118           *              the MCU can not enter low power if numberOfActiveTimers!=0
+    119           * VALUES: 0..255
+    120           */
+    121          static uint8_t numberOfActiveTimers = 0;
+    122          
+    123          /*
+    124           * NAME: numberOfLowPowerActiveTimers
+    125           * DESCRIPTION: Number of low power active timer.
+    126           *              The MCU can enter in low power if more low power timers are active
+    127           * VALUES:
+    128           */
+    129          static uint8_t numberOfLowPowerActiveTimers = 0;
+    130          
+    131          #if 0
+    132          /*
+    133           * NAME: PE_LDD_DeviceDataList
+    134           * DESCRIPTION: Array of initialized device structures of LDD components.
+    135           * VALUES:
+    136           */
+    137          LDD_TDeviceData *PE_LDD_DeviceDataList[] = {NULL};
+    138          #endif
+    139          
+    140          #define IncrementActiveTimerNumber(type)  (((type) & gTmrLowPowerTimer_c) \
+    141                                                    ?(++numberOfLowPowerActiveTimers) \
+    142                                                    :(++numberOfActiveTimers) )
+    143          #define DecrementActiveTimerNumber(type)  (((type) & gTmrLowPowerTimer_c) \
+    144                                                    ?(--numberOfLowPowerActiveTimers) \
+    145                                                    :(--numberOfActiveTimers) )
+    146          
+    147          /*
+    148           * NAME: timerHardwareIsRunning
+    149           * DESCRIPTION: Flag if the hardware timer is running or not
+    150           * VALUES: TRUE/FALSE
+    151           */
+    152          static bool_t timerHardwareIsRunning = FALSE;
+    153          
+    154          /*
+    155           * NAME: gTimerHandle
+    156           * DESCRIPTION: Hardware timer handle
+    157           * VALUES:
+    158           */
+    159          static LDD_TDeviceData *gTimerHandle;
+    160          
+    161          /*
+    162           * NAME: StackTimer_OnChannel0_Notify_fptr
+    163           * DESCRIPTION: Function pointer for timer callback. Gets called from PEx Events.c
+    164           * VALUES:
+    165           */
+    166          extern void (*StackTimer_OnChannel0_Notify_fptr)(LDD_TUserData*);
+    167          
+    168          /*
+    169           * NAME:
+    170           * DESCRIPTION: Defines the timer thread
+    171           * VALUES:
+    172           */
+    173          #if defined(__GNUC__)
+    174          osThreadLink_t osThreadLink_TMR_Thread[1] = {0};
+    175          uint8_t osThread_TMR_Thread_stack[(gTmrTaskStackSize_c)*(1)];
+    176          uint8_t osThread_TMR_Thread_signal[36*(1)];
+    177          osThreadDef_t os_thread_def_TMR_Thread = { TMR_Thread,
+    178                                                     osPriorityRealtime,
+    179                                                     1,
+    180                                                     gTmrTaskStackSize_c,
+    181                                                     osThread_TMR_Thread_stack,
+    182                                                     osThread_TMR_Thread_signal,
+    183                                                     osThreadLink_TMR_Thread,
+    184                                                     "TMR_Thread"};
+    185          #else
+    186          osThreadDef( TMR_Thread, osPriorityRealtime, 1, gTmrTaskStackSize_c );
+    187          #endif
+    188          
+    189          /*
+    190           * NAME:
+    191           * DESCRIPTION: The OS threadId for TMR task.
+    192           * VALUES:
+    193           */
+    194          static osThreadId mTimerThreadId;
+    195          
+    196          #endif /*gTMR_Enabled_d*/
+    197          
+    198          #if gPrecision_Timers_Enabled_d
+    199          
+    200          /*
+    201           * NAME: globalTimeTicks
+    202           * DESCRIPTION: 64bit timer extension.
+    203           * VALUES:
+    204           */
+    205          static volatile tmrTimerTicks64_t globalTimeTicks;
+    206          
+    207          /*
+    208           * NAME: gPrecisionTimerHandle
+    209           * DESCRIPTION: Hardware timer handle for precision timer
+    210           * VALUES:
+    211           */
+    212          static LDD_TDeviceData *gPrecisionTimerHandle;
+    213          
+    214          /*
+    215           * NAME: gPrecisionTimerTickus
+    216           * DESCRIPTION: Period of the hardware timer tick for precision timer
+    217           * VALUES:
+    218           */
+    219          static uint32_t gPrecisionTimerTickus;
+    220          
+    221          /*
+    222           * NAME: gPrecisionTimerTickusReal
+    223           * DESCRIPTION: Period of the hardware timer tick for precision timer
+    224           * VALUES:
+    225           */
+    226          static float gPrecisionTimerTickusReal;
+    227          
+    228          /*
+    229           * NAME: gPrecisionTimerPeriodTicks
+    230           * DESCRIPTION: Period in ticks of the precision timer
+    231           * VALUES:
+    232           */
+    233          static uint32_t gPrecisionTimerPeriodTicks;
+    234          
+    235          /*
+    236           * NAME: PrecisionTimer_OnCounterRestart_fptr
+    237           * DESCRIPTION: Function pointer for pit timer callback. Gets called from PEx Events.c
+    238           * VALUES:
+    239           */
+    240          extern void (*PrecisionTimer_OnCounterRestart_fptr)(LDD_TUserData*);
+    241          
+    242          #endif
+    243          
+    244          #if gTimestamp_Enabled_d
+    245          
+    246          /*
+    247           * NAME: gRTCHandle
+    248           * DESCRIPTION: Hardware timer handle for RTC
+    249           * VALUES:
+    250           */
+    251          static LDD_TDeviceData *gRTCHandle;
+    252          
+    253          /*
+    254           * NAME: RealTimeClock_OnAlarm_fptr
+    255           * DESCRIPTION: Function pointer for RTC timer callback. Gets called from PEx Events.c
+    256           * VALUES:
+    257           */
+    258          extern void (*RealTimeClock_OnAlarm_fptr)(LDD_TUserData*);
+    259          
+    260          /*
+    261           * NAME: gRTCTimeOffset
+    262           * DESCRIPTION: Holds time offset in microseconds, used to calculate the date
+    263           * VALUES:
+    264           */
+    265          static volatile uint64_t gRTCTimeOffset;
+    266          
+    267          /*
+    268           * NAME: gRTCPrescalerOffset
+    269           * DESCRIPTION: Holds time prescaler offset in ticks, used to calculate the date
+    270           * VALUES:
+    271           */
+    272          static volatile uint16_t gRTCPrescalerOffset;
+    273          
+    274          /*
+    275           * NAME: gRTCAlarmCallback
+    276           * DESCRIPTION: Callback for the alarm.
+    277           * VALUES:
+    278           */
+    279          static pfTmrCallBack_t gRTCAlarmCallback;
+    280          
+    281          /*
+    282           * NAME: gRTCAlarmCallbackParam
+    283           * DESCRIPTION: Parameter for the alarm callback.
+    284           * VALUES:
+    285           */
+    286          static void *gRTCAlarmCallbackParam;
+    287          
+    288          #endif /*gTimestamp_Enabled_d*/
+    289          
+    290          
+    291          #if gTMR_PIT_Timestamp_Enabled_d
+    292          static LDD_TDeviceData *gPITHandle;
+    293          #if (defined(MCU_MKL26Z4) || defined(MCU_MKL46Z4))
+    294          static uint32_t mPIT_TimestampHigh;
+    295          #endif
+    296          #endif
+    297          /*****************************************************************************
+    298           *****************************************************************************
+    299           * Private prototypes
+    300           *****************************************************************************
+    301           *****************************************************************************/
+    302          
+    303          #if gTMR_Enabled_d
+    304          
+    305          /*---------------------------------------------------------------------------
+    306           * NAME: TMR_GetTimerStatus
+    307           * DESCRIPTION: RETURNs the timer status
+    308           * PARAMETERS:  IN: timerID - the timer ID
+    309           * RETURN: see definition of tmrStatus_t
+    310           * NOTES: none
+    311           *---------------------------------------------------------------------------*/
+    312          static tmrStatus_t TMR_GetTimerStatus
+    313          (
+    314              tmrTimerID_t timerID
+    315          );
+    316          
+    317          /*---------------------------------------------------------------------------
+    318           * NAME: TMR_SetTimerStatus
+    319           * DESCRIPTION: Set the timer status
+    320           * PARAMETERS:  IN: timerID - the timer ID
+    321           *             IN: status - the status of the timer
+    322           * RETURN: None
+    323           * NOTES: none
+    324           *---------------------------------------------------------------------------*/
+    325          static void TMR_SetTimerStatus
+    326          (
+    327              tmrTimerID_t timerID,
+    328              tmrStatus_t status
+    329          );
+    330          
+    331          /*---------------------------------------------------------------------------
+    332           * NAME: TMR_GetTimerType
+    333           * DESCRIPTION: RETURNs the timer type
+    334           * PARAMETERS:  IN: timerID - the timer ID
+    335           * RETURN: see definition of tmrTimerType_t
+    336           * NOTES: none
+    337           *---------------------------------------------------------------------------*/
+    338          static tmrTimerType_t TMR_GetTimerType
+    339          (
+    340              tmrTimerID_t timerID
+    341          );
+    342          
+    343          /*---------------------------------------------------------------------------
+    344           * NAME: TMR_SetTimerType
+    345           * DESCRIPTION: Set the timer type
+    346           * PARAMETERS:  IN: timerID - the timer ID
+    347           *              IN: type - timer type
+    348           * RETURN: none
+    349           * NOTES: none
+    350           *---------------------------------------------------------------------------*/
+    351          static void TMR_SetTimerType
+    352          (
+    353              tmrTimerID_t timerID,
+    354              tmrTimerType_t type
+    355          );
+    356          
+    357          /*---------------------------------------------------------------------------
+    358           * NAME: TmrTicksFromMilliseconds
+    359           * DESCRIPTION: Convert milliseconds to ticks
+    360           * PARAMETERS:  IN: milliseconds
+    361           * RETURN: tmrTimerTicks32_t - ticks number
+    362           * NOTES: none
+    363           *---------------------------------------------------------------------------*/
+    364          tmrTimerTicks32_t TmrTicksFromMilliseconds
+    365          (
+    366              tmrTimeInMilliseconds_t milliseconds
+    367          );
+    368          
+    369          /*---------------------------------------------------------------------------
+    370           * NAME: StackTimer_Interrupt_Wrapper
+    371           * DESCRIPTION: Interrupt wrapper for driver ISR.
+    372           * PARAMETERS:  IN: Dummy parameter.
+    373           * RETURN: none
+    374           * NOTES: none
+    375           *---------------------------------------------------------------------------*/
+    376          void StackTimer_Interrupt_Wrapper
+    377          (
+    378              void *param
+    379          );
+    380          
+    381          /*---------------------------------------------------------------------------
+    382           * NAME: StackTimer_OnChannel0_Notify
+    383           * DESCRIPTION: Event function called by driver ISR on channel match in interrupt context.
+    384           * PARAMETERS:  IN: User data; unused.
+    385           * RETURN: none
+    386           * NOTES: none
+    387           *---------------------------------------------------------------------------*/
+    388          void StackTimer_OnChannel0_Notify
+    389          (
+    390              LDD_TUserData *UserDataPtr
+    391          );
+    392          
+    393          /*---------------------------------------------------------------------------
+    394           * NAME: StackTimer_OnCounterRestart
+    395           * DESCRIPTION: Event function called by driver ISR on timer overflow in interrupt context.
+    396           * PARAMETERS:  IN: User data; unused.
+    397           * RETURN: none
+    398           * NOTES: none
+    399           *---------------------------------------------------------------------------*/
+    400          void StackTimer_OnCounterRestart
+    401          (
+    402              LDD_TUserData *UserDataPtr
+    403          );
+    404          
+    405          #endif /*gTMR_Enabled_d*/
+    406          
+    407          #if gPrecision_Timers_Enabled_d
+    408          
+    409          /*---------------------------------------------------------------------------
+    410           * NAME: TMR_PrecisionTimerOverflowNotify
+    411           * DESCRIPTION: Event function called by driver ISR on timer overflow in interrupt context.
+    412           * PARAMETERS:  IN: User data; unused.
+    413           * RETURN: none
+    414           * NOTES: none
+    415           *---------------------------------------------------------------------------*/
+    416          void TMR_PrecisionTimerOverflowNotify
+    417          (
+    418              LDD_TUserData *UserDataPtr
+    419          );
+    420          
+    421          #endif /*gPrecision_Timers_Enabled_d*/
+    422          
+    423          #if gTimestamp_Enabled_d
+    424          
+    425          /*---------------------------------------------------------------------------
+    426           * NAME: TMR_RTCAlarmNotify
+    427           * DESCRIPTION: Event function called by driver ISR on RTC alarm in interrupt context.
+    428           * PARAMETERS:  IN: User data; unused.
+    429           * RETURN: none
+    430           * NOTES: none
+    431           *---------------------------------------------------------------------------*/
+    432          void TMR_RTCAlarmNotify
+    433          (
+    434              LDD_TUserData *UserDataPtr
+    435          );
+    436          
+    437          #endif /*gTimestamp_Enabled_d*/
+    438          
+    439          /*****************************************************************************
+    440          ******************************************************************************
+    441          * Private functions
+    442          ******************************************************************************
+    443          *****************************************************************************/
+    444          
+    445          #if gTMR_Enabled_d
+    446          
+    447          /*---------------------------------------------------------------------------
+    448          * NAME: TMR_GetTimerStatus
+    449          * DESCRIPTION: Returns the timer status
+    450          * PARAMETERS:  IN: timerID - the timer ID
+    451          * RETURN: see definition of tmrStatus_t
+    452          * NOTES: none
+    453          *---------------------------------------------------------------------------*/
+    454          static tmrStatus_t TMR_GetTimerStatus
+    455          (
+    456              tmrTimerID_t timerID
+    457          )
+    458          {
+    459              return maTmrTimerStatusTable[timerID] & mTimerStatusMask_c;
+    460          }
+    461          
+    462          /*---------------------------------------------------------------------------
+    463          * NAME: TMR_SetTimerStatus
+    464          * DESCRIPTION: Set the timer status
+    465          * PARAMETERS:  IN: timerID - the timer ID
+    466          *              IN: status - the status of the timer
+    467          * RETURN: None
+    468          * NOTES: none
+    469          *---------------------------------------------------------------------------*/
+    470          static void TMR_SetTimerStatus
+    471          (
+    472              tmrTimerID_t timerID,
+    473              tmrStatus_t status
+    474          )
+    475          {
+    476              maTmrTimerStatusTable[timerID] = (maTmrTimerStatusTable[timerID] & ~mTimerStatusMask_c) | status;
+    477          }
+    478          
+    479          /*---------------------------------------------------------------------------
+    480          * NAME: TMR_GetTimerType
+    481          * DESCRIPTION: Returns the timer type
+    482          * PARAMETERS:  IN: timerID - the timer ID
+    483          * RETURN: see definition of tmrTimerType_t
+    484          * NOTES: none
+    485          *---------------------------------------------------------------------------*/
+    486          static tmrTimerType_t TMR_GetTimerType
+    487          (
+    488              tmrTimerID_t timerID
+    489          )
+    490          {
+    491              return maTmrTimerStatusTable[timerID] & mTimerType_c;
+    492          }
+    493          
+    494          /*---------------------------------------------------------------------------
+    495          * NAME: TMR_SetTimerType
+    496          * DESCRIPTION: Set the timer type
+    497          * PARAMETERS:  IN: timerID - the timer ID
+    498          *              IN: type - timer type
+    499          * RETURN: none
+    500          * NOTES: none
+    501          *---------------------------------------------------------------------------*/
+    502          static void TMR_SetTimerType
+    503          (
+    504              tmrTimerID_t timerID,
+    505              tmrTimerType_t type
+    506          )
+    507          {
+    508              maTmrTimerStatusTable[timerID] = (maTmrTimerStatusTable[timerID] & ~mTimerType_c) | type;
+    509          }
+    510          
+    511          #endif /*gTMR_Enabled_d*/
+    512          
+    513          #if gTimestamp_Enabled_d
+    514          
+    515          /*---------------------------------------------------------------------------
+    516           * NAME: TMR_RTCAlarmNotify
+    517           * DESCRIPTION: Event function called by driver ISR on RTC alarm in interrupt context.
+    518           * PARAMETERS:  IN: User data; unused.
+    519           * RETURN: none
+    520           * NOTES: none
+    521           *---------------------------------------------------------------------------*/
+    522          void TMR_RTCAlarmNotify
+    523          (
+    524              LDD_TUserData *UserDataPtr
+    525          )
+    526          {
+    527            (void)UserDataPtr;
+    528          
+    529            RTC_PDD_DisableAlarmInterrupt((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+    530            if( gRTCAlarmCallback != NULL )
+    531            {
+    532              gRTCAlarmCallback(gRTCAlarmCallbackParam);
+    533            }
+    534          }
+    535          
+    536          #endif /*gTimestamp_Enabled_d*/
+    537          
+    538          #if (gTMR_PIT_Timestamp_Enabled_d)
+    539          #if (defined(MCU_MKL26Z4) || defined(MCU_MKL46Z4))
+    540          static void TMR_PIT_ISR(void)
+    541          {
+    542            PIT_PDD_ClearInterruptFlag(PIT_BASE_PTR, PIT_PDD_CHANNEL_1);
+    543            mPIT_TimestampHigh--;
+    544          }
+    545          #endif
+    546          #endif
+    547          
+    548          /*****************************************************************************
+    549          ******************************************************************************
+    550          * Public functions
+    551          ******************************************************************************
+    552          *****************************************************************************/
+    553          
+    554          #if gTMR_Enabled_d
+    555          
+    556          /*---------------------------------------------------------------------------
+    557           * NAME: TmrTicksFromMilliseconds
+    558           * DESCRIPTION: Convert milliseconds to ticks
+    559           * PARAMETERS:  IN: milliseconds
+    560           * RETURN: tmrTimerTicks32_t - ticks number
+    561           * NOTES: none
+    562           *---------------------------------------------------------------------------*/
+    563          tmrTimerTicks32_t TmrTicksFromMilliseconds
+    564          (
+    565              tmrTimeInMilliseconds_t milliseconds
+    566          )
+    567          {
+    568            return (uint64_t) milliseconds * mCounterFreqHz / 1000;
+    569          }
+    570          
+    571          /*---------------------------------------------------------------------------
+    572           * NAME: TMR_Init
+    573           * DESCRIPTION: initialize the timer module
+    574           * PARAMETERS: -
+    575           * RETURN: -
+    576           *---------------------------------------------------------------------------*/
+    577          void TMR_Init
+    578          (
+    579              void
+    580          )
+    581          {
+    582              gTimerHandle = StackTimer_Init(NULL);
+    583              mCounterFreqHz = (uint32_t)((StackTimer_GetInputFrequency(gTimerHandle))); /* /compensation for PEx FRDIV bug is done in BSP*/
+    584          
+    585              StackTimer_OnChannel0_Notify_fptr = StackTimer_OnChannel0_Notify;
+    586          
+    587              /* Count to maximum (0xffff - 10*1ms(in ticks)), to be sure that the currentTimeInTicks
+    588              will never roll over previousTimeInTicks in the TMR_Thread() */
+    589              mMaxToCountDown_c = 0xFFFF - TmrTicksFromMilliseconds(10);
+    590              /* The TMR_Thread()event will not be issued faster than 1ms*/
+    591              mTicksFor1ms = TmrTicksFromMilliseconds(1);
+    592          
+    593              mTimerThreadId = osThreadCreate(osThread(TMR_Thread), NULL);
+    594          
+    595              if( mTimerThreadId == NULL )
+    596              {
+    597                panic( 0, (uint32_t)TMR_Init, 0, 0 );
+    598              }
+    599          }
+    600          
+    601          /*---------------------------------------------------------------------------
+    602           * NAME: TMR_NotifyClkChanged
+    603           * DESCRIPTION: This function is called when the clock is changed
+    604           * PARAMETERS: IN: clkKhz (uint32_t) - new clock
+    605           * RETURN: -
+    606           *---------------------------------------------------------------------------*/
+    607          void TMR_NotifyClkChanged
+    608          (
+    609              uint32_t clkKhz
+    610          )
+    611          {
+    612          //#warning Remove gFTMxSC_PrescaleCount_c dependence. This impacts LPM.
+    613              //mCounterFreqHz = clkKhz/(1<<gFTMxSC_PrescaleCount_c); /*TODO: remove gFTMxSC_PrescaleCount_c dependence*/
+    614              /* Clock was changed, so calculate again  mMaxToCountDown_c.
+    615              Count to maximum (0xffff - 10*1ms(in ticks)), to be sure that the currentTimeInTicks
+    616              will never roll over previousTimeInTicks in the TMR_Thread() */
+    617              mMaxToCountDown_c = 0xFFFF - TmrTicksFromMilliseconds(10);
+    618              /* The TMR_Thread()event will not be issued faster than 1ms*/
+    619              mTicksFor1ms = TmrTicksFromMilliseconds(1);
+    620          }
+    621          
+    622          /*---------------------------------------------------------------------------
+    623           * NAME: TMR_AllocateTimer
+    624           * DESCRIPTION: allocate a timer
+    625           * PARAMETERS: -
+    626           * RETURN: timer ID
+    627           *---------------------------------------------------------------------------*/
+    628          
+    629          tmrTimerID_t TMR_AllocateTimer
+    630          (
+    631              void
+    632          )
+    633          {
+    634              uint32_t i;
+    635          
+    636              for (i = 0; i < NumberOfElements(maTmrTimerTable); ++i)
+    637              {
+    638                  if (!TMR_IsTimerAllocated(i))
+    639                  {
+    640                      TMR_SetTimerStatus(i, mTmrStatusInactive_c);
+    641                      return i;
+    642                  }
+    643             }
+    644          
+    645             return gTmrInvalidTimerID_c;
+    646          }
+    647          
+    648          /*---------------------------------------------------------------------------
+    649           * NAME: TMR_AreAllTimersOff
+    650           * DESCRIPTION: Check if all timers except the LP timers are OFF.
+    651           * PARAMETERS: -
+    652           * RETURN: TRUE if there are no active non-low power timers, FALSE otherwise
+    653           *---------------------------------------------------------------------------*/
+    654          bool_t TMR_AreAllTimersOff
+    655          (
+    656              void
+    657          )
+    658          {
+    659              return !numberOfActiveTimers;
+    660          }
+    661          
+    662          /*---------------------------------------------------------------------------
+    663           * NAME: TMR_FreeTimer
+    664           * DESCRIPTION: Free a timer
+    665           * PARAMETERS:  IN: timerID - the ID of the timer
+    666           * RETURN: -
+    667           * NOTES: Safe to call even if the timer is running.
+    668           *        Harmless if the timer is already free.
+    669           *---------------------------------------------------------------------------*/
+    670          void TMR_FreeTimer
+    671          (
+    672              tmrTimerID_t timerID
+    673          )
+    674          {
+    675              TMR_StopTimer(timerID);
+    676              TMR_MarkTimerFree(timerID);
+    677          }
+    678          
+    679          #if 0
+    680          /*---------------------------------------------------------------------------
+    681           * NAME: StackTimer_Interrupt_Wrapper
+    682           * DESCRIPTION: Interrupt wrapper for driver ISR.
+    683           * PARAMETERS:  IN: Dummy parameter.
+    684           * RETURN: none
+    685           * NOTES: none
+    686           *---------------------------------------------------------------------------*/
+    687          void StackTimer_Interrupt_Wrapper(void *param)
+    688          {
+    689            (void)param;
+    690            StackTimer_Interrupt();
+    691          }
+    692          #endif
+    693          
+    694          /*---------------------------------------------------------------------------
+    695           * NAME: StackTimer_OnChannel0_Notify
+    696           * DESCRIPTION: Event function called by driver ISR on channel match in interrupt context.
+    697           * PARAMETERS:  IN: User data; unused.
+    698           * RETURN: none
+    699           * NOTES: none
+    700           *---------------------------------------------------------------------------*/
+    701          void StackTimer_OnChannel0_Notify(LDD_TUserData *UserDataPtr)
+    702          {
+    703            (void)UserDataPtr;
+    704            osSignalSet( mTimerThreadId, mTmrDummyEvent_c );
+    705          }
+    706          
+    707          #if 0
+    708          /*---------------------------------------------------------------------------
+    709           * NAME: StackTimer_OnCounterRestart
+    710           * DESCRIPTION: Event function called by driver ISR on timer overflow in interrupt context.
+    711           * PARAMETERS:  IN: User data; unused.
+    712           * RETURN: none
+    713           * NOTES: none
+    714           *---------------------------------------------------------------------------*/
+    715          void StackTimer_OnCounterRestart(LDD_TUserData *UserDataPtr)
+    716          {
+    717            (void)UserDataPtr;
+    718          }
+    719          #endif
+    720          
+    721          /*---------------------------------------------------------------------------
+    722           * NAME: TMR_IsTimerActive
+    723           * DESCRIPTION: Check if a specified timer is active
+    724           * PARAMETERS: IN: timerID - the ID of the timer
+    725           * RETURN: TRUE if the timer (specified by the timerID) is active,
+    726           *         FALSE otherwise
+    727           *---------------------------------------------------------------------------*/
+    728          bool_t TMR_IsTimerActive
+    729          (
+    730              tmrTimerID_t timerID
+    731          )
+    732          {
+    733              return TMR_GetTimerStatus(timerID) == mTmrStatusActive_c;
+    734          }
+    735          
+    736          /*---------------------------------------------------------------------------
+    737           * NAME: TMR_IsTimerReady
+    738           * DESCRIPTION: Check if a specified timer is ready
+    739           * PARAMETERS: IN: timerID - the ID of the timer
+    740           * RETURN: TRUE if the timer (specified by the timerID) is ready,
+    741           *         FALSE otherwise
+    742           *---------------------------------------------------------------------------*/
+    743          bool_t TMR_IsTimerReady
+    744          (
+    745              tmrTimerID_t timerID
+    746          )
+    747          {
+    748              return TMR_GetTimerStatus(timerID) == mTmrStatusReady_c;
+    749          }
+    750          
+    751          /*---------------------------------------------------------------------------
+    752           * NAME: TMR_GetRemainingTime
+    753           * DESCRIPTION: Returns the remaining time until timeout, for the specified
+    754           *              timer
+    755           * PARAMETERS: IN: timerID - the ID of the timer
+    756           * RETURN: remaining time in milliseconds until next timer timeout
+    757           *---------------------------------------------------------------------------*/
+    758          uint32_t TMR_GetRemainingTime
+    759          (
+    760              tmrTimerID_t tmrID
+    761          )
+    762          {
+    763            tmrTimerTicks32_t remainingTime, currentTime, elapsedRemainingTicks;
+    764            unsigned int saveInt;
+    765          
+    766            if(gTmrInvalidTimerID_c == tmrID)
+    767              return 0;
+    768          
+    769            if(maTmrTimerTable[tmrID].remainingTicks == 0)
+    770              return 0;
+    771          
+    772            saveInt = TmrIntDisableAll();
+    773          
+    774            FTMReadCNTRegister(currentTime);
+    775          
+    776            if(currentTime < maTmrTimerTable[tmrID].timestamp)
+    777            {
+    778              currentTime = currentTime + 0xFFFF;
+    779            }
+    780          
+    781            elapsedRemainingTicks = currentTime - maTmrTimerTable[tmrID].timestamp;
+    782          
+    783            if(elapsedRemainingTicks > maTmrTimerTable[tmrID].remainingTicks)
+    784            {
+    785              TmrIntRestoreAll(saveInt);
+    786              return 1;
+    787            }
+    788          
+    789            remainingTime = ((uint64_t)(maTmrTimerTable[tmrID].remainingTicks - elapsedRemainingTicks) * 1000 + mCounterFreqHz - 1) / mCounterFreqHz;
+    790          
+    791            TmrIntRestoreAll(saveInt);
+    792            return remainingTime;
+    793          }
+    794          
+    795          
+    796          /*---------------------------------------------------------------------------
+    797           * NAME: TMR_StartTimer (BeeStack or application)
+    798           * DESCRIPTION: Start a specified timer
+    799           * PARAMETERS: IN: timerId - the ID of the timer
+    800           *             IN: timerType - the type of the timer
+    801           *             IN: timeInMilliseconds - time expressed in millisecond units
+    802           *             IN: pfTmrCallBack - callback function
+    803           *             IN: param - parameter to callback function
+    804           * RETURN: -
+    805           * NOTES: When the timer expires, the callback function is called in
+    806           *        non-interrupt context. If the timer is already running when
+    807           *        this function is called, it will be stopped and restarted.
+    808           *---------------------------------------------------------------------------*/
+    809          void TMR_StartTimer
+    810          (
+    811              tmrTimerID_t timerID,
+    812              tmrTimerType_t timerType,
+    813              tmrTimeInMilliseconds_t timeInMilliseconds,
+    814              void (*pfTimerCallBack)(void *),
+    815              void *param
+    816          )
+    817          {
+    818              tmrTimerTicks32_t intervalInTicks;
+    819          
+    820              /* check if timer is not allocated or if it has an invalid ID (fix@ENGR223389) */
+    821              if (!TMR_IsTimerAllocated(timerID) || (gTmrInvalidTimerID_c == timerID))
+    822                return;
+    823          
+    824              /* Stopping an already stopped timer is harmless. */
+    825              TMR_StopTimer(timerID);
+    826          
+    827              intervalInTicks = TmrTicksFromMilliseconds(timeInMilliseconds);
+    828              if (!intervalInTicks)
+    829              {
+    830                  intervalInTicks = 1;
+    831              }
+    832          
+    833              TMR_SetTimerType(timerID, timerType);
+    834              maTmrTimerTable[timerID].intervalInTicks = intervalInTicks;
+    835              maTmrTimerTable[timerID].remainingTicks = intervalInTicks;
+    836              FTMReadCNTRegister(maTmrTimerTable[timerID].timestamp);
+    837              maTmrTimerTable[timerID].pfCallBack = pfTimerCallBack;
+    838              maTmrTimerTable[timerID].param = param;
+    839          
+    840              /* Enable timer, the timer thread will do the rest of the work. */
+    841              TMR_EnableTimer(timerID);
+    842          }
+    843          
+    844          /*---------------------------------------------------------------------------
+    845           * NAME: TMR_StartLowPowerTimer
+    846           * DESCRIPTION: Start a low power timer. When the timer goes off, call the
+    847           *              callback function in non-interrupt context.
+    848           *              If the timer is running when this function is called, it will
+    849           *              be stopped and restarted.
+    850           *              Start the timer with the following timer types:
+    851           *                          - gTmrLowPowerMinuteTimer_c
+    852           *                          - gTmrLowPowerSecondTimer_c
+    853           *                          - gTmrLowPowerSingleShotMillisTimer_c
+    854           *                          - gTmrLowPowerIntervalMillisTimer_c
+    855           *              The MCU can enter in low power if there are only active low
+    856           *              power timers.
+    857           * PARAMETERS: IN: timerId - the ID of the timer
+    858           *             IN: timerType - the type of the timer
+    859           *             IN: timeIn - time in ticks
+    860           *             IN: pfTmrCallBack - callback function
+    861           *             IN: param - parameter to callback function
+    862           * RETURN: type/DESCRIPTION
+    863           *---------------------------------------------------------------------------*/
+    864          void TMR_StartLowPowerTimer
+    865          (
+    866              tmrTimerID_t timerId,
+    867              tmrTimerType_t timerType,
+    868              uint32_t timeIn,
+    869              void (*pfTmrCallBack)(void *),
+    870              void *param
+    871          )
+    872          {
+    873          #if(gTMR_EnableLowPowerTimers_d)
+    874              TMR_StartTimer(timerId, timerType | gTmrLowPowerTimer_c, timeIn, pfTmrCallBack, param);
+    875          #else
+    876              timerId = timerId;
+    877              timerType = timerType;
+    878              timeIn = timeIn;
+    879              pfTmrCallBack = pfTmrCallBack;
+    880              argument = argument;
+    881          #endif
+    882          }
+    883          
+    884          /*---------------------------------------------------------------------------
+    885           * NAME: TMR_StartMinuteTimer
+    886           * DESCRIPTION: Starts a minutes timer
+    887           * PARAMETERS:  IN: timerId - the ID of the timer
+    888           *              IN: timeInMinutes - time expressed in minutes
+    889           *              IN: pfTmrCallBack - callback function
+    890           *              IN: param - parameter to callback function
+    891           * RETURN: None
+    892           * NOTES: Customized form of TMR_StartTimer(). This is a single shot timer.
+    893           *        There are no interval minute timers.
+    894           *---------------------------------------------------------------------------*/
+    895           #if gTMR_EnableMinutesSecondsTimers_d
+    896          void TMR_StartMinuteTimer
+    897          (
+    898              tmrTimerID_t timerId,
+    899              tmrTimeInMinutes_t timeInMinutes,
+    900              void (*pfTmrCallBack)(void *),
+    901              void *param
+    902          )
+    903          {
+    904              TMR_StartTimer(timerId, gTmrMinuteTimer_c, TmrMinutes(timeInMinutes), pfTmrCallBack, param);
+    905          }
+    906          #endif
+    907          
+    908          /*---------------------------------------------------------------------------
+    909           * NAME: TMR_StartSecondTimer
+    910           * DESCRIPTION: Starts a seconds timer
+    911           * PARAMETERS:  IN: timerId - the ID of the timer
+    912           *              IN: timeInSeconds - time expressed in seconds
+    913           *              IN: pfTmrCallBack - callback function
+    914           * RETURN: None
+    915           * NOTES: Customized form of TMR_StartTimer(). This is a single shot timer.
+    916           *        There are no interval seconds timers.
+    917           *---------------------------------------------------------------------------*/
+    918           #if gTMR_EnableMinutesSecondsTimers_d
+    919          void TMR_StartSecondTimer
+    920          (
+    921              tmrTimerID_t timerId,
+    922              tmrTimeInSeconds_t timeInSeconds,
+    923              void (*pfTmrCallBack)(void *),
+    924              void *argument
+    925          )
+    926          {
+    927              TMR_StartTimer(timerId, gTmrSecondTimer_c, TmrSeconds(timeInSeconds), pfTmrCallBack, argument);
+    928          }
+    929          #endif
+    930          
+    931          /*---------------------------------------------------------------------------
+    932           * NAME: TMR_StartIntervalTimer
+    933           * DESCRIPTION: Starts an interval count timer
+    934           * PARAMETERS:  IN: timerId - the ID of the timer
+    935           *              IN: timeInMilliseconds - time expressed in milliseconds
+    936           *              IN: pfTmrCallBack - callback function
+    937           *              IN: param - parameter to callback function
+    938           * RETURN: None
+    939           * NOTES: Customized form of TMR_StartTimer()
+    940           *---------------------------------------------------------------------------*/
+    941          void TMR_StartIntervalTimer
+    942          (
+    943              tmrTimerID_t timerID,
+    944              tmrTimeInMilliseconds_t timeInMilliseconds,
+    945              void (*pfTimerCallBack)(void *),
+    946              void *param
+    947          )
+    948          {
+    949              TMR_StartTimer(timerID, gTmrIntervalTimer_c, timeInMilliseconds, pfTimerCallBack, param);
+    950          }
+    951          
+    952          /*---------------------------------------------------------------------------
+    953           * NAME: TMR_StartSingleShotTimer
+    954           * DESCRIPTION: Starts an single-shot timer
+    955           * PARAMETERS:  IN: timerId - the ID of the timer
+    956           *              IN: timeInMilliseconds - time expressed in milliseconds
+    957           *              IN: pfTmrCallBack - callback function
+    958           *              IN: param - parameter to callback function
+    959           * RETURN: None
+    960           * NOTES: Customized form of TMR_StartTimer()
+    961           *---------------------------------------------------------------------------*/
+    962          void TMR_StartSingleShotTimer
+    963          (
+    964              tmrTimerID_t timerID,
+    965              tmrTimeInMilliseconds_t timeInMilliseconds,
+    966              void (*pfTimerCallBack)(void *),
+    967              void *param
+    968          )
+    969          {
+    970              TMR_StartTimer(timerID, gTmrSingleShotTimer_c, timeInMilliseconds, pfTimerCallBack, param);
+    971          }
+    972          
+    973          /*---------------------------------------------------------------------------
+    974           * NAME: TMR_StopTimer
+    975           * DESCRIPTION: Stop a timer
+    976           * PARAMETERS:  IN: timerID - the ID of the timer
+    977           * RETURN: None
+    978           * NOTES: Associated timer callback function is not called, even if the timer
+    979           *        expires. Does not frees the timer. Safe to call anytime, regardless
+    980           *        of the state of the timer.
+    981           *---------------------------------------------------------------------------*/
+    982          void TMR_StopTimer
+    983          (
+    984              tmrTimerID_t timerID
+    985          )
+    986          {
+    987              tmrStatus_t status;
+    988              unsigned int saveInt;
+    989          
+    990              saveInt = TmrIntDisableAll();
+    991              status = TMR_GetTimerStatus(timerID);
+    992          
+    993              if ( (status == mTmrStatusActive_c) || (status == mTmrStatusReady_c) )
+    994              {
+    995                  TMR_SetTimerStatus(timerID, mTmrStatusInactive_c);
+    996                  DecrementActiveTimerNumber(TMR_GetTimerType(timerID));
+    997                  /* if no sw active timers are enabled, */
+    998                  /* call the TMR_Thread() to countdown the ticks and stop the hw timer*/
+    999                  if (!numberOfActiveTimers && !numberOfLowPowerActiveTimers)
+   1000                      osSignalSet( mTimerThreadId, mTmrDummyEvent_c );
+   1001              }
+   1002          
+   1003              TmrIntRestoreAll(saveInt);
+   1004          }
+   1005          
+   1006          /*---------------------------------------------------------------------------
+   1007           * NAME: TMR_Thread
+   1008           * DESCRIPTION: Timer thread.
+   1009           *              Called by the kernel when the timer ISR posts a timer event.
+   1010           * PARAMETERS:  IN: events - timer events mask
+   1011           * RETURN: None
+   1012           * NOTES: none
+   1013           *---------------------------------------------------------------------------*/
+   1014          void TMR_Thread
+   1015          (
+   1016              void const *param
+   1017          )
+   1018          {
+   1019              tmrTimerTicks16_t nextInterruptTime;
+   1020              pfTmrCallBack_t pfCallBack;
+   1021              tmrTimerTicks16_t currentTimeInTicks;
+   1022              tmrTimerStatus_t status;
+   1023              tmrTimerTicks16_t ticksSinceLastHere, ticksdiff;
+   1024              uint8_t timerID;
+   1025              unsigned int saveInt;
+   1026              tmrTimerType_t timerType;
+   1027          
+   1028              (void)param;
+   1029          
+   1030              while(1)
+   1031              {
+   1032                  osSignalWait( 0, osWaitForever );
+   1033          
+   1034                  saveInt = TmrIntDisableAll();
+   1035          
+   1036                  FTMReadCNTRegister(currentTimeInTicks);
+   1037          
+   1038                  TmrIntRestoreAll(saveInt);
+   1039          
+   1040                  /* calculate difference between current and previous.  */
+   1041                  ticksSinceLastHere = (currentTimeInTicks - previousTimeInTicks);
+   1042                  /* remember for next time */
+   1043                  previousTimeInTicks = currentTimeInTicks;
+   1044          
+   1045                  for (timerID = 0; timerID < NumberOfElements(maTmrTimerTable); ++timerID)
+   1046                  {
+   1047                      saveInt = TmrIntDisableAll();
+   1048                      status = TMR_GetTimerStatus(timerID);
+   1049                      /* If TMR_StartTimer() has been called for this timer, start it's count */
+   1050                      /* down as of now. */
+   1051                      if (status == mTmrStatusReady_c)
+   1052                      {
+   1053                          TMR_SetTimerStatus(timerID, mTmrStatusActive_c);
+   1054                          TmrIntRestoreAll(saveInt);
+   1055                          continue;
+   1056                      }
+   1057                      TmrIntRestoreAll(saveInt);
+   1058          
+   1059                      /* Ignore any timer that is not active. */
+   1060                      if (status != mTmrStatusActive_c)
+   1061                      {
+   1062                          continue;
+   1063                      }
+   1064          
+   1065                      /* This timer is active. Decrement it's countdown.. */
+   1066                      if (maTmrTimerTable[timerID].remainingTicks > ticksSinceLastHere)
+   1067                      {
+   1068                          saveInt = TmrIntDisableAll();
+   1069                          maTmrTimerTable[timerID].remainingTicks -= ticksSinceLastHere;
+   1070                          FTMReadCNTRegister(maTmrTimerTable[timerID].timestamp);
+   1071                          TmrIntRestoreAll(saveInt);
+   1072                          continue;
+   1073                      }
+   1074          
+   1075                      timerType = TMR_GetTimerType(timerID);
+   1076                      /* If this is an interval timer, restart it. Otherwise, mark it as inactive. */
+   1077                      if ( (timerType & gTmrSingleShotTimer_c) ||
+   1078                           (timerType & gTmrSetMinuteTimer_c)  ||
+   1079                           (timerType & gTmrSetSecondTimer_c)  )
+   1080                      {
+   1081                          maTmrTimerTable[timerID].remainingTicks = 0;
+   1082                          TMR_StopTimer(timerID);
+   1083                      }
+   1084                      else
+   1085                      {
+   1086                          saveInt = TmrIntDisableAll();
+   1087                          maTmrTimerTable[timerID].remainingTicks = maTmrTimerTable[timerID].intervalInTicks;
+   1088                          FTMReadCNTRegister(maTmrTimerTable[timerID].timestamp);
+   1089                          TmrIntRestoreAll(saveInt);
+   1090                      }
+   1091                      /* This timer has expired. */
+   1092                      pfCallBack = maTmrTimerTable[timerID].pfCallBack;
+   1093                      /*Call callback if it is not NULL
+   1094                      This is done after the timer got updated,
+   1095                      in case the timer gets stopped or restarted in the callback*/
+   1096                      if (pfCallBack)
+   1097                      {
+   1098                          pfCallBack(maTmrTimerTable[timerID].param);
+   1099                      }
+   1100                  }  /* for (timerID = 0; timerID < ... */
+   1101          
+   1102                  /* Find the shortest active timer. */
+   1103                  nextInterruptTime = mMaxToCountDown_c;
+   1104          
+   1105                  for (timerID = 0; timerID < NumberOfElements(maTmrTimerTable); ++timerID)
+   1106                  {
+   1107                      if (TMR_GetTimerStatus(timerID) == mTmrStatusActive_c)
+   1108                      {
+   1109                          if (nextInterruptTime > maTmrTimerTable[timerID].remainingTicks)
+   1110                          {
+   1111                              nextInterruptTime = maTmrTimerTable[timerID].remainingTicks;
+   1112                          }
+   1113                      }
+   1114                  }
+   1115          
+   1116                  saveInt = TmrIntDisableAll();
+   1117          
+   1118                  /* Check to be sure that the timer was not programmed in the past for different source clocks.
+   1119                   * The interrupts are now disabled.
+   1120                   */
+   1121                  FTMReadCNTRegister(ticksdiff);
+   1122          
+   1123                  /* Number of ticks to be here */
+   1124                  ticksdiff = (uint16_t)(ticksdiff - currentTimeInTicks);
+   1125          
+   1126                  /* Next ticks to count already expired?? */
+   1127                  if(ticksdiff >= nextInterruptTime)
+   1128                  {
+   1129                      /* Is assumed that a thread has to be executed in 1ms...
+   1130                  so if the ticks already expired enter in TMR_Thread() after 1ms*/
+   1131                      nextInterruptTime = ticksdiff + mTicksFor1ms;
+   1132                  }
+   1133                  else
+   1134                  {
+   1135                      /* Time reference is 1ms, so be sure that won't be loaded
+   1136                         in Cmp Reg. less that 1ms in ticks */
+   1137                      if((nextInterruptTime - ticksdiff) < mTicksFor1ms)
+   1138                      {
+   1139                          nextInterruptTime = ticksdiff + mTicksFor1ms;
+   1140                      }
+   1141                  }
+   1142                  /* Update the compare register */
+   1143                  nextInterruptTime += currentTimeInTicks;
+   1144                  if(numberOfActiveTimers || numberOfLowPowerActiveTimers) /*not about to stop*/
+   1145                  {
+   1146                    /*Causes a bug with flex timers if CxV is set before hw timer switches off*/
+   1147                    StackTimer_SetOffsetTicks(gTimerHandle, gTMR_FTM_CNx, nextInterruptTime);
+   1148                  }
+   1149                  TmrIntRestoreAll(saveInt);
+   1150          
+   1151                  if (!numberOfActiveTimers && !numberOfLowPowerActiveTimers)
+   1152                  {
+   1153                      FTMStopTimerHardware();
+   1154                      timerHardwareIsRunning = FALSE;
+   1155                  }
+   1156                  else if (!timerHardwareIsRunning)
+   1157                  {
+   1158                      FTMStartTimerHardware();
+   1159                      timerHardwareIsRunning = TRUE;
+   1160                  }
+   1161              }
+   1162          }
+   1163          
+   1164          /*---------------------------------------------------------------------------
+   1165           * NAME: TMR_EnableTimer
+   1166           * DESCRIPTION: Enable the specified timer
+   1167           * PARAMETERS:  IN: tmrID - the timer ID
+   1168           * RETURN: None
+   1169           * NOTES: none
+   1170           *---------------------------------------------------------------------------*/
+   1171          void TMR_EnableTimer
+   1172          (
+   1173              tmrTimerID_t tmrID
+   1174          )
+   1175          {
+   1176              unsigned int saveInt;
+   1177              saveInt = TmrIntDisableAll();
+   1178          
+   1179              if (TMR_GetTimerStatus(tmrID) == mTmrStatusInactive_c)
+   1180              {
+   1181                  IncrementActiveTimerNumber(TMR_GetTimerType(tmrID));
+   1182                  TMR_SetTimerStatus(tmrID, mTmrStatusReady_c);
+   1183                  osSignalSet( mTimerThreadId, mTmrDummyEvent_c );
+   1184              }
+   1185          
+   1186              TmrIntRestoreAll(saveInt);
+   1187          }
+   1188          
+   1189          /*---------------------------------------------------------------------------
+   1190           * NAME: TMR_NotCountedMillisTimeBeforeSleep
+   1191           * DESCRIPTION: This function is called by Low Power module;
+   1192           * Also this function stops the hardware timer.
+   1193           * PARAMETERS:  none
+   1194           * RETURN: uint32 - time in millisecond that wasn't counted before
+   1195           *        entering in sleep
+   1196           * NOTES: none
+   1197           *---------------------------------------------------------------------------*/
+   1198          uint16_t TMR_NotCountedTicksBeforeSleep
+   1199          (
+   1200              void
+   1201          )
+   1202          {
+   1203          #if (gTMR_EnableLowPowerTimers_d)
+   1204              uint16_t currentTimeInTicks;
+   1205          
+   1206              if (!numberOfLowPowerActiveTimers)
+   1207                  return 0;
+   1208          
+   1209              FTMReadCNTRegister(currentTimeInTicks);
+   1210              FTMStopTimerHardware();
+   1211              timerHardwareIsRunning = FALSE;
+   1212          
+   1213              /* The hw timer is stopped but keep timerHardwareIsRunning = TRUE...*/
+   1214              /* The Lpm timers are considered as being in running mode, so that  */
+   1215              /* not to start the hw timer if a TMR event occurs (this shouldn't happen) */
+   1216          
+   1217              return  (uint16_t)(currentTimeInTicks - previousTimeInTicks);
+   1218          #else
+   1219              return 0;
+   1220          #endif
+   1221          }
+   1222          
+   1223          /*---------------------------------------------------------------------------
+   1224           * NAME: TMR_SyncLpmTimers
+   1225           * DESCRIPTION: This function is called by the Low Power module
+   1226           * each time the MCU wakes up.
+   1227           * PARAMETERS:  sleep duration in milliseconds
+   1228           * RETURN: none
+   1229           * NOTES: none
+   1230           *---------------------------------------------------------------------------*/
+   1231          void TMR_SyncLpmTimers
+   1232          (
+   1233              uint32_t sleepDurationTmrTicks
+   1234          )
+   1235          {
+   1236          #if (gTMR_EnableLowPowerTimers_d)
+   1237              uint32_t  timerID;
+   1238              tmrTimerType_t timerType;
+   1239          
+   1240              /* Check if there are low power active timer */
+   1241              if (!numberOfLowPowerActiveTimers)
+   1242                  return;
+   1243          
+   1244              /* For each timer, detect the timer type and count down the spent duration in sleep */
+   1245              for (timerID = 0; timerID < NumberOfElements(maTmrTimerTable); ++timerID)
+   1246              {
+   1247          
+   1248                  /* Detect the timer type and count down the spent duration in sleep */
+   1249                  timerType = TMR_GetTimerType(timerID);
+   1250          
+   1251                  /* Sync. only the low power timers that are active */
+   1252                  if ( (TMR_GetTimerStatus(timerID) == mTmrStatusActive_c)
+   1253                          && (IsLowPowerTimer(timerType)) )
+   1254                  {
+   1255                      /* Timer expired when MCU was in sleep mode??? */
+   1256                      if( maTmrTimerTable[timerID].remainingTicks > sleepDurationTmrTicks)
+   1257                      {
+   1258                          maTmrTimerTable[timerID].remainingTicks -= sleepDurationTmrTicks;
+   1259          
+   1260                      }
+   1261                      else
+   1262                      {
+   1263                          maTmrTimerTable[timerID].remainingTicks = 0;
+   1264                      }
+   1265          
+   1266                  }
+   1267          
+   1268              }/* end for (timerID = 0;.... */
+   1269          
+   1270              FTMStartTimerHardware();
+   1271              FTMReadCNTRegister(previousTimeInTicks);
+   1272          
+   1273          #else
+   1274              sleepDurationTmrTicks = sleepDurationTmrTicks;
+   1275          #endif /* #if (gTMR_EnableLowPowerTimers_d) */
+   1276          }
+   1277          /*---------------------------------------------------------------------------
+   1278           * NAME: TMR_MakeTMRThreadReady
+   1279           * DESCRIPTION: This function is called by the Low Power module
+   1280           * each time the MCU wakes up after low power timers synchronisation.
+   1281           * PARAMETERS:
+   1282           * RETURN: none
+   1283           * NOTES: none
+   1284           *---------------------------------------------------------------------------*/
+   1285          void TMR_MakeTMRThreadReady
+   1286          (
+   1287           void
+   1288          )
+   1289          {
+   1290          #if (gTMR_EnableLowPowerTimers_d)
+   1291          
+   1292              osSignalSet( mTimerThreadId, mTmrDummyEvent_c );
+   1293          
+   1294          #endif /* #if (gTMR_EnableLowPowerTimers_d) */
+   1295          }
+   1296          
+   1297          /*---------------------------------------------------------------------------
+   1298           * NAME: TMR_GetTimerFreq
+   1299           * DESCRIPTION:
+   1300           * PARAMETERS: -
+   1301           * RETURN: -
+   1302           *---------------------------------------------------------------------------*/
+   1303          uint32_t TMR_GetTimerFreq
+   1304          (
+   1305              void
+   1306          )
+   1307          {
+   1308            return mCounterFreqHz ;
+   1309          }
+   1310          #endif /*gTMR_Enabled_d*/
+   1311          
+   1312          #if gPrecision_Timers_Enabled_d
+   1313          
+   1314          /*---------------------------------------------------------------------------
+   1315           * NAME: TMR_PrecisionTimerInit
+   1316           * DESCRIPTION: initialize the precision timer module
+   1317           * PARAMETERS: -
+   1318           * RETURN: -
+   1319           *---------------------------------------------------------------------------*/
+   1320          void TMR_PrecisionTimerInit()
+   1321          {
+   1322            globalTimeTicks = 0;
+   1323          
+   1324            gPrecisionTimerHandle = PrecisionTimer_Init(NULL);
+   1325          
+   1326            PrecisionTimer_OnCounterRestart_fptr = TMR_PrecisionTimerOverflowNotify;
+   1327          
+   1328            if(PrecisionTimer_Enable(gPrecisionTimerHandle) != ERR_OK)
+   1329            {
+   1330              panic( 0, (uint32_t)TMR_Init, 0, 0 );
+   1331            }
+   1332          
+   1333            gPrecisionTimerTickus = 1000000U / PrecisionTimer_GetInputFrequency(gPrecisionTimerHandle);
+   1334            gPrecisionTimerTickusReal = 1000000.0F / PrecisionTimer_GetInputFrequencyReal(gPrecisionTimerHandle);
+   1335            PrecisionTimer_GetPeriodTicks(gPrecisionTimerHandle, (uint32_t*)&gPrecisionTimerPeriodTicks);
+   1336          
+   1337            (void)gPrecisionTimerTickus;
+   1338            (void)gPrecisionTimerTickusReal;
+   1339            (void)gPrecisionTimerPeriodTicks;
+   1340          }
+   1341          
+   1342          /*---------------------------------------------------------------------------
+   1343           * NAME: TMR_GetAbsoluteTimeus
+   1344           * DESCRIPTION: Gets the absolute time in microseconds.
+   1345           * PARAMETERS:  None
+   1346           * RETURN: Time in microseconds
+   1347           * NOTES:
+   1348           *---------------------------------------------------------------------------*/
+   1349          uint64_t TMR_GetAbsoluteTimeus()
+   1350          {
+   1351            uint64_t globalTime;
+   1352            uint64_t ticks;
+   1353          
+   1354            osInterruptDisable();
+   1355            ticks = gPrecisionTimerPeriodTicks - PrecisionTimer_GetCounterValue(gPrecisionTimerHandle) + globalTimeTicks;
+   1356            globalTime = (uint64_t)(ticks * gPrecisionTimerTickusReal);
+   1357            osInterruptEnable();
+   1358          
+   1359            return globalTime;
+   1360          }
+   1361          
+   1362          /*---------------------------------------------------------------------------
+   1363           * NAME: TMR_PrecisionTimerOverflowNotify
+   1364           * DESCRIPTION: Event function called by driver ISR on timer overflow in interrupt context.
+   1365           * PARAMETERS:  IN: User data; unused.
+   1366           * RETURN: none
+   1367           * NOTES: none
+   1368           *---------------------------------------------------------------------------*/
+   1369          void TMR_PrecisionTimerOverflowNotify(LDD_TUserData *UserDataPtr)
+   1370          {
+   1371            uint32_t period;
+   1372          
+   1373            (void)UserDataPtr;
+   1374          
+   1375            /* I assume here that int_kernel_isr calls the ISR with interrupts disabled*/
+   1376            PrecisionTimer_GetPeriodTicks(gPrecisionTimerHandle, &period);
+   1377            globalTimeTicks += period;
+   1378          }
+   1379          
+   1380          #endif /*gPrecision_Timers_Enabled_d*/
+   1381          
+   1382          /*---------------------------------------------------------------------------
+   1383           * NAME: TMR_RTCIsOscStarted
+   1384           * DESCRIPTION: returns the state of the RTC oscillator
+   1385           * PARAMETERS: -
+   1386           * RETURN: -
+   1387           *---------------------------------------------------------------------------*/
+   1388          bool_t TMR_RTCIsOscStarted()
+   1389          {
+   1390            return TRUE;
+   1391          }
+   1392          #if gTimestamp_Enabled_d
+   1393          
+   1394          /*---------------------------------------------------------------------------
+   1395           * NAME: TMR_RTCInit
+   1396           * DESCRIPTION: initialize the RTC part of the timer module
+   1397           * PARAMETERS: -
+   1398           * RETURN: -
+   1399           *---------------------------------------------------------------------------*/
+   1400          void TMR_RTCInit()
+   1401          {
+   1402            static uint8_t gRTCInitFlag = FALSE;
+   1403          
+   1404            if(gRTCInitFlag == TRUE)
+   1405            {
+   1406              return; /*already inited*/
+   1407            }
+   1408          
+   1409            osInterruptDisable();
+   1410          
+   1411            gRTCInitFlag = TRUE;
+   1412          
+   1413            gRTCHandle = RealTimeClock_Init(NULL, TRUE);
+   1414            RealTimeClock_Disable(gRTCHandle);
+   1415          
+   1416            RealTimeClock_OnAlarm_fptr = TMR_RTCAlarmNotify;
+   1417          
+   1418            gRTCTimeOffset = 0;
+   1419            gRTCPrescalerOffset = 0;
+   1420            gRTCAlarmCallback = NULL;
+   1421            gRTCAlarmCallbackParam = NULL;
+   1422          
+   1423            RTC_PDD_DisableAlarmInterrupt((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1424            RTC_PDD_WriteTimeSecondsReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, 0x00 + 0x01);
+   1425            RTC_PDD_WriteTimePrescalerReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, 0x00);
+   1426          
+   1427            if(RealTimeClock_Enable(gRTCHandle) != ERR_OK)
+   1428            {
+   1429              panic( 0, (uint32_t)TMR_RTCInit, 0, 0 );
+   1430            }
+   1431          
+   1432            osInterruptEnable();
+   1433          }
+   1434          
+   1435          /*---------------------------------------------------------------------------
+   1436           * NAME: TMR_RTCGetTimestamp
+   1437           * DESCRIPTION: Returns the absolute time at the moment of the call.
+   1438           * PARAMETERS: -
+   1439           * RETURN: Absolute time at the moment of the call in microseconds.
+   1440           *---------------------------------------------------------------------------*/
+   1441          uint64_t TMR_RTCGetTimestamp()
+   1442          {
+   1443            uint32_t seconds1, seconds2, prescaler0, prescaler1, prescaler2;
+   1444            uint64_t useconds, offset, prescalerOffset;
+   1445          
+   1446            osInterruptDisable();
+   1447            offset = gRTCTimeOffset;
+   1448            prescalerOffset = gRTCPrescalerOffset;
+   1449          
+   1450            prescaler0 = RTC_PDD_ReadTimePrescalerReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1451            seconds1 = RTC_PDD_ReadTimeSecondsReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1452            prescaler1 = RTC_PDD_ReadTimePrescalerReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1453            seconds2 = RTC_PDD_ReadTimeSecondsReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1454            prescaler2 = RTC_PDD_ReadTimePrescalerReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1455          
+   1456            osInterruptEnable();
+   1457          
+   1458            prescaler0 &= 0x7fff;
+   1459            seconds1 -= 1;
+   1460            prescaler1 &= 0x7fff;
+   1461            seconds2 -= 1;
+   1462            prescaler2 &= 0x7fff;
+   1463          
+   1464            if(seconds1 != seconds2)
+   1465            {
+   1466              seconds1 = seconds2;
+   1467              prescaler1 = prescaler2;
+   1468            }
+   1469            else
+   1470            {
+   1471              if(prescaler1 != prescaler2)
+   1472              {
+   1473                prescaler1 = prescaler0;
+   1474              }
+   1475            }
+   1476          
+   1477            useconds = ((prescaler1 + prescalerOffset + ((uint64_t)seconds1<<15))*15625)>>9;
+   1478          
+   1479            return useconds + offset;
+   1480          }
+   1481          
+   1482          /*---------------------------------------------------------------------------
+   1483           * NAME: TMR_RTCSetTime
+   1484           * DESCRIPTION: Sets the absolute time.
+   1485           * PARAMETERS: Time in microseconds.
+   1486           * RETURN: -
+   1487           *---------------------------------------------------------------------------*/
+   1488          void TMR_RTCSetTime(uint64_t microseconds)
+   1489          {
+   1490            uint64_t initialAlarm;
+   1491          
+   1492            osInterruptDisable();
+   1493            RealTimeClock_Disable(gRTCHandle);
+   1494          
+   1495            initialAlarm = gRTCTimeOffset;
+   1496            initialAlarm = RTC_PDD_ReadTimeAlarmReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS) + (initialAlarm/1000000L);
+   1497            gRTCTimeOffset = microseconds;
+   1498          
+   1499            RTC_PDD_WriteTimeSecondsReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, 0x00 + 0x01);
+   1500            RTC_PDD_WriteTimePrescalerReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, 0x00);
+   1501          
+   1502            if( (initialAlarm * 1000000L) <= microseconds )
+   1503            {
+   1504              RTC_PDD_DisableAlarmInterrupt((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1505              if( gRTCAlarmCallback != NULL )
+   1506              {
+   1507                gRTCAlarmCallback(gRTCAlarmCallbackParam);
+   1508              }
+   1509            }
+   1510            else
+   1511            {
+   1512              RTC_PDD_WriteTimeAlarmReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, initialAlarm - (microseconds/1000000L));
+   1513            }
+   1514          
+   1515            RealTimeClock_Enable(gRTCHandle);
+   1516            osInterruptEnable();
+   1517          }
+   1518          
+   1519          /*---------------------------------------------------------------------------
+   1520           * NAME: TMR_RTCSetAlarm
+   1521           * DESCRIPTION: Sets the alarm absolute time in seconds.
+   1522           * PARAMETERS: Time in seconds for the alarm. Callback function pointer. Parameter for callback.
+   1523           * RETURN: -
+   1524           *---------------------------------------------------------------------------*/
+   1525          void TMR_RTCSetAlarm(uint64_t seconds, pfTmrCallBack_t callback, void *param)
+   1526          {
+   1527            osInterruptDisable();
+   1528          
+   1529            gRTCAlarmCallback = callback;
+   1530            gRTCAlarmCallbackParam = param;
+   1531            seconds = seconds - (gRTCTimeOffset/1000000L);
+   1532            RTC_PDD_WriteTimeAlarmReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, (uint32_t)seconds);
+   1533            RTC_PDD_EnableAlarmInterrupt((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1534          
+   1535            osInterruptEnable();
+   1536          }
+   1537          
+   1538          /*---------------------------------------------------------------------------
+   1539           * NAME: TMR_RTCSetAlarmRelative
+   1540           * DESCRIPTION: Sets the alarm relative time in seconds.
+   1541           * PARAMETERS: Time in seconds for the alarm. Callback function pointer. Parameter for callback.
+   1542           * RETURN: -
+   1543           *---------------------------------------------------------------------------*/
+   1544          void TMR_RTCSetAlarmRelative(uint32_t seconds, pfTmrCallBack_t callback, void *param)
+   1545          {
+   1546            uint32_t rtcSeconds, rtcPrescaler;
+   1547          
+   1548            if(seconds == 0)
+   1549            {
+   1550              callback(param);
+   1551              return;
+   1552            }
+   1553          
+   1554            osInterruptDisable();
+   1555          
+   1556            RealTimeClock_Disable(gRTCHandle);
+   1557            rtcSeconds = RTC_PDD_ReadTimeSecondsReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1558            rtcPrescaler = RTC_PDD_ReadTimePrescalerReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1559            RTC_PDD_WriteTimePrescalerReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, 0x00);
+   1560            /*If bit prescaler 14 transitions from 1 to 0 the seconds reg get incremented.
+   1561              Rewrite seconds register to prevent this.*/
+   1562            RTC_PDD_WriteTimeSecondsReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, rtcSeconds);
+   1563            RealTimeClock_Enable(gRTCHandle);
+   1564            rtcPrescaler &= 0x7fff;
+   1565          
+   1566            gRTCPrescalerOffset += rtcPrescaler;
+   1567          
+   1568            if(gRTCPrescalerOffset & 0x8000)
+   1569            {
+   1570              rtcSeconds++;
+   1571              RealTimeClock_Disable(gRTCHandle);
+   1572              RTC_PDD_WriteTimeSecondsReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, rtcSeconds);
+   1573              RealTimeClock_Enable(gRTCHandle);
+   1574              gRTCPrescalerOffset = gRTCPrescalerOffset & 0x7FFF;
+   1575            }
+   1576          
+   1577            gRTCAlarmCallback = callback;
+   1578            gRTCAlarmCallbackParam = param;
+   1579            RTC_PDD_WriteTimeAlarmReg((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS, seconds + rtcSeconds - 1);
+   1580            RTC_PDD_EnableAlarmInterrupt((RTC_MemMapPtr)RealTimeClock_PRPH_BASE_ADDRESS);
+   1581          
+   1582            osInterruptEnable();
+   1583          }
+   1584          
+   1585          
+   1586          #endif /*gTimestamp_Enabled_d*/
+   1587          #if gTMR_PIT_Timestamp_Enabled_d
+   1588          #ifdef MCU_MK21D5
+   1589          /*---------------------------------------------------------------------------
+   1590           * NAME: TMR_PITInit
+   1591           * DESCRIPTION: initialize the PIT part of the timer module
+   1592           * PARAMETERS: -
+   1593           * RETURN: -
+   1594           *---------------------------------------------------------------------------*/
+   1595          void TMR_PITInit()
+   1596          {
+   1597            static uint8_t gPITInitFlag = FALSE;
+   1598            uint32_t pitFreq;
+   1599            if(gPITInitFlag == TRUE)
+   1600            {
+   1601              return; /*already inited*/
+   1602            }
+   1603          
+   1604            osInterruptDisable();
+   1605          
+   1606            gPITInitFlag = TRUE;
+   1607          
+   1608            gPITHandle = PitTimeStamp_Init(NULL);
+   1609            PitTimeStamp_Disable(gPITHandle);
+   1610            pitFreq = PitTimeStamp_GetInputFrequency(gPITHandle);
+   1611            PIT_PDD_WriteLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, pitFreq/1000000 -1);
+   1612            PIT_TCTRL_REG(PIT_BASE_PTR,PIT_PDD_CHANNEL_0) = 0;
+   1613            PIT_TCTRL_REG(PIT_BASE_PTR,PIT_PDD_CHANNEL_1) = 0;
+   1614            PIT_PDD_WriteLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_1, 0xFFFFFFFF);
+   1615            PIT_TCTRL_REG(PIT_BASE_PTR,PIT_PDD_CHANNEL_1) = PIT_TCTRL_CHN_MASK | PIT_TCTRL_TEN_MASK;
+   1616            PIT_TCTRL_REG(PIT_BASE_PTR,PIT_PDD_CHANNEL_2) = 0;
+   1617            PIT_PDD_WriteLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_2, 0xFFFFFFFF);
+   1618            PIT_TCTRL_REG(PIT_BASE_PTR,PIT_PDD_CHANNEL_2) = PIT_TCTRL_CHN_MASK | PIT_TCTRL_TEN_MASK;
+   1619            PitTimeStamp_Enable(gPITHandle);
+   1620          
+   1621            osInterruptEnable();
+   1622          }
+   1623          
+   1624          /*---------------------------------------------------------------------------
+   1625           * NAME: TMR_PITGetTimestamp
+   1626           * DESCRIPTION: Returns the absolute time at the moment of the call.
+   1627           * PARAMETERS: -
+   1628           * RETURN: Absolute time at the moment of the call in microseconds.
+   1629           *---------------------------------------------------------------------------*/
+   1630          uint64_t TMR_PITGetTimestamp()
+   1631          {
+   1632            uint32_t pit2_0, pit2_1 , pit1_0, pit1_1;
+   1633            uint64_t useconds;
+   1634            osInterruptDisable();
+   1635            pit1_0 = PIT_PDD_ReadTimerValueReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_1);
+   1636            pit2_0 = PIT_PDD_ReadTimerValueReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_2);
+   1637            pit1_1 = PIT_PDD_ReadTimerValueReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_1);
+   1638            pit2_1 = PIT_PDD_ReadTimerValueReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_2);
+   1639            osInterruptEnable();
+   1640            if( pit1_1 <= pit1_0)
+   1641            {
+   1642              useconds = pit2_0;
+   1643            }
+   1644            else
+   1645            {
+   1646              useconds = pit2_1;
+   1647            }
+   1648            useconds <<= 32;
+   1649            useconds += pit1_1;
+   1650            useconds = ~useconds ;
+   1651          #if gTMR_PIT_FreqMultipleOfMHZ_d == FALSE
+   1652            {
+   1653              uint32 pitFreq;
+   1654              uint32 pitLoadVal;
+   1655              pitFreq = PitTimeStamp_GetInputFrequency(gPITHandle);
+   1656              pitLoadVal = PIT_PDD_ReadLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_0) + 1;
+   1657              pitLoadVal *= 1000000;
+   1658              if( pitFreq != pitLoadVal)
+   1659              {
+   1660                /*
+   1661                To adjust the value to useconds the following formula is used.
+   1662                useconds = (useconds*pitLoadVal)/pitFreq;
+   1663                Because this formula causes overflow the useconds/pitFreq is split in its Integer  and Fractional part.
+   1664                */
+   1665                uint64_t uSecAdjust1 , uSecAdjust2;
+   1666                uSecAdjust1  = useconds/pitFreq;
+   1667                uSecAdjust2  = useconds%pitFreq;
+   1668                uSecAdjust1 *= pitLoadVal;
+   1669                uSecAdjust2 *= pitLoadVal;
+   1670                uSecAdjust2 /= pitFreq;
+   1671                useconds = uSecAdjust1 + uSecAdjust2;
+   1672              }
+   1673            }
+   1674          #endif//gTMR_PIT_FreqMultipleOfMHZ_d
+   1675            return useconds;
+   1676          }
+   1677          #endif
+   1678          #if (defined(MCU_MKL26Z4) || defined(MCU_MKL46Z4))
+   1679          /*---------------------------------------------------------------------------
+   1680           * NAME: TMR_PITInit
+   1681           * DESCRIPTION: initialize the PIT part of the timer module
+   1682           * PARAMETERS: -
+   1683           * RETURN: -
+   1684           *---------------------------------------------------------------------------*/
+   1685          void TMR_PITInit()
+   1686          {
+   1687            static uint8_t gPITInitFlag = FALSE;
+   1688            uint32_t pitFreq;
+   1689            if(gPITInitFlag == TRUE)
+   1690            {
+   1691              return; /*already inited*/
+   1692            }
+   1693          
+   1694            osInterruptDisable();
+   1695          
+   1696            gPITInitFlag = TRUE;
+   1697            mPIT_TimestampHigh = (uint32_t)-1;
+   1698            gPITHandle = PitTimeStamp_Init((LDD_TUserData *)TMR_PIT_ISR);
+   1699            PitTimeStamp_Disable(gPITHandle);
+   1700            pitFreq = PitTimeStamp_GetInputFrequency(gPITHandle);
+   1701            PIT_PDD_WriteLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_0, pitFreq/1000000 -1);
+   1702            PIT_TCTRL_REG(PIT_BASE_PTR,PIT_PDD_CHANNEL_0) = 0;
+   1703            PIT_TCTRL_REG(PIT_BASE_PTR,PIT_PDD_CHANNEL_1) = 0;
+   1704            PIT_PDD_WriteLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_1, 0xFFFFFFFF);
+   1705            PIT_TCTRL_REG(PIT_BASE_PTR,PIT_PDD_CHANNEL_1) = PIT_TCTRL_CHN_MASK | PIT_TCTRL_TIE_MASK | PIT_TCTRL_TEN_MASK;
+   1706            PIT_TFLG_REG(PIT_BASE_PTR,PIT_PDD_CHANNEL_1) = PIT_TFLG_TIF_MASK;
+   1707            PitTimeStamp_Enable(gPITHandle);
+   1708          
+   1709            osInterruptEnable();
+   1710          }
+   1711          
+   1712          /*---------------------------------------------------------------------------
+   1713           * NAME: TMR_PITGetTimestamp
+   1714           * DESCRIPTION: Returns the absolute time at the moment of the call.
+   1715           * PARAMETERS: -
+   1716           * RETURN: Absolute time at the moment of the call in microseconds.
+   1717           *---------------------------------------------------------------------------*/
+   1718          uint64_t TMR_PITGetTimestamp()
+   1719          {
+   1720            uint32_t  pit2, pit1_0, pit1_1, pitIF;
+   1721            uint64_t useconds;
+   1722          
+   1723            osInterruptDisable();
+   1724          
+   1725            pit2 = mPIT_TimestampHigh;
+   1726            pit1_0 = PIT_PDD_ReadTimerValueReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_1);
+   1727            pitIF = PIT_PDD_GetInterruptFlag(PIT_BASE_PTR, PIT_PDD_CHANNEL_1);
+   1728            pit1_1 = PIT_PDD_ReadTimerValueReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_1);
+   1729          
+   1730            osInterruptEnable();
+   1731          
+   1732            if(pitIF)
+   1733            {
+   1734              useconds = pit2-1;
+   1735            }
+   1736            else
+   1737            {
+   1738              useconds = pit2;
+   1739            }
+   1740            useconds <<= 32;
+   1741            if(pitIF)
+   1742            {
+   1743              useconds += pit1_1;
+   1744            }
+   1745            else
+   1746            {
+   1747              useconds += pit1_0;
+   1748            }
+   1749            useconds = ~useconds ;
+   1750          #if gTMR_PIT_FreqMultipleOfMHZ_d == FALSE
+   1751            {
+   1752              uint32 pitFreq;
+   1753              uint32 pitLoadVal;
+   1754              pitFreq = PitTimeStamp_GetInputFrequency(gPITHandle);
+   1755              pitLoadVal = PIT_PDD_ReadLoadReg(PIT_BASE_PTR, PIT_PDD_CHANNEL_0) + 1;
+   1756              pitLoadVal *= 1000000;
+   1757              if( pitFreq != pitLoadVal)
+   1758              {
+   1759                /*
+   1760                To adjust the value to useconds the following formula is used.
+   1761                useconds = (useconds*pitLoadVal)/pitFreq;
+   1762                Because this formula causes overflow the useconds/pitFreq is split in its Integer  and Fractional part.
+   1763                */
+   1764                uint64_t uSecAdjust1 , uSecAdjust2;
+   1765                uSecAdjust1  = useconds/pitFreq;
+   1766                uSecAdjust2  = useconds%pitFreq;
+   1767                uSecAdjust1 *= pitLoadVal;
+   1768                uSecAdjust2 *= pitLoadVal;
+   1769                uSecAdjust2 /= pitFreq;
+   1770                useconds = uSecAdjust1 + uSecAdjust2;
+   1771              }
+   1772            }
+   1773          #endif//gTMR_PIT_FreqMultipleOfMHZ_d
+   1774            return useconds;
+   1775          }
+   1776          
+   1777          #endif
+   1778          
+   1779          #endif//gTMR_PIT_Timestamp_Enabled_d
+   1780          /*****************************************************************************
+   1781           *                               <<< EOF >>>                                 *
+   1782           *****************************************************************************/
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   StackTimer_OnChannel0_Notify
+         8   -> osSignalSet
+       8   TMR_AllocateTimer
+         8   -> TMR_SetTimerStatus
+       4   TMR_AreAllTimersOff
+      16   TMR_EnableTimer
+        16   -> TMR_GetTimerStatus
+        16   -> TMR_GetTimerType
+        16   -> TMR_SetTimerStatus
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+        16   -> osSignalSet
+       8   TMR_FreeTimer
+         8   -> TMR_StopTimer
+      32   TMR_GetRemainingTime
+        32   -> StackTimer_GetCounterValue
+        32   -> osInterruptDisable
+        32   -> osInterruptEnable
+        32 __aeabi_lmul
+        32 __aeabi_uldivmod
+       0   TMR_GetTimerFreq
+       0   TMR_GetTimerStatus
+       0   TMR_GetTimerType
+       8   TMR_Init
+         8   -> StackTimer_GetInputFrequency
+         8   -> StackTimer_Init
+         8   -> TmrTicksFromMilliseconds
+         8   -> osThreadCreate
+         8   -> panic
+       8   TMR_IsTimerActive
+         8   -> TMR_GetTimerStatus
+       8   TMR_IsTimerReady
+         8   -> TMR_GetTimerStatus
+       8   TMR_MakeTMRThreadReady
+         8   -> osSignalSet
+      16   TMR_NotCountedTicksBeforeSleep
+        16   -> StackTimer_Disable
+        16   -> StackTimer_GetCounterValue
+      16   TMR_NotifyClkChanged
+        16   -> TmrTicksFromMilliseconds
+       8   TMR_RTCAlarmNotify
+         8   -- Indirect call
+      48   TMR_RTCGetTimestamp
+        48   -> osInterruptDisable
+        48   -> osInterruptEnable
+        48 __aeabi_lmul
+      16   TMR_RTCInit
+        16   -> RealTimeClock_Disable
+        16   -> RealTimeClock_Enable
+        16   -> RealTimeClock_Init
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+        16   -> panic
+       0   TMR_RTCIsOscStarted
+      24   TMR_RTCSetAlarm
+        24   -> osInterruptDisable
+        24   -> osInterruptEnable
+        24 __aeabi_uldivmod
+      40   TMR_RTCSetAlarmRelative
+        40   -- Indirect call
+        40   -> RealTimeClock_Disable
+        40   -> RealTimeClock_Enable
+        40   -> osInterruptDisable
+        40   -> osInterruptEnable
+      48   TMR_RTCSetTime
+        48   -- Indirect call
+        48   -> RealTimeClock_Disable
+        48   -> RealTimeClock_Enable
+        48   -> osInterruptDisable
+        48   -> osInterruptEnable
+        48 __aeabi_lmul
+        48 __aeabi_uldivmod
+       4   TMR_SetTimerStatus
+       4   TMR_SetTimerType
+      24   TMR_StartIntervalTimer
+        24   -> TMR_StartTimer
+      24   TMR_StartLowPowerTimer
+        24   -> TMR_StartTimer
+      24   TMR_StartMinuteTimer
+        24   -> TMR_StartTimer
+      24   TMR_StartSecondTimer
+        24   -> TMR_StartTimer
+      24   TMR_StartSingleShotTimer
+        24   -> TMR_StartTimer
+      32   TMR_StartTimer
+        32   -> StackTimer_GetCounterValue
+        32   -> TMR_EnableTimer
+        32   -> TMR_SetTimerType
+        32   -> TMR_StopTimer
+        32   -> TmrTicksFromMilliseconds
+      16   TMR_StopTimer
+        16   -> TMR_GetTimerStatus
+        16   -> TMR_GetTimerType
+        16   -> TMR_SetTimerStatus
+        16   -> osInterruptDisable
+        16   -> osInterruptEnable
+        16   -> osSignalSet
+      24   TMR_SyncLpmTimers
+        24   -> StackTimer_Enable
+        24   -> StackTimer_GetCounterValue
+        24   -> TMR_GetTimerStatus
+        24   -> TMR_GetTimerType
+      56   TMR_Thread
+        56   -- Indirect call
+        56   -> StackTimer_Disable
+        56   -> StackTimer_Enable
+        56   -> StackTimer_GetCounterValue
+        56   -> StackTimer_SetOffsetTicks
+        56   -> TMR_GetTimerStatus
+        56   -> TMR_GetTimerType
+        56   -> TMR_SetTimerStatus
+        56   -> TMR_StopTimer
+        56   -> osInterruptDisable
+        56   -> osInterruptEnable
+        56   -> osSignalWait
+       4   TmrTicksFromMilliseconds
+         4 __aeabi_lmul
+         4 __aeabi_uldivmod
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable13
+       4  ??DataTable13_1
+       4  ??DataTable13_2
+       4  ??DataTable14
+       4  ??DataTable14_1
+       4  ??DataTable14_10
+       4  ??DataTable14_2
+       4  ??DataTable14_3
+       4  ??DataTable14_4
+       4  ??DataTable14_5
+       4  ??DataTable14_6
+       4  ??DataTable14_7
+       4  ??DataTable14_8
+       4  ??DataTable14_9
+       4  ??DataTable15
+       4  ??DataTable15_1
+       4  ??DataTable15_2
+       4  ??DataTable16
+       4  ??DataTable17
+       4  ??DataTable17_1
+       4  ??DataTable18
+       4  ??DataTable18_1
+       4  ??DataTable18_2
+       4  ??DataTable20
+       4  ??DataTable21
+       4  ??DataTable22
+       4  ??DataTable23
+       4  ??DataTable24
+       4  ??DataTable25
+       4  ??DataTable25_1
+       4  ??DataTable25_2
+       4  ??DataTable25_3
+       4  ??DataTable25_4
+       4  ??DataTable25_5
+       4  ??DataTable26
+       4  ??DataTable26_1
+       4  ??DataTable26_10
+       4  ??DataTable26_11
+       4  ??DataTable26_12
+       4  ??DataTable26_13
+       4  ??DataTable26_2
+       4  ??DataTable26_3
+       4  ??DataTable26_4
+       4  ??DataTable26_5
+       4  ??DataTable26_6
+       4  ??DataTable26_7
+       4  ??DataTable26_8
+       4  ??DataTable26_9
+      12  ?_0
+      16  StackTimer_OnChannel0_Notify
+      40  TMR_AllocateTimer
+      20  TMR_AreAllTimersOff
+      82  TMR_EnableTimer
+      24  TMR_FreeTimer
+     184  TMR_GetRemainingTime
+       6  TMR_GetTimerFreq
+      12  TMR_GetTimerStatus
+      12  TMR_GetTimerType
+      84  TMR_Init
+      26  TMR_IsTimerActive
+      26  TMR_IsTimerReady
+      14  TMR_MakeTMRThreadReady
+      46  TMR_NotCountedTicksBeforeSleep
+      30  TMR_NotifyClkChanged
+      32  TMR_RTCAlarmNotify
+     156  TMR_RTCGetTimestamp
+     116  TMR_RTCInit
+       4  TMR_RTCIsOscStarted
+      58  TMR_RTCSetAlarm
+     136  TMR_RTCSetAlarmRelative
+     178  TMR_RTCSetTime
+      26  TMR_SetTimerStatus
+      26  TMR_SetTimerType
+      28  TMR_StartIntervalTimer
+      34  TMR_StartLowPowerTimer
+      30  TMR_StartMinuteTimer
+      32  TMR_StartSecondTimer
+      28  TMR_StartSingleShotTimer
+     144  TMR_StartTimer
+     112  TMR_StopTimer
+     112  TMR_SyncLpmTimers
+     582  TMR_Thread
+      26  TmrTicksFromMilliseconds
+       4  gRTCAlarmCallback
+       4  gRTCAlarmCallbackParam
+       4  gRTCHandle
+       1  gRTCInitFlag
+       2  gRTCPrescalerOffset
+       8  gRTCTimeOffset
+       4  gTimerHandle
+       4  mCounterFreqHz
+       2  mMaxToCountDown_c
+       4  mTicksFor1ms
+       4  mTimerThreadId
+      20  maTmrTimerStatusTable
+     360  maTmrTimerTable
+       1  numberOfActiveTimers
+       1  numberOfLowPowerActiveTimers
+      28  osThreadLink_TMR_Thread
+      36  osThread_TMR_Thread_signal
+     700  osThread_TMR_Thread_stack
+      32  os_thread_def_TMR_Thread
+       2  previousTimeInTicks
+       1  timerHardwareIsRunning
+
+ 
+ 1'190 bytes in section .bss
+    32 bytes in section .data
+    12 bytes in section .rodata
+ 2'674 bytes in section .text
+ 
+ 2'674 bytes of CODE  memory
+    12 bytes of CONST memory
+ 1'222 bytes of DATA  memory
+
+Errors: none
+Warnings: 2
